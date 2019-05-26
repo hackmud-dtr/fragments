@@ -1,7 +1,7 @@
 {
 	"_id": "anon_q5sg6f.sentience",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "anon_q5sg6f.sentience",
 	"sector": "K_1201",
 	"sec_level": 4,
@@ -11,6 +11,122 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822468839,
+	"edit": 1,
+	"last_scrape": 1558849556446,
+	"scrape_ct": 19,
+	"next_scrape": 1558849616446,
+	"category": "fishie_tank",
+	"last_update": 1558849556446,
+	"output": [
+		{
+			"args": {},
+			"calls": 8788,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"e def",
+				" You ",
+				"m the a",
+				"fender,",
+				",\\n2087",
+				" am the ",
+				"tacker\\n2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"e def",
+						" You ",
+						"m the a",
+						"fender,",
+						",\\n2087",
+						" am the ",
+						"tacker\\n2"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 789,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"e def",
+				" You ",
+				"m the a",
+				"fender,",
+				",\\n2087",
+				" am the ",
+				"tacker\\n2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"e def",
+						" You ",
+						"m the a",
+						"fender,",
+						",\\n2087",
+						" am the ",
+						"tacker\\n2"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 6568,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"e def",
+				" You ",
+				"m the a",
+				"fender,",
+				",\\n2087",
+				" am the ",
+				"tacker\\n2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"e def",
+						" You ",
+						"m the a",
+						"fender,",
+						",\\n2087",
+						" am the ",
+						"tacker\\n2"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"e def",
+				" You ",
+				"m the a",
+				"fender,",
+				",\\n2087",
+				" am the ",
+				"tacker\\n2"
+			]
 		}
 	]
 }
