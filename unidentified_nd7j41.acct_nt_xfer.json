@@ -13,27 +13,112 @@
 			"when": 1558821408422
 		}
 	],
-	"updt": 1558822462548,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
-	"last_scrape": 1558838699461,
-	"scrape_ct": 20,
-	"next_scrape": 1558838759461,
+	"updt": 1558838704174,
+	"edit": 2,
+	"last_scrape": 1558838718656,
+	"scrape_ct": 19,
+	"next_scrape": 1558838778656,
 	"category": "fishie_tank",
-	"last_update": 1558838699461,
+	"last_update": 1558838718656,
 	"output": [
 		{
 			"args": {},
 			"calls": 8304,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				" matt",
+				"o take ",
+				"es that",
+				"practice",
+				"good pra",
+				"# does t",
+				"# It's g"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						" matt",
+						"o take ",
+						"es that",
+						"practice",
+						"good pra",
+						"# does t",
+						"# It's g"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 877,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" matt",
+				"o take ",
+				"es that",
+				"practice",
+				"good pra",
+				"# does t",
+				"# It's g"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						" matt",
+						"o take ",
+						"es that",
+						"practice",
+						"good pra",
+						"# does t",
+						"# It's g"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8369,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" matt",
+				"o take ",
+				"es that",
+				"practice",
+				"good pra",
+				"# does t",
+				"# It's g"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						" matt",
+						"o take ",
+						"es that",
+						"practice",
+						"good pra",
+						"# does t",
+						"# It's g"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
 				" matt",
 				"o take ",
 				"es that",

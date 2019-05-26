@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_64ipa6.core_11",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "unidentified_64ipa6.core_11",
 	"sector": "VNP_9510",
 	"sec_level": 4,
@@ -11,6 +11,101 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822462548,
+	"edit": 1,
+	"last_scrape": 1558839929003,
+	"scrape_ct": 19,
+	"next_scrape": 1558839989003,
+	"category": "fishie_tank",
+	"last_update": 1558839929003,
+	"output": [
+		{
+			"args": {},
+			"calls": 8446,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ROR | ",
+				"| NETW ",
+				"3_FILE0",
+				"TW ERROR"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
+					"frags": [
+						"ROR | ",
+						"| NETW ",
+						"3_FILE0",
+						"TW ERROR"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 780,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ROR | ",
+				"| NETW ",
+				"3_FILE0",
+				"TW ERROR"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
+					"frags": [
+						"ROR | ",
+						"| NETW ",
+						"3_FILE0",
+						"TW ERROR"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 11072,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ROR | ",
+				"| NETW ",
+				"3_FILE0",
+				"TW ERROR"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
+					"frags": [
+						"ROR | ",
+						"| NETW ",
+						"3_FILE0",
+						"TW ERROR"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
+			"frags": [
+				"ROR | ",
+				"| NETW ",
+				"3_FILE0",
+				"TW ERROR"
+			]
 		}
 	]
 }
