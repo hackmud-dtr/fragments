@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_dpphw9.lowsec",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "abndnd_dpphw9.lowsec",
 	"sector": "K_8044",
 	"sec_level": 4,
@@ -11,6 +11,129 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822466268,
+	"edit": 1,
+	"last_scrape": 1558843821292,
+	"scrape_ct": 19,
+	"next_scrape": 1558843881292,
+	"category": "fishie_tank",
+	"last_update": 1558843821292,
+	"output": [
+		{
+			"args": {},
+			"calls": 10646,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"o rec",
+				"ive\\n1",
+				"llory\\n",
+				"1E18 I ",
+				"1E17 He",
+				"llo, use",
+				"ry\\n1E17 ",
+				"receive\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"o rec",
+						"ive\\n1",
+						"llory\\n",
+						"1E18 I ",
+						"1E17 He",
+						"llo, use",
+						"ry\\n1E17 ",
+						"receive\\n"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 771,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"o rec",
+				"ive\\n1",
+				"llory\\n",
+				"1E18 I ",
+				"1E17 He",
+				"llo, use",
+				"ry\\n1E17 ",
+				"receive\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"o rec",
+						"ive\\n1",
+						"llory\\n",
+						"1E18 I ",
+						"1E17 He",
+						"llo, use",
+						"ry\\n1E17 ",
+						"receive\\n"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8903,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"o rec",
+				"ive\\n1",
+				"llory\\n",
+				"1E18 I ",
+				"1E17 He",
+				"llo, use",
+				"ry\\n1E17 ",
+				"receive\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"o rec",
+						"ive\\n1",
+						"llory\\n",
+						"1E18 I ",
+						"1E17 He",
+						"llo, use",
+						"ry\\n1E17 ",
+						"receive\\n"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"o rec",
+				"ive\\n1",
+				"llory\\n",
+				"1E18 I ",
+				"1E17 He",
+				"llo, use",
+				"ry\\n1E17 ",
+				"receive\\n"
+			]
 		}
 	]
 }

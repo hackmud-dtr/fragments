@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_1c0mwf.scrape",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "unknown_1c0mwf.scrape",
 	"sector": "K_8044",
 	"sec_level": 4,
@@ -11,6 +11,70 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822466268,
+	"edit": 1,
+	"last_scrape": 1558844041350,
+	"scrape_ct": 20,
+	"next_scrape": 1558844101350,
+	"category": "coin_flipper",
+	"last_update": 1558844041350,
+	"output": [
+		{
+			"args": {},
+			"calls": 4905,
+			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
+			"fragments": [
+				"| TIM",
+				"T0XE2",
+				"ROG ER",
+				"OR | N",
+				"5282A9",
+				" | PRO",
+				" ERROR",
+				"A91C\\nS"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"| TIM",
+						"ROG ER",
+						"OR | N",
+						" | PRO",
+						" ERROR"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"T0XE2",
+						"5282A9",
+						"A91C\\nS"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
+				"| TIM",
+				"ROG ER",
+				"OR | N",
+				" | PRO",
+				" ERROR"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"T0XE2",
+				"5282A9",
+				"A91C\\nS"
+			]
 		}
 	]
 }
