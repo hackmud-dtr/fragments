@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_y56l5a.bread",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "uknown_y56l5a.bread",
 	"sector": "VNP_2699",
 	"sec_level": 4,
@@ -11,6 +11,122 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822468839,
+	"edit": 1,
+	"last_scrape": 1558848896430,
+	"scrape_ct": 19,
+	"next_scrape": 1558848956430,
+	"category": "fishie_tank",
+	"last_update": 1558848896430,
+	"output": [
+		{
+			"args": {},
+			"calls": 8278,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"in a ",
+				"tack\\n",
+				"ce my ",
+				"ils.\\n2",
+				"discard",
+				"a disca",
+				"e my fai"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"in a ",
+						"tack\\n",
+						"ce my ",
+						"ils.\\n2",
+						"discard",
+						"a disca",
+						"e my fai"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 499,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"in a ",
+				"tack\\n",
+				"ce my ",
+				"ils.\\n2",
+				"discard",
+				"a disca",
+				"e my fai"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"in a ",
+						"tack\\n",
+						"ce my ",
+						"ils.\\n2",
+						"discard",
+						"a disca",
+						"e my fai"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8232,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"in a ",
+				"tack\\n",
+				"ce my ",
+				"ils.\\n2",
+				"discard",
+				"a disca",
+				"e my fai"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"in a ",
+						"tack\\n",
+						"ce my ",
+						"ils.\\n2",
+						"discard",
+						"a disca",
+						"e my fai"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"in a ",
+				"tack\\n",
+				"ce my ",
+				"ils.\\n2",
+				"discard",
+				"a disca",
+				"e my fai"
+			]
 		}
 	]
 }

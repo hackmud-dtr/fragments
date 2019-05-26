@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_z05jyw.usac_testing",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "derelict_z05jyw.usac_testing",
 	"sector": "NGC_2387",
 	"sec_level": 4,
@@ -11,6 +11,129 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822472218,
+	"edit": 1,
+	"last_scrape": 1558853368168,
+	"scrape_ct": 19,
+	"next_scrape": 1558853428168,
+	"category": "fishie_tank",
+	"last_update": 1558853368168,
+	"output": [
+		{
+			"args": {},
+			"calls": 7132,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"_CLST",
+				" | NE",
+				"CA8_FI",
+				" NETW E",
+				"T0X8CA8_",
+				"LST0X7B_",
+				"FT0XE7_C",
+				"B_SECT0X"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"_CLST",
+						" | NE",
+						"CA8_FI",
+						" NETW E",
+						"T0X8CA8_",
+						"LST0X7B_",
+						"FT0XE7_C",
+						"B_SECT0X"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 660,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"_CLST",
+				" | NE",
+				"CA8_FI",
+				" NETW E",
+				"T0X8CA8_",
+				"LST0X7B_",
+				"FT0XE7_C",
+				"B_SECT0X"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"_CLST",
+						" | NE",
+						"CA8_FI",
+						" NETW E",
+						"T0X8CA8_",
+						"LST0X7B_",
+						"FT0XE7_C",
+						"B_SECT0X"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8585,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"_CLST",
+				" | NE",
+				"CA8_FI",
+				" NETW E",
+				"T0X8CA8_",
+				"LST0X7B_",
+				"FT0XE7_C",
+				"B_SECT0X"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"_CLST",
+						" | NE",
+						"CA8_FI",
+						" NETW E",
+						"T0X8CA8_",
+						"LST0X7B_",
+						"FT0XE7_C",
+						"B_SECT0X"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+			"frags": [
+				"_CLST",
+				" | NE",
+				"CA8_FI",
+				" NETW E",
+				"T0X8CA8_",
+				"LST0X7B_",
+				"FT0XE7_C",
+				"B_SECT0X"
+			]
 		}
 	]
 }

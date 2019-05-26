@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_4nkk8r.binmat_bot",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "anonymous_4nkk8r.binmat_bot",
 	"sector": "K_9339",
 	"sec_level": 4,
@@ -11,6 +11,129 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822468839,
+	"edit": 1,
+	"last_scrape": 1558849026564,
+	"scrape_ct": 19,
+	"next_scrape": 1558849086564,
+	"category": "fishie_tank",
+	"last_update": 1558849026564,
+	"output": [
+		{
+			"args": {},
+			"calls": 11847,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"n't. ",
+				"e may",
+				"sons t",
+				"has le",
+				"w the o",
+				"s lesso",
+				"how the",
+				". She h"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"n't. ",
+						"e may",
+						"sons t",
+						"has le",
+						"w the o",
+						"s lesso",
+						"how the",
+						". She h"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 784,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"n't. ",
+				"e may",
+				"sons t",
+				"has le",
+				"w the o",
+				"s lesso",
+				"how the",
+				". She h"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"n't. ",
+						"e may",
+						"sons t",
+						"has le",
+						"w the o",
+						"s lesso",
+						"how the",
+						". She h"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8960,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"n't. ",
+				"e may",
+				"sons t",
+				"has le",
+				"w the o",
+				"s lesso",
+				"how the",
+				". She h"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"n't. ",
+						"e may",
+						"sons t",
+						"has le",
+						"w the o",
+						"s lesso",
+						"how the",
+						". She h"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				"n't. ",
+				"e may",
+				"sons t",
+				"has le",
+				"w the o",
+				"s lesso",
+				"how the",
+				". She h"
+			]
 		}
 	]
 }
