@@ -1,7 +1,7 @@
 {
 	"_id": "anon_tzr5br.withdraw",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "anon_tzr5br.withdraw",
 	"sector": "VNP_2954",
 	"sec_level": 4,
@@ -11,6 +11,63 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822474683,
+	"edit": 1,
+	"last_scrape": 1558856859845,
+	"scrape_ct": 20,
+	"next_scrape": 1558856919845,
+	"category": "dice_roller",
+	"last_update": 1558856859845,
+	"output": [
+		{
+			"args": {},
+			"calls": 7564,
+			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
+			"fragments": [
+				"| USE",
+				"XCF_CL",
+				"| PROG ",
+				"TIME ER",
+				"ERROR |",
+				"E0X7A81",
+				" TIME E",
+				"ECT0X6B5",
+				"0X6B58_F"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						"| USE",
+						"XCF_CL",
+						"| PROG ",
+						"TIME ER",
+						"ERROR |",
+						"E0X7A81",
+						" TIME E",
+						"ECT0X6B5",
+						"0X6B58_F"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+			"frags": [
+				"| USE",
+				"XCF_CL",
+				"| PROG ",
+				"TIME ER",
+				"ERROR |",
+				"E0X7A81",
+				" TIME E",
+				"ECT0X6B5",
+				"0X6B58_F"
+			]
 		}
 	]
 }
