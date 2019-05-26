@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_t3bxwh.db",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "uknown_t3bxwh.db",
 	"sector": "NGC_7374",
 	"sec_level": 4,
@@ -11,6 +11,101 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822473057,
+	"edit": 1,
+	"last_scrape": 1558855018350,
+	"scrape_ct": 19,
+	"next_scrape": 1558855078350,
+	"category": "fishie_tank",
+	"last_update": 1558855018350,
+	"output": [
+		{
+			"args": {},
+			"calls": 8299,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"100 000",
+				" 0000 0",
+				"000 0000",
+				"00 0000 "
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"100 000",
+						" 0000 0",
+						"000 0000",
+						"00 0000 "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 715,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"100 000",
+				" 0000 0",
+				"000 0000",
+				"00 0000 "
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"100 000",
+						" 0000 0",
+						"000 0000",
+						"00 0000 "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 11960,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"100 000",
+				" 0000 0",
+				"000 0000",
+				"00 0000 "
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"100 000",
+						" 0000 0",
+						"000 0000",
+						"00 0000 "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"100 000",
+				" 0000 0",
+				"000 0000",
+				"00 0000 "
+			]
 		}
 	]
 }
