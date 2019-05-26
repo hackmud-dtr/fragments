@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_2jrd57.db",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "derelict_2jrd57.db",
 	"sector": "VNP_1022",
 	"sec_level": 4,
@@ -11,6 +11,115 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822467192,
+	"edit": 1,
+	"last_scrape": 1558845651426,
+	"scrape_ct": 19,
+	"next_scrape": 1558845711426,
+	"category": "fishie_tank",
+	"last_update": 1558845651426,
+	"output": [
+		{
+			"args": {},
+			"calls": 7901,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" in o",
+				"rds\\n2",
+				"esolve.",
+				"acker T",
+				"d cards\\n",
+				"\\n2169 At"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" in o",
+						"rds\\n2",
+						"esolve.",
+						"acker T",
+						"d cards\\n",
+						"\\n2169 At"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 681,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" in o",
+				"rds\\n2",
+				"esolve.",
+				"acker T",
+				"d cards\\n",
+				"\\n2169 At"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" in o",
+						"rds\\n2",
+						"esolve.",
+						"acker T",
+						"d cards\\n",
+						"\\n2169 At"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8526,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" in o",
+				"rds\\n2",
+				"esolve.",
+				"acker T",
+				"d cards\\n",
+				"\\n2169 At"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" in o",
+						"rds\\n2",
+						"esolve.",
+						"acker T",
+						"d cards\\n",
+						"\\n2169 At"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				" in o",
+				"rds\\n2",
+				"esolve.",
+				"acker T",
+				"d cards\\n",
+				"\\n2169 At"
+			]
 		}
 	]
 }
