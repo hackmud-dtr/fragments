@@ -6,23 +6,23 @@
 	"sector": "NGC_4697",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1558830066942,
+	"last_scraped": 1558887360466,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1558839153890,
-	"edit": 3,
-	"scrape_ct": 19,
-	"next_scrape": 1558830126942,
+	"updt": 1558884451602,
+	"edit": 4,
+	"scrape_ct": 18,
+	"next_scrape": 1558887420466,
 	"category": "fishie_tank",
-	"last_update": 1558830066942,
+	"last_update": 1558887370825,
 	"output": [
 		{
 			"args": {},
-			"calls": 11045,
+			"calls": 17270,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"all o",
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 591,
+			"calls": 1314,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -126,6 +126,11 @@
 				"he porno",
 				" pornogr"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
