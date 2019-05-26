@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_trvybk.k3ybot",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "abandoned_trvybk.k3ybot",
 	"sector": "NGC_9682",
 	"sec_level": 4,
@@ -11,6 +11,115 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822466268,
+	"edit": 1,
+	"last_scrape": 1558842780312,
+	"scrape_ct": 19,
+	"next_scrape": 1558842840312,
+	"category": "fishie_tank",
+	"last_update": 1558842780312,
+	"output": [
+		{
+			"args": {},
+			"calls": 9051,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"pposi",
+				"he oppo",
+				"63 If bo",
+				"163 If b",
+				".\\n2163 ",
+				"ck.\\n2163"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"pposi",
+						"he oppo",
+						"63 If bo",
+						"163 If b",
+						".\\n2163 ",
+						"ck.\\n2163"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 848,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"pposi",
+				"he oppo",
+				"63 If bo",
+				"163 If b",
+				".\\n2163 ",
+				"ck.\\n2163"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"pposi",
+						"he oppo",
+						"63 If bo",
+						"163 If b",
+						".\\n2163 ",
+						"ck.\\n2163"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 6444,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"pposi",
+				"he oppo",
+				"63 If bo",
+				"163 If b",
+				".\\n2163 ",
+				"ck.\\n2163"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"pposi",
+						"he oppo",
+						"63 If bo",
+						"163 If b",
+						".\\n2163 ",
+						"ck.\\n2163"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"pposi",
+				"he oppo",
+				"63 If bo",
+				"163 If b",
+				".\\n2163 ",
+				"ck.\\n2163"
+			]
 		}
 	]
 }

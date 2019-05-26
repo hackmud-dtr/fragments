@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_f6fzrc.script_commands",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "abndnd_f6fzrc.script_commands",
 	"sector": "K_6531",
 	"sec_level": 4,
@@ -11,6 +11,136 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822466268,
+	"edit": 1,
+	"last_scrape": 1558843120224,
+	"scrape_ct": 19,
+	"next_scrape": 1558843180224,
+	"category": "fishie_tank",
+	"last_update": 1558843120224,
+	"output": [
+		{
+			"args": {},
+			"calls": 8456,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"se it",
+				"at so",
+				"ou Ion",
+				"it pro",
+				" that ",
+				"ed that",
+				"STING O",
+				" had ho",
+				"bly WAS "
+			],
+			"hits": [
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"se it",
+						"at so",
+						"ou Ion",
+						"it pro",
+						" that ",
+						"ed that",
+						"STING O",
+						" had ho",
+						"bly WAS "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 781,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"se it",
+				"at so",
+				"ou Ion",
+				"it pro",
+				" that ",
+				"ed that",
+				"STING O",
+				" had ho",
+				"bly WAS "
+			],
+			"hits": [
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"se it",
+						"at so",
+						"ou Ion",
+						"it pro",
+						" that ",
+						"ed that",
+						"STING O",
+						" had ho",
+						"bly WAS "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8662,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"se it",
+				"at so",
+				"ou Ion",
+				"it pro",
+				" that ",
+				"ed that",
+				"STING O",
+				" had ho",
+				"bly WAS "
+			],
+			"hits": [
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"se it",
+						"at so",
+						"ou Ion",
+						"it pro",
+						" that ",
+						"ed that",
+						"STING O",
+						" had ho",
+						"bly WAS "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+			"frags": [
+				"se it",
+				"at so",
+				"ou Ion",
+				"it pro",
+				" that ",
+				"ed that",
+				"STING O",
+				" had ho",
+				"bly WAS "
+			]
 		}
 	]
 }

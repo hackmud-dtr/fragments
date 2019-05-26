@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_aykwwt.data_check",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "derelict_aykwwt.data_check",
 	"sector": "K_6531",
 	"sec_level": 4,
@@ -11,6 +11,129 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822466268,
+	"edit": 1,
+	"last_scrape": 1558843311029,
+	"scrape_ct": 19,
+	"next_scrape": 1558843371029,
+	"category": "fishie_tank",
+	"last_update": 1558843311029,
+	"output": [
+		{
+			"args": {},
+			"calls": 10731,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" Atta",
+				"n thei",
+				"heir s",
+				"ds sta",
+				"ards s",
+				"\\n2175",
+				"tay in t",
+				"defender"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" Atta",
+						"n thei",
+						"heir s",
+						"ds sta",
+						"ards s",
+						"\\n2175",
+						"tay in t",
+						"defender"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 757,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" Atta",
+				"n thei",
+				"heir s",
+				"ds sta",
+				"ards s",
+				"\\n2175",
+				"tay in t",
+				"defender"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" Atta",
+						"n thei",
+						"heir s",
+						"ds sta",
+						"ards s",
+						"\\n2175",
+						"tay in t",
+						"defender"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 9003,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" Atta",
+				"n thei",
+				"heir s",
+				"ds sta",
+				"ards s",
+				"\\n2175",
+				"tay in t",
+				"defender"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" Atta",
+						"n thei",
+						"heir s",
+						"ds sta",
+						"ards s",
+						"\\n2175",
+						"tay in t",
+						"defender"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				" Atta",
+				"n thei",
+				"heir s",
+				"ds sta",
+				"ards s",
+				"\\n2175",
+				"tay in t",
+				"defender"
+			]
 		}
 	]
 }

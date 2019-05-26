@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_adeke6.unloader",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "derelict_adeke6.unloader",
 	"sector": "K_6531",
 	"sec_level": 4,
@@ -11,6 +11,115 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822466268,
+	"edit": 1,
+	"last_scrape": 1558843280877,
+	"scrape_ct": 19,
+	"next_scrape": 1558843340877,
+	"category": "fishie_tank",
+	"last_update": 1558843280877,
+	"output": [
+		{
+			"args": {},
+			"calls": 5803,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"stren",
+				"h str",
+				"gth o",
+				". 4?\\n20",
+				" 9. 16. ",
+				" 16. 4?\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"stren",
+						"h str",
+						"gth o",
+						". 4?\\n20",
+						" 9. 16. ",
+						" 16. 4?\\n"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 707,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"stren",
+				"h str",
+				"gth o",
+				". 4?\\n20",
+				" 9. 16. ",
+				" 16. 4?\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"stren",
+						"h str",
+						"gth o",
+						". 4?\\n20",
+						" 9. 16. ",
+						" 16. 4?\\n"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 11390,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"stren",
+				"h str",
+				"gth o",
+				". 4?\\n20",
+				" 9. 16. ",
+				" 16. 4?\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"stren",
+						"h str",
+						"gth o",
+						". 4?\\n20",
+						" 9. 16. ",
+						" 16. 4?\\n"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"stren",
+				"h str",
+				"gth o",
+				". 4?\\n20",
+				" 9. 16. ",
+				" 16. 4?\\n"
+			]
 		}
 	]
 }
