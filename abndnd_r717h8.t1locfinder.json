@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_r717h8.t1locfinder",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "abndnd_r717h8.t1locfinder",
 	"sector": "K_1201",
 	"sec_level": 4,
@@ -11,6 +11,142 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822468839,
+	"edit": 1,
+	"last_scrape": 1558849496763,
+	"scrape_ct": 19,
+	"next_scrape": 1558849556763,
+	"category": "fishie_tank",
+	"last_update": 1558849496763,
+	"output": [
+		{
+			"args": {},
+			"calls": 8687,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ed fo",
+				"d abu",
+				"furt A",
+				"as pro",
+				"with int",
+				"to the c",
+				"aid acce"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"d abu",
+						"furt A",
+						"as pro",
+						"with int",
+						"to the c",
+						"aid acce"
+					]
+				},
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"ed fo"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 393,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ed fo",
+				"d abu",
+				"furt A",
+				"as pro",
+				"with int",
+				"to the c",
+				"aid acce"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"d abu",
+						"furt A",
+						"as pro",
+						"with int",
+						"to the c",
+						"aid acce"
+					]
+				},
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"ed fo"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8401,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ed fo",
+				"d abu",
+				"furt A",
+				"as pro",
+				"with int",
+				"to the c",
+				"aid acce"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"d abu",
+						"furt A",
+						"as pro",
+						"with int",
+						"to the c",
+						"aid acce"
+					]
+				},
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"ed fo"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"d abu",
+				"furt A",
+				"as pro",
+				"with int",
+				"to the c",
+				"aid acce"
+			]
+		},
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
+				"ed fo"
+			]
 		}
 	]
 }

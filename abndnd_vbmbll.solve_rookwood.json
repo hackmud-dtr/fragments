@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_vbmbll.solve_rookwood",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "abndnd_vbmbll.solve_rookwood",
 	"sector": "K_1201",
 	"sec_level": 4,
@@ -11,6 +11,59 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822468839,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"last_scrape": 1558849506421,
+	"scrape_ct": 20,
+	"next_scrape": 1558849566421,
+	"category": "fishie_tank",
+	"last_update": 1558849516900,
+	"output": [
+		{
+			"args": {},
+			"calls": 8172,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ompat",
+				"Why 5",
+				"93 fo",
+				"1 Why",
+				"or huma",
+				"an comp",
+				"ue\\n2093",
+				"ted the ",
+				"e adjust"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 667,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ompat",
+				"Why 5",
+				"93 fo",
+				"1 Why",
+				"or huma",
+				"an comp",
+				"ue\\n2093",
+				"ted the ",
+				"e adjust"
+			]
 		}
 	]
 }

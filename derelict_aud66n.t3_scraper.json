@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_aud66n.t3_scraper",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "derelict_aud66n.t3_scraper",
 	"sector": "VNP_0327",
 	"sec_level": 4,
@@ -11,6 +11,150 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822468839,
+	"edit": 1,
+	"last_scrape": 1558849226367,
+	"scrape_ct": 19,
+	"next_scrape": 1558849286367,
+	"category": "fishie_tank",
+	"last_update": 1558849226367,
+	"output": [
+		{
+			"args": {},
+			"calls": 8641,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"lo, u",
+				"am ha",
+				"7 Hel",
+				"1E17 ",
+				"ory\\n1",
+				"eceive",
+				" happy",
+				"rin R.\\n",
+				"n R.\\n1E",
+				"happy to",
+				" R.\\n1E1"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"lo, u",
+						"am ha",
+						"7 Hel",
+						"1E17 ",
+						"ory\\n1",
+						"eceive",
+						" happy",
+						"rin R.\\n",
+						"n R.\\n1E",
+						"happy to",
+						" R.\\n1E1"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 982,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"lo, u",
+				"am ha",
+				"7 Hel",
+				"1E17 ",
+				"ory\\n1",
+				"eceive",
+				" happy",
+				"rin R.\\n",
+				"n R.\\n1E",
+				"happy to",
+				" R.\\n1E1"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"lo, u",
+						"am ha",
+						"7 Hel",
+						"1E17 ",
+						"ory\\n1",
+						"eceive",
+						" happy",
+						"rin R.\\n",
+						"n R.\\n1E",
+						"happy to",
+						" R.\\n1E1"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 9217,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"lo, u",
+				"am ha",
+				"7 Hel",
+				"1E17 ",
+				"ory\\n1",
+				"eceive",
+				" happy",
+				"rin R.\\n",
+				"n R.\\n1E",
+				"happy to",
+				" R.\\n1E1"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"lo, u",
+						"am ha",
+						"7 Hel",
+						"1E17 ",
+						"ory\\n1",
+						"eceive",
+						" happy",
+						"rin R.\\n",
+						"n R.\\n1E",
+						"happy to",
+						" R.\\n1E1"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"lo, u",
+				"am ha",
+				"7 Hel",
+				"1E17 ",
+				"ory\\n1",
+				"eceive",
+				" happy",
+				"rin R.\\n",
+				"n R.\\n1E",
+				"happy to",
+				" R.\\n1E1"
+			]
 		}
 	]
 }
