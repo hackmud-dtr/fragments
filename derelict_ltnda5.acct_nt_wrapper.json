@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_ltnda5.acct_nt_wrapper",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "derelict_ltnda5.acct_nt_wrapper",
 	"sector": "NGC_1063",
 	"sec_level": 4,
@@ -11,6 +11,69 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822457631,
+	"edit": 1,
+	"last_scrape": 1558832086015,
+	"scrape_ct": 19,
+	"next_scrape": 1558832146015,
+	"category": "fishie_tank",
+	"last_update": 1558832086015,
+	"output": [
+		{
+			"args": {},
+			"calls": 5778,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"T0XB1",
+				"BD3\\nS",
+				"B1F1_FI",
+				"3_CLST0",
+				"0B_SECT",
+				"LE0X1785",
+				"FT0X93_C",
+				"1F1_FILE"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 663,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"T0XB1",
+				"BD3\\nS",
+				"B1F1_FI",
+				"3_CLST0",
+				"0B_SECT",
+				"LE0X1785",
+				"FT0X93_C",
+				"1F1_FILE"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8618,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"T0XB1",
+				"BD3\\nS",
+				"B1F1_FI",
+				"3_CLST0",
+				"0B_SECT",
+				"LE0X1785",
+				"FT0X93_C",
+				"1F1_FILE"
+			]
 		}
 	]
 }
