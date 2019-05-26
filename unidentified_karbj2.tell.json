@@ -1,0 +1,80 @@
+{
+	"_id": "5ce9f20e10679b291755c047",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unidentified_karbj2.tell",
+	"sector": "NGC_8582",
+	"sec_level": 4,
+	"date_added": 1558821408422,
+	"last_scraped": 0,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1558821408422
+		}
+	],
+	"updt": 1558822459583,
+	"edit": 1,
+	"last_scrape": 1558835417807,
+	"scrape_ct": 19,
+	"next_scrape": 1558835477807,
+	"category": "fishie_tank",
+	"last_update": 1558835417807,
+	"output": [
+		{
+			"args": {},
+			"calls": 8526,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"e onl",
+				"4 If ",
+				"ly\\n21",
+				"stack\\n",
+				"next ^2",
+				"k\\n2153 ",
+				"2153 to ",
+				"ext ^2.\\n"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 705,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"e onl",
+				"4 If ",
+				"ly\\n21",
+				"stack\\n",
+				"next ^2",
+				"k\\n2153 ",
+				"2153 to ",
+				"ext ^2.\\n"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 4176,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"e onl",
+				"4 If ",
+				"ly\\n21",
+				"stack\\n",
+				"next ^2",
+				"k\\n2153 ",
+				"2153 to ",
+				"ext ^2.\\n"
+			]
+		}
+	],
+	"hackmud_id": "unidentified_karbj2.tell"
+}

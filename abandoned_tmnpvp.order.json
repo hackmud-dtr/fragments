@@ -1,0 +1,77 @@
+{
+	"_id": "5ce9f20e10679b291755c049",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abandoned_tmnpvp.order",
+	"sector": "VNP_0096",
+	"sec_level": 4,
+	"date_added": 1558821408422,
+	"last_scraped": 0,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1558821408422
+		}
+	],
+	"updt": 1558822459583,
+	"edit": 1,
+	"last_scrape": 1558835477346,
+	"scrape_ct": 19,
+	"next_scrape": 1558835537346,
+	"category": "fishie_tank",
+	"last_update": 1558835477346,
+	"output": [
+		{
+			"args": {},
+			"calls": 11085,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"BJ: L",
+				"RROR |",
+				"OR | T",
+				"USER er",
+				"ROR | P",
+				"93F\\nSY",
+				"ROG ERRO"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 906,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"BJ: L",
+				"RROR |",
+				"OR | T",
+				"USER er",
+				"ROR | P",
+				"93F\\nSY",
+				"ROG ERRO"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8368,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"BJ: L",
+				"RROR |",
+				"OR | T",
+				"USER er",
+				"ROR | P",
+				"93F\\nSY",
+				"ROG ERRO"
+			]
+		}
+	],
+	"hackmud_id": "abandoned_tmnpvp.order"
+}

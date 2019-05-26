@@ -1,0 +1,221 @@
+{
+	"_id": "5ce9c57d0ad82d171b8b0f9d",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unidentified_al3gr3.fetch",
+	"sector": "SPC_0183",
+	"sec_level": 4,
+	"date_added": 1558821408422,
+	"last_scraped": 0,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1558821408422
+		}
+	],
+	"updt": 1558822452833,
+	"edit": 1,
+	"last_scrape": 1558822520818,
+	"scrape_ct": 17,
+	"next_scrape": 1558822580818,
+	"category": "fishie_tank",
+	"last_update": 1558822520818,
+	"output": [
+		{
+			"args": {},
+			"calls": 20904,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"3_SEC",
+				"ROR | ",
+				"LST0X1",
+				"SYST ER",
+				"R | PRO",
+				"CT0XE23E",
+				"2A91C\\nSY"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"3_SEC",
+						"ROR | ",
+						"SYST ER",
+						"R | PRO"
+					]
+				},
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"ROR | ",
+						"LST0X1",
+						"SYST ER",
+						"R | PRO"
+					]
+				},
+				{
+					"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
+					"frags": [
+						"ROR | ",
+						"LST0X1",
+						"SYST ER",
+						"R | PRO"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"CT0XE23E",
+						"2A91C\\nSY"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1471,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"3_SEC",
+				"ROR | ",
+				"LST0X1",
+				"SYST ER",
+				"R | PRO",
+				"CT0XE23E",
+				"2A91C\\nSY"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"3_SEC",
+						"ROR | ",
+						"SYST ER",
+						"R | PRO"
+					]
+				},
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"ROR | ",
+						"LST0X1",
+						"SYST ER",
+						"R | PRO"
+					]
+				},
+				{
+					"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
+					"frags": [
+						"ROR | ",
+						"LST0X1",
+						"SYST ER",
+						"R | PRO"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"CT0XE23E",
+						"2A91C\\nSY"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 13839,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"3_SEC",
+				"ROR | ",
+				"LST0X1",
+				"SYST ER",
+				"R | PRO",
+				"CT0XE23E",
+				"2A91C\\nSY"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"3_SEC",
+						"ROR | ",
+						"SYST ER",
+						"R | PRO"
+					]
+				},
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"ROR | ",
+						"LST0X1",
+						"SYST ER",
+						"R | PRO"
+					]
+				},
+				{
+					"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
+					"frags": [
+						"ROR | ",
+						"LST0X1",
+						"SYST ER",
+						"R | PRO"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"CT0XE23E",
+						"2A91C\\nSY"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				"3_SEC",
+				"ROR | ",
+				"SYST ER",
+				"R | PRO"
+			]
+		},
+		{
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
+				"ROR | ",
+				"LST0X1",
+				"SYST ER",
+				"R | PRO"
+			]
+		},
+		{
+			"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
+			"frags": [
+				"ROR | ",
+				"LST0X1",
+				"SYST ER",
+				"R | PRO"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"CT0XE23E",
+				"2A91C\\nSY"
+			]
+		}
+	],
+	"hackmud_id": "unidentified_al3gr3.fetch"
+}

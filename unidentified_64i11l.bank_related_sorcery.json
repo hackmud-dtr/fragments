@@ -1,0 +1,89 @@
+{
+	"_id": "5ce9d1fa81559f17e833f469",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unidentified_64i11l.bank_related_sorcery",
+	"sector": "VNP_3643",
+	"sec_level": 4,
+	"date_added": 1558821408422,
+	"last_scraped": 0,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1558821408422
+		}
+	],
+	"updt": 1558825179135,
+	"edit": 2,
+	"next_scrape": 1558826517593,
+	"last_scrape": 1558826457593,
+	"scrape_ct": 17,
+	"category": "fishie_tank",
+	"last_update": 1558826457593,
+	"output": [
+		{
+			"args": {},
+			"calls": 15464,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"next?",
+				"No fu",
+				"your t",
+				"un othe",
+				"o fun o",
+				"\\n209B O",
+				"What's n",
+				"B On you",
+				"209B On ",
+				"2094 No ",
+				"xt?\\n209B"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 793,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"next?",
+				"No fu",
+				"your t",
+				"un othe",
+				"o fun o",
+				"\\n209B O",
+				"What's n",
+				"B On you",
+				"209B On ",
+				"2094 No ",
+				"xt?\\n209B"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 13859,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"next?",
+				"No fu",
+				"your t",
+				"un othe",
+				"o fun o",
+				"\\n209B O",
+				"What's n",
+				"B On you",
+				"209B On ",
+				"2094 No ",
+				"xt?\\n209B"
+			]
+		}
+	],
+	"hackmud_id": "unidentified_64i11l.bank_related_sorcery"
+}
