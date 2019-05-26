@@ -1,7 +1,7 @@
 {
 	"_id": "anon_lyoinf.score_me",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "anon_lyoinf.score_me",
 	"sector": "VNP_6121",
 	"sec_level": 4,
@@ -11,6 +11,54 @@
 		{
 			"type": "added",
 			"when": 1558846772381
+		}
+	],
+	"updt": 1558846820282,
+	"edit": 1,
+	"last_scrape": 1558859972581,
+	"scrape_ct": 20,
+	"next_scrape": 1558860032581,
+	"category": "coin_flipper",
+	"last_update": 1558859972581,
+	"output": [
+		{
+			"args": {},
+			"calls": 8233,
+			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
+			"fragments": [
+				"000 0",
+				"01 010",
+				" 0101 ",
+				" 0000 ",
+				"1 0100 ",
+				"0 0001 0"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"000 0",
+						"01 010",
+						" 0101 ",
+						" 0000 ",
+						"1 0100 ",
+						"0 0001 0"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"000 0",
+				"01 010",
+				" 0101 ",
+				" 0000 ",
+				"1 0100 ",
+				"0 0001 0"
+			]
 		}
 	]
 }
