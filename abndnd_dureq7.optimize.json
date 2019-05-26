@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_dureq7.optimize",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "abndnd_dureq7.optimize",
 	"sector": "VNP_2583",
 	"sec_level": 4,
@@ -11,6 +11,129 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822470577,
+	"edit": 1,
+	"last_scrape": 1558851346829,
+	"scrape_ct": 19,
+	"next_scrape": 1558851406829,
+	"category": "fishie_tank",
+	"last_update": 1558851346829,
+	"output": [
+		{
+			"args": {},
+			"calls": 6524,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ristma",
+				"Mallor",
+				"D Merr",
+				", Mall",
+				"mas.\\n2",
+				"llory. I",
+				"221E Mer",
+				".\\n221D M"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ristma",
+						"Mallor",
+						"D Merr",
+						", Mall",
+						"mas.\\n2",
+						"llory. I",
+						"221E Mer",
+						".\\n221D M"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 967,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ristma",
+				"Mallor",
+				"D Merr",
+				", Mall",
+				"mas.\\n2",
+				"llory. I",
+				"221E Mer",
+				".\\n221D M"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ristma",
+						"Mallor",
+						"D Merr",
+						", Mall",
+						"mas.\\n2",
+						"llory. I",
+						"221E Mer",
+						".\\n221D M"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 6683,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ristma",
+				"Mallor",
+				"D Merr",
+				", Mall",
+				"mas.\\n2",
+				"llory. I",
+				"221E Mer",
+				".\\n221D M"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ristma",
+						"Mallor",
+						"D Merr",
+						", Mall",
+						"mas.\\n2",
+						"llory. I",
+						"221E Mer",
+						".\\n221D M"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"ristma",
+				"Mallor",
+				"D Merr",
+				", Mall",
+				"mas.\\n2",
+				"llory. I",
+				"221E Mer",
+				".\\n221D M"
+			]
 		}
 	]
 }
