@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_q62u62.bot_brain",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "unidentified_q62u62.bot_brain",
 	"sector": "HJG_5405",
 	"sec_level": 4,
@@ -11,6 +11,122 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822473057,
+	"edit": 1,
+	"last_scrape": 1558856209258,
+	"scrape_ct": 19,
+	"next_scrape": 1558856269258,
+	"category": "fishie_tank",
+	"last_update": 1558856209258,
+	"output": [
+		{
+			"args": {},
+			"calls": 8291,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ndari",
+				"G ERR",
+				"miyawa",
+				" PROG ",
+				"RROR | ",
+				"ri imiya",
+				" | TIME "
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"ndari",
+						"G ERR",
+						"miyawa",
+						" PROG ",
+						"RROR | ",
+						"ri imiya",
+						" | TIME "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 882,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ndari",
+				"G ERR",
+				"miyawa",
+				" PROG ",
+				"RROR | ",
+				"ri imiya",
+				" | TIME "
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"ndari",
+						"G ERR",
+						"miyawa",
+						" PROG ",
+						"RROR | ",
+						"ri imiya",
+						" | TIME "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 4309,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ndari",
+				"G ERR",
+				"miyawa",
+				" PROG ",
+				"RROR | ",
+				"ri imiya",
+				" | TIME "
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"ndari",
+						"G ERR",
+						"miyawa",
+						" PROG ",
+						"RROR | ",
+						"ri imiya",
+						" | TIME "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+			"frags": [
+				"ndari",
+				"G ERR",
+				"miyawa",
+				" PROG ",
+				"RROR | ",
+				"ri imiya",
+				" | TIME "
+			]
 		}
 	]
 }

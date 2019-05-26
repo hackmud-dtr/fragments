@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_aq0zgj.checksafe",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "unidentified_aq0zgj.checksafe",
 	"sector": "VNP_9002",
 	"sec_level": 4,
@@ -11,6 +11,122 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822473057,
+	"edit": 1,
+	"last_scrape": 1558855939702,
+	"scrape_ct": 19,
+	"next_scrape": 1558855999702,
+	"category": "fishie_tank",
+	"last_update": 1558855939702,
+	"output": [
+		{
+			"args": {},
+			"calls": 10290,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"read ",
+				"d | B",
+				"BJ re",
+				"aki | ",
+				" there",
+				" maste",
+				"master "
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"read ",
+						"d | B",
+						"BJ re",
+						"aki | ",
+						" there",
+						" maste",
+						"master "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 723,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"read ",
+				"d | B",
+				"BJ re",
+				"aki | ",
+				" there",
+				" maste",
+				"master "
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"read ",
+						"d | B",
+						"BJ re",
+						"aki | ",
+						" there",
+						" maste",
+						"master "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 11493,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"read ",
+				"d | B",
+				"BJ re",
+				"aki | ",
+				" there",
+				" maste",
+				"master "
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"read ",
+						"d | B",
+						"BJ re",
+						"aki | ",
+						" there",
+						" maste",
+						"master "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+			"frags": [
+				"read ",
+				"d | B",
+				"BJ re",
+				"aki | ",
+				" there",
+				" maste",
+				"master "
+			]
 		}
 	]
 }
