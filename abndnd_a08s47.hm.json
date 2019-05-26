@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_a08s47.hm",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "abndnd_a08s47.hm",
 	"sector": "K_3778",
 	"sec_level": 4,
@@ -11,6 +11,122 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822470577,
+	"edit": 1,
+	"last_scrape": 1558850617323,
+	"scrape_ct": 19,
+	"next_scrape": 1558850677323,
+	"category": "fishie_tank",
+	"last_update": 1558850617323,
+	"output": [
+		{
+			"args": {},
+			"calls": 8797,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"XBF_C",
+				"F_CLS",
+				"_SECT0",
+				"X7A_SE",
+				"LST0X7",
+				"FILE0X2",
+				"0X2BC7D1"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"XBF_C",
+						"F_CLS",
+						"_SECT0",
+						"X7A_SE",
+						"LST0X7",
+						"FILE0X2",
+						"0X2BC7D1"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 763,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"XBF_C",
+				"F_CLS",
+				"_SECT0",
+				"X7A_SE",
+				"LST0X7",
+				"FILE0X2",
+				"0X2BC7D1"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"XBF_C",
+						"F_CLS",
+						"_SECT0",
+						"X7A_SE",
+						"LST0X7",
+						"FILE0X2",
+						"0X2BC7D1"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 5164,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"XBF_C",
+				"F_CLS",
+				"_SECT0",
+				"X7A_SE",
+				"LST0X7",
+				"FILE0X2",
+				"0X2BC7D1"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"XBF_C",
+						"F_CLS",
+						"_SECT0",
+						"X7A_SE",
+						"LST0X7",
+						"FILE0X2",
+						"0X2BC7D1"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"XBF_C",
+				"F_CLS",
+				"_SECT0",
+				"X7A_SE",
+				"LST0X7",
+				"FILE0X2",
+				"0X2BC7D1"
+			]
 		}
 	]
 }

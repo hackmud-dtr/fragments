@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_18n9qi.open",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "abandoned_18n9qi.open",
 	"sector": "K_2618",
 	"sec_level": 4,
@@ -11,6 +11,129 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558850874838,
+	"edit": 2,
+	"last_scrape": 1558850886772,
+	"scrape_ct": 19,
+	"next_scrape": 1558850946772,
+	"category": "fishie_tank",
+	"last_update": 1558850886772,
+	"output": [
+		{
+			"args": {},
+			"calls": 8922,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"rom a",
+				"rd fr",
+				"stack.",
+				"draw a",
+				"ay a ca",
+				"u may:\\n",
+				"ck, or\\n",
+				" a deck,"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"rom a",
+						"rd fr",
+						"stack.",
+						"draw a",
+						"ay a ca",
+						"u may:\\n",
+						"ck, or\\n",
+						" a deck,"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 796,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"rom a",
+				"rd fr",
+				"stack.",
+				"draw a",
+				"ay a ca",
+				"u may:\\n",
+				"ck, or\\n",
+				" a deck,"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"rom a",
+						"rd fr",
+						"stack.",
+						"draw a",
+						"ay a ca",
+						"u may:\\n",
+						"ck, or\\n",
+						" a deck,"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8322,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"rom a",
+				"rd fr",
+				"stack.",
+				"draw a",
+				"ay a ca",
+				"u may:\\n",
+				"ck, or\\n",
+				" a deck,"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"rom a",
+						"rd fr",
+						"stack.",
+						"draw a",
+						"ay a ca",
+						"u may:\\n",
+						"ck, or\\n",
+						" a deck,"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"rom a",
+				"rd fr",
+				"stack.",
+				"draw a",
+				"ay a ca",
+				"u may:\\n",
+				"ck, or\\n",
+				" a deck,"
+			]
 		}
 	]
 }

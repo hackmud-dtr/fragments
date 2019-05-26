@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_bfod4m.lime",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "unknown_bfod4m.lime",
 	"sector": "K_3778",
 	"sec_level": 4,
@@ -11,6 +11,94 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822470577,
+	"edit": 1,
+	"last_scrape": 1558850757252,
+	"scrape_ct": 19,
+	"next_scrape": 1558850817252,
+	"category": "fishie_tank",
+	"last_update": 1558850757252,
+	"output": [
+		{
+			"args": {},
+			"calls": 8280,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" 0000 ",
+				"00 0000",
+				"0000 000"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" 0000 ",
+						"00 0000",
+						"0000 000"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 880,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" 0000 ",
+				"00 0000",
+				"0000 000"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" 0000 ",
+						"00 0000",
+						"0000 000"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 9164,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" 0000 ",
+				"00 0000",
+				"0000 000"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" 0000 ",
+						"00 0000",
+						"0000 000"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				" 0000 ",
+				"00 0000",
+				"0000 000"
+			]
 		}
 	]
 }
