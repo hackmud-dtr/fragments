@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_k53mk7.js",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "derelict_k53mk7.js",
 	"sector": "K_3353",
 	"sec_level": 4,
@@ -11,6 +11,115 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822473057,
+	"edit": 1,
+	"last_scrape": 1558854629073,
+	"scrape_ct": 19,
+	"next_scrape": 1558854689073,
+	"category": "fishie_tank",
+	"last_update": 1558854629073,
+	"output": [
+		{
+			"args": {},
+			"calls": 4233,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"is a ",
+				"l stra",
+				"ddition",
+				"a waste",
+				" the sy",
+				"rain on "
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"is a ",
+						"l stra",
+						"ddition",
+						"a waste",
+						" the sy",
+						"rain on "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 741,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"is a ",
+				"l stra",
+				"ddition",
+				"a waste",
+				" the sy",
+				"rain on "
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"is a ",
+						"l stra",
+						"ddition",
+						"a waste",
+						" the sy",
+						"rain on "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 4280,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"is a ",
+				"l stra",
+				"ddition",
+				"a waste",
+				" the sy",
+				"rain on "
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"is a ",
+						"l stra",
+						"ddition",
+						"a waste",
+						" the sy",
+						"rain on "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"is a ",
+				"l stra",
+				"ddition",
+				"a waste",
+				" the sy",
+				"rain on "
+			]
 		}
 	]
 }
