@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_jgneky.t1",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "anonymous_jgneky.t1",
 	"sector": "NGC_9325",
 	"sec_level": 4,
@@ -11,6 +11,108 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822464122,
+	"edit": 1,
+	"last_scrape": 1558840429857,
+	"scrape_ct": 19,
+	"next_scrape": 1558840489857,
+	"category": "fishie_tank",
+	"last_update": 1558840429857,
+	"output": [
+		{
+			"args": {},
+			"calls": 6253,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ng, w",
+				"0XBF_",
+				"E0X2BC7",
+				"_FILE0X2",
+				" everyth"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ng, w",
+						"0XBF_",
+						"E0X2BC7",
+						"_FILE0X2",
+						" everyth"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 711,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ng, w",
+				"0XBF_",
+				"E0X2BC7",
+				"_FILE0X2",
+				" everyth"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ng, w",
+						"0XBF_",
+						"E0X2BC7",
+						"_FILE0X2",
+						" everyth"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 11242,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ng, w",
+				"0XBF_",
+				"E0X2BC7",
+				"_FILE0X2",
+				" everyth"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ng, w",
+						"0XBF_",
+						"E0X2BC7",
+						"_FILE0X2",
+						" everyth"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"ng, w",
+				"0XBF_",
+				"E0X2BC7",
+				"_FILE0X2",
+				" everyth"
+			]
 		}
 	]
 }
