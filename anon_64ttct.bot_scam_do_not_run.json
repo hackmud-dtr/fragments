@@ -1,7 +1,7 @@
 {
 	"_id": "anon_64ttct.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "anon_64ttct.bot_scam_do_not_run",
 	"sector": "NGC_1117",
 	"sec_level": 4,
@@ -11,6 +11,115 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822467192,
+	"edit": 1,
+	"last_scrape": 1558845131690,
+	"scrape_ct": 19,
+	"next_scrape": 1558845191690,
+	"category": "fishie_tank",
+	"last_update": 1558845131690,
+	"output": [
+		{
+			"args": {},
+			"calls": 10143,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" | PR",
+				" ERRO",
+				"X00_CLS",
+				"NETW ER",
+				"ST0XF3_S",
+				"ECT0X756"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						" | PR",
+						" ERRO",
+						"X00_CLS",
+						"NETW ER",
+						"ST0XF3_S",
+						"ECT0X756"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 939,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" | PR",
+				" ERRO",
+				"X00_CLS",
+				"NETW ER",
+				"ST0XF3_S",
+				"ECT0X756"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						" | PR",
+						" ERRO",
+						"X00_CLS",
+						"NETW ER",
+						"ST0XF3_S",
+						"ECT0X756"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8951,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" | PR",
+				" ERRO",
+				"X00_CLS",
+				"NETW ER",
+				"ST0XF3_S",
+				"ECT0X756"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						" | PR",
+						" ERRO",
+						"X00_CLS",
+						"NETW ER",
+						"ST0XF3_S",
+						"ECT0X756"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				" | PR",
+				" ERRO",
+				"X00_CLS",
+				"NETW ER",
+				"ST0XF3_S",
+				"ECT0X756"
+			]
 		}
 	]
 }

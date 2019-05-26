@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_gh5v2v.test",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "derelict_gh5v2v.test",
 	"sector": "HJG_3889",
 	"sec_level": 4,
@@ -11,6 +11,129 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822472218,
+	"edit": 1,
+	"last_scrape": 1558853018121,
+	"scrape_ct": 19,
+	"next_scrape": 1558853078121,
+	"category": "fishie_tank",
+	"last_update": 1558853018121,
+	"output": [
+		{
+			"args": {},
+			"calls": 8444,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"st int",
+				"ong wa",
+				"nal Bi",
+				"way. ##",
+				"tional ",
+				"r best ",
+				"'t take",
+				" No no, "
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"st int",
+						"ong wa",
+						"nal Bi",
+						"way. ##",
+						"tional ",
+						"r best ",
+						"'t take",
+						" No no, "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 743,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"st int",
+				"ong wa",
+				"nal Bi",
+				"way. ##",
+				"tional ",
+				"r best ",
+				"'t take",
+				" No no, "
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"st int",
+						"ong wa",
+						"nal Bi",
+						"way. ##",
+						"tional ",
+						"r best ",
+						"'t take",
+						" No no, "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8211,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"st int",
+				"ong wa",
+				"nal Bi",
+				"way. ##",
+				"tional ",
+				"r best ",
+				"'t take",
+				" No no, "
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"st int",
+						"ong wa",
+						"nal Bi",
+						"way. ##",
+						"tional ",
+						"r best ",
+						"'t take",
+						" No no, "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+			"frags": [
+				"st int",
+				"ong wa",
+				"nal Bi",
+				"way. ##",
+				"tional ",
+				"r best ",
+				"'t take",
+				" No no, "
+			]
 		}
 	]
 }

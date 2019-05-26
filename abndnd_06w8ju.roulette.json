@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_06w8ju.roulette",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "abndnd_06w8ju.roulette",
 	"sector": "K_6371",
 	"sec_level": 4,
@@ -11,6 +11,163 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822472218,
+	"edit": 1,
+	"last_scrape": 1558852737980,
+	"scrape_ct": 19,
+	"next_scrape": 1558852797980,
+	"category": "fishie_tank",
+	"last_update": 1558852737980,
+	"output": [
+		{
+			"args": {},
+			"calls": 7850,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"RROR ",
+				" PROG",
+				"OR | N",
+				" NETW ",
+				"_SECT0X",
+				"SYST ER",
+				"IME ERR",
+				"1C\\nSYS",
+				"13_SECT",
+				"X1F_CLST"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"RROR ",
+						" PROG",
+						"OR | N",
+						" NETW ",
+						"_SECT0X",
+						"SYST ER",
+						"IME ERR"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"1C\\nSYS",
+						"13_SECT",
+						"X1F_CLST"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 767,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"RROR ",
+				" PROG",
+				"OR | N",
+				" NETW ",
+				"_SECT0X",
+				"SYST ER",
+				"IME ERR",
+				"1C\\nSYS",
+				"13_SECT",
+				"X1F_CLST"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"RROR ",
+						" PROG",
+						"OR | N",
+						" NETW ",
+						"_SECT0X",
+						"SYST ER",
+						"IME ERR"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"1C\\nSYS",
+						"13_SECT",
+						"X1F_CLST"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 10481,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"RROR ",
+				" PROG",
+				"OR | N",
+				" NETW ",
+				"_SECT0X",
+				"SYST ER",
+				"IME ERR",
+				"1C\\nSYS",
+				"13_SECT",
+				"X1F_CLST"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"RROR ",
+						" PROG",
+						"OR | N",
+						" NETW ",
+						"_SECT0X",
+						"SYST ER",
+						"IME ERR"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"1C\\nSYS",
+						"13_SECT",
+						"X1F_CLST"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
+				"RROR ",
+				" PROG",
+				"OR | N",
+				" NETW ",
+				"_SECT0X",
+				"SYST ER",
+				"IME ERR"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"1C\\nSYS",
+				"13_SECT",
+				"X1F_CLST"
+			]
 		}
 	]
 }
