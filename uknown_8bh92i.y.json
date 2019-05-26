@@ -1,7 +1,7 @@
 {
-	"_id": "5ce9bec25622f0164ca47305",
+	"_id": "5ce9f798f53a6d2ba2355fca",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "uknown_8bh92i.y",
 	"sector": "NGC_8991",
 	"sec_level": 4,
@@ -11,6 +11,63 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822461033,
+	"edit": 1,
+	"last_scrape": 1558837098070,
+	"scrape_ct": 19,
+	"next_scrape": 1558837158070,
+	"category": "fishie_tank",
+	"last_update": 1558837098070,
+	"output": [
+		{
+			"args": {},
+			"calls": 8430,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ou are",
+				" R, si",
+				"u are o",
+				"e one p",
+				"r Erin R",
+				"0 You ar"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 491,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ou are",
+				" R, si",
+				"u are o",
+				"e one p",
+				"r Erin R",
+				"0 You ar"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8647,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ou are",
+				" R, si",
+				"u are o",
+				"e one p",
+				"r Erin R",
+				"0 You ar"
+			]
 		}
 	],
 	"hackmud_id": "uknown_8bh92i.y"
