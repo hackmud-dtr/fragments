@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_5rd0fz.fable",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "derelict_5rd0fz.fable",
 	"sector": "K_3760",
 	"sec_level": 4,
@@ -13,8 +13,127 @@
 			"when": 1558821408422
 		}
 	],
-	"updt": 1558822452833,
-	"edit": 1,
-	"last_scrape": 1558824945222,
-	"next_scrape": 1558910291545
+	"updt": 1558827657520,
+	"edit": 3,
+	"next_scrape": 1558827255938,
+	"last_scrape": 1558827195938,
+	"scrape_ct": 19,
+	"category": "fishie_tank",
+	"last_update": 1558827195938,
+	"output": [
+		{
+			"args": {},
+			"calls": 11458,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"OTW #",
+				"OR | ",
+				"E0X8C",
+				"23E7_F",
+				"7_FILE0",
+				" ERROR ",
+				"R | NETW",
+				"PROG ERR"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"OTW #",
+						"OR | ",
+						"E0X8C",
+						"23E7_F",
+						"7_FILE0",
+						" ERROR ",
+						"R | NETW",
+						"PROG ERR"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 775,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"OTW #",
+				"OR | ",
+				"E0X8C",
+				"23E7_F",
+				"7_FILE0",
+				" ERROR ",
+				"R | NETW",
+				"PROG ERR"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"OTW #",
+						"OR | ",
+						"E0X8C",
+						"23E7_F",
+						"7_FILE0",
+						" ERROR ",
+						"R | NETW",
+						"PROG ERR"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 5710,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"OTW #",
+				"OR | ",
+				"E0X8C",
+				"23E7_F",
+				"7_FILE0",
+				" ERROR ",
+				"R | NETW",
+				"PROG ERR"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"OTW #",
+						"OR | ",
+						"E0X8C",
+						"23E7_F",
+						"7_FILE0",
+						" ERROR ",
+						"R | NETW",
+						"PROG ERR"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+			"frags": [
+				"OTW #",
+				"OR | ",
+				"E0X8C",
+				"23E7_F",
+				"7_FILE0",
+				" ERROR ",
+				"R | NETW",
+				"PROG ERR"
+			]
+		}
+	]
 }

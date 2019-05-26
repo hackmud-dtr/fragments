@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_s5bsrw.phish",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "unidentified_s5bsrw.phish",
 	"sector": "SPC_5920",
 	"sec_level": 4,
@@ -11,6 +11,63 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822464122,
+	"edit": 1,
+	"last_scrape": 1558842100148,
+	"scrape_ct": 20,
+	"next_scrape": 1558842160148,
+	"category": "dice_roller",
+	"last_update": 1558842100148,
+	"output": [
+		{
+			"args": {},
+			"calls": 8192,
+			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
+			"fragments": [
+				"n't. ",
+				"ten, t",
+				"sts. W",
+				"neers ",
+				"is tha",
+				"cienti",
+				"bvious ",
+				"r enviro",
+				"ironment"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"n't. ",
+						"ten, t",
+						"sts. W",
+						"neers ",
+						"is tha",
+						"cienti",
+						"bvious ",
+						"r enviro",
+						"ironment"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+			"frags": [
+				"n't. ",
+				"ten, t",
+				"sts. W",
+				"neers ",
+				"is tha",
+				"cienti",
+				"bvious ",
+				"r enviro",
+				"ironment"
+			]
 		}
 	]
 }
