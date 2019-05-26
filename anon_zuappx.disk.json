@@ -1,7 +1,7 @@
 {
 	"_id": "anon_zuappx.disk",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "anon_zuappx.disk",
 	"sector": "K_2117",
 	"sec_level": 4,
@@ -11,6 +11,129 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822464122,
+	"edit": 1,
+	"last_scrape": 1558841479681,
+	"scrape_ct": 19,
+	"next_scrape": 1558841539681,
+	"category": "fishie_tank",
+	"last_update": 1558841479681,
+	"output": [
+		{
+			"args": {},
+			"calls": 9059,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"had a",
+				"defin",
+				"finiti",
+				"e had ",
+				" discu",
+				"n to be",
+				"inition",
+				" our de"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"had a",
+						"defin",
+						"finiti",
+						"e had ",
+						" discu",
+						"n to be",
+						"inition",
+						" our de"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 793,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"had a",
+				"defin",
+				"finiti",
+				"e had ",
+				" discu",
+				"n to be",
+				"inition",
+				" our de"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"had a",
+						"defin",
+						"finiti",
+						"e had ",
+						" discu",
+						"n to be",
+						"inition",
+						" our de"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8653,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"had a",
+				"defin",
+				"finiti",
+				"e had ",
+				" discu",
+				"n to be",
+				"inition",
+				" our de"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"had a",
+						"defin",
+						"finiti",
+						"e had ",
+						" discu",
+						"n to be",
+						"inition",
+						" our de"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+			"frags": [
+				"had a",
+				"defin",
+				"finiti",
+				"e had ",
+				" discu",
+				"n to be",
+				"inition",
+				" our de"
+			]
 		}
 	]
 }

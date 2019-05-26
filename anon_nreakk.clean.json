@@ -1,7 +1,7 @@
 {
 	"_id": "anon_nreakk.clean",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "anon_nreakk.clean",
 	"sector": "K_2117",
 	"sec_level": 4,
@@ -11,6 +11,143 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558822464122,
+	"edit": 1,
+	"last_scrape": 1558841450170,
+	"scrape_ct": 18,
+	"next_scrape": 1558841510170,
+	"category": "fishie_tank",
+	"last_update": 1558841450170,
+	"output": [
+		{
+			"args": {},
+			"calls": 12236,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"stage",
+				"r whe",
+				"get b",
+				"f sta",
+				"tablis",
+				"establ",
+				"en dat",
+				"ta have ",
+				"mainder ",
+				" we will"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"stage",
+						"r whe",
+						"get b",
+						"f sta",
+						"tablis",
+						"establ",
+						"en dat",
+						"ta have ",
+						"mainder ",
+						" we will"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 469,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"stage",
+				"r whe",
+				"get b",
+				"f sta",
+				"tablis",
+				"establ",
+				"en dat",
+				"ta have ",
+				"mainder ",
+				" we will"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"stage",
+						"r whe",
+						"get b",
+						"f sta",
+						"tablis",
+						"establ",
+						"en dat",
+						"ta have ",
+						"mainder ",
+						" we will"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8448,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"stage",
+				"r whe",
+				"get b",
+				"f sta",
+				"tablis",
+				"establ",
+				"en dat",
+				"ta have ",
+				"mainder ",
+				" we will"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"stage",
+						"r whe",
+						"get b",
+						"f sta",
+						"tablis",
+						"establ",
+						"en dat",
+						"ta have ",
+						"mainder ",
+						" we will"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
+				"stage",
+				"r whe",
+				"get b",
+				"f sta",
+				"tablis",
+				"establ",
+				"en dat",
+				"ta have ",
+				"mainder ",
+				" we will"
+			]
 		}
 	]
 }

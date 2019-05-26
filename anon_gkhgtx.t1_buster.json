@@ -1,7 +1,7 @@
 {
 	"_id": "anon_gkhgtx.t1_buster",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "anon_gkhgtx.t1_buster",
 	"sector": "K_2117",
 	"sec_level": 4,
@@ -11,6 +11,115 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		}
+	],
+	"updt": 1558841408314,
+	"edit": 2,
+	"last_scrape": 1558841410907,
+	"scrape_ct": 18,
+	"next_scrape": 1558841470907,
+	"category": "fishie_tank",
+	"last_update": 1558841410907,
+	"output": [
+		{
+			"args": {},
+			"calls": 8194,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"al' f",
+				"ideo, ",
+				"' form",
+				"ting et",
+				"ats and ",
+				"and 'org"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"al' f",
+						"ideo, ",
+						"' form",
+						"ting et",
+						"ats and ",
+						"and 'org"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 750,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"al' f",
+				"ideo, ",
+				"' form",
+				"ting et",
+				"ats and ",
+				"and 'org"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"al' f",
+						"ideo, ",
+						"' form",
+						"ting et",
+						"ats and ",
+						"and 'org"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8375,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"al' f",
+				"ideo, ",
+				"' form",
+				"ting et",
+				"ats and ",
+				"and 'org"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"al' f",
+						"ideo, ",
+						"' form",
+						"ting et",
+						"ats and ",
+						"and 'org"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+			"frags": [
+				"al' f",
+				"ideo, ",
+				"' form",
+				"ting et",
+				"ats and ",
+				"and 'org"
+			]
 		}
 	]
 }
