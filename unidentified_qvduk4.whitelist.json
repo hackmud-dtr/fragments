@@ -6,23 +6,23 @@
 	"sector": "VNP_9773",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1558959285894,
+	"last_scraped": 1558982755352,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1558959280768,
-	"edit": 9,
-	"next_scrape": 1558959345894,
-	"scrape_ct": 5,
+	"updt": 1558982933917,
+	"edit": 11,
+	"next_scrape": 1558982815352,
+	"scrape_ct": 2,
 	"category": "clicker",
-	"last_update": 1558959285894,
+	"last_update": 1558982755352,
 	"output": [
 		{
 			"args": {},
-			"calls": 42146,
+			"calls": 53997,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"| USE",
@@ -54,7 +54,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 36121,
+			"calls": 45400,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"| USE",
@@ -113,9 +113,82 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"CLICK": true
+			},
+			"calls": 1244,
+			"base": "`LCLIC  SECURED`",
+			"fragments": [
+				"| USEK",
+				"K| USE",
+				"| USECK",
+				"KER fbr",
+				"K | USE",
+				"K | TIM",
+				"K S| US",
+				"ER fbrK",
+				"KRROR | ",
+				"KR | NET",
+				"K ER fbr",
+				"K| PROG E",
+				"KTW ERROR",
+				"KR | PROG",
+				"K RROR | ",
+				"K R | NET",
+				"K  | TIME"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"| USEK",
+						"K| USE",
+						"| USECK",
+						"K | USE",
+						"K | TIM",
+						"K S| US",
+						"KRROR | ",
+						"KR | NET",
+						"K| PROG E",
+						"KR | PROG",
+						"K RROR | ",
+						"K R | NET",
+						"K  | TIME"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"KER fbr",
+						"ER fbrK",
+						"K ER fbr",
+						"KTW ERROR"
+					]
+				}
+			]
 		}
 	],
 	"identified": [
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
+				"| USEK",
+				"K| USE",
+				"| USECK",
+				"K | USE",
+				"K | TIM",
+				"K S| US",
+				"KRROR | ",
+				"KR | NET",
+				"K| PROG E",
+				"KR | PROG",
+				"K RROR | ",
+				"K R | NET",
+				"K  | TIME"
+			]
+		},
 		{
 			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
 			"frags": [
@@ -127,6 +200,15 @@
 				"| PROG E",
 				"TW ERROR",
 				"R | PROG"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"KER fbr",
+				"ER fbrK",
+				"K ER fbr",
+				"KTW ERROR"
 			]
 		}
 	]
