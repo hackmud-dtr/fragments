@@ -6,33 +6,38 @@
 	"sector": "K_6371",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1558953461005,
+	"last_scraped": 1558977062629,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1558928631946,
-	"edit": 5,
-	"scrape_ct": 13,
-	"next_scrape": 1558953521005,
+	"updt": 1558953649052,
+	"edit": 6,
+	"scrape_ct": 12,
+	"next_scrape": 1558977122629,
 	"category": "fishie_tank",
-	"last_update": 1558953461005,
+	"last_update": 1558977062629,
 	"output": [
 		{
 			"args": {},
-			"calls": 37463,
+			"calls": 47815,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ss | ",
 				"n how",
+				"inter",
+				"i | S",
 				"e: Cr",
 				"J re:",
-				" inte",
+				" | BO",
 				" I'm ",
 				"| SUBJ",
+				"m inte",
+				" Creat",
 				"ve proc",
+				"rocess ",
 				"Creativ",
 				"ntereste",
 				"eative p",
@@ -148,6 +153,11 @@
 				"Creativ",
 				"eative p"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
