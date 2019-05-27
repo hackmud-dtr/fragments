@@ -1,194 +1,25 @@
 {
 	"_id": "unknown_0eq9hy.push",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "unknown_0eq9hy.push",
 	"sector": "K_8425",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1558951469635,
+	"last_scraped": 1558975101807,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1558926606038,
-	"edit": 6,
+	"updt": 1558951622232,
+	"edit": 7,
 	"scrape_ct": 13,
-	"next_scrape": 1558951529635,
+	"next_scrape": 1559061600171,
 	"category": "fishie_tank",
 	"last_update": 1558951469635,
-	"output": [
-		{
-			"args": {},
-			"calls": 36442,
-			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
-			"fragments": [
-				"weigh",
-				"rt_ic",
-				"imagi",
-				"It wa",
-				" was ",
-				"than w",
-				"school",
-				"ou ima",
-				"ne day",
-				"nd ove",
-				"hardco",
-				"han we",
-				"ear [h",
-				"ds me ",
-				" you i",
-				" my de",
-				" \"Bina",
-				"y wordy",
-				"rix is ",
-				"ng that",
-				"n, rath",
-				"my dear",
-				"d hardc",
-				" that t",
-				" [heart",
-				"y and ov",
-				"pies. Ca",
-				"e to thi",
-				"come to ",
-				"Can you "
-			],
-			"hits": [
-				{
-					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
-					"frags": [
-						" was ",
-						"school",
-						"ear [h",
-						" you i",
-						" \"Bina",
-						"n, rath",
-						"my dear",
-						"y and ov",
-						"Can you "
-					]
-				}
-			]
-		},
-		{
-			"args": {
-				"do": "feed"
-			},
-			"calls": 2795,
-			"base": [
-				"Fishies are happy.",
-				"actuly they look fine",
-				"they are still hungry?",
-				"they don't look so good"
-			],
-			"fragments": [
-				"weigh",
-				"rt_ic",
-				"imagi",
-				"It wa",
-				" was ",
-				"than w",
-				"school",
-				"ou ima",
-				"ne day",
-				"nd ove",
-				"hardco",
-				"han we",
-				"ear [h",
-				"ds me ",
-				" you i",
-				" my de",
-				" \"Bina",
-				"y wordy",
-				"rix is ",
-				"ng that",
-				"n, rath",
-				"my dear",
-				"d hardc",
-				" that t",
-				" [heart",
-				"y and ov",
-				"pies. Ca",
-				"e to thi",
-				"come to ",
-				"Can you "
-			],
-			"hits": [
-				{
-					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
-					"frags": [
-						" was ",
-						"school",
-						"ear [h",
-						" you i",
-						" \"Bina",
-						"n, rath",
-						"my dear",
-						"y and ov",
-						"Can you "
-					]
-				}
-			]
-		},
-		{
-			"args": {
-				"do": "clean"
-			},
-			"calls": 40071,
-			"base": "Fishies are happy. Algea eaters are displeased.",
-			"fragments": [
-				"weigh",
-				"rt_ic",
-				"imagi",
-				"It wa",
-				" was ",
-				"than w",
-				"school",
-				"ou ima",
-				"ne day",
-				"nd ove",
-				"hardco",
-				"han we",
-				"ear [h",
-				"ds me ",
-				" you i",
-				" my de",
-				" \"Bina",
-				"y wordy",
-				"rix is ",
-				"ng that",
-				"n, rath",
-				"my dear",
-				"d hardc",
-				" that t",
-				" [heart",
-				"y and ov",
-				"pies. Ca",
-				"e to thi",
-				"come to ",
-				"Can you "
-			],
-			"hits": [
-				{
-					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
-					"frags": [
-						" was ",
-						"school",
-						"ear [h",
-						" you i",
-						" \"Bina",
-						"n, rath",
-						"my dear",
-						"y and ov",
-						"Can you "
-					]
-				}
-			]
-		}
-	],
+	"output": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 	"identified": [
 		{
 			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
@@ -203,6 +34,14 @@
 				"y and ov",
 				"Can you "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
