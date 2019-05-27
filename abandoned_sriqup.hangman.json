@@ -6,29 +6,31 @@
 	"sector": "SPC_0388",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1558914186848,
+	"last_scraped": 1558939515490,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1558890542011,
-	"edit": 5,
-	"scrape_ct": 15,
-	"next_scrape": 1558914246848,
+	"updt": 1558914212257,
+	"edit": 6,
+	"scrape_ct": 13,
+	"next_scrape": 1558939575490,
 	"category": "fishie_tank",
-	"last_update": 1558914186848,
+	"last_update": 1558939515490,
 	"output": [
 		{
 			"args": {},
-			"calls": 30833,
+			"calls": 39453,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"erajb",
 				"E ERR",
-				"RROR |",
 				"ER eraj",
-				" ERROR "
+				"RROR | U",
+				" | USER ",
+				" ERROR |"
 			],
 			"hits": [
 				{
@@ -46,7 +48,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2117,
+			"calls": 2969,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -54,10 +56,12 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"erajb",
 				"E ERR",
-				"RROR |",
 				"ER eraj",
-				" ERROR "
+				"RROR | U",
+				" | USER ",
+				" ERROR |"
 			],
 			"hits": [
 				{
@@ -75,13 +79,15 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 30716,
+			"calls": 39376,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"erajb",
 				"E ERR",
-				"RROR |",
 				"ER eraj",
-				" ERROR "
+				"RROR | U",
+				" | USER ",
+				" ERROR |"
 			],
 			"hits": [
 				{
