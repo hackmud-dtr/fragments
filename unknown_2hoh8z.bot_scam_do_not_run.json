@@ -6,19 +6,19 @@
 	"sector": "VNP_9002",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1558955902304,
+	"last_scraped": 1558955882714,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1558955902595,
-	"edit": 6,
-	"scrape_ct": 13,
-	"next_scrape": 1558955962304,
+	"updt": 1558931111951,
+	"edit": 5,
+	"scrape_ct": 14,
+	"next_scrape": 1558955942714,
 	"category": "fishie_tank",
-	"last_update": 1558955902304,
+	"last_update": 1558955893306,
 	"output": [
 		{
 			"args": {},
@@ -117,7 +117,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 32123,
+			"calls": 23647,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"| new",
@@ -177,6 +177,11 @@
 				" new thr",
 				" mallory"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
