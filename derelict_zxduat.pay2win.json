@@ -1,23 +1,31 @@
 {
 	"_id": "derelict_zxduat.pay2win",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "derelict_zxduat.pay2win",
 	"sector": "VNP_9651",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1558834827637,
+	"last_scraped": 1558921290106,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1558834874223,
-	"edit": 2,
+	"updt": 1558884001915,
+	"edit": 3,
 	"scrape_ct": 19,
-	"next_scrape": 1558926720656,
+	"next_scrape": 1559007741090,
 	"category": "clicker",
 	"last_update": 1558834817562,
-	"output": "`LCLI00000CURED`"
+	"output": "`LCLI00000CURED`",
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
+		}
+	]
 }
