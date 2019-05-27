@@ -6,23 +6,23 @@
 	"sector": "K_6371",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1558903572861,
+	"last_scraped": 1558928521646,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1558886226433,
-	"edit": 3,
-	"scrape_ct": 17,
-	"next_scrape": 1558903632861,
+	"updt": 1558903621853,
+	"edit": 4,
+	"scrape_ct": 15,
+	"next_scrape": 1558928581646,
 	"category": "fishie_tank",
-	"last_update": 1558903572861,
+	"last_update": 1558928521646,
 	"output": [
 		{
 			"args": {},
-			"calls": 16196,
+			"calls": 28204,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"_FILE",
@@ -32,15 +32,16 @@
 				" TIME ",
 				" NETW ",
 				"_SECT0X",
-				"TIME ER",
 				"SYST ER",
-				"IME ERR",
-				"1C\\nSYS",
 				"X1F_CLST",
 				"X13_SECT",
+				"TIME ERR",
 				"T0X1F_CL",
 				"ERROR | ",
-				"282A91C\\n"
+				"E23E_FIL",
+				"A91C\\nSY",
+				"282A91C\\n",
+				"1C\\nSYST "
 			],
 			"hits": [
 				{
@@ -69,7 +70,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1555,
+			"calls": 2429,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -84,15 +85,16 @@
 				" TIME ",
 				" NETW ",
 				"_SECT0X",
-				"TIME ER",
 				"SYST ER",
-				"IME ERR",
-				"1C\\nSYS",
 				"X1F_CLST",
 				"X13_SECT",
+				"TIME ERR",
 				"T0X1F_CL",
 				"ERROR | ",
-				"282A91C\\n"
+				"E23E_FIL",
+				"A91C\\nSY",
+				"282A91C\\n",
+				"1C\\nSYST "
 			],
 			"hits": [
 				{
@@ -121,7 +123,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 19595,
+			"calls": 29692,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"_FILE",
@@ -131,15 +133,16 @@
 				" TIME ",
 				" NETW ",
 				"_SECT0X",
-				"TIME ER",
 				"SYST ER",
-				"IME ERR",
-				"1C\\nSYS",
 				"X1F_CLST",
 				"X13_SECT",
+				"TIME ERR",
 				"T0X1F_CL",
 				"ERROR | ",
-				"282A91C\\n"
+				"E23E_FIL",
+				"A91C\\nSY",
+				"282A91C\\n",
+				"1C\\nSYST "
 			],
 			"hits": [
 				{
