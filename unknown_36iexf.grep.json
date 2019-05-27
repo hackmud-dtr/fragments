@@ -6,44 +6,53 @@
 	"sector": "VNP_9002",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1558905993309,
+	"last_scraped": 1558931092484,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1558886228268,
-	"edit": 3,
-	"scrape_ct": 17,
-	"next_scrape": 1558906053309,
+	"updt": 1558906100009,
+	"edit": 4,
+	"scrape_ct": 16,
+	"next_scrape": 1558931152484,
 	"category": "fishie_tank",
-	"last_update": 1558905993309,
+	"last_update": 1558931102913,
 	"output": [
 		{
 			"args": {},
-			"calls": 14710,
+			"calls": 24499,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"ws my",
 				"r, ga",
-				"like ",
-				"have ",
 				"d gam",
-				"at co",
+				"y mind",
+				"s_play",
 				"playin",
+				"oker_j",
+				"have a",
 				"g_poke",
-				"ers li",
 				"e card",
-				"## Not",
+				" that ",
+				" like ",
+				"that co",
+				"mes [do",
+				"ers lik",
 				"_jpg] d",
 				"[dogs_p",
+				"Not for",
+				"I have ",
 				" games ",
 				" card g",
+				"ows my m",
+				"just blo",
+				"g? ## No",
 				"aying_po",
 				"# Not fo",
 				" just bl",
-				" for me."
+				" for me.",
+				" ## Not "
 			],
 			"hits": [
 				{
@@ -72,7 +81,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1606,
+			"calls": 2391,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -80,25 +89,34 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"ws my",
 				"r, ga",
-				"like ",
-				"have ",
 				"d gam",
-				"at co",
+				"y mind",
+				"s_play",
 				"playin",
+				"oker_j",
+				"have a",
 				"g_poke",
-				"ers li",
 				"e card",
-				"## Not",
+				" that ",
+				" like ",
+				"that co",
+				"mes [do",
+				"ers lik",
 				"_jpg] d",
 				"[dogs_p",
+				"Not for",
+				"I have ",
 				" games ",
 				" card g",
+				"ows my m",
+				"just blo",
+				"g? ## No",
 				"aying_po",
 				"# Not fo",
 				" just bl",
-				" for me."
+				" for me.",
+				" ## Not "
 			],
 			"hits": [
 				{
@@ -194,6 +212,11 @@
 				"# Not fo",
 				" just bl"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
