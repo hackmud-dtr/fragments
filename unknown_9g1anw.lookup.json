@@ -1,28 +1,27 @@
 {
 	"_id": "unknown_9g1anw.lookup",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "unknown_9g1anw.lookup",
 	"sector": "HJG_6180",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559065449131,
+	"last_scraped": 1559080036141,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559050549255,
-	"edit": 14,
-	"next_scrape": 1559065509131,
-	"scrape_ct": 1,
+	"updt": 1559065647989,
+	"edit": 15,
+	"next_scrape": 1559124158839,
 	"category": "fishie_tank",
-	"last_update": 1559065449131,
+	"last_update": 1559080036141,
 	"output": [
 		{
 			"args": {},
-			"calls": 77465,
+			"calls": 87219,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"fospa",
@@ -54,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8136,
+			"calls": 8820,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -91,7 +90,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 90016,
+			"calls": 100803,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"fospa",
