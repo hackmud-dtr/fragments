@@ -1,28 +1,27 @@
 {
 	"_id": "derelict_aykwwt.data_check",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "derelict_aykwwt.data_check",
 	"sector": "K_6531",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559058035754,
+	"last_scraped": 1559073032667,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559041083797,
-	"edit": 10,
-	"scrape_ct": 2,
-	"next_scrape": 1559058095754,
+	"updt": 1559058216297,
+	"edit": 11,
+	"next_scrape": 1559118518399,
 	"category": "fishie_tank",
-	"last_update": 1559058035754,
+	"last_update": 1559073032667,
 	"output": [
 		{
 			"args": {},
-			"calls": 86120,
+			"calls": 105091,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" Atta",
@@ -54,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6856,
+			"calls": 7637,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -91,7 +90,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 81061,
+			"calls": 90572,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" Atta",
