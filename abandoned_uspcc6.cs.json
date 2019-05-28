@@ -1,28 +1,27 @@
 {
 	"_id": "abandoned_uspcc6.cs",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abandoned_uspcc6.cs",
 	"sector": "K_4381",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559065329883,
+	"last_scraped": 1559079918719,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559050549255,
-	"edit": 13,
-	"next_scrape": 1559065389883,
-	"scrape_ct": 0,
+	"updt": 1559065424029,
+	"edit": 14,
+	"next_scrape": 1559121489222,
 	"category": "fishie_tank",
-	"last_update": 1559065329883,
+	"last_update": 1559079918719,
 	"output": [
 		{
 			"args": {},
-			"calls": 81939,
+			"calls": 93677,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"rmati",
@@ -206,7 +205,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 9558,
+			"calls": 10536,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -395,7 +394,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 73191,
+			"calls": 82873,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"rmati",

@@ -1,28 +1,27 @@
 {
 	"_id": "derelict_tdykqs.analyser",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "derelict_tdykqs.analyser",
 	"sector": "NGC_9559",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559065709772,
+	"last_scraped": 1559080307153,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559050774066,
-	"edit": 13,
-	"next_scrape": 1559065769772,
-	"scrape_ct": 1,
+	"updt": 1559065873713,
+	"edit": 14,
+	"next_scrape": 1559121405854,
 	"category": "fishie_tank",
-	"last_update": 1559065709772,
+	"last_update": 1559080307153,
 	"output": [
 		{
 			"args": {},
-			"calls": 98043,
+			"calls": 107485,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" road ",
@@ -54,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7718,
+			"calls": 8614,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -91,7 +90,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 82391,
+			"calls": 86979,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" road ",

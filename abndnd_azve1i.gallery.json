@@ -1,28 +1,27 @@
 {
 	"_id": "abndnd_azve1i.gallery",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abndnd_azve1i.gallery",
 	"sector": "NGC_5311",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559066249607,
+	"last_scraped": 1559080736738,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559051449248,
-	"edit": 13,
-	"scrape_ct": 0,
-	"next_scrape": 1559066309607,
+	"updt": 1559066323404,
+	"edit": 14,
+	"next_scrape": 1559122536488,
 	"category": "fishie_tank",
-	"last_update": 1559066249607,
+	"last_update": 1559080747196,
 	"output": [
 		{
 			"args": {},
-			"calls": 101742,
+			"calls": 113931,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"first",
@@ -52,7 +51,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8171,
+			"calls": 9120,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -126,6 +125,11 @@
 				"olves th",
 				"\\n2166 TR"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
