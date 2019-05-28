@@ -1,28 +1,27 @@
 {
 	"_id": "uknown_4mvj18.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "uknown_4mvj18.db",
 	"sector": "VNP_9857",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559071471629,
+	"last_scraped": 1559085318932,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559056636837,
-	"edit": 11,
-	"scrape_ct": 1,
-	"next_scrape": 1559071531629,
+	"updt": 1559071507244,
+	"edit": 12,
+	"next_scrape": 1559125808910,
 	"category": "fishie_tank",
-	"last_update": 1559071471629,
+	"last_update": 1559085318932,
 	"output": [
 		{
 			"args": {},
-			"calls": 94121,
+			"calls": 103743,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"Mallo",
@@ -52,7 +51,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8267,
+			"calls": 9185,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -87,7 +86,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 82756,
+			"calls": 99367,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"Mallo",

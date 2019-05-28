@@ -1,28 +1,27 @@
 {
 	"_id": "abandoned_5eznbx.big_red_button",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abandoned_5eznbx.big_red_button",
 	"sector": "K_2117",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559071751662,
+	"last_scraped": 1559085839871,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559056862247,
-	"edit": 11,
-	"scrape_ct": 0,
-	"next_scrape": 1559071811662,
+	"updt": 1559071956893,
+	"edit": 12,
+	"next_scrape": 1559131893485,
 	"category": "fishie_tank",
-	"last_update": 1559071751662,
+	"last_update": 1559085839871,
 	"output": [
 		{
 			"args": {},
-			"calls": 94429,
+			"calls": 105890,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"cause",
@@ -96,7 +95,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7592,
+			"calls": 8532,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -175,7 +174,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 90937,
+			"calls": 95702,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"cause",

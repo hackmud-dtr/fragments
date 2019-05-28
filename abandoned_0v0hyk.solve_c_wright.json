@@ -1,28 +1,27 @@
 {
 	"_id": "abandoned_0v0hyk.solve_c_wright",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abandoned_0v0hyk.solve_c_wright",
 	"sector": "K_2117",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559071721583,
+	"last_scraped": 1559085809563,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559056862247,
-	"edit": 11,
-	"scrape_ct": 1,
-	"next_scrape": 1559071781583,
+	"updt": 1559071732102,
+	"edit": 12,
+	"next_scrape": 1559128059511,
 	"category": "fishie_tank",
-	"last_update": 1559071721583,
+	"last_update": 1559085809563,
 	"output": [
 		{
 			"args": {},
-			"calls": 86675,
+			"calls": 107933,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ence ",
@@ -64,7 +63,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7358,
+			"calls": 7813,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -111,7 +110,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 91099,
+			"calls": 100786,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ence ",
