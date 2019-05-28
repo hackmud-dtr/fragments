@@ -1,28 +1,27 @@
 {
 	"_id": "abandoned_75rclv.code_help",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abandoned_75rclv.code_help",
 	"sector": "K_0700",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559072652476,
+	"last_scraped": 1559086670172,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559057763983,
-	"edit": 11,
-	"scrape_ct": 1,
-	"next_scrape": 1559072712476,
+	"updt": 1559072860432,
+	"edit": 12,
+	"next_scrape": 1559130052208,
 	"category": "fishie_tank",
-	"last_update": 1559072652476,
+	"last_update": 1559086670172,
 	"output": [
 		{
 			"args": {},
-			"calls": 98989,
+			"calls": 110491,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"terns",
@@ -58,7 +57,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 9365,
+			"calls": 10390,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -99,7 +98,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 99546,
+			"calls": 111098,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"terns",

@@ -1,28 +1,27 @@
 {
 	"_id": "uknown_pv7kcy.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "uknown_pv7kcy.db",
 	"sector": "K_5050",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559072542523,
+	"last_scraped": 1559086570086,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559057763983,
-	"edit": 14,
-	"scrape_ct": 1,
-	"next_scrape": 1559072602523,
+	"updt": 1559072635420,
+	"edit": 15,
+	"next_scrape": 1559128570662,
 	"category": "fishie_tank",
-	"last_update": 1559072542523,
+	"last_update": 1559086570086,
 	"output": [
 		{
 			"args": {},
-			"calls": 92695,
+			"calls": 100078,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"nder'",
@@ -70,7 +69,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7350,
+			"calls": 8011,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -123,7 +122,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 95426,
+			"calls": 104888,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"nder'",
