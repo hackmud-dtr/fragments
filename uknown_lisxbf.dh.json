@@ -1,28 +1,27 @@
 {
 	"_id": "uknown_lisxbf.dh",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "uknown_lisxbf.dh",
 	"sector": "NGC_7686",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559050071837,
+	"last_scraped": 1559064989428,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559030263132,
-	"edit": 10,
-	"scrape_ct": 2,
-	"next_scrape": 1559050131837,
+	"updt": 1559050098285,
+	"edit": 11,
+	"next_scrape": 1559111245257,
 	"category": "fishie_tank",
-	"last_update": 1559050071837,
+	"last_update": 1559064989428,
 	"output": [
 		{
 			"args": {},
-			"calls": 81632,
+			"calls": 102970,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"LITY ",
@@ -54,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7744,
+			"calls": 8480,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -91,7 +90,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 87829,
+			"calls": 96830,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"LITY ",

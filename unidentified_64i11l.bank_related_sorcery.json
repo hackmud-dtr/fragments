@@ -1,28 +1,27 @@
 {
 	"_id": "unidentified_64i11l.bank_related_sorcery",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "unidentified_64i11l.bank_related_sorcery",
 	"sector": "VNP_3643",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559049871915,
+	"last_scraped": 1559064769206,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559030037770,
-	"edit": 12,
-	"next_scrape": 1559049931915,
-	"scrape_ct": 1,
+	"updt": 1559050098285,
+	"edit": 13,
+	"next_scrape": 1559110580610,
 	"category": "fishie_tank",
-	"last_update": 1559049871915,
+	"last_update": 1559064769206,
 	"output": [
 		{
 			"args": {},
-			"calls": 95231,
+			"calls": 104323,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"next?",
@@ -60,7 +59,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7983,
+			"calls": 8675,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -103,7 +102,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 79150,
+			"calls": 88545,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"next?",
