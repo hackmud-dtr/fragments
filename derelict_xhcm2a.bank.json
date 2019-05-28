@@ -1,27 +1,28 @@
 {
 	"_id": "derelict_xhcm2a.bank",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "derelict_xhcm2a.bank",
 	"sector": "HJG_0642",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559084039352,
+	"last_scraped": 1559070151657,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559070380178,
-	"edit": 12,
-	"next_scrape": 1559128716670,
+	"updt": 1559055281350,
+	"edit": 11,
+	"scrape_ct": 2,
+	"next_scrape": 1559070211657,
 	"category": "fishie_tank",
-	"last_update": 1559084039352,
+	"last_update": 1559055134898,
 	"output": [
 		{
 			"args": {},
-			"calls": 95136,
+			"calls": 77637,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"we ki",
@@ -47,7 +48,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 9957,
+			"calls": 8468,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -78,7 +79,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 91356,
+			"calls": 72676,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"we ki",
@@ -111,6 +112,14 @@
 				"is livin",
 				"g and ki"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
