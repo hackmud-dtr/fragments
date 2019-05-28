@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_txr5w4.list",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "unknown_txr5w4.list",
 	"sector": "VNP_4735",
 	"sec_level": 4,
 	"date_added": 1558996009251,
-	"last_scraped": 1558996039027,
+	"last_scraped": 1559021148443,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,51 +14,10 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1558996099027,
+	"next_scrape": 1559100877839,
 	"category": "coin_flipper",
 	"last_update": 1558996039027,
-	"output": [
-		{
-			"args": {},
-			"calls": 8617,
-			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
-			"fragments": [
-				"re ro",
-				"own t",
-				"in, b",
-				"d aga",
-				", but",
-				"ow-cul",
-				"e low-",
-				"-cultu",
-				"ulture/",
-				"again, ",
-				" want t",
-				"ture/hig",
-				"ant to g"
-			],
-			"hits": [
-				{
-					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
-					"frags": [
-						"re ro",
-						"own t",
-						"in, b",
-						"d aga",
-						", but",
-						"ow-cul",
-						"e low-",
-						"-cultu",
-						"ulture/",
-						"again, ",
-						" want t",
-						"ture/hig",
-						"ant to g"
-					]
-				}
-			]
-		}
-	],
+	"output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_txr5w4.list: script doesn't exist\"}",
 	"identified": [
 		{
 			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
@@ -78,5 +37,7 @@
 				"ant to g"
 			]
 		}
-	]
+	],
+	"updt": 1558996229218,
+	"edit": 1
 }
