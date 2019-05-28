@@ -6,17 +6,17 @@
 	"sector": "K_4581",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559019447322,
+	"last_scraped": 1559041757008,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559019442287,
-	"edit": 9,
-	"scrape_ct": 7,
-	"next_scrape": 1559019507322,
+	"updt": 1559019667132,
+	"edit": 10,
+	"scrape_ct": 6,
+	"next_scrape": 1559041817008,
 	"category": "fishie_tank",
 	"last_update": 1559019447322,
 	"output": [
@@ -140,6 +140,14 @@
 				"re road ",
 				"culture "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
