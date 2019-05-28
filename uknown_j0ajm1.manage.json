@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_j0ajm1.manage",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "uknown_j0ajm1.manage",
 	"sector": "K_9123",
 	"sec_level": 4,
 	"date_added": 1559049301228,
-	"last_scraped": 1559049331623,
+	"last_scraped": 1559064258859,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,113 +14,10 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1559049391623,
+	"next_scrape": 1559155281370,
 	"category": "fishie_tank",
 	"last_update": 1559049331623,
-	"output": [
-		{
-			"args": {},
-			"calls": 9725,
-			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
-			"fragments": [
-				"me ser",
-				" data)",
-				"      ",
-				"gs, tra",
-				"er?    ",
-				" which "
-			],
-			"hits": [
-				{
-					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
-					"frags": [
-						"me ser",
-						" data)",
-						"gs, tra",
-						" which "
-					]
-				},
-				{
-					"document": "NOT FOUND",
-					"frags": [
-						"      ",
-						"er?    "
-					]
-				}
-			]
-		},
-		{
-			"args": {
-				"do": "feed"
-			},
-			"calls": 964,
-			"base": [
-				"Fishies are happy.",
-				"actuly they look fine",
-				"they are still hungry?",
-				"they don't look so good"
-			],
-			"fragments": [
-				"me ser",
-				" data)",
-				"      ",
-				"gs, tra",
-				"er?    ",
-				" which "
-			],
-			"hits": [
-				{
-					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
-					"frags": [
-						"me ser",
-						" data)",
-						"gs, tra",
-						" which "
-					]
-				},
-				{
-					"document": "NOT FOUND",
-					"frags": [
-						"      ",
-						"er?    "
-					]
-				}
-			]
-		},
-		{
-			"args": {
-				"do": "clean"
-			},
-			"calls": 9257,
-			"base": "Fishies are happy. Algea eaters are displeased.",
-			"fragments": [
-				"me ser",
-				" data)",
-				"      ",
-				"gs, tra",
-				"er?    ",
-				" which "
-			],
-			"hits": [
-				{
-					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
-					"frags": [
-						"me ser",
-						" data)",
-						"gs, tra",
-						" which "
-					]
-				},
-				{
-					"document": "NOT FOUND",
-					"frags": [
-						"      ",
-						"er?    "
-					]
-				}
-			]
-		}
-	],
+	"output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_j0ajm1.manage: script doesn't exist\"}",
 	"identified": [
 		{
 			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
@@ -138,5 +35,7 @@
 				"er?    "
 			]
 		}
-	]
+	],
+	"updt": 1559049422599,
+	"edit": 1
 }
