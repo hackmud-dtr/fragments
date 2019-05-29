@@ -1,12 +1,12 @@
 {
 	"_id": "anon_acoki2.karan",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anon_acoki2.karan",
 	"sector": "VNP_7259",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559087960208,
+	"last_scraped": 1559087980803,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,14 +15,13 @@
 	],
 	"updt": 1559074214986,
 	"edit": 12,
-	"scrape_ct": 0,
-	"next_scrape": 1559088020208,
+	"next_scrape": 1559132638812,
 	"category": "fishie_tank",
-	"last_update": 1559074043295,
+	"last_update": 1559087980803,
 	"output": [
 		{
 			"args": {},
-			"calls": 92835,
+			"calls": 104633,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"n eve",
@@ -54,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8557,
+			"calls": 9096,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -91,7 +90,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 96473,
+			"calls": 104894,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"n eve",
@@ -133,14 +132,6 @@
 				"han spea",
 				"ade them"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
