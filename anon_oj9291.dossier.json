@@ -1,28 +1,27 @@
 {
 	"_id": "anon_oj9291.dossier",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anon_oj9291.dossier",
 	"sector": "HJG_1060",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559072122608,
+	"last_scraped": 1559086139972,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559057313293,
-	"edit": 11,
-	"scrape_ct": 0,
-	"next_scrape": 1559072182608,
+	"updt": 1559072182080,
+	"edit": 12,
+	"next_scrape": 1559127631093,
 	"category": "fishie_tank",
-	"last_update": 1559072122608,
+	"last_update": 1559086139972,
 	"output": [
 		{
 			"args": {},
-			"calls": 98775,
+			"calls": 109810,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"revio",
@@ -92,7 +91,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7863,
+			"calls": 8706,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -167,7 +166,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 78764,
+			"calls": 90390,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"revio",
