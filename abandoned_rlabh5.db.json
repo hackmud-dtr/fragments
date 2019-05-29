@@ -1,28 +1,27 @@
 {
 	"_id": "abandoned_rlabh5.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abandoned_rlabh5.db",
 	"sector": "NGC_9913",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559076745008,
+	"last_scraped": 1559090822606,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559061818437,
-	"edit": 11,
-	"scrape_ct": 0,
-	"next_scrape": 1559076805008,
+	"updt": 1559076920042,
+	"edit": 12,
+	"next_scrape": 1559132056043,
 	"category": "fishie_tank",
-	"last_update": 1559076745008,
+	"last_update": 1559090822606,
 	"output": [
 		{
 			"args": {},
-			"calls": 91479,
+			"calls": 103212,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" to p",
@@ -50,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8021,
+			"calls": 8834,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -83,7 +82,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 98016,
+			"calls": 102754,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" to p",
