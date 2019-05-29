@@ -1,28 +1,27 @@
 {
 	"_id": "abandoned_3a3uw7.botnet",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abandoned_3a3uw7.botnet",
 	"sector": "VNP_9787",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559078247264,
+	"last_scraped": 1559092963070,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559063394232,
-	"edit": 11,
-	"scrape_ct": 1,
-	"next_scrape": 1559078307264,
+	"updt": 1559078272319,
+	"edit": 12,
+	"next_scrape": 1559135978611,
 	"category": "fishie_tank",
-	"last_update": 1559078247264,
+	"last_update": 1559092963070,
 	"output": [
 		{
 			"args": {},
-			"calls": 92181,
+			"calls": 100543,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"cessi",
@@ -50,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7955,
+			"calls": 8862,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -83,7 +82,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 82801,
+			"calls": 92630,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"cessi",
