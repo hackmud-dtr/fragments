@@ -1,37 +1,41 @@
 {
 	"_id": "derelict_tdykqs.analyser",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "derelict_tdykqs.analyser",
 	"sector": "NGC_9559",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559080286701,
+	"last_scraped": 1559166743876,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559065873713,
-	"edit": 14,
-	"next_scrape": 1559080346701,
-	"scrape_ct": 0,
+	"updt": 1559166628220,
+	"edit": 16,
+	"next_scrape": 1559209664118,
 	"category": "fishie_tank",
-	"last_update": 1559080286701,
+	"last_update": 1559166743876,
 	"output": [
 		{
 			"args": {},
-			"calls": 107485,
+			"calls": 116731,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"-cultu",
 				" road ",
 				" down ",
+				"wn the ",
 				"ture ro",
+				"to go d",
 				"igh-cul",
 				"ad agai",
+				"want to ",
 				"road aga",
 				"n the lo",
+				" go down",
 				" again, "
 			],
 			"hits": [
@@ -54,7 +58,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7718,
+			"calls": 9349,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -62,13 +66,18 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"-cultu",
 				" road ",
 				" down ",
+				"wn the ",
 				"ture ro",
+				"to go d",
 				"igh-cul",
 				"ad agai",
+				"want to ",
 				"road aga",
 				"n the lo",
+				" go down",
 				" again, "
 			],
 			"hits": [
@@ -91,16 +100,21 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 82391,
+			"calls": 96089,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"-cultu",
 				" road ",
 				" down ",
+				"wn the ",
 				"ture ro",
+				"to go d",
 				"igh-cul",
 				"ad agai",
+				"want to ",
 				"road aga",
 				"n the lo",
+				" go down",
 				" again, "
 			],
 			"hits": [
@@ -133,11 +147,6 @@
 				"n the lo",
 				" again, "
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
