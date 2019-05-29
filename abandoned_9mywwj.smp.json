@@ -1,28 +1,27 @@
 {
 	"_id": "abandoned_9mywwj.smp",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abandoned_9mywwj.smp",
 	"sector": "NGC_1117",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559073753190,
+	"last_scraped": 1559087732517,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559058890333,
-	"edit": 11,
-	"scrape_ct": 2,
-	"next_scrape": 1559073813190,
+	"updt": 1559073989707,
+	"edit": 12,
+	"next_scrape": 1559128150313,
 	"category": "fishie_tank",
-	"last_update": 1559073753190,
+	"last_update": 1559087732517,
 	"output": [
 		{
 			"args": {},
-			"calls": 85660,
+			"calls": 95104,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"mps a",
@@ -46,7 +45,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7242,
+			"calls": 9891,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -75,7 +74,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 89490,
+			"calls": 108712,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"mps a",
@@ -105,11 +104,6 @@
 				"st acces",
 				"on' time"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
