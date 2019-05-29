@@ -1,28 +1,27 @@
 {
 	"_id": "abndnd_vbmbll.solve_rookwood",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abndnd_vbmbll.solve_rookwood",
 	"sector": "K_1201",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559075534316,
+	"last_scraped": 1559089521634,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559060466040,
-	"edit": 12,
-	"scrape_ct": 1,
-	"next_scrape": 1559075594316,
+	"updt": 1559075569908,
+	"edit": 13,
+	"next_scrape": 1559131674661,
 	"category": "fishie_tank",
-	"last_update": 1559075534316,
+	"last_update": 1559089521634,
 	"output": [
 		{
 			"args": {},
-			"calls": 90358,
+			"calls": 99806,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ompat",
@@ -56,7 +55,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8001,
+			"calls": 9062,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -95,7 +94,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 103848,
+			"calls": 113916,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ompat",
