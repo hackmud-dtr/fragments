@@ -1,28 +1,27 @@
 {
 	"_id": "anon_o8s2fj.clu",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anon_o8s2fj.clu",
 	"sector": "VNP_6121",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559079005943,
+	"last_scraped": 1559094371539,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559064298839,
-	"edit": 11,
-	"scrape_ct": 0,
-	"next_scrape": 1559079065943,
+	"updt": 1559079172799,
+	"edit": 12,
+	"next_scrape": 1559137459060,
 	"category": "fishie_tank",
-	"last_update": 1559079005943,
+	"last_update": 1559094371539,
 	"output": [
 		{
 			"args": {},
-			"calls": 95609,
+			"calls": 106379,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"rza e",
@@ -54,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7616,
+			"calls": 8517,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -91,7 +90,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 101204,
+			"calls": 113354,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"rza e",

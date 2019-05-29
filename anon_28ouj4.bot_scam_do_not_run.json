@@ -1,28 +1,27 @@
 {
 	"_id": "anon_28ouj4.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anon_28ouj4.bot_scam_do_not_run",
 	"sector": "VNP_6121",
 	"sec_level": 4,
 	"date_added": 1558848598411,
-	"last_scraped": 1559079396573,
+	"last_scraped": 1559094782183,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558848598411
 		}
 	],
-	"updt": 1559064972744,
-	"edit": 15,
-	"scrape_ct": 1,
-	"next_scrape": 1559079456573,
+	"updt": 1559079622698,
+	"edit": 16,
+	"next_scrape": 1559135873946,
 	"category": "fishie_tank",
-	"last_update": 1559079396573,
+	"last_update": 1559094782183,
 	"output": [
 		{
 			"args": {},
-			"calls": 85797,
+			"calls": 95449,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"rin R",
@@ -96,7 +95,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 9162,
+			"calls": 10016,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -175,7 +174,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 92370,
+			"calls": 96726,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"rin R",
