@@ -1,28 +1,27 @@
 {
 	"_id": "unknown_tt5d3a.diff",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "unknown_tt5d3a.diff",
 	"sector": "K_2618",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559076624278,
+	"last_scraped": 1559090711829,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559061593058,
-	"edit": 11,
-	"scrape_ct": 1,
-	"next_scrape": 1559076684278,
+	"updt": 1559076693557,
+	"edit": 12,
+	"next_scrape": 1559132993371,
 	"category": "fishie_tank",
-	"last_update": 1559076624278,
+	"last_update": 1559090711829,
 	"output": [
 		{
 			"args": {},
-			"calls": 79777,
+			"calls": 84395,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" pile",
@@ -54,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7126,
+			"calls": 8006,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -91,7 +90,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 94476,
+			"calls": 109761,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" pile",
