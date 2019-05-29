@@ -1,26 +1,25 @@
 {
 	"_id": "anonymous_25edru.backend_bounty",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anonymous_25edru.backend_bounty",
 	"sector": "VNP_6121",
 	"sec_level": 4,
 	"date_added": 1558967489240,
-	"last_scraped": 1559115292716,
+	"last_scraped": 1559124270681,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558967489240
 		}
 	],
-	"scrape_ct": 0,
-	"next_scrape": 1559115352716,
+	"next_scrape": 1559169761590,
 	"category": "fishie_tank",
-	"last_update": 1559115292716,
+	"last_update": 1559124270681,
 	"output": [
 		{
 			"args": {},
-			"calls": 100798,
+			"calls": 109291,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"yawak",
@@ -56,7 +55,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8680,
+			"calls": 9500,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -97,7 +96,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 109793,
+			"calls": 114516,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"yawak",
@@ -147,6 +146,6 @@
 			]
 		}
 	],
-	"updt": 1559107574454,
-	"edit": 9
+	"updt": 1559115464818,
+	"edit": 10
 }
