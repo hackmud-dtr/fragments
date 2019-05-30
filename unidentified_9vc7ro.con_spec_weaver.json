@@ -1,0 +1,81 @@
+{
+	"_id": "unidentified_9vc7ro.con_spec_weaver",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unidentified_9vc7ro.con_spec_weaver",
+	"sector": "K_3429",
+	"sec_level": 4,
+	"date_added": 1559193531470,
+	"last_scraped": 1559193781443,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1559193531470
+		}
+	],
+	"scrape_ct": 15,
+	"next_scrape": 1559193841443,
+	"category": "fishie_tank",
+	"last_update": 1559193781443,
+	"output": [
+		{
+			"args": {},
+			"calls": 27867,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"get t",
+				"ERROR",
+				"3_FILE",
+				"23_FIL",
+				"ari  | ",
+				"MFT0XA2",
+				"xtnl-add",
+				"ER extnl",
+				" | PROG "
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2405,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"get t",
+				"ERROR",
+				"3_FILE",
+				"23_FIL",
+				"ari  | ",
+				"MFT0XA2",
+				"xtnl-add",
+				"ER extnl",
+				" | PROG "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 25921,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"get t",
+				"ERROR",
+				"3_FILE",
+				"23_FIL",
+				"ari  | ",
+				"MFT0XA2",
+				"xtnl-add",
+				"ER extnl",
+				" | PROG "
+			]
+		}
+	],
+	"updt": 1559193691018,
+	"edit": 1
+}

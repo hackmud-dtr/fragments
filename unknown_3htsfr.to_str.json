@@ -1,40 +1,50 @@
 {
 	"_id": "unknown_3htsfr.to_str",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unknown_3htsfr.to_str",
 	"sector": "K_5016",
 	"sec_level": 4,
 	"date_added": 1559191150180,
-	"last_scraped": 1559192600545,
+	"last_scraped": 1559193142162,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559191150180
+		},
+		{
+			"type": "died",
+			"when": 1559193142162
+		},
+		{
+			"type": "died",
+			"when": 1559192998992
 		}
 	],
-	"scrape_ct": 17,
-	"next_scrape": 1559192660545,
+	"scrape_ct": 16,
+	"next_scrape": 1559279041872,
 	"category": "dice_roller",
-	"last_update": 1559192600545,
+	"last_update": 1559192920947,
 	"output": [
 		{
 			"args": {},
-			"calls": 37243,
+			"calls": 46138,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
+				"ace d",
 				" face ",
-				"p.\\n204",
-				"of 13, ",
-				"eal 3 d",
 				" up.\\n2",
 				"s of 13,",
+				"p.\\n2041",
+				"l 3 deck",
 				"ks of 13",
 				"cks of 1",
 				"al 3 dec",
+				"Deal 3 d",
 				"3 decks ",
 				"041 Deal",
 				".\\n2041 ",
+				" of 13, ",
 				" down.\\n",
 				" decks o",
 				" Deal 3 ",
@@ -45,18 +55,20 @@
 				{
 					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
 					"frags": [
+						"ace d",
 						" face ",
-						"p.\\n204",
-						"of 13, ",
-						"eal 3 d",
 						" up.\\n2",
 						"s of 13,",
+						"p.\\n2041",
+						"l 3 deck",
 						"ks of 13",
 						"cks of 1",
 						"al 3 dec",
+						"Deal 3 d",
 						"3 decks ",
 						"041 Deal",
 						".\\n2041 ",
+						" of 13, ",
 						" down.\\n",
 						" decks o",
 						" Deal 3 ",
@@ -71,18 +83,20 @@
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
 			"frags": [
+				"ace d",
 				" face ",
-				"p.\\n204",
-				"of 13, ",
-				"eal 3 d",
 				" up.\\n2",
 				"s of 13,",
+				"p.\\n2041",
+				"l 3 deck",
 				"ks of 13",
 				"cks of 1",
 				"al 3 dec",
+				"Deal 3 d",
 				"3 decks ",
 				"041 Deal",
 				".\\n2041 ",
+				" of 13, ",
 				" down.\\n",
 				" decks o",
 				" Deal 3 ",
@@ -91,6 +105,7 @@
 			]
 		}
 	],
-	"updt": 1559192338945,
-	"edit": 3
+	"updt": 1559193465238,
+	"edit": 7,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_3htsfr.to_str: script doesn't exist\"}"
 }
