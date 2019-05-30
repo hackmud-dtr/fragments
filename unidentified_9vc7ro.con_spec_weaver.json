@@ -6,21 +6,21 @@
 	"sector": "K_3429",
 	"sec_level": 4,
 	"date_added": 1559193531470,
-	"last_scraped": 1559193781443,
+	"last_scraped": 1559194501546,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559193531470
 		}
 	],
-	"scrape_ct": 15,
-	"next_scrape": 1559193841443,
+	"scrape_ct": 3,
+	"next_scrape": 1559194561546,
 	"category": "fishie_tank",
-	"last_update": 1559193781443,
+	"last_update": 1559194501546,
 	"output": [
 		{
 			"args": {},
-			"calls": 27867,
+			"calls": 82700,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"get t",
@@ -32,13 +32,29 @@
 				"xtnl-add",
 				"ER extnl",
 				" | PROG "
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"get t",
+						"ERROR",
+						"3_FILE",
+						"23_FIL",
+						"ari  | ",
+						"MFT0XA2",
+						"xtnl-add",
+						"ER extnl",
+						" | PROG "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2405,
+			"calls": 7436,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -55,13 +71,29 @@
 				"xtnl-add",
 				"ER extnl",
 				" | PROG "
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"get t",
+						"ERROR",
+						"3_FILE",
+						"23_FIL",
+						"ari  | ",
+						"MFT0XA2",
+						"xtnl-add",
+						"ER extnl",
+						" | PROG "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 25921,
+			"calls": 84611,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"get t",
@@ -73,9 +105,41 @@
 				"xtnl-add",
 				"ER extnl",
 				" | PROG "
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"get t",
+						"ERROR",
+						"3_FILE",
+						"23_FIL",
+						"ari  | ",
+						"MFT0XA2",
+						"xtnl-add",
+						"ER extnl",
+						" | PROG "
+					]
+				}
 			]
 		}
 	],
-	"updt": 1559193691018,
-	"edit": 1
+	"updt": 1559194366594,
+	"edit": 4,
+	"identified": [
+		{
+			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+			"frags": [
+				"get t",
+				"ERROR",
+				"3_FILE",
+				"23_FIL",
+				"ari  | ",
+				"MFT0XA2",
+				"xtnl-add",
+				"ER extnl",
+				" | PROG "
+			]
+		}
+	]
 }
