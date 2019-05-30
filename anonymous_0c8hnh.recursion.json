@@ -6,21 +6,21 @@
 	"sector": "K_0304",
 	"sec_level": 4,
 	"date_added": 1559169805095,
-	"last_scraped": 1559179619967,
+	"last_scraped": 1559187368821,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559169805095
 		}
 	],
-	"scrape_ct": 17,
-	"next_scrape": 1559179679967,
+	"scrape_ct": 16,
+	"next_scrape": 1559187428821,
 	"category": "fishie_tank",
-	"last_update": 1559179619967,
+	"last_update": 1559187368821,
 	"output": [
 		{
 			"args": {},
-			"calls": 23296,
+			"calls": 32567,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"of cr",
@@ -118,8 +118,8 @@
 			]
 		}
 	],
-	"updt": 1559182079793,
-	"edit": 3,
+	"updt": 1559184354305,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "Erin File",
@@ -133,6 +133,14 @@
 				"eport su",
 				"d remova"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
