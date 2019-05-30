@@ -1,27 +1,32 @@
 {
 	"_id": "uknown_073ehf.corpies",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "uknown_073ehf.corpies",
 	"sector": "VNP_4735",
 	"sec_level": 4,
 	"date_added": 1559011885341,
-	"last_scraped": 1559140332195,
+	"last_scraped": 1559035664398,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559011885341
+		},
+		{
+			"type": "died",
+			"when": 1559036993647
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1559224060822,
+	"next_scrape": 1559035724398,
 	"category": "dice_roller",
 	"last_update": 1559035664398,
-	"output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_073ehf.corpies: script doesn't exist\"}",
-	"identified": [
+	"output": [
 		{
-			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
-			"frags": [
+			"args": {},
+			"calls": 18164,
+			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
+			"fragments": [
 				"hey b",
 				"able ",
 				"with av",
@@ -31,9 +36,33 @@
 				"h avail",
 				"it's wha",
 				"d. They "
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"ith a",
+						"able ",
+						"h avail",
+						". They ",
+						"it's wha"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1559053928537,
-	"edit": 4
+	"identified": [
+		{
+			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+			"frags": [
+				"ith a",
+				"able ",
+				"h avail",
+				". They ",
+				"it's wha"
+			]
+		}
+	],
+	"updt": 1559012003648,
+	"edit": 1
 }

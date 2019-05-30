@@ -1,29 +1,34 @@
 {
 	"_id": "unknown_txr5w4.bot_brain",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unknown_txr5w4.bot_brain",
 	"sector": "K_5859",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559128573708,
+	"last_scraped": 1559020187693,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
+		},
+		{
+			"type": "died",
+			"when": 1559020620856
 		}
 	],
-	"updt": 1559042210622,
-	"edit": 13,
+	"updt": 1559001415798,
+	"edit": 10,
 	"scrape_ct": 14,
-	"next_scrape": 1559218201100,
+	"next_scrape": 1559020247693,
 	"category": "dice_roller",
 	"last_update": 1559020187693,
-	"output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_txr5w4.bot_brain: script doesn't exist\"}",
-	"identified": [
+	"output": [
 		{
-			"document": "NOT FOUND",
-			"frags": [
+			"args": {},
+			"calls": 67972,
+			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
+			"fragments": [
 				"0 1001 ",
 				"0 0100 ",
 				"100 1001",
@@ -40,6 +45,52 @@
 				" 0000 00",
 				"00\\n0000 ",
 				"0 0000\\n0",
+				" 0000\\n00"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"0 1001 ",
+						"0 0100 ",
+						"100 1001",
+						"1 0100 0",
+						"0100 100",
+						"0100 000",
+						"001 0100",
+						"000\\n000",
+						"000 0000",
+						"00 0000 ",
+						"0 0000\\n",
+						"0 0000 0",
+						" 0000 01",
+						" 0000 00",
+						"00\\n0000 ",
+						" 0000\\n00"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"0 1001 ",
+				"0 0100 ",
+				"100 1001",
+				"1 0100 0",
+				"0100 100",
+				"0100 000",
+				"001 0100",
+				"000\\n000",
+				"000 0000",
+				"00 0000 ",
+				"0 0000\\n",
+				"0 0000 0",
+				" 0000 01",
+				" 0000 00",
+				"00\\n0000 ",
 				" 0000\\n00"
 			]
 		}
