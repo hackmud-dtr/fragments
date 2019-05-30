@@ -1,21 +1,25 @@
 {
 	"_id": "uknown_ptxo4l.train",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "uknown_ptxo4l.train",
 	"sector": "SPC_6945",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559185917233,
+	"last_scraped": 1559217846206,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
+		},
+		{
+			"type": "died",
+			"when": 1559217846206
 		}
 	],
-	"updt": 1559186245643,
-	"edit": 18,
-	"next_scrape": 1559228658161,
+	"updt": 1559195111149,
+	"edit": 19,
+	"next_scrape": 1559305589714,
 	"category": "clicker",
 	"last_update": 1559185917233,
 	"output": [
@@ -450,5 +454,6 @@
 				" Byzanti"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_ptxo4l.train: script doesn't exist\"}"
 }
