@@ -1,26 +1,25 @@
 {
 	"_id": "abndnd_q3r0q4.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abndnd_q3r0q4.db",
 	"sector": "K_3429",
 	"sec_level": 4,
 	"date_added": 1559249328311,
-	"last_scraped": 1559250239069,
+	"last_scraped": 1559250449206,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559249328311
 		}
 	],
-	"scrape_ct": 2,
-	"next_scrape": 1559250299069,
+	"next_scrape": 1559292978201,
 	"category": "fishie_tank",
-	"last_update": 1559250239069,
+	"last_update": 1559250449206,
 	"output": [
 		{
 			"args": {},
-			"calls": 91335,
+			"calls": 110161,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"hen r",
@@ -30,13 +29,27 @@
 				"wo.\\n20B",
 				"um\\n20B5 ",
 				"f two.\\n2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"hen r",
+						"earest",
+						"ckers ",
+						" of tw",
+						"wo.\\n20B",
+						"um\\n20B5 ",
+						"f two.\\n2"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7108,
+			"calls": 8606,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -51,13 +64,27 @@
 				"wo.\\n20B",
 				"um\\n20B5 ",
 				"f two.\\n2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"hen r",
+						"earest",
+						"ckers ",
+						" of tw",
+						"wo.\\n20B",
+						"um\\n20B5 ",
+						"f two.\\n2"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 91288,
+			"calls": 109273,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"hen r",
@@ -67,9 +94,37 @@
 				"wo.\\n20B",
 				"um\\n20B5 ",
 				"f two.\\n2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"hen r",
+						"earest",
+						"ckers ",
+						" of tw",
+						"wo.\\n20B",
+						"um\\n20B5 ",
+						"f two.\\n2"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1559249807705,
-	"edit": 2
+	"updt": 1559250484705,
+	"edit": 4,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"hen r",
+				"earest",
+				"ckers ",
+				" of tw",
+				"wo.\\n20B",
+				"um\\n20B5 ",
+				"f two.\\n2"
+			]
+		}
+	]
 }
