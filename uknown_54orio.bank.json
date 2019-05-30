@@ -1,22 +1,26 @@
 {
 	"_id": "uknown_54orio.bank",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "uknown_54orio.bank",
 	"sector": "K_6371",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559168855454,
+	"last_scraped": 1559178399653,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
+		},
+		{
+			"type": "died",
+			"when": 1559178399653
 		}
 	],
-	"updt": 1559168883216,
-	"edit": 28,
+	"updt": 1559169333441,
+	"edit": 29,
 	"scrape_ct": 0,
-	"next_scrape": 1559168915454,
+	"next_scrape": 1559267336952,
 	"category": "dice_roller",
 	"last_update": 1559168855454,
 	"output": [
@@ -143,5 +147,6 @@
 				"\\n2161 di"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_54orio.bank: script doesn't exist\"}"
 }
