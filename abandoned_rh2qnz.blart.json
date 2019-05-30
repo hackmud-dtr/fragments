@@ -1,38 +1,44 @@
 {
 	"_id": "abandoned_rh2qnz.blart",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_rh2qnz.blart",
 	"sector": "K_8425",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559206307702,
+	"last_scraped": 1559233502616,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
+		},
+		{
+			"type": "died",
+			"when": 1559233502616
 		}
 	],
-	"updt": 1559184346163,
-	"edit": 28,
-	"next_scrape": 1559251545903,
+	"updt": 1559206535194,
+	"edit": 29,
+	"next_scrape": 1559322795730,
 	"category": "coin_flipper",
-	"last_update": 1559167694371,
+	"last_update": 1559206307702,
 	"output": [
 		{
 			"args": {},
-			"calls": 206692,
+			"calls": 216348,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
-				"ULLFIL",
-				"00 000",
-				"0 0001",
+				"ULLFILE",
 				"110 000",
+				"00 0110",
 				"1 0100 0",
 				"001 0100",
 				"0001 010",
 				"0000 011",
+				"000 0000",
+				"00 0000 ",
 				"0 0110 0",
+				"0 0001 0",
 				"0 0000 0",
 				" 0001 01",
 				" 0000 00",
@@ -46,15 +52,17 @@
 				{
 					"document": "NOT FOUND",
 					"frags": [
-						"ULLFIL",
-						"00 000",
-						"0 0001",
+						"ULLFILE",
 						"110 000",
+						"00 0110",
 						"1 0100 0",
 						"001 0100",
 						"0001 010",
 						"0000 011",
+						"000 0000",
+						"00 0000 ",
 						"0 0110 0",
+						"0 0001 0",
 						"0 0000 0",
 						" 0001 01",
 						" 0000 00",
@@ -72,15 +80,17 @@
 		{
 			"document": "NOT FOUND",
 			"frags": [
-				"ULLFIL",
-				"00 000",
-				"0 0001",
+				"ULLFILE",
 				"110 000",
+				"00 0110",
 				"1 0100 0",
 				"001 0100",
 				"0001 010",
 				"0000 011",
+				"000 0000",
+				"00 0000 ",
 				"0 0110 0",
+				"0 0001 0",
 				"0 0000 0",
 				" 0001 01",
 				" 0000 00",
@@ -91,5 +101,6 @@
 				"E\\n0000 0"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_rh2qnz.blart: script doesn't exist\"}"
 }
