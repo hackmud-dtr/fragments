@@ -1,19 +1,23 @@
 {
 	"_id": "anonymous_drwyl9.haunty_mall",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_drwyl9.haunty_mall",
 	"sector": "VNP_6121",
 	"sec_level": 4,
 	"date_added": 1558904171819,
-	"last_scraped": 1559102777808,
+	"last_scraped": 1559189188741,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558904171819
+		},
+		{
+			"type": "died",
+			"when": 1559189188741
 		}
 	],
-	"next_scrape": 1559146156676,
+	"next_scrape": 1559276741575,
 	"category": "fishie_tank",
 	"last_update": 1559102777808,
 	"output": [
@@ -279,8 +283,8 @@
 			]
 		}
 	],
-	"updt": 1559182061729,
-	"edit": 16,
+	"updt": 1559184216003,
+	"edit": 17,
 	"identified": [
 		{
 			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
@@ -322,5 +326,6 @@
 				" ## coul"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_drwyl9.haunty_mall: script doesn't exist\"}"
 }
