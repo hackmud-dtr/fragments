@@ -1,0 +1,115 @@
+{
+	"_id": "anon_ldax8s.corps",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anon_ldax8s.corps",
+	"sector": "K_5016",
+	"sec_level": 4,
+	"date_added": 1559179520004,
+	"last_scraped": 1559179549585,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1559179520004
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1559179609585,
+	"category": "fishie_tank",
+	"last_update": 1559179549585,
+	"output": [
+		{
+			"args": {},
+			"calls": 4568,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"LST0X",
+				"7A_SECT",
+				"XBF_CLST",
+				"LE0X2BC7",
+				"BF_CLST0"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"LST0X",
+						"7A_SECT",
+						"XBF_CLST",
+						"LE0X2BC7",
+						"BF_CLST0"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 970,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"LST0X",
+				"7A_SECT",
+				"XBF_CLST",
+				"LE0X2BC7",
+				"BF_CLST0"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"LST0X",
+						"7A_SECT",
+						"XBF_CLST",
+						"LE0X2BC7",
+						"BF_CLST0"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 9482,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"LST0X",
+				"7A_SECT",
+				"XBF_CLST",
+				"LE0X2BC7",
+				"BF_CLST0"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"LST0X",
+						"7A_SECT",
+						"XBF_CLST",
+						"LE0X2BC7",
+						"BF_CLST0"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"LST0X",
+				"7A_SECT",
+				"XBF_CLST",
+				"LE0X2BC7",
+				"BF_CLST0"
+			]
+		}
+	]
+}
