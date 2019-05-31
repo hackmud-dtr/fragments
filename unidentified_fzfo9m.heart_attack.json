@@ -1,26 +1,25 @@
 {
 	"_id": "unidentified_fzfo9m.heart_attack",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "unidentified_fzfo9m.heart_attack",
 	"sector": "K_3429",
 	"sec_level": 4,
 	"date_added": 1559276569397,
-	"last_scraped": 1559277459410,
+	"last_scraped": 1559304708341,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559276569397
 		}
 	],
-	"scrape_ct": 0,
-	"next_scrape": 1559277519410,
+	"next_scrape": 1559350024659,
 	"category": "fishie_tank",
-	"last_update": 1559277459410,
+	"last_update": 1559304708341,
 	"output": [
 		{
 			"args": {},
-			"calls": 90207,
+			"calls": 109287,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"SER e",
@@ -30,13 +29,27 @@
 				" USER ",
 				"0X87AF1",
 				" PROG E"
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"SER e",
+						"LST0X",
+						"ILE0X8",
+						"E\\nSYS",
+						" USER ",
+						"0X87AF1",
+						" PROG E"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7658,
+			"calls": 9035,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -51,13 +64,27 @@
 				" USER ",
 				"0X87AF1",
 				" PROG E"
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"SER e",
+						"LST0X",
+						"ILE0X8",
+						"E\\nSYS",
+						" USER ",
+						"0X87AF1",
+						" PROG E"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 103460,
+			"calls": 124499,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"SER e",
@@ -67,9 +94,37 @@
 				" USER ",
 				"0X87AF1",
 				" PROG E"
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"SER e",
+						"LST0X",
+						"ILE0X8",
+						"E\\nSYS",
+						" USER ",
+						"0X87AF1",
+						" PROG E"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1559277305401,
-	"edit": 4
+	"updt": 1559277982204,
+	"edit": 7,
+	"identified": [
+		{
+			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+			"frags": [
+				"SER e",
+				"LST0X",
+				"ILE0X8",
+				"E\\nSYS",
+				" USER ",
+				"0X87AF1",
+				" PROG E"
+			]
+		}
+	]
 }
