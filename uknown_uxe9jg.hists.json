@@ -6,43 +6,69 @@
 	"sector": "K_6934",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559265455123,
+	"last_scraped": 1559292943152,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559237635878,
-	"edit": 31,
-	"next_scrape": 1559312197900,
+	"updt": 1559265584773,
+	"edit": 32,
+	"next_scrape": 1559334291975,
 	"category": "coin_flipper",
-	"last_update": 1559265455123,
+	"last_update": 1559292943152,
 	"output": [
 		{
 			"args": {},
-			"calls": 237481,
+			"calls": 247116,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
-				"_SECT",
 				"T0X1F",
 				"T0X13",
+				"3_SEC",
 				"23E_F",
-				"E0X528",
+				"\\nSYST",
+				"5282A9",
+				" | TIM",
 				"| TIME ",
+				"_SECT0X",
+				"PROG ER",
 				"OR | PR",
 				"OR | NE",
+				"E0X5282",
+				"SYST ERR",
+				"0X1F_CLS",
 				" ERROR |"
 			],
 			"hits": [
 				{
 					"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
 					"frags": [
-						"_SECT",
 						"T0X1F",
+						"\\nSYST",
+						" | TIM",
 						"| TIME ",
+						"_SECT0X",
+						"PROG ER",
 						"OR | PR",
 						"OR | NE",
+						"SYST ERR",
+						" ERROR |"
+					]
+				},
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"3_SEC",
+						"\\nSYST",
+						" | TIM",
+						"| TIME ",
+						"_SECT0X",
+						"PROG ER",
+						"OR | PR",
+						"OR | NE",
+						"SYST ERR",
 						" ERROR |"
 					]
 				},
@@ -51,7 +77,9 @@
 					"frags": [
 						"T0X13",
 						"23E_F",
-						"E0X528"
+						"5282A9",
+						"E0X5282",
+						"0X1F_CLS"
 					]
 				}
 			]
@@ -61,11 +89,30 @@
 		{
 			"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
 			"frags": [
-				"_SECT",
 				"T0X1F",
+				"\\nSYST",
+				" | TIM",
 				"| TIME ",
+				"_SECT0X",
+				"PROG ER",
 				"OR | PR",
 				"OR | NE",
+				"SYST ERR",
+				" ERROR |"
+			]
+		},
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				"3_SEC",
+				"\\nSYST",
+				" | TIM",
+				"| TIME ",
+				"_SECT0X",
+				"PROG ER",
+				"OR | PR",
+				"OR | NE",
+				"SYST ERR",
 				" ERROR |"
 			]
 		},
@@ -74,7 +121,9 @@
 			"frags": [
 				"T0X13",
 				"23E_F",
-				"E0X528"
+				"5282A9",
+				"E0X5282",
+				"0X1F_CLS"
 			]
 		}
 	]
