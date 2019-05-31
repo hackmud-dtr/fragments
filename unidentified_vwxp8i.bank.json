@@ -1,26 +1,25 @@
 {
 	"_id": "unidentified_vwxp8i.bank",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "unidentified_vwxp8i.bank",
 	"sector": "K_3429",
 	"sec_level": 4,
 	"date_added": 1559279739654,
-	"last_scraped": 1559279968845,
+	"last_scraped": 1559280809443,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559279739654
 		}
 	],
-	"scrape_ct": 15,
-	"next_scrape": 1559280028845,
+	"next_scrape": 1559324046063,
 	"category": "fishie_tank",
-	"last_update": 1559279968845,
+	"last_update": 1559280809443,
 	"output": [
 		{
 			"args": {},
-			"calls": 28299,
+			"calls": 100478,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"t theo",
@@ -34,13 +33,31 @@
 				"tablish ",
 				"should w",
 				"r 'const"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"t theo",
+						"nstruc",
+						"etical",
+						"en 'tr",
+						"uld we ",
+						"sh a qu",
+						"e disti",
+						" establ",
+						"tablish ",
+						"should w",
+						"r 'const"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2547,
+			"calls": 8165,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -59,13 +76,31 @@
 				"tablish ",
 				"should w",
 				"r 'const"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"t theo",
+						"nstruc",
+						"etical",
+						"en 'tr",
+						"uld we ",
+						"sh a qu",
+						"e disti",
+						" establ",
+						"tablish ",
+						"should w",
+						"r 'const"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 30564,
+			"calls": 104101,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"t theo",
@@ -79,9 +114,45 @@
 				"tablish ",
 				"should w",
 				"r 'const"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"t theo",
+						"nstruc",
+						"etical",
+						"en 'tr",
+						"uld we ",
+						"sh a qu",
+						"e disti",
+						" establ",
+						"tablish ",
+						"should w",
+						"r 'const"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1559279784946,
-	"edit": 1
+	"updt": 1559280685179,
+	"edit": 4,
+	"identified": [
+		{
+			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+			"frags": [
+				"t theo",
+				"nstruc",
+				"etical",
+				"en 'tr",
+				"uld we ",
+				"sh a qu",
+				"e disti",
+				" establ",
+				"tablish ",
+				"should w",
+				"r 'const"
+			]
+		}
+	]
 }
