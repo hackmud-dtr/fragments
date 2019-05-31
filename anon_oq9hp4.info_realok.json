@@ -6,16 +6,16 @@
 	"sector": "VNP_7259",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559239084267,
+	"last_scraped": 1559266935302,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559211939200,
-	"edit": 19,
-	"next_scrape": 1559281062984,
+	"updt": 1559239214101,
+	"edit": 20,
+	"next_scrape": 1559309407604,
 	"category": "fishie_tank",
 	"last_update": 1559239084267,
 	"output": [
@@ -132,6 +132,14 @@
 				" ERROR ",
 				"ROR | PR"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
