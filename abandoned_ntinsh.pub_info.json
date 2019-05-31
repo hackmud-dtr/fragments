@@ -6,22 +6,22 @@
 	"sector": "K_9730",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559269756299,
+	"last_scraped": 1559297144672,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559241922644,
-	"edit": 20,
-	"next_scrape": 1559313943366,
+	"updt": 1559269868337,
+	"edit": 21,
+	"next_scrape": 1559343328310,
 	"category": "fishie_tank",
-	"last_update": 1559269756299,
+	"last_update": 1559297144672,
 	"output": [
 		{
 			"args": {},
-			"calls": 147806,
+			"calls": 156656,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"king f",
@@ -111,6 +111,14 @@
 				"Deal 3 ",
 				"203F :)\\n"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
