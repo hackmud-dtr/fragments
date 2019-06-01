@@ -1,26 +1,34 @@
 {
 	"_id": "anonymous_yjlt3c.bublic",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "anonymous_yjlt3c.bublic",
 	"sector": "K_3296",
 	"sec_level": 4,
 	"date_added": 1559390519384,
-	"last_scraped": 1559392250617,
+	"last_scraped": 1559392352083,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559390519384
+		},
+		{
+			"type": "died",
+			"when": 1559392352083
+		},
+		{
+			"type": "died",
+			"when": 1559392374980
 		}
 	],
 	"scrape_ct": 0,
-	"next_scrape": 1559392310617,
+	"next_scrape": 1559472442889,
 	"category": "dice_roller",
-	"last_update": 1559392180443,
+	"last_update": 1559392250617,
 	"output": [
 		{
 			"args": {},
-			"calls": 187598,
+			"calls": 196229,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
 				"## pas",
@@ -30,6 +38,7 @@
 				"re annoy",
 				"rases ar",
 				"passphra",
+				"hrases a",
 				"es are a",
 				"assphras",
 				"ases are",
@@ -43,17 +52,18 @@
 					"document": "Passphrase",
 					"frags": [
 						"## pas",
-						"nnoying",
 						"# passp",
 						" passph",
 						"sphrases",
 						"re annoy",
 						"rases ar",
 						"passphra",
+						"hrases a",
 						"es are a",
 						"assphras",
 						"ases are",
 						"are anno",
+						"annoying",
 						" are ann",
 						" annoyin"
 					]
@@ -68,20 +78,22 @@
 			"document": "Passphrase",
 			"frags": [
 				"## pas",
-				"nnoying",
 				"# passp",
 				" passph",
 				"sphrases",
 				"re annoy",
 				"rases ar",
 				"passphra",
+				"hrases a",
 				"es are a",
 				"assphras",
 				"ases are",
 				"are anno",
+				"annoying",
 				" are ann",
 				" annoyin"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_yjlt3c.bublic: script doesn't exist\"}"
 }
