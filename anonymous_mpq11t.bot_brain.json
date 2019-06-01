@@ -6,22 +6,22 @@
 	"sector": "K_6371",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559407019931,
+	"last_scraped": 1559432803133,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559380760343,
-	"edit": 25,
-	"next_scrape": 1559449546929,
+	"updt": 1559407122265,
+	"edit": 26,
+	"next_scrape": 1559479278276,
 	"category": "fishie_tank",
-	"last_update": 1559407019931,
+	"last_update": 1559432803133,
 	"output": [
 		{
 			"args": {},
-			"calls": 184999,
+			"calls": 195065,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"oducti",
@@ -251,6 +251,11 @@
 				" Miyawak",
 				" Iona Mi"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
