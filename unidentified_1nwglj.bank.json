@@ -1,21 +1,29 @@
 {
 	"_id": "unidentified_1nwglj.bank",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unidentified_1nwglj.bank",
 	"sector": "K_8915",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559380902049,
+	"last_scraped": 1559407330818,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
+		},
+		{
+			"type": "died",
+			"when": 1559407330818
+		},
+		{
+			"type": "died",
+			"when": 1559407405492
 		}
 	],
-	"updt": 1559380986769,
-	"edit": 38,
-	"next_scrape": 1559423170039,
+	"updt": 1559407347537,
+	"edit": 40,
+	"next_scrape": 1559489529089,
 	"category": "dice_roller",
 	"last_update": 1559380902049,
 	"output": [
@@ -202,5 +210,6 @@
 				" - are f"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_1nwglj.bank: script doesn't exist\"}"
 }
