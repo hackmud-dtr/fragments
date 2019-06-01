@@ -6,22 +6,22 @@
 	"sector": "K_6531",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559394752186,
+	"last_scraped": 1559420856213,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559368595563,
-	"edit": 23,
-	"next_scrape": 1559440316788,
+	"updt": 1559394955385,
+	"edit": 24,
+	"next_scrape": 1559461181108,
 	"category": "fishie_tank",
-	"last_update": 1559394752186,
+	"last_update": 1559420856213,
 	"output": [
 		{
 			"args": {},
-			"calls": 191586,
+			"calls": 202514,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" Atta",
@@ -132,6 +132,14 @@
 				"tay in t",
 				"defender"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
