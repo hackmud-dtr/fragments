@@ -3,19 +3,31 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "derelict_9vq2f6.extern_ejoukc",
-	"sector": "HJG_0763",
+	"sector": "NGC_3568",
 	"sec_level": 1,
 	"date_added": 1558821408422,
-	"last_scraped": 1559367682612,
+	"last_scraped": 1559377679517,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
-		}
+		},
+		{
+			"type": "died",
+			"when": 1559377344728
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1559377569872,
+				"from": "NGC_3568",
+				"to": "HJG_0763"
+			}
+		]
 	],
-	"updt": 1559339522808,
-	"edit": 13,
+	"updt": 1559377608174,
+	"edit": 16,
 	"output": "getWhitelist(...).includes is not a function",
-	"next_scrape": 1559458678802,
+	"next_scrape": 1559460776903,
 	"pl_output": "getWhitelist(...).includes is not a function"
 }

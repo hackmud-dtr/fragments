@@ -3,19 +3,31 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "derelict_9vq2f6.grimoire",
-	"sector": "VNP_3783",
+	"sector": "K_3296",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559354947664,
+	"last_scraped": 1559377670583,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
-		}
+		},
+		{
+			"type": "died",
+			"when": 1559377503882
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1559377569872,
+				"from": "K_3296",
+				"to": "VNP_3783"
+			}
+		]
 	],
-	"updt": 1559328481750,
-	"edit": 13,
+	"updt": 1559377608174,
+	"edit": 15,
 	"output": "getWhitelist(...).includes is not a function",
-	"next_scrape": 1559434552431,
+	"next_scrape": 1559461191943,
 	"pl_output": "getWhitelist(...).includes is not a function"
 }

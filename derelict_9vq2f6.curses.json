@@ -1,21 +1,34 @@
 {
 	"_id": "derelict_9vq2f6.curses",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "derelict_9vq2f6.curses",
-	"sector": "VNP_3783",
+	"sector": "K_3296",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559354927352,
+	"last_scraped": 1559377639511,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
-		}
+		},
+		{
+			"type": "died",
+			"when": 1559377503882
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1559377569872,
+				"from": "K_3296",
+				"to": "VNP_3783"
+			}
+		]
 	],
-	"updt": 1559328481750,
-	"edit": 13,
+	"updt": 1559377608174,
+	"edit": 15,
 	"output": "Usage:\n\t Include in another script to get the functions listed here: `Phttps://tinyurl.​com/curses-doc`\n\t Find an example usage (Hello World) here: `Phttps://tinyurl.​com/curses-hello-world`\n\nArgs:\n\tTAB_SPACES: 4 // Change the number of spaces that it uses as tabs. Defaults to 4.",
-	"next_scrape": 1559439340458,
-	"pl_output": "Usage:\n\t Include in another script to get the functions listed here: `Phttps://tinyurl.​com/curses-doc`\n\t Find an example usage (Hello World) here: `Phttps://tinyurl.​com/curses-hello-world`\n\nArgs:\n\tTAB_SPACES: 4 // Change the number of spaces that it uses as tabs. Defaults to 4."
+	"next_scrape": 1559377699511,
+	"pl_output": "Usage:\n\t Include in another script to get the functions listed here: `Phttps://tinyurl.​com/curses-doc`\n\t Find an example usage (Hello World) here: `Phttps://tinyurl.​com/curses-hello-world`\n\nArgs:\n\tTAB_SPACES: 4 // Change the number of spaces that it uses as tabs. Defaults to 4.",
+	"scrape_ct": 16
 }
