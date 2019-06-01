@@ -1,26 +1,25 @@
 {
 	"_id": "derelict_3bnhol.db_query",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "derelict_3bnhol.db_query",
 	"sector": "K_3296",
 	"sec_level": 4,
 	"date_added": 1559378890462,
-	"last_scraped": 1559379591466,
+	"last_scraped": 1559380412774,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559378890462
 		}
 	],
-	"scrape_ct": 9,
-	"next_scrape": 1559379651466,
+	"next_scrape": 1559422821079,
 	"category": "coin_flipper",
-	"last_update": 1559379591466,
+	"last_update": 1559380412774,
 	"output": [
 		{
 			"args": {},
-			"calls": 129853,
+			"calls": 231851,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"00 01",
@@ -30,9 +29,37 @@
 				"100 0011",
 				"000 0000",
 				"00 0000 "
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"00 01",
+						"0 010",
+						"000\\n0",
+						"0000 00",
+						"100 0011",
+						"000 0000",
+						"00 0000 "
+					]
+				}
 			]
 		}
 	],
-	"updt": 1559379410314,
-	"edit": 3
+	"updt": 1559380311340,
+	"edit": 7,
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"00 01",
+				"0 010",
+				"000\\n0",
+				"0000 00",
+				"100 0011",
+				"000 0000",
+				"00 0000 "
+			]
+		}
+	]
 }
