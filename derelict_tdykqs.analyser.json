@@ -6,35 +6,39 @@
 	"sector": "NGC_9559",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559396703218,
+	"last_scraped": 1559422877924,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559370847721,
-	"edit": 27,
-	"next_scrape": 1559440168232,
+	"updt": 1559396758259,
+	"edit": 28,
+	"next_scrape": 1559469541830,
 	"category": "fishie_tank",
-	"last_update": 1559396703218,
+	"last_update": 1559422877924,
 	"output": [
 		{
 			"args": {},
-			"calls": 194856,
+			"calls": 204233,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"-cultu",
-				" road ",
+				"in, bu",
 				" down ",
 				"wn the ",
+				"ulture/",
 				"ture ro",
 				"to go d",
-				"igh-cul",
+				"h-cultu",
 				"ad agai",
+				" road a",
 				"want to ",
 				"road aga",
+				"re road ",
 				"n the lo",
+				"igh-cult",
+				"/high-cu",
 				" go down",
 				" again, "
 			],
@@ -167,6 +171,11 @@
 				" go down",
 				" again, "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
