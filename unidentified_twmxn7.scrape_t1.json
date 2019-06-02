@@ -1,0 +1,72 @@
+{
+	"_id": "unidentified_twmxn7.scrape_t1",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unidentified_twmxn7.scrape_t1",
+	"sector": "VNP_3574",
+	"sec_level": 4,
+	"date_added": 1559434943592,
+	"last_scraped": 1559435215135,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1559434943592
+		}
+	],
+	"scrape_ct": 14,
+	"next_scrape": 1559435275135,
+	"category": "fishie_tank",
+	"last_update": 1559435215135,
+	"output": [
+		{
+			"args": {},
+			"calls": 32568,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"e prog",
+				"o focus",
+				"I just ",
+				" but I ",
+				"window a",
+				"ess that"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2302,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"e prog",
+				"o focus",
+				"I just ",
+				" but I ",
+				"window a",
+				"ess that"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 23818,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"e prog",
+				"o focus",
+				"I just ",
+				" but I ",
+				"window a",
+				"ess that"
+			]
+		}
+	],
+	"updt": 1559435072665,
+	"edit": 1
+}
