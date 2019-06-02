@@ -1,27 +1,27 @@
 {
 	"_id": "unidentified_64i11l.bank_related_sorcery",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_64i11l.bank_related_sorcery",
 	"sector": "VNP_3643",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559418966015,
+	"last_scraped": 1559448492152,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559392927199,
-	"edit": 28,
-	"next_scrape": 1559465204595,
+	"updt": 1559419062364,
+	"edit": 29,
+	"next_scrape": 1559492326911,
 	"category": "fishie_tank",
-	"last_update": 1559418966015,
+	"last_update": 1559448510596,
 	"output": [
 		{
 			"args": {},
-			"calls": 197340,
+			"calls": 216813,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"next?",
@@ -69,7 +69,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 16946,
+			"calls": 18486,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -188,6 +188,11 @@
 				"2094 No ",
 				"xt?\\n209B"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
