@@ -1,26 +1,25 @@
 {
 	"_id": "abndnd_u7r9p9.bot_highsec",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abndnd_u7r9p9.bot_highsec",
 	"sector": "K_3966",
 	"sec_level": 4,
 	"date_added": 1559503496275,
-	"last_scraped": 1559503806114,
+	"last_scraped": 1559504236227,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559503496275
 		}
 	],
-	"scrape_ct": 11,
-	"next_scrape": 1559503866114,
+	"next_scrape": 1559549105828,
 	"category": "clicker",
-	"last_update": 1559503806114,
+	"last_update": 1559504236227,
 	"output": [
 		{
 			"args": {},
-			"calls": 31599,
+			"calls": 70081,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"NULLFIL",
@@ -46,7 +45,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 28138,
+			"calls": 80282,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"NULLFIL",
@@ -72,7 +71,7 @@
 			"args": {
 				"CLICK": true
 			},
-			"calls": 2308,
+			"calls": 8214,
 			"base": "`LCLI00000CURED`",
 			"fragments": [
 				"C0 0000",
@@ -179,54 +178,84 @@
 				"000 00K SEC",
 				"0 0001 0SEC",
 				"0 0000K SEC"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"C0 ",
+						"000 00C",
+						"NULLFILC",
+						"CNULLFIL",
+						"CK0 0000",
+						"000 00EC",
+						"NULLFILEC",
+						"CKNULLFIL",
+						"CK 0 0000",
+						"CILE\\n000",
+						"000 00SEC",
+						"0 0001 0C",
+						"NULLFILSEC",
+						"CKILE\\n000",
+						"CK0 0001 0",
+						"CK S0001 0",
+						"CK S000 00",
+						"CK S0 0000",
+						"CK NULLFIL",
+						"0001 0 SEC",
+						"000 00 SEC",
+						"0 0001 0EC",
+						"0 0000 SEC",
+						"NULLFIL SEC",
+						"0001 0K SEC",
+						"000 00K SEC",
+						"0 0001 0SEC",
+						"0 0000K SEC"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1559503588228,
-	"edit": 1,
+	"updt": 1559503814202,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "NOT FOUND",
 			"frags": [
 				"C0 0000",
-				"000 00E",
-				"NULLFILE",
+				"000 00C",
+				"NULLFILC",
 				"CNULLFIL",
 				"CK0 0000",
 				"0000 000",
-				"000 00SE",
+				"000 00EC",
 				"000 0000",
-				"NULLFILSE",
+				"NULLFILEC",
 				"CKNULLFIL",
 				"CK 0001 0",
 				"CK 000 00",
 				"CK 0 0000",
 				"CILE\\n000",
 				"C0 0001 0",
-				"0001 0 SE",
-				"000 00 SE",
-				"0 0001 0E",
-				"0 0000 SE",
-				"NULLFIL SE",
+				"000 00SEC",
+				"0 0001 0C",
+				"NULLFILSEC",
 				"CKILE\\n000",
 				"CK0 0001 0",
 				"CK S0001 0",
 				"CK S000 00",
 				"CK S0 0000",
 				"CK NULLFIL",
-				"0001 0K SE",
-				"000 00K SE",
-				"0 0001 0SE",
-				"0 0000K SE"
+				"0001 0 SEC",
+				"000 00 SEC",
+				"0 0001 0EC",
+				"0 0000 SEC",
+				"NULLFIL SEC",
+				"0001 0K SEC",
+				"000 00K SEC",
+				"0 0001 0SEC",
+				"0 0000K SEC"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"click": true
-		},
-		{
-			"CLICK": true
 		}
 	]
 }
