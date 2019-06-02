@@ -1,25 +1,26 @@
 {
 	"_id": "unidentified_twmxn7.scrape_t1",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "unidentified_twmxn7.scrape_t1",
 	"sector": "VNP_3574",
 	"sec_level": 4,
 	"date_added": 1559434943592,
-	"last_scraped": 1559436113701,
+	"last_scraped": 1559435434053,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559434943592
 		}
 	],
-	"next_scrape": 1559475860328,
+	"scrape_ct": 10,
+	"next_scrape": 1559435494053,
 	"category": "fishie_tank",
-	"last_update": 1559436113701,
+	"last_update": 1559435434053,
 	"output": [
 		{
 			"args": {},
-			"calls": 100115,
+			"calls": 52946,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"e prog",
@@ -28,26 +29,13 @@
 				" but I ",
 				"window a",
 				"ess that"
-			],
-			"hits": [
-				{
-					"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
-					"frags": [
-						"e prog",
-						"o focus",
-						"I just ",
-						" but I ",
-						"window a",
-						"ess that"
-					]
-				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 9134,
+			"calls": 4228,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -61,26 +49,13 @@
 				" but I ",
 				"window a",
 				"ess that"
-			],
-			"hits": [
-				{
-					"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
-					"frags": [
-						"e prog",
-						"o focus",
-						"I just ",
-						" but I ",
-						"window a",
-						"ess that"
-					]
-				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 111084,
+			"calls": 48020,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"e prog",
@@ -89,35 +64,9 @@
 				" but I ",
 				"window a",
 				"ess that"
-			],
-			"hits": [
-				{
-					"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
-					"frags": [
-						"e prog",
-						"o focus",
-						"I just ",
-						" but I ",
-						"window a",
-						"ess that"
-					]
-				}
 			]
 		}
 	],
-	"updt": 1559435522654,
-	"edit": 3,
-	"identified": [
-		{
-			"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
-			"frags": [
-				"e prog",
-				"o focus",
-				"I just ",
-				" but I ",
-				"window a",
-				"ess that"
-			]
-		}
-	]
+	"updt": 1559435297622,
+	"edit": 2
 }
