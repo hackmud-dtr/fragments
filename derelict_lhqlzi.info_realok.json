@@ -1,26 +1,25 @@
 {
 	"_id": "derelict_lhqlzi.info_realok",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "derelict_lhqlzi.info_realok",
 	"sector": "K_3966",
 	"sec_level": 4,
 	"date_added": 1559493940102,
-	"last_scraped": 1559494791252,
+	"last_scraped": 1559495011474,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559493940102
 		}
 	],
-	"scrape_ct": 2,
-	"next_scrape": 1559494851252,
+	"next_scrape": 1559536959418,
 	"category": "fishie_tank",
-	"last_update": 1559494781723,
+	"last_update": 1559495011474,
 	"output": [
 		{
 			"args": {},
-			"calls": 82023,
+			"calls": 103164,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"lory ",
@@ -50,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6860,
+			"calls": 9381,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -85,7 +84,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 77314,
+			"calls": 110857,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"lory ",
