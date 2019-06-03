@@ -1,25 +1,25 @@
 {
 	"_id": "unknown_fnbcbj.hack",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_fnbcbj.hack",
 	"sector": "VNP_4735",
 	"sec_level": 4,
 	"date_added": 1558995750910,
-	"last_scraped": 1559546563121,
+	"last_scraped": 1559572586315,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558995750910
 		}
 	],
-	"next_scrape": 1559589013273,
+	"next_scrape": 1559618574241,
 	"category": "fishie_tank",
-	"last_update": 1559546563121,
+	"last_update": 1559572625891,
 	"output": [
 		{
 			"args": {},
-			"calls": 226295,
+			"calls": 235456,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"unny_",
@@ -59,7 +59,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 19344,
+			"calls": 22888,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -141,8 +141,8 @@
 			]
 		}
 	],
-	"updt": 1559503362547,
-	"edit": 28,
+	"updt": 1559546625702,
+	"edit": 29,
 	"identified": [
 		{
 			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
@@ -160,6 +160,11 @@
 				"_ico> <b",
 				" <bat_ic"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
