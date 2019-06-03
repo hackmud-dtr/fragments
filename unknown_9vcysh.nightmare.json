@@ -1,27 +1,27 @@
 {
 	"_id": "unknown_9vcysh.nightmare",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_9vcysh.nightmare",
 	"sector": "K_6032",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559524613994,
+	"last_scraped": 1559551786157,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559483753325,
-	"edit": 29,
-	"next_scrape": 1559564858703,
+	"updt": 1559524764247,
+	"edit": 30,
+	"next_scrape": 1559596961603,
 	"category": "fishie_tank",
-	"last_update": 1559524613994,
+	"last_update": 1559551816310,
 	"output": [
 		{
 			"args": {},
-			"calls": 233271,
+			"calls": 244978,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"0F3 di",
@@ -49,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 19214,
+			"calls": 21231,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -118,6 +118,11 @@
 				"attacker",
 				"0F4 alon"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
