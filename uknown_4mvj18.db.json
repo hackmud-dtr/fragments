@@ -6,18 +6,18 @@
 	"sector": "VNP_9857",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559609521320,
+	"last_scraped": 1559609500910,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559609507339,
-	"edit": 32,
-	"next_scrape": 1559652542091,
+	"updt": 1559581102581,
+	"edit": 31,
+	"next_scrape": 1559652797961,
 	"category": "fishie_tank",
-	"last_update": 1559609521320,
+	"last_update": 1559609500910,
 	"output": [
 		{
 			"args": {},
@@ -51,7 +51,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 22732,
+			"calls": 21873,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -86,7 +86,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 241176,
+			"calls": 231658,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"Mallo",
@@ -125,6 +125,14 @@
 				"ont of y",
 				"Yes, Mal"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
