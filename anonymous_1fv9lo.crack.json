@@ -6,25 +6,28 @@
 	"sector": "SPC_1668",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559605790020,
+	"last_scraped": 1559631579378,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"next_scrape": 1559648527048,
+	"next_scrape": 1559676343426,
 	"category": "fishie_tank",
-	"last_update": 1559605790020,
+	"last_update": 1559631579378,
 	"output": [
 		{
 			"args": {},
-			"calls": 264140,
+			"calls": 275334,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"0100 0",
+				"0000\\n0",
+				"0000 00",
 				"000 000",
 				"00 0000",
+				"00\\n0000",
 				"000 0100",
 				"0 0000 0"
 			],
@@ -33,8 +36,11 @@
 					"document": "NOT FOUND",
 					"frags": [
 						"0100 0",
+						"0000\\n0",
+						"0000 00",
 						"000 000",
 						"00 0000",
+						"00\\n0000",
 						"000 0100",
 						"0 0000 0"
 					]
@@ -45,7 +51,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 21905,
+			"calls": 22425,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -54,8 +60,11 @@
 			],
 			"fragments": [
 				"0100 0",
+				"0000\\n0",
+				"0000 00",
 				"000 000",
 				"00 0000",
+				"00\\n0000",
 				"000 0100",
 				"0 0000 0"
 			],
@@ -64,8 +73,11 @@
 					"document": "NOT FOUND",
 					"frags": [
 						"0100 0",
+						"0000\\n0",
+						"0000 00",
 						"000 000",
 						"00 0000",
+						"00\\n0000",
 						"000 0100",
 						"0 0000 0"
 					]
@@ -76,12 +88,15 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 245211,
+			"calls": 253092,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"0100 0",
+				"0000\\n0",
+				"0000 00",
 				"000 000",
 				"00 0000",
+				"00\\n0000",
 				"000 0100",
 				"0 0000 0"
 			],
@@ -90,8 +105,11 @@
 					"document": "NOT FOUND",
 					"frags": [
 						"0100 0",
+						"0000\\n0",
+						"0000 00",
 						"000 000",
 						"00 0000",
+						"00\\n0000",
 						"000 0100",
 						"0 0000 0"
 					]
@@ -99,15 +117,18 @@
 			]
 		}
 	],
-	"updt": 1559576816891,
-	"edit": 35,
+	"updt": 1559631599505,
+	"edit": 37,
 	"identified": [
 		{
 			"document": "NOT FOUND",
 			"frags": [
 				"0100 0",
+				"0000\\n0",
+				"0000 00",
 				"000 000",
 				"00 0000",
+				"00\\n0000",
 				"000 0100",
 				"0 0000 0"
 			]
