@@ -6,16 +6,16 @@
 	"sector": "K_8824",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559581748830,
+	"last_scraped": 1559610181488,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559554737057,
-	"edit": 34,
-	"next_scrape": 1559622540086,
+	"updt": 1559581780142,
+	"edit": 35,
+	"next_scrape": 1559656859519,
 	"category": "fishie_tank",
 	"last_update": 1559581748830,
 	"output": [
@@ -125,6 +125,14 @@
 				". Goodby",
 				" Mallory"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
