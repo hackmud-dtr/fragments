@@ -1,0 +1,95 @@
+{
+	"_id": "unknown_063m0j.yah_db",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unknown_063m0j.yah_db",
+	"sector": "K_7641",
+	"sec_level": 4,
+	"date_added": 1559677575109,
+	"last_scraped": 1559677804588,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1559677575109
+		}
+	],
+	"updt": 1559677592073,
+	"edit": 1,
+	"scrape_ct": 16,
+	"next_scrape": 1559677864588,
+	"category": "fishie_tank",
+	"last_update": 1559677804588,
+	"output": [
+		{
+			"args": {},
+			"calls": 31384,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"rial, ",
+				"d with",
+				" mater",
+				"materia",
+				"vailable",
+				"t they d",
+				"ith avai",
+				"it's wha",
+				"ey do. S",
+				"aterial,",
+				"ailable ",
+				" what th"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1482,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"rial, ",
+				"d with",
+				" mater",
+				"materia",
+				"vailable",
+				"t they d",
+				"ith avai",
+				"it's wha",
+				"ey do. S",
+				"aterial,",
+				"ailable ",
+				" what th"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 21834,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"rial, ",
+				"d with",
+				" mater",
+				"materia",
+				"vailable",
+				"t they d",
+				"ith avai",
+				"it's wha",
+				"ey do. S",
+				"aterial,",
+				"ailable ",
+				" what th"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
