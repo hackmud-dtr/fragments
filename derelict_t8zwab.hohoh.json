@@ -1,27 +1,27 @@
 {
 	"_id": "derelict_t8zwab.hohoh",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_t8zwab.hohoh",
 	"sector": "K_4581",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559639243706,
+	"last_scraped": 1559673863568,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559612888944,
-	"edit": 33,
-	"next_scrape": 1559680463053,
+	"updt": 1559639262293,
+	"edit": 34,
+	"next_scrape": 1559720025375,
 	"category": "fishie_tank",
-	"last_update": 1559639243706,
+	"last_update": 1559673881608,
 	"output": [
 		{
 			"args": {},
-			"calls": 261704,
+			"calls": 279267,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ETW ER",
@@ -49,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 22575,
+			"calls": 24201,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -118,6 +118,11 @@
 				" | PROG",
 				" ERROR |"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
