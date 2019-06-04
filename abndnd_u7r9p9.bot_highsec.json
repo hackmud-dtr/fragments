@@ -1,32 +1,36 @@
 {
 	"_id": "abndnd_u7r9p9.bot_highsec",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abndnd_u7r9p9.bot_highsec",
 	"sector": "K_3966",
 	"sec_level": 4,
 	"date_added": 1559503496275,
-	"last_scraped": 1559628718211,
+	"last_scraped": 1559663626763,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559503496275
 		}
 	],
-	"next_scrape": 1559675484913,
+	"next_scrape": 1559748952599,
 	"category": "clicker",
-	"last_update": 1559628718211,
+	"last_update": 1559663616891,
 	"output": [
 		{
 			"args": {},
-			"calls": 112287,
+			"calls": 122002,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
+				"100 00",
+				"1 0100",
+				"01 010",
 				"NULLFIL",
 				"ILE\\n000",
 				"0000 000",
 				"000 0000",
-				"0 0001 0"
+				"0 0001 0",
+				" 0000 01"
 			],
 			"hits": [
 				{
@@ -45,14 +49,18 @@
 			"args": {
 				"click": true
 			},
-			"calls": 125669,
+			"calls": 130478,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
+				"100 00",
+				"1 0100",
+				"01 010",
 				"NULLFIL",
 				"ILE\\n000",
 				"0000 000",
 				"000 0000",
-				"0 0001 0"
+				"0 0001 0",
+				" 0000 01"
 			],
 			"hits": [
 				{
@@ -216,8 +224,8 @@
 			]
 		}
 	],
-	"updt": 1559602520474,
-	"edit": 6,
+	"updt": 1559663614827,
+	"edit": 8,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -257,5 +265,6 @@
 				"0 0000K SEC"
 			]
 		}
-	]
+	],
+	"pl_output": "`LCLI00000CURED`"
 }
