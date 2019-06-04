@@ -6,26 +6,21 @@
 	"sector": "K_7641",
 	"sec_level": 4,
 	"date_added": 1559684979653,
-	"last_scraped": 1559685009684,
+	"last_scraped": 1559685860159,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559684979653
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1559685069684,
+	"scrape_ct": 3,
+	"next_scrape": 1559685920159,
 	"category": "fishie_tank",
-	"last_update": 1559685019140,
+	"last_update": 1559685860159,
 	"output": [
 		{
 			"args": {},
-			"calls": 11827,
+			"calls": 82101,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"estio",
@@ -37,13 +32,29 @@
 				"have\\n1E",
 				"?\\n1E43 ",
 				"I have\\n1"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"estio",
+						"a que",
+						"3 I s",
+						"e not.",
+						"1E43 I ",
+						" one?\\n",
+						"have\\n1E",
+						"?\\n1E43 ",
+						"I have\\n1"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1028,
+			"calls": 7703,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -51,6 +62,74 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"estio",
+				"a que",
+				"3 I s",
+				"e not.",
+				"1E43 I ",
+				" one?\\n",
+				"have\\n1E",
+				"?\\n1E43 ",
+				"I have\\n1"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"estio",
+						"a que",
+						"3 I s",
+						"e not.",
+						"1E43 I ",
+						" one?\\n",
+						"have\\n1E",
+						"?\\n1E43 ",
+						"I have\\n1"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 87833,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"estio",
+				"a que",
+				"3 I s",
+				"e not.",
+				"1E43 I ",
+				" one?\\n",
+				"have\\n1E",
+				"?\\n1E43 ",
+				"I have\\n1"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"estio",
+						"a que",
+						"3 I s",
+						"e not.",
+						"1E43 I ",
+						" one?\\n",
+						"have\\n1E",
+						"?\\n1E43 ",
+						"I have\\n1"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1559685703671,
+	"edit": 4,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"estio",
 				"a que",
 				"3 I s",
