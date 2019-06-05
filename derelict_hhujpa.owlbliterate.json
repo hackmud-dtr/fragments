@@ -1,26 +1,25 @@
 {
 	"_id": "derelict_hhujpa.owlbliterate",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "derelict_hhujpa.owlbliterate",
 	"sector": "NGC_9297",
 	"sec_level": 4,
 	"date_added": 1559739189156,
-	"last_scraped": 1559739739630,
+	"last_scraped": 1559740299841,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559739189156
 		}
 	],
-	"scrape_ct": 8,
-	"next_scrape": 1559739799630,
+	"next_scrape": 1559784070230,
 	"category": "fishie_tank",
-	"last_update": 1559739739630,
+	"last_update": 1559740299841,
 	"output": [
 		{
 			"args": {},
-			"calls": 57152,
+			"calls": 88764,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"00\\n00",
@@ -30,13 +29,27 @@
 				"000 0100",
 				"000 0000",
 				" 1001 01"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"00\\n00",
+						" 0000 ",
+						"0100 100",
+						"0000 000",
+						"000 0100",
+						"000 0000",
+						" 1001 01"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4868,
+			"calls": 9402,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -51,13 +64,27 @@
 				"000 0100",
 				"000 0000",
 				" 1001 01"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"00\\n00",
+						" 0000 ",
+						"0100 100",
+						"0000 000",
+						"000 0100",
+						"000 0000",
+						" 1001 01"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 64829,
+			"calls": 118780,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"00\\n00",
@@ -67,9 +94,37 @@
 				"000 0100",
 				"000 0000",
 				" 1001 01"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"00\\n00",
+						" 0000 ",
+						"0100 100",
+						"0000 000",
+						"000 0100",
+						"000 0000",
+						" 1001 01"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1559739579848,
-	"edit": 2
+	"updt": 1559740255908,
+	"edit": 5,
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"00\\n00",
+				" 0000 ",
+				"0100 100",
+				"0000 000",
+				"000 0100",
+				"000 0000",
+				" 1001 01"
+			]
+		}
+	]
 }
