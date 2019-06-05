@@ -1,28 +1,31 @@
 {
 	"_id": "derelict_0hih0k.johns",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "derelict_0hih0k.johns",
 	"sector": "VNP_3574",
 	"sec_level": 4,
 	"date_added": 1559475147631,
-	"last_scraped": 1559688632484,
+	"last_scraped": 1559688652055,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559475147631
+		},
+		{
+			"type": "died",
+			"when": 1559709863422
 		}
 	],
-	"next_scrape": 1559734920192,
+	"next_scrape": 1559730915797,
 	"category": "clicker",
-	"last_update": 1559653642266,
+	"last_update": 1559688652055,
 	"output": [
 		{
 			"args": {},
-			"calls": 115554,
+			"calls": 124272,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
-				"MFT0X0",
 				"XC4_SEC",
 				"X8926_F",
 				"8926_FI",
@@ -32,6 +35,7 @@
 				"X08_CLST",
 				"T0XC4_SE",
 				"ST0XC4_S",
+				"MFT0X08_",
 				"FT0X08_C",
 				"CT0X8926",
 				"0X08_CLS",
@@ -44,6 +48,7 @@
 						"X8926_F",
 						"8926_FI",
 						"X08_CLST",
+						"MFT0X08_",
 						"FT0X08_C",
 						"CT0X8926",
 						"0X08_CLS",
@@ -58,12 +63,6 @@
 						"_CLST0XC",
 						"T0XC4_SE",
 						"ST0XC4_S"
-					]
-				},
-				{
-					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
-					"frags": [
-						"MFT0X0"
 					]
 				},
 				{
@@ -114,10 +113,9 @@
 			"args": {
 				"click": true
 			},
-			"calls": 119648,
+			"calls": 127489,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
-				"MFT0X0",
 				"XC4_SEC",
 				"X8926_F",
 				"8926_FI",
@@ -127,6 +125,7 @@
 				"X08_CLST",
 				"T0XC4_SE",
 				"ST0XC4_S",
+				"MFT0X08_",
 				"FT0X08_C",
 				"CT0X8926",
 				"0X08_CLS",
@@ -139,6 +138,7 @@
 						"X8926_F",
 						"8926_FI",
 						"X08_CLST",
+						"MFT0X08_",
 						"FT0X08_C",
 						"CT0X8926",
 						"0X08_CLS",
@@ -153,12 +153,6 @@
 						"_CLST0XC",
 						"T0XC4_SE",
 						"ST0XC4_S"
-					]
-				},
-				{
-					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
-					"frags": [
-						"MFT0X0"
 					]
 				},
 				{
@@ -209,10 +203,9 @@
 			"args": {
 				"CLICK": true
 			},
-			"calls": 16772,
+			"calls": 17956,
 			"base": "`LCLICK SECURED`",
 			"fragments": [
-				"MFT0X0",
 				"XC4_SEC",
 				"X8926_F",
 				"8926_FI",
@@ -222,6 +215,7 @@
 				"X08_CLST",
 				"T0XC4_SE",
 				"ST0XC4_S",
+				"MFT0X08_",
 				"FT0X08_C",
 				"CT0X8926",
 				"0X08_CLS",
@@ -234,6 +228,7 @@
 						"X8926_F",
 						"8926_FI",
 						"X08_CLST",
+						"MFT0X08_",
 						"FT0X08_C",
 						"CT0X8926",
 						"0X08_CLS",
@@ -248,12 +243,6 @@
 						"_CLST0XC",
 						"T0XC4_SE",
 						"ST0XC4_S"
-					]
-				},
-				{
-					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
-					"frags": [
-						"MFT0X0"
 					]
 				},
 				{
@@ -301,8 +290,8 @@
 			]
 		}
 	],
-	"updt": 1559653694965,
-	"edit": 10,
+	"updt": 1559688858117,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -310,6 +299,7 @@
 				"X8926_F",
 				"8926_FI",
 				"X08_CLST",
+				"MFT0X08_",
 				"FT0X08_C",
 				"CT0X8926",
 				"0X08_CLS",
@@ -324,12 +314,6 @@
 				"_CLST0XC",
 				"T0XC4_SE",
 				"ST0XC4_S"
-			]
-		},
-		{
-			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
-			"frags": [
-				"MFT0X0"
 			]
 		},
 		{
@@ -373,14 +357,6 @@
 			"frags": [
 				"_CLST0XC"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"click": true
-		},
-		{
-			"CLICK": true
 		}
 	]
 }
