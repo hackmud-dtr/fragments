@@ -1,26 +1,25 @@
 {
 	"_id": "derelict_5mgvap.autocull",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "derelict_5mgvap.autocull",
 	"sector": "K_7641",
 	"sec_level": 4,
 	"date_added": 1559690803516,
-	"last_scraped": 1559691055530,
+	"last_scraped": 1559724585081,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559690803516
 		}
 	],
-	"scrape_ct": 15,
-	"next_scrape": 1559691115530,
+	"next_scrape": 1559765043077,
 	"category": "fishie_tank",
-	"last_update": 1559691055530,
+	"last_update": 1559724585081,
 	"output": [
 		{
 			"args": {},
-			"calls": 28235,
+			"calls": 109834,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ECT0XB",
@@ -30,13 +29,27 @@
 				"0B_SECT",
 				"ST0X0B_S",
 				"0XB1F1_F"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"ECT0XB",
+						"\\nSYST ",
+						"93_CLST",
+						"1F1_FIL",
+						"0B_SECT",
+						"ST0X0B_S",
+						"0XB1F1_F"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2146,
+			"calls": 10179,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -51,13 +64,27 @@
 				"0B_SECT",
 				"ST0X0B_S",
 				"0XB1F1_F"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"ECT0XB",
+						"\\nSYST ",
+						"93_CLST",
+						"1F1_FIL",
+						"0B_SECT",
+						"ST0X0B_S",
+						"0XB1F1_F"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 25650,
+			"calls": 97411,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ECT0XB",
@@ -67,9 +94,37 @@
 				"0B_SECT",
 				"ST0X0B_S",
 				"0XB1F1_F"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"ECT0XB",
+						"\\nSYST ",
+						"93_CLST",
+						"1F1_FIL",
+						"0B_SECT",
+						"ST0X0B_S",
+						"0XB1F1_F"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1559690885435,
-	"edit": 1
+	"updt": 1559692464111,
+	"edit": 6,
+	"identified": [
+		{
+			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+			"frags": [
+				"ECT0XB",
+				"\\nSYST ",
+				"93_CLST",
+				"1F1_FIL",
+				"0B_SECT",
+				"ST0X0B_S",
+				"0XB1F1_F"
+			]
+		}
+	]
 }
