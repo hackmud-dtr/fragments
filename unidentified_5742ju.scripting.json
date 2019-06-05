@@ -3,19 +3,31 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "unidentified_5742ju.scripting",
-	"sector": "NGC_8582",
+	"sector": "K_7641",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559679956491,
+	"last_scraped": 1559701712935,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
-		}
+		},
+		{
+			"type": "died",
+			"when": 1559701487105
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1559701641666,
+				"from": "K_7641",
+				"to": "NGC_8582"
+			}
+		]
 	],
-	"updt": 1559645802124,
-	"edit": 24,
+	"updt": 1559701712574,
+	"edit": 26,
 	"output": "{\"ok\":false}",
-	"next_scrape": 1559773478854,
+	"next_scrape": 1559781113630,
 	"pl_output": "{\"ok\":false}"
 }
