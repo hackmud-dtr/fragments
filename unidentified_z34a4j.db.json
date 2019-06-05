@@ -1,25 +1,26 @@
 {
 	"_id": "unidentified_z34a4j.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "unidentified_z34a4j.db",
 	"sector": "K_7641",
 	"sec_level": 4,
 	"date_added": 1559714061176,
-	"last_scraped": 1559715111605,
+	"last_scraped": 1559714781488,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559714061176
 		}
 	],
-	"next_scrape": 1559760671098,
+	"scrape_ct": 5,
+	"next_scrape": 1559714841488,
 	"category": "fishie_tank",
-	"last_update": 1559715111605,
+	"last_update": 1559714771027,
 	"output": [
 		{
 			"args": {},
-			"calls": 112564,
+			"calls": 75342,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"A_SEC",
@@ -53,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 9102,
+			"calls": 6800,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -92,7 +93,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 106049,
+			"calls": 67829,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"A_SEC",
@@ -123,8 +124,8 @@
 			]
 		}
 	],
-	"updt": 1559715009745,
-	"edit": 4,
+	"updt": 1559714558106,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
