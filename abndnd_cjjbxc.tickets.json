@@ -1,27 +1,28 @@
 {
 	"_id": "abndnd_cjjbxc.tickets",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "abndnd_cjjbxc.tickets",
 	"sector": "HJG_7089",
 	"sec_level": 4,
 	"date_added": 1559837299478,
-	"last_scraped": 1559840460920,
+	"last_scraped": 1559837860454,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559837299478
 		}
 	],
-	"updt": 1559840304673,
-	"edit": 12,
-	"next_scrape": 1559883770010,
+	"updt": 1559837824303,
+	"edit": 3,
+	"scrape_ct": 17,
+	"next_scrape": 1559837920454,
 	"category": "fishie_tank",
-	"last_update": 1559840460920,
+	"last_update": 1559837860454,
 	"output": [
 		{
 			"args": {},
-			"calls": 97125,
+			"calls": 20536,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ussio",
@@ -53,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8612,
+			"calls": 1557,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -90,7 +91,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 99597,
+			"calls": 18166,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ussio",
