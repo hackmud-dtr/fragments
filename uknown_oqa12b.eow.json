@@ -1,27 +1,27 @@
 {
 	"_id": "uknown_oqa12b.eow",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_oqa12b.eow",
 	"sector": "VNP_9145",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559760243678,
+	"last_scraped": 1559788721406,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559732821237,
-	"edit": 41,
-	"next_scrape": 1559801830470,
+	"updt": 1559760315773,
+	"edit": 42,
+	"next_scrape": 1559835360316,
 	"category": "fishie_tank",
-	"last_update": 1559760243678,
+	"last_update": 1559788748678,
 	"output": [
 		{
 			"args": {},
-			"calls": 298701,
+			"calls": 315350,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ERROR",
@@ -69,7 +69,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 28069,
+			"calls": 29734,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -188,6 +188,11 @@
 				"TIME ERR",
 				"\\nSYST ER"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
