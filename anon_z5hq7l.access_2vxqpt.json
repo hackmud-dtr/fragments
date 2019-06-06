@@ -1,7 +1,7 @@
 {
 	"_id": "anon_z5hq7l.access_2vxqpt",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_z5hq7l.access_2vxqpt",
 	"sector": "K_2618",
 	"sec_level": 4,
@@ -13,11 +13,11 @@
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559794340744,
-	"edit": 43,
+	"updt": 1559854284158,
+	"edit": 44,
 	"next_scrape": 1559899727038,
 	"category": "fishie_tank",
-	"last_update": 1559854147393,
+	"last_update": 1559854654206,
 	"output": [
 		{
 			"args": {},
@@ -114,7 +114,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 27637,
+			"calls": 35356,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -365,9 +365,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
