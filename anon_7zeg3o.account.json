@@ -1,0 +1,80 @@
+{
+	"_id": "anon_7zeg3o.account",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anon_7zeg3o.account",
+	"sector": "HJG_7089",
+	"sec_level": 4,
+	"date_added": 1559807676940,
+	"last_scraped": 1559808307579,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1559807676940
+		}
+	],
+	"scrape_ct": 8,
+	"next_scrape": 1559808367579,
+	"category": "fishie_tank",
+	"last_update": 1559808217487,
+	"output": [
+		{
+			"args": {},
+			"calls": 59409,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"01 0100",
+				"0000\\n0",
+				"000 000",
+				"00 0000",
+				"0 0000 0",
+				" 0000 00"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 5482,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"01 0100",
+				"0000\\n0",
+				"000 000",
+				"00 0000",
+				"0 0000 0",
+				" 0000 00"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 59282,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"01 0100",
+				"0000\\n0",
+				"000 000",
+				"00 0000",
+				"0 0000 0",
+				" 0000 00"
+			]
+		}
+	],
+	"updt": 1559808085579,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
