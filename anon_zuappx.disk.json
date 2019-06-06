@@ -1,27 +1,27 @@
 {
 	"_id": "anon_zuappx.disk",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_zuappx.disk",
 	"sector": "K_2117",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559758933635,
+	"last_scraped": 1559786966844,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559731242690,
-	"edit": 39,
-	"next_scrape": 1559801250313,
+	"updt": 1559758962692,
+	"edit": 40,
+	"next_scrape": 1559833140103,
 	"category": "fishie_tank",
-	"last_update": 1559758933635,
+	"last_update": 1559786991037,
 	"output": [
 		{
 			"args": {},
-			"calls": 317162,
+			"calls": 331311,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"had a",
@@ -69,7 +69,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 27276,
+			"calls": 28659,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -188,6 +188,11 @@
 				"r defini",
 				"initions"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
