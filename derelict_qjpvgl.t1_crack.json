@@ -1,26 +1,25 @@
 {
 	"_id": "derelict_qjpvgl.t1_crack",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "derelict_qjpvgl.t1_crack",
 	"sector": "NGC_0484",
 	"sec_level": 4,
 	"date_added": 1559862367788,
-	"last_scraped": 1559863668896,
+	"last_scraped": 1559892769807,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559862367788
 		}
 	],
-	"scrape_ct": 4,
-	"next_scrape": 1559863728896,
+	"next_scrape": 1559933519950,
 	"category": "dice_roller",
-	"last_update": 1559863668896,
+	"last_update": 1559892769807,
 	"output": [
 		{
 			"args": {},
-			"calls": 150034,
+			"calls": 196006,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
 				"reton ",
@@ -31,9 +30,39 @@
 				" | SUB",
 				"R fbret",
 				" SUBJ: "
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"reton ",
+						"USER f",
+						"TIME E",
+						"SER fb",
+						"OR | T",
+						" | SUB",
+						"R fbret",
+						" SUBJ: "
+					]
+				}
 			]
 		}
 	],
-	"updt": 1559863524495,
-	"edit": 5
+	"updt": 1559866001139,
+	"edit": 9,
+	"identified": [
+		{
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
+				"reton ",
+				"USER f",
+				"TIME E",
+				"SER fb",
+				"OR | T",
+				" | SUB",
+				"R fbret",
+				" SUBJ: "
+			]
+		}
+	]
 }
