@@ -1,28 +1,27 @@
 {
 	"_id": "unknown_53trb7.npc_trap",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "unknown_53trb7.npc_trap",
 	"sector": "NGC_4897",
 	"sec_level": 4,
 	"date_added": 1559837299478,
-	"last_scraped": 1559838050166,
+	"last_scraped": 1559868170573,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559837299478
 		}
 	],
-	"updt": 1559837824303,
-	"edit": 3,
-	"scrape_ct": 16,
-	"next_scrape": 1559838110166,
+	"updt": 1559840531781,
+	"edit": 12,
+	"next_scrape": 1559910927259,
 	"category": "fishie_tank",
-	"last_update": 1559837779545,
+	"last_update": 1559868170573,
 	"output": [
 		{
 			"args": {},
-			"calls": 21100,
+			"calls": 103573,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"es as",
@@ -50,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2300,
+			"calls": 11613,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -83,7 +82,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 21612,
+			"calls": 119496,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"es as",
@@ -119,14 +118,6 @@
 				"awarenes",
 				" to achi"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
