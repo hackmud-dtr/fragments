@@ -1,21 +1,29 @@
 {
 	"_id": "abndnd_azve1i.target",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abndnd_azve1i.target",
 	"sector": "VNP_6921",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559922691156,
+	"last_scraped": 1559950283578,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
+		},
+		{
+			"type": "died",
+			"when": 1559950283578
+		},
+		{
+			"type": "died",
+			"when": 1559950387409
 		}
 	],
-	"updt": 1559922803256,
-	"edit": 45,
-	"next_scrape": 1559964805797,
+	"updt": 1559950300198,
+	"edit": 47,
+	"next_scrape": 1560033061351,
 	"category": "clicker",
 	"last_update": 1559922691156,
 	"output": [
@@ -485,5 +493,6 @@
 				" Advise "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_azve1i.target: script doesn't exist\"}"
 }
