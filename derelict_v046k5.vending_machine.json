@@ -6,16 +6,16 @@
 	"sector": "HJG_3549",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559939548811,
+	"last_scraped": 1559968559596,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559912661376,
-	"edit": 41,
-	"next_scrape": 1559979392234,
+	"updt": 1559939712092,
+	"edit": 42,
+	"next_scrape": 1560011251697,
 	"category": "fishie_tank",
 	"last_update": 1559939548811,
 	"output": [
@@ -139,6 +139,14 @@
 				" lights",
 				" window "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
