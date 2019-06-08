@@ -6,36 +6,36 @@
 	"sector": "HJG_7089",
 	"sec_level": 4,
 	"date_added": 1559807676940,
-	"last_scraped": 1560008385833,
+	"last_scraped": 1560035728913,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559807676940
 		}
 	],
-	"next_scrape": 1560050890415,
+	"next_scrape": 1560079786911,
 	"category": "fishie_tank",
-	"last_update": 1560008385833,
+	"last_update": 1560035728913,
 	"output": [
 		{
 			"args": {},
-			"calls": 164525,
+			"calls": 174860,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"100 00",
 				"0 0100",
 				"01 0100",
 				"0000\\n0",
 				" 0100 0",
 				" 0000\\n",
-				"\\n0000 0",
+				"0100 000",
 				"000\\n000",
 				"0001 010",
 				"0000 000",
 				"000 0000",
 				"0 0000 0",
 				" 0000 01",
-				" 0000 00"
+				" 0000 00",
+				"\\n0000 00"
 			],
 			"hits": [
 				{
@@ -63,7 +63,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 14040,
+			"calls": 14866,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -71,20 +71,20 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"100 00",
 				"0 0100",
 				"01 0100",
 				"0000\\n0",
 				" 0100 0",
 				" 0000\\n",
-				"\\n0000 0",
+				"0100 000",
 				"000\\n000",
 				"0001 010",
 				"0000 000",
 				"000 0000",
 				"0 0000 0",
 				" 0000 01",
-				" 0000 00"
+				" 0000 00",
+				"\\n0000 00"
 			],
 			"hits": [
 				{
@@ -112,23 +112,23 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 166980,
+			"calls": 178115,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"100 00",
 				"0 0100",
 				"01 0100",
 				"0000\\n0",
 				" 0100 0",
 				" 0000\\n",
-				"\\n0000 0",
+				"0100 000",
 				"000\\n000",
 				"0001 010",
 				"0000 000",
 				"000 0000",
 				"0 0000 0",
 				" 0000 01",
-				" 0000 00"
+				" 0000 00",
+				"\\n0000 00"
 			],
 			"hits": [
 				{
@@ -153,8 +153,8 @@
 			]
 		}
 	],
-	"updt": 1560008461612,
-	"edit": 12,
+	"updt": 1560008687859,
+	"edit": 13,
 	"identified": [
 		{
 			"document": "NOT FOUND",
