@@ -6,29 +6,32 @@
 	"sector": "K_4381",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559957846965,
+	"last_scraped": 1559987011318,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559929789453,
-	"edit": 49,
-	"next_scrape": 1559997981958,
+	"updt": 1559957964734,
+	"edit": 50,
+	"next_scrape": 1560027477361,
 	"category": "fishie_tank",
-	"last_update": 1559957846965,
+	"last_update": 1559987011318,
 	"output": [
 		{
 			"args": {},
-			"calls": 339257,
+			"calls": 350129,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"f ter",
-				"R | N",
+				"NETW ",
+				"0X085",
+				" USER",
 				"irmati",
 				"el upd",
 				"R | TI",
+				"R | NE",
 				"J: Con",
 				"E0X64C",
 				": Conf",
@@ -42,6 +45,7 @@
 				"RROR | ",
 				"R | PRO",
 				"ERROR |",
+				"ECT0X08",
 				"251\\nSY",
 				" | NETW",
 				" Confir",
@@ -94,7 +98,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 34809,
+			"calls": 35820,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -103,10 +107,13 @@
 			],
 			"fragments": [
 				"f ter",
-				"R | N",
+				"NETW ",
+				"0X085",
+				" USER",
 				"irmati",
 				"el upd",
 				"R | TI",
+				"R | NE",
 				"J: Con",
 				"E0X64C",
 				": Conf",
@@ -120,6 +127,7 @@
 				"RROR | ",
 				"R | PRO",
 				"ERROR |",
+				"ECT0X08",
 				"251\\nSY",
 				" | NETW",
 				" Confir",
@@ -172,14 +180,17 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 372622,
+			"calls": 381300,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"f ter",
-				"R | N",
+				"NETW ",
+				"0X085",
+				" USER",
 				"irmati",
 				"el upd",
 				"R | TI",
+				"R | NE",
 				"J: Con",
 				"E0X64C",
 				": Conf",
@@ -193,6 +204,7 @@
 				"RROR | ",
 				"R | PRO",
 				"ERROR |",
+				"ECT0X08",
 				"251\\nSY",
 				" | NETW",
 				" Confir",
