@@ -6,16 +6,16 @@
 	"sector": "HJG_8005",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559933804596,
+	"last_scraped": 1559962247124,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559906573184,
-	"edit": 44,
-	"next_scrape": 1559979551901,
+	"updt": 1559933850210,
+	"edit": 45,
+	"next_scrape": 1560005178272,
 	"category": "fishie_tank",
 	"last_update": 1559933804596,
 	"output": [
@@ -216,6 +216,14 @@
 				"e future",
 				"ants of "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
