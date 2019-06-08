@@ -1,25 +1,26 @@
 {
 	"_id": "unidentified_hzl064.done",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "unidentified_hzl064.done",
 	"sector": "K_1197",
 	"sec_level": 4,
 	"date_added": 1559961078122,
-	"last_scraped": 1559962097086,
+	"last_scraped": 1559962007685,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559961078122
 		}
 	],
-	"next_scrape": 1560004020111,
+	"scrape_ct": 1,
+	"next_scrape": 1559962067685,
 	"category": "fishie_tank",
-	"last_update": 1559962097086,
+	"last_update": 1559962007685,
 	"output": [
 		{
 			"args": {},
-			"calls": 97416,
+			"calls": 86293,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"r Erin",
@@ -30,28 +31,13 @@
 				"kay, use",
 				"R\\n1EBC ",
 				"1EBC You"
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"r Erin",
-						"1EBB O",
-						".\\n1EC9",
-						"t all.\\n",
-						"me five.",
-						"kay, use",
-						"R\\n1EBC ",
-						"1EBC You"
-					]
-				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8370,
+			"calls": 7517,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -67,28 +53,13 @@
 				"kay, use",
 				"R\\n1EBC ",
 				"1EBC You"
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"r Erin",
-						"1EBB O",
-						".\\n1EC9",
-						"t all.\\n",
-						"me five.",
-						"kay, use",
-						"R\\n1EBC ",
-						"1EBC You"
-					]
-				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 116445,
+			"calls": 105330,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"r Erin",
@@ -99,39 +70,9 @@
 				"kay, use",
 				"R\\n1EBC ",
 				"1EBC You"
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"r Erin",
-						"1EBB O",
-						".\\n1EC9",
-						"t all.\\n",
-						"me five.",
-						"kay, use",
-						"R\\n1EBC ",
-						"1EBC You"
-					]
-				}
 			]
 		}
 	],
-	"updt": 1559962250990,
-	"edit": 5,
-	"identified": [
-		{
-			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-			"frags": [
-				"r Erin",
-				"1EBB O",
-				".\\n1EC9",
-				"t all.\\n",
-				"me five.",
-				"kay, use",
-				"R\\n1EBC ",
-				"1EBC You"
-			]
-		}
-	]
+	"updt": 1559961575284,
+	"edit": 3
 }
