@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_o1rpn8.button",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "abndnd_o1rpn8.button",
-	"sector": "VNP_8853",
+	"sector": "K_9897",
 	"sec_level": 2,
 	"date_added": 1558821408422,
-	"last_scraped": 1560063077697,
+	"last_scraped": 1560088194144,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,11 +15,19 @@
 		{
 			"type": "died",
 			"when": 1560088029137
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1560088154348,
+				"from": "K_9897",
+				"to": "VNP_8853"
+			}
+		]
 	],
-	"updt": 1560063241076,
-	"edit": 36,
+	"updt": 1560088031787,
+	"edit": 37,
 	"output": "false",
-	"next_scrape": 1560151088010,
+	"next_scrape": 1560179392934,
 	"pl_output": "false"
 }
