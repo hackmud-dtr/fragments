@@ -6,22 +6,22 @@
 	"sector": "K_9339",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1560074724101,
+	"last_scraped": 1560100891409,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1560047464768,
-	"edit": 48,
-	"next_scrape": 1560117497032,
+	"updt": 1560074962874,
+	"edit": 50,
+	"next_scrape": 1560144463541,
 	"category": "fishie_tank",
-	"last_update": 1560074724101,
+	"last_update": 1560100880504,
 	"output": [
 		{
 			"args": {},
-			"calls": 380274,
+			"calls": 388352,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"OR | ",
@@ -49,6 +49,7 @@
 				{
 					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
 					"frags": [
+						"OR | ",
 						"T0X00_C",
 						"LE0XBBE",
 						"BBE270F",
@@ -63,8 +64,10 @@
 						"SECT0X75",
 						"ETW ERRO",
 						"A_FILE0X",
+						"6A_FILE0",
 						"0XBBE270",
 						"00_CLST0",
+						" | NETW ",
 						"C\\nSYST E"
 					]
 				}
@@ -74,7 +77,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 36241,
+			"calls": 37118,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -107,6 +110,7 @@
 				{
 					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
 					"frags": [
+						"OR | ",
 						"T0X00_C",
 						"LE0XBBE",
 						"BBE270F",
@@ -121,8 +125,10 @@
 						"SECT0X75",
 						"ETW ERRO",
 						"A_FILE0X",
+						"6A_FILE0",
 						"0XBBE270",
 						"00_CLST0",
+						" | NETW ",
 						"C\\nSYST E"
 					]
 				}
@@ -160,6 +166,7 @@
 				{
 					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
 					"frags": [
+						"OR | ",
 						"T0X00_C",
 						"LE0XBBE",
 						"BBE270F",
@@ -174,8 +181,10 @@
 						"SECT0X75",
 						"ETW ERRO",
 						"A_FILE0X",
+						"6A_FILE0",
 						"0XBBE270",
 						"00_CLST0",
+						" | NETW ",
 						"C\\nSYST E"
 					]
 				}
@@ -186,6 +195,7 @@
 		{
 			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
 			"frags": [
+				"OR | ",
 				"T0X00_C",
 				"LE0XBBE",
 				"BBE270F",
@@ -200,8 +210,10 @@
 				"SECT0X75",
 				"ETW ERRO",
 				"A_FILE0X",
+				"6A_FILE0",
 				"0XBBE270",
 				"00_CLST0",
+				" | NETW ",
 				"C\\nSYST E"
 			]
 		}
