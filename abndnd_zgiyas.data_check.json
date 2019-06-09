@@ -6,21 +6,21 @@
 	"sector": "K_1811",
 	"sec_level": 4,
 	"date_added": 1560098328715,
-	"last_scraped": 1560098359851,
+	"last_scraped": 1560099280458,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560098328715
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1560098419851,
+	"scrape_ct": 1,
+	"next_scrape": 1560099340458,
 	"category": "fishie_tank",
-	"last_update": 1560098359851,
+	"last_update": 1560099280458,
 	"output": [
 		{
 			"args": {},
-			"calls": 10173,
+			"calls": 88357,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"s one",
@@ -31,13 +31,28 @@
 				"re actio",
 				"CT0XF227",
 				"1 There "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"s one",
+						"F227_",
+						"D0320",
+						"BF_CLS",
+						"F_CLST0",
+						"re actio",
+						"CT0XF227",
+						"1 There "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 378,
+			"calls": 7369,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -53,15 +68,62 @@
 				"re actio",
 				"CT0XF227",
 				"1 There "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"s one",
+						"F227_",
+						"D0320",
+						"BF_CLS",
+						"F_CLST0",
+						"re actio",
+						"CT0XF227",
+						"1 There "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 9299,
+			"calls": 95633,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"s one",
+				"F227_",
+				"D0320",
+				"BF_CLS",
+				"F_CLST0",
+				"re actio",
+				"CT0XF227",
+				"1 There "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"s one",
+						"F227_",
+						"D0320",
+						"BF_CLS",
+						"F_CLST0",
+						"re actio",
+						"CT0XF227",
+						"1 There "
+					]
+				}
+			]
+		}
+	],
+	"updt": 1560099088848,
+	"edit": 4,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"s one",
 				"F227_",
 				"D0320",
