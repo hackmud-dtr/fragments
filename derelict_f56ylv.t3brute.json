@@ -1,35 +1,39 @@
 {
 	"_id": "derelict_f56ylv.t3brute",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "derelict_f56ylv.t3brute",
 	"sector": "VNP_0096",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1560042343352,
+	"last_scraped": 1560069691318,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
+		},
+		{
+			"type": "died",
+			"when": 1560069946322
 		}
 	],
-	"updt": 1560042505445,
-	"edit": 59,
-	"next_scrape": 1560086294137,
+	"updt": 1560069775999,
+	"edit": 61,
+	"next_scrape": 1560109561939,
 	"category": "fishie_tank",
-	"last_update": 1560042343352,
+	"last_update": 1560069691318,
 	"output": [
 		{
 			"args": {},
-			"calls": 354088,
+			"calls": 364277,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"egins ",
 				" when ",
-				"when co",
 				"s must ",
 				"must be",
 				" must b",
+				"when com",
 				"t be\\n21",
 				"st be\\n2",
 				"rds must",
@@ -93,7 +97,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 33659,
+			"calls": 34215,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -103,10 +107,10 @@
 			"fragments": [
 				"egins ",
 				" when ",
-				"when co",
 				"s must ",
 				"must be",
 				" must b",
+				"when com",
 				"t be\\n21",
 				"st be\\n2",
 				"rds must",
@@ -170,15 +174,15 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 384777,
+			"calls": 392671,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"egins ",
 				" when ",
-				"when co",
 				"s must ",
 				"must be",
 				" must b",
+				"when com",
 				"t be\\n21",
 				"st be\\n2",
 				"rds must",
