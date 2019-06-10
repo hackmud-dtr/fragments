@@ -6,30 +6,35 @@
 	"sector": "SPC_0183",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1560142980339,
+	"last_scraped": 1560169267410,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1560115777871,
-	"edit": 53,
-	"next_scrape": 1560188833356,
+	"updt": 1560169412575,
+	"edit": 55,
+	"next_scrape": 1560213929642,
 	"category": "fishie_tank",
-	"last_update": 1560142980339,
+	"last_update": 1560169267410,
 	"output": [
 		{
 			"args": {},
-			"calls": 440737,
+			"calls": 447975,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"3_SEC",
-				"ROR | ",
 				"LST0X1",
 				"SYST ER",
+				"RROR | ",
 				"R | PRO",
+				"E0X5282",
+				" ERROR ",
+				"| PROG E",
+				"\\nSYST E",
 				"CT0XE23E",
+				" | TIME ",
 				"2A91C\\nSY"
 			],
 			"hits": [
@@ -37,32 +42,45 @@
 					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
 					"frags": [
 						"3_SEC",
-						"ROR | ",
 						"SYST ER",
-						"R | PRO"
-					]
-				},
-				{
-					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
-					"frags": [
-						"ROR | ",
-						"LST0X1",
-						"SYST ER",
-						"R | PRO"
+						"RROR | ",
+						"R | PRO",
+						" ERROR ",
+						"| PROG E",
+						"\\nSYST E",
+						" | TIME "
 					]
 				},
 				{
 					"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
 					"frags": [
-						"ROR | ",
 						"LST0X1",
 						"SYST ER",
-						"R | PRO"
+						"RROR | ",
+						"R | PRO",
+						" ERROR ",
+						"| PROG E",
+						"\\nSYST E",
+						" | TIME "
+					]
+				},
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"LST0X1",
+						"SYST ER",
+						"RROR | ",
+						"R | PRO",
+						" ERROR ",
+						"| PROG E",
+						"\\nSYST E",
+						" | TIME "
 					]
 				},
 				{
 					"document": "NOT FOUND",
 					"frags": [
+						"E0X5282",
 						"CT0XE23E",
 						"2A91C\\nSY"
 					]
@@ -73,7 +91,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 36878,
+			"calls": 37769,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -82,11 +100,16 @@
 			],
 			"fragments": [
 				"3_SEC",
-				"ROR | ",
 				"LST0X1",
 				"SYST ER",
+				"RROR | ",
 				"R | PRO",
+				"E0X5282",
+				" ERROR ",
+				"| PROG E",
+				"\\nSYST E",
 				"CT0XE23E",
+				" | TIME ",
 				"2A91C\\nSY"
 			],
 			"hits": [
@@ -94,32 +117,45 @@
 					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
 					"frags": [
 						"3_SEC",
-						"ROR | ",
 						"SYST ER",
-						"R | PRO"
-					]
-				},
-				{
-					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
-					"frags": [
-						"ROR | ",
-						"LST0X1",
-						"SYST ER",
-						"R | PRO"
+						"RROR | ",
+						"R | PRO",
+						" ERROR ",
+						"| PROG E",
+						"\\nSYST E",
+						" | TIME "
 					]
 				},
 				{
 					"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
 					"frags": [
-						"ROR | ",
 						"LST0X1",
 						"SYST ER",
-						"R | PRO"
+						"RROR | ",
+						"R | PRO",
+						" ERROR ",
+						"| PROG E",
+						"\\nSYST E",
+						" | TIME "
+					]
+				},
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"LST0X1",
+						"SYST ER",
+						"RROR | ",
+						"R | PRO",
+						" ERROR ",
+						"| PROG E",
+						"\\nSYST E",
+						" | TIME "
 					]
 				},
 				{
 					"document": "NOT FOUND",
 					"frags": [
+						"E0X5282",
 						"CT0XE23E",
 						"2A91C\\nSY"
 					]
@@ -130,15 +166,20 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 447166,
+			"calls": 458301,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"3_SEC",
-				"ROR | ",
 				"LST0X1",
 				"SYST ER",
+				"RROR | ",
 				"R | PRO",
+				"E0X5282",
+				" ERROR ",
+				"| PROG E",
+				"\\nSYST E",
 				"CT0XE23E",
+				" | TIME ",
 				"2A91C\\nSY"
 			],
 			"hits": [
@@ -146,32 +187,45 @@
 					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
 					"frags": [
 						"3_SEC",
-						"ROR | ",
 						"SYST ER",
-						"R | PRO"
-					]
-				},
-				{
-					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
-					"frags": [
-						"ROR | ",
-						"LST0X1",
-						"SYST ER",
-						"R | PRO"
+						"RROR | ",
+						"R | PRO",
+						" ERROR ",
+						"| PROG E",
+						"\\nSYST E",
+						" | TIME "
 					]
 				},
 				{
 					"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
 					"frags": [
-						"ROR | ",
 						"LST0X1",
 						"SYST ER",
-						"R | PRO"
+						"RROR | ",
+						"R | PRO",
+						" ERROR ",
+						"| PROG E",
+						"\\nSYST E",
+						" | TIME "
+					]
+				},
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"LST0X1",
+						"SYST ER",
+						"RROR | ",
+						"R | PRO",
+						" ERROR ",
+						"| PROG E",
+						"\\nSYST E",
+						" | TIME "
 					]
 				},
 				{
 					"document": "NOT FOUND",
 					"frags": [
+						"E0X5282",
 						"CT0XE23E",
 						"2A91C\\nSY"
 					]
@@ -184,32 +238,45 @@
 			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
 			"frags": [
 				"3_SEC",
-				"ROR | ",
 				"SYST ER",
-				"R | PRO"
-			]
-		},
-		{
-			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
-			"frags": [
-				"ROR | ",
-				"LST0X1",
-				"SYST ER",
-				"R | PRO"
+				"RROR | ",
+				"R | PRO",
+				" ERROR ",
+				"| PROG E",
+				"\\nSYST E",
+				" | TIME "
 			]
 		},
 		{
 			"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
 			"frags": [
-				"ROR | ",
 				"LST0X1",
 				"SYST ER",
-				"R | PRO"
+				"RROR | ",
+				"R | PRO",
+				" ERROR ",
+				"| PROG E",
+				"\\nSYST E",
+				" | TIME "
+			]
+		},
+		{
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
+				"LST0X1",
+				"SYST ER",
+				"RROR | ",
+				"R | PRO",
+				" ERROR ",
+				"| PROG E",
+				"\\nSYST E",
+				" | TIME "
 			]
 		},
 		{
 			"document": "NOT FOUND",
 			"frags": [
+				"E0X5282",
 				"CT0XE23E",
 				"2A91C\\nSY"
 			]
