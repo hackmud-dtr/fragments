@@ -6,30 +6,32 @@
 	"sector": "K_5859",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1560156887784,
+	"last_scraped": 1560182801486,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1560129297290,
-	"edit": 51,
-	"next_scrape": 1560201684650,
+	"updt": 1560182938696,
+	"edit": 53,
+	"next_scrape": 1560228030728,
 	"category": "fishie_tank",
-	"last_update": 1560156887784,
+	"last_update": 1560182801486,
 	"output": [
 		{
 			"args": {},
-			"calls": 441391,
+			"calls": 453629,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"SYST ",
-				"YST ER",
+				"SECT0",
 				"T0X3F_",
-				"T ERRO",
 				"D88122",
 				"XBD8812",
+				"0A_SECT",
+				"YST ERRO",
+				"ST0X0A_S",
 				"CT0X8F99"
 			],
 			"hits": [
@@ -37,11 +39,13 @@
 					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
 					"frags": [
 						"SYST ",
-						"YST ER",
+						"SECT0",
 						"T0X3F_",
-						"T ERRO",
 						"D88122",
 						"XBD8812",
+						"0A_SECT",
+						"YST ERRO",
+						"ST0X0A_S",
 						"CT0X8F99"
 					]
 				}
@@ -51,7 +55,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 36785,
+			"calls": 37612,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -60,11 +64,13 @@
 			],
 			"fragments": [
 				"SYST ",
-				"YST ER",
+				"SECT0",
 				"T0X3F_",
-				"T ERRO",
 				"D88122",
 				"XBD8812",
+				"0A_SECT",
+				"YST ERRO",
+				"ST0X0A_S",
 				"CT0X8F99"
 			],
 			"hits": [
@@ -72,11 +78,13 @@
 					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
 					"frags": [
 						"SYST ",
-						"YST ER",
+						"SECT0",
 						"T0X3F_",
-						"T ERRO",
 						"D88122",
 						"XBD8812",
+						"0A_SECT",
+						"YST ERRO",
+						"ST0X0A_S",
 						"CT0X8F99"
 					]
 				}
@@ -86,15 +94,17 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 404548,
+			"calls": 412899,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"SYST ",
-				"YST ER",
+				"SECT0",
 				"T0X3F_",
-				"T ERRO",
 				"D88122",
 				"XBD8812",
+				"0A_SECT",
+				"YST ERRO",
+				"ST0X0A_S",
 				"CT0X8F99"
 			],
 			"hits": [
@@ -102,11 +112,13 @@
 					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
 					"frags": [
 						"SYST ",
-						"YST ER",
+						"SECT0",
 						"T0X3F_",
-						"T ERRO",
 						"D88122",
 						"XBD8812",
+						"0A_SECT",
+						"YST ERRO",
+						"ST0X0A_S",
 						"CT0X8F99"
 					]
 				}
@@ -118,11 +130,13 @@
 			"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
 			"frags": [
 				"SYST ",
-				"YST ER",
+				"SECT0",
 				"T0X3F_",
-				"T ERRO",
 				"D88122",
 				"XBD8812",
+				"0A_SECT",
+				"YST ERRO",
+				"ST0X0A_S",
 				"CT0X8F99"
 			]
 		}
