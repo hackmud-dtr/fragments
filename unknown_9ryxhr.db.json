@@ -1,31 +1,25 @@
 {
 	"_id": "unknown_9ryxhr.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "unknown_9ryxhr.db",
 	"sector": "VNP_9228",
 	"sec_level": 4,
 	"date_added": 1560231623057,
-	"last_scraped": 1560231633063,
+	"last_scraped": 1560258617274,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560231623057
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1560231693063,
+	"next_scrape": 1560302051162,
 	"category": "fishie_tank",
-	"last_update": 1560231643354,
+	"last_update": 1560258617274,
 	"output": [
 		{
 			"args": {},
-			"calls": 7751,
+			"calls": 103224,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" Mall",
@@ -33,13 +27,25 @@
 				"n very h",
 				"e been v",
 				"Mallory\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" Mall",
+						"1A5 Yo",
+						"n very h",
+						"e been v",
+						"Mallory\\n"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1000,
+			"calls": 8495,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -47,6 +53,58 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				" Mall",
+				"1A5 Yo",
+				"n very h",
+				"e been v",
+				"Mallory\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" Mall",
+						"1A5 Yo",
+						"n very h",
+						"e been v",
+						"Mallory\\n"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 117630,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" Mall",
+				"1A5 Yo",
+				"n very h",
+				"e been v",
+				"Mallory\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" Mall",
+						"1A5 Yo",
+						"n very h",
+						"e been v",
+						"Mallory\\n"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1560232775095,
+	"edit": 5,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				" Mall",
 				"1A5 Yo",
 				"n very h",
