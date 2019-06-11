@@ -1,51 +1,59 @@
 {
 	"_id": "abndnd_ug9452.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "could not json",
 	"script": "abndnd_ug9452.bot_scam_do_not_run",
 	"sector": "VNP_9228",
 	"sec_level": 4,
 	"date_added": 1560253253499,
-	"last_scraped": 1560253474427,
+	"last_scraped": 1560254294604,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560253253499
 		}
 	],
-	"scrape_ct": 15,
-	"next_scrape": 1560253534427,
+	"scrape_ct": 0,
+	"next_scrape": 1560254354604,
 	"category": "fishie_tank",
-	"last_update": 1560253474427,
+	"last_update": 1560254294604,
 	"output": [
 		{
 			"args": {},
-			"calls": 29550,
+			"calls": 92137,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"ERROR",
-				"CT0X8",
-				"CLST0",
-				"| NETW",
-				"T0X885",
-				"T ERRO",
-				"ST ERR",
-				"ILE0X8",
+				"_SECT0",
+				"X885F_F",
 				"X69_SEC",
+				"ST ERRO",
 				"RROR | ",
 				"OR | NE",
-				"82_CLST",
+				"FILE0X8",
+				"ERROR |",
+				"0X885F_",
 				" NETW E",
+				"_CLST0X6",
 				"X8C8517B",
+				"T0X69_SE",
+				"SYST ERR",
 				"ST0X69_S",
+				"R | NETW",
+				"MFT0X82_",
+				"ILE0X8C8",
 				"F_FILE0X",
 				"FT0X82_C",
+				"ECT0X885",
 				"E0X8C851",
+				"CT0X885F",
 				"885F_FIL",
+				"82_CLST0",
 				"5F_FILE0",
 				"17B2\\nSY",
 				"0X82_CLS",
+				"\\nSYST ER",
 				"8517B2\\nS",
+				"7B2\\nSYST",
 				"2\\nSYST E"
 			],
 			"hits": [
@@ -84,7 +92,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2350,
+			"calls": 8941,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -92,26 +100,32 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"ERROR",
-				"CT0X8",
-				"CLST0",
 				"| NETW",
-				"T0X885",
 				"T ERRO",
-				"ST ERR",
-				"ILE0X8",
+				"9_SECT",
+				"X885F_F",
 				"X69_SEC",
 				"RROR | ",
 				"OR | NE",
 				"82_CLST",
+				"0X885F_",
 				" NETW E",
+				" ERROR ",
+				"_CLST0X6",
 				"X8C8517B",
+				"T0X69_SE",
+				"SYST ERR",
 				"ST0X69_S",
+				"MFT0X82_",
+				"ILE0X8C8",
 				"F_FILE0X",
 				"FT0X82_C",
+				"ECT0X885",
 				"E0X8C851",
+				"CT0X885F",
 				"885F_FIL",
 				"5F_FILE0",
+				"2_CLST0X",
 				"17B2\\nSY",
 				"0X82_CLS",
 				"8517B2\\nS",
@@ -153,29 +167,35 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 27369,
+			"calls": 101519,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"ERROR",
-				"CT0X8",
-				"CLST0",
 				"| NETW",
-				"T0X885",
 				"T ERRO",
-				"ST ERR",
-				"ILE0X8",
+				"9_SECT",
+				"X885F_F",
 				"X69_SEC",
 				"RROR | ",
 				"OR | NE",
 				"82_CLST",
+				"0X885F_",
 				" NETW E",
+				" ERROR ",
+				"_CLST0X6",
 				"X8C8517B",
+				"T0X69_SE",
+				"SYST ERR",
 				"ST0X69_S",
+				"MFT0X82_",
+				"ILE0X8C8",
 				"F_FILE0X",
 				"FT0X82_C",
+				"ECT0X885",
 				"E0X8C851",
+				"CT0X885F",
 				"885F_FIL",
 				"5F_FILE0",
+				"2_CLST0X",
 				"17B2\\nSY",
 				"0X82_CLS",
 				"8517B2\\nS",
@@ -214,8 +234,8 @@
 			]
 		}
 	],
-	"updt": 1560253289664,
-	"edit": 1,
+	"updt": 1560254192135,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
@@ -245,6 +265,11 @@
 				"8517B2\\nS",
 				"2\\nSYST E"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
