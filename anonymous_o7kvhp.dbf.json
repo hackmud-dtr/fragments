@@ -1,41 +1,51 @@
 {
 	"_id": "anonymous_o7kvhp.dbf",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anonymous_o7kvhp.dbf",
 	"sector": "VNP_9228",
 	"sec_level": 4,
 	"date_added": 1560279438046,
-	"last_scraped": 1560279667619,
+	"last_scraped": 1560280428659,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560279438046
 		}
 	],
-	"updt": 1560279447652,
-	"edit": 1,
-	"scrape_ct": 15,
-	"next_scrape": 1560279727619,
+	"updt": 1560280349432,
+	"edit": 5,
+	"next_scrape": 1560323727761,
 	"category": "fishie_tank",
-	"last_update": 1560279667619,
+	"last_update": 1560280428659,
 	"output": [
 		{
 			"args": {},
-			"calls": 18491,
+			"calls": 89999,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" 0000 0",
 				"0000 010",
 				"0000 000",
 				"00 0000 "
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" 0000 0",
+						"0000 010",
+						"0000 000",
+						"00 0000 "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2204,
+			"calls": 9475,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -47,15 +57,48 @@
 				"0000 010",
 				"0000 000",
 				"00 0000 "
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" 0000 0",
+						"0000 010",
+						"0000 000",
+						"00 0000 "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 26818,
+			"calls": 108572,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				" 0000 0",
+				"0000 010",
+				"0000 000",
+				"00 0000 "
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" 0000 0",
+						"0000 010",
+						"0000 000",
+						"00 0000 "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
 				" 0000 0",
 				"0000 010",
 				"0000 000",

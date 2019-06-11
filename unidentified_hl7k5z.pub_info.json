@@ -1,25 +1,26 @@
 {
 	"_id": "unidentified_hl7k5z.pub_info",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "unidentified_hl7k5z.pub_info",
 	"sector": "VNP_9228",
 	"sec_level": 4,
 	"date_added": 1560273064666,
-	"last_scraped": 1560274155215,
+	"last_scraped": 1560273115440,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560273064666
 		}
 	],
-	"next_scrape": 1560320120858,
+	"scrape_ct": 19,
+	"next_scrape": 1560273175440,
 	"category": "fishie_tank",
-	"last_update": 1560274155215,
+	"last_update": 1560273115440,
 	"output": [
 		{
 			"args": {},
-			"calls": 94188,
+			"calls": 10838,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"Of co",
@@ -27,25 +28,13 @@
 				"keyhole",
 				"\\n1E29 ",
 				"rs.\\n1E29"
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"Of co",
-						"e I ha",
-						"keyhole",
-						"\\n1E29 ",
-						"rs.\\n1E29"
-					]
-				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8821,
+			"calls": 832,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -58,53 +47,15 @@
 				"keyhole",
 				"\\n1E29 ",
 				"rs.\\n1E29"
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"Of co",
-						"e I ha",
-						"keyhole",
-						"\\n1E29 ",
-						"rs.\\n1E29"
-					]
-				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 104506,
+			"calls": 10583,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"Of co",
-				"e I ha",
-				"keyhole",
-				"\\n1E29 ",
-				"rs.\\n1E29"
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"Of co",
-						"e I ha",
-						"keyhole",
-						"\\n1E29 ",
-						"rs.\\n1E29"
-					]
-				}
-			]
-		}
-	],
-	"updt": 1560274040209,
-	"edit": 4,
-	"identified": [
-		{
-			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-			"frags": [
 				"Of co",
 				"e I ha",
 				"keyhole",
