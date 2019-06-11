@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_ug9452.weather",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abndnd_ug9452.weather",
 	"sector": "VNP_9228",
 	"sec_level": 4,
@@ -15,6 +15,10 @@
 		{
 			"type": "died",
 			"when": 1560254364135
+		},
+		{
+			"type": "died",
+			"when": 1560254538655
 		}
 	],
 	"scrape_ct": 20,
@@ -39,5 +43,7 @@
 			]
 		}
 	],
-	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_ug9452.weather: script doesn't exist\"}"
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_ug9452.weather: script doesn't exist\"}",
+	"updt": 1560254417984,
+	"edit": 1
 }
