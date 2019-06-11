@@ -6,16 +6,16 @@
 	"sector": "SPC_9848",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1560257976919,
+	"last_scraped": 1560285981579,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1560231874051,
-	"edit": 54,
-	"next_scrape": 1560302237800,
+	"updt": 1560258030225,
+	"edit": 55,
+	"next_scrape": 1560326433827,
 	"category": "fishie_tank",
 	"last_update": 1560257976919,
 	"output": [
@@ -139,6 +139,14 @@
 				" just w",
 				" hundred"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
