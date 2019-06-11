@@ -1,0 +1,81 @@
+{
+	"_id": "derelict_s433rx.united_brain",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "derelict_s433rx.united_brain",
+	"sector": "VNP_9228",
+	"sec_level": 4,
+	"date_added": 1560247581378,
+	"last_scraped": 1560248050789,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1560247581378
+		}
+	],
+	"scrape_ct": 11,
+	"next_scrape": 1560248110789,
+	"category": "fishie_tank",
+	"last_update": 1560248050789,
+	"output": [
+		{
+			"args": {},
+			"calls": 45315,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"r?   ",
+				"r log",
+				"o, whi",
+				"l, gam",
+				" so, w",
+				"server ",
+				"h do we",
+				"on data)",
+				"e the ot"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4356,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"r?   ",
+				"r log",
+				"o, whi",
+				"l, gam",
+				" so, w",
+				"server ",
+				"h do we",
+				"on data)",
+				"e the ot"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 41381,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"r?   ",
+				"r log",
+				"o, whi",
+				"l, gam",
+				" so, w",
+				"server ",
+				"h do we",
+				"on data)",
+				"e the ot"
+			]
+		}
+	],
+	"updt": 1560247881685,
+	"edit": 2
+}
