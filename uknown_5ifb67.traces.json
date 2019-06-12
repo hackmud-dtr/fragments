@@ -6,28 +6,34 @@
 	"sector": "K_3282",
 	"sec_level": 4,
 	"date_added": 1560224881335,
-	"last_scraped": 1560335317481,
+	"last_scraped": 1560362376658,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560224881335
 		}
 	],
-	"updt": 1560308980701,
-	"edit": 9,
-	"next_scrape": 1560377399019,
+	"updt": 1560335348344,
+	"edit": 10,
+	"next_scrape": 1560404534174,
 	"category": "fishie_tank",
-	"last_update": 1560335317481,
+	"last_update": 1560362386706,
 	"output": [
 		{
 			"args": {},
-			"calls": 141218,
+			"calls": 150493,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"rin R",
 				"gular",
-				"Mallo",
+				" sing",
 				"ne per",
+				"Mallor",
+				"u are o",
+				"on.\\n21",
+				"\\n211F ",
+				" Erin R",
+				"rson.\\n2",
+				"ar.\\n212",
 				"0 I am M"
 			],
 			"hits": [
@@ -47,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 12953,
+			"calls": 13807,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -55,10 +61,16 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"rin R",
 				"gular",
-				"Mallo",
+				" sing",
 				"ne per",
+				"Mallor",
+				"u are o",
+				"on.\\n21",
+				"\\n211F ",
+				" Erin R",
+				"rson.\\n2",
+				"ar.\\n212",
 				"0 I am M"
 			],
 			"hits": [
@@ -111,6 +123,11 @@
 				"ne per",
 				"0 I am M"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
