@@ -1,28 +1,27 @@
 {
 	"_id": "anonymous_mzcm0y.donate",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anonymous_mzcm0y.donate",
 	"sector": "NGC_3087",
 	"sec_level": 4,
 	"date_added": 1560339820782,
-	"last_scraped": 1560340522433,
+	"last_scraped": 1560340841407,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560339820782
 		}
 	],
-	"updt": 1560340308220,
-	"edit": 3,
-	"scrape_ct": 5,
-	"next_scrape": 1560340582433,
+	"updt": 1560340759296,
+	"edit": 4,
+	"next_scrape": 1560382616808,
 	"category": "fishie_tank",
-	"last_update": 1560340522433,
+	"last_update": 1560340841407,
 	"output": [
 		{
 			"args": {},
-			"calls": 81600,
+			"calls": 107189,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"o bel",
@@ -50,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5570,
+			"calls": 9232,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -83,7 +82,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 60020,
+			"calls": 100006,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"o bel",
@@ -119,11 +118,6 @@
 				"Mallor",
 				"sure ## "
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
