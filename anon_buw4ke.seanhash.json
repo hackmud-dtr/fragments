@@ -1,26 +1,25 @@
 {
 	"_id": "anon_buw4ke.seanhash",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anon_buw4ke.seanhash",
 	"sector": "NGC_3087",
 	"sec_level": 4,
 	"date_added": 1560313906489,
-	"last_scraped": 1560314547004,
+	"last_scraped": 1560314916704,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560313906489
 		}
 	],
-	"scrape_ct": 7,
-	"next_scrape": 1560314607004,
+	"next_scrape": 1560356363435,
 	"category": "fishie_tank",
-	"last_update": 1560314547004,
+	"last_update": 1560314916704,
 	"output": [
 		{
 			"args": {},
-			"calls": 66663,
+			"calls": 103189,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ource",
@@ -33,13 +32,30 @@
 				"ity wit",
 				"apacity",
 				"icance n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"ource",
+						"sonal ",
+						"on a p",
+						"ical/c",
+						"d reso",
+						"orical/",
+						"l signi",
+						"ity wit",
+						"apacity",
+						"icance n"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5720,
+			"calls": 9092,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -57,13 +73,30 @@
 				"ity wit",
 				"apacity",
 				"icance n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"ource",
+						"sonal ",
+						"on a p",
+						"ical/c",
+						"d reso",
+						"orical/",
+						"l signi",
+						"ity wit",
+						"apacity",
+						"icance n"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 73988,
+			"calls": 108623,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ource",
@@ -76,9 +109,43 @@
 				"ity wit",
 				"apacity",
 				"icance n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"ource",
+						"sonal ",
+						"on a p",
+						"ical/c",
+						"d reso",
+						"orical/",
+						"l signi",
+						"ity wit",
+						"apacity",
+						"icance n"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1560314389441,
-	"edit": 2
+	"updt": 1560315065268,
+	"edit": 5,
+	"identified": [
+		{
+			"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+			"frags": [
+				"ource",
+				"sonal ",
+				"on a p",
+				"ical/c",
+				"d reso",
+				"orical/",
+				"l signi",
+				"ity wit",
+				"apacity",
+				"icance n"
+			]
+		}
+	]
 }
