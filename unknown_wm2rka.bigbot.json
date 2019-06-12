@@ -6,21 +6,21 @@
 	"sector": "NGC_3087",
 	"sec_level": 4,
 	"date_added": 1560348557548,
-	"last_scraped": 1560349258207,
+	"last_scraped": 1560349076652,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560348557548
 		}
 	],
-	"scrape_ct": 5,
-	"next_scrape": 1560349318207,
+	"scrape_ct": 9,
+	"next_scrape": 1560349136652,
 	"category": "fishie_tank",
-	"last_update": 1560349258207,
+	"last_update": 1560349076652,
 	"output": [
 		{
 			"args": {},
-			"calls": 82657,
+			"calls": 65440,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"that ",
@@ -36,33 +36,13 @@
 				"n\\n20F6 ",
 				"l damage",
 				".\\n20FD A"
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"that ",
-						"er th",
-						"at we",
-						"efende",
-						"eal da",
-						"deal d",
-						"101 th",
-						"t we\\n2",
-						"ck.\\n20",
-						"o\\n2101 ",
-						"n\\n20F6 ",
-						"l damage",
-						".\\n20FD A"
-					]
-				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6383,
+			"calls": 4906,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -83,33 +63,13 @@
 				"n\\n20F6 ",
 				"l damage",
 				".\\n20FD A"
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"that ",
-						"er th",
-						"at we",
-						"efende",
-						"eal da",
-						"deal d",
-						"101 th",
-						"t we\\n2",
-						"ck.\\n20",
-						"o\\n2101 ",
-						"n\\n20F6 ",
-						"l damage",
-						".\\n20FD A"
-					]
-				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 66465,
+			"calls": 49257,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"that ",
@@ -125,49 +85,9 @@
 				"n\\n20F6 ",
 				"l damage",
 				".\\n20FD A"
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"that ",
-						"er th",
-						"at we",
-						"efende",
-						"eal da",
-						"deal d",
-						"101 th",
-						"t we\\n2",
-						"ck.\\n20",
-						"o\\n2101 ",
-						"n\\n20F6 ",
-						"l damage",
-						".\\n20FD A"
-					]
-				}
 			]
 		}
 	],
-	"updt": 1560349098025,
-	"edit": 3,
-	"identified": [
-		{
-			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-			"frags": [
-				"that ",
-				"er th",
-				"at we",
-				"efende",
-				"eal da",
-				"deal d",
-				"101 th",
-				"t we\\n2",
-				"ck.\\n20",
-				"o\\n2101 ",
-				"n\\n20F6 ",
-				"l damage",
-				".\\n20FD A"
-			]
-		}
-	]
+	"updt": 1560348871911,
+	"edit": 2
 }
