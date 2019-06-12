@@ -6,21 +6,21 @@
 	"sector": "NGC_3087",
 	"sec_level": 4,
 	"date_added": 1560321580147,
-	"last_scraped": 1560321809130,
+	"last_scraped": 1560322440184,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560321580147
 		}
 	],
-	"scrape_ct": 17,
-	"next_scrape": 1560321869130,
+	"scrape_ct": 9,
+	"next_scrape": 1560322500184,
 	"category": "dice_roller",
-	"last_update": 1560321809130,
+	"last_update": 1560322440184,
 	"output": [
 		{
 			"args": {},
-			"calls": 40445,
+			"calls": 110356,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
 				"87976",
@@ -40,9 +40,57 @@
 				"ECT0X8CA",
 				"0XE7_CLS",
 				"0X8CA8_F"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"87976",
+						"\\nSYST",
+						"R | NE",
+						"ILE0X5",
+						"FILE0X",
+						"9769\\n",
+						"YST ERR",
+						"T0X8CA8",
+						"CA8_FIL",
+						"8CA8_FI",
+						"69\\nSYS",
+						"0X5C879",
+						" | NETW",
+						"ERROR | ",
+						"ECT0X8CA",
+						"0XE7_CLS",
+						"0X8CA8_F"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1560321601228,
-	"edit": 1
+	"updt": 1560322276719,
+	"edit": 3,
+	"identified": [
+		{
+			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+			"frags": [
+				"87976",
+				"\\nSYST",
+				"R | NE",
+				"ILE0X5",
+				"FILE0X",
+				"9769\\n",
+				"YST ERR",
+				"T0X8CA8",
+				"CA8_FIL",
+				"8CA8_FI",
+				"69\\nSYS",
+				"0X5C879",
+				" | NETW",
+				"ERROR | ",
+				"ECT0X8CA",
+				"0XE7_CLS",
+				"0X8CA8_F"
+			]
+		}
+	]
 }
