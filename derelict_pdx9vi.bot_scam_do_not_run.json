@@ -1,26 +1,25 @@
 {
 	"_id": "derelict_pdx9vi.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "derelict_pdx9vi.bot_scam_do_not_run",
 	"sector": "NGC_3087",
 	"sec_level": 4,
 	"date_added": 1560328193042,
-	"last_scraped": 1560328783182,
+	"last_scraped": 1560329884449,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560328193042
 		}
 	],
-	"scrape_ct": 13,
-	"next_scrape": 1560328843182,
+	"next_scrape": 1560371220858,
 	"category": "dice_roller",
-	"last_update": 1560328783182,
+	"last_update": 1560329884449,
 	"output": [
 		{
 			"args": {},
-			"calls": 72976,
+			"calls": 198634,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
 				" with",
@@ -29,9 +28,35 @@
 				"h we cou",
 				"d play\\n",
 				"a drone "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" with",
+						"s\\n21D",
+						"21D9 a",
+						"h we cou",
+						"d play\\n",
+						"a drone "
+					]
+				}
 			]
 		}
 	],
-	"updt": 1560328588144,
-	"edit": 2
+	"updt": 1560329714134,
+	"edit": 7,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				" with",
+				"s\\n21D",
+				"21D9 a",
+				"h we cou",
+				"d play\\n",
+				"a drone "
+			]
+		}
+	]
 }
