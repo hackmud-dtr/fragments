@@ -6,16 +6,16 @@
 	"sector": "SPC_0122",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1560313836635,
+	"last_scraped": 1560340081987,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1560313936895,
-	"edit": 64,
-	"next_scrape": 1560354368279,
+	"updt": 1560314615406,
+	"edit": 65,
+	"next_scrape": 1560381349054,
 	"category": "fishie_tank",
 	"last_update": 1560313836635,
 	"output": [
@@ -349,6 +349,14 @@
 				" agreed ",
 				" Mallory"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
