@@ -1,26 +1,25 @@
 {
 	"_id": "abndnd_7hzm3t.cull",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abndnd_7hzm3t.cull",
 	"sector": "NGC_3087",
 	"sec_level": 4,
 	"date_added": 1560374725257,
-	"last_scraped": 1560375576002,
+	"last_scraped": 1560376290917,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560374725257
 		}
 	],
-	"scrape_ct": 4,
-	"next_scrape": 1560375636002,
+	"next_scrape": 1560417747166,
 	"category": "fishie_tank",
-	"last_update": 1560375586414,
+	"last_update": 1560376290917,
 	"output": [
 		{
 			"args": {},
-			"calls": 87729,
+			"calls": 106357,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"e: wh",
@@ -34,13 +33,31 @@
 				"t are we",
 				"hant-in-",
 				"elephant"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"e: wh",
+						"It's ",
+						"t's ele",
+						"oom tim",
+						"om time",
+						"n-the-r",
+						"e-room ",
+						"'s elep",
+						"t are we",
+						"hant-in-",
+						"elephant"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6671,
+			"calls": 7982,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -59,13 +76,31 @@
 				"t are we",
 				"hant-in-",
 				"elephant"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"e: wh",
+						"It's ",
+						"t's ele",
+						"oom tim",
+						"om time",
+						"n-the-r",
+						"e-room ",
+						"'s elep",
+						"t are we",
+						"hant-in-",
+						"elephant"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 71705,
+			"calls": 98002,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"e: wh",
@@ -79,14 +114,45 @@
 				"t are we",
 				"hant-in-",
 				"elephant"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"e: wh",
+						"It's ",
+						"t's ele",
+						"oom tim",
+						"om time",
+						"n-the-r",
+						"e-room ",
+						"'s elep",
+						"t are we",
+						"hant-in-",
+						"elephant"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1560375234637,
-	"edit": 3,
-	"retry_args": [
+	"updt": 1560376135343,
+	"edit": 5,
+	"identified": [
 		{
-			"do": "clean"
+			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+			"frags": [
+				"e: wh",
+				"It's ",
+				"t's ele",
+				"oom tim",
+				"om time",
+				"n-the-r",
+				"e-room ",
+				"'s elep",
+				"t are we",
+				"hant-in-",
+				"elephant"
+			]
 		}
 	]
 }
