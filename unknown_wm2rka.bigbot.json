@@ -1,0 +1,101 @@
+{
+	"_id": "unknown_wm2rka.bigbot",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unknown_wm2rka.bigbot",
+	"sector": "NGC_3087",
+	"sec_level": 4,
+	"date_added": 1560348557548,
+	"last_scraped": 1560348866760,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1560348557548
+		}
+	],
+	"scrape_ct": 14,
+	"next_scrape": 1560348926760,
+	"category": "fishie_tank",
+	"last_update": 1560348866760,
+	"output": [
+		{
+			"args": {},
+			"calls": 44097,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"that ",
+				"er th",
+				"at we",
+				"efende",
+				"eal da",
+				"deal d",
+				"101 th",
+				"t we\\n2",
+				"ck.\\n20",
+				"o\\n2101 ",
+				"n\\n20F6 ",
+				"l damage",
+				".\\n20FD A"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2235,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"that ",
+				"er th",
+				"at we",
+				"efende",
+				"eal da",
+				"deal d",
+				"101 th",
+				"t we\\n2",
+				"ck.\\n20",
+				"o\\n2101 ",
+				"n\\n20F6 ",
+				"l damage",
+				".\\n20FD A"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 21417,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"that ",
+				"er th",
+				"at we",
+				"efende",
+				"eal da",
+				"deal d",
+				"101 th",
+				"t we\\n2",
+				"ck.\\n20",
+				"o\\n2101 ",
+				"n\\n20F6 ",
+				"l damage",
+				".\\n20FD A"
+			]
+		}
+	],
+	"updt": 1560348646229,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
