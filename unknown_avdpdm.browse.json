@@ -6,22 +6,22 @@
 	"sector": "VNP_6726",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1560403409607,
+	"last_scraped": 1560431167950,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1560370954014,
-	"edit": 62,
-	"next_scrape": 1560443853666,
+	"updt": 1560403637217,
+	"edit": 63,
+	"next_scrape": 1560477786137,
 	"category": "fishie_tank",
-	"last_update": 1560370772565,
+	"last_update": 1560431167950,
 	"output": [
 		{
 			"args": {},
-			"calls": 511011,
+			"calls": 532256,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ities",
@@ -67,7 +67,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 45589,
+			"calls": 47485,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -118,7 +118,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 492901,
+			"calls": 510923,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ities",
@@ -181,14 +181,6 @@
 				"ink ther",
 				"e: Prior"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
