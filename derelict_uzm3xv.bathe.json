@@ -1,21 +1,34 @@
 {
 	"_id": "derelict_uzm3xv.bathe",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "derelict_uzm3xv.bathe",
-	"sector": "HJG_0976",
+	"sector": "K_1215",
 	"sec_level": 1,
 	"date_added": 1558821408422,
-	"last_scraped": 1560362777051,
+	"last_scraped": 1560388456426,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
-		}
+		},
+		{
+			"type": "died",
+			"when": 1560388371296
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1560388387508,
+				"from": "K_1215",
+				"to": "HJG_0976"
+			}
+		]
 	],
-	"updt": 1560335800673,
-	"edit": 46,
+	"updt": 1560362842771,
+	"edit": 47,
 	"output": "RUNTIME ERROR witch.reaper: script doesn't exist",
-	"next_scrape": 1560445338318,
-	"pl_output": "RUNTIME ERROR witch.reaper: script doesn't exist"
+	"next_scrape": 1560388516426,
+	"pl_output": "RUNTIME ERROR witch.reaper: script doesn't exist",
+	"scrape_ct": 16
 }

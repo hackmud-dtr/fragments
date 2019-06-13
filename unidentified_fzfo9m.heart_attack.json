@@ -6,14 +6,14 @@
 	"sector": "K_3429",
 	"sec_level": 4,
 	"date_added": 1559276569397,
-	"last_scraped": 1560358083409,
+	"last_scraped": 1560388537435,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559276569397
 		}
 	],
-	"next_scrape": 1560399244891,
+	"next_scrape": 1560433256819,
 	"category": "fishie_tank",
 	"last_update": 1560358083409,
 	"output": [
@@ -111,8 +111,8 @@
 			]
 		}
 	],
-	"updt": 1560331967549,
-	"edit": 44,
+	"updt": 1560358113700,
+	"edit": 45,
 	"identified": [
 		{
 			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
@@ -125,6 +125,14 @@
 				"0X87AF1",
 				" PROG E"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
