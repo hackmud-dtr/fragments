@@ -1,21 +1,33 @@
 {
 	"_id": "uknown_b6y9vb.keyring",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "uknown_b6y9vb.keyring",
-	"sector": "HJG_7470",
+	"sector": "K_1215",
 	"sec_level": 1,
 	"date_added": 1558821408422,
-	"last_scraped": 1560089204411,
+	"last_scraped": 1560465836059,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
-		}
+		},
+		{
+			"type": "died",
+			"when": 1560465800691
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1560465806140,
+				"from": "K_1215",
+				"to": "HJG_7470"
+			}
+		]
 	],
-	"updt": 1560089387017,
-	"edit": 37,
+	"updt": 1560116453134,
+	"edit": 38,
 	"output": "{\"ok\":true,\"msg\":\"Command not found.\\n\"}",
-	"next_scrape": 1560171980290,
+	"next_scrape": 1560552784601,
 	"pl_output": "{\"ok\":true,\"msg\":\"Command not found.\\n\"}"
 }
