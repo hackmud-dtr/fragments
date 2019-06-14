@@ -6,33 +6,40 @@
 	"sector": "VNP_9228",
 	"sec_level": 4,
 	"date_added": 1560272034818,
-	"last_scraped": 1560497862691,
+	"last_scraped": 1560497882545,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560272034818
 		}
 	],
-	"next_scrape": 1560540759819,
+	"next_scrape": 1560541951622,
 	"category": "fishie_tank",
-	"last_update": 1560470567650,
+	"last_update": 1560497882545,
 	"output": [
 		{
 			"args": {},
-			"calls": 183965,
+			"calls": 193044,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"ent t",
 				"OUNCE",
 				"e disca",
 				"2176 ar",
 				"177 of ",
 				" to the",
+				"s\\n2176 ",
+				"rds\\n217",
+				"o the di",
+				"nt to th",
 				"iscard p",
 				"discard ",
 				"cker BOU",
 				"ard pile",
+				"acker BO",
 				"\\n2177 o",
 				"UNCE car",
+				"76 are s",
 				"176 are ",
 				"ile\\n2177",
 				"d pile\\n2",
@@ -65,7 +72,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 15827,
+			"calls": 16634,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -73,17 +80,24 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"ent t",
 				"OUNCE",
 				"e disca",
 				"2176 ar",
 				"177 of ",
 				" to the",
+				"s\\n2176 ",
+				"rds\\n217",
+				"o the di",
+				"nt to th",
 				"iscard p",
 				"discard ",
 				"cker BOU",
 				"ard pile",
+				"acker BO",
 				"\\n2177 o",
 				"UNCE car",
+				"76 are s",
 				"176 are ",
 				"ile\\n2177",
 				"d pile\\n2",
@@ -116,20 +130,27 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 176992,
+			"calls": 186562,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"ent t",
 				"OUNCE",
 				"e disca",
 				"2176 ar",
 				"177 of ",
 				" to the",
+				"s\\n2176 ",
+				"rds\\n217",
+				"o the di",
+				"nt to th",
 				"iscard p",
 				"discard ",
 				"cker BOU",
 				"ard pile",
+				"acker BO",
 				"\\n2177 o",
 				"UNCE car",
+				"76 are s",
 				"176 are ",
 				"ile\\n2177",
 				"d pile\\n2",
@@ -181,14 +202,6 @@
 				"d pile\\n2",
 				"E cards\\n"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
