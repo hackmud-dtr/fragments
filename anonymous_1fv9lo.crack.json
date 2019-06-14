@@ -6,20 +6,20 @@
 	"sector": "SPC_1668",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1560456132162,
+	"last_scraped": 1560483387185,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"next_scrape": 1560500393030,
+	"next_scrape": 1560526757647,
 	"category": "fishie_tank",
-	"last_update": 1560456132162,
+	"last_update": 1560483387185,
 	"output": [
 		{
 			"args": {},
-			"calls": 527281,
+			"calls": 536748,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"0100 0",
@@ -38,13 +38,15 @@
 					"document": "NOT FOUND",
 					"frags": [
 						"0100 0",
-						"0000\\n0",
 						"00\\n0000",
 						"0000 010",
 						"0000 000",
 						"000 0100",
 						"00 0000 ",
-						"0 0000 0"
+						"0 0000 0",
+						" 0011 01",
+						"0\\n0000 0",
+						"0000\\n000"
 					]
 				}
 			]
@@ -53,7 +55,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 46360,
+			"calls": 47008,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -77,13 +79,15 @@
 					"document": "NOT FOUND",
 					"frags": [
 						"0100 0",
-						"0000\\n0",
 						"00\\n0000",
 						"0000 010",
 						"0000 000",
 						"000 0100",
 						"00 0000 ",
-						"0 0000 0"
+						"0 0000 0",
+						" 0011 01",
+						"0\\n0000 0",
+						"0000\\n000"
 					]
 				}
 			]
@@ -92,7 +96,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 538095,
+			"calls": 547506,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"0100 0",
@@ -111,32 +115,36 @@
 					"document": "NOT FOUND",
 					"frags": [
 						"0100 0",
-						"0000\\n0",
 						"00\\n0000",
 						"0000 010",
 						"0000 000",
 						"000 0100",
 						"00 0000 ",
-						"0 0000 0"
+						"0 0000 0",
+						" 0011 01",
+						"0\\n0000 0",
+						"0000\\n000"
 					]
 				}
 			]
 		}
 	],
-	"updt": 1560428218444,
-	"edit": 69,
+	"updt": 1560456400594,
+	"edit": 71,
 	"identified": [
 		{
 			"document": "NOT FOUND",
 			"frags": [
 				"0100 0",
-				"0000\\n0",
 				"00\\n0000",
 				"0000 010",
 				"0000 000",
 				"000 0100",
 				"00 0000 ",
-				"0 0000 0"
+				"0 0000 0",
+				" 0011 01",
+				"0\\n0000 0",
+				"0000\\n000"
 			]
 		}
 	]
