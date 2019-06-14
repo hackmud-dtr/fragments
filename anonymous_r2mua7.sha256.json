@@ -6,22 +6,23 @@
 	"sector": "VNP_9228",
 	"sec_level": 4,
 	"date_added": 1560272034818,
-	"last_scraped": 1560497882545,
+	"last_scraped": 1560524687823,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560272034818
 		}
 	],
-	"next_scrape": 1560541951622,
+	"next_scrape": 1560566104996,
 	"category": "fishie_tank",
-	"last_update": 1560497882545,
+	"last_update": 1560524687823,
 	"output": [
 		{
 			"args": {},
-			"calls": 193044,
+			"calls": 203218,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"sent ",
 				"ent t",
 				"OUNCE",
 				"e disca",
@@ -41,6 +42,7 @@
 				"UNCE car",
 				"76 are s",
 				"176 are ",
+				" of the ",
 				"ile\\n2177",
 				"d pile\\n2",
 				"E cards\\n"
@@ -201,8 +203,8 @@
 			]
 		}
 	],
-	"updt": 1560498091644,
-	"edit": 13,
+	"updt": 1560498995610,
+	"edit": 14,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -230,6 +232,11 @@
 				"d pile\\n2",
 				"E cards\\n"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
