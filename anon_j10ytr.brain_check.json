@@ -1,0 +1,45 @@
+{
+	"_id": "anon_j10ytr.brain_check",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anon_j10ytr.brain_check",
+	"sector": "VNP_3200",
+	"sec_level": 4,
+	"date_added": 1560611900307,
+	"last_scraped": 1560611930981,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1560611900307
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1560611990981,
+	"category": "fishie_tank",
+	"last_update": 1560611930981,
+	"output": [
+		{
+			"args": {},
+			"calls": 8635,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"the m",
+				"ence ",
+				" it a",
+				"rmulat",
+				"nd the ",
+				" to put",
+				"g, they ",
+				"eeded to"
+			]
+		}
+	]
+}
