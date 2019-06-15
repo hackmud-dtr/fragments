@@ -1,0 +1,79 @@
+{
+	"_id": "derelict_qavpcy.tell",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "derelict_qavpcy.tell",
+	"sector": "VNP_3200",
+	"sec_level": 4,
+	"date_added": 1560622474894,
+	"last_scraped": 1560622526187,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1560622474894
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1560622586187,
+	"category": "fishie_tank",
+	"last_update": 1560622526187,
+	"output": [
+		{
+			"args": {},
+			"calls": 11901,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"eep w",
+				"_CLST",
+				"C7D17",
+				"ou kee",
+				"T0XF227",
+				"0X2BC7D",
+				"ting 'I,",
+				"_FILE0X2",
+				"7_FILE0X"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 824,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"eep w",
+				"_CLST",
+				"C7D17",
+				"ou kee",
+				"T0XF227",
+				"0X2BC7D",
+				"ting 'I,",
+				"_FILE0X2",
+				"7_FILE0X"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 11915,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"eep w",
+				"_CLST",
+				"C7D17",
+				"ou kee",
+				"T0XF227",
+				"0X2BC7D",
+				"ting 'I,",
+				"_FILE0X2",
+				"7_FILE0X"
+			]
+		}
+	]
+}
