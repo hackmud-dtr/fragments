@@ -6,21 +6,21 @@
 	"sector": "VNP_3200",
 	"sec_level": 4,
 	"date_added": 1560622474894,
-	"last_scraped": 1560622526187,
+	"last_scraped": 1560623385595,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560622474894
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1560622586187,
+	"scrape_ct": 1,
+	"next_scrape": 1560623445595,
 	"category": "fishie_tank",
-	"last_update": 1560622526187,
+	"last_update": 1560623385595,
 	"output": [
 		{
 			"args": {},
-			"calls": 11901,
+			"calls": 97994,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"eep w",
@@ -32,13 +32,29 @@
 				"ting 'I,",
 				"_FILE0X2",
 				"7_FILE0X"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"eep w",
+						"_CLST",
+						"C7D17",
+						"ou kee",
+						"T0XF227",
+						"0X2BC7D",
+						"ting 'I,",
+						"_FILE0X2",
+						"7_FILE0X"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 824,
+			"calls": 8440,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -55,15 +71,65 @@
 				"ting 'I,",
 				"_FILE0X2",
 				"7_FILE0X"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"eep w",
+						"_CLST",
+						"C7D17",
+						"ou kee",
+						"T0XF227",
+						"0X2BC7D",
+						"ting 'I,",
+						"_FILE0X2",
+						"7_FILE0X"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 11915,
+			"calls": 98383,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"eep w",
+				"_CLST",
+				"C7D17",
+				"ou kee",
+				"T0XF227",
+				"0X2BC7D",
+				"ting 'I,",
+				"_FILE0X2",
+				"7_FILE0X"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"eep w",
+						"_CLST",
+						"C7D17",
+						"ou kee",
+						"T0XF227",
+						"0X2BC7D",
+						"ting 'I,",
+						"_FILE0X2",
+						"7_FILE0X"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1560623212258,
+	"edit": 3,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"eep w",
 				"_CLST",
 				"C7D17",
