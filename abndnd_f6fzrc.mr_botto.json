@@ -1,26 +1,25 @@
 {
 	"_id": "abndnd_f6fzrc.mr_botto",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abndnd_f6fzrc.mr_botto",
 	"sector": "HJG_0454",
 	"sec_level": 4,
 	"date_added": 1560568709188,
-	"last_scraped": 1560568868899,
+	"last_scraped": 1560596014287,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560568709188
 		}
 	],
-	"scrape_ct": 17,
-	"next_scrape": 1560568928899,
+	"next_scrape": 1560637225072,
 	"category": "fishie_tank",
-	"last_update": 1560568868899,
+	"last_update": 1560596014287,
 	"output": [
 		{
 			"args": {},
-			"calls": 20118,
+			"calls": 114303,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"X1785",
@@ -33,13 +32,30 @@
 				"B1F1_FIL",
 				"3\\nSYST ",
 				"7858BD3\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"X1785",
+						"0X178",
+						"ECT0XB",
+						"CLST0X",
+						"X93_CLST",
+						"T0XB1F1_",
+						"T0X0B_SE",
+						"B1F1_FIL",
+						"3\\nSYST ",
+						"7858BD3\\n"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1412,
+			"calls": 10077,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -57,15 +73,68 @@
 				"B1F1_FIL",
 				"3\\nSYST ",
 				"7858BD3\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"X1785",
+						"0X178",
+						"ECT0XB",
+						"CLST0X",
+						"X93_CLST",
+						"T0XB1F1_",
+						"T0X0B_SE",
+						"B1F1_FIL",
+						"3\\nSYST ",
+						"7858BD3\\n"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 18695,
+			"calls": 88062,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"X1785",
+				"0X178",
+				"ECT0XB",
+				"CLST0X",
+				"X93_CLST",
+				"T0XB1F1_",
+				"T0X0B_SE",
+				"B1F1_FIL",
+				"3\\nSYST ",
+				"7858BD3\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"X1785",
+						"0X178",
+						"ECT0XB",
+						"CLST0X",
+						"X93_CLST",
+						"T0XB1F1_",
+						"T0X0B_SE",
+						"B1F1_FIL",
+						"3\\nSYST ",
+						"7858BD3\\n"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1560569791239,
+	"edit": 5,
+	"identified": [
+		{
+			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+			"frags": [
 				"X1785",
 				"0X178",
 				"ECT0XB",
