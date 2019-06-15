@@ -1,0 +1,105 @@
+{
+	"_id": "unknown_ycq5uh.bot_brain",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unknown_ycq5uh.bot_brain",
+	"sector": "HJG_0454",
+	"sec_level": 4,
+	"date_added": 1560573941683,
+	"last_scraped": 1560574071680,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1560573941683
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1560574131680,
+	"category": "fishie_tank",
+	"last_update": 1560574071680,
+	"output": [
+		{
+			"args": {},
+			"calls": 18363,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"the at",
+				"is the",
+				"f the ",
+				"1 to t",
+				" to th",
+				"he dama",
+				"\\n20ED ",
+				"EC This",
+				" Add 1 ",
+				"to this ",
+				"ength.\\n",
+				"20ED val",
+				".\\n20EB ",
+				" This is",
+				"th.\\n20EB"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 939,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"the at",
+				"is the",
+				"f the ",
+				"1 to t",
+				" to th",
+				"he dama",
+				"\\n20ED ",
+				"EC This",
+				" Add 1 ",
+				"to this ",
+				"ength.\\n",
+				"20ED val",
+				".\\n20EB ",
+				" This is",
+				"th.\\n20EB"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 11506,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"the at",
+				"is the",
+				"f the ",
+				"1 to t",
+				" to th",
+				"he dama",
+				"\\n20ED ",
+				"EC This",
+				" Add 1 ",
+				"to this ",
+				"ength.\\n",
+				"20ED val",
+				".\\n20EB ",
+				" This is",
+				"th.\\n20EB"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
