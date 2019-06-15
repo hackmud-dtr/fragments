@@ -6,32 +6,34 @@
 	"sector": "K_9339",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1560544775304,
+	"last_scraped": 1560570820619,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1560517484012,
-	"edit": 68,
-	"next_scrape": 1560588747741,
+	"updt": 1560544993436,
+	"edit": 69,
+	"next_scrape": 1560613182043,
 	"category": "fishie_tank",
-	"last_update": 1560544775304,
+	"last_update": 1560570820619,
 	"output": [
 		{
 			"args": {},
-			"calls": 538249,
+			"calls": 542911,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				" | PRO",
+				"R | N",
+				"FT0X0",
+				"| PROG",
 				"X00_CLS",
 				"T0X00_C",
 				"ST ERRO",
+				"R | PRO",
 				"LE0XBBE",
 				"BBE270F",
 				"756A_FI",
-				"70FC\\nS",
 				" PROG E",
 				" NETW E",
 				"XF3_SECT",
@@ -48,7 +50,8 @@
 				"00_CLST0",
 				" | NETW ",
 				" ERROR |",
-				"C\\nSYST E"
+				"C\\nSYST E",
+				"270FC\\nSY"
 			],
 			"hits": [
 				{
@@ -87,7 +90,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 50941,
+			"calls": 51754,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -95,14 +98,16 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				" | PRO",
+				"R | N",
+				"FT0X0",
+				"| PROG",
 				"X00_CLS",
 				"T0X00_C",
 				"ST ERRO",
+				"R | PRO",
 				"LE0XBBE",
 				"BBE270F",
 				"756A_FI",
-				"70FC\\nS",
 				" PROG E",
 				" NETW E",
 				"XF3_SECT",
@@ -119,7 +124,8 @@
 				"00_CLST0",
 				" | NETW ",
 				" ERROR |",
-				"C\\nSYST E"
+				"C\\nSYST E",
+				"270FC\\nSY"
 			],
 			"hits": [
 				{
@@ -158,17 +164,19 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 577178,
+			"calls": 586652,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				" | PRO",
+				"R | N",
+				"FT0X0",
+				"| PROG",
 				"X00_CLS",
 				"T0X00_C",
 				"ST ERRO",
+				"R | PRO",
 				"LE0XBBE",
 				"BBE270F",
 				"756A_FI",
-				"70FC\\nS",
 				" PROG E",
 				" NETW E",
 				"XF3_SECT",
@@ -185,7 +193,8 @@
 				"00_CLST0",
 				" | NETW ",
 				" ERROR |",
-				"C\\nSYST E"
+				"C\\nSYST E",
+				"270FC\\nSY"
 			],
 			"hits": [
 				{
