@@ -6,27 +6,28 @@
 	"sector": "K_9339",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1560597104550,
+	"last_scraped": 1560626008407,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1560571596160,
-	"edit": 71,
-	"next_scrape": 1560643894411,
+	"updt": 1560597292710,
+	"edit": 72,
+	"next_scrape": 1560668014045,
 	"category": "fishie_tank",
-	"last_update": 1560597104550,
+	"last_update": 1560626008407,
 	"output": [
 		{
 			"args": {},
-			"calls": 551948,
+			"calls": 556606,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"R | N",
 				"FT0X0",
 				"| PROG",
+				"ILE0XB",
 				"X00_CLS",
 				"T0X00_C",
 				"ST ERRO",
@@ -34,6 +35,7 @@
 				"LE0XBBE",
 				"BBE270F",
 				"756A_FI",
+				"0X00_CL",
 				" PROG E",
 				" NETW E",
 				"XF3_SECT",
@@ -93,7 +95,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 52825,
+			"calls": 53811,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -104,6 +106,7 @@
 				"R | N",
 				"FT0X0",
 				"| PROG",
+				"ILE0XB",
 				"X00_CLS",
 				"T0X00_C",
 				"ST ERRO",
@@ -111,6 +114,7 @@
 				"LE0XBBE",
 				"BBE270F",
 				"756A_FI",
+				"0X00_CL",
 				" PROG E",
 				" NETW E",
 				"XF3_SECT",
@@ -170,12 +174,13 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 595984,
+			"calls": 605291,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"R | N",
 				"FT0X0",
 				"| PROG",
+				"ILE0XB",
 				"X00_CLS",
 				"T0X00_C",
 				"ST ERRO",
@@ -183,6 +188,7 @@
 				"LE0XBBE",
 				"BBE270F",
 				"756A_FI",
+				"0X00_CL",
 				" PROG E",
 				" NETW E",
 				"XF3_SECT",
