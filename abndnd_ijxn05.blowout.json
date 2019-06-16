@@ -1,19 +1,28 @@
 {
 	"_id": "abndnd_ijxn05.blowout",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "abndnd_ijxn05.blowout",
-	"sector": "K_3760",
+	"sector": "HJG_6175",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 0,
+	"last_scraped": 1560718957604,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1560718917845,
+				"from": "HJG_6175",
+				"to": "K_3760"
+			}
+		]
 	],
-	"updt": 1558827431795,
-	"edit": 3,
-	"next_scrape": 1558917972868
+	"updt": 1559182056764,
+	"edit": 4,
+	"next_scrape": 1560803515684,
+	"pl_output": "Cannot read property 'msg' of undefined"
 }
