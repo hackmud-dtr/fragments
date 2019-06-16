@@ -1,26 +1,25 @@
 {
 	"_id": "abndnd_59hurx.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abndnd_59hurx.db",
 	"sector": "SPC_2365",
 	"sec_level": 4,
 	"date_added": 1560653453299,
-	"last_scraped": 1560653852569,
+	"last_scraped": 1560682631372,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560653453299
 		}
 	],
-	"scrape_ct": 15,
-	"next_scrape": 1560653912569,
+	"next_scrape": 1560728416473,
 	"category": "coin_flipper",
-	"last_update": 1560653852569,
+	"last_update": 1560682631372,
 	"output": [
 		{
 			"args": {},
-			"calls": 64535,
+			"calls": 218960,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"000 00",
@@ -28,9 +27,33 @@
 				" 0100 1",
 				" 0000 0",
 				"00 0000 "
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"000 00",
+						"0\\n0000",
+						" 0100 1",
+						" 0000 0",
+						"00 0000 "
+					]
+				}
 			]
 		}
 	],
-	"updt": 1560653652676,
-	"edit": 1
+	"updt": 1560657258950,
+	"edit": 8,
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"000 00",
+				"0\\n0000",
+				" 0100 1",
+				" 0000 0",
+				"00 0000 "
+			]
+		}
+	]
 }
