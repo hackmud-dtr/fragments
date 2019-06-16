@@ -6,14 +6,14 @@
 	"sector": "NGC_3087",
 	"sec_level": 4,
 	"date_added": 1560362026773,
-	"last_scraped": 1560641944461,
+	"last_scraped": 1560670564716,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560362026773
 		}
 	],
-	"next_scrape": 1560682944960,
+	"next_scrape": 1560716866965,
 	"category": "fishie_tank",
 	"last_update": 1560641944461,
 	"output": [
@@ -111,8 +111,8 @@
 			]
 		}
 	],
-	"updt": 1560641928975,
-	"edit": 14,
+	"updt": 1560642154023,
+	"edit": 15,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -125,6 +125,14 @@
 				" attack",
 				"20B9 Her"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
