@@ -6,35 +6,39 @@
 	"sector": "K_1201",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1560625898189,
+	"last_scraped": 1560654612728,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1560597067692,
-	"edit": 72,
-	"next_scrape": 1560670162048,
+	"updt": 1560625918141,
+	"edit": 73,
+	"next_scrape": 1560699544236,
 	"category": "fishie_tank",
-	"last_update": 1560625898189,
+	"last_update": 1560654612728,
 	"output": [
 		{
 			"args": {},
-			"calls": 599540,
+			"calls": 611641,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"SECT0",
-				"\\nSYST",
+				"ECT0X",
+				"X756A_",
 				"R | PR",
 				"OR | P",
+				"FILE0X",
 				"| NETW ",
 				"T0XF3_S",
 				"T0X756A",
 				"756A_FI",
 				"0FC\\nSY",
 				" NETW E",
+				"\\nSYST E",
 				"YST ERRO",
+				"XBBE270F",
 				"W ERROR ",
 				"ROR | NE",
 				"FT0X00_C",
@@ -43,7 +47,8 @@
 				"BBE270FC",
 				"56A_FILE",
 				"0_CLST0X",
-				" | PROG "
+				" | PROG ",
+				" ERROR |"
 			],
 			"hits": [
 				{
@@ -77,7 +82,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 53154,
+			"calls": 54014,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -86,16 +91,20 @@
 			],
 			"fragments": [
 				"SECT0",
-				"\\nSYST",
+				"ECT0X",
+				"X756A_",
 				"R | PR",
 				"OR | P",
+				"FILE0X",
 				"| NETW ",
 				"T0XF3_S",
 				"T0X756A",
 				"756A_FI",
 				"0FC\\nSY",
 				" NETW E",
+				"\\nSYST E",
 				"YST ERRO",
+				"XBBE270F",
 				"W ERROR ",
 				"ROR | NE",
 				"FT0X00_C",
@@ -104,7 +113,8 @@
 				"BBE270FC",
 				"56A_FILE",
 				"0_CLST0X",
-				" | PROG "
+				" | PROG ",
+				" ERROR |"
 			],
 			"hits": [
 				{
@@ -138,20 +148,24 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 609355,
+			"calls": 618731,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"SECT0",
-				"\\nSYST",
+				"ECT0X",
+				"X756A_",
 				"R | PR",
 				"OR | P",
+				"FILE0X",
 				"| NETW ",
 				"T0XF3_S",
 				"T0X756A",
 				"756A_FI",
 				"0FC\\nSY",
 				" NETW E",
+				"\\nSYST E",
 				"YST ERRO",
+				"XBBE270F",
 				"W ERROR ",
 				"ROR | NE",
 				"FT0X00_C",
@@ -160,7 +174,8 @@
 				"BBE270FC",
 				"56A_FILE",
 				"0_CLST0X",
-				" | PROG "
+				" | PROG ",
+				" ERROR |"
 			],
 			"hits": [
 				{
