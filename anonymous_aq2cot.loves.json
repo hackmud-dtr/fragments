@@ -1,21 +1,30 @@
 {
 	"_id": "anonymous_aq2cot.loves",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "anonymous_aq2cot.loves",
-	"sector": "K_0887",
+	"sector": "SPC_1199",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1560672185629,
+	"last_scraped": 1560673296425,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1560673236352,
+				"from": "SPC_1199",
+				"to": "K_0887"
+			}
+		]
 	],
-	"updt": 1560643733553,
-	"edit": 58,
+	"updt": 1560673272409,
+	"edit": 60,
 	"output": "anonymous_aq2cot.loves { drow: \"bigmacs\" }",
-	"next_scrape": 1560751472283,
-	"pl_output": "anonymous_aq2cot.loves { drow: \"bigmacs\" }"
+	"next_scrape": 1560673356425,
+	"pl_output": "anonymous_aq2cot.loves { drow: \"bigmacs\" }",
+	"scrape_ct": 16
 }
