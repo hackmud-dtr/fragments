@@ -1,0 +1,75 @@
+{
+	"_id": "derelict_4aan5x.solve_catesby",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "derelict_4aan5x.solve_catesby",
+	"sector": "HJG_6175",
+	"sec_level": 4,
+	"date_added": 1560724871130,
+	"last_scraped": 1560725120553,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1560724871130
+		}
+	],
+	"scrape_ct": 14,
+	"next_scrape": 1560725180553,
+	"category": "fishie_tank",
+	"last_update": 1560725110631,
+	"output": [
+		{
+			"args": {},
+			"calls": 40253,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ance ",
+				"OR hi",
+				"n a pr",
+				"ces on",
+				"ty with",
+				"s MAJOR ",
+				" with VE"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2412,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ance ",
+				"OR hi",
+				"n a pr",
+				"ces on",
+				"ty with",
+				"s MAJOR ",
+				" with VE"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 22440,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ance ",
+				"OR hi",
+				"n a pr",
+				"ces on",
+				"ty with",
+				"s MAJOR ",
+				" with VE"
+			]
+		}
+	],
+	"updt": 1560724897041,
+	"edit": 1
+}
