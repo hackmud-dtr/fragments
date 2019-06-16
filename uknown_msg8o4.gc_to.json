@@ -6,22 +6,22 @@
 	"sector": "K_7766",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1560650980587,
+	"last_scraped": 1560678449330,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1560651172729,
-	"edit": 81,
-	"next_scrape": 1560693307090,
+	"updt": 1560651396277,
+	"edit": 82,
+	"next_scrape": 1560719327942,
 	"category": "fishie_tank",
-	"last_update": 1560650980587,
+	"last_update": 1560678449330,
 	"output": [
 		{
 			"args": {},
-			"calls": 608970,
+			"calls": 617983,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"years ",
@@ -37,12 +37,14 @@
 				"r to you",
 				"r provin",
 				"prior to",
+				"o your p",
 				"ior to y",
 				"ing\\n1E9",
 				"ike to l",
 				"hat the ",
 				"g\\n1E97 ",
 				"as years",
+				"and I'd ",
 				"E9A what",
 				"E97 and ",
 				"E95 prio",
@@ -53,6 +55,7 @@
 				" what th",
 				" was yea",
 				" to your",
+				" prior t",
 				" and I'd",
 				" ago\\n1E",
 				" I'd lik",
@@ -63,7 +66,9 @@
 				"go\\n1E95 ",
 				"arn\\n1E9A",
 				"ago\\n1E95",
-				"\\n1E95 pr"
+				"\\n1E97 an",
+				"\\n1E95 pr",
+				" learn\\n1"
 			],
 			"hits": [
 				{
@@ -356,6 +361,14 @@
 				"ago\\n1E95",
 				"\\n1E95 pr"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
