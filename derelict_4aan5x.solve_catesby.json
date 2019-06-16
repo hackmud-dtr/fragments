@@ -1,26 +1,25 @@
 {
 	"_id": "derelict_4aan5x.solve_catesby",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "derelict_4aan5x.solve_catesby",
 	"sector": "HJG_6175",
 	"sec_level": 4,
 	"date_added": 1560724871130,
-	"last_scraped": 1560725120553,
+	"last_scraped": 1560725910520,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560724871130
 		}
 	],
-	"scrape_ct": 14,
-	"next_scrape": 1560725180553,
+	"next_scrape": 1560769438788,
 	"category": "fishie_tank",
-	"last_update": 1560725110631,
+	"last_update": 1560725910520,
 	"output": [
 		{
 			"args": {},
-			"calls": 40253,
+			"calls": 106629,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ance ",
@@ -30,13 +29,27 @@
 				"ty with",
 				"s MAJOR ",
 				" with VE"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"ance ",
+						"OR hi",
+						"n a pr",
+						"ces on",
+						"ty with",
+						"s MAJOR ",
+						" with VE"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2412,
+			"calls": 8927,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -51,13 +64,27 @@
 				"ty with",
 				"s MAJOR ",
 				" with VE"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"ance ",
+						"OR hi",
+						"n a pr",
+						"ces on",
+						"ty with",
+						"s MAJOR ",
+						" with VE"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 22440,
+			"calls": 115123,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ance ",
@@ -67,9 +94,37 @@
 				"ty with",
 				"s MAJOR ",
 				" with VE"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"ance ",
+						"OR hi",
+						"n a pr",
+						"ces on",
+						"ty with",
+						"s MAJOR ",
+						" with VE"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1560724897041,
-	"edit": 1
+	"updt": 1560725798731,
+	"edit": 4,
+	"identified": [
+		{
+			"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+			"frags": [
+				"ance ",
+				"OR hi",
+				"n a pr",
+				"ces on",
+				"ty with",
+				"s MAJOR ",
+				" with VE"
+			]
+		}
+	]
 }
