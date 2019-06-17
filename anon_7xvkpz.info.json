@@ -1,25 +1,26 @@
 {
 	"_id": "anon_7xvkpz.info",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "anon_7xvkpz.info",
 	"sector": "HJG_5073",
 	"sec_level": 4,
 	"date_added": 1560776909524,
-	"last_scraped": 1560778000689,
+	"last_scraped": 1560777860038,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560776909524
 		}
 	],
-	"next_scrape": 1560824320117,
+	"scrape_ct": 1,
+	"next_scrape": 1560777920038,
 	"category": "fishie_tank",
-	"last_update": 1560778000689,
+	"last_update": 1560777860038,
 	"output": [
 		{
 			"args": {},
-			"calls": 109142,
+			"calls": 97245,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"we sa",
@@ -47,7 +48,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8505,
+			"calls": 7066,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -80,7 +81,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 111425,
+			"calls": 97123,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"we sa",
@@ -118,6 +119,11 @@
 				"ng is: ",
 				"the meme"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
