@@ -1,21 +1,22 @@
 {
 	"_id": "abndnd_ssap99.n",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "abndnd_ssap99.n",
 	"sector": "HJG_6175",
 	"sec_level": 4,
 	"date_added": 1560730593097,
-	"last_scraped": 1560731672881,
+	"last_scraped": 1560731653525,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560730593097
 		}
 	],
-	"next_scrape": 1560776276479,
+	"scrape_ct": 0,
+	"next_scrape": 1560731713525,
 	"category": "fishie_tank",
-	"last_update": 1560731672881,
+	"last_update": 1560731653525,
 	"output": [
 		{
 			"args": {},
@@ -49,7 +50,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 9825,
+			"calls": 8991,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -84,7 +85,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 111638,
+			"calls": 102345,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"of sen",
@@ -111,8 +112,8 @@
 			]
 		}
 	],
-	"updt": 1560731660230,
-	"edit": 3,
+	"updt": 1560731435298,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
@@ -125,6 +126,14 @@
 				"ntience.",
 				"ic princ"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
