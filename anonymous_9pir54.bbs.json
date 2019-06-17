@@ -1,21 +1,25 @@
 {
 	"_id": "anonymous_9pir54.bbs",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_9pir54.bbs",
 	"sector": "HJG_6175",
 	"sec_level": 4,
 	"date_added": 1560745850663,
-	"last_scraped": 1560746970359,
+	"last_scraped": 1560772836149,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560745850663
+		},
+		{
+			"type": "died",
+			"when": 1560772836149
 		}
 	],
-	"updt": 1560746987247,
-	"edit": 4,
-	"next_scrape": 1560791937337,
+	"updt": 1560747436776,
+	"edit": 5,
+	"next_scrape": 1560863058479,
 	"category": "fishie_tank",
 	"last_update": 1560746970359,
 	"output": [
@@ -140,5 +144,6 @@
 				" send ca"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_9pir54.bbs: script doesn't exist\"}"
 }
