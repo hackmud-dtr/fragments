@@ -1,81 +1,45 @@
 {
 	"_id": "abndnd_9dz88l.user_info",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "fresh",
 	"script": "abndnd_9dz88l.user_info",
 	"sector": "HJG_5073",
 	"sec_level": 4,
 	"date_added": 1560804211533,
-	"last_scraped": 1560805303663,
+	"last_scraped": 1560804221592,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560804211533
-		},
-		{
-			"type": "died",
-			"when": 1560805946958
 		}
 	],
-	"next_scrape": 1560850100729,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1560804281592,
 	"category": "fishie_tank",
-	"last_update": 1560805303663,
+	"last_update": 1560804231800,
 	"output": [
 		{
 			"args": {},
-			"calls": 98683,
+			"calls": 11925,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"D Mer",
+				"llory",
+				"Chris",
 				"stmas.",
-				"ll.\\n2",
-				"istmas",
 				"221E M",
-				"y. I wil",
-				"y Christ",
-				"s.\\n221E",
-				"ry. I wi",
-				"ry Chris",
-				"rry Chri",
-				"Merry Ch",
-				"Mallory.",
-				" Merry C",
-				" Mallory",
-				" I will.",
-				"I will.\\n",
-				".\\n221D M"
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"D Mer",
-						"stmas.",
-						"ll.\\n2",
-						"istmas",
-						"221E M",
-						"y. I wil",
-						"y Christ",
-						"s.\\n221E",
-						"ry. I wi",
-						"ry Chris",
-						"rry Chri",
-						"Merry Ch",
-						"Mallory.",
-						" Merry C",
-						" Mallory",
-						" I will.",
-						"I will.\\n",
-						".\\n221D M"
-					]
-				}
+				" Merry C"
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8844,
+			"calls": 824,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -83,128 +47,11 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"D Mer",
+				"llory",
+				"Chris",
 				"stmas.",
-				"ll.\\n2",
-				"istmas",
 				"221E M",
-				"y. I wil",
-				"y Christ",
-				"s.\\n221E",
-				"ry. I wi",
-				"ry Chris",
-				"rry Chri",
-				"Merry Ch",
-				"Mallory.",
-				" Merry C",
-				" Mallory",
-				" I will.",
-				"I will.\\n",
-				".\\n221D M"
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"D Mer",
-						"stmas.",
-						"ll.\\n2",
-						"istmas",
-						"221E M",
-						"y. I wil",
-						"y Christ",
-						"s.\\n221E",
-						"ry. I wi",
-						"ry Chris",
-						"rry Chri",
-						"Merry Ch",
-						"Mallory.",
-						" Merry C",
-						" Mallory",
-						" I will.",
-						"I will.\\n",
-						".\\n221D M"
-					]
-				}
-			]
-		},
-		{
-			"args": {
-				"do": "clean"
-			},
-			"calls": 97713,
-			"base": "Fishies are happy. Algea eaters are displeased.",
-			"fragments": [
-				"D Mer",
-				"stmas.",
-				"ll.\\n2",
-				"istmas",
-				"221E M",
-				"y. I wil",
-				"y Christ",
-				"s.\\n221E",
-				"ry. I wi",
-				"ry Chris",
-				"rry Chri",
-				"Merry Ch",
-				"Mallory.",
-				" Merry C",
-				" Mallory",
-				" I will.",
-				"I will.\\n",
-				".\\n221D M"
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"D Mer",
-						"stmas.",
-						"ll.\\n2",
-						"istmas",
-						"221E M",
-						"y. I wil",
-						"y Christ",
-						"s.\\n221E",
-						"ry. I wi",
-						"ry Chris",
-						"rry Chri",
-						"Merry Ch",
-						"Mallory.",
-						" Merry C",
-						" Mallory",
-						" I will.",
-						"I will.\\n",
-						".\\n221D M"
-					]
-				}
-			]
-		}
-	],
-	"updt": 1560806041190,
-	"edit": 7,
-	"identified": [
-		{
-			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-			"frags": [
-				"D Mer",
-				"stmas.",
-				"ll.\\n2",
-				"istmas",
-				"221E M",
-				"y. I wil",
-				"y Christ",
-				"s.\\n221E",
-				"ry. I wi",
-				"ry Chris",
-				"rry Chri",
-				"Merry Ch",
-				"Mallory.",
-				" Merry C",
-				" Mallory",
-				" I will.",
-				"I will.\\n",
-				".\\n221D M"
+				" Merry C"
 			]
 		}
 	]
