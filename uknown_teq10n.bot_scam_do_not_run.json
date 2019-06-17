@@ -6,31 +6,33 @@
 	"sector": "VNP_9857",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1560759496726,
+	"last_scraped": 1560785826191,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1560733463836,
-	"edit": 79,
-	"next_scrape": 1560802506308,
+	"updt": 1560759608544,
+	"edit": 80,
+	"next_scrape": 1560830539403,
 	"category": "fishie_tank",
-	"last_update": 1560759496726,
+	"last_update": 1560785826191,
 	"output": [
 		{
 			"args": {},
-			"calls": 608830,
+			"calls": 620603,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"RROR ",
+				"W ERROR",
 				"ROR | P",
 				"R | NET",
+				" ERROR ",
 				"ROG ERRO",
 				"PROG ERR",
 				"OR | PRO",
 				"ETW ERRO",
+				"ERROR | ",
 				" | PROG ",
 				" | NETW "
 			],
@@ -55,7 +57,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 54997,
+			"calls": 55837,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -63,13 +65,15 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"RROR ",
+				"W ERROR",
 				"ROR | P",
 				"R | NET",
+				" ERROR ",
 				"ROG ERRO",
 				"PROG ERR",
 				"OR | PRO",
 				"ETW ERRO",
+				"ERROR | ",
 				" | PROG ",
 				" | NETW "
 			],
@@ -94,16 +98,18 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 635640,
+			"calls": 645003,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"RROR ",
+				"W ERROR",
 				"ROR | P",
 				"R | NET",
+				" ERROR ",
 				"ROG ERRO",
 				"PROG ERR",
 				"OR | PRO",
 				"ETW ERRO",
+				"ERROR | ",
 				" | PROG ",
 				" | NETW "
 			],
