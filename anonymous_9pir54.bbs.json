@@ -1,28 +1,27 @@
 {
 	"_id": "anonymous_9pir54.bbs",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anonymous_9pir54.bbs",
 	"sector": "HJG_6175",
 	"sec_level": 4,
 	"date_added": 1560745850663,
-	"last_scraped": 1560746510525,
+	"last_scraped": 1560746970359,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560745850663
 		}
 	],
-	"updt": 1560746312190,
-	"edit": 2,
-	"scrape_ct": 7,
-	"next_scrape": 1560746570525,
+	"updt": 1560746987247,
+	"edit": 4,
+	"next_scrape": 1560791937337,
 	"category": "fishie_tank",
-	"last_update": 1560746510525,
+	"last_update": 1560746970359,
 	"output": [
 		{
 			"args": {},
-			"calls": 73170,
+			"calls": 109070,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"to th",
@@ -34,13 +33,29 @@
 				"D in the",
 				" the lan",
 				" send ca"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"to th",
+						"16C t",
+						" discar",
+						"the lane",
+						"scard pi",
+						"s\\n216C ",
+						"D in the",
+						" the lan",
+						" send ca"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5671,
+			"calls": 9088,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -57,15 +72,63 @@
 				"D in the",
 				" the lan",
 				" send ca"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"to th",
+						"16C t",
+						" discar",
+						"the lane",
+						"scard pi",
+						"s\\n216C ",
+						"D in the",
+						" the lan",
+						" send ca"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 63762,
+			"calls": 106598,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"to th",
+				"16C t",
+				" discar",
+				"the lane",
+				"scard pi",
+				"s\\n216C ",
+				"D in the",
+				" the lan",
+				" send ca"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"to th",
+						"16C t",
+						" discar",
+						"the lane",
+						"scard pi",
+						"s\\n216C ",
+						"D in the",
+						" the lan",
+						" send ca"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"to th",
 				"16C t",
 				" discar",
