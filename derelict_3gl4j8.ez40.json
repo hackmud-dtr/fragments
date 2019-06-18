@@ -6,21 +6,21 @@
 	"sector": "VNP_3092",
 	"sec_level": 4,
 	"date_added": 1560865612468,
-	"last_scraped": 1560866143511,
+	"last_scraped": 1560865752993,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560865612468
 		}
 	],
-	"scrape_ct": 9,
-	"next_scrape": 1560866203511,
+	"scrape_ct": 17,
+	"next_scrape": 1560865812993,
 	"category": "fishie_tank",
-	"last_update": 1560866143511,
+	"last_update": 1560865752993,
 	"output": [
 		{
 			"args": {},
-			"calls": 60552,
+			"calls": 17042,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"xt, in",
@@ -31,28 +31,13 @@
 				"correct",
 				"comes t",
 				"mes the "
-			],
-			"hits": [
-				{
-					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
-					"frags": [
-						"xt, in",
-						"tably,",
-						"ces ar",
-						" that ",
-						"vitably",
-						"correct",
-						"comes t",
-						"mes the "
-					]
-				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4575,
+			"calls": 1279,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -68,62 +53,15 @@
 				"correct",
 				"comes t",
 				"mes the "
-			],
-			"hits": [
-				{
-					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
-					"frags": [
-						"xt, in",
-						"tably,",
-						"ces ar",
-						" that ",
-						"vitably",
-						"correct",
-						"comes t",
-						"mes the "
-					]
-				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 59059,
+			"calls": 18339,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"xt, in",
-				"tably,",
-				"ces ar",
-				" that ",
-				"vitably",
-				"correct",
-				"comes t",
-				"mes the "
-			],
-			"hits": [
-				{
-					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
-					"frags": [
-						"xt, in",
-						"tably,",
-						"ces ar",
-						" that ",
-						"vitably",
-						"correct",
-						"comes t",
-						"mes the "
-					]
-				}
-			]
-		}
-	],
-	"updt": 1560865994064,
-	"edit": 2,
-	"identified": [
-		{
-			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
-			"frags": [
 				"xt, in",
 				"tably,",
 				"ces ar",
