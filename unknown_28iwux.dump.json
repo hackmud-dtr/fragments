@@ -6,21 +6,21 @@
 	"sector": "HJG_4597",
 	"sec_level": 4,
 	"date_added": 1560831242274,
-	"last_scraped": 1560831270605,
+	"last_scraped": 1560832190721,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560831242274
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1560831330605,
+	"scrape_ct": 2,
+	"next_scrape": 1560832250721,
 	"category": "fishie_tank",
-	"last_update": 1560831270605,
+	"last_update": 1560832190721,
 	"output": [
 		{
 			"args": {},
-			"calls": 9270,
+			"calls": 101986,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"You k",
@@ -30,13 +30,27 @@
 				"our the",
 				"chance t",
 				"## Quite"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						"You k",
+						" final",
+						" a cha",
+						" I'm g",
+						"our the",
+						"chance t",
+						"## Quite"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1053,
+			"calls": 8031,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -51,13 +65,27 @@
 				"our the",
 				"chance t",
 				"## Quite"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						"You k",
+						" final",
+						" a cha",
+						" I'm g",
+						"our the",
+						"chance t",
+						"## Quite"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 11360,
+			"calls": 91216,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"You k",
@@ -67,7 +95,45 @@
 				"our the",
 				"chance t",
 				"## Quite"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						"You k",
+						" final",
+						" a cha",
+						" I'm g",
+						"our the",
+						"chance t",
+						"## Quite"
+					]
+				}
 			]
+		}
+	],
+	"updt": 1560831969356,
+	"edit": 4,
+	"identified": [
+		{
+			"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+			"frags": [
+				"You k",
+				" final",
+				" a cha",
+				" I'm g",
+				"our the",
+				"chance t",
+				"## Quite"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
