@@ -1,19 +1,27 @@
 {
 	"_id": "unidentified_4d8vgd.scriptography",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unidentified_4d8vgd.scriptography",
 	"sector": "VNP_3200",
 	"sec_level": 4,
 	"date_added": 1560624596579,
-	"last_scraped": 1560811957548,
+	"last_scraped": 1560840455706,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560624596579
+		},
+		{
+			"type": "died",
+			"when": 1560840455706
+		},
+		{
+			"type": "died",
+			"when": 1560840496124
 		}
 	],
-	"next_scrape": 1560854999207,
+	"next_scrape": 1560926183639,
 	"category": "clicker",
 	"last_update": 1560811957548,
 	"output": [
@@ -424,8 +432,8 @@
 			]
 		}
 	],
-	"updt": 1560812129267,
-	"edit": 13,
+	"updt": 1560812580657,
+	"edit": 14,
 	"identified": [
 		{
 			"document": "Erin File",
@@ -509,5 +517,6 @@
 				"mmunic"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_4d8vgd.scriptography: script doesn't exist\"}"
 }
