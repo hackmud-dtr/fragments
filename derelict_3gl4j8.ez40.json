@@ -1,26 +1,25 @@
 {
 	"_id": "derelict_3gl4j8.ez40",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "derelict_3gl4j8.ez40",
 	"sector": "VNP_3092",
 	"sec_level": 4,
 	"date_added": 1560865612468,
-	"last_scraped": 1560865752993,
+	"last_scraped": 1560893137715,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560865612468
 		}
 	],
-	"scrape_ct": 17,
-	"next_scrape": 1560865812993,
+	"next_scrape": 1560934134029,
 	"category": "fishie_tank",
-	"last_update": 1560865752993,
+	"last_update": 1560893137715,
 	"output": [
 		{
 			"args": {},
-			"calls": 17042,
+			"calls": 129930,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"xt, in",
@@ -31,13 +30,28 @@
 				"correct",
 				"comes t",
 				"mes the "
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"xt, in",
+						"tably,",
+						"ces ar",
+						" that ",
+						"vitably",
+						"correct",
+						"comes t",
+						"mes the "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1279,
+			"calls": 9995,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -53,15 +67,62 @@
 				"correct",
 				"comes t",
 				"mes the "
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"xt, in",
+						"tably,",
+						"ces ar",
+						" that ",
+						"vitably",
+						"correct",
+						"comes t",
+						"mes the "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 18339,
+			"calls": 119836,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"xt, in",
+				"tably,",
+				"ces ar",
+				" that ",
+				"vitably",
+				"correct",
+				"comes t",
+				"mes the "
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"xt, in",
+						"tably,",
+						"ces ar",
+						" that ",
+						"vitably",
+						"correct",
+						"comes t",
+						"mes the "
+					]
+				}
+			]
+		}
+	],
+	"updt": 1560866895263,
+	"edit": 6,
+	"identified": [
+		{
+			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+			"frags": [
 				"xt, in",
 				"tably,",
 				"ces ar",
