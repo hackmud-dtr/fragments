@@ -1,26 +1,29 @@
 {
 	"_id": "anon_q5sg6f.albanian_scam",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "anon_q5sg6f.albanian_scam",
 	"sector": "HJG_5073",
 	"sec_level": 4,
 	"date_added": 1560805152105,
-	"last_scraped": 1560805783014,
+	"last_scraped": 1560806103137,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560805152105
+		},
+		{
+			"type": "died",
+			"when": 1560830361619
 		}
 	],
-	"scrape_ct": 5,
-	"next_scrape": 1560805843014,
+	"next_scrape": 1560848852324,
 	"category": "fishie_tank",
-	"last_update": 1560805783014,
+	"last_update": 1560806103137,
 	"output": [
 		{
 			"args": {},
-			"calls": 66547,
+			"calls": 92270,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"t sup",
@@ -36,13 +39,33 @@
 				"e minds",
 				"and com",
 				"r busine"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"t sup",
+						"s - a",
+						"nds -",
+						"upport",
+						"nities",
+						"hen th",
+						"d they",
+						"amused",
+						" forev",
+						"y are m",
+						"e minds",
+						"and com",
+						"r busine"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5628,
+			"calls": 8795,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -63,13 +86,33 @@
 				"e minds",
 				"and com",
 				"r busine"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"t sup",
+						"s - a",
+						"nds -",
+						"upport",
+						"nities",
+						"hen th",
+						"d they",
+						"amused",
+						" forev",
+						"y are m",
+						"e minds",
+						"and com",
+						"r busine"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 76443,
+			"calls": 102659,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"t sup",
@@ -85,9 +128,49 @@
 				"e minds",
 				"and com",
 				"r busine"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"t sup",
+						"s - a",
+						"nds -",
+						"upport",
+						"nities",
+						"hen th",
+						"d they",
+						"amused",
+						" forev",
+						"y are m",
+						"e minds",
+						"and com",
+						"r busine"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1560805590611,
-	"edit": 1
+	"updt": 1560807170012,
+	"edit": 5,
+	"identified": [
+		{
+			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+			"frags": [
+				"t sup",
+				"s - a",
+				"nds -",
+				"upport",
+				"nities",
+				"hen th",
+				"d they",
+				"amused",
+				" forev",
+				"y are m",
+				"e minds",
+				"and com",
+				"r busine"
+			]
+		}
+	]
 }
