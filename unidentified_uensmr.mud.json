@@ -1,26 +1,25 @@
 {
 	"_id": "unidentified_uensmr.mud",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "unidentified_uensmr.mud",
 	"sector": "K_7717",
 	"sec_level": 4,
 	"date_added": 1560920800690,
-	"last_scraped": 1560921671450,
+	"last_scraped": 1560947520377,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560920800690
 		}
 	],
-	"scrape_ct": 4,
-	"next_scrape": 1560921731450,
+	"next_scrape": 1560991881042,
 	"category": "fishie_tank",
-	"last_update": 1560921671450,
+	"last_update": 1560947520377,
 	"output": [
 		{
 			"args": {},
-			"calls": 82912,
+			"calls": 111367,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"t of y",
@@ -33,13 +32,30 @@
 				"ged them",
 				"085 Yes,",
 				"you?\\n208"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"t of y",
+						"s, Mal",
+						"arrang",
+						"\\n2086",
+						"2085 Y",
+						", Mall",
+						"nged the",
+						"ged them",
+						"085 Yes,",
+						"you?\\n208"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6900,
+			"calls": 9656,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -57,13 +73,30 @@
 				"ged them",
 				"085 Yes,",
 				"you?\\n208"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"t of y",
+						"s, Mal",
+						"arrang",
+						"\\n2086",
+						"2085 Y",
+						", Mall",
+						"nged the",
+						"ged them",
+						"085 Yes,",
+						"you?\\n208"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 81303,
+			"calls": 126566,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"t of y",
@@ -76,17 +109,43 @@
 				"ged them",
 				"085 Yes,",
 				"you?\\n208"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"t of y",
+						"s, Mal",
+						"arrang",
+						"\\n2086",
+						"2085 Y",
+						", Mall",
+						"nged the",
+						"ged them",
+						"085 Yes,",
+						"you?\\n208"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1560921451366,
-	"edit": 3,
-	"retry_args": [
+	"updt": 1560933624593,
+	"edit": 7,
+	"identified": [
 		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"t of y",
+				"s, Mal",
+				"arrang",
+				"\\n2086",
+				"2085 Y",
+				", Mall",
+				"nged the",
+				"ged them",
+				"085 Yes,",
+				"you?\\n208"
+			]
 		}
 	]
 }
