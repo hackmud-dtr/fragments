@@ -6,20 +6,20 @@
 	"sector": "K_3429",
 	"sec_level": 4,
 	"date_added": 1559253820162,
-	"last_scraped": 1560936771749,
+	"last_scraped": 1560962289313,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559253820162
 		}
 	],
-	"next_scrape": 1560982562566,
+	"next_scrape": 1561008169217,
 	"category": "fishie_tank",
-	"last_update": 1560936771749,
+	"last_update": 1560962289313,
 	"output": [
 		{
 			"args": {},
-			"calls": 682600,
+			"calls": 692033,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"CLST0",
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 58579,
+			"calls": 60093,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -90,7 +90,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 663017,
+			"calls": 680686,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"CLST0",
@@ -120,8 +120,8 @@
 			]
 		}
 	],
-	"updt": 1560911077074,
-	"edit": 67,
+	"updt": 1560937006891,
+	"edit": 69,
 	"identified": [
 		{
 			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
@@ -138,14 +138,6 @@
 				"MFT0X1F",
 				"E0X5282"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
