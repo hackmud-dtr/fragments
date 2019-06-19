@@ -1,25 +1,26 @@
 {
 	"_id": "derelict_40ckmn.check",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "derelict_40ckmn.check",
 	"sector": "K_7717",
 	"sec_level": 4,
 	"date_added": 1560963381770,
-	"last_scraped": 1560964491429,
+	"last_scraped": 1560963770758,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560963381770
 		}
 	],
-	"next_scrape": 1561009934732,
+	"scrape_ct": 13,
+	"next_scrape": 1560963830758,
 	"category": "fishie_tank",
-	"last_update": 1560964491429,
+	"last_update": 1560963770758,
 	"output": [
 		{
 			"args": {},
-			"calls": 93315,
+			"calls": 35323,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"apprec",
@@ -32,30 +33,13 @@
 				"ation.\\n",
 				".\\n1EB3 ",
 				"ion.\\n1EB"
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"apprec",
-						" Flo a",
-						"y.\\n1EA",
-						"ay.\\n1E",
-						"nnot say",
-						"ically, ",
-						"cannot s",
-						"ation.\\n",
-						".\\n1EB3 ",
-						"ion.\\n1EB"
-					]
-				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8974,
+			"calls": 3271,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -73,30 +57,13 @@
 				"ation.\\n",
 				".\\n1EB3 ",
 				"ion.\\n1EB"
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"apprec",
-						" Flo a",
-						"y.\\n1EA",
-						"ay.\\n1E",
-						"nnot say",
-						"ically, ",
-						"cannot s",
-						"ation.\\n",
-						".\\n1EB3 ",
-						"ion.\\n1EB"
-					]
-				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 115008,
+			"calls": 40274,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"apprec",
@@ -109,43 +76,9 @@
 				"ation.\\n",
 				".\\n1EB3 ",
 				"ion.\\n1EB"
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"apprec",
-						" Flo a",
-						"y.\\n1EA",
-						"ay.\\n1E",
-						"nnot say",
-						"ically, ",
-						"cannot s",
-						"ation.\\n",
-						".\\n1EB3 ",
-						"ion.\\n1EB"
-					]
-				}
 			]
 		}
 	],
-	"updt": 1560964279397,
-	"edit": 4,
-	"identified": [
-		{
-			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-			"frags": [
-				"apprec",
-				" Flo a",
-				"y.\\n1EA",
-				"ay.\\n1E",
-				"nnot say",
-				"ically, ",
-				"cannot s",
-				"ation.\\n",
-				".\\n1EB3 ",
-				"ion.\\n1EB"
-			]
-		}
-	]
+	"updt": 1560963602935,
+	"edit": 1
 }
