@@ -6,14 +6,14 @@
 	"sector": "VNP_3574",
 	"sec_level": 4,
 	"date_added": 1559471714408,
-	"last_scraped": 1560902883830,
+	"last_scraped": 1560929337864,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559471714408
 		}
 	],
-	"next_scrape": 1560946411088,
+	"next_scrape": 1560976130409,
 	"category": "fishie_tank",
 	"last_update": 1560902883830,
 	"output": [
@@ -117,8 +117,8 @@
 			]
 		}
 	],
-	"updt": 1560876359587,
-	"edit": 57,
+	"updt": 1560902959493,
+	"edit": 58,
 	"identified": [
 		{
 			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
@@ -132,6 +132,14 @@
 				"peration",
 				"n't take"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
