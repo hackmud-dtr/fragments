@@ -1,25 +1,26 @@
 {
 	"_id": "abandoned_j48xkz.locs",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "abandoned_j48xkz.locs",
 	"sector": "K_7717",
 	"sec_level": 4,
 	"date_added": 1560968670153,
-	"last_scraped": 1560969971019,
+	"last_scraped": 1560968699932,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560968670153
 		}
 	],
-	"next_scrape": 1561011194827,
+	"scrape_ct": 19,
+	"next_scrape": 1560968759932,
 	"category": "fishie_tank",
-	"last_update": 1560969971019,
+	"last_update": 1560968699932,
 	"output": [
 		{
 			"args": {},
-			"calls": 101016,
+			"calls": 8736,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"s res",
@@ -29,27 +30,13 @@
 				"5 I ha",
 				"ker has ",
 				"game is "
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"s res",
-						" the ",
-						" have",
-						"the ga",
-						"5 I ha",
-						"ker has ",
-						"game is "
-					]
-				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 9485,
+			"calls": 737,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -64,59 +51,15 @@
 				"5 I ha",
 				"ker has ",
 				"game is "
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"s res",
-						" the ",
-						" have",
-						"the ga",
-						"5 I ha",
-						"ker has ",
-						"game is "
-					]
-				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 108724,
+			"calls": 9157,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"s res",
-				" the ",
-				" have",
-				"the ga",
-				"5 I ha",
-				"ker has ",
-				"game is "
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"s res",
-						" the ",
-						" have",
-						"the ga",
-						"5 I ha",
-						"ker has ",
-						"game is "
-					]
-				}
-			]
-		}
-	],
-	"updt": 1560969917383,
-	"edit": 6,
-	"identified": [
-		{
-			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-			"frags": [
 				"s res",
 				" the ",
 				" have",
