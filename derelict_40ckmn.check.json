@@ -1,0 +1,89 @@
+{
+	"_id": "derelict_40ckmn.check",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "derelict_40ckmn.check",
+	"sector": "K_7717",
+	"sec_level": 4,
+	"date_added": 1560963381770,
+	"last_scraped": 1560964260433,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1560963381770
+		}
+	],
+	"scrape_ct": 4,
+	"next_scrape": 1560964320433,
+	"category": "fishie_tank",
+	"last_update": 1560964270973,
+	"output": [
+		{
+			"args": {},
+			"calls": 79237,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"apprec",
+				" Flo a",
+				"y.\\n1EA",
+				"ay.\\n1E",
+				"nnot say",
+				"ically, ",
+				"cannot s",
+				"ation.\\n",
+				".\\n1EB3 ",
+				"ion.\\n1EB"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 7127,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"apprec",
+				" Flo a",
+				"y.\\n1EA",
+				"ay.\\n1E",
+				"nnot say",
+				"ically, ",
+				"cannot s",
+				"ation.\\n",
+				".\\n1EB3 ",
+				"ion.\\n1EB"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 76233,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"apprec",
+				" Flo a",
+				"y.\\n1EA",
+				"ay.\\n1E",
+				"nnot say",
+				"ically, ",
+				"cannot s",
+				"ation.\\n",
+				".\\n1EB3 ",
+				"ion.\\n1EB"
+			]
+		}
+	],
+	"updt": 1560964053059,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
