@@ -1,0 +1,137 @@
+{
+	"_id": "unidentified_wl7pzw.dump",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unidentified_wl7pzw.dump",
+	"sector": "K_7717",
+	"sec_level": 4,
+	"date_added": 1560948830593,
+	"last_scraped": 1560949172070,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1560948830593
+		}
+	],
+	"scrape_ct": 14,
+	"next_scrape": 1560949232070,
+	"category": "fishie_tank",
+	"last_update": 1560949172070,
+	"output": [
+		{
+			"args": {},
+			"calls": 35498,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ill ge",
+				" stage",
+				"we will",
+				"age 1. ",
+				"mainder ",
+				"get busi",
+				"er of st"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"ill ge",
+						" stage",
+						"we will",
+						"age 1. ",
+						"mainder ",
+						"get busi",
+						"er of st"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2284,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ill ge",
+				" stage",
+				"we will",
+				"age 1. ",
+				"mainder ",
+				"get busi",
+				"er of st"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"ill ge",
+						" stage",
+						"we will",
+						"age 1. ",
+						"mainder ",
+						"get busi",
+						"er of st"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 20829,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ill ge",
+				" stage",
+				"we will",
+				"age 1. ",
+				"mainder ",
+				"get busi",
+				"er of st"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"ill ge",
+						" stage",
+						"we will",
+						"age 1. ",
+						"mainder ",
+						"get busi",
+						"er of st"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
+				"ill ge",
+				" stage",
+				"we will",
+				"age 1. ",
+				"mainder ",
+				"get busi",
+				"er of st"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
