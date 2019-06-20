@@ -6,39 +6,43 @@
 	"sector": "VNP_6121",
 	"sec_level": 4,
 	"date_added": 1558878696878,
-	"last_scraped": 1561032157532,
+	"last_scraped": 1561056670812,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558878696878
 		}
 	],
-	"updt": 1561006659780,
-	"edit": 87,
-	"next_scrape": 1561075970267,
+	"updt": 1561032345506,
+	"edit": 88,
+	"next_scrape": 1561097933478,
 	"category": "fishie_tank",
-	"last_update": 1561032157532,
+	"last_update": 1561056681285,
 	"output": [
 		{
 			"args": {},
-			"calls": 710150,
+			"calls": 719224,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"B Att",
 				"5B At",
 				"215A ",
-				"mpty s",
+				" comb",
+				"empty ",
 				"2159 b",
 				"ot be p",
-				"n an em",
+				"mpty st",
 				"ker BRE",
+				"cker BR",
 				"be play",
 				"acker B",
+				"ack.\\n2",
 				"ut canno",
 				"ttacker ",
 				"t cannot",
 				"t be pla",
 				"pty stac",
+				"on an em",
 				"e played",
 				"ck.\\n215",
 				"cannot b",
@@ -99,7 +103,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 66043,
+			"calls": 66926,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -110,18 +114,22 @@
 				"B Att",
 				"5B At",
 				"215A ",
-				"mpty s",
+				" comb",
+				"empty ",
 				"2159 b",
 				"ot be p",
-				"n an em",
+				"mpty st",
 				"ker BRE",
+				"cker BR",
 				"be play",
 				"acker B",
+				"ack.\\n2",
 				"ut canno",
 				"ttacker ",
 				"t cannot",
 				"t be pla",
 				"pty stac",
+				"on an em",
 				"e played",
 				"ck.\\n215",
 				"cannot b",
@@ -293,6 +301,11 @@
 				"at\\n2159 ",
 				" stack.\\n"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
