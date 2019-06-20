@@ -1,26 +1,25 @@
 {
 	"_id": "abndnd_w08ah5.relist",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abndnd_w08ah5.relist",
 	"sector": "K_7717",
 	"sec_level": 4,
 	"date_added": 1560985903120,
-	"last_scraped": 1560986354478,
+	"last_scraped": 1561012998328,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560985903120
 		}
 	],
-	"scrape_ct": 11,
-	"next_scrape": 1560986414478,
+	"next_scrape": 1561054230721,
 	"category": "fishie_tank",
-	"last_update": 1560986354478,
+	"last_update": 1561012998328,
 	"output": [
 		{
 			"args": {},
-			"calls": 40424,
+			"calls": 111916,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" down",
@@ -28,13 +27,25 @@
 				"s of 13,",
 				"f 13, fa",
 				" Deal 3 "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" down",
+						"up.\\n204",
+						"s of 13,",
+						"f 13, fa",
+						" Deal 3 "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4133,
+			"calls": 10125,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -47,13 +58,25 @@
 				"s of 13,",
 				"f 13, fa",
 				" Deal 3 "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" down",
+						"up.\\n204",
+						"s of 13,",
+						"f 13, fa",
+						" Deal 3 "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 50517,
+			"calls": 111210,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" down",
@@ -61,9 +84,33 @@
 				"s of 13,",
 				"f 13, fa",
 				" Deal 3 "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" down",
+						"up.\\n204",
+						"s of 13,",
+						"f 13, fa",
+						" Deal 3 "
+					]
+				}
 			]
 		}
 	],
-	"updt": 1560986140503,
-	"edit": 1
+	"updt": 1560987041182,
+	"edit": 5,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				" down",
+				"up.\\n204",
+				"s of 13,",
+				"f 13, fa",
+				" Deal 3 "
+			]
+		}
+	]
 }
