@@ -1,26 +1,29 @@
 {
 	"_id": "unidentified_ccpqry.t3",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "unidentified_ccpqry.t3",
 	"sector": "K_7717",
 	"sec_level": 4,
 	"date_added": 1560989486997,
-	"last_scraped": 1560990817594,
+	"last_scraped": 1561016680333,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560989486997
+		},
+		{
+			"type": "died",
+			"when": 1561016680333
 		}
 	],
-	"scrape_ct": 1,
-	"next_scrape": 1560990877594,
+	"next_scrape": 1561108340515,
 	"category": "coin_flipper",
-	"last_update": 1560990817594,
+	"last_update": 1560990956828,
 	"output": [
 		{
 			"args": {},
-			"calls": 190641,
+			"calls": 209887,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"PROG E",
@@ -53,8 +56,8 @@
 			]
 		}
 	],
-	"updt": 1560990650605,
-	"edit": 6,
+	"updt": 1560991100452,
+	"edit": 8,
 	"identified": [
 		{
 			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
@@ -71,5 +74,6 @@
 				" | NETW "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_ccpqry.t3: script doesn't exist\"}"
 }
