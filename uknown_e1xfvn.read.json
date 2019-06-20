@@ -1,0 +1,66 @@
+{
+	"_id": "uknown_e1xfvn.read",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "uknown_e1xfvn.read",
+	"sector": "K_7717",
+	"sec_level": 4,
+	"date_added": 1561019900534,
+	"last_scraped": 1561020550718,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1561019900534
+		}
+	],
+	"scrape_ct": 6,
+	"next_scrape": 1561020610718,
+	"category": "fishie_tank",
+	"last_update": 1561020550718,
+	"output": [
+		{
+			"args": {},
+			"calls": 66755,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"portr",
+				"they l",
+				"rial mat",
+				"raits th"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 5297,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"portr",
+				"they l",
+				"rial mat",
+				"raits th"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 80801,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"portr",
+				"they l",
+				"rial mat",
+				"raits th"
+			]
+		}
+	],
+	"updt": 1561020400018,
+	"edit": 3
+}
