@@ -1,45 +1,66 @@
 {
 	"_id": "derelict_40ckmn.check",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "derelict_40ckmn.check",
 	"sector": "K_7717",
 	"sec_level": 4,
 	"date_added": 1560963381770,
-	"last_scraped": 1560963770758,
+	"last_scraped": 1560994328796,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560963381770
 		}
 	],
-	"scrape_ct": 13,
-	"next_scrape": 1560963830758,
+	"next_scrape": 1561038573994,
 	"category": "fishie_tank",
-	"last_update": 1560963770758,
+	"last_update": 1560994328796,
 	"output": [
 		{
 			"args": {},
-			"calls": 35323,
+			"calls": 104482,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"perat",
+				" I th",
 				"apprec",
-				" Flo a",
 				"y.\\n1EA",
 				"ay.\\n1E",
+				"1EB3 Hi",
+				" cannot",
+				" Flo ap",
+				"tion.\\n1",
 				"nnot say",
 				"ically, ",
 				"cannot s",
 				"ation.\\n",
 				".\\n1EB3 ",
 				"ion.\\n1EB"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"apprec",
+						" Flo a",
+						"y.\\n1EA",
+						"ay.\\n1E",
+						"nnot say",
+						"ically, ",
+						"cannot s",
+						"ation.\\n",
+						".\\n1EB3 ",
+						"ion.\\n1EB"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3271,
+			"calls": 9948,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -47,25 +68,88 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"perat",
+				" I th",
 				"apprec",
-				" Flo a",
 				"y.\\n1EA",
 				"ay.\\n1E",
+				"1EB3 Hi",
+				" cannot",
+				" Flo ap",
+				"tion.\\n1",
 				"nnot say",
 				"ically, ",
 				"cannot s",
 				"ation.\\n",
 				".\\n1EB3 ",
 				"ion.\\n1EB"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"apprec",
+						" Flo a",
+						"y.\\n1EA",
+						"ay.\\n1E",
+						"nnot say",
+						"ically, ",
+						"cannot s",
+						"ation.\\n",
+						".\\n1EB3 ",
+						"ion.\\n1EB"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 40274,
+			"calls": 119422,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"perat",
+				" I th",
+				"apprec",
+				"y.\\n1EA",
+				"ay.\\n1E",
+				"1EB3 Hi",
+				" cannot",
+				" Flo ap",
+				"tion.\\n1",
+				"nnot say",
+				"ically, ",
+				"cannot s",
+				"ation.\\n",
+				".\\n1EB3 ",
+				"ion.\\n1EB"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"apprec",
+						" Flo a",
+						"y.\\n1EA",
+						"ay.\\n1E",
+						"nnot say",
+						"ically, ",
+						"cannot s",
+						"ation.\\n",
+						".\\n1EB3 ",
+						"ion.\\n1EB"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1560964503619,
+	"edit": 5,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"apprec",
 				" Flo a",
 				"y.\\n1EA",
@@ -78,7 +162,5 @@
 				"ion.\\n1EB"
 			]
 		}
-	],
-	"updt": 1560963602935,
-	"edit": 1
+	]
 }
