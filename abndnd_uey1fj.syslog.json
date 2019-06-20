@@ -1,20 +1,32 @@
 {
 	"_id": "abndnd_uey1fj.syslog",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "new",
 	"script": "abndnd_uey1fj.syslog",
-	"sector": "K_0887",
+	"sector": "K_7717",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1560990948506,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
-		}
+		},
+		{
+			"type": "died",
+			"when": 1561010601881
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1561010637730,
+				"from": "K_7717",
+				"to": "K_0887"
+			}
+		]
 	],
-	"updt": 1560960896732,
-	"edit": 70,
+	"updt": 1560991100452,
+	"edit": 71,
 	"output": "#fs.abndnd_uey1fj.syslog({c})",
 	"next_scrape": 1561082150046,
 	"pl_output": "#fs.abndnd_uey1fj.syslog({c})"
