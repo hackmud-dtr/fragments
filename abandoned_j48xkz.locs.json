@@ -1,26 +1,25 @@
 {
 	"_id": "abandoned_j48xkz.locs",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abandoned_j48xkz.locs",
 	"sector": "K_7717",
 	"sec_level": 4,
 	"date_added": 1560968670153,
-	"last_scraped": 1560968699932,
+	"last_scraped": 1560998530936,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560968670153
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1560968759932,
+	"next_scrape": 1561039961938,
 	"category": "fishie_tank",
-	"last_update": 1560968699932,
+	"last_update": 1560998530936,
 	"output": [
 		{
 			"args": {},
-			"calls": 8736,
+			"calls": 110028,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"s res",
@@ -30,13 +29,27 @@
 				"5 I ha",
 				"ker has ",
 				"game is "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"s res",
+						" the ",
+						" have",
+						"the ga",
+						"5 I ha",
+						"ker has ",
+						"game is "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 737,
+			"calls": 9485,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -51,13 +64,27 @@
 				"5 I ha",
 				"ker has ",
 				"game is "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"s res",
+						" the ",
+						" have",
+						"the ga",
+						"5 I ha",
+						"ker has ",
+						"game is "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 9157,
+			"calls": 108724,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"s res",
@@ -67,7 +94,42 @@
 				"5 I ha",
 				"ker has ",
 				"game is "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"s res",
+						" the ",
+						" have",
+						"the ga",
+						"5 I ha",
+						"ker has ",
+						"game is "
+					]
+				}
 			]
+		}
+	],
+	"updt": 1560970143386,
+	"edit": 7,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"s res",
+				" the ",
+				" have",
+				"the ga",
+				"5 I ha",
+				"ker has ",
+				"game is "
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
