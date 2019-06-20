@@ -1,21 +1,25 @@
 {
 	"_id": "unknown_r7r598.news_network",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_r7r598.news_network",
 	"sector": "K_7068",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561012478427,
+	"last_scraped": 1561037171027,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
+		},
+		{
+			"type": "died",
+			"when": 1561037171027
 		}
 	],
-	"updt": 1561012513170,
-	"edit": 93,
-	"next_scrape": 1561058833665,
+	"updt": 1561012964516,
+	"edit": 94,
+	"next_scrape": 1561120671950,
 	"category": "clicker",
 	"last_update": 1561012478427,
 	"output": [
@@ -375,5 +379,6 @@
 				"K S 5 | B"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_r7r598.news_network: script doesn't exist\"}"
 }
