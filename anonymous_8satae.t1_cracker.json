@@ -1,0 +1,105 @@
+{
+	"_id": "anonymous_8satae.t1_cracker",
+	"type": "fragment",
+	"mode": "player",
+	"script": "anonymous_8satae.t1_cracker",
+	"sector": "VNP_0127",
+	"sec_level": 4,
+	"date_added": 1561118731167,
+	"last_scraped": 1561118850213,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1561118731167
+		},
+		{
+			"type": "died",
+			"when": 1561118850213
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1561198139717,
+	"category": "fishie_tank",
+	"last_update": 1561118770057,
+	"output": [
+		{
+			"args": {},
+			"calls": 9052,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"not h",
+				"ITING",
+				"our GU",
+				"ng tha",
+				"ensuri",
+				"at our",
+				"RACK. ",
+				"their t",
+				"K. We d",
+				"ATELY '",
+				"ir time/",
+				"ime/ener"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 803,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"not h",
+				"ITING",
+				"our GU",
+				"ng tha",
+				"ensuri",
+				"at our",
+				"RACK. ",
+				"their t",
+				"K. We d",
+				"ATELY '",
+				"ir time/",
+				"ime/ener"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 5610,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"not h",
+				"PRIAT",
+				"ELY '",
+				"'EXCI",
+				"ur GUI",
+				"our GU",
+				"o not ",
+				"t our G",
+				"suring ",
+				"r time/",
+				"have ti",
+				"energy ",
+				"e do no",
+				"We do n",
+				"K. We d",
+				"IATELY ",
+				" time/e",
+				"s have A",
+				"n ensuri",
+				"est thei",
+				"TRACK. W",
+				"SOUNDTRA",
+				"PPROPRIA",
+				"N APPROP"
+			]
+		}
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_8satae.t1_cracker: script doesn't exist\"}"
+}

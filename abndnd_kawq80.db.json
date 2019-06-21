@@ -1,28 +1,27 @@
 {
 	"_id": "abndnd_kawq80.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abndnd_kawq80.db",
 	"sector": "VNP_0127",
 	"sec_level": 4,
 	"date_added": 1561118219746,
-	"last_scraped": 1561118639949,
+	"last_scraped": 1561119230676,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561118219746
 		}
 	],
-	"updt": 1561118452107,
-	"edit": 2,
-	"scrape_ct": 11,
-	"next_scrape": 1561118699949,
+	"updt": 1561119127955,
+	"edit": 5,
+	"next_scrape": 1561160525012,
 	"category": "fishie_tank",
-	"last_update": 1561118639949,
+	"last_update": 1561119230676,
 	"output": [
 		{
 			"args": {},
-			"calls": 34848,
+			"calls": 83634,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"hy tha",
@@ -40,7 +39,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3674,
+			"calls": 8304,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -63,7 +62,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 39161,
+			"calls": 90347,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"hy tha",
