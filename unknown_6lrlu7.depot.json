@@ -1,0 +1,71 @@
+{
+	"_id": "unknown_6lrlu7.depot",
+	"type": "fragment",
+	"mode": "player",
+	"script": "unknown_6lrlu7.depot",
+	"sector": "SPC_2734",
+	"sec_level": 4,
+	"date_added": 1561140354187,
+	"last_scraped": 1561140473645,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1561140354187
+		},
+		{
+			"type": "died",
+			"when": 1561140473645
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1561226041895,
+	"category": "fishie_tank",
+	"last_update": 1561140394300,
+	"output": [
+		{
+			"args": {},
+			"calls": 5592,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"h is ",
+				"cker c",
+				"al str",
+				", \\n2173 "
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1812,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"attack",
+				"cards g",
+				"o to att",
+				"er cards",
+				"zero, \\n2"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 6263,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"attack",
+				"cards g",
+				"o to att",
+				"er cards",
+				"zero, \\n2"
+			]
+		}
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_6lrlu7.depot: script doesn't exist\"}"
+}
