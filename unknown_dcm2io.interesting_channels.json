@@ -1,27 +1,28 @@
 {
 	"_id": "unknown_dcm2io.interesting_channels",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "unknown_dcm2io.interesting_channels",
 	"sector": "VNP_6819",
 	"sec_level": 4,
 	"date_added": 1561101749450,
-	"last_scraped": 1561102849337,
+	"last_scraped": 1561102429557,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561101749450
 		}
 	],
-	"updt": 1561102674808,
-	"edit": 5,
-	"next_scrape": 1561143719478,
+	"updt": 1561102224167,
+	"edit": 3,
+	"scrape_ct": 7,
+	"next_scrape": 1561102489557,
 	"category": "fishie_tank",
-	"last_update": 1561102849337,
+	"last_update": 1561102439508,
 	"output": [
 		{
 			"args": {},
-			"calls": 95479,
+			"calls": 58724,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"\\n2153 ",
@@ -49,7 +50,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8448,
+			"calls": 4878,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -82,7 +83,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 100202,
+			"calls": 53762,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"\\n2153 ",
@@ -118,6 +119,11 @@
 				"ck\\n2153",
 				"ack\\n215"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
