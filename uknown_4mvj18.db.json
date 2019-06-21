@@ -6,22 +6,22 @@
 	"sector": "VNP_9857",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561073794750,
+	"last_scraped": 1561101529239,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561049021361,
-	"edit": 87,
-	"next_scrape": 1561115502274,
+	"updt": 1561073823112,
+	"edit": 88,
+	"next_scrape": 1561141921349,
 	"category": "fishie_tank",
-	"last_update": 1561073794750,
+	"last_update": 1561101540267,
 	"output": [
 		{
 			"args": {},
-			"calls": 760735,
+			"calls": 770012,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"Mallo",
@@ -31,12 +31,16 @@
 				"u?\\n208",
 				"s, Mall",
 				"m\\n2045",
+				"ory\\n208",
 				"ont of y",
 				"n front ",
 				"lory\\n20",
+				"hem\\n204",
+				"\\n2045 i",
 				"Yes, Mal",
 				" Yes, Ma",
-				"of you?\\n"
+				"of you?\\n",
+				"f you?\\n2"
 			],
 			"hits": [
 				{
@@ -63,7 +67,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 67967,
+			"calls": 68995,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -78,12 +82,16 @@
 				"u?\\n208",
 				"s, Mall",
 				"m\\n2045",
+				"ory\\n208",
 				"ont of y",
 				"n front ",
 				"lory\\n20",
+				"hem\\n204",
+				"\\n2045 i",
 				"Yes, Mal",
 				" Yes, Ma",
-				"of you?\\n"
+				"of you?\\n",
+				"f you?\\n2"
 			],
 			"hits": [
 				{
@@ -167,6 +175,11 @@
 				" Yes, Ma",
 				"of you?\\n"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
