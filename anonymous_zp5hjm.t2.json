@@ -1,25 +1,26 @@
 {
 	"_id": "anonymous_zp5hjm.t2",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "anonymous_zp5hjm.t2",
 	"sector": "VNP_6819",
 	"sec_level": 4,
 	"date_added": 1561098307848,
-	"last_scraped": 1561099328036,
+	"last_scraped": 1561098338880,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561098307848
 		}
 	],
-	"next_scrape": 1561140476695,
+	"scrape_ct": 19,
+	"next_scrape": 1561098398880,
 	"category": "fishie_tank",
-	"last_update": 1561099328036,
+	"last_update": 1561098338880,
 	"output": [
 		{
 			"args": {},
-			"calls": 89580,
+			"calls": 9612,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"3 Oh,",
@@ -27,25 +28,13 @@
 				" my de",
 				"ry clev",
 				"what is "
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"3 Oh,",
-						"?\\n21C",
-						" my de",
-						"ry clev",
-						"what is "
-					]
-				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8922,
+			"calls": 1031,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -58,53 +47,15 @@
 				" my de",
 				"ry clev",
 				"what is "
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"3 Oh,",
-						"?\\n21C",
-						" my de",
-						"ry clev",
-						"what is "
-					]
-				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 104214,
+			"calls": 11645,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"3 Oh,",
-				"?\\n21C",
-				" my de",
-				"ry clev",
-				"what is "
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"3 Oh,",
-						"?\\n21C",
-						" my de",
-						"ry clev",
-						"what is "
-					]
-				}
-			]
-		}
-	],
-	"updt": 1561099522195,
-	"edit": 5,
-	"identified": [
-		{
-			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-			"frags": [
 				"3 Oh,",
 				"?\\n21C",
 				" my de",
