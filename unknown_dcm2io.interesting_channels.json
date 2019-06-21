@@ -1,0 +1,124 @@
+{
+	"_id": "unknown_dcm2io.interesting_channels",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unknown_dcm2io.interesting_channels",
+	"sector": "VNP_6819",
+	"sec_level": 4,
+	"date_added": 1561101749450,
+	"last_scraped": 1561102129248,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1561101749450
+		}
+	],
+	"updt": 1561101999202,
+	"edit": 2,
+	"scrape_ct": 12,
+	"next_scrape": 1561102189248,
+	"category": "fishie_tank",
+	"last_update": 1561102129248,
+	"output": [
+		{
+			"args": {},
+			"calls": 33198,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"\\n2153 ",
+				"2154 If",
+				"tack\\n21",
+				"o the ne",
+				"ck\\n2153",
+				"ack\\n215"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"\\n2153 ",
+						"2154 If",
+						"tack\\n21",
+						"o the ne",
+						"ck\\n2153",
+						"ack\\n215"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2452,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"\\n2153 ",
+				"2154 If",
+				"tack\\n21",
+				"o the ne",
+				"ck\\n2153",
+				"ack\\n215"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"\\n2153 ",
+						"2154 If",
+						"tack\\n21",
+						"o the ne",
+						"ck\\n2153",
+						"ack\\n215"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 33448,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"\\n2153 ",
+				"2154 If",
+				"tack\\n21",
+				"o the ne",
+				"ck\\n2153",
+				"ack\\n215"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"\\n2153 ",
+						"2154 If",
+						"tack\\n21",
+						"o the ne",
+						"ck\\n2153",
+						"ack\\n215"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"\\n2153 ",
+				"2154 If",
+				"tack\\n21",
+				"o the ne",
+				"ck\\n2153",
+				"ack\\n215"
+			]
+		}
+	]
+}
