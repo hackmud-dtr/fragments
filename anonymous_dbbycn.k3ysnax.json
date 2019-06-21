@@ -1,26 +1,25 @@
 {
 	"_id": "anonymous_dbbycn.k3ysnax",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anonymous_dbbycn.k3ysnax",
 	"sector": "SPC_2734",
 	"sec_level": 4,
 	"date_added": 1561130037735,
-	"last_scraped": 1561130158281,
+	"last_scraped": 1561130978370,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561130037735
 		}
 	],
-	"scrape_ct": 18,
-	"next_scrape": 1561130218281,
+	"next_scrape": 1561175760375,
 	"category": "fishie_tank",
-	"last_update": 1561130158281,
+	"last_update": 1561130978370,
 	"output": [
 		{
 			"args": {},
-			"calls": 19023,
+			"calls": 95934,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" pile",
@@ -29,13 +28,26 @@
 				"20F4 a",
 				"ll\\n20F",
 				"3 discar"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" pile",
+						" card",
+						"r's\\n2",
+						"20F4 a",
+						"ll\\n20F",
+						"3 discar"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 524,
+			"calls": 8127,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -49,13 +61,26 @@
 				"20F4 a",
 				"ll\\n20F",
 				"3 discar"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" pile",
+						" card",
+						"r's\\n2",
+						"20F4 a",
+						"ll\\n20F",
+						"3 discar"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 8445,
+			"calls": 116655,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" pile",
@@ -64,15 +89,35 @@
 				"20F4 a",
 				"ll\\n20F",
 				"3 discar"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" pile",
+						" card",
+						"r's\\n2",
+						"20F4 a",
+						"ll\\n20F",
+						"3 discar"
+					]
+				}
 			]
 		}
 	],
-	"retry_args": [
+	"updt": 1561130845444,
+	"edit": 4,
+	"identified": [
 		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				" pile",
+				" card",
+				"r's\\n2",
+				"20F4 a",
+				"ll\\n20F",
+				"3 discar"
+			]
 		}
 	]
 }
