@@ -1,25 +1,26 @@
 {
 	"_id": "derelict_u54yqc.hackmud_femto",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "derelict_u54yqc.hackmud_femto",
 	"sector": "VNP_6819",
 	"sec_level": 4,
 	"date_added": 1561103069472,
-	"last_scraped": 1561104119777,
+	"last_scraped": 1561103099368,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561103069472
 		}
 	],
-	"next_scrape": 1561145812522,
+	"scrape_ct": 19,
+	"next_scrape": 1561103159368,
 	"category": "fishie_tank",
-	"last_update": 1561104119777,
+	"last_update": 1561103099368,
 	"output": [
 		{
 			"args": {},
-			"calls": 116904,
+			"calls": 11991,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ry\\n1E5",
@@ -28,26 +29,13 @@
 				"py?\\n1E5",
 				"\\n1E56 I",
 				"7 Almost"
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"ry\\n1E5",
-						"ory\\n1E",
-						"curious",
-						"py?\\n1E5",
-						"\\n1E56 I",
-						"7 Almost"
-					]
-				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8823,
+			"calls": 896,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -61,56 +49,15 @@
 				"py?\\n1E5",
 				"\\n1E56 I",
 				"7 Almost"
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"ry\\n1E5",
-						"ory\\n1E",
-						"curious",
-						"py?\\n1E5",
-						"\\n1E56 I",
-						"7 Almost"
-					]
-				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 105924,
+			"calls": 11259,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"ry\\n1E5",
-				"ory\\n1E",
-				"curious",
-				"py?\\n1E5",
-				"\\n1E56 I",
-				"7 Almost"
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"ry\\n1E5",
-						"ory\\n1E",
-						"curious",
-						"py?\\n1E5",
-						"\\n1E56 I",
-						"7 Almost"
-					]
-				}
-			]
-		}
-	],
-	"updt": 1561104026180,
-	"edit": 4,
-	"identified": [
-		{
-			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-			"frags": [
 				"ry\\n1E5",
 				"ory\\n1E",
 				"curious",
