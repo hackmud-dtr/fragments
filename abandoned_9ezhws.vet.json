@@ -6,38 +6,44 @@
 	"sector": "VNP_9787",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561125204902,
+	"last_scraped": 1561151378924,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561097943771,
-	"edit": 88,
-	"next_scrape": 1561168500679,
+	"updt": 1561151362219,
+	"edit": 90,
+	"next_scrape": 1561196834661,
 	"category": "fishie_tank",
-	"last_update": 1561125204902,
+	"last_update": 1561151378924,
 	"output": [
 		{
 			"args": {},
-			"calls": 772423,
+			"calls": 778248,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"000 01",
+				"100 000",
+				"0000 01",
 				"00 0100",
 				"00 0000",
+				"0000\\n00",
 				"0000 000",
+				" 0000 00",
 				"000\\n0000"
 			],
 			"hits": [
 				{
 					"document": "NOT FOUND",
 					"frags": [
-						"000 01",
+						"100 000",
+						"0000 01",
 						"00 0100",
 						"00 0000",
+						"0000\\n00",
 						"0000 000",
+						" 0000 00",
 						"000\\n0000"
 					]
 				}
@@ -47,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 67724,
+			"calls": 68529,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -55,20 +61,26 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"000 01",
+				"100 000",
+				"0000 01",
 				"00 0100",
 				"00 0000",
+				"0000\\n00",
 				"0000 000",
+				" 0000 00",
 				"000\\n0000"
 			],
 			"hits": [
 				{
 					"document": "NOT FOUND",
 					"frags": [
-						"000 01",
+						"100 000",
+						"0000 01",
 						"00 0100",
 						"00 0000",
+						"0000\\n00",
 						"0000 000",
+						" 0000 00",
 						"000\\n0000"
 					]
 				}
@@ -78,23 +90,29 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 815598,
+			"calls": 825533,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"000 01",
+				"100 000",
+				"0000 01",
 				"00 0100",
 				"00 0000",
+				"0000\\n00",
 				"0000 000",
+				" 0000 00",
 				"000\\n0000"
 			],
 			"hits": [
 				{
 					"document": "NOT FOUND",
 					"frags": [
-						"000 01",
+						"100 000",
+						"0000 01",
 						"00 0100",
 						"00 0000",
+						"0000\\n00",
 						"0000 000",
+						" 0000 00",
 						"000\\n0000"
 					]
 				}
@@ -105,10 +123,13 @@
 		{
 			"document": "NOT FOUND",
 			"frags": [
-				"000 01",
+				"100 000",
+				"0000 01",
 				"00 0100",
 				"00 0000",
+				"0000\\n00",
 				"0000 000",
+				" 0000 00",
 				"000\\n0000"
 			]
 		}
