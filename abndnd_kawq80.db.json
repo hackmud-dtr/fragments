@@ -1,28 +1,27 @@
 {
 	"_id": "abndnd_kawq80.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abndnd_kawq80.db",
 	"sector": "VNP_0127",
 	"sec_level": 4,
 	"date_added": 1561118219746,
-	"last_scraped": 1561119110192,
+	"last_scraped": 1561145916609,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561118219746
 		}
 	],
-	"updt": 1561118902336,
-	"edit": 4,
-	"scrape_ct": 2,
-	"next_scrape": 1561119170192,
+	"updt": 1561120478851,
+	"edit": 7,
+	"next_scrape": 1561192006626,
 	"category": "fishie_tank",
-	"last_update": 1561119120519,
+	"last_update": 1561145916609,
 	"output": [
 		{
 			"args": {},
-			"calls": 76074,
+			"calls": 99826,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"hy tha",
@@ -34,13 +33,29 @@
 				"0XBF_CL",
 				", why t",
 				"ng, why "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"hy tha",
+						"a.\\n1E",
+						"E0X2BC",
+						"27_FIL",
+						"X7A_SEC",
+						"ST0X7A_",
+						"0XBF_CL",
+						", why t",
+						"ng, why "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7539,
+			"calls": 9106,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -57,13 +72,29 @@
 				"0XBF_CL",
 				", why t",
 				"ng, why "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"hy tha",
+						"a.\\n1E",
+						"E0X2BC",
+						"27_FIL",
+						"X7A_SEC",
+						"ST0X7A_",
+						"0XBF_CL",
+						", why t",
+						"ng, why "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 80182,
+			"calls": 101901,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"hy tha",
@@ -75,12 +106,39 @@
 				"0XBF_CL",
 				", why t",
 				"ng, why "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"hy tha",
+						"a.\\n1E",
+						"E0X2BC",
+						"27_FIL",
+						"X7A_SEC",
+						"ST0X7A_",
+						"0XBF_CL",
+						", why t",
+						"ng, why "
+					]
+				}
 			]
 		}
 	],
-	"retry_args": [
+	"identified": [
 		{
-			"do": "clean"
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"hy tha",
+				"a.\\n1E",
+				"E0X2BC",
+				"27_FIL",
+				"X7A_SEC",
+				"ST0X7A_",
+				"0XBF_CL",
+				", why t",
+				"ng, why "
+			]
 		}
 	]
 }
