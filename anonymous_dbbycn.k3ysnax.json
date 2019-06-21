@@ -1,0 +1,78 @@
+{
+	"_id": "anonymous_dbbycn.k3ysnax",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anonymous_dbbycn.k3ysnax",
+	"sector": "SPC_2734",
+	"sec_level": 4,
+	"date_added": 1561130037735,
+	"last_scraped": 1561130158281,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1561130037735
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1561130218281,
+	"category": "fishie_tank",
+	"last_update": 1561130158281,
+	"output": [
+		{
+			"args": {},
+			"calls": 19023,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" pile",
+				" card",
+				"r's\\n2",
+				"20F4 a",
+				"ll\\n20F",
+				"3 discar"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 524,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" pile",
+				" card",
+				"r's\\n2",
+				"20F4 a",
+				"ll\\n20F",
+				"3 discar"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8445,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" pile",
+				" card",
+				"r's\\n2",
+				"20F4 a",
+				"ll\\n20F",
+				"3 discar"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
