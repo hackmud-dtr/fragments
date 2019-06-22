@@ -1,25 +1,26 @@
 {
 	"_id": "unidentified_s5bsrw.extern_3t1ry4",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "unidentified_s5bsrw.extern_3t1ry4",
 	"sector": "HJG_0244",
 	"sec_level": 4,
 	"date_added": 1561203234177,
-	"last_scraped": 1561204265060,
+	"last_scraped": 1561203855302,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561203234177
 		}
 	],
-	"next_scrape": 1561247953715,
+	"scrape_ct": 8,
+	"next_scrape": 1561203915302,
 	"category": "fishie_tank",
-	"last_update": 1561204265060,
+	"last_update": 1561203855302,
 	"output": [
 		{
 			"args": {},
-			"calls": 87570,
+			"calls": 53326,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"r win",
@@ -32,30 +33,13 @@
 				"\\n208C t",
 				" turn\\n2",
 				"urns\\n208"
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"r win",
-						"fender",
-						"er 110",
-						"ender ",
-						"conds p",
-						"r turn\\n",
-						"ins.\\n20",
-						"\\n208C t",
-						" turn\\n2",
-						"urns\\n208"
-					]
-				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8615,
+			"calls": 4420,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -73,30 +57,13 @@
 				"\\n208C t",
 				" turn\\n2",
 				"urns\\n208"
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"r win",
-						"fender",
-						"er 110",
-						"ender ",
-						"conds p",
-						"r turn\\n",
-						"ins.\\n20",
-						"\\n208C t",
-						" turn\\n2",
-						"urns\\n208"
-					]
-				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 104311,
+			"calls": 62494,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"r win",
@@ -109,43 +76,14 @@
 				"\\n208C t",
 				" turn\\n2",
 				"urns\\n208"
-			],
-			"hits": [
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"r win",
-						"fender",
-						"er 110",
-						"ender ",
-						"conds p",
-						"r turn\\n",
-						"ins.\\n20",
-						"\\n208C t",
-						" turn\\n2",
-						"urns\\n208"
-					]
-				}
 			]
 		}
 	],
-	"updt": 1561204094192,
-	"edit": 3,
-	"identified": [
+	"updt": 1561203643289,
+	"edit": 2,
+	"retry_args": [
 		{
-			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-			"frags": [
-				"r win",
-				"fender",
-				"er 110",
-				"ender ",
-				"conds p",
-				"r turn\\n",
-				"ins.\\n20",
-				"\\n208C t",
-				" turn\\n2",
-				"urns\\n208"
-			]
+			"do": "clean"
 		}
 	]
 }
