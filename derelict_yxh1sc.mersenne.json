@@ -1,26 +1,25 @@
 {
 	"_id": "derelict_yxh1sc.mersenne",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "derelict_yxh1sc.mersenne",
 	"sector": "HJG_0244",
 	"sec_level": 4,
 	"date_added": 1561209608829,
-	"last_scraped": 1561209929357,
+	"last_scraped": 1561237673591,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561209608829
 		}
 	],
-	"scrape_ct": 13,
-	"next_scrape": 1561209989357,
+	"next_scrape": 1561281679862,
 	"category": "fishie_tank",
-	"last_update": 1561209929357,
+	"last_update": 1561237673591,
 	"output": [
 		{
 			"args": {},
-			"calls": 32953,
+			"calls": 102529,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"after",
@@ -31,13 +30,28 @@
 				"he attac",
 				"acker's\\n",
 				"'s\\n217A "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"after",
+						"attack",
+						"the att",
+						"sent to",
+						"le afte",
+						"he attac",
+						"acker's\\n",
+						"'s\\n217A "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3477,
+			"calls": 10906,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -53,13 +67,28 @@
 				"he attac",
 				"acker's\\n",
 				"'s\\n217A "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"after",
+						"attack",
+						"the att",
+						"sent to",
+						"le afte",
+						"he attac",
+						"acker's\\n",
+						"'s\\n217A "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 34462,
+			"calls": 113635,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"after",
@@ -70,9 +99,39 @@
 				"he attac",
 				"acker's\\n",
 				"'s\\n217A "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"after",
+						"attack",
+						"the att",
+						"sent to",
+						"le afte",
+						"he attac",
+						"acker's\\n",
+						"'s\\n217A "
+					]
+				}
 			]
 		}
 	],
-	"updt": 1561209736256,
-	"edit": 1
+	"updt": 1561210866749,
+	"edit": 6,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"after",
+				"attack",
+				"the att",
+				"sent to",
+				"le afte",
+				"he attac",
+				"acker's\\n",
+				"'s\\n217A "
+			]
+		}
+	]
 }
