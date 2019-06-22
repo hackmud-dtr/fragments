@@ -6,28 +6,31 @@
 	"sector": "VNP_3783",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561149408317,
+	"last_scraped": 1561175818457,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561123183728,
-	"edit": 91,
-	"next_scrape": 1561193909844,
+	"updt": 1561149556081,
+	"edit": 92,
+	"next_scrape": 1561217433932,
 	"category": "fishie_tank",
-	"last_update": 1561149408317,
+	"last_update": 1561175818457,
 	"output": [
 		{
 			"args": {},
-			"calls": 732029,
+			"calls": 741472,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"orps ",
 				"is lu",
 				"his l",
 				"y to m",
-				"th you",
+				"s lull",
+				"rps an",
+				"ives u",
 				" and g",
 				"your as",
 				"t ready",
@@ -44,10 +47,12 @@
 				"ady to ",
 				" your a",
 				" lull g",
+				"with you",
 				"ur assig",
 				"ull give",
 				"ssigned ",
 				"r assign",
+				"ith your",
 				"e - this",
 				" with yo",
 				" to move",
@@ -272,6 +277,14 @@
 				" to move",
 				" move - "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
