@@ -6,21 +6,21 @@
 	"sector": "HJG_0244",
 	"sec_level": 4,
 	"date_added": 1561203234177,
-	"last_scraped": 1561203855302,
+	"last_scraped": 1561204074754,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561203234177
 		}
 	],
-	"scrape_ct": 8,
-	"next_scrape": 1561203915302,
+	"scrape_ct": 3,
+	"next_scrape": 1561204134754,
 	"category": "fishie_tank",
-	"last_update": 1561203855302,
+	"last_update": 1561204074754,
 	"output": [
 		{
 			"args": {},
-			"calls": 53326,
+			"calls": 71400,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"r win",
@@ -33,13 +33,30 @@
 				"\\n208C t",
 				" turn\\n2",
 				"urns\\n208"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"r win",
+						"fender",
+						"er 110",
+						"ender ",
+						"conds p",
+						"r turn\\n",
+						"ins.\\n20",
+						"\\n208C t",
+						" turn\\n2",
+						"urns\\n208"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4420,
+			"calls": 6731,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -57,13 +74,30 @@
 				"\\n208C t",
 				" turn\\n2",
 				"urns\\n208"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"r win",
+						"fender",
+						"er 110",
+						"ender ",
+						"conds p",
+						"r turn\\n",
+						"ins.\\n20",
+						"\\n208C t",
+						" turn\\n2",
+						"urns\\n208"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 62494,
+			"calls": 85589,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"r win",
@@ -76,14 +110,43 @@
 				"\\n208C t",
 				" turn\\n2",
 				"urns\\n208"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"r win",
+						"fender",
+						"er 110",
+						"ender ",
+						"conds p",
+						"r turn\\n",
+						"ins.\\n20",
+						"\\n208C t",
+						" turn\\n2",
+						"urns\\n208"
+					]
+				}
 			]
 		}
 	],
 	"updt": 1561203643289,
 	"edit": 2,
-	"retry_args": [
+	"identified": [
 		{
-			"do": "clean"
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"r win",
+				"fender",
+				"er 110",
+				"ender ",
+				"conds p",
+				"r turn\\n",
+				"ins.\\n20",
+				"\\n208C t",
+				" turn\\n2",
+				"urns\\n208"
+			]
 		}
 	]
 }
