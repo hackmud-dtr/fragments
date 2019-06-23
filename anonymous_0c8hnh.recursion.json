@@ -1,25 +1,25 @@
 {
 	"_id": "anonymous_0c8hnh.recursion",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_0c8hnh.recursion",
 	"sector": "K_0304",
 	"sec_level": 4,
 	"date_added": 1559169805095,
-	"last_scraped": 1561294868765,
+	"last_scraped": 1561324347850,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559169805095
 		}
 	],
-	"next_scrape": 1561336740637,
+	"next_scrape": 1561366941166,
 	"category": "fishie_tank",
-	"last_update": 1561294868765,
+	"last_update": 1561324357367,
 	"output": [
 		{
 			"args": {},
-			"calls": 844324,
+			"calls": 853564,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"of cr",
@@ -51,7 +51,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 75007,
+			"calls": 75622,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -117,8 +117,8 @@
 			]
 		}
 	],
-	"updt": 1561269719095,
-	"edit": 90,
+	"updt": 1561294973012,
+	"edit": 91,
 	"identified": [
 		{
 			"document": "Erin File",
@@ -132,6 +132,11 @@
 				"eport su",
 				"d remova"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

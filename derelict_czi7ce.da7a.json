@@ -1,27 +1,27 @@
 {
 	"_id": "derelict_czi7ce.da7a",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_czi7ce.da7a",
 	"sector": "VNP_2954",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561294908828,
+	"last_scraped": 1561324396993,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561269719095,
-	"edit": 95,
-	"next_scrape": 1561334616640,
+	"updt": 1561294973012,
+	"edit": 96,
+	"next_scrape": 1561364192339,
 	"category": "fishie_tank",
-	"last_update": 1561294908828,
+	"last_update": 1561324396993,
 	"output": [
 		{
 			"args": {},
-			"calls": 825730,
+			"calls": 834839,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"er's s",
@@ -125,6 +125,14 @@
 				"at we\\n2",
 				"And afte"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
