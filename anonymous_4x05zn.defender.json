@@ -1,26 +1,25 @@
 {
 	"_id": "anonymous_4x05zn.defender",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anonymous_4x05zn.defender",
 	"sector": "K_4792",
 	"sec_level": 4,
 	"date_added": 1561319039321,
-	"last_scraped": 1561319301396,
+	"last_scraped": 1561320120859,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561319039321
 		}
 	],
-	"scrape_ct": 15,
-	"next_scrape": 1561319361396,
+	"next_scrape": 1561363287074,
 	"category": "fishie_tank",
-	"last_update": 1561319301396,
+	"last_update": 1561320120859,
 	"output": [
 		{
 			"args": {},
-			"calls": 22272,
+			"calls": 80833,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"T ERR",
@@ -32,13 +31,29 @@
 				"F99_FIL",
 				"0XBD881",
 				"3F_CLST0"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+					"frags": [
+						"T ERR",
+						"OR | ",
+						"8F99_",
+						"D88122",
+						"SYST ER",
+						"LST0X0A",
+						"F99_FIL",
+						"0XBD881",
+						"3F_CLST0"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2694,
+			"calls": 10184,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -55,13 +70,29 @@
 				"F99_FIL",
 				"0XBD881",
 				"3F_CLST0"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+					"frags": [
+						"T ERR",
+						"OR | ",
+						"8F99_",
+						"D88122",
+						"SYST ER",
+						"LST0X0A",
+						"F99_FIL",
+						"0XBD881",
+						"3F_CLST0"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 27892,
+			"calls": 103619,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"T ERR",
@@ -73,9 +104,41 @@
 				"F99_FIL",
 				"0XBD881",
 				"3F_CLST0"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+					"frags": [
+						"T ERR",
+						"OR | ",
+						"8F99_",
+						"D88122",
+						"SYST ER",
+						"LST0X0A",
+						"F99_FIL",
+						"0XBD881",
+						"3F_CLST0"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1561319093123,
-	"edit": 1
+	"updt": 1561319996842,
+	"edit": 5,
+	"identified": [
+		{
+			"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+			"frags": [
+				"T ERR",
+				"OR | ",
+				"8F99_",
+				"D88122",
+				"SYST ER",
+				"LST0X0A",
+				"F99_FIL",
+				"0XBD881",
+				"3F_CLST0"
+			]
+		}
+	]
 }
