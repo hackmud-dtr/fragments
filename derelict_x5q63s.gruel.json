@@ -1,25 +1,25 @@
 {
 	"_id": "derelict_x5q63s.gruel",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_x5q63s.gruel",
 	"sector": "VNP_3574",
 	"sec_level": 4,
 	"date_added": 1559476738413,
-	"last_scraped": 1561306726186,
+	"last_scraped": 1561332848714,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559476738413
 		}
 	],
-	"next_scrape": 1561347479814,
+	"next_scrape": 1561377594308,
 	"category": "fishie_tank",
-	"last_update": 1561306726186,
+	"last_update": 1561332857925,
 	"output": [
 		{
 			"args": {},
-			"calls": 726085,
+			"calls": 737905,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ould ",
@@ -47,7 +47,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 65280,
+			"calls": 66289,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -105,8 +105,8 @@
 			]
 		}
 	],
-	"updt": 1561281898133,
-	"edit": 71,
+	"updt": 1561306917838,
+	"edit": 72,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -118,6 +118,11 @@
 				"ould,\\n21",
 				" you.\\n21"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

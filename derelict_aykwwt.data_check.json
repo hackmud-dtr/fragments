@@ -1,27 +1,27 @@
 {
 	"_id": "derelict_aykwwt.data_check",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_aykwwt.data_check",
 	"sector": "K_6531",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561307245264,
+	"last_scraped": 1561333370890,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561282348405,
-	"edit": 97,
-	"next_scrape": 1561352393745,
+	"updt": 1561307369026,
+	"edit": 98,
+	"next_scrape": 1561374218331,
 	"category": "fishie_tank",
-	"last_update": 1561307245264,
+	"last_update": 1561333370890,
 	"output": [
 		{
 			"args": {},
-			"calls": 832355,
+			"calls": 836914,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" Atta",
@@ -167,6 +167,14 @@
 				"defender",
 				"4 defend"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
