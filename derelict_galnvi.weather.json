@@ -1,25 +1,25 @@
 {
 	"_id": "derelict_galnvi.weather",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_galnvi.weather",
 	"sector": "K_0304",
 	"sec_level": 4,
 	"date_added": 1559154108935,
-	"last_scraped": 1561297039383,
+	"last_scraped": 1561326055465,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559154108935
 		}
 	],
-	"next_scrape": 1561339182750,
+	"next_scrape": 1561372411066,
 	"category": "fishie_tank",
-	"last_update": 1561297039383,
+	"last_update": 1561326055465,
 	"output": [
 		{
 			"args": {},
-			"calls": 760427,
+			"calls": 769798,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"of UC",
@@ -186,8 +186,8 @@
 			]
 		}
 	],
-	"updt": 1561272877764,
-	"edit": 92,
+	"updt": 1561297223643,
+	"edit": 93,
 	"identified": [
 		{
 			"document": "Erin File",
@@ -215,6 +215,14 @@
 			"frags": [
 				"e of ne"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
