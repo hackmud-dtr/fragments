@@ -6,22 +6,22 @@
 	"sector": "K_1201",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561263797877,
+	"last_scraped": 1561288785590,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561237031278,
-	"edit": 97,
-	"next_scrape": 1561308971429,
+	"updt": 1561264305485,
+	"edit": 99,
+	"next_scrape": 1561334479006,
 	"category": "fishie_tank",
-	"last_update": 1561263797877,
+	"last_update": 1561288785590,
 	"output": [
 		{
 			"args": {},
-			"calls": 843793,
+			"calls": 853571,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"SECT0",
@@ -67,6 +67,7 @@
 						"| NETW ",
 						"T0XF3_S",
 						"T0X756A",
+						"SYST ER",
 						"756A_FI",
 						"0XF3_SE",
 						" NETW E",
@@ -83,9 +84,9 @@
 						"BBE270FC",
 						"56A_FILE",
 						"0_CLST0X",
-						"0FC\\nSYS",
 						" | PROG ",
-						" ERROR |"
+						" ERROR |",
+						"0FC\\nSYST"
 					]
 				}
 			]
@@ -94,7 +95,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 72652,
+			"calls": 73464,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -145,6 +146,7 @@
 						"| NETW ",
 						"T0XF3_S",
 						"T0X756A",
+						"SYST ER",
 						"756A_FI",
 						"0XF3_SE",
 						" NETW E",
@@ -161,9 +163,9 @@
 						"BBE270FC",
 						"56A_FILE",
 						"0_CLST0X",
-						"0FC\\nSYS",
 						" | PROG ",
-						" ERROR |"
+						" ERROR |",
+						"0FC\\nSYST"
 					]
 				}
 			]
@@ -172,7 +174,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 832737,
+			"calls": 842389,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"SECT0",
@@ -218,6 +220,7 @@
 						"| NETW ",
 						"T0XF3_S",
 						"T0X756A",
+						"SYST ER",
 						"756A_FI",
 						"0XF3_SE",
 						" NETW E",
@@ -234,9 +237,9 @@
 						"BBE270FC",
 						"56A_FILE",
 						"0_CLST0X",
-						"0FC\\nSYS",
 						" | PROG ",
-						" ERROR |"
+						" ERROR |",
+						"0FC\\nSYST"
 					]
 				}
 			]
@@ -255,6 +258,7 @@
 				"| NETW ",
 				"T0XF3_S",
 				"T0X756A",
+				"SYST ER",
 				"756A_FI",
 				"0XF3_SE",
 				" NETW E",
@@ -271,9 +275,9 @@
 				"BBE270FC",
 				"56A_FILE",
 				"0_CLST0X",
-				"0FC\\nSYS",
 				" | PROG ",
-				" ERROR |"
+				" ERROR |",
+				"0FC\\nSYST"
 			]
 		}
 	]
