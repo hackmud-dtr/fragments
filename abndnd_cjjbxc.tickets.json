@@ -1,27 +1,27 @@
 {
 	"_id": "abndnd_cjjbxc.tickets",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_cjjbxc.tickets",
 	"sector": "HJG_7089",
 	"sec_level": 4,
 	"date_added": 1559837299478,
-	"last_scraped": 1561304613462,
+	"last_scraped": 1561330206587,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559837299478
 		}
 	],
-	"updt": 1561279640928,
-	"edit": 71,
-	"next_scrape": 1561348019765,
+	"updt": 1561304661291,
+	"edit": 72,
+	"next_scrape": 1561375466165,
 	"category": "fishie_tank",
-	"last_update": 1561304613462,
+	"last_update": 1561330206587,
 	"output": [
 		{
 			"args": {},
-			"calls": 580225,
+			"calls": 584416,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"y we ",
@@ -195,6 +195,14 @@
 				"could w",
 				"ould we "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
