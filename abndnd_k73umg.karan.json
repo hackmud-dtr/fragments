@@ -1,26 +1,25 @@
 {
 	"_id": "abndnd_k73umg.karan",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abndnd_k73umg.karan",
 	"sector": "VNP_9860",
 	"sec_level": 4,
 	"date_added": 1561250299811,
-	"last_scraped": 1561250760831,
+	"last_scraped": 1561251440533,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561250299811
 		}
 	],
-	"scrape_ct": 11,
-	"next_scrape": 1561250820831,
+	"next_scrape": 1561296668257,
 	"category": "fishie_tank",
-	"last_update": 1561250760831,
+	"last_update": 1561251440533,
 	"output": [
 		{
 			"args": {},
-			"calls": 36784,
+			"calls": 88797,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"FILE0",
@@ -31,13 +30,28 @@
 				"SECT0XA",
 				"ILE0X77",
 				"0B\\nSYST "
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"FILE0",
+						"0XCE_",
+						"T0XAD0",
+						" | NET",
+						"SYST ER",
+						"SECT0XA",
+						"ILE0X77",
+						"0B\\nSYST "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4455,
+			"calls": 10103,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -53,13 +67,28 @@
 				"SECT0XA",
 				"ILE0X77",
 				"0B\\nSYST "
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"FILE0",
+						"0XCE_",
+						"T0XAD0",
+						" | NET",
+						"SYST ER",
+						"SECT0XA",
+						"ILE0X77",
+						"0B\\nSYST "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 48236,
+			"calls": 100166,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"FILE0",
@@ -70,9 +99,39 @@
 				"SECT0XA",
 				"ILE0X77",
 				"0B\\nSYST "
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"FILE0",
+						"0XCE_",
+						"T0XAD0",
+						" | NET",
+						"SYST ER",
+						"SECT0XA",
+						"ILE0X77",
+						"0B\\nSYST "
+					]
+				}
 			]
 		}
 	],
-	"updt": 1561250555583,
-	"edit": 1
+	"updt": 1561251232848,
+	"edit": 4,
+	"identified": [
+		{
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
+				"FILE0",
+				"0XCE_",
+				"T0XAD0",
+				" | NET",
+				"SYST ER",
+				"SECT0XA",
+				"ILE0X77",
+				"0B\\nSYST "
+			]
+		}
+	]
 }
