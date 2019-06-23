@@ -6,21 +6,21 @@
 	"sector": "K_4792",
 	"sec_level": 4,
 	"date_added": 1561319831672,
-	"last_scraped": 1561320219802,
+	"last_scraped": 1561320400925,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561319831672
 		}
 	],
-	"scrape_ct": 13,
-	"next_scrape": 1561320279802,
+	"scrape_ct": 10,
+	"next_scrape": 1561320460925,
 	"category": "fishie_tank",
-	"last_update": 1561320210302,
+	"last_update": 1561320400925,
 	"output": [
 		{
 			"args": {},
-			"calls": 32232,
+			"calls": 45452,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" PROG",
@@ -30,13 +30,27 @@
 				"ROR | T",
 				"ETW ERR",
 				"F\\nSYST "
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						" PROG",
+						"T ERRO",
+						" ERROR",
+						"olliste",
+						"ROR | T",
+						"ETW ERR",
+						"F\\nSYST "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3808,
+			"calls": 4611,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -51,13 +65,27 @@
 				"ROR | T",
 				"ETW ERR",
 				"F\\nSYST "
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						" PROG",
+						"T ERRO",
+						" ERROR",
+						"olliste",
+						"ROR | T",
+						"ETW ERR",
+						"F\\nSYST "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 21038,
+			"calls": 36644,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" PROG",
@@ -67,9 +95,45 @@
 				"ROR | T",
 				"ETW ERR",
 				"F\\nSYST "
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						" PROG",
+						"T ERRO",
+						" ERROR",
+						"olliste",
+						"ROR | T",
+						"ETW ERR",
+						"F\\nSYST "
+					]
+				}
 			]
 		}
 	],
-	"updt": 1561319996842,
-	"edit": 1
+	"updt": 1561320447216,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+			"frags": [
+				" PROG",
+				"T ERRO",
+				" ERROR",
+				"olliste",
+				"ROR | T",
+				"ETW ERR",
+				"F\\nSYST "
+			]
+		}
+	]
 }
