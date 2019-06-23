@@ -1,25 +1,25 @@
 {
 	"_id": "derelict_2ttwxy.t3_stock",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_2ttwxy.t3_stock",
 	"sector": "HJG_7089",
 	"sec_level": 4,
 	"date_added": 1559803175089,
-	"last_scraped": 1561298720469,
+	"last_scraped": 1561327201782,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559803175089
 		}
 	],
-	"next_scrape": 1561345230645,
+	"next_scrape": 1561373486267,
 	"category": "fishie_tank",
-	"last_update": 1561298720469,
+	"last_update": 1561327201782,
 	"output": [
 		{
 			"args": {},
-			"calls": 608467,
+			"calls": 617590,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				". so ",
@@ -177,8 +177,8 @@
 			]
 		}
 	],
-	"updt": 1561274003264,
-	"edit": 65,
+	"updt": 1561298801213,
+	"edit": 66,
 	"identified": [
 		{
 			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
@@ -202,6 +202,14 @@
 				" ur sayi",
 				" the mem"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

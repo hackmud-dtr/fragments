@@ -1,27 +1,27 @@
 {
 	"_id": "unknown_ksdd0b.harvest_t2",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_ksdd0b.harvest_t2",
 	"sector": "VNP_2954",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561298420680,
+	"last_scraped": 1561327067983,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561273778422,
-	"edit": 102,
-	"next_scrape": 1561344262707,
+	"updt": 1561298575646,
+	"edit": 103,
+	"next_scrape": 1561367467272,
 	"category": "clicker",
-	"last_update": 1561298420680,
+	"last_update": 1561327067983,
 	"output": [
 		{
 			"args": {},
-			"calls": 771289,
+			"calls": 775849,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"0 0011 ",
@@ -486,6 +486,14 @@
 				"0 0011  SEC",
 				"0 0000  SEC"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
 		}
 	]
 }

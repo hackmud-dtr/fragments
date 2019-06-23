@@ -1,27 +1,27 @@
 {
 	"_id": "derelict_salcio.t1",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_salcio.t1",
 	"sector": "K_3353",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561299120603,
+	"last_scraped": 1561327382937,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561274679666,
-	"edit": 94,
-	"next_scrape": 1561341029502,
+	"updt": 1561299252679,
+	"edit": 95,
+	"next_scrape": 1561369999625,
 	"category": "clicker",
-	"last_update": 1561299120603,
+	"last_update": 1561327382937,
 	"output": [
 		{
 			"args": {},
-			"calls": 793569,
+			"calls": 803712,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"ve th",
@@ -260,6 +260,14 @@
 				" to arch",
 				" honestl"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
 		}
 	]
 }
