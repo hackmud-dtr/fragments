@@ -1,21 +1,34 @@
 {
 	"_id": "uknown_ayqcsi.reason",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "uknown_ayqcsi.reason",
-	"sector": "VNP_6240",
+	"sector": "NGC_0709",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561278880205,
+	"last_scraped": 1561293167592,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
-		}
+		},
+		{
+			"type": "died",
+			"when": 1561293121904
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1561293137979,
+				"from": "NGC_0709",
+				"to": "VNP_6240"
+			}
+		]
 	],
-	"updt": 1561253710376,
-	"edit": 81,
+	"updt": 1561278964238,
+	"edit": 82,
 	"output": "User not recognized, aborting...",
-	"next_scrape": 1561369799411,
-	"pl_output": "User not recognized, aborting..."
+	"next_scrape": 1561293227592,
+	"pl_output": "User not recognized, aborting...",
+	"scrape_ct": 20
 }
