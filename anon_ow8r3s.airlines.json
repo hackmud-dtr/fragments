@@ -1,27 +1,27 @@
 {
 	"_id": "anon_ow8r3s.airlines",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_ow8r3s.airlines",
 	"sector": "NGC_1090",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561299901807,
+	"last_scraped": 1561327752530,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561275358276,
-	"edit": 92,
-	"next_scrape": 1561341174092,
+	"updt": 1561299928297,
+	"edit": 93,
+	"next_scrape": 1561374102014,
 	"category": "clicker",
-	"last_update": 1561299901807,
+	"last_update": 1561327752530,
 	"output": [
 		{
 			"args": {},
-			"calls": 803930,
+			"calls": 814591,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"r 22 ",
@@ -210,6 +210,14 @@
 				"sed app",
 				"OSID: S"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
 		}
 	]
 }
