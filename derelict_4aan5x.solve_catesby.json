@@ -1,25 +1,25 @@
 {
 	"_id": "derelict_4aan5x.solve_catesby",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_4aan5x.solve_catesby",
 	"sector": "HJG_6175",
 	"sec_level": 4,
 	"date_added": 1560724871130,
-	"last_scraped": 1561306354441,
+	"last_scraped": 1561332366194,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560724871130
 		}
 	],
-	"next_scrape": 1561347446922,
+	"next_scrape": 1561376098398,
 	"category": "fishie_tank",
-	"last_update": 1561306354441,
+	"last_update": 1561332376275,
 	"output": [
 		{
 			"args": {},
-			"calls": 302608,
+			"calls": 321711,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ance ",
@@ -49,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 28641,
+			"calls": 29454,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -111,8 +111,8 @@
 			]
 		}
 	],
-	"updt": 1561281446823,
-	"edit": 27,
+	"updt": 1561306466416,
+	"edit": 28,
 	"identified": [
 		{
 			"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
@@ -125,6 +125,11 @@
 				"s MAJOR ",
 				" with VE"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
