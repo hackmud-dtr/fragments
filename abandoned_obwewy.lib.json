@@ -1,50 +1,49 @@
 {
 	"_id": "abandoned_obwewy.lib",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_obwewy.lib",
 	"sector": "K_0304",
 	"sec_level": 4,
 	"date_added": 1559117253080,
-	"last_scraped": 1561295829540,
+	"last_scraped": 1561325143431,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559117253080
 		}
 	],
-	"next_scrape": 1561337280330,
+	"next_scrape": 1561365848047,
 	"category": "fishie_tank",
-	"last_update": 1561295829540,
+	"last_update": 1561325143431,
 	"output": [
 		{
 			"args": {},
-			"calls": 834645,
+			"calls": 842699,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"ter co",
-				"r BOUN",
-				"er com",
-				"er BOU",
 				"e defe",
 				"ding l",
 				"defend",
-				"ane af",
 				"OUNCE ",
 				"E card",
-				"BOUNCE",
 				"the def",
 				"nder BO",
+				"lane af",
 				"g lane ",
+				"er BOUN",
 				"UNCE ca",
 				"Defende",
 				"78 Defe",
+				" BOUNCE",
+				"ter comb",
 				"ne after",
 				"fender B",
 				"efending",
 				"bat\\n217",
 				"t\\n2178 D",
 				"s\\n2179 a",
+				"ards\\n217",
 				" combat\\n",
 				" cards\\n2"
 			],
@@ -219,8 +218,8 @@
 			]
 		}
 	],
-	"updt": 1561271071884,
-	"edit": 96,
+	"updt": 1561295873585,
+	"edit": 97,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -251,6 +250,14 @@
 				" combat\\n",
 				" cards\\n2"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

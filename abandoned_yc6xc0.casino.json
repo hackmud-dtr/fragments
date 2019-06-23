@@ -1,25 +1,25 @@
 {
 	"_id": "abandoned_yc6xc0.casino",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_yc6xc0.casino",
 	"sector": "K_3429",
 	"sec_level": 4,
 	"date_added": 1559244045521,
-	"last_scraped": 1561295077983,
+	"last_scraped": 1561324548749,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559244045521
 		}
 	],
-	"next_scrape": 1561339392574,
+	"next_scrape": 1561370498752,
 	"category": "fishie_tank",
-	"last_update": 1561295077983,
+	"last_update": 1561324548749,
 	"output": [
 		{
 			"args": {},
-			"calls": 778555,
+			"calls": 787716,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"T0XBF_C",
@@ -111,6 +111,14 @@
 			]
 		}
 	],
-	"updt": 1561269943882,
-	"edit": 79
+	"updt": 1561295198608,
+	"edit": 80,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }

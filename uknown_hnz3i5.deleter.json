@@ -1,25 +1,25 @@
 {
 	"_id": "uknown_hnz3i5.deleter",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_hnz3i5.deleter",
 	"sector": "SPC_8584",
 	"sec_level": 4,
 	"date_added": 1560603277699,
-	"last_scraped": 1561295119369,
+	"last_scraped": 1561324590415,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560603277699
 		}
 	],
-	"next_scrape": 1561341805466,
+	"next_scrape": 1561369257988,
 	"category": "fishie_tank",
-	"last_update": 1561295119369,
+	"last_update": 1561324590415,
 	"output": [
 		{
 			"args": {},
-			"calls": 336765,
+			"calls": 345860,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"too, y",
@@ -105,8 +105,8 @@
 			]
 		}
 	],
-	"updt": 1561269943882,
-	"edit": 33,
+	"updt": 1561295198608,
+	"edit": 34,
 	"identified": [
 		{
 			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
@@ -118,6 +118,14 @@
 				"h, i jus",
 				"ah? okay"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

@@ -1,27 +1,27 @@
 {
 	"_id": "anon_63qdis.action",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_63qdis.action",
 	"sector": "VNP_9651",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561295148604,
+	"last_scraped": 1561324610218,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561269943882,
-	"edit": 93,
-	"next_scrape": 1561340422622,
+	"updt": 1561295198608,
+	"edit": 94,
+	"next_scrape": 1561370346268,
 	"category": "clicker",
-	"last_update": 1561295148604,
+	"last_update": 1561324610218,
 	"output": [
 		{
 			"args": {},
-			"calls": 774512,
+			"calls": 779062,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"| TIM",
@@ -190,6 +190,14 @@
 				"'Mallory",
 				" TIME ER"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
 		}
 	]
 }

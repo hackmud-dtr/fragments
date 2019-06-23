@@ -1,25 +1,25 @@
 {
 	"_id": "unidentified_2sr8gz.filter",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_2sr8gz.filter",
 	"sector": "NGC_3087",
 	"sec_level": 4,
 	"date_added": 1560384505365,
-	"last_scraped": 1561295679801,
+	"last_scraped": 1561325011296,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560384505365
 		}
 	],
-	"next_scrape": 1561336513018,
+	"next_scrape": 1561370046965,
 	"category": "clicker",
-	"last_update": 1561295679801,
+	"last_update": 1561325011296,
 	"output": [
 		{
 			"args": {},
-			"calls": 398719,
+			"calls": 409179,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"ope t",
@@ -155,6 +155,14 @@
 			]
 		}
 	],
-	"updt": 1561270620024,
-	"edit": 39
+	"updt": 1561295873585,
+	"edit": 40,
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
+		}
+	]
 }
