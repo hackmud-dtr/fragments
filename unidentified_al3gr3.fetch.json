@@ -1,23 +1,23 @@
 {
 	"_id": "unidentified_al3gr3.fetch",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unidentified_al3gr3.fetch",
 	"sector": "SPC_0183",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561328560976,
+	"last_scraped": 1561405357818,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561301958367,
-	"edit": 101,
-	"next_scrape": 1561369504021,
+	"updt": 1561328789610,
+	"edit": 102,
+	"next_scrape": 1561448107697,
 	"category": "fishie_tank",
-	"last_update": 1561328560976,
+	"last_update": 1561405357818,
 	"output": [
 		{
 			"args": {},
@@ -132,7 +132,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 72928,
+			"calls": 73602,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -248,7 +248,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 847379,
+			"calls": 860064,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"E ERR",
@@ -432,14 +432,6 @@
 				"91C\\nSYST",
 				"2A91C\\nSY"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
