@@ -1,25 +1,25 @@
 {
 	"_id": "unknown_9ryxhr.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_9ryxhr.db",
 	"sector": "VNP_9228",
 	"sec_level": 4,
 	"date_added": 1560231623057,
-	"last_scraped": 1561308886349,
+	"last_scraped": 1561334645161,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560231623057
 		}
 	],
-	"next_scrape": 1561354317871,
+	"next_scrape": 1561379029515,
 	"category": "fishie_tank",
-	"last_update": 1561308886349,
+	"last_update": 1561334645161,
 	"output": [
 		{
 			"args": {},
-			"calls": 475801,
+			"calls": 485005,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" Mall",
@@ -99,8 +99,8 @@
 			]
 		}
 	],
-	"updt": 1561283927577,
-	"edit": 46,
+	"updt": 1561308944718,
+	"edit": 47,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -111,6 +111,14 @@
 				"e been v",
 				"Mallory\\n"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

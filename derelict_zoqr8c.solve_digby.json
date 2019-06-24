@@ -1,27 +1,27 @@
 {
 	"_id": "derelict_zoqr8c.solve_digby",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_zoqr8c.solve_digby",
 	"sector": "HJG_9216",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561309636936,
+	"last_scraped": 1561335266629,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561309622156,
-	"edit": 98,
-	"next_scrape": 1561353074053,
+	"updt": 1561309847638,
+	"edit": 99,
+	"next_scrape": 1561375738696,
 	"category": "fishie_tank",
-	"last_update": 1561309636936,
+	"last_update": 1561335266629,
 	"output": [
 		{
 			"args": {},
-			"calls": 837104,
+			"calls": 845707,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"y ent",
@@ -202,6 +202,14 @@
 				" this da",
 				" ## i ha"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

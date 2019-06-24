@@ -1,27 +1,27 @@
 {
 	"_id": "abndnd_k2y3lt.score",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_k2y3lt.score",
 	"sector": "VNP_1327",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561309106044,
+	"last_scraped": 1561334845261,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561284151143,
-	"edit": 100,
-	"next_scrape": 1561352778650,
+	"updt": 1561309170292,
+	"edit": 101,
+	"next_scrape": 1561380012996,
 	"category": "fishie_tank",
-	"last_update": 1561309106044,
+	"last_update": 1561334845261,
 	"output": [
 		{
 			"args": {},
-			"calls": 861347,
+			"calls": 871291,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"veryt",
@@ -265,6 +265,14 @@
 				". I know",
 				" I know "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

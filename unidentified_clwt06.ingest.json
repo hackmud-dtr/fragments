@@ -1,25 +1,25 @@
 {
 	"_id": "unidentified_clwt06.ingest",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_clwt06.ingest",
 	"sector": "VNP_1073",
 	"sec_level": 4,
 	"date_added": 1560399680475,
-	"last_scraped": 1561309446041,
+	"last_scraped": 1561335108475,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560399680475
 		}
 	],
-	"next_scrape": 1561354286927,
+	"next_scrape": 1561376088918,
 	"category": "clicker",
-	"last_update": 1561309446041,
+	"last_update": 1561335108475,
 	"output": [
 		{
 			"args": {},
-			"calls": 391177,
+			"calls": 399897,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"mhollis",
@@ -94,8 +94,8 @@
 			]
 		}
 	],
-	"updt": 1561284376541,
-	"edit": 39,
+	"updt": 1561309622156,
+	"edit": 40,
 	"identified": [
 		{
 			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
@@ -106,6 +106,14 @@
 				" PROG E",
 				"r imiyaw"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
 		}
 	]
 }

@@ -1,25 +1,25 @@
 {
 	"_id": "abandoned_2xcvgb.binmat",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_2xcvgb.binmat",
 	"sector": "VNP_6819",
 	"sec_level": 4,
 	"date_added": 1561097777726,
-	"last_scraped": 1561309156067,
+	"last_scraped": 1561334875790,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561097777726
 		}
 	],
-	"next_scrape": 1561355528573,
+	"next_scrape": 1561381488358,
 	"category": "fishie_tank",
-	"last_update": 1561309156067,
+	"last_update": 1561334875790,
 	"output": [
 		{
 			"args": {},
-			"calls": 169993,
+			"calls": 177664,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"USER ",
@@ -146,6 +146,14 @@
 			]
 		}
 	],
-	"updt": 1561284151143,
-	"edit": 12
+	"updt": 1561309170292,
+	"edit": 13,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
