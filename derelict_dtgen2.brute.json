@@ -1,27 +1,27 @@
 {
 	"_id": "derelict_dtgen2.brute",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_dtgen2.brute",
 	"sector": "SPC_9474",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561311486539,
+	"last_scraped": 1561336611195,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561286632413,
-	"edit": 94,
-	"next_scrape": 1561352050732,
+	"updt": 1561311651533,
+	"edit": 95,
+	"next_scrape": 1561379452682,
 	"category": "fishie_tank",
-	"last_update": 1561311486539,
+	"last_update": 1561336611195,
 	"output": [
 		{
 			"args": {},
-			"calls": 795633,
+			"calls": 804512,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"re no",
@@ -160,6 +160,14 @@
 				"a chance",
 				". You kn"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

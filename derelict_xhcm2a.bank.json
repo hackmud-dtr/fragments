@@ -1,27 +1,27 @@
 {
 	"_id": "derelict_xhcm2a.bank",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_xhcm2a.bank",
 	"sector": "HJG_0642",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561312077138,
+	"last_scraped": 1561336881019,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561287083538,
-	"edit": 97,
-	"next_scrape": 1561355798387,
+	"updt": 1561312104104,
+	"edit": 98,
+	"next_scrape": 1561377559917,
 	"category": "fishie_tank",
-	"last_update": 1561312077138,
+	"last_update": 1561336881019,
 	"output": [
 		{
 			"args": {},
-			"calls": 882599,
+			"calls": 889444,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"rgue ",
@@ -194,6 +194,14 @@
 			"frags": [
 				"at we ki"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

@@ -1,34 +1,33 @@
 {
 	"_id": "abandoned_sriqup.hangman",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_sriqup.hangman",
 	"sector": "SPC_0388",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561311166449,
+	"last_scraped": 1561336359670,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561286408454,
-	"edit": 109,
-	"next_scrape": 1561354535858,
+	"updt": 1561311200594,
+	"edit": 110,
+	"next_scrape": 1561380029133,
 	"category": "fishie_tank",
-	"last_update": 1561311166449,
+	"last_update": 1561336359670,
 	"output": [
 		{
 			"args": {},
-			"calls": 847110,
+			"calls": 856343,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"R | T",
 				"ajbhan",
 				"erajbha",
 				"R | USE",
-				"ER eraj",
 				"E ERROR",
 				" erajbh",
 				"| USER e",
@@ -36,6 +35,7 @@
 				"USER era",
 				"TIME ERR",
 				"RROR | U",
+				"ER erajb",
 				" | USER ",
 				" | TIME ",
 				" TIME ER",
@@ -188,6 +188,14 @@
 				" TIME ER",
 				" ERROR |"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

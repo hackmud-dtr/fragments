@@ -1,29 +1,30 @@
 {
 	"_id": "abndnd_90bynm.whitelist",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_90bynm.whitelist",
 	"sector": "VNP_0517",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561311887292,
+	"last_scraped": 1561336821228,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561311877969,
-	"edit": 104,
-	"next_scrape": 1561355751750,
+	"updt": 1561312104104,
+	"edit": 105,
+	"next_scrape": 1561381055603,
 	"category": "fishie_tank",
-	"last_update": 1561311887292,
+	"last_update": 1561336821228,
 	"output": [
 		{
 			"args": {},
-			"calls": 811219,
+			"calls": 819796,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"s, wi",
 				"s par",
 				"ns, w",
 				"ity-b",
@@ -35,10 +36,13 @@
 				"ntienc",
 				"nditio",
 				"etween",
+				"e AI: ",
 				"arn to",
-				"-based",
+				" it, i",
 				" betwe",
+				"y-based",
 				"this ga",
+				"their a",
 				"s we un",
 				"run of ",
 				"r becom",
@@ -55,9 +59,12 @@
 				" rapid ",
 				" logica",
 				" leave ",
+				"the form",
 				"t of how",
 				"t mark o",
 				"ss. This",
+				"part on ",
+				"of logic",
 				"n of log",
 				"leave a ",
 				"how they",
@@ -447,6 +454,14 @@
 				" of a ra",
 				" how the"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
