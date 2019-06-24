@@ -1,27 +1,27 @@
 {
 	"_id": "abandoned_rtzqsl.t1c",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_rtzqsl.t1c",
 	"sector": "K_5050",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561314058034,
+	"last_scraped": 1561337838691,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561288883083,
-	"edit": 97,
-	"next_scrape": 1561354003490,
+	"updt": 1561314135062,
+	"edit": 98,
+	"next_scrape": 1561380915351,
 	"category": "fishie_tank",
-	"last_update": 1561314058034,
+	"last_update": 1561337838691,
 	"output": [
 		{
 			"args": {},
-			"calls": 794927,
+			"calls": 804125,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"not s",
@@ -209,6 +209,14 @@
 				"' might ",
 				" like an"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
