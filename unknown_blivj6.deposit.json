@@ -1,23 +1,23 @@
 {
 	"_id": "unknown_blivj6.deposit",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unknown_blivj6.deposit",
 	"sector": "K_5859",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561337382593,
+	"last_scraped": 1561407386477,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561313459481,
-	"edit": 101,
-	"next_scrape": 1561377126074,
+	"updt": 1561337579452,
+	"edit": 102,
+	"next_scrape": 1561449257863,
 	"category": "fishie_tank",
-	"last_update": 1561337382593,
+	"last_update": 1561407386477,
 	"output": [
 		{
 			"args": {},
@@ -75,7 +75,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 71064,
+			"calls": 71871,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -134,7 +134,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 817668,
+			"calls": 826521,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ve' o",
@@ -209,14 +209,6 @@
 				"e' on th",
 				" worse. "
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

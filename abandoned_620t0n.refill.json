@@ -1,23 +1,23 @@
 {
 	"_id": "abandoned_620t0n.refill",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_620t0n.refill",
 	"sector": "SPC_3373",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561338005328,
+	"last_scraped": 1561407607022,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561314359820,
-	"edit": 100,
-	"next_scrape": 1561384425408,
+	"updt": 1561338029928,
+	"edit": 101,
+	"next_scrape": 1561454113701,
 	"category": "fishie_tank",
-	"last_update": 1561338005328,
+	"last_update": 1561407607022,
 	"output": [
 		{
 			"args": {},
@@ -55,7 +55,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 72543,
+			"calls": 73586,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -94,7 +94,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 885830,
+			"calls": 890582,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"DELET",
@@ -139,14 +139,6 @@
 				"cess pas",
 				" passphr"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

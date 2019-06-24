@@ -1,23 +1,23 @@
 {
 	"_id": "anon_qcj7kl.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_qcj7kl.db",
 	"sector": "SPC_4030",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561337783729,
+	"last_scraped": 1561407566857,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561314135062,
-	"edit": 99,
-	"next_scrape": 1561381949781,
+	"updt": 1561337804746,
+	"edit": 100,
+	"next_scrape": 1561448296163,
 	"category": "fishie_tank",
-	"last_update": 1561337783729,
+	"last_update": 1561407566857,
 	"output": [
 		{
 			"args": {},
@@ -51,7 +51,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 71403,
+			"calls": 72197,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -86,7 +86,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 850667,
+			"calls": 860570,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"d be ",
@@ -125,14 +125,6 @@
 				"rms' be ",
 				". ## Hm."
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

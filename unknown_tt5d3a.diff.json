@@ -1,23 +1,23 @@
 {
 	"_id": "unknown_tt5d3a.diff",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unknown_tt5d3a.diff",
 	"sector": "K_2618",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561338455583,
+	"last_scraped": 1561407758165,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561315262362,
-	"edit": 95,
-	"next_scrape": 1561382271499,
+	"updt": 1561338479008,
+	"edit": 96,
+	"next_scrape": 1561448867375,
 	"category": "fishie_tank",
-	"last_update": 1561338455583,
+	"last_update": 1561407758165,
 	"output": [
 		{
 			"args": {},
@@ -53,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 70211,
+			"calls": 70929,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -90,7 +90,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 859120,
+			"calls": 865208,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" pile",
@@ -132,14 +132,6 @@
 				" fails.",
 				"scard pi"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

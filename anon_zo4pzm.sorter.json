@@ -1,23 +1,23 @@
 {
 	"_id": "anon_zo4pzm.sorter",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_zo4pzm.sorter",
 	"sector": "K_8824",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561337332295,
+	"last_scraped": 1561407346330,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561313235306,
-	"edit": 104,
-	"next_scrape": 1561379173356,
+	"updt": 1561337355100,
+	"edit": 105,
+	"next_scrape": 1561454091439,
 	"category": "fishie_tank",
-	"last_update": 1561337332295,
+	"last_update": 1561407346330,
 	"output": [
 		{
 			"args": {},
@@ -101,7 +101,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 74248,
+			"calls": 74915,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -186,7 +186,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 846898,
+			"calls": 855707,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"s, wi",
@@ -300,14 +300,6 @@
 				"conditio",
 				" decisio"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

@@ -1,23 +1,23 @@
 {
 	"_id": "anon_oj9291.dossier",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_oj9291.dossier",
 	"sector": "HJG_1060",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561337765783,
+	"last_scraped": 1561407546836,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561314135062,
-	"edit": 102,
-	"next_scrape": 1561384245367,
+	"updt": 1561337804746,
+	"edit": 103,
+	"next_scrape": 1561449547750,
 	"category": "fishie_tank",
-	"last_update": 1561337765783,
+	"last_update": 1561407546836,
 	"output": [
 		{
 			"args": {},
@@ -63,7 +63,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 72124,
+			"calls": 72845,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -110,7 +110,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 809997,
+			"calls": 814428,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"revio",
@@ -173,14 +173,6 @@
 			"frags": [
 				"AI tha"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

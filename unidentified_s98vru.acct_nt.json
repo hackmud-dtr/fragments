@@ -1,23 +1,23 @@
 {
 	"_id": "unidentified_s98vru.acct_nt",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unidentified_s98vru.acct_nt",
 	"sector": "NGC_9913",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561339184611,
+	"last_scraped": 1561407908435,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561317064390,
-	"edit": 100,
-	"next_scrape": 1561384679017,
+	"updt": 1561339379513,
+	"edit": 101,
+	"next_scrape": 1561450601399,
 	"category": "fishie_tank",
-	"last_update": 1561339184611,
+	"last_update": 1561407908435,
 	"output": [
 		{
 			"args": {},
@@ -47,7 +47,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 72800,
+			"calls": 73871,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -78,7 +78,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 849790,
+			"calls": 861046,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"0101 ",
@@ -111,14 +111,6 @@
 				" 0000 ",
 				"000 000"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
