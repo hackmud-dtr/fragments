@@ -1,27 +1,27 @@
 {
 	"_id": "abndnd_2eaobh.best_items",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_2eaobh.best_items",
 	"sector": "VNP_9787",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561323814982,
+	"last_scraped": 1561342949583,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561294521320,
-	"edit": 100,
-	"next_scrape": 1561366067413,
+	"updt": 1561324056173,
+	"edit": 102,
+	"next_scrape": 1561385985621,
 	"category": "fishie_tank",
-	"last_update": 1561323825090,
+	"last_update": 1561342949583,
 	"output": [
 		{
 			"args": {},
-			"calls": 864599,
+			"calls": 872976,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ix.' ",
@@ -166,7 +166,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 824319,
+			"calls": 834020,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ix.' ",
@@ -268,6 +268,9 @@
 		}
 	],
 	"retry_args": [
+		{
+			"do": "feed"
+		},
 		{
 			"do": "clean"
 		}
