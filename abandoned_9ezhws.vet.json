@@ -1,27 +1,27 @@
 {
 	"_id": "abandoned_9ezhws.vet",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_9ezhws.vet",
 	"sector": "VNP_9787",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561308514996,
+	"last_scraped": 1561334333819,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561283474541,
-	"edit": 96,
-	"next_scrape": 1561351117002,
+	"updt": 1561308720967,
+	"edit": 97,
+	"next_scrape": 1561380364134,
 	"category": "fishie_tank",
-	"last_update": 1561308514996,
+	"last_update": 1561334333819,
 	"output": [
 		{
 			"args": {},
-			"calls": 834777,
+			"calls": 843158,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"100 000",
@@ -132,6 +132,14 @@
 				" 0000 00",
 				"000\\n0000"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

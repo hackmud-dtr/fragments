@@ -1,27 +1,27 @@
 {
 	"_id": "unidentified_848aui.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_848aui.db",
 	"sector": "NGC_4697",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561308425797,
+	"last_scraped": 1561334273508,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561283474541,
-	"edit": 99,
-	"next_scrape": 1561350608244,
+	"updt": 1561308494930,
+	"edit": 100,
+	"next_scrape": 1561374999457,
 	"category": "fishie_tank",
-	"last_update": 1561308425797,
+	"last_update": 1561334273508,
 	"output": [
 		{
 			"args": {},
-			"calls": 832890,
+			"calls": 844151,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"e we ",
@@ -209,6 +209,14 @@
 				" pornogr",
 				" of the "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
