@@ -1,26 +1,26 @@
 {
 	"_id": "derelict_fd2j6h.fable",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "derelict_fd2j6h.fable",
 	"sector": "K_4792",
 	"sec_level": 4,
 	"date_added": 1561385269821,
-	"last_scraped": 1561385541172,
+	"last_scraped": 1561385713344,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561385269821
 		}
 	],
-	"scrape_ct": 11,
-	"next_scrape": 1561385601172,
+	"scrape_ct": 6,
+	"next_scrape": 1561385773344,
 	"category": "fishie_tank",
-	"last_update": 1561385541172,
+	"last_update": 1561385721250,
 	"output": [
 		{
 			"args": {},
-			"calls": 43680,
+			"calls": 65621,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ile t",
@@ -35,13 +35,32 @@
 				"ere's s",
 				"Practic",
 				"ome\\n1E9"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ile t",
+						"still ",
+						"ill th",
+						"e?\\n1E",
+						"e game",
+						" has b",
+						" becom",
+						"le ther",
+						"is help",
+						"ere's s",
+						"Practic",
+						"ome\\n1E9"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4074,
+			"calls": 6381,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -61,15 +80,74 @@
 				"ere's s",
 				"Practic",
 				"ome\\n1E9"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ile t",
+						"still ",
+						"ill th",
+						"e?\\n1E",
+						"e game",
+						" has b",
+						" becom",
+						"le ther",
+						"is help",
+						"ere's s",
+						"Practic",
+						"ome\\n1E9"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 37766,
+			"calls": 59109,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"ile t",
+				"still ",
+				"ill th",
+				"e?\\n1E",
+				"e game",
+				" has b",
+				" becom",
+				"le ther",
+				"is help",
+				"ere's s",
+				"Practic",
+				"ome\\n1E9"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ile t",
+						"still ",
+						"ill th",
+						"e?\\n1E",
+						"e game",
+						" has b",
+						" becom",
+						"le ther",
+						"is help",
+						"ere's s",
+						"Practic",
+						"ome\\n1E9"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1561385575960,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"ile t",
 				"still ",
 				"ill th",
@@ -85,6 +163,9 @@
 			]
 		}
 	],
-	"updt": 1561385349574,
-	"edit": 1
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
