@@ -1,27 +1,27 @@
 {
 	"_id": "unknown_blivj6.deposit",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_blivj6.deposit",
 	"sector": "K_5859",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561313267263,
+	"last_scraped": 1561337382593,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561288208728,
-	"edit": 100,
-	"next_scrape": 1561355008055,
+	"updt": 1561313459481,
+	"edit": 101,
+	"next_scrape": 1561377126074,
 	"category": "fishie_tank",
-	"last_update": 1561313267263,
+	"last_update": 1561337382593,
 	"output": [
 		{
 			"args": {},
-			"calls": 842121,
+			"calls": 851798,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ve' o",
@@ -209,6 +209,14 @@
 				"e' on th",
 				" worse. "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

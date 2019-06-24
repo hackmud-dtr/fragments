@@ -1,27 +1,27 @@
 {
 	"_id": "uknown_teq10n.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_teq10n.bot_scam_do_not_run",
 	"sector": "VNP_9857",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561313567440,
+	"last_scraped": 1561337553056,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561288433654,
-	"edit": 103,
-	"next_scrape": 1561360308115,
+	"updt": 1561313684625,
+	"edit": 104,
+	"next_scrape": 1561380450444,
 	"category": "fishie_tank",
-	"last_update": 1561313567440,
+	"last_update": 1561337553056,
 	"output": [
 		{
 			"args": {},
-			"calls": 807844,
+			"calls": 817854,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"W ERROR",
@@ -153,6 +153,14 @@
 				" | PROG ",
 				" | NETW "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

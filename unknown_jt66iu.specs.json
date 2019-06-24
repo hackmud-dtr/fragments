@@ -1,27 +1,27 @@
 {
 	"_id": "unknown_jt66iu.specs",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_jt66iu.specs",
 	"sector": "K_6032",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561312877495,
+	"last_scraped": 1561337232247,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561287758227,
-	"edit": 99,
-	"next_scrape": 1561359450245,
+	"updt": 1561313006687,
+	"edit": 100,
+	"next_scrape": 1561378642366,
 	"category": "fishie_tank",
-	"last_update": 1561312877495,
+	"last_update": 1561337232247,
 	"output": [
 		{
 			"args": {},
-			"calls": 839912,
+			"calls": 844167,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"T0XCC",
@@ -195,6 +195,14 @@
 				" | TIME ",
 				" | PROG "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
