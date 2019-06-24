@@ -1,23 +1,23 @@
 {
 	"_id": "derelict_aykwwt.data_check",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_aykwwt.data_check",
 	"sector": "K_6531",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561333370890,
+	"last_scraped": 1561405740132,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561307369026,
-	"edit": 98,
-	"next_scrape": 1561374218331,
+	"updt": 1561333522930,
+	"edit": 99,
+	"next_scrape": 1561450239112,
 	"category": "fishie_tank",
-	"last_update": 1561333370890,
+	"last_update": 1561405740132,
 	"output": [
 		{
 			"args": {},
@@ -63,7 +63,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 73179,
+			"calls": 74180,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -110,7 +110,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 856393,
+			"calls": 865475,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" Atta",
@@ -167,14 +167,6 @@
 				"defender",
 				"4 defend"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

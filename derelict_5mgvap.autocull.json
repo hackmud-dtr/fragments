@@ -1,21 +1,21 @@
 {
 	"_id": "derelict_5mgvap.autocull",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_5mgvap.autocull",
 	"sector": "K_7641",
 	"sec_level": 4,
 	"date_added": 1559690803516,
-	"last_scraped": 1561333019680,
+	"last_scraped": 1561405659108,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559690803516
 		}
 	],
-	"next_scrape": 1561375452400,
+	"next_scrape": 1561452409702,
 	"category": "fishie_tank",
-	"last_update": 1561333030133,
+	"last_update": 1561405659108,
 	"output": [
 		{
 			"args": {},
@@ -108,15 +108,18 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 667566,
+			"calls": 678944,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"X17858",
+				"_FILE0",
+				"LE0X17",
 				"ECT0XB",
 				"SYST ER",
 				"F1_FILE",
 				"B_SECT0",
+				"BD3\\nSY",
 				"93_CLST",
+				"0X17858",
 				"0B_SECT",
 				"ST0X0B_S",
 				"B1F1_FIL",
@@ -147,8 +150,8 @@
 			]
 		}
 	],
-	"updt": 1561306917838,
-	"edit": 67,
+	"updt": 1561333071610,
+	"edit": 68,
 	"identified": [
 		{
 			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
@@ -167,11 +170,6 @@
 				"0XB1F1_F",
 				"D3\\nSYST "
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
