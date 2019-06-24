@@ -1,27 +1,27 @@
 {
 	"_id": "abndnd_vadx8c.bot_brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_vadx8c.bot_brain",
 	"sector": "HJG_8005",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561310836109,
+	"last_scraped": 1561336159561,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561285954456,
-	"edit": 101,
-	"next_scrape": 1561352218864,
+	"updt": 1561310974285,
+	"edit": 102,
+	"next_scrape": 1561377596621,
 	"category": "fishie_tank",
-	"last_update": 1561310836109,
+	"last_update": 1561336159561,
 	"output": [
 		{
 			"args": {},
-			"calls": 802104,
+			"calls": 811613,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"'s el",
@@ -195,6 +195,14 @@
 				"elephant",
 				"ant-in-t"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

@@ -1,27 +1,27 @@
 {
 	"_id": "unidentified_85oulh.punks",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_85oulh.punks",
 	"sector": "K_3429",
 	"sec_level": 4,
 	"date_added": 1559205157444,
-	"last_scraped": 1561309996222,
+	"last_scraped": 1561335547759,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559205157444
 		}
 	],
-	"updt": 1561285051495,
-	"edit": 82,
-	"next_scrape": 1561353989786,
+	"updt": 1561310072365,
+	"edit": 83,
+	"next_scrape": 1561377764374,
 	"category": "fishie_tank",
-	"last_update": 1561309996222,
+	"last_update": 1561335547759,
 	"output": [
 		{
 			"args": {},
-			"calls": 792817,
+			"calls": 797883,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"stems",
@@ -139,6 +139,14 @@
 				"rtunity ",
 				" lack ce"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
