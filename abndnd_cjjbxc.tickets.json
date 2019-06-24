@@ -1,23 +1,23 @@
 {
 	"_id": "abndnd_cjjbxc.tickets",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_cjjbxc.tickets",
 	"sector": "HJG_7089",
 	"sec_level": 4,
 	"date_added": 1559837299478,
-	"last_scraped": 1561330206587,
+	"last_scraped": 1561405495215,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559837299478
 		}
 	],
-	"updt": 1561304661291,
-	"edit": 72,
-	"next_scrape": 1561375466165,
+	"updt": 1561330367067,
+	"edit": 73,
+	"next_scrape": 1561445512864,
 	"category": "fishie_tank",
-	"last_update": 1561330206587,
+	"last_update": 1561405495215,
 	"output": [
 		{
 			"args": {},
@@ -71,7 +71,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 53750,
+			"calls": 54549,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -126,7 +126,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 629939,
+			"calls": 639047,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"y we ",
@@ -195,14 +195,6 @@
 				"could w",
 				"ould we "
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
