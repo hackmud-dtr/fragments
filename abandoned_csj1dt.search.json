@@ -1,31 +1,44 @@
 {
 	"_id": "abandoned_csj1dt.search",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_csj1dt.search",
 	"sector": "VNP_7259",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1558931692473,
+	"last_scraped": 1561402511646,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1558931787884,
-	"edit": 5,
+	"updt": 1559182056764,
+	"edit": 6,
 	"scrape_ct": 19,
-	"next_scrape": 1559017312451,
+	"next_scrape": 1561443825348,
 	"category": "clicker",
-	"last_update": 1558845231561,
-	"output": "`LCLI0000ECURED`",
-	"retry_args": [
+	"last_update": 1561402511646,
+	"output": [
 		{
-			"click": true
-		},
+			"args": {
+				"click": true
+			},
+			"calls": 6021,
+			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
+			"fragments": [
+				"001 010",
+				"000\\n000",
+				"0000 000",
+				" 0000 00",
+				"0\\n0000 0"
+			]
+		}
+	],
+	"retry_args": [
 		{
 			"CLICK": true
 		}
-	]
+	],
+	"old_output": "`LCLI0000ECURED`"
 }

@@ -1,23 +1,23 @@
 {
 	"_id": "derelict_dtgen2.brute",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_dtgen2.brute",
 	"sector": "SPC_9474",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561336611195,
+	"last_scraped": 1561406985124,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561311651533,
-	"edit": 95,
-	"next_scrape": 1561379452682,
+	"updt": 1561336676867,
+	"edit": 96,
+	"next_scrape": 1561452776934,
 	"category": "fishie_tank",
-	"last_update": 1561336611195,
+	"last_update": 1561406974707,
 	"output": [
 		{
 			"args": {},
@@ -61,7 +61,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 75841,
+			"calls": 76717,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -160,14 +160,6 @@
 				"a chance",
 				". You kn"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

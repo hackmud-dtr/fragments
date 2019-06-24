@@ -1,21 +1,21 @@
 {
 	"_id": "abandoned_8etlb0.salt",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_8etlb0.salt",
 	"sector": "HJG_6175",
 	"sec_level": 4,
 	"date_added": 1560729642366,
-	"last_scraped": 1561336128879,
+	"last_scraped": 1561406815584,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560729642366
 		}
 	],
-	"next_scrape": 1561381450596,
+	"next_scrape": 1561451739602,
 	"category": "fishie_tank",
-	"last_update": 1561336128879,
+	"last_update": 1561406815584,
 	"output": [
 		{
 			"args": {},
@@ -45,7 +45,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 26918,
+			"calls": 27961,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -53,11 +53,12 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				" 0000 ",
 				"LFILE\\n",
+				"0100 000",
 				"01 0100 ",
 				"0000 011",
-				"00 0001 "
+				"00 0001 ",
+				"0 0000 0"
 			],
 			"hits": [
 				{
@@ -76,14 +77,15 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 317129,
+			"calls": 326571,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				" 0000 ",
 				"LFILE\\n",
+				"0100 000",
 				"01 0100 ",
 				"0000 011",
-				"00 0001 "
+				"00 0001 ",
+				"0 0000 0"
 			],
 			"hits": [
 				{
@@ -111,14 +113,6 @@
 			]
 		}
 	],
-	"updt": 1561310974285,
-	"edit": 29,
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1561336228407,
+	"edit": 30
 }

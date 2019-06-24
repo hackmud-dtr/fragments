@@ -1,23 +1,23 @@
 {
 	"_id": "derelict_t8zwab.hohoh",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_t8zwab.hohoh",
 	"sector": "K_4581",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1559673863568,
+	"last_scraped": 1561402622263,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1559639262293,
-	"edit": 34,
-	"next_scrape": 1559720025375,
+	"updt": 1559673985009,
+	"edit": 35,
+	"next_scrape": 1561445480028,
 	"category": "fishie_tank",
-	"last_update": 1559673881608,
+	"last_update": 1561402622263,
 	"output": [
 		{
 			"args": {},
@@ -82,14 +82,16 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 277266,
+			"calls": 286224,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ETW ER",
 				"| PROG ",
-				"ROR | P",
 				"R | NET",
 				" | PROG",
+				"RROR | P",
+				"PROG ERR",
+				"ERROR | ",
 				" ERROR |"
 			],
 			"hits": [
@@ -118,11 +120,6 @@
 				" | PROG",
 				" ERROR |"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }

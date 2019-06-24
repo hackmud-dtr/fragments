@@ -1,23 +1,23 @@
 {
 	"_id": "anon_nreakk.big_red_button",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_nreakk.big_red_button",
 	"sector": "VNP_2954",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561334574153,
+	"last_scraped": 1561406091666,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561308944718,
-	"edit": 101,
-	"next_scrape": 1561375075181,
+	"updt": 1561334648874,
+	"edit": 102,
+	"next_scrape": 1561449630557,
 	"category": "fishie_tank",
-	"last_update": 1561334574153,
+	"last_update": 1561406091666,
 	"output": [
 		{
 			"args": {},
@@ -75,7 +75,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 72252,
+			"calls": 73085,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -134,7 +134,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 875598,
+			"calls": 884842,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"tacke",
@@ -209,14 +209,6 @@
 				" 0 if at",
 				" wins,\\n2"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

@@ -1,23 +1,23 @@
 {
 	"_id": "abandoned_8nwkgn.defenda",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_8nwkgn.defenda",
 	"sector": "NGC_4867",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561334695857,
+	"last_scraped": 1561406131534,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561308944718,
-	"edit": 100,
-	"next_scrape": 1561375912725,
+	"updt": 1561334874840,
+	"edit": 101,
+	"next_scrape": 1561449804718,
 	"category": "fishie_tank",
-	"last_update": 1561334695857,
+	"last_update": 1561406131534,
 	"output": [
 		{
 			"args": {},
@@ -65,7 +65,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 73578,
+			"calls": 74094,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -114,7 +114,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 852565,
+			"calls": 861784,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"eased",
@@ -174,14 +174,6 @@
 				"age 1 do",
 				" | BODY "
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

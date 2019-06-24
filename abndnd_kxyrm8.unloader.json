@@ -1,31 +1,46 @@
 {
 	"_id": "abndnd_kxyrm8.unloader",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_kxyrm8.unloader",
 	"sector": "HJG_4785",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1558927111451,
+	"last_scraped": 1561402490966,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1558927281096,
-	"edit": 4,
+	"updt": 1559182056764,
+	"edit": 5,
 	"scrape_ct": 18,
-	"next_scrape": 1559020089369,
+	"next_scrape": 1561449151182,
 	"category": "clicker",
-	"last_update": 1558840651431,
-	"output": "`LCLIC1111CURED`",
-	"retry_args": [
+	"last_update": 1561402490966,
+	"output": [
 		{
-			"click": true
-		},
+			"args": {
+				"click": true
+			},
+			"calls": 10996,
+			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
+			"fragments": [
+				"111 0",
+				"0 0000",
+				"11 1111",
+				"1 0000 ",
+				"0000 00",
+				"000 000",
+				"11 0111 "
+			]
+		}
+	],
+	"retry_args": [
 		{
 			"CLICK": true
 		}
-	]
+	],
+	"old_output": "`LCLIC1111CURED`"
 }

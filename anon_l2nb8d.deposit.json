@@ -1,23 +1,23 @@
 {
 	"_id": "anon_l2nb8d.deposit",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_l2nb8d.deposit",
 	"sector": "VNP_9651",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561335056364,
+	"last_scraped": 1561406271786,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561309396153,
-	"edit": 104,
-	"next_scrape": 1561378494887,
+	"updt": 1561335099838,
+	"edit": 105,
+	"next_scrape": 1561450427061,
 	"category": "fishie_tank",
-	"last_update": 1561335056364,
+	"last_update": 1561406271786,
 	"output": [
 		{
 			"args": {},
@@ -63,7 +63,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 69997,
+			"calls": 71085,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -110,7 +110,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 813936,
+			"calls": 823477,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ike Ch",
@@ -167,14 +167,6 @@
 				"reason\\n1",
 				"Chela?\\n1"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

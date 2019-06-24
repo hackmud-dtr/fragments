@@ -1,23 +1,23 @@
 {
 	"_id": "abndnd_vadx8c.bot_brain",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_vadx8c.bot_brain",
 	"sector": "HJG_8005",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561336159561,
+	"last_scraped": 1561406854381,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561310974285,
-	"edit": 102,
-	"next_scrape": 1561377596621,
+	"updt": 1561336228407,
+	"edit": 103,
+	"next_scrape": 1561446647114,
 	"category": "fishie_tank",
-	"last_update": 1561336159561,
+	"last_update": 1561406854381,
 	"output": [
 		{
 			"args": {},
@@ -71,7 +71,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 73663,
+			"calls": 74725,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -126,7 +126,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 811111,
+			"calls": 820560,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"'s el",
@@ -195,14 +195,6 @@
 				"elephant",
 				"ant-in-t"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

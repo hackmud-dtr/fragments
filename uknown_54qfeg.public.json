@@ -1,26 +1,33 @@
 {
 	"_id": "uknown_54qfeg.public",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "uknown_54qfeg.public",
 	"sector": "VNP_1491",
 	"sec_level": 4,
 	"date_added": 1559974792606,
-	"last_scraped": 1559976215965,
+	"last_scraped": 1559976316574,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559974792606
+		},
+		{
+			"type": "died",
+			"when": 1559977251224
+		},
+		{
+			"type": "died",
+			"when": 1561401932240
 		}
 	],
-	"scrape_ct": 1,
-	"next_scrape": 1559976275965,
+	"next_scrape": 1560020520090,
 	"category": "fishie_tank",
-	"last_update": 1559976215965,
+	"last_update": 1559976316574,
 	"output": [
 		{
 			"args": {},
-			"calls": 89305,
+			"calls": 99886,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"riori",
@@ -42,13 +49,39 @@
 				"irza | S",
 				"i smirza",
 				"UBJ: Pri"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"riori",
+						"ki smi",
+						"SER mh",
+						"ER mho",
+						": Prio",
+						" | USE",
+						" | SUB",
+						"smirza ",
+						"r imiya",
+						"miyawak",
+						"SUBJ: P",
+						"| USER m",
+						"yawaki s",
+						"ter imiy",
+						"ster imi",
+						"ollister",
+						"irza | S",
+						"i smirza",
+						"UBJ: Pri"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8174,
+			"calls": 8712,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -75,13 +108,39 @@
 				"irza | S",
 				"i smirza",
 				"UBJ: Pri"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"riori",
+						"ki smi",
+						"SER mh",
+						"ER mho",
+						": Prio",
+						" | USE",
+						" | SUB",
+						"smirza ",
+						"r imiya",
+						"miyawak",
+						"SUBJ: P",
+						"| USER m",
+						"yawaki s",
+						"ter imiy",
+						"ster imi",
+						"ollister",
+						"irza | S",
+						"i smirza",
+						"UBJ: Pri"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 91686,
+			"calls": 100629,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"riori",
@@ -103,9 +162,61 @@
 				"irza | S",
 				"i smirza",
 				"UBJ: Pri"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"riori",
+						"ki smi",
+						"SER mh",
+						"ER mho",
+						": Prio",
+						" | USE",
+						" | SUB",
+						"smirza ",
+						"r imiya",
+						"miyawak",
+						"SUBJ: P",
+						"| USER m",
+						"yawaki s",
+						"ter imiy",
+						"ster imi",
+						"ollister",
+						"irza | S",
+						"i smirza",
+						"UBJ: Pri"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1559976002263,
-	"edit": 4
+	"updt": 1559977355367,
+	"edit": 7,
+	"identified": [
+		{
+			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+			"frags": [
+				"riori",
+				"ki smi",
+				"SER mh",
+				"ER mho",
+				": Prio",
+				" | USE",
+				" | SUB",
+				"smirza ",
+				"r imiya",
+				"miyawak",
+				"SUBJ: P",
+				"| USER m",
+				"yawaki s",
+				"ter imiy",
+				"ster imi",
+				"ollister",
+				"irza | S",
+				"i smirza",
+				"UBJ: Pri"
+			]
+		}
+	]
 }

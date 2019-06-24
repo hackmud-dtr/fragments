@@ -1,23 +1,23 @@
 {
 	"_id": "abandoned_sriqup.hangman",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_sriqup.hangman",
 	"sector": "SPC_0388",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561336359670,
+	"last_scraped": 1561406884624,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561311200594,
-	"edit": 110,
-	"next_scrape": 1561380029133,
+	"updt": 1561404282846,
+	"edit": 112,
+	"next_scrape": 1561450160822,
 	"category": "fishie_tank",
-	"last_update": 1561336359670,
+	"last_update": 1561406884624,
 	"output": [
 		{
 			"args": {},
@@ -49,7 +49,6 @@
 						"ajbhan",
 						"erajbha",
 						"R | USE",
-						"ER eraj",
 						"E ERROR",
 						" erajbh",
 						"| USER e",
@@ -57,6 +56,7 @@
 						"USER era",
 						"TIME ERR",
 						"RROR | U",
+						"ER erajb",
 						" | USER ",
 						" | TIME ",
 						" TIME ER",
@@ -69,7 +69,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 73468,
+			"calls": 74002,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -77,18 +77,17 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"R | T",
-				"ajbhan",
-				"erajbha",
+				"R | TI",
 				"R | USE",
 				"ER eraj",
-				"E ERROR",
 				" erajbh",
 				"| USER e",
 				"| TIME E",
+				"erajbhan",
 				"USER era",
 				"TIME ERR",
 				"RROR | U",
+				"E ERROR ",
 				" | USER ",
 				" | TIME ",
 				" TIME ER",
@@ -122,21 +121,20 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 852366,
+			"calls": 860915,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"R | T",
-				"ajbhan",
-				"erajbha",
+				"R | TI",
 				"R | USE",
 				"ER eraj",
-				"E ERROR",
 				" erajbh",
 				"| USER e",
 				"| TIME E",
+				"erajbhan",
 				"USER era",
 				"TIME ERR",
 				"RROR | U",
+				"E ERROR ",
 				" | USER ",
 				" | TIME ",
 				" TIME ER",
@@ -175,7 +173,6 @@
 				"ajbhan",
 				"erajbha",
 				"R | USE",
-				"ER eraj",
 				"E ERROR",
 				" erajbh",
 				"| USER e",
@@ -183,19 +180,12 @@
 				"USER era",
 				"TIME ERR",
 				"RROR | U",
+				"ER erajb",
 				" | USER ",
 				" | TIME ",
 				" TIME ER",
 				" ERROR |"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
