@@ -1,27 +1,27 @@
 {
 	"_id": "abandoned_obwewy.user",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_obwewy.user",
 	"sector": "K_9730",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561340908217,
+	"last_scraped": 1561346336100,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561340953657,
-	"edit": 101,
-	"next_scrape": 1561382619631,
+	"updt": 1561341631036,
+	"edit": 102,
+	"next_scrape": 1561388002738,
 	"category": "fishie_tank",
-	"last_update": 1561340908217,
+	"last_update": 1561346336100,
 	"output": [
 		{
 			"args": {},
-			"calls": 846290,
+			"calls": 854321,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" Spy?",
@@ -279,6 +279,14 @@
 				"Spy?\\n1E5",
 				"Mallory\\n"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
