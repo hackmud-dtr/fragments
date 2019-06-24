@@ -1,30 +1,22 @@
 {
 	"_id": "anon_64ttct.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_64ttct.db",
 	"sector": "K_4792",
 	"sec_level": 4,
 	"date_added": 1561343631805,
-	"last_scraped": 1561343642268,
+	"last_scraped": 1561408289940,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561343631805
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1561343702268,
+	"next_scrape": 1561450058579,
 	"category": "fishie_tank",
-	"last_update": 1561343642268,
+	"last_update": 1561408289940,
 	"output": [
 		{
 			"args": {},
@@ -39,6 +31,45 @@
 				"played\\n",
 				"REAK is "
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 608,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ves as",
+				"K is p",
+				"to forc",
+				"t resol",
+				"es as 2",
+				"played\\n",
+				"REAK is "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 10972,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ves as",
+				"K is p",
+				"to forc",
+				"t resol",
+				"es as 2",
+				"played\\n",
+				"REAK is "
+			]
 		}
-	]
+	],
+	"updt": 1561343658582,
+	"edit": 1
 }

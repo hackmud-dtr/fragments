@@ -1,23 +1,23 @@
 {
 	"_id": "abandoned_obwewy.user",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_obwewy.user",
 	"sector": "K_9730",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561346336100,
+	"last_scraped": 1561408330490,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561341631036,
-	"edit": 102,
-	"next_scrape": 1561388002738,
+	"updt": 1561346366183,
+	"edit": 103,
+	"next_scrape": 1561448168352,
 	"category": "fishie_tank",
-	"last_update": 1561346336100,
+	"last_update": 1561408330490,
 	"output": [
 		{
 			"args": {},
@@ -95,7 +95,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 73637,
+			"calls": 74466,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -103,7 +103,6 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				" Spy?",
 				"urious,",
 				"t as go",
 				"most as",
@@ -115,6 +114,7 @@
 				", Mallo",
 				" Almost",
 				"ust curi",
+				"t curiou",
 				"st curio",
 				"ry\\n1E57",
 				"ous, Mal",
@@ -126,6 +126,7 @@
 				"56 I'm j",
 				"1E57 Alm",
 				" curious",
+				" Spy?\\n1",
 				" I'm jus",
 				"y\\n1E57 A",
 				"llory\\n1E",
@@ -174,10 +175,9 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 872146,
+			"calls": 881544,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				" Spy?",
 				"urious,",
 				"t as go",
 				"most as",
@@ -189,6 +189,7 @@
 				", Mallo",
 				" Almost",
 				"ust curi",
+				"t curiou",
 				"st curio",
 				"ry\\n1E57",
 				"ous, Mal",
@@ -200,6 +201,7 @@
 				"56 I'm j",
 				"1E57 Alm",
 				" curious",
+				" Spy?\\n1",
 				" I'm jus",
 				"y\\n1E57 A",
 				"llory\\n1E",
@@ -279,14 +281,6 @@
 				"Spy?\\n1E5",
 				"Mallory\\n"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
