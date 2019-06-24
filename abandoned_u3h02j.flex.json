@@ -1,27 +1,27 @@
 {
 	"_id": "abandoned_u3h02j.flex",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_u3h02j.flex",
 	"sector": "K_8044",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561314887712,
+	"last_scraped": 1561338314864,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561289559544,
-	"edit": 100,
-	"next_scrape": 1561358094744,
+	"updt": 1561315035436,
+	"edit": 101,
+	"next_scrape": 1561384655596,
 	"category": "fishie_tank",
-	"last_update": 1561314887712,
+	"last_update": 1561338314864,
 	"output": [
 		{
 			"args": {},
-			"calls": 840704,
+			"calls": 852475,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"al 5 ",
@@ -153,6 +153,14 @@
 				"in ties.",
 				", or 2^3"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
