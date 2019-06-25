@@ -1,0 +1,78 @@
+{
+	"_id": "anon_nm35rg.access_v10gs1",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anon_nm35rg.access_v10gs1",
+	"sector": "K_7542",
+	"sec_level": 4,
+	"date_added": 1561462475002,
+	"last_scraped": 1561463276930,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1561462475002
+		}
+	],
+	"scrape_ct": 1,
+	"next_scrape": 1561463336930,
+	"category": "fishie_tank",
+	"last_update": 1561463276930,
+	"output": [
+		{
+			"args": {},
+			"calls": 88500,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"reton",
+				"R | U",
+				" | PR",
+				"R fbre",
+				" | USE",
+				"R | TIM",
+				"W ERROR ",
+				" ERROR |"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 7230,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"reton",
+				"R | U",
+				" | PR",
+				"R fbre",
+				" | USE",
+				"R | TIM",
+				"W ERROR ",
+				" ERROR |"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 85575,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"reton",
+				"R | U",
+				" | PR",
+				"R fbre",
+				" | USE",
+				"R | TIM",
+				"W ERROR ",
+				" ERROR |"
+			]
+		}
+	],
+	"updt": 1561463114097,
+	"edit": 2
+}
