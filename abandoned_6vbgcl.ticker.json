@@ -1,26 +1,29 @@
 {
 	"_id": "abandoned_6vbgcl.ticker",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abandoned_6vbgcl.ticker",
 	"sector": "K_7542",
 	"sec_level": 4,
 	"date_added": 1561424947206,
-	"last_scraped": 1561425158288,
+	"last_scraped": 1561426594521,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561424947206
+		},
+		{
+			"type": "died",
+			"when": 1561445031651
 		}
 	],
-	"scrape_ct": 18,
-	"next_scrape": 1561425218288,
+	"next_scrape": 1561472879449,
 	"category": "dice_roller",
-	"last_update": 1561425158288,
+	"last_update": 1561426594521,
 	"output": [
 		{
 			"args": {},
-			"calls": 26184,
+			"calls": 173525,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
 				"o us.",
@@ -79,6 +82,6 @@
 			]
 		}
 	],
-	"updt": 1561425015661,
-	"edit": 1
+	"updt": 1561426817783,
+	"edit": 9
 }
