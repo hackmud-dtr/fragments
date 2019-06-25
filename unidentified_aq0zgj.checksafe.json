@@ -6,7 +6,7 @@
 	"sector": "VNP_9002",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561430891718,
+	"last_scraped": 1561430871721,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,32 +15,28 @@
 	],
 	"updt": 1561404057857,
 	"edit": 102,
-	"next_scrape": 1561472583561,
+	"next_scrape": 1561475729266,
 	"category": "fishie_tank",
-	"last_update": 1561430891718,
+	"last_update": 1561402945089,
 	"output": [
 		{
 			"args": {},
-			"calls": 849122,
+			"calls": 840342,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"read ",
 				"oriti",
 				"d | B",
-				"BODY ",
 				"BJ re",
-				" | BO",
 				"i | SU",
 				"aki | ",
 				"Priori",
+				" there",
 				"ter thr",
 				"s maste",
 				"re: Pri",
 				"master ",
-				"es mast",
-				" there'",
-				"J re: Pr",
-				"I think "
+				"es mast"
 			],
 			"hits": [
 				{
@@ -67,7 +63,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 78283,
+			"calls": 77454,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -78,20 +74,16 @@
 				"read ",
 				"oriti",
 				"d | B",
-				"BODY ",
 				"BJ re",
-				" | BO",
 				"i | SU",
 				"aki | ",
 				"Priori",
+				" there",
 				"ter thr",
 				"s maste",
 				"re: Pri",
 				"master ",
-				"es mast",
-				" there'",
-				"J re: Pr",
-				"I think "
+				"es mast"
 			],
 			"hits": [
 				{
@@ -118,26 +110,22 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 813980,
+			"calls": 804320,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"read ",
 				"oriti",
 				"d | B",
-				"BODY ",
 				"BJ re",
-				" | BO",
 				"i | SU",
 				"aki | ",
 				"Priori",
+				" there",
 				"ter thr",
 				"s maste",
 				"re: Pri",
 				"master ",
-				"es mast",
-				" there'",
-				"J re: Pr",
-				"I think "
+				"es mast"
 			],
 			"hits": [
 				{
@@ -179,6 +167,14 @@
 				"master ",
 				"es mast"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
