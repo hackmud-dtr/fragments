@@ -1,24 +1,24 @@
 {
 	"_id": "derelict_ss2ncw.cheat_haunty",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "derelict_ss2ncw.cheat_haunty",
 	"sector": "K_0887",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561442598113,
+	"last_scraped": 1561474862090,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561442598668,
-	"edit": 26,
+	"updt": 1561475058424,
+	"edit": 28,
 	"scrape_ct": 6,
-	"next_scrape": 1561524462624,
+	"next_scrape": 1561556916085,
 	"category": "UNKNOWN CATEGORY",
-	"last_update": 1561442519002,
+	"last_update": 1561474862090,
 	"output": [
 		{
 			"args": {},
@@ -26,6 +26,14 @@
 			"base": "[\"For help and usage use derelict_ss2ncw.cheat_haunty { help: true }\",\"\",\"Already played haunty mall today. `JUnknow",
 			"fragments": [
 				"Error: haunty_mall already played today.\"]"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"Error: haunty_mall already played today.\"]"
+					]
+				}
 			]
 		},
 		{
@@ -38,9 +46,73 @@
 				"59",
 				"58",
 				"57"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"6",
+						"1",
+						"59",
+						"58",
+						"57"
+					]
+				}
+			]
+		},
+		{
+			"args": {},
+			"calls": 2195,
+			"base": "[\"For help and usage use derelict_ss2ncw.cheat_haunty { help: true }\",\"\",\"Already played haunty mall today. `JUnknown`.\\nPlay again in `A 8`:`A58`:`A57`\"]",
+			"fragments": [
+				"8",
+				"6",
+				"5",
+				"4",
+				"3"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"8",
+						"6",
+						"5",
+						"4",
+						"3"
+					]
+				}
 			]
 		}
 	],
 	"pl_output": "[\"For help and usage use derelict_ss2ncw.cheat_haunty { help: true }\",\"\",\"Already played haunty mall today. `JUnknown`.\\nPlay again in `A17`:`A56`:`A41`\"]",
-	"old_output": "[\"For help and usage use derelict_ss2ncw.cheat_haunty { help: true }\",\"\",\"Already played haunty mall today. `DYou lost`.\\nPlay again in `A20`:`A15`:`A32`\"]"
+	"old_output": "[\"For help and usage use derelict_ss2ncw.cheat_haunty { help: true }\",\"\",\"Already played haunty mall today. `DYou lost`.\\nPlay again in `A20`:`A15`:`A32`\"]",
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"6",
+				"1",
+				"59",
+				"58",
+				"57"
+			]
+		},
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"8",
+				"6",
+				"5",
+				"4",
+				"3"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"Error: haunty_mall already played today.\"]"
+			]
+		}
+	]
 }
