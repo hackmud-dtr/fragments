@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_rf6ca4.give_me_money",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_rf6ca4.give_me_money",
 	"sector": "SPC_0183",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		},
+		{
+			"type": "died",
+			"when": 1561528904610
 		}
 	],
-	"updt": 1561478668265,
-	"edit": 88,
+	"updt": 1561507294872,
+	"edit": 89,
 	"next_scrape": 1561591347273,
 	"output": "{\"ok\":false,\"msg\":\"This script needs !amount! to be defined correctly eg. amount:\\\"1GC\\\"\\nYour amount was defined as `Dundefined`\"}",
 	"pl_output": "{\"ok\":false,\"msg\":\"This script needs !amount! to be defined correctly eg. amount:\\\"1GC\\\"\\nYour amount was defined as `Dundefined`\"}"
