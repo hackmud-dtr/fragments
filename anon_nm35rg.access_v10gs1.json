@@ -6,37 +6,42 @@
 	"sector": "K_7542",
 	"sec_level": 4,
 	"date_added": 1561462475002,
-	"last_scraped": 1561549750616,
+	"last_scraped": 1561577188899,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561462475002
 		}
 	],
-	"next_scrape": 1561590083379,
+	"next_scrape": 1561619761801,
 	"category": "fishie_tank",
-	"last_update": 1561549750616,
+	"last_update": 1561577188899,
 	"output": [
 		{
 			"args": {},
-			"calls": 129097,
+			"calls": 138457,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"reton",
 				"R | U",
-				"ME ERR",
+				"NETW E",
 				"ETW ER",
 				" | USE",
-				" TIME ",
 				"ROR | P",
 				"R | TIM",
 				"R fbret",
+				"PROG ER",
 				"OG ERRO",
 				" USER f",
+				" TIME E",
 				"| PROG E",
 				"W ERROR ",
 				"TW ERROR",
+				"ROR | TI",
 				"R | PROG",
+				"OR | PRO",
+				"ME ERROR",
+				" | PROG ",
 				" | NETW ",
 				" ERROR |"
 			],
@@ -171,8 +176,8 @@
 			]
 		}
 	],
-	"updt": 1561549917288,
-	"edit": 8,
+	"updt": 1561551500788,
+	"edit": 9,
 	"identified": [
 		{
 			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
@@ -195,6 +200,14 @@
 				" | NETW ",
 				" ERROR |"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
