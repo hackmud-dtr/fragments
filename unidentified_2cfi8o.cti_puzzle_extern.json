@@ -1,20 +1,28 @@
 {
 	"_id": "unidentified_2cfi8o.cti_puzzle_extern",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unidentified_2cfi8o.cti_puzzle_extern",
 	"sector": "K_7542",
 	"sec_level": 4,
 	"date_added": 1561554480281,
-	"last_scraped": 1561554619859,
+	"last_scraped": 1561554690089,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561554480281
+		},
+		{
+			"type": "died",
+			"when": 1561554690089
+		},
+		{
+			"type": "died",
+			"when": 1561554755211
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1561554679859,
+	"next_scrape": 1561644674804,
 	"category": "fishie_tank",
 	"last_update": 1561554619859,
 	"output": [
@@ -101,5 +109,8 @@
 				"d 'last "
 			]
 		}
-	]
+	],
+	"updt": 1561554655969,
+	"edit": 1,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_2cfi8o.cti_puzzle_extern: script doesn't exist\"}"
 }
