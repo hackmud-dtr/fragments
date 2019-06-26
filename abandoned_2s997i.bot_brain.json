@@ -6,44 +6,52 @@
 	"sector": "K_3429",
 	"sec_level": 4,
 	"date_added": 1559253820162,
-	"last_scraped": 1561510213362,
+	"last_scraped": 1561538185603,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559253820162
 		}
 	],
-	"next_scrape": 1561556832622,
+	"next_scrape": 1561580966436,
 	"category": "fishie_tank",
-	"last_update": 1561510213362,
+	"last_update": 1561538185603,
 	"output": [
 		{
 			"args": {},
-			"calls": 846359,
+			"calls": 852538,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"CLST0",
 				"| PROG",
+				"R | PR",
+				"1F_CLS",
 				" | PRO",
 				"MFT0X1F",
 				"E0X5282",
+				"F_CLST0X",
+				"0X5282A9",
+				" ERROR |",
 				"\\nSYST ER"
 			],
 			"hits": [
 				{
-					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
 					"frags": [
-						"CLST0",
 						"| PROG",
+						"R | PR",
 						" | PRO",
+						"F_CLST0X",
+						" ERROR |",
 						"\\nSYST ER"
 					]
 				},
 				{
 					"document": "NOT FOUND",
 					"frags": [
+						"1F_CLS",
 						"MFT0X1F",
-						"E0X5282"
+						"E0X5282",
+						"0X5282A9"
 					]
 				}
 			]
@@ -52,7 +60,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 72759,
+			"calls": 73504,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -60,28 +68,36 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"CLST0",
 				"| PROG",
+				"R | PR",
+				"1F_CLS",
 				" | PRO",
 				"MFT0X1F",
 				"E0X5282",
+				"F_CLST0X",
+				"0X5282A9",
+				" ERROR |",
 				"\\nSYST ER"
 			],
 			"hits": [
 				{
-					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
 					"frags": [
-						"CLST0",
 						"| PROG",
+						"R | PR",
 						" | PRO",
+						"F_CLST0X",
+						" ERROR |",
 						"\\nSYST ER"
 					]
 				},
 				{
 					"document": "NOT FOUND",
 					"frags": [
+						"1F_CLS",
 						"MFT0X1F",
-						"E0X5282"
+						"E0X5282",
+						"0X5282A9"
 					]
 				}
 			]
@@ -90,53 +106,65 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 826324,
+			"calls": 832866,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"CLST0",
 				"| PROG",
+				"R | PR",
+				"1F_CLS",
 				" | PRO",
 				"MFT0X1F",
 				"E0X5282",
+				"F_CLST0X",
+				"0X5282A9",
+				" ERROR |",
 				"\\nSYST ER"
 			],
 			"hits": [
 				{
-					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
 					"frags": [
-						"CLST0",
 						"| PROG",
+						"R | PR",
 						" | PRO",
+						"F_CLST0X",
+						" ERROR |",
 						"\\nSYST ER"
 					]
 				},
 				{
 					"document": "NOT FOUND",
 					"frags": [
+						"1F_CLS",
 						"MFT0X1F",
-						"E0X5282"
+						"E0X5282",
+						"0X5282A9"
 					]
 				}
 			]
 		}
 	],
-	"updt": 1561480245041,
-	"edit": 86,
+	"updt": 1561538194682,
+	"edit": 88,
 	"identified": [
 		{
-			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+			"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
 			"frags": [
-				"CLST0",
 				"| PROG",
+				"R | PR",
 				" | PRO",
+				"F_CLST0X",
+				" ERROR |",
 				"\\nSYST ER"
 			]
 		},
 		{
 			"document": "NOT FOUND",
 			"frags": [
+				"1F_CLS",
 				"MFT0X1F",
-				"E0X5282"
+				"E0X5282",
+				"0X5282A9"
 			]
 		}
 	]
