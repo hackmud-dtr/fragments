@@ -1,23 +1,23 @@
 {
 	"_id": "abndnd_rular7.game",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "npc",
 	"script": "abndnd_rular7.game",
 	"sector": "HJG_0642",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561633631448,
+	"last_scraped": 1561661322809,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561612384378,
-	"edit": 21,
-	"next_scrape": 1561727125531,
+	"updt": 1561633800626,
+	"edit": 22,
+	"next_scrape": 1561707191350,
 	"category": "clicker",
-	"last_update": 1561633620424,
+	"last_update": 1561661322809,
 	"output": [
 		{
 			"args": {
@@ -137,7 +137,7 @@
 		},
 		{
 			"args": {},
-			"calls": 117261,
+			"calls": 122959,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"001 01",
@@ -173,7 +173,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 116862,
+			"calls": 128239,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"001 01",
@@ -945,6 +945,54 @@
 						"0 0000K SE"
 					]
 				}
+			]
+		},
+		{
+			"args": {
+				"CLICK": true
+			},
+			"calls": 1238,
+			"base": "`LCLICK0SECURED`",
+			"fragments": [
+				"0001  ",
+				"0000  ",
+				"00 01 ",
+				" 0001 ",
+				" 000 0",
+				"0100 K ",
+				"0100 0 ",
+				"0001 K ",
+				"0000 K ",
+				"0000 0 ",
+				"000 0K ",
+				"00 01K ",
+				" S0001 ",
+				" S0000 ",
+				" S000 0",
+				" S00 01",
+				" 0100 0",
+				" 0 0000",
+				"1 0100  ",
+				"0100 CK ",
+				"0100 0K ",
+				"0001 CK ",
+				"0000 CK ",
+				"0000 010",
+				"000 0CK ",
+				"00 01CK ",
+				"00 0101 ",
+				"00 0000 ",
+				"0 0000K ",
+				" SE0100 ",
+				" SE0001 ",
+				" SE0000 ",
+				" SE000 0",
+				" SE00 01",
+				" S0100 0",
+				" S0 0000",
+				" 1 0100 ",
+				" 00 0101",
+				"  0000 0"
 			]
 		}
 	],
