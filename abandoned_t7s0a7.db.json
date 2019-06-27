@@ -1,0 +1,123 @@
+{
+	"_id": "abandoned_t7s0a7.db",
+	"type": "fragment",
+	"mode": "npc",
+	"script": "abandoned_t7s0a7.db",
+	"sector": "HJG_5024",
+	"sec_level": 4,
+	"date_added": 1561674431833,
+	"last_scraped": 1561675436520,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1561674431833
+		}
+	],
+	"next_scrape": 1561717651722,
+	"category": "fishie_tank",
+	"last_update": 1561675436520,
+	"output": [
+		{
+			"args": {},
+			"calls": 79838,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"| BOD",
+				"| SUBJ",
+				"ties co",
+				"i | SUB",
+				"torage i",
+				"miyawaki"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"| BOD",
+						"| SUBJ",
+						"ties co",
+						"i | SUB",
+						"torage i",
+						"miyawaki"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 7810,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"| BOD",
+				"| SUBJ",
+				"ties co",
+				"i | SUB",
+				"torage i",
+				"miyawaki"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"| BOD",
+						"| SUBJ",
+						"ties co",
+						"i | SUB",
+						"torage i",
+						"miyawaki"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 101344,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"| BOD",
+				"| SUBJ",
+				"ties co",
+				"i | SUB",
+				"torage i",
+				"miyawaki"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"| BOD",
+						"| SUBJ",
+						"ties co",
+						"i | SUB",
+						"torage i",
+						"miyawaki"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+			"frags": [
+				"| BOD",
+				"| SUBJ",
+				"ties co",
+				"i | SUB",
+				"torage i",
+				"miyawaki"
+			]
+		}
+	],
+	"updt": 1561675272948,
+	"edit": 4
+}
