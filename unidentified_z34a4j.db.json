@@ -6,30 +6,35 @@
 	"sector": "K_7641",
 	"sec_level": 4,
 	"date_added": 1559714061176,
-	"last_scraped": 1561606546626,
+	"last_scraped": 1561635136079,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559714061176
 		}
 	],
-	"next_scrape": 1561647182360,
+	"next_scrape": 1561676408387,
 	"category": "fishie_tank",
-	"last_update": 1561606546626,
+	"last_update": 1561635146529,
 	"output": [
 		{
 			"args": {},
-			"calls": 739347,
+			"calls": 748828,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"ttack",
 				"A_SEC",
-				"320E3 ",
+				"D0320E",
 				"hat hap",
 				"XF227_F",
 				"E0X2BC7",
+				"320E3 W",
 				"0XF227_",
+				"ens\\n20E",
 				"XBF_CLST",
+				"F227_FIL",
 				"7_FILE0X",
+				"7 when t",
 				"20E3 Wha"
 			],
 			"hits": [
@@ -53,7 +58,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 63423,
+			"calls": 64233,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -61,14 +66,19 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"ttack",
 				"A_SEC",
-				"320E3 ",
+				"D0320E",
 				"hat hap",
 				"XF227_F",
 				"E0X2BC7",
+				"320E3 W",
 				"0XF227_",
+				"ens\\n20E",
 				"XBF_CLST",
+				"F227_FIL",
 				"7_FILE0X",
+				"7 when t",
 				"20E3 Wha"
 			],
 			"hits": [
@@ -123,8 +133,8 @@
 			]
 		}
 	],
-	"updt": 1561606522628,
-	"edit": 73,
+	"updt": 1561606748558,
+	"edit": 74,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -139,6 +149,11 @@
 				"7_FILE0X",
 				"20E3 Wha"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
