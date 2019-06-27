@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_2cvqyo.k3y_cull",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_2cvqyo.k3y_cull",
 	"sector": "SPC_5900",
 	"sec_level": 2,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		},
+		{
+			"type": "died",
+			"when": 1561619121783
 		}
 	],
-	"updt": 1561570659762,
-	"edit": 90,
+	"updt": 1561598854178,
+	"edit": 91,
 	"output": "{\"ok\":false,\"msg\":\"Security level guarantee failed: subscript matr1x_co_assets.k3y_cull 1 < derelict_2cvqyo.k3y_cull required 2\"}",
 	"next_scrape": 1561690880544,
 	"pl_output": "{\"ok\":false,\"msg\":\"Security level guarantee failed: subscript matr1x_co_assets.k3y_cull 1 < derelict_2cvqyo.k3y_cull required 2\"}"
