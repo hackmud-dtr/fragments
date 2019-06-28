@@ -1,26 +1,29 @@
 {
 	"_id": "derelict_lf88c1.puppies",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "derelict_lf88c1.puppies",
 	"sector": "HJG_5024",
 	"sec_level": 4,
 	"date_added": 1561665440541,
-	"last_scraped": 1561665780187,
+	"last_scraped": 1561666447605,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561665440541
+		},
+		{
+			"type": "died",
+			"when": 1561692684239
 		}
 	],
-	"scrape_ct": 13,
-	"next_scrape": 1561665840187,
+	"next_scrape": 1561710915245,
 	"category": "fishie_tank",
-	"last_update": 1561665780187,
+	"last_update": 1561666447605,
 	"output": [
 		{
 			"args": {},
-			"calls": 36548,
+			"calls": 103703,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"long ",
@@ -64,7 +67,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3542,
+			"calls": 9817,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -113,7 +116,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 37975,
+			"calls": 100762,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"long ",
@@ -174,5 +177,7 @@
 				" the att"
 			]
 		}
-	]
+	],
+	"updt": 1561666483365,
+	"edit": 3
 }
