@@ -1,28 +1,27 @@
 {
 	"_id": "uknown_lbimxj.t3_fast",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "uknown_lbimxj.t3_fast",
 	"sector": "K_0689",
 	"sec_level": 4,
 	"date_added": 1561730488699,
-	"last_scraped": 1561731404647,
+	"last_scraped": 1561731616041,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561730488699
 		}
 	],
-	"updt": 1561730972665,
-	"edit": 3,
-	"scrape_ct": 4,
-	"next_scrape": 1561731464647,
+	"updt": 1561731423861,
+	"edit": 4,
+	"next_scrape": 1561773217373,
 	"category": "fishie_tank",
-	"last_update": 1561731414519,
+	"last_update": 1561731616041,
 	"output": [
 		{
 			"args": {},
-			"calls": 86714,
+			"calls": 97094,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ether",
@@ -72,7 +71,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6764,
+			"calls": 8566,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -127,7 +126,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 67615,
+			"calls": 96981,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ether",
@@ -196,11 +195,6 @@
 				"lack cen",
 				"## It's "
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
