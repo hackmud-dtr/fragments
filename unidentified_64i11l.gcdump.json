@@ -1,29 +1,33 @@
 {
 	"_id": "unidentified_64i11l.gcdump",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unidentified_64i11l.gcdump",
 	"sector": "K_0689",
 	"sec_level": 4,
 	"date_added": 1561699296326,
-	"last_scraped": 1561700008641,
+	"last_scraped": 1561700450419,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561699296326
+		},
+		{
+			"type": "died",
+			"when": 1561702472087
 		}
 	],
-	"scrape_ct": 7,
-	"next_scrape": 1561700068641,
+	"next_scrape": 1561742983381,
 	"category": "fishie_tank",
-	"last_update": 1561700008641,
+	"last_update": 1561700450419,
 	"output": [
 		{
 			"args": {},
-			"calls": 67094,
+			"calls": 100163,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"waki ",
+				"think ",
 				"there'",
 				"read |",
 				"ead | ",
@@ -77,7 +81,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6511,
+			"calls": 9587,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -86,6 +90,7 @@
 			],
 			"fragments": [
 				"waki ",
+				"think ",
 				"there'",
 				"read |",
 				"ead | ",
@@ -139,10 +144,11 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 67517,
+			"calls": 105365,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"waki ",
+				"think ",
 				"there'",
 				"read |",
 				"ead | ",
@@ -216,6 +222,6 @@
 			]
 		}
 	],
-	"updt": 1561699868222,
-	"edit": 3
+	"updt": 1561700544356,
+	"edit": 6
 }
