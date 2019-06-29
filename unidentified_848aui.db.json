@@ -6,22 +6,22 @@
 	"sector": "NGC_4697",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561783108671,
+	"last_scraped": 1561811433809,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561783270344,
-	"edit": 117,
-	"next_scrape": 1561828492918,
+	"updt": 1561784171282,
+	"edit": 118,
+	"next_scrape": 1561851539423,
 	"category": "fishie_tank",
-	"last_update": 1561783108671,
+	"last_update": 1561811433809,
 	"output": [
 		{
 			"args": {},
-			"calls": 952690,
+			"calls": 962559,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"raphy.",
@@ -223,6 +223,11 @@
 				" pornogr",
 				" of the "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
