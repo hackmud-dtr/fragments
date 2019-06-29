@@ -1,25 +1,26 @@
 {
 	"_id": "unidentified_848aui.advert",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "unidentified_848aui.advert",
 	"sector": "HJG_5959",
 	"sec_level": 4,
 	"date_added": 1561833429364,
-	"last_scraped": 1561834031372,
+	"last_scraped": 1561833529404,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561833429364
 		}
 	],
-	"next_scrape": 1561879451579,
+	"scrape_ct": 17,
+	"next_scrape": 1561833589404,
 	"category": "clicker",
-	"last_update": 1561834031372,
+	"last_update": 1561833529404,
 	"output": [
 		{
 			"args": {},
-			"calls": 58333,
+			"calls": 19662,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"TIME ",
@@ -47,7 +48,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 64128,
+			"calls": 9313,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"TIME ",
@@ -75,7 +76,7 @@
 			"args": {
 				"CLICK": true
 			},
-			"calls": 10482,
+			"calls": 1235,
 			"base": "`LCLICK SECURED`",
 			"fragments": [
 				"TIME ",
@@ -113,6 +114,12 @@
 			]
 		}
 	],
-	"updt": 1561833987154,
-	"edit": 3
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
+		}
+	]
 }
