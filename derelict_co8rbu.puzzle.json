@@ -1,25 +1,26 @@
 {
 	"_id": "derelict_co8rbu.puzzle",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "derelict_co8rbu.puzzle",
 	"sector": "NGC_1495",
 	"sec_level": 4,
 	"date_added": 1561782074141,
-	"last_scraped": 1561783169627,
+	"last_scraped": 1561782556878,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561782074141
 		}
 	],
-	"next_scrape": 1561825915635,
+	"scrape_ct": 10,
+	"next_scrape": 1561782616878,
 	"category": "fishie_tank",
-	"last_update": 1561783169627,
+	"last_update": 1561782556878,
 	"output": [
 		{
 			"args": {},
-			"calls": 110126,
+			"calls": 53881,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"7 Shu",
@@ -55,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8921,
+			"calls": 4658,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -96,7 +97,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 113035,
+			"calls": 59319,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"7 Shu",
@@ -146,6 +147,6 @@
 			]
 		}
 	],
-	"updt": 1561783045863,
-	"edit": 4
+	"updt": 1561782142128,
+	"edit": 1
 }
