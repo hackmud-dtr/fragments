@@ -6,20 +6,20 @@
 	"sector": "HJG_3275",
 	"sec_level": 4,
 	"date_added": 1560177979303,
-	"last_scraped": 1561835980625,
+	"last_scraped": 1561865075072,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560177979303
 		}
 	],
-	"next_scrape": 1561875733796,
+	"next_scrape": 1561910036964,
 	"category": "coin_flipper",
-	"last_update": 1561835980625,
+	"last_update": 1561865075072,
 	"output": [
 		{
 			"args": {},
-			"calls": 779160,
+			"calls": 787946,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"26_FI",
@@ -43,18 +43,22 @@
 					"document": "NOT FOUND",
 					"frags": [
 						"26_FI",
+						"X08_CL",
 						"8926_F",
-						"0X08_C",
-						"T0X8926",
+						"T0X08_C",
+						"SECT0X89",
+						"MFT0X08_",
 						"ECT0X892",
+						"CT0X8926",
 						"08_CLST0"
 					]
 				},
 				{
 					"document": "Erin File",
 					"frags": [
-						"XC4_SEC",
 						"ST0XC4_",
+						"_CLST0XC",
+						"XC4_SECT",
 						"T0XC4_SE",
 						"CLST0XC4"
 					]
@@ -76,29 +80,45 @@
 					"frags": [
 						"_SECT0X8"
 					]
+				},
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"_CLST0XC"
+					]
+				},
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"_CLST0XC"
+					]
 				}
 			]
 		}
 	],
-	"updt": 1561806489435,
-	"edit": 69,
+	"updt": 1561864874673,
+	"edit": 71,
 	"identified": [
 		{
 			"document": "NOT FOUND",
 			"frags": [
 				"26_FI",
+				"X08_CL",
 				"8926_F",
-				"0X08_C",
-				"T0X8926",
+				"T0X08_C",
+				"SECT0X89",
+				"MFT0X08_",
 				"ECT0X892",
+				"CT0X8926",
 				"08_CLST0"
 			]
 		},
 		{
 			"document": "Erin File",
 			"frags": [
-				"XC4_SEC",
 				"ST0XC4_",
+				"_CLST0XC",
+				"XC4_SECT",
 				"T0XC4_SE",
 				"CLST0XC4"
 			]
@@ -119,6 +139,18 @@
 			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
 			"frags": [
 				"_SECT0X8"
+			]
+		},
+		{
+			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+			"frags": [
+				"_CLST0XC"
+			]
+		},
+		{
+			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+			"frags": [
+				"_CLST0XC"
 			]
 		}
 	]
