@@ -6,25 +6,26 @@
 	"sector": "K_6032",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561870337683,
+	"last_scraped": 1561898449996,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561847958740,
-	"edit": 120,
-	"next_scrape": 1561912840011,
+	"updt": 1561870510304,
+	"edit": 121,
+	"next_scrape": 1561940214066,
 	"category": "fishie_tank",
-	"last_update": 1561870337683,
+	"last_update": 1561898459925,
 	"output": [
 		{
 			"args": {},
-			"calls": 994647,
+			"calls": 1003608,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"n't b",
+				"1E22 I",
 				"you hat",
 				"r reque",
 				"now you",
@@ -33,7 +34,6 @@
 				"equest!",
 				"e like ",
 				"1E19 yo",
-				"'t be l",
 				"w you ha",
 				"ow you h",
 				"our requ",
@@ -47,7 +47,7 @@
 				"2 I know",
 				"1E1D Don",
 				"1D Don't",
-				" that.\\n",
+				"'t be li",
 				" request",
 				" be like",
 				" I know ",
@@ -55,7 +55,8 @@
 				"t.\\n1E22 ",
 				"st!\\n1E1D",
 				"at.\\n1E22",
-				"\\n1E1D Do"
+				"\\n1E1D Do",
+				" that.\\n1"
 			],
 			"hits": [
 				{
@@ -101,7 +102,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 86540,
+			"calls": 87363,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -110,6 +111,7 @@
 			],
 			"fragments": [
 				"n't b",
+				"1E22 I",
 				"you hat",
 				"r reque",
 				"now you",
@@ -118,7 +120,6 @@
 				"equest!",
 				"e like ",
 				"1E19 yo",
-				"'t be l",
 				"w you ha",
 				"ow you h",
 				"our requ",
@@ -132,7 +133,7 @@
 				"2 I know",
 				"1E1D Don",
 				"1D Don't",
-				" that.\\n",
+				"'t be li",
 				" request",
 				" be like",
 				" I know ",
@@ -140,7 +141,8 @@
 				"t.\\n1E22 ",
 				"st!\\n1E1D",
 				"at.\\n1E22",
-				"\\n1E1D Do"
+				"\\n1E1D Do",
+				" that.\\n1"
 			],
 			"hits": [
 				{
@@ -300,6 +302,11 @@
 				"at.\\n1E22",
 				"\\n1E1D Do"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
