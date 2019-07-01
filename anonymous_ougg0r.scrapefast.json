@@ -6,45 +6,52 @@
 	"sector": "NGC_7281",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561957258372,
+	"last_scraped": 1561984673184,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1561928900550,
-	"edit": 125,
-	"next_scrape": 1562002533343,
+	"updt": 1561984811505,
+	"edit": 127,
+	"next_scrape": 1562031248478,
 	"category": "fishie_tank",
-	"last_update": 1561957258372,
+	"last_update": 1561984673184,
 	"output": [
 		{
 			"args": {},
-			"calls": 1006388,
+			"calls": 1013779,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"| NET",
 				"MFT0X",
 				"G ERR",
+				" | NE",
 				"TIME E",
 				"CLST0X",
+				"\\nSYST ",
 				"X5282A9",
 				"TW ERRO",
 				"T ERROR",
 				"ST0X13_",
+				"ROR | P",
+				"R | PRO",
 				"OR | TI",
-				"E ERROR",
+				"LE0X528",
 				"3E_FILE",
 				"23E_FIL",
+				"1F_CLST",
 				" | TIME",
 				"_SECT0XE",
 				"X13_SECT",
 				"T0XE23E_",
 				"ERROR | ",
 				"ECT0XE23",
+				"E ERROR ",
 				"CT0XE23E",
-				"5282A91C"
+				"5282A91C",
+				"82A91C\\nS"
 			],
 			"hits": [
 				{
@@ -53,14 +60,18 @@
 						"| NET",
 						"MFT0X",
 						"G ERR",
+						" | NE",
 						"TIME E",
 						"CLST0X",
+						"\\nSYST ",
 						"TW ERRO",
 						"T ERROR",
+						"ROR | P",
+						"R | PRO",
 						"OR | TI",
-						"E ERROR",
 						" | TIME",
-						"ERROR | "
+						"ERROR | ",
+						"E ERROR "
 					]
 				},
 				{
@@ -68,14 +79,17 @@
 					"frags": [
 						"X5282A9",
 						"ST0X13_",
+						"LE0X528",
 						"3E_FILE",
 						"23E_FIL",
+						"1F_CLST",
 						"_SECT0XE",
 						"X13_SECT",
 						"T0XE23E_",
 						"ECT0XE23",
 						"CT0XE23E",
-						"5282A91C"
+						"5282A91C",
+						"82A91C\\nS"
 					]
 				}
 			]
@@ -84,7 +98,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 88901,
+			"calls": 89674,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -95,24 +109,31 @@
 				"| NET",
 				"MFT0X",
 				"G ERR",
+				" | NE",
 				"TIME E",
 				"CLST0X",
+				"\\nSYST ",
 				"X5282A9",
 				"TW ERRO",
 				"T ERROR",
 				"ST0X13_",
+				"ROR | P",
+				"R | PRO",
 				"OR | TI",
-				"E ERROR",
+				"LE0X528",
 				"3E_FILE",
 				"23E_FIL",
+				"1F_CLST",
 				" | TIME",
 				"_SECT0XE",
 				"X13_SECT",
 				"T0XE23E_",
 				"ERROR | ",
 				"ECT0XE23",
+				"E ERROR ",
 				"CT0XE23E",
-				"5282A91C"
+				"5282A91C",
+				"82A91C\\nS"
 			],
 			"hits": [
 				{
@@ -121,14 +142,18 @@
 						"| NET",
 						"MFT0X",
 						"G ERR",
+						" | NE",
 						"TIME E",
 						"CLST0X",
+						"\\nSYST ",
 						"TW ERRO",
 						"T ERROR",
+						"ROR | P",
+						"R | PRO",
 						"OR | TI",
-						"E ERROR",
 						" | TIME",
-						"ERROR | "
+						"ERROR | ",
+						"E ERROR "
 					]
 				},
 				{
@@ -136,14 +161,17 @@
 					"frags": [
 						"X5282A9",
 						"ST0X13_",
+						"LE0X528",
 						"3E_FILE",
 						"23E_FIL",
+						"1F_CLST",
 						"_SECT0XE",
 						"X13_SECT",
 						"T0XE23E_",
 						"ECT0XE23",
 						"CT0XE23E",
-						"5282A91C"
+						"5282A91C",
+						"82A91C\\nS"
 					]
 				}
 			]
@@ -152,30 +180,37 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 1040550,
+			"calls": 1048338,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"| NET",
 				"MFT0X",
 				"G ERR",
+				" | NE",
 				"TIME E",
 				"CLST0X",
+				"\\nSYST ",
 				"X5282A9",
 				"TW ERRO",
 				"T ERROR",
 				"ST0X13_",
+				"ROR | P",
+				"R | PRO",
 				"OR | TI",
-				"E ERROR",
+				"LE0X528",
 				"3E_FILE",
 				"23E_FIL",
+				"1F_CLST",
 				" | TIME",
 				"_SECT0XE",
 				"X13_SECT",
 				"T0XE23E_",
 				"ERROR | ",
 				"ECT0XE23",
+				"E ERROR ",
 				"CT0XE23E",
-				"5282A91C"
+				"5282A91C",
+				"82A91C\\nS"
 			],
 			"hits": [
 				{
@@ -184,14 +219,18 @@
 						"| NET",
 						"MFT0X",
 						"G ERR",
+						" | NE",
 						"TIME E",
 						"CLST0X",
+						"\\nSYST ",
 						"TW ERRO",
 						"T ERROR",
+						"ROR | P",
+						"R | PRO",
 						"OR | TI",
-						"E ERROR",
 						" | TIME",
-						"ERROR | "
+						"ERROR | ",
+						"E ERROR "
 					]
 				},
 				{
@@ -199,14 +238,17 @@
 					"frags": [
 						"X5282A9",
 						"ST0X13_",
+						"LE0X528",
 						"3E_FILE",
 						"23E_FIL",
+						"1F_CLST",
 						"_SECT0XE",
 						"X13_SECT",
 						"T0XE23E_",
 						"ECT0XE23",
 						"CT0XE23E",
-						"5282A91C"
+						"5282A91C",
+						"82A91C\\nS"
 					]
 				}
 			]
@@ -219,14 +261,18 @@
 				"| NET",
 				"MFT0X",
 				"G ERR",
+				" | NE",
 				"TIME E",
 				"CLST0X",
+				"\\nSYST ",
 				"TW ERRO",
 				"T ERROR",
+				"ROR | P",
+				"R | PRO",
 				"OR | TI",
-				"E ERROR",
 				" | TIME",
-				"ERROR | "
+				"ERROR | ",
+				"E ERROR "
 			]
 		},
 		{
@@ -234,14 +280,17 @@
 			"frags": [
 				"X5282A9",
 				"ST0X13_",
+				"LE0X528",
 				"3E_FILE",
 				"23E_FIL",
+				"1F_CLST",
 				"_SECT0XE",
 				"X13_SECT",
 				"T0XE23E_",
 				"ECT0XE23",
 				"CT0XE23E",
-				"5282A91C"
+				"5282A91C",
+				"82A91C\\nS"
 			]
 		}
 	]
