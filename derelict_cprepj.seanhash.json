@@ -6,20 +6,20 @@
 	"sector": "VNP_9228",
 	"sec_level": 4,
 	"date_added": 1560289214879,
-	"last_scraped": 1561930016318,
+	"last_scraped": 1561958632553,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560289214879
 		}
 	],
-	"next_scrape": 1561972383403,
+	"next_scrape": 1561999445720,
 	"category": "fishie_tank",
-	"last_update": 1561930016318,
+	"last_update": 1561958632553,
 	"output": [
 		{
 			"args": {},
-			"calls": 602993,
+			"calls": 606910,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" form",
@@ -49,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 56920,
+			"calls": 58686,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -84,7 +84,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 615747,
+			"calls": 632236,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" form",
@@ -111,8 +111,8 @@
 			]
 		}
 	],
-	"updt": 1561899593511,
-	"edit": 65,
+	"updt": 1561930251454,
+	"edit": 67,
 	"identified": [
 		{
 			"document": "Proving/Children",
@@ -125,14 +125,6 @@
 				"royed an",
 				" continu"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
