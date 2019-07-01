@@ -1,25 +1,26 @@
 {
 	"_id": "unidentified_t2596w.words",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "unidentified_t2596w.words",
 	"sector": "SPC_3851",
 	"sec_level": 4,
 	"date_added": 1561964174203,
-	"last_scraped": 1561964886690,
+	"last_scraped": 1561964294180,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561964174203
 		}
 	],
-	"next_scrape": 1562010847130,
+	"scrape_ct": 16,
+	"next_scrape": 1561964354180,
 	"category": "clicker",
-	"last_update": 1561964886690,
+	"last_update": 1561964284661,
 	"output": [
 		{
 			"args": {},
-			"calls": 52282,
+			"calls": 12172,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"s alwa",
@@ -47,7 +48,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 44082,
+			"calls": 3880,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"s alwa",
@@ -75,7 +76,7 @@
 			"args": {
 				"CLICK": true
 			},
-			"calls": 9154,
+			"calls": 1016,
 			"base": "`LCLICK SECURED`",
 			"fragments": [
 				"s alwa",
@@ -113,6 +114,9 @@
 			]
 		}
 	],
-	"updt": 1561964748724,
-	"edit": 2
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
