@@ -6,14 +6,14 @@
 	"sector": "VNP_9860",
 	"sec_level": 4,
 	"date_added": 1561251892259,
-	"last_scraped": 1562027216642,
+	"last_scraped": 1562056267955,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561251892259
 		}
 	],
-	"next_scrape": 1562071984430,
+	"next_scrape": 1562102133331,
 	"category": "fishie_tank",
 	"last_update": 1562027216642,
 	"output": [
@@ -117,8 +117,8 @@
 			]
 		}
 	],
-	"updt": 1561999690647,
-	"edit": 28,
+	"updt": 1562027414325,
+	"edit": 29,
 	"identified": [
 		{
 			"document": "Essence",
@@ -132,6 +132,14 @@
 				" time -",
 				"might be"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
