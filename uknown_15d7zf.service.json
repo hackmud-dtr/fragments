@@ -6,14 +6,14 @@
 	"sector": "SPC_2365",
 	"sec_level": 4,
 	"date_added": 1560658766492,
-	"last_scraped": 1562064159542,
+	"last_scraped": 1562096619287,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560658766492
 		}
 	],
-	"next_scrape": 1562109752208,
+	"next_scrape": 1562142092034,
 	"category": "fishie_tank",
 	"last_update": 1562064159542,
 	"output": [
@@ -105,8 +105,8 @@
 			]
 		}
 	],
-	"updt": 1562036431458,
-	"edit": 58,
+	"updt": 1562064390115,
+	"edit": 59,
 	"identified": [
 		{
 			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
@@ -118,6 +118,14 @@
 				"n weight",
 				" Can you"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
