@@ -1,25 +1,26 @@
 {
 	"_id": "anon_zqeldc.funds",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "anon_zqeldc.funds",
 	"sector": "K_8441",
 	"sec_level": 4,
 	"date_added": 1562018934167,
-	"last_scraped": 1562019628117,
+	"last_scraped": 1562019064531,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562018934167
 		}
 	],
-	"next_scrape": 1562065264445,
+	"scrape_ct": 17,
+	"next_scrape": 1562019124531,
 	"category": "clicker",
-	"last_update": 1562019628117,
+	"last_update": 1562019064531,
 	"output": [
 		{
 			"args": {},
-			"calls": 55282,
+			"calls": 16399,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				". ## ",
@@ -57,7 +58,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 51801,
+			"calls": 3464,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				". ## ",
@@ -95,7 +96,7 @@
 			"args": {
 				"CLICK": true
 			},
-			"calls": 8162,
+			"calls": 856,
 			"base": "`LCLICK SECURED`",
 			"fragments": [
 				". ## ",
@@ -148,6 +149,12 @@
 			]
 		}
 	],
-	"updt": 1562019524707,
-	"edit": 2
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
+		}
+	]
 }
