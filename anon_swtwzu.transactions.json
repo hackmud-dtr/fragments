@@ -1,0 +1,117 @@
+{
+	"_id": "anon_swtwzu.transactions",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anon_swtwzu.transactions",
+	"sector": "K_8441",
+	"sec_level": 4,
+	"date_added": 1562095213744,
+	"last_scraped": 1562095434884,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1562095213744
+		}
+	],
+	"scrape_ct": 14,
+	"next_scrape": 1562095494884,
+	"category": "fishie_tank",
+	"last_update": 1562095434884,
+	"output": [
+		{
+			"args": {},
+			"calls": 24357,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" soon",
+				"ing so",
+				" with st",
+				" we will",
+				" - with "
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+					"frags": [
+						" soon",
+						"ing so",
+						" with st",
+						" we will",
+						" - with "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2176,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" soon",
+				"ing so",
+				" with st",
+				" we will",
+				" - with "
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+					"frags": [
+						" soon",
+						"ing so",
+						" with st",
+						" we will",
+						" - with "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 21899,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" soon",
+				"ing so",
+				" with st",
+				" we will",
+				" - with "
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+					"frags": [
+						" soon",
+						"ing so",
+						" with st",
+						" we will",
+						" - with "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+			"frags": [
+				" soon",
+				"ing so",
+				" with st",
+				" we will",
+				" - with "
+			]
+		}
+	],
+	"updt": 1562095268990,
+	"edit": 1
+}
