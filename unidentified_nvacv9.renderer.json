@@ -6,23 +6,23 @@
 	"sector": "SPC_9848",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1562052895817,
+	"last_scraped": 1562084652671,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1562024031027,
-	"edit": 40,
+	"updt": 1562053116143,
+	"edit": 41,
 	"scrape_ct": 5,
-	"next_scrape": 1562092943629,
+	"next_scrape": 1562131180208,
 	"category": "UNKNOWN CATEGORY",
-	"last_update": 1562052895817,
+	"last_update": 1562084652671,
 	"output": [
 		{
 			"args": {},
-			"calls": 341812,
+			"calls": 350166,
 			"base": "\n`FThis script is intended to be used within a script for now.`\n\n`FFeel free to donate to ``Tryo``F if you like the script :)`\n\n`CVersion`: `T1.2.0`\n\n`ADocumentation`:\n\n\t`Finitialize`(`Nwidth`: `snumber`, `Nheight`: `snumber`, `Nfill?`: `sstring`): `Avoid`;\n\n\t`FisCoordInDisplay`(`Nx`: `snumber`, `Ny`: `snumber`): `Aboolean`;\n\n\t`Treadonly` `FdisplaySize`: `S{`\n\t\t[`Nx`: `sstring`]: `sany`;\n\t\t`Ny`: `snumber`;\n\t\t`Nx`: `snumber`;\n\t};\n\n\t`Frender`(): `sstring`;\n\n\t`Fclear`(`NclearChar?`: `sstring`): `Avoid`;\n\n\t`Fdraw`(`Ndrawable`: `sany`): `Avoid`;\n\n\t`FsetPixel`(`Nx`: `snumber`, `Ny`: `snumber`, `Nchar`: `sstring`, `Ncolor`: `sstring`): `Avoid`;\n\n`ADrawables:`\n\n\t`LRect`(`Nx`: `snumber`, `Ny`: `snumber`, `Nw`: `snumber`, `Nh` `snumber`, `Nchar?`: `sstring`, `Ncolor?`: `sstring`): {\n\t\t[`Nx`: `sstring`]: `sany`;\n\t\t`Nx`: `snumber`;\n\t\t`Ny`: `snumber`;\n\t\t`Nw`: `snumber`;\n\t\t`Nh` `snumber`;\n\t\t`Nchar`: `sstring`;\n\t\t`Ncolor`: `sstring`;\n\t\t`Ntype`: `sstring`;\n\t};\n\t`LFilledRect`(`Nx`: `snumber`, `Ny`: `snumber`, `Nw`: `snumber`, `Nh` `snumber`, `Nchar?`: `sstring`, `Ncolor?`: `sstring`): {\n\t\t[`Nx`: `sstring`]: `sany`;\n\t\t`Nx`: `snumber`;\n\t\t`Ny`: `snumber`;\n\t\t`Nw`: `snumber`;\n\t\t`Nh`: `snumber`;\n\t\t`Nchar`: `sstring`;\n\t\t`Ncolor`: `sstring`;\n\t\t`Ntype`: `sstring`;\n\t};\n\t`LPoint`(`Nx`: `snumber`, `Ny`: `snumber`): {\n\t\t[`Nx`: `sstring`]: `sany`;\n\t\t`Nx`: `snumber`;\n\t\t`Ny`: `snumber`;\n\t\t`Ntype`: `sstring`;\n\t};\n\t`LLine`(`Nx`: `snumber`, `Ny`: `snumber`, `Nx1`: `snumber`, `Ny1`: `snumber`, `Nchar?`: `sstring`, `Ncolor?`: `sstring`): {\n\t\t[`Nx`: `sstring`]: `sany`;\n\t\t`Nx`: `snumber`;\n\t\t`Ny`: `snumber`;\n\t\t`Nx1`: `snumber`;\n\t\t`Ny1`: `snumber`;\n\t\t`Nchar`: `sstring`;\n\t\t`Ncolor`: `sstring`;\n\t\t`Ntype`: `sstring`;\n\t};\n\t`LCircle`(`Nx`: `snumber`, `Ny`: `snumber`, `Nradius`: `snumber`, `Nchar?`: `sstring`, `Ncolor?`: `sstring`): {\n\t\t[`Nx`: `sstring`]: `sany`;\n\t\t`Nx`: `snumber`;\n\t\t`Ny`: `snumber`;\n\t\t`Nradius`: `snumber`;\n\t\t`Nchar`: `sstring`;\n\t\t`Ncolor`: `sstring`;\n\t\t`Ntype`: `sstring`;\n\t};\n\t`LPattern`(`Nx`: `snumber`, `Ny`: `snumber`, `Narray_2d`: `sany[]`, `Nchars?`: `sstring[]`, `Ncolor?`: `sstring`): {\n\t\t[`Nx`: `sstring`]: `sany`;\n\t\t`Nx`: `snumber`;\n\t\t`Ny`: `snumber`;\n\t\t`Npattern`: `sany[]`;\n\t\t`Nchars`: `sstring[]`;\n\t\t`Ncolor`: `sstring`;\n\t\t`Ntype`: `sstring`;\n\t};\n\t`LAsciiString`(`Nx`: `snumber`, `Ny`: `snumber`, `Nstr`: `sstring`, `Nchar?`: `sstring`, `Ncolor?`: `sstring`): {\n\t\t[`Nx`: `sstring`]: `sany`;\n\t\t`Nx`: `snumber`;\n\t\t`Ny`: `snumber`;\n\t\t`Nstr`: `sstring`;\n\t\t`Nchar`: `sstring`;\n\t\t`Ncolor`: `sstring`;\n\t\t`Ntype`: `sstring`;\n\t};\n\t`LString`(`Nx`: `snumber`, `Ny`: `snumber`, `Nstr`: `sstring`, `Ncolor?`: `sstring`): {\n\t\t[`Nx`: `sstring`]: `sany`;\n\t\t`Nx`: `snumber`;\n\t\t`Ny`: `snumber`;\n\t\t`Nstr`: `sstring`;\n\t\t`Ncolor`: `sstring`;\n\t\t`Ntype`: `sstring`;\n\t};\n",
 			"fragments": [
 				"in di",
