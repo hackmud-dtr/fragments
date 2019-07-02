@@ -6,21 +6,21 @@
 	"sector": "K_8441",
 	"sec_level": 4,
 	"date_added": 1562028283554,
-	"last_scraped": 1562028313965,
+	"last_scraped": 1562028945917,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562028283554
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1562028373965,
+	"scrape_ct": 6,
+	"next_scrape": 1562029005917,
 	"category": "fishie_tank",
-	"last_update": 1562028303335,
+	"last_update": 1562028945917,
 	"output": [
 		{
 			"args": {},
-			"calls": 9777,
+			"calls": 54585,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"k?\\n21",
@@ -34,13 +34,31 @@
 				"If damag",
 				"2 Yes. I",
 				"xceeds\\n2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"k?\\n21",
+						"cards ",
+						"e excee",
+						"\\n2102 ",
+						"Yes. If",
+						" the la",
+						"ne deck?",
+						"in the l",
+						"If damag",
+						"2 Yes. I",
+						"xceeds\\n2"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 779,
+			"calls": 5451,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -59,7 +77,83 @@
 				"If damag",
 				"2 Yes. I",
 				"xceeds\\n2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"k?\\n21",
+						"cards ",
+						"e excee",
+						"\\n2102 ",
+						"Yes. If",
+						" the la",
+						"ne deck?",
+						"in the l",
+						"If damag",
+						"2 Yes. I",
+						"xceeds\\n2"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 47048,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"k?\\n21",
+				"cards ",
+				"e excee",
+				"\\n2102 ",
+				"Yes. If",
+				" the la",
+				"ne deck?",
+				"in the l",
+				"If damag",
+				"2 Yes. I",
+				"xceeds\\n2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"k?\\n21",
+						"cards ",
+						"e excee",
+						"\\n2102 ",
+						"Yes. If",
+						" the la",
+						"ne deck?",
+						"in the l",
+						"If damag",
+						"2 Yes. I",
+						"xceeds\\n2"
+					]
+				}
 			]
 		}
-	]
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"k?\\n21",
+				"cards ",
+				"e excee",
+				"\\n2102 ",
+				"Yes. If",
+				" the la",
+				"ne deck?",
+				"in the l",
+				"If damag",
+				"2 Yes. I",
+				"xceeds\\n2"
+			]
+		}
+	],
+	"updt": 1562028766315,
+	"edit": 2
 }
