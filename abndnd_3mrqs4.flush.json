@@ -6,30 +6,34 @@
 	"sector": "K_8698",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1562101419566,
+	"last_scraped": 1562131554033,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1562068447999,
-	"edit": 85,
-	"next_scrape": 1562145833576,
+	"updt": 1562101578000,
+	"edit": 86,
+	"next_scrape": 1562175462265,
 	"category": "fishie_tank",
-	"last_update": 1562101419566,
+	"last_update": 1562131554033,
 	"output": [
 		{
 			"args": {},
-			"calls": 719290,
+			"calls": 728142,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"the r",
-				" given",
+				"you th",
+				" you t",
+				" Thank",
 				"219D Th",
+				"ve given",
 				"iven you",
 				"he rules",
 				"have giv",
+				"ave give",
 				"Thank yo",
 				"19D Than",
 				"rules.\\n2"
@@ -139,6 +143,14 @@
 				"19D Than",
 				"rules.\\n2"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
