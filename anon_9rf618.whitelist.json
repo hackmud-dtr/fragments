@@ -3,19 +3,27 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "anon_9rf618.whitelist",
-	"sector": "NGC_7636",
+	"sector": "HJG_3466",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1562183005888,
+	"last_scraped": 1562188018037,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1562187866637,
+				"from": "HJG_3466",
+				"to": "NGC_7636"
+			}
+		]
 	],
-	"updt": 1562147358593,
-	"edit": 110,
+	"updt": 1562187917552,
+	"edit": 112,
 	"output": "{\"ok\":false,\"msg\":[\"Usage only as subscript:\",\"`Aif( !#fs.anon_9rf618.whitelist({ c }).ok ) return \\\"Lul oopsec\\\"`\"]}",
-	"next_scrape": 1562270242986,
+	"next_scrape": 1562269104485,
 	"pl_output": "{\"ok\":false,\"msg\":[\"Usage only as subscript:\",\"`Aif( !#fs.anon_9rf618.whitelist({ c }).ok ) return \\\"Lul oopsec\\\"`\"]}"
 }

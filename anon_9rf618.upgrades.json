@@ -1,21 +1,29 @@
 {
 	"_id": "anon_9rf618.upgrades",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "anon_9rf618.upgrades",
-	"sector": "VNP_4859",
+	"sector": "K_9897",
 	"sec_level": 2,
 	"date_added": 1558821408422,
-	"last_scraped": 1561906604487,
+	"last_scraped": 1562188048145,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1562187866637,
+				"from": "K_9897",
+				"to": "VNP_4859"
+			}
+		]
 	],
-	"updt": 1561906804102,
-	"edit": 37,
+	"updt": 1562187917552,
+	"edit": 39,
 	"output": "[\"i | name | tier | class | keys | stats | rdy\",\"--+------+------+-------+------+-------+----\",\"\",\"Currently loaded upgrades​: 0\"]",
-	"next_scrape": 1561989805077,
+	"next_scrape": 1562268618158,
 	"pl_output": "[\"i | name | tier | class | keys | stats | rdy\",\"--+------+------+-------+------+-------+----\",\"\",\"Currently loaded upgrades​: 0\"]"
 }

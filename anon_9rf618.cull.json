@@ -1,21 +1,85 @@
 {
 	"_id": "anon_9rf618.cull",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "fresh",
 	"script": "anon_9rf618.cull",
-	"sector": "SPC_3537",
+	"sector": "K_1215",
 	"sec_level": 1,
 	"date_added": 1558821408422,
-	"last_scraped": 1561850255707,
+	"last_scraped": 1562188127939,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1562187866637,
+				"from": "K_1215",
+				"to": "SPC_3537"
+			}
+		]
+	],
+	"updt": 1562187917552,
+	"edit": 27,
+	"output": [
+		{
+			"args": {},
+			"calls": 675,
+			"base": "Nothing to cull.",
+			"fragments": [
+				"tem ##",
+				"isn't.",
+				"case t",
+				"at she",
+				"ystem #",
+				"y of th",
+				"she isn'",
+				"f the sy",
+				"be made ",
+				" there's"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"tem ##",
+						"isn't.",
+						"case t",
+						"at she",
+						"ystem #",
+						"y of th",
+						"she isn'",
+						"f the sy",
+						"be made ",
+						" there's"
+					]
+				}
+			]
 		}
 	],
-	"updt": 1561850440765,
-	"edit": 25,
-	"output": "Nothing to cull.",
-	"next_scrape": 1561938462782,
-	"pl_output": "Nothing to cull."
+	"next_scrape": 1562188187939,
+	"pl_output": "Nothing to cull.",
+	"scrape_ct": 19,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1562188127939,
+	"old_output": "Nothing to cull.",
+	"identified": [
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				"tem ##",
+				"isn't.",
+				"case t",
+				"at she",
+				"ystem #",
+				"y of th",
+				"she isn'",
+				"f the sy",
+				"be made ",
+				" there's"
+			]
+		}
+	]
 }
