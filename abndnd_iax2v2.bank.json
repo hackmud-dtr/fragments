@@ -3,18 +3,26 @@
 	"type": "fragment",
 	"mode": "timeout",
 	"script": "abndnd_iax2v2.bank",
-	"sector": "VNP_4859",
+	"sector": "K_9897",
 	"sec_level": 2,
 	"date_added": 1558821408422,
-	"last_scraped": 1558944167684,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1562280495591,
+				"from": "K_9897",
+				"to": "VNP_4859"
+			}
+		]
 	],
-	"updt": 1561405183216,
-	"edit": 7,
+	"updt": 1561413299086,
+	"edit": 8,
 	"output": "User not authorized. loc extracted. And thanks for the money.",
 	"next_scrape": 1559028086926
 }
