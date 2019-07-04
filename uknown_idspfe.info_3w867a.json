@@ -6,22 +6,22 @@
 	"sector": "SPC_4030",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1562212206394,
+	"last_scraped": 1562239987570,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1562183861792,
-	"edit": 122,
-	"next_scrape": 1562253087141,
+	"updt": 1562212268579,
+	"edit": 123,
+	"next_scrape": 1562282274946,
 	"category": "fishie_tank",
-	"last_update": 1562212206394,
+	"last_update": 1562239987570,
 	"output": [
 		{
 			"args": {},
-			"calls": 1037521,
+			"calls": 1042334,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" reas",
@@ -111,6 +111,11 @@
 				"e Chela",
 				"e speaki"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
