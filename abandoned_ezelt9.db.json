@@ -1,47 +1,45 @@
 {
 	"_id": "abandoned_ezelt9.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_ezelt9.db",
 	"sector": "K_0304",
 	"sec_level": 4,
 	"date_added": 1559129394944,
-	"last_scraped": 1562294412528,
+	"last_scraped": 1562322017612,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559129394944
 		}
 	],
-	"next_scrape": 1562336836872,
+	"next_scrape": 1562362981633,
 	"category": "fishie_tank",
-	"last_update": 1562294412528,
+	"last_update": 1562322040717,
 	"output": [
 		{
 			"args": {},
-			"calls": 584483,
+			"calls": 592746,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"vious",
-				"that ",
 				"mists",
 				", the",
-				" are ",
+				"vious ",
+				"politi",
 				"onment",
 				"nginee",
 				"ists. ",
-				"hat it",
 				"engine",
-				"bioeng",
 				"'t. We",
+				" doesn",
 				"swer is",
 				"sts. We",
 				"s or en",
 				"or poli",
 				"nmental",
-				"ioengin",
 				"ientist",
 				"ften, t",
+				"e are n",
 				"derstan",
 				"conomis",
 				"Often, ",
@@ -53,15 +51,18 @@
 				"understa",
 				"tical ec",
 				"the obvi",
+				"that it ",
 				"rs or po",
 				"re not b",
 				"r enviro",
 				"neers or",
 				"litical ",
 				"ists or ",
+				"erstand ",
 				"environm",
 				"eers or ",
 				"e unders",
+				"bioengin",
 				"at it do",
 				"al econo",
 				". We are",
@@ -127,7 +128,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 52666,
+			"calls": 53652,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -135,26 +136,24 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"vious",
-				"that ",
 				"mists",
 				", the",
-				" are ",
+				"vious ",
+				"politi",
 				"onment",
 				"nginee",
 				"ists. ",
-				"hat it",
 				"engine",
-				"bioeng",
 				"'t. We",
+				" doesn",
 				"swer is",
 				"sts. We",
 				"s or en",
 				"or poli",
 				"nmental",
-				"ioengin",
 				"ientist",
 				"ften, t",
+				"e are n",
 				"derstan",
 				"conomis",
 				"Often, ",
@@ -166,15 +165,18 @@
 				"understa",
 				"tical ec",
 				"the obvi",
+				"that it ",
 				"rs or po",
 				"re not b",
 				"r enviro",
 				"neers or",
 				"litical ",
 				"ists or ",
+				"erstand ",
 				"environm",
 				"eers or ",
 				"e unders",
+				"bioengin",
 				"at it do",
 				"al econo",
 				". We are",
@@ -345,8 +347,8 @@
 			]
 		}
 	],
-	"updt": 1562264574362,
-	"edit": 73,
+	"updt": 1562294566142,
+	"edit": 74,
 	"identified": [
 		{
 			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
@@ -398,6 +400,11 @@
 				" it. Oft",
 				" it does"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
