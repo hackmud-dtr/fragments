@@ -6,22 +6,22 @@
 	"sector": "SPC_4030",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1562273452459,
+	"last_scraped": 1562302888670,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1562243833303,
-	"edit": 127,
-	"next_scrape": 1562314491043,
+	"updt": 1562273590476,
+	"edit": 128,
+	"next_scrape": 1562346207858,
 	"category": "fishie_tank",
-	"last_update": 1562273452459,
+	"last_update": 1562302899015,
 	"output": [
 		{
 			"args": {},
-			"calls": 1125808,
+			"calls": 1135650,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"uring",
@@ -51,7 +51,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 98648,
+			"calls": 99393,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -125,6 +125,11 @@
 				"ensuri",
 				"ROPRIA"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
