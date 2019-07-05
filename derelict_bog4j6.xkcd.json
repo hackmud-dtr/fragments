@@ -1,26 +1,29 @@
 {
 	"_id": "derelict_bog4j6.xkcd",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "derelict_bog4j6.xkcd",
 	"sector": "HJG_8307",
 	"sec_level": 4,
 	"date_added": 1562309218447,
-	"last_scraped": 1562309378997,
+	"last_scraped": 1562310784160,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562309218447
+		},
+		{
+			"type": "died",
+			"when": 1562328791871
 		}
 	],
-	"scrape_ct": 18,
-	"next_scrape": 1562309438997,
+	"next_scrape": 1562351488909,
 	"category": "coin_flipper",
-	"last_update": 1562309378997,
+	"last_update": 1562310784160,
 	"output": [
 		{
 			"args": {},
-			"calls": 24139,
+			"calls": 173631,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				" expa",
@@ -66,5 +69,7 @@
 				"panding "
 			]
 		}
-	]
+	],
+	"updt": 1562310795949,
+	"edit": 7
 }
