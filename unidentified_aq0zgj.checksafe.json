@@ -6,22 +6,22 @@
 	"sector": "VNP_9002",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1562420156753,
+	"last_scraped": 1562449070713,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1562420141772,
-	"edit": 139,
-	"next_scrape": 1562465965252,
+	"updt": 1562420366569,
+	"edit": 140,
+	"next_scrape": 1562491720608,
 	"category": "fishie_tank",
-	"last_update": 1562420156753,
+	"last_update": 1562449070713,
 	"output": [
 		{
 			"args": {},
-			"calls": 1128948,
+			"calls": 1136825,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"read ",
@@ -29,15 +29,17 @@
 				"d | B",
 				"BODY ",
 				"BJ re",
-				" | BO",
+				" BODY",
 				"i | SU",
 				"aki | ",
-				"Priori",
+				" | BOD",
+				" threa",
 				"ter thr",
 				"s maste",
 				"re: Pri",
 				"master ",
 				"es mast",
+				"Priorit",
 				" there'",
 				"J re: Pr",
 				"I think "
@@ -71,7 +73,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 103691,
+			"calls": 104511,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -84,15 +86,17 @@
 				"d | B",
 				"BODY ",
 				"BJ re",
-				" | BO",
+				" BODY",
 				"i | SU",
 				"aki | ",
-				"Priori",
+				" | BOD",
+				" threa",
 				"ter thr",
 				"s maste",
 				"re: Pri",
 				"master ",
 				"es mast",
+				"Priorit",
 				" there'",
 				"J re: Pr",
 				"I think "
@@ -126,7 +130,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 1108029,
+			"calls": 1116072,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"read ",
@@ -134,15 +138,17 @@
 				"d | B",
 				"BODY ",
 				"BJ re",
-				" | BO",
+				" BODY",
 				"i | SU",
 				"aki | ",
-				"Priori",
+				" | BOD",
+				" threa",
 				"ter thr",
 				"s maste",
 				"re: Pri",
 				"master ",
 				"es mast",
+				"Priorit",
 				" there'",
 				"J re: Pr",
 				"I think "
