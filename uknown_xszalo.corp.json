@@ -6,22 +6,22 @@
 	"sector": "NGC_0779",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1562385662083,
+	"last_scraped": 1562385640110,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1562385867496,
-	"edit": 141,
-	"next_scrape": 1562429326682,
+	"updt": 1562360395372,
+	"edit": 140,
+	"next_scrape": 1562429134961,
 	"category": "fishie_tank",
-	"last_update": 1562385662083,
+	"last_update": 1562357883891,
 	"output": [
 		{
 			"args": {},
-			"calls": 1127585,
+			"calls": 1118216,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ly per",
@@ -29,7 +29,6 @@
 				"Theref",
 				"erson\\n",
 				"erefore",
-				"e build",
 				"are the",
 				"A There",
 				"1E4A Th",
@@ -63,7 +62,6 @@
 						"Theref",
 						"erson\\n",
 						"erefore",
-						"e build",
 						"are the",
 						"A There",
 						"1E4A Th",
@@ -95,7 +93,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 101378,
+			"calls": 100729,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -108,7 +106,6 @@
 				"Theref",
 				"erson\\n",
 				"erefore",
-				"e build",
 				"are the",
 				"A There",
 				"1E4A Th",
@@ -142,7 +139,6 @@
 						"Theref",
 						"erson\\n",
 						"erefore",
-						"e build",
 						"are the",
 						"A There",
 						"1E4A Th",
@@ -174,7 +170,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 1168702,
+			"calls": 1162578,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ly per",
@@ -182,7 +178,6 @@
 				"Theref",
 				"erson\\n",
 				"erefore",
-				"e build",
 				"are the",
 				"A There",
 				"1E4A Th",
@@ -216,7 +211,6 @@
 						"Theref",
 						"erson\\n",
 						"erefore",
-						"e build",
 						"are the",
 						"A There",
 						"1E4A Th",
@@ -254,7 +248,6 @@
 				"Theref",
 				"erson\\n",
 				"erefore",
-				"e build",
 				"are the",
 				"A There",
 				"1E4A Th",
@@ -279,6 +272,14 @@
 				"ilding.\\n",
 				"\\n1E49 in"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
