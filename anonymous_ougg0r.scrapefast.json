@@ -6,25 +6,26 @@
 	"sector": "NGC_7281",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1562395460426,
+	"last_scraped": 1562423431475,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1562395567195,
-	"edit": 144,
-	"next_scrape": 1562440070690,
+	"updt": 1562423522258,
+	"edit": 146,
+	"next_scrape": 1562465079732,
 	"category": "fishie_tank",
-	"last_update": 1562395460426,
+	"last_update": 1562423431475,
 	"output": [
 		{
 			"args": {},
-			"calls": 1122434,
+			"calls": 1128399,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"X1F_C",
+				"SYST E",
 				"R | NE",
 				"MFT0X1",
 				"CLST0X",
@@ -43,11 +44,13 @@
 				"3E_FILE",
 				"1F_CLST",
 				" | TIME",
+				"| PROG E",
 				"_SECT0XE",
 				"X13_SECT",
 				"T0XE23E_",
 				"T ERROR ",
 				"ROG ERRO",
+				"E_FILE0X",
 				"ERROR | ",
 				"ECT0XE23",
 				"E23E_FIL",
@@ -62,6 +65,7 @@
 				{
 					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
 					"frags": [
+						"SYST E",
 						"R | NE",
 						"CLST0X",
 						"| NETW ",
@@ -74,11 +78,36 @@
 						"OR | TI",
 						"NETW ER",
 						" | TIME",
+						"| PROG E",
 						"T ERROR ",
 						"ROG ERRO",
 						"ERROR | ",
 						"E ERROR ",
 						"3_SECT0X"
+					]
+				},
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"SYST E",
+						"R | NE",
+						"CLST0X",
+						"| NETW ",
+						"\\nSYST ",
+						"TW ERRO",
+						"TIME ER",
+						"ROR | P",
+						"ROR | N",
+						"R | PRO",
+						"OR | TI",
+						"NETW ER",
+						" | TIME",
+						"| PROG E",
+						"T ERROR ",
+						"ROG ERRO",
+						"E_FILE0X",
+						"ERROR | ",
+						"E ERROR "
 					]
 				},
 				{
@@ -108,7 +137,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 98549,
+			"calls": 99098,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -117,6 +146,7 @@
 			],
 			"fragments": [
 				"X1F_C",
+				"SYST E",
 				"R | NE",
 				"MFT0X1",
 				"CLST0X",
@@ -135,11 +165,13 @@
 				"3E_FILE",
 				"1F_CLST",
 				" | TIME",
+				"| PROG E",
 				"_SECT0XE",
 				"X13_SECT",
 				"T0XE23E_",
 				"T ERROR ",
 				"ROG ERRO",
+				"E_FILE0X",
 				"ERROR | ",
 				"ECT0XE23",
 				"E23E_FIL",
@@ -154,6 +186,7 @@
 				{
 					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
 					"frags": [
+						"SYST E",
 						"R | NE",
 						"CLST0X",
 						"| NETW ",
@@ -166,11 +199,36 @@
 						"OR | TI",
 						"NETW ER",
 						" | TIME",
+						"| PROG E",
 						"T ERROR ",
 						"ROG ERRO",
 						"ERROR | ",
 						"E ERROR ",
 						"3_SECT0X"
+					]
+				},
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"SYST E",
+						"R | NE",
+						"CLST0X",
+						"| NETW ",
+						"\\nSYST ",
+						"TW ERRO",
+						"TIME ER",
+						"ROR | P",
+						"ROR | N",
+						"R | PRO",
+						"OR | TI",
+						"NETW ER",
+						" | TIME",
+						"| PROG E",
+						"T ERROR ",
+						"ROG ERRO",
+						"E_FILE0X",
+						"ERROR | ",
+						"E ERROR "
 					]
 				},
 				{
@@ -200,10 +258,11 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 1158859,
+			"calls": 1166459,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"X1F_C",
+				"SYST E",
 				"R | NE",
 				"MFT0X1",
 				"CLST0X",
@@ -222,11 +281,13 @@
 				"3E_FILE",
 				"1F_CLST",
 				" | TIME",
+				"| PROG E",
 				"_SECT0XE",
 				"X13_SECT",
 				"T0XE23E_",
 				"T ERROR ",
 				"ROG ERRO",
+				"E_FILE0X",
 				"ERROR | ",
 				"ECT0XE23",
 				"E23E_FIL",
@@ -241,6 +302,7 @@
 				{
 					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
 					"frags": [
+						"SYST E",
 						"R | NE",
 						"CLST0X",
 						"| NETW ",
@@ -253,11 +315,36 @@
 						"OR | TI",
 						"NETW ER",
 						" | TIME",
+						"| PROG E",
 						"T ERROR ",
 						"ROG ERRO",
 						"ERROR | ",
 						"E ERROR ",
 						"3_SECT0X"
+					]
+				},
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"SYST E",
+						"R | NE",
+						"CLST0X",
+						"| NETW ",
+						"\\nSYST ",
+						"TW ERRO",
+						"TIME ER",
+						"ROR | P",
+						"ROR | N",
+						"R | PRO",
+						"OR | TI",
+						"NETW ER",
+						" | TIME",
+						"| PROG E",
+						"T ERROR ",
+						"ROG ERRO",
+						"E_FILE0X",
+						"ERROR | ",
+						"E ERROR "
 					]
 				},
 				{
@@ -288,6 +375,7 @@
 		{
 			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
 			"frags": [
+				"SYST E",
 				"R | NE",
 				"CLST0X",
 				"| NETW ",
@@ -300,11 +388,36 @@
 				"OR | TI",
 				"NETW ER",
 				" | TIME",
+				"| PROG E",
 				"T ERROR ",
 				"ROG ERRO",
 				"ERROR | ",
 				"E ERROR ",
 				"3_SECT0X"
+			]
+		},
+		{
+			"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+			"frags": [
+				"SYST E",
+				"R | NE",
+				"CLST0X",
+				"| NETW ",
+				"\\nSYST ",
+				"TW ERRO",
+				"TIME ER",
+				"ROR | P",
+				"ROR | N",
+				"R | PRO",
+				"OR | TI",
+				"NETW ER",
+				" | TIME",
+				"| PROG E",
+				"T ERROR ",
+				"ROG ERRO",
+				"E_FILE0X",
+				"ERROR | ",
+				"E ERROR "
 			]
 		},
 		{
