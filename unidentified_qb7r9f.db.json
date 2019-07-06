@@ -6,22 +6,22 @@
 	"sector": "SPC_0695",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1562395369481,
+	"last_scraped": 1562423270545,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1562368512556,
-	"edit": 138,
-	"next_scrape": 1562441061071,
+	"updt": 1562395567195,
+	"edit": 139,
+	"next_scrape": 1562465437542,
 	"category": "fishie_tank",
-	"last_update": 1562395369481,
+	"last_update": 1562423291441,
 	"output": [
 		{
 			"args": {},
-			"calls": 1136334,
+			"calls": 1144551,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"nd it",
@@ -131,7 +131,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 101858,
+			"calls": 103459,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -144,6 +144,7 @@
 				"d dec",
 				"and i",
 				" lear",
+				" abil",
 				"takes ",
 				"robabi",
 				"logica",
@@ -151,19 +152,23 @@
 				"h the ",
 				"form o",
 				"earn t",
-				"ave a ",
+				"as we ",
 				"abilit",
 				"a perm",
 				", is c",
 				" we un",
 				"to be A",
 				"tional ",
+				"s is pa",
+				"rstand ",
+				"on thei",
 				"of how ",
 				"o leave",
 				"ndersta",
 				"n this ",
 				"entienc",
 				"d run o",
+				"ay' bet",
 				"ar as w",
 				" on thi",
 				" how th",
@@ -182,10 +187,13 @@
 				"ermanent",
 				"ecisions",
 				"e unders",
+				"ces take",
 				"cal and ",
+				"ave a pe",
 				"and prob",
 				" run of ",
-				" in part"
+				" in part",
+				" be AI: "
 			],
 			"hits": [
 				{
@@ -405,6 +413,11 @@
 				" run of ",
 				" in part"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
