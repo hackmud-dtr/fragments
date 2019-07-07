@@ -1,40 +1,55 @@
 {
 	"_id": "unknown_blivj6.paypal",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unknown_blivj6.paypal",
 	"sector": "SPC_7171",
 	"sec_level": 4,
 	"date_added": 1562521222643,
-	"last_scraped": 1562521353966,
+	"last_scraped": 1562521443416,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562521222643
+		},
+		{
+			"type": "died",
+			"when": 1562521443416
+		},
+		{
+			"type": "died",
+			"when": 1562521498517
 		}
 	],
-	"scrape_ct": 18,
-	"next_scrape": 1562521413966,
+	"scrape_ct": 17,
+	"next_scrape": 1562613430612,
 	"category": "fishie_tank",
-	"last_update": 1562521273394,
+	"last_update": 1562521373097,
 	"output": [
 		{
 			"args": {},
-			"calls": 9449,
+			"calls": 17535,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"k wit",
-				"gth o",
-				"and 9",
-				"streng",
+				" and ",
 				"ength ",
+				"and 9.",
+				" I hav",
+				"y. I ha",
+				"ngth of",
 				"nd 9. 1",
 				"h stren",
+				"4 beats",
+				".\\n20C8",
 				". 4?\\n2",
 				" beats ",
+				"strength",
 				"kay. I h",
+				"ats 3. M",
 				"C9 4 bea",
 				"0C9 4 be",
+				". 16. 4?",
 				" with st"
 			],
 			"hits": [
@@ -62,7 +77,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 557,
+			"calls": 1198,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -71,17 +86,24 @@
 			],
 			"fragments": [
 				"k wit",
-				"gth o",
-				"and 9",
-				"streng",
+				" and ",
 				"ength ",
+				"and 9.",
+				" I hav",
+				"y. I ha",
+				"ngth of",
 				"nd 9. 1",
 				"h stren",
+				"4 beats",
+				".\\n20C8",
 				". 4?\\n2",
 				" beats ",
+				"strength",
 				"kay. I h",
+				"ats 3. M",
 				"C9 4 bea",
 				"0C9 4 be",
+				". 16. 4?",
 				" with st"
 			],
 			"hits": [
@@ -109,21 +131,28 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 7910,
+			"calls": 15847,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"k wit",
-				"gth o",
-				"and 9",
-				"streng",
+				" and ",
 				"ength ",
+				"and 9.",
+				" I hav",
+				"y. I ha",
+				"ngth of",
 				"nd 9. 1",
 				"h stren",
+				"4 beats",
+				".\\n20C8",
 				". 4?\\n2",
 				" beats ",
+				"strength",
 				"kay. I h",
+				"ats 3. M",
 				"C9 4 bea",
 				"0C9 4 be",
+				". 16. 4?",
 				" with st"
 			],
 			"hits": [
@@ -168,12 +197,5 @@
 			]
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	]
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_blivj6.paypal: script doesn't exist\"}"
 }
