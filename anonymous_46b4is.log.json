@@ -6,42 +6,43 @@
 	"sector": "K_9762",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1562511314439,
+	"last_scraped": 1562539358115,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1562511437198,
-	"edit": 144,
-	"next_scrape": 1562557932460,
+	"updt": 1562511662872,
+	"edit": 145,
+	"next_scrape": 1562580455959,
 	"category": "fishie_tank",
-	"last_update": 1562511314439,
+	"last_update": 1562539378580,
 	"output": [
 		{
 			"args": {},
-			"calls": 1127724,
+			"calls": 1136419,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"unica",
 				"ous c",
-				"on ha",
 				"munic",
 				"f tim",
-				"ar un",
-				"tion h",
 				"ow but",
+				"has al",
 				"Clear ",
 				". We m",
 				" alway",
 				" We mi",
 				"us comm",
+				"tion ha",
 				"t we mi",
 				"s commu",
 				"ot need",
 				"not nee",
+				"nicatio",
 				"me. Cle",
+				"lear un",
 				"iguous ",
 				"eed it ",
 				"communi",
@@ -52,6 +53,7 @@
 				" commun",
 				"w but we",
 				"time. Cl",
+				"sue. We ",
 				"nambiguo",
 				"n issue.",
 				"might in",
@@ -123,7 +125,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 105591,
+			"calls": 107037,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -133,22 +135,23 @@
 			"fragments": [
 				"unica",
 				"ous c",
-				"on ha",
 				"munic",
 				"f tim",
-				"ar un",
-				"tion h",
 				"ow but",
+				"has al",
 				"Clear ",
 				". We m",
 				" alway",
 				" We mi",
 				"us comm",
+				"tion ha",
 				"t we mi",
 				"s commu",
 				"ot need",
 				"not nee",
+				"nicatio",
 				"me. Cle",
+				"lear un",
 				"iguous ",
 				"eed it ",
 				"communi",
@@ -159,6 +162,7 @@
 				" commun",
 				"w but we",
 				"time. Cl",
+				"sue. We ",
 				"nambiguo",
 				"n issue.",
 				"might in",
@@ -377,6 +381,11 @@
 				" in the ",
 				" be an i"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
