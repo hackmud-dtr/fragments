@@ -6,16 +6,16 @@
 	"sector": "SPC_4030",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1562514998327,
+	"last_scraped": 1562543663188,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1562471087930,
-	"edit": 136,
-	"next_scrape": 1562559079426,
+	"updt": 1562515046754,
+	"edit": 137,
+	"next_scrape": 1562583424042,
 	"category": "fishie_tank",
 	"last_update": 1562514998327,
 	"output": [
@@ -125,6 +125,14 @@
 				"ensuri",
 				"ROPRIA"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
