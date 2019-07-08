@@ -3,19 +3,31 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "abandoned_q5ieno.cracker",
-	"sector": "HJG_3940",
+	"sector": "VNP_1006",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1562538333589,
+	"last_scraped": 1562552760656,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
-		}
+		},
+		{
+			"type": "died",
+			"when": 1562552623081
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1562552729202,
+				"from": "VNP_1006",
+				"to": "HJG_3940"
+			}
+		]
 	],
-	"updt": 1562510536350,
-	"edit": 122,
+	"updt": 1562552683752,
+	"edit": 124,
 	"output": "{\"msg\":\"`DError.` You are not autorized to execute this script. Exiting...\"}",
-	"next_scrape": 1562630512273,
+	"next_scrape": 1562644569796,
 	"pl_output": "{\"msg\":\"`DError.` You are not autorized to execute this script. Exiting...\"}"
 }
