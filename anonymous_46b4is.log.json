@@ -6,22 +6,22 @@
 	"sector": "K_9762",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1562570979154,
+	"last_scraped": 1562597322531,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1562571175933,
-	"edit": 149,
-	"next_scrape": 1562614561794,
+	"updt": 1562571627328,
+	"edit": 150,
+	"next_scrape": 1562639573230,
 	"category": "fishie_tank",
-	"last_update": 1562570979154,
+	"last_update": 1562597322531,
 	"output": [
 		{
 			"args": {},
-			"calls": 1144617,
+			"calls": 1152473,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ous c",
@@ -49,6 +49,7 @@
 				" not ne",
 				" commun",
 				"w but we",
+				"unambigu",
 				"time. Cl",
 				"t in the",
 				"sue. We ",
@@ -62,6 +63,7 @@
 				"ht in th",
 				"ght in t",
 				"e might ",
+				"e an iss",
 				"ays be a",
 				"as alway",
 				" need it",
@@ -405,6 +407,11 @@
 				" in the ",
 				" be an i"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
