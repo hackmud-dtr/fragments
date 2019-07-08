@@ -1,7 +1,7 @@
 {
 	"_id": "anon_hw2i92.t1_scrape",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_hw2i92.t1_scrape",
 	"sector": "VNP_1006",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1562568669121
+		},
+		{
+			"type": "died",
+			"when": 1562588842093
 		}
 	],
-	"updt": 1562568695677,
-	"edit": 1,
+	"updt": 1562568920677,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -30,6 +34,44 @@
 			"calls": 925,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"range",
+				"ed th",
+				"ont of",
+				"nged t",
+				"f you?",
+				"5 in f",
+				"u?\\n208",
+				"s, Mall",
+				"hem\\n20",
+				" Mallor",
+				"nt of yo",
+				"Yes, Mal"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"range",
+						"ed th",
+						"ont of",
+						"nged t",
+						"f you?",
+						"5 in f",
+						"u?\\n208",
+						"s, Mall",
+						"hem\\n20",
+						" Mallor",
+						"nt of yo",
+						"Yes, Mal"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"range",
 				"ed th",
 				"ont of",
