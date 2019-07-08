@@ -1,27 +1,27 @@
 {
 	"_id": "abndnd_stotaa.bank",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_stotaa.bank",
 	"sector": "K_5779",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1562598988587,
+	"last_scraped": 1562628336261,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1562572530187,
-	"edit": 140,
-	"next_scrape": 1562641962407,
+	"updt": 1562599136748,
+	"edit": 141,
+	"next_scrape": 1562673248215,
 	"category": "fishie_tank",
-	"last_update": 1562598988587,
+	"last_update": 1562628366080,
 	"output": [
 		{
 			"args": {},
-			"calls": 1054458,
+			"calls": 1066150,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" WILD",
@@ -79,7 +79,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 103290,
+			"calls": 103826,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -223,6 +223,11 @@
 				"s.\\n2151 ",
 				"raises\\n2"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
