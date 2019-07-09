@@ -6,41 +6,51 @@
 	"sector": "VNP_7259",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1562673874231,
+	"last_scraped": 1562701408327,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1562646483011,
-	"edit": 78,
-	"next_scrape": 1562716361532,
+	"updt": 1562701494215,
+	"edit": 80,
+	"next_scrape": 1562742423986,
 	"category": "fishie_tank",
-	"last_update": 1562673874231,
+	"last_update": 1562701408327,
 	"output": [
 		{
 			"args": {},
-			"calls": 615475,
+			"calls": 625067,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"PROG ",
 				"| TIME",
+				"_FILE0",
 				"T0X8A_",
-				"71_CLS",
 				"0X8A_S",
+				"NETW ER",
 				"4AFF93F",
-				"OR | TIM"
+				"14AFF93",
+				"OR | USE",
+				"OR | TIM",
+				"71_CLST0"
 			],
 			"hits": [
 				{
 					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
 					"frags": [
+						"PROG ",
 						"| TIME",
+						"_FILE0",
 						"T0X8A_",
-						"71_CLS",
 						"0X8A_S",
+						"NETW ER",
 						"4AFF93F",
-						"OR | TIM"
+						"14AFF93",
+						"OR | USE",
+						"OR | TIM",
+						"71_CLST0"
 					]
 				}
 			]
@@ -49,7 +59,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 60741,
+			"calls": 61512,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -57,23 +67,33 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"PROG ",
 				"| TIME",
+				"_FILE0",
 				"T0X8A_",
-				"71_CLS",
 				"0X8A_S",
+				"NETW ER",
 				"4AFF93F",
-				"OR | TIM"
+				"14AFF93",
+				"OR | USE",
+				"OR | TIM",
+				"71_CLST0"
 			],
 			"hits": [
 				{
 					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
 					"frags": [
+						"PROG ",
 						"| TIME",
+						"_FILE0",
 						"T0X8A_",
-						"71_CLS",
 						"0X8A_S",
+						"NETW ER",
 						"4AFF93F",
-						"OR | TIM"
+						"14AFF93",
+						"OR | USE",
+						"OR | TIM",
+						"71_CLST0"
 					]
 				}
 			]
@@ -82,26 +102,36 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 678607,
+			"calls": 687969,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"PROG ",
 				"| TIME",
+				"_FILE0",
 				"T0X8A_",
-				"71_CLS",
 				"0X8A_S",
+				"NETW ER",
 				"4AFF93F",
-				"OR | TIM"
+				"14AFF93",
+				"OR | USE",
+				"OR | TIM",
+				"71_CLST0"
 			],
 			"hits": [
 				{
 					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
 					"frags": [
+						"PROG ",
 						"| TIME",
+						"_FILE0",
 						"T0X8A_",
-						"71_CLS",
 						"0X8A_S",
+						"NETW ER",
 						"4AFF93F",
-						"OR | TIM"
+						"14AFF93",
+						"OR | USE",
+						"OR | TIM",
+						"71_CLST0"
 					]
 				}
 			]
@@ -111,12 +141,17 @@
 		{
 			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
 			"frags": [
+				"PROG ",
 				"| TIME",
+				"_FILE0",
 				"T0X8A_",
-				"71_CLS",
 				"0X8A_S",
+				"NETW ER",
 				"4AFF93F",
-				"OR | TIM"
+				"14AFF93",
+				"OR | USE",
+				"OR | TIM",
+				"71_CLST0"
 			]
 		}
 	]
