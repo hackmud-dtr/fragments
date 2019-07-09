@@ -6,30 +6,33 @@
 	"sector": "VNP_9651",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1562640600766,
+	"last_scraped": 1562667438380,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1562612662362,
-	"edit": 152,
-	"next_scrape": 1562684137781,
+	"updt": 1562640619944,
+	"edit": 153,
+	"next_scrape": 1562712124236,
 	"category": "fishie_tank",
-	"last_update": 1562640600766,
+	"last_update": 1562667438380,
 	"output": [
 		{
 			"args": {},
-			"calls": 1206349,
+			"calls": 1213736,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"ou're",
 				"eed on",
+				"B Do I",
 				" Do I ",
+				"king li",
 				"ing lik",
 				"eaking ",
 				"E3B Do ",
+				" reason",
+				"you're s",
 				"re a rea",
 				"on\\n1E3A",
 				"o I need",
@@ -223,6 +226,11 @@
 				"\\n1E3B Do",
 				"Chela?\\n1"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
