@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "timeout",
 	"script": "abandoned_n4rp44.donate",
-	"sector": "HJG_7128",
+	"sector": "K_9897",
 	"sec_level": 2,
 	"date_added": 1558821408422,
-	"last_scraped": 1559285250101,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
-		}
+		},
+		{
+			"type": "died",
+			"when": 1562643419129
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1562643483960,
+				"from": "K_9897",
+				"to": "HJG_7128"
+			}
+		]
 	],
-	"updt": 1561405183216,
-	"edit": 13,
+	"updt": 1561413747873,
+	"edit": 14,
 	"output": "{\"ok\":false,\"msg\":\"Your account balance of 0GC is too low to send 10MGC.\"}",
 	"next_scrape": 1559371930395,
 	"pl_output": "{\"ok\":false,\"msg\":\"Your account balance of 0GC is too low to send 10MGC.\"}"
