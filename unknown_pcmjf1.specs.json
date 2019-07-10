@@ -6,16 +6,16 @@
 	"sector": "K_6531",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1562723266814,
+	"last_scraped": 1562750183162,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1562696536631,
-	"edit": 150,
-	"next_scrape": 1562763755441,
+	"updt": 1562723355904,
+	"edit": 151,
+	"next_scrape": 1562794728289,
 	"category": "fishie_tank",
 	"last_update": 1562723266814,
 	"output": [
@@ -160,6 +160,14 @@
 				"0X0A_SEC",
 				"2E\\nSYST "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
