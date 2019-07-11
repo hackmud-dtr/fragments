@@ -1,44 +1,50 @@
 {
 	"_id": "unidentified_h1i6zo.npc",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unidentified_h1i6zo.npc",
 	"sector": "NGC_4554",
 	"sec_level": 4,
 	"date_added": 1562826705087,
-	"last_scraped": 1562827729154,
+	"last_scraped": 1562827848993,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562826705087
+		},
+		{
+			"type": "died",
+			"when": 1562828557872
 		}
 	],
-	"scrape_ct": 2,
-	"next_scrape": 1562827789154,
+	"next_scrape": 1562873218781,
 	"category": "fishie_tank",
-	"last_update": 1562827738426,
+	"last_update": 1562827848993,
 	"output": [
 		{
 			"args": {},
-			"calls": 69441,
+			"calls": 77049,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"r to ",
+				"69 At",
 				"send c",
 				"r TRAP",
-				"cker T",
 				"2169 A",
+				"r to re",
 				"nd card",
 				"ins in ",
-				"esolve.",
 				"end car",
 				"d cards",
 				"ards\\n2",
 				"9 Attac",
+				"ttacker ",
 				"s in ord",
+				"resolve.",
 				"rds\\n216",
 				"ns in or",
 				"e.\\n2169",
+				"der to r",
+				"acker TR",
 				"Attacker",
 				" to reso",
 				" resolve",
@@ -72,7 +78,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8816,
+			"calls": 9677,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -80,22 +86,25 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"r to ",
+				"69 At",
 				"send c",
 				"r TRAP",
-				"cker T",
 				"2169 A",
+				"r to re",
 				"nd card",
 				"ins in ",
-				"esolve.",
 				"end car",
 				"d cards",
 				"ards\\n2",
 				"9 Attac",
+				"ttacker ",
 				"s in ord",
+				"resolve.",
 				"rds\\n216",
 				"ns in or",
 				"e.\\n2169",
+				"der to r",
+				"acker TR",
 				"Attacker",
 				" to reso",
 				" resolve",
@@ -129,26 +138,34 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 76393,
+			"calls": 88766,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"r to ",
-				"9 Att",
+				"69 At",
 				"send c",
 				"r TRAP",
-				"cker T",
 				"2169 A",
+				"r to re",
 				"nd card",
-				"lve.\\n2",
 				"ins in ",
-				"esolve.",
 				"end car",
+				"d cards",
 				"ards\\n2",
+				"9 Attac",
+				"ttacker ",
 				"s in ord",
+				"resolve.",
 				"rds\\n216",
+				"ns in or",
+				"e.\\n2169",
+				"der to r",
+				"acker TR",
+				"Attacker",
+				" to reso",
 				" resolve",
 				" in orde",
-				" TRAPS s"
+				" TRAPS s",
+				"solve.\\n2"
 			],
 			"hits": [
 				{
@@ -194,11 +211,6 @@
 			]
 		}
 	],
-	"updt": 1562827293607,
-	"edit": 3,
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1562827969012,
+	"edit": 5
 }
