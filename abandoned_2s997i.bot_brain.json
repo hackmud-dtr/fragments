@@ -6,29 +6,35 @@
 	"sector": "K_3429",
 	"sec_level": 4,
 	"date_added": 1559253820162,
-	"last_scraped": 1562883151861,
+	"last_scraped": 1562917661360,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559253820162
 		}
 	],
-	"next_scrape": 1562923327135,
+	"next_scrape": 1562957319179,
 	"category": "fishie_tank",
-	"last_update": 1562883151861,
+	"last_update": 1562917661360,
 	"output": [
 		{
 			"args": {},
-			"calls": 1215812,
+			"calls": 1225880,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"| PROG",
-				"R | PR",
 				"1F_CLS",
-				" | PRO",
+				"T0X13_S",
+				"R | PRO",
 				"MFT0X1F",
 				"E0X5282",
+				"CLST0X1",
+				"_SECT0XE",
+				"RROR | U",
+				"RROR | P",
+				"R | TIME",
 				"F_CLST0X",
+				"ERROR | ",
 				"0X5282A9",
 				" ERROR |",
 				"\\nSYST ER"
@@ -60,7 +66,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 108711,
+			"calls": 110003,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -69,12 +75,18 @@
 			],
 			"fragments": [
 				"| PROG",
-				"R | PR",
 				"1F_CLS",
-				" | PRO",
+				"T0X13_S",
+				"R | PRO",
 				"MFT0X1F",
 				"E0X5282",
+				"CLST0X1",
+				"_SECT0XE",
+				"RROR | U",
+				"RROR | P",
+				"R | TIME",
 				"F_CLST0X",
+				"ERROR | ",
 				"0X5282A9",
 				" ERROR |",
 				"\\nSYST ER"
@@ -106,16 +118,22 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 1234400,
+			"calls": 1241936,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"| PROG",
-				"R | PR",
 				"1F_CLS",
-				" | PRO",
+				"T0X13_S",
+				"R | PRO",
 				"MFT0X1F",
 				"E0X5282",
+				"CLST0X1",
+				"_SECT0XE",
+				"RROR | U",
+				"RROR | P",
+				"R | TIME",
 				"F_CLST0X",
+				"ERROR | ",
 				"0X5282A9",
 				" ERROR |",
 				"\\nSYST ER"
@@ -144,8 +162,8 @@
 			]
 		}
 	],
-	"updt": 1562844878836,
-	"edit": 136,
+	"updt": 1562883201225,
+	"edit": 137,
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
