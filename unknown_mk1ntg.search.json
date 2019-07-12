@@ -3,19 +3,68 @@
 	"type": "fragment",
 	"mode": "timeout",
 	"script": "unknown_mk1ntg.search",
-	"sector": "HJG_4785",
+	"sector": "NGC_4554",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1561533567821,
+	"last_scraped": 1562920083385,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1562920072445,
+				"from": "NGC_4554",
+				"to": "HJG_4785"
+			}
+		]
+	],
+	"updt": 1562920190216,
+	"edit": 51,
+	"output": [
+		{
+			"args": {},
+			"calls": 255,
+			"base": "Usage: `Agoogl.search { for: <what you're searching for> }`",
+			"fragments": [
+				"again,",
+				"sorry!)",
+				"gain, s",
+				" loopin",
+				"orry!) |"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"again,",
+						"sorry!)",
+						"gain, s",
+						" loopin",
+						"orry!) |"
+					]
+				}
+			]
 		}
 	],
-	"updt": 1561533683679,
-	"edit": 49,
-	"output": "Usage: `Agoogl.search { for: <what you're searching for> }`",
-	"next_scrape": 1561619155887,
-	"pl_output": "Usage: `Agoogl.search { for: <what you're searching for> }`"
+	"next_scrape": 1562920143385,
+	"pl_output": "Usage: `Agoogl.search { for: <what you're searching for> }`",
+	"scrape_ct": 20,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1562920083385,
+	"old_output": "Usage: `Agoogl.search { for: <what you're searching for> }`",
+	"identified": [
+		{
+			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+			"frags": [
+				"again,",
+				"sorry!)",
+				"gain, s",
+				" loopin",
+				"orry!) |"
+			]
+		}
+	]
 }
