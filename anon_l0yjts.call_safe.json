@@ -1,7 +1,7 @@
 {
 	"_id": "anon_l0yjts.call_safe",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_l0yjts.call_safe",
 	"sector": "VNP_1006",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1562607683270
+		},
+		{
+			"type": "died",
+			"when": 1562916542460
 		}
 	],
-	"updt": 1562607704761,
-	"edit": 1,
+	"updt": 1562607929792,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -30,6 +34,30 @@
 			"calls": 609,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				". Flo",
+				" us t",
+				"let's ",
+				" hit t",
+				"the cha"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						". Flo",
+						" us t",
+						"let's ",
+						" hit t",
+						"the cha"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
 				". Flo",
 				" us t",
 				"let's ",
