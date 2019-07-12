@@ -1,27 +1,27 @@
 {
 	"_id": "unknown_scpplx.pub_info_n4j3nj",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_scpplx.pub_info_n4j3nj",
 	"sector": "HJG_7089",
 	"sec_level": 4,
 	"date_added": 1559837299478,
-	"last_scraped": 1562913111132,
+	"last_scraped": 1562961430243,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559837299478
 		}
 	],
-	"updt": 1562875760985,
-	"edit": 120,
-	"next_scrape": 1562955446637,
+	"updt": 1562961458552,
+	"edit": 122,
+	"next_scrape": 1563005888568,
 	"category": "fishie_tank",
-	"last_update": 1562913111132,
+	"last_update": 1562961469971,
 	"output": [
 		{
 			"args": {},
-			"calls": 1062870,
+			"calls": 1070001,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" Erin",
@@ -51,7 +51,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 92915,
+			"calls": 95245,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -125,6 +125,11 @@
 				"r me, Er",
 				"mirza er"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
