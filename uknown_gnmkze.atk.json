@@ -1,25 +1,25 @@
 {
 	"_id": "uknown_gnmkze.atk",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_gnmkze.atk",
 	"sector": "NGC_4554",
 	"sec_level": 4,
 	"date_added": 1562874835878,
-	"last_scraped": 1563019715874,
+	"last_scraped": 1563052097678,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562874835878
 		}
 	],
-	"next_scrape": 1563061360994,
+	"next_scrape": 1563092637986,
 	"category": "clicker",
-	"last_update": 1563019715874,
+	"last_update": 1563052097678,
 	"output": [
 		{
 			"args": {},
-			"calls": 107914,
+			"calls": 122420,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"00 0000",
@@ -45,7 +45,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 103345,
+			"calls": 117328,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"00 0000",
@@ -828,6 +828,11 @@
 			]
 		}
 	],
-	"updt": 1562991443203,
-	"edit": 6
+	"updt": 1563052093921,
+	"edit": 8,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
