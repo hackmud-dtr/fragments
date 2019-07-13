@@ -1,12 +1,12 @@
 {
 	"_id": "anon_64ttct.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_64ttct.db",
 	"sector": "K_4792",
 	"sec_level": 4,
 	"date_added": 1561343631805,
-	"last_scraped": 1563011755378,
+	"last_scraped": 1563011725478,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1563055170648,
+	"next_scrape": 1563051940808,
 	"category": "fishie_tank",
-	"last_update": 1563011755378,
+	"last_update": 1563011725478,
 	"output": [
 		{
 			"args": {},
@@ -56,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 44621,
+			"calls": 42983,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -97,7 +97,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 473240,
+			"calls": 465351,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"57 BR",
@@ -130,8 +130,8 @@
 			]
 		}
 	],
-	"updt": 1563011733734,
-	"edit": 62,
+	"updt": 1562982646078,
+	"edit": 61,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -147,6 +147,14 @@
 				"REAK is ",
 				"K is pla"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
