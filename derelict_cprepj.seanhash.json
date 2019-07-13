@@ -1,25 +1,25 @@
 {
 	"_id": "derelict_cprepj.seanhash",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_cprepj.seanhash",
 	"sector": "VNP_9228",
 	"sec_level": 4,
 	"date_added": 1560289214879,
-	"last_scraped": 1562951428032,
+	"last_scraped": 1562981488204,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560289214879
 		}
 	],
-	"next_scrape": 1562997468355,
+	"next_scrape": 1563023235648,
 	"category": "fishie_tank",
-	"last_update": 1562951428032,
+	"last_update": 1562981488204,
 	"output": [
 		{
 			"args": {},
-			"calls": 879563,
+			"calls": 890244,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" form",
@@ -49,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 83957,
+			"calls": 84769,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -84,7 +84,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 917296,
+			"calls": 933536,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" form",
@@ -111,8 +111,8 @@
 			]
 		}
 	],
-	"updt": 1562899439567,
-	"edit": 103,
+	"updt": 1562951533717,
+	"edit": 104,
 	"identified": [
 		{
 			"document": "Proving/Children",
