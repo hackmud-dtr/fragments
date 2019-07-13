@@ -1,27 +1,27 @@
 {
 	"_id": "unknown_3t0bsi.fs",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_3t0bsi.fs",
 	"sector": "NGC_1090",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1563026038918,
+	"last_scraped": 1563058839506,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1563026165376,
-	"edit": 160,
-	"next_scrape": 1563071368649,
+	"updt": 1563057958604,
+	"edit": 161,
+	"next_scrape": 1563100219179,
 	"category": "fishie_tank",
-	"last_update": 1563026038918,
+	"last_update": 1563058839506,
 	"output": [
 		{
 			"args": {},
-			"calls": 1261539,
+			"calls": 1284605,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"on po",
@@ -384,6 +384,14 @@
 				" curatio",
 				" build a"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
