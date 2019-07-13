@@ -1,27 +1,27 @@
 {
 	"_id": "derelict_zoqr8c.solve_digby",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_zoqr8c.solve_digby",
 	"sector": "HJG_9216",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1563009859515,
+	"last_scraped": 1563040562887,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1562980617999,
-	"edit": 157,
-	"next_scrape": 1563051619022,
+	"updt": 1563009933033,
+	"edit": 158,
+	"next_scrape": 1563082928005,
 	"category": "fishie_tank",
-	"last_update": 1563009859515,
+	"last_update": 1563040562887,
 	"output": [
 		{
 			"args": {},
-			"calls": 1329768,
+			"calls": 1337560,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"s day",
@@ -81,7 +81,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 116316,
+			"calls": 117781,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -146,7 +146,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 1353628,
+			"calls": 1367228,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"s day",
