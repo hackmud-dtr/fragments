@@ -1,27 +1,27 @@
 {
 	"_id": "abndnd_kawq80.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_kawq80.db",
 	"sector": "VNP_0127",
 	"sec_level": 4,
 	"date_added": 1561118219746,
-	"last_scraped": 1563021162820,
+	"last_scraped": 1563053223102,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561118219746
 		}
 	],
-	"updt": 1562993247996,
-	"edit": 71,
-	"next_scrape": 1563067076632,
+	"updt": 1563053221193,
+	"edit": 73,
+	"next_scrape": 1563094439993,
 	"category": "fishie_tank",
-	"last_update": 1563021162820,
+	"last_update": 1563053254038,
 	"output": [
 		{
 			"args": {},
-			"calls": 589702,
+			"calls": 601229,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"1E64 ",
@@ -67,7 +67,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 56463,
+			"calls": 57973,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -181,6 +181,11 @@
 				"ng, why ",
 				"7D173\\nAD"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
