@@ -1,27 +1,27 @@
 {
 	"_id": "anon_63qdis.action",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_63qdis.action",
 	"sector": "VNP_9651",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1563012538985,
+	"last_scraped": 1563043036602,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1562983775662,
-	"edit": 154,
-	"next_scrape": 1563052744707,
+	"updt": 1563012635405,
+	"edit": 155,
+	"next_scrape": 1563086169759,
 	"category": "clicker",
-	"last_update": 1563012538985,
+	"last_update": 1563043036602,
 	"output": [
 		{
 			"args": {},
-			"calls": 1228212,
+			"calls": 1244052,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"| TIM",
@@ -71,7 +71,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 1250999,
+			"calls": 1266157,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"| TIM",
@@ -190,6 +190,11 @@
 				"'Mallory",
 				" TIME ER"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"CLICK": true
 		}
 	]
 }
