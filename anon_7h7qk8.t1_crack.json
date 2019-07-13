@@ -1,25 +1,25 @@
 {
 	"_id": "anon_7h7qk8.t1_crack",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_7h7qk8.t1_crack",
 	"sector": "HJG_5024",
 	"sec_level": 4,
 	"date_added": 1561634774129,
-	"last_scraped": 1563035122072,
+	"last_scraped": 1563034626648,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561634774129
 		}
 	],
-	"next_scrape": 1563080544749,
+	"next_scrape": 1563078335223,
 	"category": "fishie_tank",
-	"last_update": 1563035132398,
+	"last_update": 1563034626648,
 	"output": [
 		{
 			"args": {},
-			"calls": 491760,
+			"calls": 475106,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"tenan",
@@ -57,7 +57,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 47175,
+			"calls": 46449,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -158,9 +158,12 @@
 			]
 		}
 	],
-	"updt": 1563034734720,
-	"edit": 54,
+	"updt": 1563008352806,
+	"edit": 53,
 	"retry_args": [
+		{
+			"do": "feed"
+		},
 		{
 			"do": "clean"
 		}
