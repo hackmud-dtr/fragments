@@ -1,21 +1,21 @@
 {
 	"_id": "anon_swtwzu.transactions",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_swtwzu.transactions",
 	"sector": "K_8441",
 	"sec_level": 4,
 	"date_added": 1562095213744,
-	"last_scraped": 1563002248633,
+	"last_scraped": 1563002278933,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562095213744
 		}
 	],
-	"next_scrape": 1563044807966,
+	"next_scrape": 1563044704967,
 	"category": "fishie_tank",
-	"last_update": 1563002259894,
+	"last_update": 1563002278933,
 	"output": [
 		{
 			"args": {},
@@ -45,7 +45,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 30848,
+			"calls": 31639,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -76,7 +76,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 302183,
+			"calls": 310235,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" soon",
@@ -111,11 +111,6 @@
 			]
 		}
 	],
-	"updt": 1562972281292,
-	"edit": 35,
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1563002266138,
+	"edit": 36
 }
