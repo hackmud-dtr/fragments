@@ -1,25 +1,25 @@
 {
 	"_id": "anonymous_25edru.backend_bounty",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_25edru.backend_bounty",
 	"sector": "VNP_6121",
 	"sec_level": 4,
 	"date_added": 1558967489240,
-	"last_scraped": 1562962908435,
+	"last_scraped": 1562992991153,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558967489240
 		}
 	],
-	"next_scrape": 1563008709905,
+	"next_scrape": 1563033282195,
 	"category": "fishie_tank",
-	"last_update": 1562962908435,
+	"last_update": 1562993031045,
 	"output": [
 		{
 			"args": {},
-			"calls": 1240558,
+			"calls": 1248886,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"i eve",
@@ -65,7 +65,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 117055,
+			"calls": 119623,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -159,8 +159,8 @@
 			]
 		}
 	],
-	"updt": 1562914775301,
-	"edit": 149,
+	"updt": 1562993023025,
+	"edit": 151,
 	"identified": [
 		{
 			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
@@ -181,6 +181,11 @@
 				": Introd",
 				" comcode"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
