@@ -1,27 +1,27 @@
 {
 	"_id": "unidentified_mjvh2d.a5_visualiser",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_mjvh2d.a5_visualiser",
 	"sector": "VNP_7259",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1562981933036,
+	"last_scraped": 1563011162018,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1562952209777,
-	"edit": 155,
-	"next_scrape": 1563023696137,
+	"updt": 1562981969761,
+	"edit": 156,
+	"next_scrape": 1563053094823,
 	"category": "fishie_tank",
-	"last_update": 1562981933036,
+	"last_update": 1563011162018,
 	"output": [
 		{
 			"args": {},
-			"calls": 1228855,
+			"calls": 1240265,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"card ",
@@ -65,7 +65,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 115706,
+			"calls": 116888,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -114,7 +114,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 1326123,
+			"calls": 1334316,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"card ",
