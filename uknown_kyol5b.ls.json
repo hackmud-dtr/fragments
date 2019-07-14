@@ -1,0 +1,146 @@
+{
+	"_id": "uknown_kyol5b.ls",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "uknown_kyol5b.ls",
+	"sector": "HJG_2788",
+	"sec_level": 4,
+	"date_added": 1563132311847,
+	"last_scraped": 1563132561814,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1563132311847
+		}
+	],
+	"updt": 1563132343612,
+	"edit": 1,
+	"scrape_ct": 15,
+	"next_scrape": 1563132621814,
+	"category": "fishie_tank",
+	"last_update": 1563132561814,
+	"output": [
+		{
+			"args": {},
+			"calls": 34626,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ou wa",
+				"uld hi",
+				"to,\\n2",
+				"ted to,",
+				"ourself",
+				" :)\\n21",
+				" wanted ",
+				" if you "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ou wa",
+						"uld hi",
+						"to,\\n2",
+						"ted to,",
+						"ourself",
+						" :)\\n21",
+						" wanted ",
+						" if you "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1784,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ou wa",
+				"uld hi",
+				"to,\\n2",
+				"ted to,",
+				"ourself",
+				" :)\\n21",
+				" wanted ",
+				" if you "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ou wa",
+						"uld hi",
+						"to,\\n2",
+						"ted to,",
+						"ourself",
+						" :)\\n21",
+						" wanted ",
+						" if you "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 18001,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ou wa",
+				"uld hi",
+				"to,\\n2",
+				"ted to,",
+				"ourself",
+				" :)\\n21",
+				" wanted ",
+				" if you "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ou wa",
+						"uld hi",
+						"to,\\n2",
+						"ted to,",
+						"ourself",
+						" :)\\n21",
+						" wanted ",
+						" if you "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"ou wa",
+				"uld hi",
+				"to,\\n2",
+				"ted to,",
+				"ourself",
+				" :)\\n21",
+				" wanted ",
+				" if you "
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
