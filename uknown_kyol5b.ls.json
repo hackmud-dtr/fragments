@@ -1,28 +1,27 @@
 {
 	"_id": "uknown_kyol5b.ls",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "uknown_kyol5b.ls",
 	"sector": "HJG_2788",
 	"sec_level": 4,
 	"date_added": 1563132311847,
-	"last_scraped": 1563132561814,
+	"last_scraped": 1563133265192,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563132311847
 		}
 	],
-	"updt": 1563132343612,
-	"edit": 1,
-	"scrape_ct": 15,
-	"next_scrape": 1563132621814,
+	"updt": 1563133245144,
+	"edit": 4,
+	"next_scrape": 1563179495027,
 	"category": "fishie_tank",
-	"last_update": 1563132561814,
+	"last_update": 1563133265192,
 	"output": [
 		{
 			"args": {},
-			"calls": 34626,
+			"calls": 92489,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ou wa",
@@ -54,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1784,
+			"calls": 7880,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -91,7 +90,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 18001,
+			"calls": 85513,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ou wa",
@@ -133,14 +132,6 @@
 				" wanted ",
 				" if you "
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
