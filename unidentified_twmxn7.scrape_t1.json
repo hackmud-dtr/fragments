@@ -6,28 +6,33 @@
 	"sector": "VNP_3574",
 	"sec_level": 4,
 	"date_added": 1559434943592,
-	"last_scraped": 1563067725566,
+	"last_scraped": 1563129168497,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559434943592
 		}
 	],
-	"next_scrape": 1563112659820,
+	"next_scrape": 1563171895209,
 	"category": "fishie_tank",
-	"last_update": 1563067725566,
+	"last_update": 1563129178880,
 	"output": [
 		{
 			"args": {},
-			"calls": 1169195,
+			"calls": 1178265,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"we've",
 				"on al",
+				"oday.",
+				"lion ",
 				"d tel",
 				"ade b",
+				"You'd",
 				" feel",
+				" all ",
 				"e prog",
+				"st don'",
 				"o focus",
 				"ll me t",
 				"l it to",
@@ -37,7 +42,8 @@
 				" but I ",
 				"window a",
 				"s like t",
-				"ess that"
+				"ess that",
+				"but I ju"
 			],
 			"hits": [
 				{
@@ -67,7 +73,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 111976,
+			"calls": 112907,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -77,10 +83,15 @@
 			"fragments": [
 				"we've",
 				"on al",
+				"oday.",
+				"lion ",
 				"d tel",
 				"ade b",
+				"You'd",
 				" feel",
+				" all ",
 				"e prog",
+				"st don'",
 				"o focus",
 				"ll me t",
 				"l it to",
@@ -90,7 +101,8 @@
 				" but I ",
 				"window a",
 				"s like t",
-				"ess that"
+				"ess that",
+				"but I ju"
 			],
 			"hits": [
 				{
@@ -165,8 +177,8 @@
 			]
 		}
 	],
-	"updt": 1563039693900,
-	"edit": 132,
+	"updt": 1563067877862,
+	"edit": 133,
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
@@ -188,6 +200,11 @@
 				"s like t",
 				"ess that"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
