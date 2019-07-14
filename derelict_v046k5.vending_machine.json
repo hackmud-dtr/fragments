@@ -1,27 +1,27 @@
 {
 	"_id": "derelict_v046k5.vending_machine",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_v046k5.vending_machine",
 	"sector": "HJG_3549",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1563044906068,
+	"last_scraped": 1563073414540,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1563014438921,
-	"edit": 157,
-	"next_scrape": 1563086426673,
+	"updt": 1563045102044,
+	"edit": 158,
+	"next_scrape": 1563115490603,
 	"category": "fishie_tank",
-	"last_update": 1563044906068,
+	"last_update": 1563073414540,
 	"output": [
 		{
 			"args": {},
-			"calls": 1303202,
+			"calls": 1309713,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ll me",
@@ -69,7 +69,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 122457,
+			"calls": 123071,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -122,7 +122,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 1356717,
+			"calls": 1376854,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ll me",
