@@ -1,48 +1,49 @@
 {
 	"_id": "uknown_pv7kcy.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_pv7kcy.db",
 	"sector": "K_5050",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1563066156451,
+	"last_scraped": 1563127558797,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1563033832647,
-	"edit": 156,
-	"next_scrape": 1563112637522,
+	"updt": 1563066301460,
+	"edit": 157,
+	"next_scrape": 1563170022695,
 	"category": "fishie_tank",
-	"last_update": 1563066156451,
+	"last_update": 1563127588546,
 	"output": [
 		{
 			"args": {},
-			"calls": 1274880,
+			"calls": 1286682,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"nder'",
-				"ender",
 				"ayed ",
 				"al da",
 				" afte",
+				"nder's",
 				"he def",
 				"FF dea",
+				" damag",
 				"to\\n210",
 				"r that ",
 				"fter th",
-				"defende",
 				"damage ",
 				"at we\\n",
 				"6 the d",
+				" that w",
 				" stack.",
 				" defend",
 				" And af",
 				"ge to\\n2",
 				"er's sta",
+				"defender",
 				"d in\\n20",
 				"ck.\\n20F",
 				"F deal d",
@@ -99,7 +100,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 116967,
+			"calls": 118616,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -107,25 +108,26 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"nder'",
-				"ender",
 				"ayed ",
 				"al da",
 				" afte",
+				"nder's",
 				"he def",
 				"FF dea",
+				" damag",
 				"to\\n210",
 				"r that ",
 				"fter th",
-				"defende",
 				"damage ",
 				"at we\\n",
 				"6 the d",
+				" that w",
 				" stack.",
 				" defend",
 				" And af",
 				"ge to\\n2",
 				"er's sta",
+				"defender",
 				"d in\\n20",
 				"ck.\\n20F",
 				"F deal d",
@@ -293,6 +295,11 @@
 				"\\n20FF de",
 				"\\n20FD An"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
