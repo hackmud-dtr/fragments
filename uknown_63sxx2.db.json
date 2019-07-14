@@ -6,29 +6,21 @@
 	"sector": "HJG_2788",
 	"sec_level": 4,
 	"date_added": 1563118993320,
-	"last_scraped": 1563119033935,
+	"last_scraped": 1563119827056,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563118993320
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1563119093935,
+	"scrape_ct": 5,
+	"next_scrape": 1563119887056,
 	"category": "fishie_tank",
-	"last_update": 1563119033935,
+	"last_update": 1563119827056,
 	"output": [
 		{
 			"args": {},
-			"calls": 7427,
+			"calls": 58224,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"'s pr",
@@ -38,6 +30,121 @@
 				"creatio",
 				"O-class",
 				"2060 Che"
+			],
+			"hits": [
+				{
+					"document": "Erin File",
+					"frags": [
+						"'s pr",
+						" it pe",
+						" Cheng",
+						"creatio",
+						"O-class",
+						"2060 Che"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"etworke"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 5562,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"'s pr",
+				" it pe",
+				" Cheng",
+				"etworke",
+				"creatio",
+				"O-class",
+				"2060 Che"
+			],
+			"hits": [
+				{
+					"document": "Erin File",
+					"frags": [
+						"'s pr",
+						" it pe",
+						" Cheng",
+						"creatio",
+						"O-class",
+						"2060 Che"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"etworke"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 60180,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"'s pr",
+				" it pe",
+				" Cheng",
+				"etworke",
+				"creatio",
+				"O-class",
+				"2060 Che"
+			],
+			"hits": [
+				{
+					"document": "Erin File",
+					"frags": [
+						"'s pr",
+						" it pe",
+						" Cheng",
+						"creatio",
+						"O-class",
+						"2060 Che"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"etworke"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1563119723811,
+	"edit": 4,
+	"identified": [
+		{
+			"document": "Erin File",
+			"frags": [
+				"'s pr",
+				" it pe",
+				" Cheng",
+				"creatio",
+				"O-class",
+				"2060 Che"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"etworke"
 			]
 		}
 	]
