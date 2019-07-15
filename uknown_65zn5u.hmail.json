@@ -6,22 +6,22 @@
 	"sector": "K_3778",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1563104483333,
+	"last_scraped": 1563149425172,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1563059312361,
-	"edit": 161,
-	"next_scrape": 1563149366285,
+	"updt": 1563104622167,
+	"edit": 162,
+	"next_scrape": 1563191858053,
 	"category": "fishie_tank",
-	"last_update": 1563104483333,
+	"last_update": 1563149425172,
 	"output": [
 		{
 			"args": {},
-			"calls": 1300718,
+			"calls": 1314743,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"USER ",
@@ -29,17 +29,20 @@
 				"NETW ",
 				"FILE0",
 				" TIME",
+				"| PROG",
 				"T0XCC_",
 				"4\\nSYS",
 				"R | NET",
-				"OR | TI",
 				"ME ERRO",
 				"LE0XE2A",
+				"CLST0XC",
 				" ERROR ",
 				"XCC_SECT",
+				"ROR | TI",
 				"F4_CLST0",
 				"ERROR | ",
 				"ECT0X7BE",
+				"E2A8BDD4",
 				"8BDD4\\nS",
 				"\\nSYST ER"
 			],
@@ -73,7 +76,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 117846,
+			"calls": 118692,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -86,17 +89,20 @@
 				"NETW ",
 				"FILE0",
 				" TIME",
+				"| PROG",
 				"T0XCC_",
 				"4\\nSYS",
 				"R | NET",
-				"OR | TI",
 				"ME ERRO",
 				"LE0XE2A",
+				"CLST0XC",
 				" ERROR ",
 				"XCC_SECT",
+				"ROR | TI",
 				"F4_CLST0",
 				"ERROR | ",
 				"ECT0X7BE",
+				"E2A8BDD4",
 				"8BDD4\\nS",
 				"\\nSYST ER"
 			],
@@ -130,7 +136,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 1337244,
+			"calls": 1351051,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"USER ",
@@ -138,17 +144,20 @@
 				"NETW ",
 				"FILE0",
 				" TIME",
+				"| PROG",
 				"T0XCC_",
 				"4\\nSYS",
 				"R | NET",
-				"OR | TI",
 				"ME ERRO",
 				"LE0XE2A",
+				"CLST0XC",
 				" ERROR ",
 				"XCC_SECT",
+				"ROR | TI",
 				"F4_CLST0",
 				"ERROR | ",
 				"ECT0X7BE",
+				"E2A8BDD4",
 				"8BDD4\\nS",
 				"\\nSYST ER"
 			],
