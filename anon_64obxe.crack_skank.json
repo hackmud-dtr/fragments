@@ -6,32 +6,29 @@
 	"sector": "HJG_6175",
 	"sec_level": 4,
 	"date_added": 1560702462909,
-	"last_scraped": 1563210350107,
+	"last_scraped": 1563234912440,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560702462909
 		}
 	],
-	"next_scrape": 1563250959367,
+	"next_scrape": 1563281356341,
 	"category": "fishie_tank",
-	"last_update": 1563210350107,
+	"last_update": 1563234912440,
 	"output": [
 		{
 			"args": {},
-			"calls": 810240,
+			"calls": 818249,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ust d",
 				"n all",
-				"indow",
 				"all t",
-				" but ",
 				"ut I j",
 				"on lig",
 				"ke the",
 				"ion li",
-				"gress ",
 				"cus on",
 				" the p",
 				"x milli",
@@ -43,21 +40,21 @@
 				"my wind",
 				"ll me t",
 				"like th",
+				"indow a",
 				"e six m",
 				"dow and",
-				"I just ",
 				". You'd",
-				"'d tell",
 				" today.",
 				" lights",
 				" You'd ",
-				" I just",
 				"y. It's ",
 				"ve made ",
 				"us on al",
 				"t feel i",
 				"side my ",
 				"s like t",
+				"rogress ",
+				"on't fee",
 				"million ",
 				"it today",
 				"illion l",
@@ -66,12 +63,16 @@
 				"el it to",
 				"e progre",
 				"at we've",
+				"ade but ",
 				"'s like ",
+				"'d tell ",
+				" window ",
 				" we've m",
 				" that we",
 				" me to f",
 				" focus o",
-				" don't f"
+				" don't f",
+				" I just "
 			],
 			"hits": [
 				{
@@ -369,8 +370,8 @@
 			]
 		}
 	],
-	"updt": 1563210343058,
-	"edit": 101,
+	"updt": 1563210571139,
+	"edit": 102,
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
@@ -426,6 +427,14 @@
 				" focus o",
 				" don't f"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
