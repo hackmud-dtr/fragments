@@ -6,24 +6,25 @@
 	"sector": "VNP_1327",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1563156231282,
+	"last_scraped": 1563180807989,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1563130087923,
-	"edit": 162,
-	"next_scrape": 1563202111565,
+	"updt": 1563156249175,
+	"edit": 163,
+	"next_scrape": 1563221659913,
 	"category": "fishie_tank",
-	"last_update": 1563156231282,
+	"last_update": 1563180798345,
 	"output": [
 		{
 			"args": {},
-			"calls": 1346268,
+			"calls": 1352664,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"r imi",
 				"CLST0",
 				"848D0",
 				"3A848",
@@ -34,9 +35,11 @@
 				"TIME ER",
 				"T0XF7_S",
 				"T0XD7_C",
+				"RROR | ",
 				"ROR | T",
 				"LE0X3A8",
 				"7_SECT0",
+				"1D2F_FI",
 				" | TIME",
 				" TIME E",
 				"| PROG E",
@@ -107,7 +110,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 122319,
+			"calls": 122949,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -115,6 +118,7 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"r imi",
 				"CLST0",
 				"848D0",
 				"3A848",
@@ -125,9 +129,11 @@
 				"TIME ER",
 				"T0XF7_S",
 				"T0XD7_C",
+				"RROR | ",
 				"ROR | T",
 				"LE0X3A8",
 				"7_SECT0",
+				"1D2F_FI",
 				" | TIME",
 				" TIME E",
 				"| PROG E",
