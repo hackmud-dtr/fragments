@@ -1,27 +1,27 @@
 {
 	"_id": "unidentified_q62u62.bot_brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_q62u62.bot_brain",
 	"sector": "HJG_5405",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1563106714613,
+	"last_scraped": 1563151113832,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1563106874770,
-	"edit": 165,
-	"next_scrape": 1563152779242,
+	"updt": 1563109352506,
+	"edit": 166,
+	"next_scrape": 1563197863744,
 	"category": "fishie_tank",
-	"last_update": 1563106714613,
+	"last_update": 1563151146437,
 	"output": [
 		{
 			"args": {},
-			"calls": 1318277,
+			"calls": 1326495,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"IME E",
@@ -79,7 +79,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 124391,
+			"calls": 125078,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -223,6 +223,11 @@
 				" | PROG ",
 				" USER er"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
