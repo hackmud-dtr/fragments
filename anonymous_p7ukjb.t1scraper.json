@@ -6,16 +6,16 @@
 	"sector": "VNP_9651",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1563181892972,
+	"last_scraped": 1563210568450,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1563157377404,
-	"edit": 160,
-	"next_scrape": 1563228668753,
+	"updt": 1563181939951,
+	"edit": 161,
+	"next_scrape": 1563252790373,
 	"category": "fishie_tank",
 	"last_update": 1563181892972,
 	"output": [
@@ -223,6 +223,14 @@
 				"call. Fe",
 				"'! ## Ac"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
