@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_mtl1xn.insurance",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "timeout",
 	"script": "anonymous_mtl1xn.insurance",
 	"sector": "HJG_2788",
 	"sec_level": 4,
@@ -15,12 +15,27 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1563161487181
+	"next_scrape": 1563161487181,
+	"category": "risk_factor",
+	"last_update": 1563161427181,
+	"output": [
+		{
+			"args": {},
+			"calls": 872,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"llory",
+				"cleve",
+				"7 Ver",
+				"ver\\n2",
+				"\\n21C7",
+				"ver, Mal",
+				"y\\n21C8 :"
+			]
+		}
+	]
 }
