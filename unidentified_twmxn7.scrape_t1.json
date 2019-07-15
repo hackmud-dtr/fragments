@@ -1,25 +1,25 @@
 {
 	"_id": "unidentified_twmxn7.scrape_t1",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_twmxn7.scrape_t1",
 	"sector": "VNP_3574",
 	"sec_level": 4,
 	"date_added": 1559434943592,
-	"last_scraped": 1563180144958,
+	"last_scraped": 1563208699222,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559434943592
 		}
 	],
-	"next_scrape": 1563225118035,
+	"next_scrape": 1563254201542,
 	"category": "fishie_tank",
-	"last_update": 1563180144958,
+	"last_update": 1563208738573,
 	"output": [
 		{
 			"args": {},
-			"calls": 1195860,
+			"calls": 1205661,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"we've",
@@ -79,7 +79,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 115778,
+			"calls": 117899,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -201,8 +201,8 @@
 			]
 		}
 	],
-	"updt": 1563155346842,
-	"edit": 137,
+	"updt": 1563180361702,
+	"edit": 138,
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
@@ -230,6 +230,11 @@
 				"ess that",
 				"but I ju"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
