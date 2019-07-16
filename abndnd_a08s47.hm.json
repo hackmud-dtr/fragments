@@ -1,35 +1,36 @@
 {
 	"_id": "abndnd_a08s47.hm",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_a08s47.hm",
 	"sector": "K_3778",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1563268372473,
+	"last_scraped": 1563318378329,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1563248679150,
-	"edit": 169,
-	"next_scrape": 1563308621215,
+	"updt": 1563268518406,
+	"edit": 170,
+	"next_scrape": 1563365169904,
 	"category": "fishie_tank",
-	"last_update": 1563268372473,
+	"last_update": 1563318408382,
 	"output": [
 		{
 			"args": {},
-			"calls": 1348547,
+			"calls": 1360074,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"_SECT0",
 				"LST0X7A",
 				"7_FILE0",
 				"7A_SECT",
+				"_SECT0XF",
 				"_FILE0X2",
 				"_CLST0X7",
+				"XF227_FI",
 				"X2BC7D17",
 				"T0XF227_",
 				"T0XBF_CL",
@@ -38,6 +39,7 @@
 				"MFT0XBF_",
 				"LE0X2BC7",
 				"FT0XBF_C",
+				"FILE0X2B",
 				"F227_FIL",
 				"ECT0XF22",
 				"E0X2BC7D",
@@ -83,7 +85,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 124180,
+			"calls": 126184,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -91,12 +93,13 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"_SECT0",
 				"LST0X7A",
 				"7_FILE0",
 				"7A_SECT",
+				"_SECT0XF",
 				"_FILE0X2",
 				"_CLST0X7",
+				"XF227_FI",
 				"X2BC7D17",
 				"T0XF227_",
 				"T0XBF_CL",
@@ -105,6 +108,7 @@
 				"MFT0XBF_",
 				"LE0X2BC7",
 				"FT0XBF_C",
+				"FILE0X2B",
 				"F227_FIL",
 				"ECT0XF22",
 				"E0X2BC7D",
@@ -237,6 +241,11 @@
 				"0XBF_CLS",
 				"0X2BC7D1"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
