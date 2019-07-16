@@ -1,23 +1,23 @@
 {
 	"_id": "derelict_adeke6.unloader",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_adeke6.unloader",
 	"sector": "K_6531",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1563316740362,
+	"last_scraped": 1563316782228,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1563266265309,
-	"edit": 168,
-	"next_scrape": 1563362053114,
+	"updt": 1563316755665,
+	"edit": 169,
+	"next_scrape": 1563358050825,
 	"category": "fishie_tank",
-	"last_update": 1563316750834,
+	"last_update": 1563316782228,
 	"output": [
 		{
 			"args": {},
@@ -61,7 +61,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 125927,
+			"calls": 127061,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -106,7 +106,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 1352379,
+			"calls": 1361492,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"stren",
@@ -160,11 +160,6 @@
 				" 4 beats",
 				" 16. 4?\\n"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
