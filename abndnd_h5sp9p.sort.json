@@ -6,16 +6,16 @@
 	"sector": "NGC_2062",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1563256843981,
+	"last_scraped": 1563296921999,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1563234470289,
-	"edit": 171,
-	"next_scrape": 1563296907102,
+	"updt": 1563257019015,
+	"edit": 172,
+	"next_scrape": 1563339437553,
 	"category": "fishie_tank",
 	"last_update": 1563256843981,
 	"output": [
@@ -442,6 +442,14 @@
 				" of net",
 				"d assets"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
