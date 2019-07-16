@@ -1,25 +1,25 @@
 {
 	"_id": "abndnd_w08ah5.relist",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_w08ah5.relist",
 	"sector": "K_7717",
 	"sec_level": 4,
 	"date_added": 1560985903120,
-	"last_scraped": 1563262080216,
+	"last_scraped": 1563313321734,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560985903120
 		}
 	],
-	"next_scrape": 1563304942161,
+	"next_scrape": 1563356152049,
 	"category": "fishie_tank",
-	"last_update": 1563262080216,
+	"last_update": 1563313341996,
 	"output": [
 		{
 			"args": {},
-			"calls": 693952,
+			"calls": 710322,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" down",
@@ -45,7 +45,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 70177,
+			"calls": 71378,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -99,8 +99,8 @@
 			]
 		}
 	],
-	"updt": 1563240556684,
-	"edit": 81,
+	"updt": 1563262208154,
+	"edit": 82,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -111,6 +111,11 @@
 				"f 13, fa",
 				" Deal 3 "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
