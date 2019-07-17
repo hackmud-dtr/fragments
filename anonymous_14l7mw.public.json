@@ -1,21 +1,29 @@
 {
 	"_id": "anonymous_14l7mw.public",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "anonymous_14l7mw.public",
 	"sector": "K_9762",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1563354560007,
+	"last_scraped": 1563371603065,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
+		},
+		{
+			"type": "died",
+			"when": 1563371603065
+		},
+		{
+			"type": "died",
+			"when": 1563371798820
 		}
 	],
-	"updt": 1563335930783,
-	"edit": 171,
-	"next_scrape": 1563396560564,
+	"updt": 1563371775873,
+	"edit": 173,
+	"next_scrape": 1563453663111,
 	"category": "fishie_tank",
 	"last_update": 1563354560007,
 	"output": [
@@ -395,5 +403,6 @@
 				" ## Nice"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_14l7mw.public: script doesn't exist\"}"
 }
