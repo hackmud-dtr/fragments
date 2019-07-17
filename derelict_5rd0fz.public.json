@@ -1,27 +1,28 @@
 {
 	"_id": "derelict_5rd0fz.public",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_5rd0fz.public",
 	"sector": "SPC_8584",
 	"sec_level": 4,
 	"date_added": 1560608001976,
-	"last_scraped": 1563370748923,
+	"last_scraped": 1563387336851,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560608001976
 		}
 	],
-	"next_scrape": 1563415142185,
+	"next_scrape": 1563431152747,
 	"category": "fishie_tank",
-	"last_update": 1563370748923,
+	"last_update": 1563387356850,
 	"output": [
 		{
 			"args": {},
-			"calls": 912922,
+			"calls": 924166,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"ronme",
 				"litic",
 				" or p",
 				"the ob",
@@ -32,15 +33,17 @@
 				". Ofte",
 				" is th",
 				"sts. We",
-				"or envi",
 				"nmental",
+				"l scien",
 				"it. Oft",
 				"ists or",
 				"doesn't",
+				"and it.",
+				" it. Of",
 				" bioeng",
-				" answer",
 				"us answe",
 				"tists. W",
+				"s answer",
 				"ot bioen",
 				"l econom",
 				"is that ",
@@ -50,7 +53,8 @@
 				"e are no",
 				"are not ",
 				"Often, t",
-				" underst"
+				" underst",
+				" or envi"
 			],
 			"hits": [
 				{
@@ -93,7 +97,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 87770,
+			"calls": 88847,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -101,6 +105,7 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"ronme",
 				"litic",
 				" or p",
 				"the ob",
@@ -111,15 +116,17 @@
 				". Ofte",
 				" is th",
 				"sts. We",
-				"or envi",
 				"nmental",
+				"l scien",
 				"it. Oft",
 				"ists or",
 				"doesn't",
+				"and it.",
+				" it. Of",
 				" bioeng",
-				" answer",
 				"us answe",
 				"tists. W",
+				"s answer",
 				"ot bioen",
 				"l econom",
 				"is that ",
@@ -129,7 +136,8 @@
 				"e are no",
 				"are not ",
 				"Often, t",
-				" underst"
+				" underst",
+				" or envi"
 			],
 			"hits": [
 				{
@@ -279,6 +287,11 @@
 			]
 		}
 	],
-	"updt": 1563353742147,
-	"edit": 105
+	"updt": 1563387329579,
+	"edit": 107,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
