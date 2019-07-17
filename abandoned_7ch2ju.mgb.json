@@ -1,25 +1,25 @@
 {
 	"_id": "abandoned_7ch2ju.mgb",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_7ch2ju.mgb",
 	"sector": "SPC_2440",
 	"sec_level": 4,
 	"date_added": 1563234712945,
-	"last_scraped": 1563307590715,
+	"last_scraped": 1563330065063,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563234712945
 		}
 	],
-	"next_scrape": 1563348094596,
+	"next_scrape": 1563372590432,
 	"category": "clicker",
-	"last_update": 1563307590715,
+	"last_update": 1563330065063,
 	"output": [
 		{
 			"args": {},
-			"calls": 89730,
+			"calls": 104032,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"TIME ",
@@ -53,7 +53,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 79196,
+			"calls": 94019,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"TIME ",
@@ -134,6 +134,11 @@
 			]
 		}
 	],
-	"updt": 1563257694575,
-	"edit": 5
+	"updt": 1563330063006,
+	"edit": 7,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
