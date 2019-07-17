@@ -1,25 +1,25 @@
 {
 	"_id": "abandoned_u3pmch.ragna2",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_u3pmch.ragna2",
 	"sector": "K_3966",
 	"sec_level": 4,
 	"date_added": 1559518356398,
-	"last_scraped": 1563327093518,
+	"last_scraped": 1563347275977,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559518356398
 		}
 	],
-	"next_scrape": 1563368605398,
+	"next_scrape": 1563388396989,
 	"category": "clicker",
-	"last_update": 1563327093518,
+	"last_update": 1563347275977,
 	"output": [
 		{
 			"args": {},
-			"calls": 1210460,
+			"calls": 1225505,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"| NET",
@@ -57,7 +57,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 1348073,
+			"calls": 1359881,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"| NET",
@@ -873,6 +873,11 @@
 			]
 		}
 	],
-	"updt": 1563298501128,
-	"edit": 147
+	"updt": 1563327128839,
+	"edit": 148,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
