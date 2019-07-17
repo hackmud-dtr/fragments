@@ -1,27 +1,27 @@
 {
 	"_id": "anon_o87zn7.hackmud",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_o87zn7.hackmud",
 	"sector": "VNP_9438",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1563317694958,
+	"last_scraped": 1563338699403,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1563267842738,
-	"edit": 164,
-	"next_scrape": 1563360877806,
+	"updt": 1563317882490,
+	"edit": 165,
+	"next_scrape": 1563380822317,
 	"category": "clicker",
-	"last_update": 1563317694958,
+	"last_update": 1563338699403,
 	"output": [
 		{
 			"args": {},
-			"calls": 1327896,
+			"calls": 1345073,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"work.",
@@ -105,7 +105,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 1351087,
+			"calls": 1359330,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"work.",
@@ -309,6 +309,11 @@
 				" I can't",
 				" Anyway."
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"CLICK": true
 		}
 	]
 }
