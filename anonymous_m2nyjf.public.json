@@ -1,27 +1,27 @@
 {
 	"_id": "anonymous_m2nyjf.public",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_m2nyjf.public",
 	"sector": "K_5859",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1563357352758,
+	"last_scraped": 1563374177956,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1563357351079,
-	"edit": 169,
-	"next_scrape": 1563403154363,
+	"updt": 1563357576275,
+	"edit": 170,
+	"next_scrape": 1563419528827,
 	"category": "fishie_tank",
-	"last_update": 1563357352758,
+	"last_update": 1563374208109,
 	"output": [
 		{
 			"args": {},
-			"calls": 1411418,
+			"calls": 1425076,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"urati",
@@ -83,7 +83,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 128127,
+			"calls": 129973,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -237,6 +237,11 @@
 				"e data t",
 				"akes the"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
