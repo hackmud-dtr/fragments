@@ -1,25 +1,25 @@
 {
 	"_id": "derelict_galnvi.weather",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_galnvi.weather",
 	"sector": "K_0304",
 	"sec_level": 4,
 	"date_added": 1559154108935,
-	"last_scraped": 1563306204593,
+	"last_scraped": 1563328855365,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559154108935
 		}
 	],
-	"next_scrape": 1563346519802,
+	"next_scrape": 1563368866389,
 	"category": "fishie_tank",
-	"last_update": 1563306204593,
+	"last_update": 1563328855365,
 	"output": [
 		{
 			"args": {},
-			"calls": 1324671,
+			"calls": 1334412,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"of UC",
@@ -74,7 +74,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 126645,
+			"calls": 128553,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -134,7 +134,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 1379889,
+			"calls": 1383782,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"of UC",
@@ -186,8 +186,8 @@
 			]
 		}
 	],
-	"updt": 1563255440750,
-	"edit": 158,
+	"updt": 1563306387961,
+	"edit": 159,
 	"identified": [
 		{
 			"document": "Erin File",
