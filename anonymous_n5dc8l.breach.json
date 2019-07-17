@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_n5dc8l.breach",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "skip",
 	"script": "anonymous_n5dc8l.breach",
-	"sector": "K_0887",
+	"sector": "NGC_9751",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1563322590018,
+	"last_scraped": 1563336971172,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,11 +15,37 @@
 		{
 			"type": "died",
 			"when": 1563336150562
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1563336750256,
+				"from": "NGC_9751",
+				"to": "K_0887"
+			}
+		]
+	],
+	"updt": 1563336833247,
+	"edit": 149,
+	"output": [
+		{
+			"args": {},
+			"calls": 1779296,
+			"base": "\n\n`DSystem has been breached.`",
+			"fragments": [
+				"ade b",
+				"he prog",
+				"focus o",
+				"ess tha",
+				"that we'",
+				" it toda"
+			]
 		}
 	],
-	"updt": 1563322621453,
-	"edit": 147,
-	"output": "\n\n`DSystem has been breached.`",
-	"next_scrape": 1563415256735,
-	"pl_output": "\n\n`DSystem has been breached.`"
+	"next_scrape": 1563337031172,
+	"pl_output": "\n\n`DSystem has been breached.`",
+	"scrape_ct": 12,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1563336971172,
+	"old_output": "\n\n`DSystem has been breached.`"
 }
