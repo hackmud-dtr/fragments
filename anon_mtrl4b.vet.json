@@ -1,25 +1,25 @@
 {
 	"_id": "anon_mtrl4b.vet",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_mtrl4b.vet",
 	"sector": "K_6566",
 	"sec_level": 4,
 	"date_added": 1562982757168,
-	"last_scraped": 1563455291548,
+	"last_scraped": 1563467958706,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562982757168
 		}
 	],
-	"next_scrape": 1563501819363,
+	"next_scrape": 1563512972012,
 	"category": "clicker",
-	"last_update": 1563455291548,
+	"last_update": 1563467958706,
 	"output": [
 		{
 			"args": {},
-			"calls": 248690,
+			"calls": 264085,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"a tow",
@@ -52,7 +52,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 268983,
+			"calls": 271876,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"a tow",
@@ -133,6 +133,11 @@
 			]
 		}
 	],
-	"updt": 1563443246526,
-	"edit": 21
+	"updt": 1563455429153,
+	"edit": 22,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
