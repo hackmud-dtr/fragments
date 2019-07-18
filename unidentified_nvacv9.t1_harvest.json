@@ -1,21 +1,29 @@
 {
 	"_id": "unidentified_nvacv9.t1_harvest",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unidentified_nvacv9.t1_harvest",
 	"sector": "SPC_9848",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1563463955386,
+	"last_scraped": 1563476156126,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
+		},
+		{
+			"type": "died",
+			"when": 1563476156126
+		},
+		{
+			"type": "died",
+			"when": 1563476156605
 		}
 	],
-	"updt": 1563451597263,
-	"edit": 157,
-	"next_scrape": 1563555284561,
+	"updt": 1563463992598,
+	"edit": 158,
+	"next_scrape": 1563560904491,
 	"output": "Cannot read property 'call' of undefined",
-	"pl_output": "Cannot read property 'call' of undefined"
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_nvacv9.t1_harvest: script doesn't exist\"}"
 }
