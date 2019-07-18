@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_t0lva2.magic",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "derelict_t0lva2.magic",
-	"sector": "HJG_4785",
+	"sector": "NGC_7982",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1563476185539,
+	"last_scraped": 1563490317379,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,11 +15,19 @@
 		{
 			"type": "died",
 			"when": 1563489374720
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1563490308145,
+				"from": "NGC_7982",
+				"to": "HJG_4785"
+			}
+		]
 	],
-	"updt": 1563476387088,
-	"edit": 158,
+	"updt": 1563489466265,
+	"edit": 159,
 	"output": "{\"ok\":false}",
-	"next_scrape": 1563562676279,
+	"next_scrape": 1563582119957,
 	"pl_output": "{\"ok\":false}"
 }
