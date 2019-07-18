@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_rvd64g.send",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "unidentified_rvd64g.send",
 	"sector": "HJG_0763",
 	"sec_level": 1,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1558821408422
+		},
+		{
+			"type": "died",
+			"when": 1563485135617
 		}
 	],
-	"updt": 1561411267998,
-	"edit": 4,
+	"updt": 1561442371783,
+	"edit": 5,
 	"pl_output": "{\"ok\":false,\"msg\":\"Usage: { i:<upgrade index or array>, to:\\\"<user name>\\\" }\"}",
 	"next_scrape": 1561503915631
 }
