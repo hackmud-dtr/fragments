@@ -1,19 +1,23 @@
 {
 	"_id": "anon_7b3c6y.call",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_7b3c6y.call",
 	"sector": "HJG_0454",
 	"sec_level": 4,
 	"date_added": 1560572631047,
-	"last_scraped": 1563447330481,
+	"last_scraped": 1563459835285,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560572631047
+		},
+		{
+			"type": "died",
+			"when": 1563459835285
 		}
 	],
-	"next_scrape": 1563490183641,
+	"next_scrape": 1563542187321,
 	"category": "dice_roller",
 	"last_update": 1563447330481,
 	"output": [
@@ -112,8 +116,8 @@
 			]
 		}
 	],
-	"updt": 1563447536258,
-	"edit": 115,
+	"updt": 1563449792995,
+	"edit": 116,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -160,5 +164,6 @@
 				" deck\\n21"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_7b3c6y.call: script doesn't exist\"}"
 }
