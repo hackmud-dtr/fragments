@@ -6,23 +6,23 @@
 	"sector": "SPC_9848",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1563431260464,
+	"last_scraped": 1563444225583,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1563431307212,
-	"edit": 94,
+	"updt": 1563444378317,
+	"edit": 96,
 	"scrape_ct": 5,
-	"next_scrape": 1563475521885,
+	"next_scrape": 1563486178116,
 	"category": "UNKNOWN CATEGORY",
-	"last_update": 1563431260464,
+	"last_update": 1563444225583,
 	"output": [
 		{
 			"args": {},
-			"calls": 815087,
+			"calls": 823502,
 			"base": "\n`FThis script is intended to be used within a script for now.`\n\n`FFeel free to donate to ``Tryo``F if you like the script :)`\n\n`CVersion`: `T1.2.0`\n\n`ADocumentation`:\n\n\t`Finitialize`(`Nwidth`: `snumber`, `Nheight`: `snumber`, `Nfill?`: `sstring`): `Avoid`;\n\n\t`FisCoordInDisplay`(`Nx`: `snumber`, `Ny`: `snumber`): `Aboolean`;\n\n\t`Treadonly` `FdisplaySize`: `S{`\n\t\t[`Nx`: `sstring`]: `sany`;\n\t\t`Ny`: `snumber`;\n\t\t`Nx`: `snumber`;\n\t};\n\n\t`Frender`(): `sstring`;\n\n\t`Fclear`(`NclearChar?`: `sstring`): `Avoid`;\n\n\t`Fdraw`(`Ndrawable`: `sany`): `Avoid`;\n\n\t`FsetPixel`(`Nx`: `snumber`, `Ny`: `snumber`, `Nchar`: `sstring`, `Ncolor`: `sstring`): `Avoid`;\n\n`ADrawables:`\n\n\t`LRect`(`Nx`: `snumber`, `Ny`: `snumber`, `Nw`: `snumber`, `Nh` `snumber`, `Nchar?`: `sstring`, `Ncolor?`: `sstring`): {\n\t\t[`Nx`: `sstring`]: `sany`;\n\t\t`Nx`: `snumber`;\n\t\t`Ny`: `snumber`;\n\t\t`Nw`: `snumber`;\n\t\t`Nh` `snumber`;\n\t\t`Nchar`: `sstring`;\n\t\t`Ncolor`: `sstring`;\n\t\t`Ntype`: `sstring`;\n\t};\n\t`LFilledRect`(`Nx`: `snumber`, `Ny`: `snumber`, `Nw`: `snumber`, `Nh` `snumber`, `Nchar?`: `sstring`, `Ncolor?`: `sstring`): {\n\t\t[`Nx`: `sstring`]: `sany`;\n\t\t`Nx`: `snumber`;\n\t\t`Ny`: `snumber`;\n\t\t`Nw`: `snumber`;\n\t\t`Nh`: `snumber`;\n\t\t`Nchar`: `sstring`;\n\t\t`Ncolor`: `sstring`;\n\t\t`Ntype`: `sstring`;\n\t};\n\t`LPoint`(`Nx`: `snumber`, `Ny`: `snumber`): {\n\t\t[`Nx`: `sstring`]: `sany`;\n\t\t`Nx`: `snumber`;\n\t\t`Ny`: `snumber`;\n\t\t`Ntype`: `sstring`;\n\t};\n\t`LLine`(`Nx`: `snumber`, `Ny`: `snumber`, `Nx1`: `snumber`, `Ny1`: `snumber`, `Nchar?`: `sstring`, `Ncolor?`: `sstring`): {\n\t\t[`Nx`: `sstring`]: `sany`;\n\t\t`Nx`: `snumber`;\n\t\t`Ny`: `snumber`;\n\t\t`Nx1`: `snumber`;\n\t\t`Ny1`: `snumber`;\n\t\t`Nchar`: `sstring`;\n\t\t`Ncolor`: `sstring`;\n\t\t`Ntype`: `sstring`;\n\t};\n\t`LCircle`(`Nx`: `snumber`, `Ny`: `snumber`, `Nradius`: `snumber`, `Nchar?`: `sstring`, `Ncolor?`: `sstring`): {\n\t\t[`Nx`: `sstring`]: `sany`;\n\t\t`Nx`: `snumber`;\n\t\t`Ny`: `snumber`;\n\t\t`Nradius`: `snumber`;\n\t\t`Nchar`: `sstring`;\n\t\t`Ncolor`: `sstring`;\n\t\t`Ntype`: `sstring`;\n\t};\n\t`LPattern`(`Nx`: `snumber`, `Ny`: `snumber`, `Narray_2d`: `sany[]`, `Nchars?`: `sstring[]`, `Ncolor?`: `sstring`): {\n\t\t[`Nx`: `sstring`]: `sany`;\n\t\t`Nx`: `snumber`;\n\t\t`Ny`: `snumber`;\n\t\t`Npattern`: `sany[]`;\n\t\t`Nchars`: `sstring[]`;\n\t\t`Ncolor`: `sstring`;\n\t\t`Ntype`: `sstring`;\n\t};\n\t`LAsciiString`(`Nx`: `snumber`, `Ny`: `snumber`, `Nstr`: `sstring`, `Nchar?`: `sstring`, `Ncolor?`: `sstring`): {\n\t\t[`Nx`: `sstring`]: `sany`;\n\t\t`Nx`: `snumber`;\n\t\t`Ny`: `snumber`;\n\t\t`Nstr`: `sstring`;\n\t\t`Nchar`: `sstring`;\n\t\t`Ncolor`: `sstring`;\n\t\t`Ntype`: `sstring`;\n\t};\n\t`LString`(`Nx`: `snumber`, `Ny`: `snumber`, `Nstr`: `sstring`, `Ncolor?`: `sstring`): {\n\t\t[`Nx`: `sstring`]: `sany`;\n\t\t`Nx`: `snumber`;\n\t\t`Ny`: `snumber`;\n\t\t`Nstr`: `sstring`;\n\t\t`Ncolor`: `sstring`;\n\t\t`Ntype`: `sstring`;\n\t};\n",
 			"fragments": [
 				"ys th",
@@ -35,7 +35,7 @@
 				"ie, h",
 				"e can",
 				"d to ",
-				"d in ",
+				"cated",
 				"build",
 				"ample",
 				" valu",
@@ -43,10 +43,10 @@
 				" need",
 				" lots",
 				" is a",
-				" in w",
 				" hous",
 				" diff",
 				" are ",
+				" It i",
 				"y-plan",
 				"ve her",
 				"ust as",
@@ -63,6 +63,7 @@
 				"ir pat",
 				"entall",
 				"data -",
+				"d in w",
 				"are ju",
 				" is ul",
 				" as so",
@@ -82,6 +83,8 @@
 				"e her b",
 				"city. I",
 				"cise he",
+				"For exa",
+				" that p",
 				" exampl",
 				" They c",
 				"ue-drive",
@@ -98,8 +101,10 @@
 				"o singul",
 				"make a h",
 				"ll make ",
+				"hey can ",
 				"hem more",
 				"f you gi",
+				"e, has a",
 				"cused on",
 				"assified",
 				"asonable",
@@ -135,6 +140,7 @@
 						"ir pat",
 						"entall",
 						"data -",
+						"d in w",
 						"are ju",
 						" is ul",
 						" as so",
@@ -150,6 +156,7 @@
 						"e her b",
 						"city. I",
 						"cise he",
+						"For exa",
 						" exampl",
 						"ue-drive",
 						"tern. Sh",
@@ -166,6 +173,7 @@
 						"make a h",
 						"hem more",
 						"f you gi",
+						"e, has a",
 						"cused on",
 						"assified",
 						"asonable",
@@ -189,20 +197,8 @@
 						" are ",
 						"mental",
 						"s that ",
-						" They c"
-					]
-				},
-				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-					"frags": [
-						"e can",
-						"d to ",
-						"d in ",
-						"build",
-						" valu",
-						" need",
-						" are ",
-						"s that "
+						" They c",
+						"hey can "
 					]
 				},
 				{
@@ -212,9 +208,46 @@
 						" need",
 						" diff",
 						" are ",
+						" It i",
 						"ust as",
 						"mental",
+						"s that ",
+						" that p"
+					]
+				},
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"e can",
+						"d to ",
+						"build",
+						" valu",
+						" need",
+						" are ",
+						" It i",
 						"s that "
+					]
+				},
+				{
+					"document": "Proving/Children",
+					"frags": [
+						"d to ",
+						" need",
+						" are ",
+						"s that ",
+						" that p",
+						" They c"
+					]
+				},
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"s rea",
+						"cated",
+						" is a",
+						" It i",
+						"on this",
+						"m more "
 					]
 				},
 				{
@@ -228,13 +261,21 @@
 					]
 				},
 				{
-					"document": "Proving/Children",
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
 					"frags": [
-						"d to ",
-						" need",
 						" are ",
-						"s that ",
-						" They c"
+						"mental",
+						"is so ",
+						"ll make "
+					]
+				},
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"uild ",
+						"d to ",
+						"build",
+						"makes t"
 					]
 				},
 				{
@@ -256,47 +297,19 @@
 					]
 				},
 				{
-					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
-					"frags": [
-						" are ",
-						"mental",
-						"is so ",
-						"ll make "
-					]
-				},
-				{
-					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
-					"frags": [
-						"s rea",
-						" is a",
-						"on this",
-						"m more "
-					]
-				},
-				{
-					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
-					"frags": [
-						"uild ",
-						"d to ",
-						"build",
-						"makes t"
-					]
-				},
-				{
 					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
 					"frags": [
 						"uild ",
 						"s rea",
-						"d in ",
 						"build"
 					]
 				},
 				{
-					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
 					"frags": [
 						"d to ",
-						"build",
-						" are "
+						" need",
+						"ise. I"
 					]
 				},
 				{
@@ -324,19 +337,11 @@
 					]
 				},
 				{
-					"document": "Essence",
-					"frags": [
-						" in w",
-						"mental",
-						"s that "
-					]
-				},
-				{
-					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
 					"frags": [
 						"d to ",
-						" need",
-						"ise. I"
+						"build",
+						" are "
 					]
 				},
 				{
@@ -344,6 +349,13 @@
 					"frags": [
 						"d to ",
 						" need"
+					]
+				},
+				{
+					"document": "Essence",
+					"frags": [
+						"mental",
+						"s that "
 					]
 				},
 				{
@@ -357,12 +369,6 @@
 					"document": "Cycle/Don Quixote",
 					"frags": [
 						" hous"
-					]
-				},
-				{
-					"document": "Passphrase",
-					"frags": [
-						" are "
 					]
 				},
 				{
@@ -381,6 +387,12 @@
 					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
 					"frags": [
 						"d to "
+					]
+				},
+				{
+					"document": "Passphrase",
+					"frags": [
+						" are "
 					]
 				},
 				{
@@ -415,6 +427,7 @@
 				"ir pat",
 				"entall",
 				"data -",
+				"d in w",
 				"are ju",
 				" is ul",
 				" as so",
@@ -430,6 +443,7 @@
 				"e her b",
 				"city. I",
 				"cise he",
+				"For exa",
 				" exampl",
 				"ue-drive",
 				"tern. Sh",
@@ -446,6 +460,7 @@
 				"make a h",
 				"hem more",
 				"f you gi",
+				"e, has a",
 				"cused on",
 				"assified",
 				"asonable",
@@ -469,20 +484,8 @@
 				" are ",
 				"mental",
 				"s that ",
-				" They c"
-			]
-		},
-		{
-			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-			"frags": [
-				"e can",
-				"d to ",
-				"d in ",
-				"build",
-				" valu",
-				" need",
-				" are ",
-				"s that "
+				" They c",
+				"hey can "
 			]
 		},
 		{
@@ -492,9 +495,46 @@
 				" need",
 				" diff",
 				" are ",
+				" It i",
 				"ust as",
 				"mental",
+				"s that ",
+				" that p"
+			]
+		},
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"e can",
+				"d to ",
+				"build",
+				" valu",
+				" need",
+				" are ",
+				" It i",
 				"s that "
+			]
+		},
+		{
+			"document": "Proving/Children",
+			"frags": [
+				"d to ",
+				" need",
+				" are ",
+				"s that ",
+				" that p",
+				" They c"
+			]
+		},
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
+				"s rea",
+				"cated",
+				" is a",
+				" It i",
+				"on this",
+				"m more "
 			]
 		},
 		{
@@ -508,40 +548,12 @@
 			]
 		},
 		{
-			"document": "Proving/Children",
-			"frags": [
-				"d to ",
-				" need",
-				" are ",
-				"s that ",
-				" They c"
-			]
-		},
-		{
-			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
-			"frags": [
-				"e can",
-				"d to ",
-				" valu",
-				" need"
-			]
-		},
-		{
 			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
 			"frags": [
 				" are ",
 				"mental",
 				"is so ",
 				"ll make "
-			]
-		},
-		{
-			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
-			"frags": [
-				"s rea",
-				" is a",
-				"on this",
-				"m more "
 			]
 		},
 		{
@@ -554,12 +566,12 @@
 			]
 		},
 		{
-			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
 			"frags": [
-				"uild ",
-				"s rea",
-				"d in ",
-				"build"
+				"e can",
+				"d to ",
+				" valu",
+				" need"
 			]
 		},
 		{
@@ -572,11 +584,19 @@
 			]
 		},
 		{
-			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+			"frags": [
+				"uild ",
+				"s rea",
+				"build"
+			]
+		},
+		{
+			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
 			"frags": [
 				"d to ",
-				"build",
-				" are "
+				" need",
+				"ise. I"
 			]
 		},
 		{
@@ -604,19 +624,11 @@
 			]
 		},
 		{
-			"document": "Essence",
-			"frags": [
-				" in w",
-				"mental",
-				"s that "
-			]
-		},
-		{
-			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
 			"frags": [
 				"d to ",
-				" need",
-				"ise. I"
+				"build",
+				" are "
 			]
 		},
 		{
@@ -624,6 +636,13 @@
 			"frags": [
 				"d to ",
 				" need"
+			]
+		},
+		{
+			"document": "Essence",
+			"frags": [
+				"mental",
+				"s that "
 			]
 		},
 		{
@@ -637,12 +656,6 @@
 			"document": "Cycle/Don Quixote",
 			"frags": [
 				" hous"
-			]
-		},
-		{
-			"document": "Passphrase",
-			"frags": [
-				" are "
 			]
 		},
 		{
@@ -661,6 +674,12 @@
 			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
 			"frags": [
 				"d to "
+			]
+		},
+		{
+			"document": "Passphrase",
+			"frags": [
+				" are "
 			]
 		},
 		{
