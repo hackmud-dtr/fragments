@@ -6,14 +6,14 @@
 	"sector": "HJG_5723",
 	"sec_level": 4,
 	"date_added": 1562224605853,
-	"last_scraped": 1563401017928,
+	"last_scraped": 1563415291448,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562224605853
 		}
 	],
-	"next_scrape": 1563442141808,
+	"next_scrape": 1563457144640,
 	"category": "fishie_tank",
 	"last_update": 1563401017928,
 	"output": [
@@ -125,6 +125,14 @@
 			]
 		}
 	],
-	"updt": 1563384169991,
-	"edit": 46
+	"updt": 1563401086316,
+	"edit": 47,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
