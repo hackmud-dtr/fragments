@@ -1,20 +1,82 @@
 {
 	"_id": "unknown_jryjpv.vet",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "unknown_jryjpv.vet",
-	"sector": "VNP_3574",
+	"sector": "K_9556",
 	"sec_level": 4,
 	"date_added": 1559426750463,
-	"last_scraped": 1563490288827,
+	"last_scraped": 1563498878755,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559426750463
-		}
+		},
+		{
+			"type": "died",
+			"when": 1563498119497
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1563498357230,
+				"from": "K_9556",
+				"to": "VNP_3574"
+			}
+		]
 	],
 	"pl_output": "\n\t\tWelcome to Vet v0.1.0, a `LFULLSEC` defensive security tool by sy. \n\t\tTo start vetting users and scripts, first make macros:\n\n\t\t/vet = sy.vet {{ name: \"{0}\" }}\n\n\t\tThen call it with /vet pica or /vet sy.vet \n",
-	"next_scrape": 1563572214364,
-	"updt": 1563475711159,
-	"edit": 140
+	"next_scrape": 1563498938755,
+	"updt": 1563498711651,
+	"edit": 144,
+	"scrape_ct": 12,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1563498878755,
+	"output": [
+		{
+			"args": {},
+			"calls": 929388,
+			"base": "\n\t\tWelcome to Vet v0.1.0, a `LFULLSEC` defensive security tool by sy. \n\t\tTo start vetting users and scripts, first make macros:\n\n\t\t/vet = sy.vet {{ name: \"{0}\" }}\n\n\t\tThen call it with /vet pica or /vet sy.vet \n",
+			"fragments": [
+				"is na",
+				" even",
+				"ed whe",
+				"ade. D",
+				"he kick",
+				"for the",
+				"and con",
+				"of a bal"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"is na",
+						" even",
+						"ed whe",
+						"ade. D",
+						"he kick",
+						"for the",
+						"and con",
+						"of a bal"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
+				"is na",
+				" even",
+				"ed whe",
+				"ade. D",
+				"he kick",
+				"for the",
+				"and con",
+				"of a bal"
+			]
+		}
+	]
 }
