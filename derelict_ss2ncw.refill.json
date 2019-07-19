@@ -3,19 +3,27 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "derelict_ss2ncw.refill",
-	"sector": "VNP_4859",
+	"sector": "VNP_8719",
 	"sec_level": 2,
 	"date_added": 1558821408422,
-	"last_scraped": 1563532586794,
+	"last_scraped": 1563538916839,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1563538866640,
+				"from": "VNP_8719",
+				"to": "VNP_4859"
+			}
+		]
 	],
-	"updt": 1563522390187,
-	"edit": 160,
+	"updt": 1563532760418,
+	"edit": 161,
 	"output": "{\"ok\":false,\"msg\":\"Le nop\"}",
-	"next_scrape": 1563618511786,
+	"next_scrape": 1563626869068,
 	"pl_output": "{\"ok\":false,\"msg\":\"Le nop\"}"
 }
