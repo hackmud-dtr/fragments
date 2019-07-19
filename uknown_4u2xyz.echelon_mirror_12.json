@@ -1,21 +1,29 @@
 {
 	"_id": "uknown_4u2xyz.echelon_mirror_12",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "uknown_4u2xyz.echelon_mirror_12",
 	"sector": "K_3778",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1563502838342,
+	"last_scraped": 1563514113806,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
+		},
+		{
+			"type": "died",
+			"when": 1563514113806
+		},
+		{
+			"type": "died",
+			"when": 1563514352089
 		}
 	],
-	"updt": 1563502995146,
-	"edit": 189,
-	"next_scrape": 1563547421360,
+	"updt": 1563514263267,
+	"edit": 191,
+	"next_scrape": 1563606121222,
 	"category": "dice_roller",
 	"last_update": 1563502838342,
 	"output": [
@@ -160,5 +168,6 @@
 				" 16. 4?\\n"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_4u2xyz.echelon_mirror_12: script doesn't exist\"}"
 }
