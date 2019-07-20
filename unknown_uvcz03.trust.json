@@ -1,21 +1,25 @@
 {
 	"_id": "unknown_uvcz03.trust",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_uvcz03.trust",
 	"sector": "VNP_9857",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1563593793943,
+	"last_scraped": 1563603698102,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
+		},
+		{
+			"type": "died",
+			"when": 1563603698102
 		}
 	],
-	"updt": 1563593860599,
-	"edit": 196,
-	"next_scrape": 1563640421547,
+	"updt": 1563594312496,
+	"edit": 197,
+	"next_scrape": 1563686656644,
 	"category": "coin_flipper",
 	"last_update": 1563593793943,
 	"output": [
@@ -160,5 +164,6 @@
 				"75\\nAD032"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_uvcz03.trust: script doesn't exist\"}"
 }
