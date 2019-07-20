@@ -1,20 +1,95 @@
 {
 	"_id": "abndnd_e3m0ht.auction_house",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "abndnd_e3m0ht.auction_house",
-	"sector": "K_8416",
+	"sector": "K_6506",
 	"sec_level": 0,
 	"date_added": 1560146862907,
-	"last_scraped": 1563648241636,
+	"last_scraped": 1563654281353,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560146862907
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1563653587767,
+				"from": "K_6506",
+				"to": "K_8416"
+			}
+		]
 	],
 	"pl_output": "RUNTIME ERROR crashdoom.hk_auction_house: script doesn't exist",
-	"next_scrape": 1563731166029,
-	"updt": 1563638064911,
-	"edit": 131
+	"next_scrape": 1563654341353,
+	"updt": 1563654076036,
+	"edit": 135,
+	"scrape_ct": 11,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1563654281353,
+	"output": [
+		{
+			"args": {},
+			"calls": 84377,
+			"base": "RUNTIME ERROR crashdoom.hk_auction_house: script doesn't exist",
+			"fragments": [
+				"is ad",
+				"uild a",
+				"le she",
+				"arly f",
+				"ough gr",
+				"as our ",
+				"to build"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"le she",
+						"arly f",
+						"ough gr",
+						"as our ",
+						"to build"
+					]
+				},
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"is ad"
+					]
+				},
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"uild a"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"le she",
+				"arly f",
+				"ough gr",
+				"as our ",
+				"to build"
+			]
+		},
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
+				"is ad"
+			]
+		},
+		{
+			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+			"frags": [
+				"uild a"
+			]
+		}
+	]
 }
