@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_a8sat1.shift",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_a8sat1.shift",
 	"sector": "NGC_7982",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1563466418597
+		},
+		{
+			"type": "died",
+			"when": 1563718071214
 		}
 	],
 	"retry_args": [
@@ -37,9 +41,41 @@
 				"from no",
 				"ems. fr",
 				"ed to m"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+					"frags": [
+						"on al",
+						"o mas",
+						" all ",
+						"ted to ",
+						"technic",
+						"s are i",
+						"from no",
+						"ems. fr",
+						"ed to m"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1563466471802,
-	"edit": 1
+	"updt": 1563466695790,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+			"frags": [
+				"on al",
+				"o mas",
+				" all ",
+				"ted to ",
+				"technic",
+				"s are i",
+				"from no",
+				"ems. fr",
+				"ed to m"
+			]
+		}
+	]
 }

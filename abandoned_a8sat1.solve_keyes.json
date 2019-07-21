@@ -1,21 +1,25 @@
 {
 	"_id": "abandoned_a8sat1.solve_keyes",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_a8sat1.solve_keyes",
 	"sector": "NGC_7374",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1563707102121,
+	"last_scraped": 1563717988583,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
+		},
+		{
+			"type": "died",
+			"when": 1563717988583
 		}
 	],
-	"updt": 1563707277542,
-	"edit": 214,
-	"next_scrape": 1563750959417,
+	"updt": 1563707953833,
+	"edit": 215,
+	"next_scrape": 1563809743469,
 	"category": "dice_roller",
 	"last_update": 1563707102121,
 	"output": [
@@ -328,5 +332,6 @@
 				" ERROR |"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_a8sat1.solve_keyes: script doesn't exist\"}"
 }
