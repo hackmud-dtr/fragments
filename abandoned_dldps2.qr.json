@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_dldps2.qr",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abandoned_dldps2.qr",
 	"sector": "HJG_7712",
 	"sec_level": 4,
@@ -16,11 +16,11 @@
 	"scrape_ct": 11,
 	"next_scrape": 1563753337777,
 	"category": "fishie_tank",
-	"last_update": 1563753260102,
+	"last_update": 1563753297765,
 	"output": [
 		{
 			"args": {},
-			"calls": 26079,
+			"calls": 36066,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"nowin",
@@ -54,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2426,
+			"calls": 3737,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -143,9 +143,6 @@
 	"updt": 1563753054372,
 	"edit": 1,
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
