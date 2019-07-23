@@ -1,19 +1,27 @@
 {
 	"_id": "abndnd_h5sp9p.mmp",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abndnd_h5sp9p.mmp",
 	"sector": "K_9556",
 	"sec_level": 4,
 	"date_added": 1563582772975,
-	"last_scraped": 1563873521927,
+	"last_scraped": 1563883401251,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563582772975
+		},
+		{
+			"type": "died",
+			"when": 1563883401251
+		},
+		{
+			"type": "died",
+			"when": 1563883458269
 		}
 	],
-	"next_scrape": 1563919157983,
+	"next_scrape": 1563964364741,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1563873521927,
 	"output": [
@@ -171,6 +179,7 @@
 			]
 		}
 	],
-	"updt": 1563866475723,
-	"edit": 36
+	"updt": 1563873684233,
+	"edit": 37,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_h5sp9p.mmp: script doesn't exist\"}"
 }
