@@ -1,39 +1,52 @@
 {
 	"_id": "abandoned_csj1dt.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abandoned_csj1dt.db",
 	"sector": "VNP_5176",
 	"sec_level": 4,
 	"date_added": 1563940311838,
-	"last_scraped": 1563940360029,
+	"last_scraped": 1563940449912,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563940311838
+		},
+		{
+			"type": "died",
+			"when": 1563940449912
+		},
+		{
+			"type": "died",
+			"when": 1563941105733
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1563940420029,
+	"scrape_ct": 18,
+	"next_scrape": 1564023685092,
 	"category": "fishie_tank",
-	"last_update": 1563940360029,
+	"last_update": 1563940440038,
 	"output": [
 		{
 			"args": {},
-			"calls": 7750,
+			"calls": 16028,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"6 Oka",
 				"X2BC7D",
 				"T0XF22",
-				"ST0X7A",
+				"SECT0X",
 				"LE0X2B",
 				"F_CLST",
+				"D171\\n",
 				"D031E1",
 				"X7A_SEC",
+				"LST0X7A",
+				"FT0XBF_",
 				"FILE0X2",
 				"031E16 ",
 				"Okay, Ma",
+				"7_FILE0X",
+				"31E16 Ok",
 				"2BC7D171",
 				"27_FILE0",
 				"0XBF_CLS",
@@ -46,14 +59,19 @@
 						"6 Oka",
 						"X2BC7D",
 						"T0XF22",
-						"ST0X7A",
+						"SECT0X",
 						"LE0X2B",
 						"F_CLST",
+						"D171\\n",
 						"D031E1",
 						"X7A_SEC",
+						"LST0X7A",
+						"FT0XBF_",
 						"FILE0X2",
 						"031E16 ",
 						"Okay, Ma",
+						"7_FILE0X",
+						"31E16 Ok",
 						"2BC7D171",
 						"27_FILE0",
 						"0XBF_CLS",
@@ -66,7 +84,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1045,
+			"calls": 1892,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -79,11 +97,16 @@
 				"E0X2BC",
 				", Mall",
 				"SECT0XF",
+				"LST0X7A",
+				"FT0XBF_",
 				"7A_SECT",
 				"T0XF227_",
 				"T0X7A_SE",
 				"FILE0X2B",
 				"C7D171\\n",
+				"7_FILE0X",
+				"31E16 Ok",
+				"0XBF_CLS",
 				" Okay, M",
 				"D171\\nAD0"
 			],
@@ -96,11 +119,16 @@
 						"E0X2BC",
 						", Mall",
 						"SECT0XF",
+						"LST0X7A",
+						"FT0XBF_",
 						"7A_SECT",
 						"T0XF227_",
 						"T0X7A_SE",
 						"FILE0X2B",
 						"C7D171\\n",
+						"7_FILE0X",
+						"31E16 Ok",
+						"0XBF_CLS",
 						" Okay, M",
 						"D171\\nAD0"
 					]
@@ -155,13 +183,14 @@
 				"CLST0",
 				"6 Oka",
 				"X2BC7D",
-				"ST0X7A",
 				"F_CLST",
 				"E0X2BC",
 				"D031E1",
 				", Mall",
 				"X7A_SEC",
 				"SECT0XF",
+				"LST0X7A",
+				"FT0XBF_",
 				"7A_SECT",
 				"031E16 ",
 				"T0XF227_",
@@ -169,6 +198,8 @@
 				"Okay, Ma",
 				"FILE0X2B",
 				"C7D171\\n",
+				"7_FILE0X",
+				"31E16 Ok",
 				"2BC7D171",
 				"27_FILE0",
 				"0XBF_CLS",
@@ -176,5 +207,8 @@
 				"D171\\nAD0"
 			]
 		}
-	]
+	],
+	"updt": 1563940653868,
+	"edit": 2,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_csj1dt.db: script doesn't exist\"}"
 }
