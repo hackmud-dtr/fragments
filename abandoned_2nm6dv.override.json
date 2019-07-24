@@ -1,0 +1,73 @@
+{
+	"_id": "abandoned_2nm6dv.override",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abandoned_2nm6dv.override",
+	"sector": "VNP_5176",
+	"sec_level": 4,
+	"date_added": 1563932642981,
+	"last_scraped": 1563932715480,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1563932642981
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1563932775480,
+	"category": "fishie_tank",
+	"last_update": 1563932715480,
+	"output": [
+		{
+			"args": {},
+			"calls": 10981,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"IME E",
+				"| NETW ",
+				"ETW ERR",
+				"TW ERROR",
+				"RROR | T",
+				"ER fbret",
+				" USER fb"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 635,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"IME E",
+				"| NETW ",
+				"ETW ERR",
+				"TW ERROR",
+				"RROR | T",
+				"ER fbret",
+				" USER fb"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 1841,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"IME E",
+				"| NETW ",
+				"ETW ERR",
+				"TW ERROR",
+				"RROR | T",
+				"ER fbret",
+				" USER fb"
+			]
+		}
+	]
+}
