@@ -1,18 +1,28 @@
 {
 	"_id": "uknown_9pb06p.data",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "uknown_9pb06p.data",
-	"sector": "K_0887",
+	"sector": "K_2748",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 0,
+	"last_scraped": 1564050379754,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1564050368644,
+				"from": "K_2748",
+				"to": "K_0887"
+			}
+		]
 	],
-	"updt": 1559182056764,
-	"edit": 3
+	"updt": 1561410590490,
+	"edit": 4,
+	"pl_output": "str.substr is not a function",
+	"next_scrape": 1564140335746
 }
