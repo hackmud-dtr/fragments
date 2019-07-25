@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_yxz1xb.pal",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "unknown_yxz1xb.pal",
-	"sector": "HJG_4491",
+	"sector": "K_0199",
 	"sec_level": 4,
 	"date_added": 1560147053239,
-	"last_scraped": 1564010717052,
+	"last_scraped": 1564021245210,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1564020695968
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1564021225278,
+				"from": "K_0199",
+				"to": "HJG_4491"
+			}
+		]
 	],
-	"updt": 1564010781560,
-	"edit": 166,
+	"updt": 1564021154426,
+	"edit": 167,
 	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR crashdoom.paypal: script doesn't exist\"}",
-	"next_scrape": 1564095064717
+	"next_scrape": 1564111670717
 }
