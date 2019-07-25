@@ -6,31 +6,33 @@
 	"sector": "K_9564",
 	"sec_level": 4,
 	"date_added": 1563889804667,
-	"last_scraped": 1564047072900,
+	"last_scraped": 1564056860972,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563889804667
 		}
 	],
-	"next_scrape": 1564090858204,
+	"next_scrape": 1564103547649,
 	"category": "fishie_tank",
-	"last_update": 1564047072900,
+	"last_update": 1564056860972,
 	"output": [
 		{
 			"args": {},
-			"calls": 210554,
+			"calls": 229126,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"OR | P",
 				"| PROG ",
-				"| NETW ",
 				"OG ERRO",
 				" PROG E",
 				"TW ERROR",
 				"R | PROG",
 				"R | NETW",
+				"PROG ERR",
 				"G ERROR ",
 				"ERROR | ",
+				" | NETW ",
 				" NETW ER"
 			],
 			"hits": [
@@ -54,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 18458,
+			"calls": 19211,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -62,15 +64,17 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"OR | P",
 				"| PROG ",
-				"| NETW ",
 				"OG ERRO",
 				" PROG E",
 				"TW ERROR",
 				"R | PROG",
 				"R | NETW",
+				"PROG ERR",
 				"G ERROR ",
 				"ERROR | ",
+				" | NETW ",
 				" NETW ER"
 			],
 			"hits": [
@@ -94,18 +98,20 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 246932,
+			"calls": 257239,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"OR | P",
 				"| PROG ",
-				"| NETW ",
 				"OG ERRO",
 				" PROG E",
 				"TW ERROR",
 				"R | PROG",
 				"R | NETW",
+				"PROG ERR",
 				"G ERROR ",
 				"ERROR | ",
+				" | NETW ",
 				" NETW ER"
 			],
 			"hits": [
@@ -126,8 +132,8 @@
 			]
 		}
 	],
-	"updt": 1564037605064,
-	"edit": 18,
+	"updt": 1564047300667,
+	"edit": 19,
 	"identified": [
 		{
 			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
