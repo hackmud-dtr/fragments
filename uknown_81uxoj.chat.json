@@ -1,31 +1,26 @@
 {
 	"_id": "uknown_81uxoj.chat",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "uknown_81uxoj.chat",
 	"sector": "K_2748",
 	"sec_level": 4,
 	"date_added": 1564168295048,
-	"last_scraped": 1564168354924,
+	"last_scraped": 1564168830242,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1564168295048
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1564168414924,
+	"scrape_ct": 13,
+	"next_scrape": 1564168890242,
 	"category": "fishie_tank",
-	"last_update": 1564168374938,
+	"last_update": 1564168859913,
 	"output": [
 		{
 			"args": {},
-			"calls": 8403,
+			"calls": 36395,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" Mall",
@@ -34,13 +29,26 @@
 				"y Chris",
 				"rry Chr",
 				"\\n221D Me"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" Mall",
+						"Merry ",
+						" Merry",
+						"y Chris",
+						"rry Chr",
+						"\\n221D Me"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1287,
+			"calls": 5019,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -54,7 +62,68 @@
 				"y Chris",
 				"rry Chr",
 				"\\n221D Me"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" Mall",
+						"Merry ",
+						" Merry",
+						"y Chris",
+						"rry Chr",
+						"\\n221D Me"
+					]
+				}
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 23062,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" Mall",
+				"Merry ",
+				" Merry",
+				"y Chris",
+				"rry Chr",
+				"\\n221D Me"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" Mall",
+						"Merry ",
+						" Merry",
+						"y Chris",
+						"rry Chr",
+						"\\n221D Me"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1564168606947,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				" Mall",
+				"Merry ",
+				" Merry",
+				"y Chris",
+				"rry Chr",
+				"\\n221D Me"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
