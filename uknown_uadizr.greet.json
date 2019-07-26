@@ -1,25 +1,25 @@
 {
 	"_id": "uknown_uadizr.greet",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_uadizr.greet",
 	"sector": "K_2748",
 	"sec_level": 4,
 	"date_added": 1564139747806,
-	"last_scraped": 1564140339228,
+	"last_scraped": 1564150663288,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1564139747806
 		}
 	],
-	"next_scrape": 1564184023323,
+	"next_scrape": 1564195689530,
 	"category": "clicker",
-	"last_update": 1564140339228,
+	"last_update": 1564150663288,
 	"output": [
 		{
 			"args": {},
-			"calls": 60947,
+			"calls": 75713,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"00 00",
@@ -47,7 +47,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 50847,
+			"calls": 58660,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"00 00",
@@ -619,6 +619,11 @@
 			]
 		}
 	],
-	"updt": 1564140427794,
-	"edit": 2
+	"updt": 1564143360420,
+	"edit": 3,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
