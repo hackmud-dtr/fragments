@@ -1,0 +1,136 @@
+{
+	"_id": "unknown_wv7ikg.meditate",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "unknown_wv7ikg.meditate",
+	"sector": "K_2748",
+	"sec_level": 4,
+	"date_added": 1564145576326,
+	"last_scraped": 1564146027772,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1564145576326
+		}
+	],
+	"scrape_ct": 6,
+	"next_scrape": 1564146087772,
+	"category": "fishie_tank",
+	"last_update": 1564146038974,
+	"output": [
+		{
+			"args": {},
+			"calls": 56641,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"se. I",
+				"onal ",
+				"aste ",
+				"think ",
+				"gligibl",
+				" don't ",
+				"l strain"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"se. I",
+						"onal ",
+						"aste ",
+						"think ",
+						"gligibl",
+						" don't ",
+						"l strain"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4548,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"se. I",
+				"onal ",
+				"aste ",
+				"think ",
+				"gligibl",
+				" don't ",
+				"l strain"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"se. I",
+						"onal ",
+						"aste ",
+						"think ",
+						"gligibl",
+						" don't ",
+						"l strain"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 37353,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"se. I",
+				"onal ",
+				"aste ",
+				"think ",
+				"gligibl",
+				" don't ",
+				"l strain"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"se. I",
+						"onal ",
+						"aste ",
+						"think ",
+						"gligibl",
+						" don't ",
+						"l strain"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1564145842027,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"se. I",
+				"onal ",
+				"aste ",
+				"think ",
+				"gligibl",
+				" don't ",
+				"l strain"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
