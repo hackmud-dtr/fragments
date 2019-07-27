@@ -1,0 +1,164 @@
+{
+	"_id": "anon_v0vg4j.cortex",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anon_v0vg4j.cortex",
+	"sector": "NGC_1037",
+	"sec_level": 4,
+	"date_added": 1564264678957,
+	"last_scraped": 1564264829980,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1564264678957
+		}
+	],
+	"scrape_ct": 14,
+	"next_scrape": 1564264889980,
+	"category": "fishie_tank",
+	"last_update": 1564264829980,
+	"output": [
+		{
+			"args": {},
+			"calls": 33603,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ybe #",
+				"easy.",
+				"ty eas",
+				"thing,",
+				"s pret",
+				"y, mayb",
+				"as a lot",
+				" value. "
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ybe #",
+						"easy.",
+						"ty eas",
+						"s pret",
+						"y, mayb",
+						"as a lot",
+						" value. "
+					]
+				},
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"thing,"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 821,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ybe #",
+				"easy.",
+				"ty eas",
+				"thing,",
+				"s pret",
+				"y, mayb",
+				"as a lot",
+				" value. "
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ybe #",
+						"easy.",
+						"ty eas",
+						"s pret",
+						"y, mayb",
+						"as a lot",
+						" value. "
+					]
+				},
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"thing,"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 7492,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ybe #",
+				"easy.",
+				"ty eas",
+				"thing,",
+				"s pret",
+				"y, mayb",
+				"as a lot",
+				" value. "
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ybe #",
+						"easy.",
+						"ty eas",
+						"s pret",
+						"y, mayb",
+						"as a lot",
+						" value. "
+					]
+				},
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"thing,"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"ybe #",
+				"easy.",
+				"ty eas",
+				"s pret",
+				"y, mayb",
+				"as a lot",
+				" value. "
+			]
+		},
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"thing,"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
