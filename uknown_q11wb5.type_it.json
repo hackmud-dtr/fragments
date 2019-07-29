@@ -6,15 +6,19 @@
 	"sector": "VNP_5176",
 	"sec_level": 4,
 	"date_added": 1563955191406,
-	"last_scraped": 1564405830976,
+	"last_scraped": 1564415310432,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563955191406
+		},
+		{
+			"type": "died",
+			"when": 1564415310432
 		}
 	],
-	"updt": 1564396814226,
-	"edit": 42,
-	"pl_output": "Usage: pass in any scriptors that you want to call, and/or, `Nmsg` with at least one of `Nto`, `Nchannel`.\nIf you passed in any scriptors, they will be called, with the same set of arguments as passed to this script.\nThen, if you passed in `Nmsg`, a chats.send will be sent to `Nchannel` and/or a chats.tell will be sent to `Nto`.",
-	"next_scrape": 1564490366456
+	"updt": 1564406053042,
+	"edit": 43,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_q11wb5.type_it: script doesn't exist\"}",
+	"next_scrape": 1564500970847
 }

@@ -6,15 +6,19 @@
 	"sector": "VNP_5176",
 	"sec_level": 4,
 	"date_added": 1563955191406,
-	"last_scraped": 1564405790899,
+	"last_scraped": 1564415270275,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563955191406
+		},
+		{
+			"type": "died",
+			"when": 1564415270275
 		}
 	],
-	"pl_output": "Run me with a script you want to call, like one of these:\nsoron.call_safe{call:#s.scripts.fullsec}\nsoron.call_safe{call:#s.some_corp.pub_info, cmd:\"list\"}",
-	"next_scrape": 1564495233308,
-	"updt": 1564396814226,
-	"edit": 41
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_pz3ozb.call_safe: script doesn't exist\"}",
+	"next_scrape": 1564497328113,
+	"updt": 1564405827897,
+	"edit": 42
 }
