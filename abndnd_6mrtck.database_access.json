@@ -3,19 +3,31 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "abndnd_6mrtck.database_access",
-	"sector": "SPC_4228",
+	"sector": "K_3804",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1564457293283,
+	"last_scraped": 1564460931023,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
-		}
+		},
+		{
+			"type": "died",
+			"when": 1564460835477
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1564460901941,
+				"from": "K_3804",
+				"to": "SPC_4228"
+			}
+		]
 	],
-	"updt": 1564449119785,
-	"edit": 245,
+	"updt": 1564460840680,
+	"edit": 247,
 	"output": "{\"ok\":false,\"msg\":\"get your own database\"}",
-	"next_scrape": 1564546352264,
+	"next_scrape": 1564545250183,
 	"pl_output": "{\"ok\":false,\"msg\":\"get your own database\"}"
 }

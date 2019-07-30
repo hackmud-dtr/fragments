@@ -3,19 +3,31 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "abndnd_6mrtck.glock_money",
-	"sector": "HJG_4070",
+	"sector": "K_7243",
 	"sec_level": 1,
 	"date_added": 1558821408422,
-	"last_scraped": 1564458560302,
+	"last_scraped": 1564460771085,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
-		}
+		},
+		{
+			"type": "died",
+			"when": 1564460703913
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1564460761273,
+				"from": "K_7243",
+				"to": "HJG_4070"
+			}
+		]
 	],
-	"updt": 1564450020186,
-	"edit": 244,
+	"updt": 1564458587602,
+	"edit": 245,
 	"output": "{\"ok\":true,\"msg\":\"get your own money.. please\"}",
-	"next_scrape": 1564548218357,
+	"next_scrape": 1564553036702,
 	"pl_output": "{\"ok\":true,\"msg\":\"get your own money.. please\"}"
 }
