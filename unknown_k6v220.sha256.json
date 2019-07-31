@@ -1,9 +1,9 @@
 {
 	"_id": "unknown_k6v220.sha256",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "skip",
 	"script": "unknown_k6v220.sha256",
-	"sector": "VNP_3200",
+	"sector": "K_3804",
 	"sec_level": 4,
 	"date_added": 1560611900307,
 	"last_scraped": 0,
@@ -15,8 +15,16 @@
 		{
 			"type": "died",
 			"when": 1564544355875
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1564544762642,
+				"from": "K_3804",
+				"to": "VNP_3200"
+			}
+		]
 	],
-	"updt": 1560611939937,
-	"edit": 1
+	"updt": 1564544503963,
+	"edit": 2
 }
