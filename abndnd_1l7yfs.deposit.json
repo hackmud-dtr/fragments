@@ -1,27 +1,27 @@
 {
 	"_id": "abndnd_1l7yfs.deposit",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_1l7yfs.deposit",
 	"sector": "K_8766",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1564687471150,
+	"last_scraped": 1564695875002,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
 		}
 	],
-	"updt": 1564687696474,
-	"edit": 284,
-	"next_scrape": 1564733578649,
+	"updt": 1564687922638,
+	"edit": 285,
+	"next_scrape": 1564738290933,
 	"category": "UNKNOWN CATEGORY",
-	"last_update": 1564687471150,
+	"last_update": 1564695875002,
 	"output": [
 		{
 			"args": {},
-			"calls": 2341992,
+			"calls": 2356744,
 			"base": "\n`HZurich Vault` `iEscrow Deposit`\n\n`iInitial Deposit for a specific value is three steps.`\n\n`iFirst, generate escrow authrequest with deposit script`\n`iSecond, confirm the escrow for that amount`\n`iThird, re-execute the first command to make the deposit.`\n\n`iFuture calls for the same value are single step.`\n\n`isyntax:` zurich.deposit { usr:\"\", pwd:\"\", amt:\"\" }\n\n`iFor questions, please see `zurich.help",
 			"fragments": [
 				"s can",
