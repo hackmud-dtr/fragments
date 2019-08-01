@@ -1,12 +1,12 @@
 {
 	"_id": "anon_4zdl4k.exe",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "anon_4zdl4k.exe",
-	"sector": "K_9897",
+	"sector": "K_2954",
 	"sec_level": 2,
 	"date_added": 1559619454432,
-	"last_scraped": 0,
+	"last_scraped": 1564697791070,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,8 +15,18 @@
 		{
 			"type": "died",
 			"when": 1564697364676
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1564697781881,
+				"from": "K_2954",
+				"to": "K_9897"
+			}
+		]
 	],
-	"updt": 1559619652071,
-	"edit": 1
+	"updt": 1564697389057,
+	"edit": 2,
+	"pl_output": "Unexpected token u in JSON at position 0",
+	"next_scrape": 1564778331622
 }
