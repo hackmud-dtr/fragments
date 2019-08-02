@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_vsr83e.bapscript_test_p",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_vsr83e.bapscript_test_p",
 	"sector": "SPC_7171",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1562535772794
+		},
+		{
+			"type": "died",
+			"when": 1564774952901
 		}
 	],
-	"updt": 1562535778591,
-	"edit": 1,
+	"updt": 1562536004889,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -30,6 +34,40 @@
 			"calls": 870,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"tion.",
+				"ombat",
+				"ction",
+				"20B1 ",
+				" in a ",
+				"tacker,",
+				"ker, I m",
+				"cker, I ",
+				"20B2 My ",
+				" attacke"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"tion.",
+						"ombat",
+						"ction",
+						"20B1 ",
+						" in a ",
+						"tacker,",
+						"ker, I m",
+						"cker, I ",
+						"20B2 My ",
+						" attacke"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"tion.",
 				"ombat",
 				"ction",
