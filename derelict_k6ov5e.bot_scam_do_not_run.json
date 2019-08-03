@@ -1,0 +1,134 @@
+{
+	"_id": "derelict_k6ov5e.bot_scam_do_not_run",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "derelict_k6ov5e.bot_scam_do_not_run",
+	"sector": "HJG_5776",
+	"sec_level": 4,
+	"date_added": 1564826877962,
+	"last_scraped": 1564826987796,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1564826877962
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1564827047796,
+	"category": "fishie_tank",
+	"last_update": 1564827028553,
+	"output": [
+		{
+			"args": {},
+			"calls": 14176,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"al sc",
+				"ts or ",
+				"e unde",
+				"ioengin",
+				"it. Ofte",
+				", the ob",
+				" it. Oft"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"al sc",
+						"ts or ",
+						"e unde",
+						"ioengin",
+						"it. Ofte",
+						", the ob",
+						" it. Oft"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2240,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"al sc",
+				"ts or ",
+				"e unde",
+				"ioengin",
+				"it. Ofte",
+				", the ob",
+				" it. Oft"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"al sc",
+						"ts or ",
+						"e unde",
+						"ioengin",
+						"it. Ofte",
+						", the ob",
+						" it. Oft"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 12722,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"al sc",
+				"ts or ",
+				"e unde",
+				"ioengin",
+				"it. Ofte",
+				", the ob",
+				" it. Oft"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"al sc",
+						"ts or ",
+						"e unde",
+						"ioengin",
+						"it. Ofte",
+						", the ob",
+						" it. Oft"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+			"frags": [
+				"al sc",
+				"ts or ",
+				"e unde",
+				"ioengin",
+				"it. Ofte",
+				", the ob",
+				" it. Oft"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
