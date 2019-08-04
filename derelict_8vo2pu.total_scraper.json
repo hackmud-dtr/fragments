@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_8vo2pu.total_scraper",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "derelict_8vo2pu.total_scraper",
 	"sector": "VNP_0345",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1562488411054
+		},
+		{
+			"type": "died",
+			"when": 1564908298926
 		}
 	],
-	"updt": 1562488441470,
-	"edit": 1,
+	"updt": 1562488890626,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -30,6 +34,36 @@
 			"calls": 654,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"ed do",
+				"creas",
+				"xpect ",
+				"owntim",
+				"d downti",
+				"DY hi al",
+				"BODY hi ",
+				" 1 downt"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"ed do",
+						"creas",
+						"xpect ",
+						"owntim",
+						"d downti",
+						"DY hi al",
+						"BODY hi ",
+						" 1 downt"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
 				"ed do",
 				"creas",
 				"xpect ",
