@@ -1,20 +1,32 @@
 {
 	"_id": "uknown_lx2epa.sha256",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "uknown_lx2epa.sha256",
-	"sector": "K_7542",
+	"sector": "K_5861",
 	"sec_level": 4,
 	"date_added": 1561431825883,
-	"last_scraped": 1562557279059,
+	"last_scraped": 1564963001510,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561431825883
-		}
+		},
+		{
+			"type": "died",
+			"when": 1564962451869
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1564962940864,
+				"from": "K_5861",
+				"to": "K_7542"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"You didn't give me any plaintext. Please pass txt:\\\"textToHash\\\"\"}",
-	"next_scrape": 1562640628795,
-	"updt": 1562557416513,
-	"edit": 39
+	"next_scrape": 1565048230733,
+	"updt": 1564962567402,
+	"edit": 41
 }
