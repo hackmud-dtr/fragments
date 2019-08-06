@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_ej80v1.make_hug_it",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abndnd_ej80v1.make_hug_it",
 	"sector": "NGC_2512",
 	"sec_level": 4,
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "feed"
-		},
-		{
 			"do": "clean"
 		}
 	],
 	"scrape_ct": 20,
 	"next_scrape": 1565085734454,
 	"category": "fishie_tank",
-	"last_update": 1565085674454,
+	"last_update": 1565085714879,
 	"output": [
 		{
 			"args": {},
@@ -40,6 +37,30 @@
 				"s of th",
 				"e projec"
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1965,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"n pol",
+				"ater ",
+				" buil",
+				"policy",
+				"curati",
+				"ation ",
+				"s of th",
+				"e projec"
+			]
 		}
-	]
+	],
+	"updt": 1565085684458,
+	"edit": 1
 }
