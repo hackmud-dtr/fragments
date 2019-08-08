@@ -1,0 +1,79 @@
+{
+	"_id": "abandoned_ukdxk6.check",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abandoned_ukdxk6.check",
+	"sector": "K_2655",
+	"sec_level": 4,
+	"date_added": 1565274045468,
+	"last_scraped": 1565274094869,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1565274045468
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1565274154869,
+	"category": "fishie_tank",
+	"last_update": 1565274094869,
+	"output": [
+		{
+			"args": {},
+			"calls": 7572,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"niste",
+				"ne AI",
+				"ions.",
+				"e, co",
+				", at ",
+				" coul",
+				"## That",
+				"wer: axi",
+				" test? #"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1254,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"niste",
+				"ne AI",
+				"ions.",
+				"e, co",
+				", at ",
+				" coul",
+				"## That",
+				"wer: axi",
+				" test? #"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 7562,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"niste",
+				"ne AI",
+				"ions.",
+				"e, co",
+				", at ",
+				" coul",
+				"## That",
+				"wer: axi",
+				" test? #"
+			]
+		}
+	]
+}
