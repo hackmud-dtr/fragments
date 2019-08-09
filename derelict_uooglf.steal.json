@@ -1,0 +1,76 @@
+{
+	"_id": "derelict_uooglf.steal",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "derelict_uooglf.steal",
+	"sector": "SPC_4267",
+	"sec_level": 4,
+	"date_added": 1565385241501,
+	"last_scraped": 1565385402659,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1565385241501
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1565385462659,
+	"category": "fishie_tank",
+	"last_update": 1565385402659,
+	"output": [
+		{
+			"args": {},
+			"calls": 15588,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"But t",
+				"ow I'm",
+				"st temp",
+				" and we",
+				"ut that ",
+				"ou know ",
+				"lmost te",
+				"\\n21F3 B"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2039,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"But t",
+				"ow I'm",
+				"st temp",
+				" and we",
+				"ut that ",
+				"ou know ",
+				"lmost te",
+				"\\n21F3 B"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 12733,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"But t",
+				"ow I'm",
+				"st temp",
+				" and we",
+				"ut that ",
+				"ou know ",
+				"lmost te",
+				"\\n21F3 B"
+			]
+		}
+	]
+}
