@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_ebtp1y.remote",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anonymous_ebtp1y.remote",
 	"sector": "NGC_7257",
 	"sec_level": 4,
@@ -21,12 +21,35 @@
 	"scrape_ct": 18,
 	"next_scrape": 1565433249425,
 	"category": "fishie_tank",
-	"last_update": 1565433189425,
+	"last_update": 1565433201493,
 	"output": [
 		{
 			"args": {},
 			"calls": 15566,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"uld. ",
+				"rial,",
+				"mater",
+				"lable",
+				"l, it",
+				"d wit",
+				"t they",
+				"ey do. ",
+				"ey build"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 155,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
 			"fragments": [
 				"uld. ",
 				"rial,",
