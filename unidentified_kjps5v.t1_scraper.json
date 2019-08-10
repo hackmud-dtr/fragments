@@ -1,16 +1,132 @@
 {
 	"_id": "unidentified_kjps5v.t1_scraper",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "skip",
 	"script": "unidentified_kjps5v.t1_scraper",
 	"sector": "NGC_7257",
 	"sec_level": 4,
 	"date_added": 1565435006042,
-	"last_scraped": 0,
+	"last_scraped": 1565435277778,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1565435006042
+		}
+	],
+	"updt": 1565435236253,
+	"edit": 2,
+	"scrape_ct": 9,
+	"next_scrape": 1565435337778,
+	"category": "fishie_tank",
+	"last_update": 1565435277778,
+	"output": [
+		{
+			"args": {},
+			"calls": 35239,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"awaki",
+				"ERROR",
+				"imiyaw",
+				"PROG E",
+				"andari ",
+				"ajbhand"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"awaki",
+						"ERROR",
+						"imiyaw",
+						"PROG E",
+						"andari ",
+						"ajbhand"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1517,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"awaki",
+				"ERROR",
+				"imiyaw",
+				"PROG E",
+				"andari ",
+				"ajbhand"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"awaki",
+						"ERROR",
+						"imiyaw",
+						"PROG E",
+						"andari ",
+						"ajbhand"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 27980,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"awaki",
+				"ERROR",
+				"imiyaw",
+				"PROG E",
+				"andari ",
+				"ajbhand"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"awaki",
+						"ERROR",
+						"imiyaw",
+						"PROG E",
+						"andari ",
+						"ajbhand"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+			"frags": [
+				"awaki",
+				"ERROR",
+				"imiyaw",
+				"PROG E",
+				"andari ",
+				"ajbhand"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
