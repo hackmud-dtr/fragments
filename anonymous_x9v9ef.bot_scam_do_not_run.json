@@ -1,0 +1,70 @@
+{
+	"_id": "anonymous_x9v9ef.bot_scam_do_not_run",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anonymous_x9v9ef.bot_scam_do_not_run",
+	"sector": "NGC_7257",
+	"sec_level": 4,
+	"date_added": 1565413512894,
+	"last_scraped": 1565413563169,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1565413512894
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1565413623169,
+	"category": "fishie_tank",
+	"last_update": 1565413563169,
+	"output": [
+		{
+			"args": {},
+			"calls": 8821,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"the a",
+				"e you",
+				"tands ",
+				"to conce",
+				"hela, Ev",
+				" Walter."
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1250,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"the a",
+				"e you",
+				"tands ",
+				"to conce",
+				"hela, Ev",
+				" Walter."
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8028,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"the a",
+				"e you",
+				"tands ",
+				"to conce",
+				"hela, Ev",
+				" Walter."
+			]
+		}
+	]
+}
