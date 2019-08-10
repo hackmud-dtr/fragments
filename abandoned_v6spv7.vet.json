@@ -1,26 +1,29 @@
 {
 	"_id": "abandoned_v6spv7.vet",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abandoned_v6spv7.vet",
 	"sector": "NGC_7257",
 	"sec_level": 4,
 	"date_added": 1565450375077,
-	"last_scraped": 1565451220446,
+	"last_scraped": 1565451289643,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1565450375077
+		},
+		{
+			"type": "died",
+			"when": 1565451965897
 		}
 	],
-	"scrape_ct": 0,
-	"next_scrape": 1565451280446,
+	"next_scrape": 1565494437215,
 	"category": "dice_roller",
-	"last_update": 1565451220446,
+	"last_update": 1565451289643,
 	"output": [
 		{
 			"args": {},
-			"calls": 116439,
+			"calls": 124599,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
 				"111 00",
@@ -68,6 +71,6 @@
 			]
 		}
 	],
-	"updt": 1565451011939,
-	"edit": 3
+	"updt": 1565451463569,
+	"edit": 5
 }
