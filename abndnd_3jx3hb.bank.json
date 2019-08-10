@@ -1,21 +1,29 @@
 {
 	"_id": "abndnd_3jx3hb.bank",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abndnd_3jx3hb.bank",
 	"sector": "VNP_9002",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1565449460597,
+	"last_scraped": 1565452244652,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1558821408422
+		},
+		{
+			"type": "died",
+			"when": 1565452244652
+		},
+		{
+			"type": "died",
+			"when": 1565452649193
 		}
 	],
-	"updt": 1565447405056,
-	"edit": 404,
+	"updt": 1565452591644,
+	"edit": 406,
 	"output": "{\"caller\":\"farmer_john\",\"calling_script\":null,\"this_script\":\"abndnd_3jx3hb.bank\",\"is_scriptor\":true,\"cols\":95,\"rows\":79}",
-	"next_scrape": 1565534620901,
-	"pl_output": "{\"caller\":\"farmer_john\",\"calling_script\":null,\"this_script\":\"abndnd_3jx3hb.bank\",\"is_scriptor\":true,\"cols\":95,\"rows\":79}"
+	"next_scrape": 1565537167430,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_3jx3hb.bank: script doesn't exist\"}"
 }
