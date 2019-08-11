@@ -1,7 +1,7 @@
 {
 	"_id": "anon_accxow.sector_chek",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anon_accxow.sector_chek",
 	"sector": "K_0431",
 	"sec_level": 0,
@@ -19,10 +19,14 @@
 				"from": "K_0431",
 				"to": "K_7312"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1565530119939
+		}
 	],
-	"updt": 1565526563013,
-	"edit": 464,
+	"updt": 1565529497056,
+	"edit": 465,
 	"output": "Go away!",
 	"next_scrape": 1565611198079,
 	"pl_output": "Go away!"
