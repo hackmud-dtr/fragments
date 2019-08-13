@@ -1,19 +1,23 @@
 {
 	"_id": "anonymous_ctvaiz.ai",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_ctvaiz.ai",
 	"sector": "K_1531",
 	"sec_level": 4,
 	"date_added": 1565668422219,
-	"last_scraped": 1565686555699,
+	"last_scraped": 1565690124853,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1565668422219
+		},
+		{
+			"type": "died",
+			"when": 1565690124853
 		}
 	],
-	"next_scrape": 1565729503508,
+	"next_scrape": 1565772801678,
 	"category": "coin_flipper",
 	"last_update": 1565686555699,
 	"output": [
@@ -96,6 +100,7 @@
 			]
 		}
 	],
-	"updt": 1565683269532,
-	"edit": 9
+	"updt": 1565686652855,
+	"edit": 10,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_ctvaiz.ai: script doesn't exist\"}"
 }
