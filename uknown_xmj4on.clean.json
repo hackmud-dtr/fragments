@@ -1,0 +1,85 @@
+{
+	"_id": "uknown_xmj4on.clean",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "uknown_xmj4on.clean",
+	"sector": "VNP_9604",
+	"sec_level": 4,
+	"date_added": 1565721063428,
+	"last_scraped": 1565721123512,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1565721063428
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1565721183512,
+	"category": "fishie_tank",
+	"last_update": 1565721123512,
+	"output": [
+		{
+			"args": {},
+			"calls": 7088,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" Ahea",
+				"urse n",
+				"e deck",
+				" you s",
+				"see thi",
+				"is like",
+				"Of cour",
+				" Do you",
+				"ead of t",
+				"Ahead of",
+				"0AD Do y"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1357,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" Ahea",
+				"urse n",
+				"e deck",
+				" you s",
+				"see thi",
+				"is like",
+				"Of cour",
+				" Do you",
+				"ead of t",
+				"Ahead of",
+				"0AD Do y"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 3967,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" Ahea",
+				"urse n",
+				"e deck",
+				" you s",
+				"see thi",
+				"is like",
+				"Of cour",
+				" Do you",
+				"ead of t",
+				"Ahead of",
+				"0AD Do y"
+			]
+		}
+	]
+}
