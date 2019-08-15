@@ -1,16 +1,32 @@
 {
 	"_id": "anonymous_l15il3.core",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anonymous_l15il3.core",
-	"sector": "K_8416",
+	"sector": "VNP_8134",
 	"sec_level": 0,
 	"date_added": 1561609799867,
-	"last_scraped": 0,
+	"last_scraped": 1565876369660,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561609799867
-		}
-	]
+		},
+		{
+			"type": "died",
+			"when": 1565876269695
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1565876359245,
+				"from": "VNP_8134",
+				"to": "K_8416"
+			}
+		]
+	],
+	"updt": 1561609904955,
+	"edit": 1,
+	"pl_output": "Unexpected token u in JSON at position 0",
+	"next_scrape": 1565964850586
 }
