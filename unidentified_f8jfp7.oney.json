@@ -1,0 +1,74 @@
+{
+	"_id": "unidentified_f8jfp7.oney",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "unidentified_f8jfp7.oney",
+	"sector": "VNP_5082",
+	"sec_level": 4,
+	"date_added": 1565904955802,
+	"last_scraped": 1565904965755,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1565904955802
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1565905025755,
+	"category": "fishie_tank",
+	"last_update": 1565905009024,
+	"output": [
+		{
+			"args": {},
+			"calls": 7403,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"re', ",
+				"how ma",
+				"d befo",
+				"aces a",
+				" ever ",
+				"re in t",
+				"ay me a",
+				"a that ",
+				" comes ",
+				"ion. 'Th",
+				"er heard",
+				" picture",
+				" many sm"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1431,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"re', ",
+				"how ma",
+				"d befo",
+				"aces a",
+				" ever ",
+				"re in t",
+				"ay me a",
+				"a that ",
+				" comes ",
+				"ion. 'Th",
+				"er heard",
+				" picture",
+				" many sm"
+			]
+		}
+	]
+}
