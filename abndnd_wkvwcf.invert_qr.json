@@ -1,20 +1,28 @@
 {
 	"_id": "abndnd_wkvwcf.invert_qr",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "abndnd_wkvwcf.invert_qr",
-	"sector": "K_6216",
+	"sector": "VNP_5082",
 	"sec_level": 4,
 	"date_added": 1562304827461,
-	"last_scraped": 1565927890724,
+	"last_scraped": 1565972962986,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562304827461
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1565972953723,
+				"from": "VNP_5082",
+				"to": "K_6216"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"!o!:#s.org.members, !n!:+NPCname+, !v!:+\\\"<get/command>\\\"+,!q!:+\\\"order_qrs\\\"+\\nCharges 250KGC per successfull call.\"}",
-	"next_scrape": 1566012484869,
-	"updt": 1565925722582,
-	"edit": 482
+	"next_scrape": 1566060161576,
+	"updt": 1565927979646,
+	"edit": 483
 }
