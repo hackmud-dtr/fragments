@@ -1,9 +1,9 @@
 {
 	"_id": "abndnd_wkvwcf.gcdump",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "timeout",
 	"script": "abndnd_wkvwcf.gcdump",
-	"sector": "K_9897",
+	"sector": "K_2954",
 	"sec_level": 2,
 	"date_added": 1562304536273,
 	"last_scraped": 0,
@@ -15,8 +15,16 @@
 		{
 			"type": "died",
 			"when": 1565972973032
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1565973203733,
+				"from": "K_2954",
+				"to": "K_9897"
+			}
+		]
 	],
-	"updt": 1562304706916,
-	"edit": 1
+	"updt": 1565973105435,
+	"edit": 2
 }
