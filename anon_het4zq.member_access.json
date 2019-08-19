@@ -1,0 +1,73 @@
+{
+	"_id": "anon_het4zq.member_access",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anon_het4zq.member_access",
+	"sector": "HJG_7617",
+	"sec_level": 4,
+	"date_added": 1566252820622,
+	"last_scraped": 1566252870012,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1566252820622
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1566252930012,
+	"category": "fishie_tank",
+	"last_update": 1566252870012,
+	"output": [
+		{
+			"args": {},
+			"calls": 13188,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"55 ca",
+				" only\\n",
+				" If it ",
+				"ck\\n2156",
+				"\\n2154 I",
+				" to the ",
+				"nly\\n2155"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 646,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"55 ca",
+				" only\\n",
+				" If it ",
+				"ck\\n2156",
+				"\\n2154 I",
+				" to the ",
+				"nly\\n2155"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 7328,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"55 ca",
+				" only\\n",
+				" If it ",
+				"ck\\n2156",
+				"\\n2154 I",
+				" to the ",
+				"nly\\n2155"
+			]
+		}
+	]
+}
