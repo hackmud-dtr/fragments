@@ -1,0 +1,70 @@
+{
+	"_id": "derelict_2be6vc.bot_scam_do_not_run",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "derelict_2be6vc.bot_scam_do_not_run",
+	"sector": "HJG_7617",
+	"sec_level": 4,
+	"date_added": 1566270945456,
+	"last_scraped": 1566270994911,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1566270945456
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1566271054911,
+	"category": "fishie_tank",
+	"last_update": 1566270994911,
+	"output": [
+		{
+			"args": {},
+			"calls": 11945,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"veryb",
+				"ror th",
+				"we bega",
+				"o late ",
+				"pattern'",
+				"ital env"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 609,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"veryb",
+				"ror th",
+				"we bega",
+				"o late ",
+				"pattern'",
+				"ital env"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 11740,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"veryb",
+				"ror th",
+				"we bega",
+				"o late ",
+				"pattern'",
+				"ital env"
+			]
+		}
+	]
+}
