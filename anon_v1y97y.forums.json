@@ -1,12 +1,12 @@
 {
 	"_id": "anon_v1y97y.forums",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "skip",
 	"script": "anon_v1y97y.forums",
-	"sector": "NGC_3371",
+	"sector": "HJG_7617",
 	"sec_level": 4,
 	"date_added": 1563311292178,
-	"last_scraped": 1565281468726,
+	"last_scraped": 1566267839723,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,38 @@
 		{
 			"type": "died",
 			"when": 1566267478700
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1566267788798,
+				"from": "HJG_7617",
+				"to": "NGC_3371"
+			}
+		]
 	],
 	"pl_output": "We're sorry, but you'll have to use the forums on your own!",
-	"next_scrape": 1565368521174,
-	"updt": 1565281666984,
-	"edit": 231
+	"next_scrape": 1566267899723,
+	"updt": 1566267533646,
+	"edit": 232,
+	"scrape_ct": 16,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1566267839723,
+	"output": [
+		{
+			"args": {},
+			"calls": 768999,
+			"base": "We're sorry, but you'll have to use the forums on your own!",
+			"fragments": [
+				"ttern",
+				"ou ar",
+				"s indi",
+				"It's l",
+				"48 you",
+				"1E47 Pa",
+				"'s late",
+				"erns ind"
+			]
+		}
+	]
 }
