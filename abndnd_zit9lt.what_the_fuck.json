@@ -1,30 +1,22 @@
 {
 	"_id": "abndnd_zit9lt.what_the_fuck",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abndnd_zit9lt.what_the_fuck",
 	"sector": "HJG_1955",
 	"sec_level": 4,
 	"date_added": 1566396726016,
-	"last_scraped": 1566396746182,
+	"last_scraped": 1566396776148,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1566396726016
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 19,
-	"next_scrape": 1566396806182,
+	"scrape_ct": 17,
+	"next_scrape": 1566396836148,
 	"category": "fishie_tank",
-	"last_update": 1566396746182,
+	"last_update": 1566396776148,
 	"output": [
 		{
 			"args": {},
@@ -40,6 +32,47 @@
 				"ory\\n1E57",
 				"Mallory\\n"
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 568,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"as goo",
+				" as go",
+				"lory\\n1",
+				" Mallor",
+				"s, Mallo",
+				" I'm jus",
+				"ory\\n1E57",
+				"Mallory\\n"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 10897,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"as goo",
+				" as go",
+				"lory\\n1",
+				" Mallor",
+				"s, Mallo",
+				" I'm jus",
+				"ory\\n1E57",
+				"Mallory\\n"
+			]
 		}
-	]
+	],
+	"updt": 1566396755035,
+	"edit": 1
 }
