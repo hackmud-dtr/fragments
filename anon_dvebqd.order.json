@@ -1,32 +1,64 @@
 {
 	"_id": "anon_dvebqd.order",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anon_dvebqd.order",
 	"sector": "HJG_1955",
 	"sec_level": 4,
 	"date_added": 1566385012105,
-	"last_scraped": 1566385021850,
+	"last_scraped": 1566385062341,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1566385012105
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1566385081850,
+	"scrape_ct": 18,
+	"next_scrape": 1566385122341,
 	"category": "fishie_tank",
-	"last_update": 1566385021850,
+	"last_update": 1566385062341,
 	"output": [
 		{
 			"args": {},
 			"calls": 7376,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"six m",
+				"ut I j",
+				"today.",
+				"ay. It'",
+				"are six",
+				"l the pr",
+				"e my win"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 478,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"six m",
+				"ut I j",
+				"today.",
+				"ay. It'",
+				"are six",
+				"l the pr",
+				"e my win"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 11125,
+			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"six m",
 				"ut I j",
