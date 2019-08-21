@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_smknog.x",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "unknown_smknog.x",
 	"sector": "NGC_1514",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1566329713677
+		},
+		{
+			"type": "died",
+			"when": 1566350540474
 		}
 	],
 	"retry_args": [
@@ -40,6 +44,58 @@
 				"e above",
 				", trans",
 				"ogs, tra",
+				"        "
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"ction",
+						"a) et",
+						") etc?",
+						" we va",
+						" the o",
+						"o, whic",
+						"h do we",
+						"e serve",
+						"e above",
+						", trans",
+						"ogs, tra"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ther? ",
+						"        "
+					]
+				}
+			]
+		}
+	],
+	"updt": 1566330023481,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+			"frags": [
+				"ction",
+				"a) et",
+				") etc?",
+				" we va",
+				" the o",
+				"o, whic",
+				"h do we",
+				"e serve",
+				"e above",
+				", trans",
+				"ogs, tra"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"ther? ",
 				"        "
 			]
 		}
