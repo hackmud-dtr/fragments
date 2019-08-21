@@ -1,0 +1,148 @@
+{
+	"_id": "derelict_s9nh27.solve_r_wintour",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "derelict_s9nh27.solve_r_wintour",
+	"sector": "NGC_1514",
+	"sec_level": 4,
+	"date_added": 1566369767422,
+	"last_scraped": 1566369898564,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1566369767422
+		}
+	],
+	"scrape_ct": 15,
+	"next_scrape": 1566369958564,
+	"category": "fishie_tank",
+	"last_update": 1566369910126,
+	"output": [
+		{
+			"args": {},
+			"calls": 30700,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ad ab",
+				"iscuss",
+				"cussion",
+				"be had ",
+				" defini",
+				" about ",
+				"ns. I do",
+				"ions. I ",
+				" don't w"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"ad ab",
+						"iscuss",
+						"cussion",
+						"be had ",
+						" defini",
+						" about ",
+						"ns. I do",
+						"ions. I ",
+						" don't w"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1381,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ad ab",
+				"iscuss",
+				"cussion",
+				"be had ",
+				" defini",
+				" about ",
+				"ns. I do",
+				"ions. I ",
+				" don't w"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"ad ab",
+						"iscuss",
+						"cussion",
+						"be had ",
+						" defini",
+						" about ",
+						"ns. I do",
+						"ions. I ",
+						" don't w"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 7949,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ad ab",
+				"iscuss",
+				"cussion",
+				"be had ",
+				" defini",
+				" about ",
+				"ns. I do",
+				"ions. I ",
+				" don't w"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"ad ab",
+						"iscuss",
+						"cussion",
+						"be had ",
+						" defini",
+						" about ",
+						"ns. I do",
+						"ions. I ",
+						" don't w"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+			"frags": [
+				"ad ab",
+				"iscuss",
+				"cussion",
+				"be had ",
+				" defini",
+				" about ",
+				"ns. I do",
+				"ions. I ",
+				" don't w"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
