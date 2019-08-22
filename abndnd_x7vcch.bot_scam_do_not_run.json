@@ -1,0 +1,68 @@
+{
+	"_id": "abndnd_x7vcch.bot_scam_do_not_run",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abndnd_x7vcch.bot_scam_do_not_run",
+	"sector": "VNP_7825",
+	"sec_level": 4,
+	"date_added": 1566495207067,
+	"last_scraped": 1566495227377,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1566495207067
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1566495287377,
+	"category": "fishie_tank",
+	"last_update": 1566495258582,
+	"output": [
+		{
+			"args": {},
+			"calls": 15064,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" Do y",
+				"this l",
+				"s like",
+				"urse no",
+				"see thi",
+				"Of cour",
+				" course",
+				"ou see t",
+				"f the de",
+				" deck.\\n"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1026,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" Do y",
+				"this l",
+				"s like",
+				"urse no",
+				"see thi",
+				"Of cour",
+				" course",
+				"ou see t",
+				"f the de",
+				" deck.\\n"
+			]
+		}
+	]
+}
