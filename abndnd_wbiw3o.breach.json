@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "abndnd_wbiw3o.breach",
-	"sector": "K_1215",
+	"sector": "K_7243",
 	"sec_level": 1,
 	"date_added": 1561683084938,
-	"last_scraped": 1566509835776,
+	"last_scraped": 1566511474167,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561683084938
-		}
+		},
+		{
+			"type": "died",
+			"when": 1566511435327
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1566511463927,
+				"from": "K_7243",
+				"to": "K_1215"
+			}
+		]
 	],
 	"pl_output": "Cannot read property 'call' of undefined",
-	"next_scrape": 1566598303797,
-	"updt": 1566507811147,
-	"edit": 755
+	"next_scrape": 1566591897830,
+	"updt": 1566509843346,
+	"edit": 756
 }
