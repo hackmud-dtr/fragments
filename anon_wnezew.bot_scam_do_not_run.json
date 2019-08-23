@@ -1,26 +1,26 @@
 {
 	"_id": "anon_wnezew.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anon_wnezew.bot_scam_do_not_run",
 	"sector": "SPC_9562",
 	"sec_level": 4,
 	"date_added": 1566594418573,
-	"last_scraped": 1566594584249,
+	"last_scraped": 1566594775968,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1566594418573
 		}
 	],
-	"scrape_ct": 15,
-	"next_scrape": 1566594644249,
+	"scrape_ct": 10,
+	"next_scrape": 1566594835968,
 	"category": "fishie_tank",
-	"last_update": 1566594584249,
+	"last_update": 1566594788573,
 	"output": [
 		{
 			"args": {},
-			"calls": 19552,
+			"calls": 42584,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"awaki",
@@ -54,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1722,
+			"calls": 2858,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -93,7 +93,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 19218,
+			"calls": 27449,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"awaki",
@@ -138,6 +138,13 @@
 				"ERROR | ",
 				" TIME ER"
 			]
+		}
+	],
+	"updt": 1566594604016,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
