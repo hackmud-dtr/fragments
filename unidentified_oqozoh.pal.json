@@ -1,9 +1,9 @@
 {
 	"_id": "unidentified_oqozoh.pal",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "skip",
 	"script": "unidentified_oqozoh.pal",
-	"sector": "K_6506",
+	"sector": "VNP_8134",
 	"sec_level": 0,
 	"date_added": 1563830616360,
 	"last_scraped": 0,
@@ -15,8 +15,16 @@
 		{
 			"type": "died",
 			"when": 1566531207083
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1566531227447,
+				"from": "VNP_8134",
+				"to": "K_6506"
+			}
+		]
 	],
-	"updt": 1563830618063,
-	"edit": 1
+	"updt": 1566531222103,
+	"edit": 2
 }
