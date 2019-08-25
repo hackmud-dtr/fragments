@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "abndnd_4umd9d.scraper",
-	"sector": "HJG_1493",
+	"sector": "NGC_1250",
 	"sec_level": 4,
 	"date_added": 1563775865502,
-	"last_scraped": 1566754404668,
+	"last_scraped": 1566756615639,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563775865502
-		}
+		},
+		{
+			"type": "died",
+			"when": 1566756176260
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1566756576991,
+				"from": "NGC_1250",
+				"to": "HJG_1493"
+			}
+		]
 	],
 	"pl_output": "Cannot read property 'call' of undefined",
-	"next_scrape": 1566834571598,
-	"updt": 1566744490586,
-	"edit": 765
+	"next_scrape": 1566836391792,
+	"updt": 1566756221587,
+	"edit": 767
 }

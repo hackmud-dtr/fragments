@@ -1,20 +1,47 @@
 {
 	"_id": "abndnd_4umd9d.dump",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "abndnd_4umd9d.dump",
-	"sector": "VNP_8719",
+	"sector": "K_2954",
 	"sec_level": 2,
 	"date_added": 1563775865502,
-	"last_scraped": 1564697228844,
+	"last_scraped": 1566756193272,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563775865502
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1566756175844,
+				"from": "K_2954",
+				"to": "VNP_8719"
+			}
+		]
 	],
 	"pl_output": "no money to dump",
-	"next_scrape": 1564784564448,
-	"updt": 1564697389057,
-	"edit": 91
+	"next_scrape": 1566843547935,
+	"updt": 1564705061130,
+	"edit": 92,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1566756193272,
+	"output": [
+		{
+			"args": {},
+			"calls": 311,
+			"base": "no money to dump",
+			"fragments": [
+				"XBF_CL",
+				"60 TRA",
+				"227_FI",
+				"2160 T",
+				"7_FILE0",
+				"27_FILE",
+				"CT0XF227",
+				"BF_CLST0"
+			]
+		}
+	]
 }
