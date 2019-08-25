@@ -1,19 +1,27 @@
 {
 	"_id": "derelict_yegchq.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "derelict_yegchq.bot_scam_do_not_run",
 	"sector": "VNP_8704",
 	"sec_level": 4,
 	"date_added": 1566698345713,
-	"last_scraped": 1566719042035,
+	"last_scraped": 1566720912828,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1566698345713
+		},
+		{
+			"type": "died",
+			"when": 1566720912828
+		},
+		{
+			"type": "died",
+			"when": 1566721005154
 		}
 	],
-	"next_scrape": 1566764426366,
+	"next_scrape": 1566813261559,
 	"category": "coin_flipper",
 	"last_update": 1566719042035,
 	"output": [
@@ -177,6 +185,7 @@
 			]
 		}
 	],
-	"updt": 1566717868860,
-	"edit": 18
+	"updt": 1566719225381,
+	"edit": 19,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_yegchq.bot_scam_do_not_run: script doesn't exist\"}"
 }
