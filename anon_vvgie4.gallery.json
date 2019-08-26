@@ -1,16 +1,32 @@
 {
 	"_id": "anon_vvgie4.gallery",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anon_vvgie4.gallery",
-	"sector": "K_6566",
+	"sector": "SPC_4016",
 	"sec_level": 4,
 	"date_added": 1563012046024,
-	"last_scraped": 0,
+	"last_scraped": 1566811313406,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563012046024
-		}
-	]
+		},
+		{
+			"type": "died",
+			"when": 1566811163809
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1566811302747,
+				"from": "SPC_4016",
+				"to": "K_6566"
+			}
+		]
+	],
+	"updt": 1566811209789,
+	"edit": 2,
+	"pl_output": "Unexpected token u in JSON at position 0",
+	"next_scrape": 1566891160099
 }
