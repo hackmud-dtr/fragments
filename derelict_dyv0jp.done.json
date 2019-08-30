@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_dyv0jp.done",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "derelict_dyv0jp.done",
 	"sector": "K_6830",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1566905687809
+		},
+		{
+			"type": "died",
+			"when": 1567135135477
 		}
 	],
 	"retry_args": [
@@ -38,9 +42,53 @@
 				"e above ",
 				"c? If so",
 				" the oth"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"server",
+						"rver l",
+						"on dat",
+						"ocial,",
+						"ich do",
+						"ial, g",
+						"e above ",
+						"c? If so",
+						" the oth"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"       "
+					]
+				}
 			]
 		}
 	],
-	"updt": 1566905737942,
-	"edit": 1
+	"updt": 1566905964330,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+			"frags": [
+				"server",
+				"rver l",
+				"on dat",
+				"ocial,",
+				"ich do",
+				"ial, g",
+				"e above ",
+				"c? If so",
+				" the oth"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"       "
+			]
+		}
+	]
 }
