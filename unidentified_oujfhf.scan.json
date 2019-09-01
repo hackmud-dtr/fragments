@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_oujfhf.scan",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unidentified_oujfhf.scan",
 	"sector": "SPC_1940",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "SPC_1940",
 				"to": "K_5859"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1567353804699
+		}
 	],
-	"updt": 1563676390917,
-	"edit": 162,
+	"updt": 1563676615632,
+	"edit": 163,
 	"output": [
 		{
 			"args": {},
