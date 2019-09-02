@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_9vq2f6.colors",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "derelict_9vq2f6.colors",
 	"sector": "K_3296",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "K_3296",
 				"to": "VNP_3783"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1567416055019
+		}
 	],
-	"updt": 1566727793824,
-	"edit": 940,
+	"updt": 1566729600583,
+	"edit": 941,
 	"output": "getWhitelist(...).includes is not a function",
 	"next_scrape": 1566819959633,
 	"pl_output": "getWhitelist(...).includes is not a function"

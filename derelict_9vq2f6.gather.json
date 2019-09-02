@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_9vq2f6.gather",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_9vq2f6.gather",
 	"sector": "K_3296",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "K_3296",
 				"to": "VNP_3783"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1567416055019
+		}
 	],
-	"updt": 1567413823782,
-	"edit": 1282,
+	"updt": 1567415175090,
+	"edit": 1283,
 	"output": "{\"ok\":false,\"msg\":\"Provide a script with t: #s.user.script. Use plaintext: true for a pipe-friendly output, and hideIndex: true to hide the counter. Use filter: \\\"players\\\" to hide NPCs.\"}",
 	"next_scrape": 1567506739816,
 	"pl_output": "{\"ok\":false,\"msg\":\"Provide a script with t: #s.user.script. Use plaintext: true for a pipe-friendly output, and hideIndex: true to hide the counter. Use filter: \\\"players\\\" to hide NPCs.\"}"
