@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_r9cv0q.scrape_t1",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anonymous_r9cv0q.scrape_t1",
 	"sector": "K_3429",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "K_3429",
 				"to": "K_3760"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1567520412577
+		}
 	],
-	"updt": 1565888616394,
-	"edit": 584,
+	"updt": 1565890647053,
+	"edit": 585,
 	"next_scrape": 1565978106554,
 	"output": "Cannot read property 'call' of undefined",
 	"pl_output": "Cannot read property 'call' of undefined"
