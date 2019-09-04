@@ -1,25 +1,20 @@
 {
 	"_id": "unknown_funbrk.k3y_brain",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "unknown_funbrk.k3y_brain",
 	"sector": "K_9564",
 	"sec_level": 4,
 	"date_added": 1563895884458,
-	"last_scraped": 1563895894262,
+	"last_scraped": 1567615439160,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563895884458
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1563895954262,
+	"next_scrape": 1567700796283,
 	"category": "risk_factor",
 	"last_update": 1563895894262,
 	"output": [
@@ -36,5 +31,16 @@
 				"omes the"
 			]
 		}
-	]
+	],
+	"updt": 1563896002443,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

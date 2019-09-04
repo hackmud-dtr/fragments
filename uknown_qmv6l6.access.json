@@ -1,25 +1,20 @@
 {
 	"_id": "uknown_qmv6l6.access",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "uknown_qmv6l6.access",
 	"sector": "VNP_3290",
 	"sec_level": 4,
 	"date_added": 1564614290345,
-	"last_scraped": 1564614312553,
+	"last_scraped": 1567615892223,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1564614290345
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1564614372553,
+	"next_scrape": 1567702501421,
 	"category": "risk_factor",
 	"last_update": 1564614312553,
 	"output": [
@@ -35,5 +30,16 @@
 				"ack.\\n2"
 			]
 		}
-	]
+	],
+	"updt": 1564614395023,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

@@ -1,21 +1,21 @@
 {
 	"_id": "uknown_uadizr.greet",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_uadizr.greet",
 	"sector": "K_2748",
 	"sec_level": 4,
 	"date_added": 1564139747806,
-	"last_scraped": 1564150663288,
+	"last_scraped": 1567615520197,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1564139747806
 		}
 	],
-	"next_scrape": 1564195689530,
+	"next_scrape": 1567660697410,
 	"category": "clicker",
-	"last_update": 1564150663288,
+	"last_update": 1567615520197,
 	"output": [
 		{
 			"args": {},
@@ -560,6 +560,63 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"CLICK": true
+			},
+			"calls": 1005,
+			"base": "`LCL000 0ECURED`",
+			"fragments": [
+				"I000 0",
+				"I0 100",
+				"I0 000",
+				"00 00S",
+				"0 100S",
+				"0 000S",
+				"IC000 0",
+				"IC00 00",
+				"IC0 100",
+				"I0000 0",
+				"0000 0S",
+				"ICK000 0",
+				"ICK00 00",
+				"ICK0 100",
+				"ICK0 000",
+				"IC0000 0",
+				"I0000\\n0",
+				"0000\\n0S",
+				"0000 0 S",
+				"00 00K S",
+				"0 100K S",
+				"0 000K S",
+				"ICK0000 0",
+				"ICK 000 0",
+				"ICK 00 00",
+				"ICK 0 100",
+				"ICK 0 000",
+				"IC0000\\n0",
+				"0000\\n0 S",
+				"0000 0K S",
+				"000 0CK S",
+				"00 00CK S",
+				"0 100CK S",
+				"0 000CK S",
+				"ICK0000\\n0",
+				"ICK S000 0",
+				"ICK S00 00",
+				"ICK S0 100",
+				"ICK S0 000",
+				"ICK 0000 0",
+				"I000\\n0000",
+				"ICK SE000 0",
+				"ICK SE00 00",
+				"ICK SE0 100",
+				"ICK SE0 000",
+				"ICK S0000 0",
+				"ICK 0000\\n0",
+				"IC000\\n0000"
+			]
 		}
 	],
 	"identified": [
@@ -619,11 +676,6 @@
 			]
 		}
 	],
-	"updt": 1564143360420,
-	"edit": 3,
-	"retry_args": [
-		{
-			"CLICK": true
-		}
-	]
+	"updt": 1564150802227,
+	"edit": 4
 }

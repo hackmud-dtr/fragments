@@ -1,25 +1,20 @@
 {
 	"_id": "anon_cf94dh.bot_brain",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "anon_cf94dh.bot_brain",
 	"sector": "HJG_7712",
 	"sec_level": 4,
 	"date_added": 1563768216930,
-	"last_scraped": 1563768235281,
+	"last_scraped": 1567615420083,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563768216930
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1563768295281,
+	"next_scrape": 1567699190483,
 	"category": "risk_factor",
 	"last_update": 1563768235281,
 	"output": [
@@ -39,5 +34,16 @@
 				"and it."
 			]
 		}
-	]
+	],
+	"updt": 1563768395772,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

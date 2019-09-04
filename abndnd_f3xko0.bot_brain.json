@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_f3xko0.bot_brain",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "abndnd_f3xko0.bot_brain",
 	"sector": "VNP_2284",
 	"sec_level": 4,
 	"date_added": 1563690194049,
-	"last_scraped": 1563690213141,
+	"last_scraped": 1567615399140,
 	"script_log": [
 		{
 			"type": "added",
@@ -17,13 +17,8 @@
 			"when": 1563704471381
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1563690273141,
+	"next_scrape": 1567698957458,
 	"category": "risk_factor",
 	"last_update": 1563690213141,
 	"output": [
@@ -52,8 +47,8 @@
 			]
 		}
 	],
-	"updt": 1563690370084,
-	"edit": 1,
+	"updt": 1563704570107,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
@@ -65,5 +60,14 @@
 				"everybod"
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

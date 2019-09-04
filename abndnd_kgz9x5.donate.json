@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_kgz9x5.donate",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "abndnd_kgz9x5.donate",
 	"sector": "VNP_2284",
 	"sec_level": 4,
 	"date_added": 1563657085437,
-	"last_scraped": 1563657095342,
+	"last_scraped": 1567615330337,
 	"script_log": [
 		{
 			"type": "added",
@@ -17,13 +17,8 @@
 			"when": 1563704471381
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1563657155342,
+	"next_scrape": 1567706083471,
 	"category": "risk_factor",
 	"last_update": 1563657095342,
 	"output": [
@@ -58,8 +53,8 @@
 			]
 		}
 	],
-	"updt": 1563657234043,
-	"edit": 1,
+	"updt": 1563704570107,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
@@ -74,5 +69,14 @@
 				"tive pro"
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

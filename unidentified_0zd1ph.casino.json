@@ -1,25 +1,20 @@
 {
 	"_id": "unidentified_0zd1ph.casino",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "unidentified_0zd1ph.casino",
 	"sector": "K_9556",
 	"sec_level": 4,
 	"date_added": 1563617423142,
-	"last_scraped": 1563617432737,
+	"last_scraped": 1567615279980,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563617423142
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1563617492737,
+	"next_scrape": 1567708876157,
 	"category": "risk_factor",
 	"last_update": 1563617432737,
 	"output": [
@@ -36,5 +31,16 @@
 				" we are "
 			]
 		}
-	]
+	],
+	"updt": 1563617543665,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

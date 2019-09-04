@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_sqauis.tiers",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_sqauis.tiers",
 	"sector": "VNP_5176",
 	"sec_level": 4,
 	"date_added": 1563942952956,
-	"last_scraped": 1563943173302,
+	"last_scraped": 1567615449088,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1563943233302,
+	"next_scrape": 1567662179653,
 	"category": "fishie_tank",
-	"last_update": 1563943213347,
+	"last_update": 1567615449088,
 	"output": [
 		{
 			"args": {},
@@ -81,12 +81,21 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 16295,
+			"calls": 24640,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"OR | T",
+				"D2F_FI",
+				"| PROG ",
+				"_SECT0X",
+				"SER mho",
 				"R | USE",
 				"R | TIM",
+				"LE0X3A8",
+				"8D07\\nS",
+				" | TIME",
 				"_FILE0X3",
+				"RROR | U",
 				"E ERROR ",
 				" USER mh",
 				" ERROR |"
@@ -119,11 +128,6 @@
 			]
 		}
 	],
-	"updt": 1563943133959,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1563943359794,
+	"edit": 2
 }
