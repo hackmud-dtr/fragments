@@ -1,27 +1,22 @@
 {
 	"_id": "anonymous_vpm24c.deposit",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "npc",
 	"script": "anonymous_vpm24c.deposit",
 	"sector": "HJG_8307",
 	"sec_level": 4,
 	"date_added": 1562345195874,
-	"last_scraped": 1562345215203,
+	"last_scraped": 1567612488179,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562345195874
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1562345275203,
+	"next_scrape": 1567654798738,
 	"category": "risk_factor",
-	"last_update": 1562345215203,
+	"last_update": 1567612488179,
 	"output": [
 		{
 			"args": {},
@@ -38,6 +33,52 @@
 				"0C_FILE0",
 				"B\\nSYST E"
 			]
+		},
+		{
+			"args": {
+				"do": "LOSE"
+			},
+			"calls": 744,
+			"base": "YOU COULD WIN 3GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"SYST 2",
+				"E_CLS2",
+				"2SYST ",
+				"W ERR 2",
+				"ILE0X 4",
+				"4GILE0X",
+				"0X77AB4",
+				"X77AB554",
+				"SYST N 4",
+				"SYST N 2",
+				"OR | NE2",
+				"ILE0XN 4",
+				"E_CLSN 2",
+				"77AB5504",
+				"40XCE_CL",
+				"R | NEN 2",
+				"4GX77AB55",
+				"4G0XCE_CL",
+				"2ECT0XAD0",
+				"0XCE_CL 4",
+				"X77AB55N 2",
+				"AB550B\\nS4",
+				"77AB550N 4",
+				"550B\\nSYS4",
+				"4550B\\nSYS",
+				"2GCOR | NE",
+				"2GC0XCE_CL",
+				"0XCE_CLN 4",
+				"ECT0XAD0N 2",
+				"550B\\nSYS 4",
+				"4G550B\\nSYS",
+				"2ªAB550B\\nS",
+				"2GAB550B\\nS",
+				"2G550B\\nSYS",
+				"550B\\nSYSN 2"
+			]
 		}
-	]
+	],
+	"updt": 1562345293460,
+	"edit": 1
 }
