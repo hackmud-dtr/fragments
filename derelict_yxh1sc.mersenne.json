@@ -6,27 +6,29 @@
 	"sector": "HJG_0244",
 	"sec_level": 4,
 	"date_added": 1561209608829,
-	"last_scraped": 1563257458720,
+	"last_scraped": 1567627311356,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561209608829
 		}
 	],
-	"next_scrape": 1563299550134,
+	"next_scrape": 1567668268879,
 	"category": "fishie_tank",
-	"last_update": 1563257458720,
+	"last_update": 1567627351805,
 	"output": [
 		{
 			"args": {},
-			"calls": 666123,
+			"calls": 675905,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"after",
+				"are s",
 				"attack",
 				"the att",
 				"sent to",
-				"le afte",
+				"o the at",
+				"le after",
+				"ile afte",
 				"he attac",
 				"acker's\\n",
 				"'s\\n217A "
@@ -51,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 65766,
+			"calls": 67759,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -59,11 +61,13 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"after",
+				"are s",
 				"attack",
 				"the att",
 				"sent to",
-				"le afte",
+				"o the at",
+				"le after",
+				"ile afte",
 				"he attac",
 				"acker's\\n",
 				"'s\\n217A "
@@ -117,8 +121,8 @@
 			]
 		}
 	],
-	"updt": 1563235371243,
-	"edit": 76,
+	"updt": 1563257469761,
+	"edit": 77,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -132,6 +136,11 @@
 				"acker's\\n",
 				"'s\\n217A "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

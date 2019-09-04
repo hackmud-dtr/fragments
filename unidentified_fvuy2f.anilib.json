@@ -6,31 +6,34 @@
 	"sector": "HJG_5723",
 	"sec_level": 4,
 	"date_added": 1562250511380,
-	"last_scraped": 1563299508862,
+	"last_scraped": 1567627553473,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562250511380
 		}
 	],
-	"next_scrape": 1563340822973,
+	"next_scrape": 1567667800021,
 	"category": "fishie_tank",
-	"last_update": 1563299508862,
+	"last_update": 1567627563797,
 	"output": [
 		{
 			"args": {},
-			"calls": 353325,
+			"calls": 380388,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				", Mal",
 				" ques",
 				"stion,",
-				"ave\\n1",
 				" I sup",
 				"pose no",
+				"ave\\n1E",
+				"\\n1E43 ",
 				"E43 I s",
-				"45 a qu",
-				"ve\\n1E45"
+				"ve\\n1E45",
+				"one?\\n1E",
+				"E45 a qu",
+				"45 a que"
 			],
 			"hits": [
 				{
@@ -53,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 39283,
+			"calls": 39767,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -64,12 +67,15 @@
 				", Mal",
 				" ques",
 				"stion,",
-				"ave\\n1",
 				" I sup",
 				"pose no",
+				"ave\\n1E",
+				"\\n1E43 ",
 				"E43 I s",
-				"45 a qu",
-				"ve\\n1E45"
+				"ve\\n1E45",
+				"one?\\n1E",
+				"E45 a qu",
+				"45 a que"
 			],
 			"hits": [
 				{
@@ -139,6 +145,11 @@
 			]
 		}
 	],
-	"updt": 1563254315338,
-	"edit": 41
+	"updt": 1563299627596,
+	"edit": 42,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
