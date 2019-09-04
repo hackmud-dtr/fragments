@@ -1,25 +1,20 @@
 {
 	"_id": "uknown_zp22ux.interesting_channels",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "uknown_zp22ux.interesting_channels",
 	"sector": "NGC_1810",
 	"sec_level": 4,
 	"date_added": 1566643151732,
-	"last_scraped": 1566643171673,
+	"last_scraped": 1567618377439,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1566643151732
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1566643231673,
+	"next_scrape": 1567702491520,
 	"category": "risk_factor",
 	"last_update": 1566643171673,
 	"output": [
@@ -37,5 +32,16 @@
 				" way, to"
 			]
 		}
-	]
+	],
+	"updt": 1566643301328,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

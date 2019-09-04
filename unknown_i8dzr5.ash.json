@@ -1,25 +1,20 @@
 {
 	"_id": "unknown_i8dzr5.ash",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "unknown_i8dzr5.ash",
 	"sector": "VNP_8704",
 	"sec_level": 4,
 	"date_added": 1566699412044,
-	"last_scraped": 1566699422884,
+	"last_scraped": 1567618407732,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1566699412044
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1566699482884,
+	"next_scrape": 1567711214876,
 	"category": "risk_factor",
 	"last_update": 1566699422884,
 	"output": [
@@ -37,5 +32,16 @@
 				" downtim"
 			]
 		}
-	]
+	],
+	"updt": 1566699586663,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

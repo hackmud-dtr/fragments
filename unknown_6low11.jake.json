@@ -1,25 +1,20 @@
 {
 	"_id": "unknown_6low11.jake",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "unknown_6low11.jake",
 	"sector": "SPC_9897",
 	"sec_level": 4,
 	"date_added": 1566010482939,
-	"last_scraped": 1566010492390,
+	"last_scraped": 1567617834372,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1566010482939
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1566010552390,
+	"next_scrape": 1567710022939,
 	"category": "risk_factor",
 	"last_update": 1566010492390,
 	"output": [
@@ -39,5 +34,16 @@
 				"0X665E_F"
 			]
 		}
-	]
+	],
+	"updt": 1566010562512,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

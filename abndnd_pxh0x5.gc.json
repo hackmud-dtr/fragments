@@ -1,25 +1,20 @@
 {
 	"_id": "abndnd_pxh0x5.gc",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "abndnd_pxh0x5.gc",
 	"sector": "NGC_1810",
 	"sec_level": 4,
 	"date_added": 1566615484623,
-	"last_scraped": 1566615514330,
+	"last_scraped": 1567618355809,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1566615484623
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1566615574330,
+	"next_scrape": 1567711658473,
 	"category": "risk_factor",
 	"last_update": 1566615514330,
 	"output": [
@@ -38,5 +33,16 @@
 				"raw a ca"
 			]
 		}
-	]
+	],
+	"updt": 1566615566235,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

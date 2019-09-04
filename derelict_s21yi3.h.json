@@ -1,25 +1,20 @@
 {
 	"_id": "derelict_s21yi3.h",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "derelict_s21yi3.h",
 	"sector": "VNP_7825",
 	"sec_level": 4,
 	"date_added": 1566479931199,
-	"last_scraped": 1566479951675,
+	"last_scraped": 1567618235400,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1566479931199
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1566480011675,
+	"next_scrape": 1567707927269,
 	"category": "risk_factor",
 	"last_update": 1566479951675,
 	"output": [
@@ -37,5 +32,16 @@
 				" SUBJ: I"
 			]
 		}
-	]
+	],
+	"updt": 1566480059341,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

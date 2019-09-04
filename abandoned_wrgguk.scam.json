@@ -1,25 +1,20 @@
 {
 	"_id": "abandoned_wrgguk.scam",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "abandoned_wrgguk.scam",
 	"sector": "HJG_7617",
 	"sec_level": 4,
 	"date_added": 1566274372956,
-	"last_scraped": 1566274400366,
+	"last_scraped": 1567618094119,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1566274372956
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 18,
-	"next_scrape": 1566274460366,
+	"next_scrape": 1567709740002,
 	"category": "risk_factor",
 	"last_update": 1566274400366,
 	"output": [
@@ -39,5 +34,16 @@
 				" NETW ER"
 			]
 		}
-	]
+	],
+	"updt": 1566274521580,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

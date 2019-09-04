@@ -1,27 +1,22 @@
 {
 	"_id": "abandoned_6nkwxg.dump",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_6nkwxg.dump",
 	"sector": "SPC_9562",
 	"sec_level": 4,
 	"date_added": 1566577543634,
-	"last_scraped": 1566577582828,
+	"last_scraped": 1567618335009,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1566577543634
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 17,
-	"next_scrape": 1566577642828,
+	"next_scrape": 1567665010436,
 	"category": "fishie_tank",
-	"last_update": 1566577593810,
+	"last_update": 1567618335009,
 	"output": [
 		{
 			"args": {},
@@ -34,6 +29,19 @@
 				"XAD0C_F",
 				"ERROR |",
 				"FILE0X77"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"B550B",
+						"7AB550",
+						"\\nSYST ",
+						"XAD0C_F",
+						"ERROR |",
+						"FILE0X77"
+					]
+				}
 			]
 		},
 		{
@@ -48,6 +56,49 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"B550B",
+				"7AB550",
+				"\\nSYST ",
+				"XAD0C_F",
+				"ERROR |",
+				"FILE0X77"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"B550B",
+						"7AB550",
+						"\\nSYST ",
+						"XAD0C_F",
+						"ERROR |",
+						"FILE0X77"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8175,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"B550B",
+				"7AB550",
+				"\\nSYST ",
+				"XAD0C_F",
+				"ERROR |",
+				"FILE0X77"
+			]
+		}
+	],
+	"updt": 1566577686038,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
 				"B550B",
 				"7AB550",
 				"\\nSYST ",

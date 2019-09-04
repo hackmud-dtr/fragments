@@ -1,25 +1,20 @@
 {
 	"_id": "unidentified_2wmbdb.locs",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "unidentified_2wmbdb.locs",
 	"sector": "VNP_7825",
 	"sec_level": 4,
 	"date_added": 1566438546616,
-	"last_scraped": 1566438566516,
+	"last_scraped": 1567618176232,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1566438546616
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1566438626516,
+	"next_scrape": 1567702760939,
 	"category": "risk_factor",
 	"last_update": 1566438566516,
 	"output": [
@@ -35,5 +30,16 @@
 				" process"
 			]
 		}
-	]
+	],
+	"updt": 1566438710530,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

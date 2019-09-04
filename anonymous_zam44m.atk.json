@@ -1,25 +1,20 @@
 {
 	"_id": "anonymous_zam44m.atk",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anonymous_zam44m.atk",
 	"sector": "VNP_7825",
 	"sec_level": 4,
 	"date_added": 1566447512160,
-	"last_scraped": 1566447531660,
+	"last_scraped": 1567618184696,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1566447512160
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1566447591660,
+	"next_scrape": 1567710107610,
 	"category": "risk_factor",
 	"last_update": 1566447531660,
 	"output": [
@@ -40,5 +35,16 @@
 				"people w"
 			]
 		}
-	]
+	],
+	"updt": 1566447727852,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

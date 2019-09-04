@@ -1,25 +1,20 @@
 {
 	"_id": "anon_uzcrbg.phony",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "anon_uzcrbg.phony",
 	"sector": "NGC_1810",
 	"sec_level": 4,
 	"date_added": 1566620735216,
-	"last_scraped": 1566620743377,
+	"last_scraped": 1567618366119,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1566620735216
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1566620803377,
+	"next_scrape": 1567711038158,
 	"category": "risk_factor",
 	"last_update": 1566620743377,
 	"output": [
@@ -37,6 +32,15 @@
 			]
 		}
 	],
-	"updt": 1566620753976,
-	"edit": 1
+	"updt": 1566620979543,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

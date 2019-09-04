@@ -1,25 +1,20 @@
 {
 	"_id": "abndnd_l86jw2.reloader",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "abndnd_l86jw2.reloader",
 	"sector": "NGC_1514",
 	"sec_level": 4,
 	"date_added": 1566331551354,
-	"last_scraped": 1566331571659,
+	"last_scraped": 1567618125585,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1566331551354
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1566331631659,
+	"next_scrape": 1567703109576,
 	"category": "risk_factor",
 	"last_update": 1566331571659,
 	"output": [
@@ -40,5 +35,16 @@
 				". BREAK "
 			]
 		}
-	]
+	],
+	"updt": 1566331603939,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

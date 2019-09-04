@@ -1,25 +1,20 @@
 {
 	"_id": "uknown_c9bwsk.alasil",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "uknown_c9bwsk.alasil",
 	"sector": "VNP_7825",
 	"sec_level": 4,
 	"date_added": 1566435382292,
-	"last_scraped": 1566435392866,
+	"last_scraped": 1567618164507,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1566435382292
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1566435452866,
+	"next_scrape": 1567711539416,
 	"category": "risk_factor",
 	"last_update": 1566435392866,
 	"output": [
@@ -34,5 +29,16 @@
 				" USER fb"
 			]
 		}
-	]
+	],
+	"updt": 1566435553620,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

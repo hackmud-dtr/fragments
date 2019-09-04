@@ -1,27 +1,22 @@
 {
 	"_id": "abndnd_8lfqta.internal",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_8lfqta.internal",
 	"sector": "NGC_1810",
 	"sec_level": 4,
 	"date_added": 1566668682081,
-	"last_scraped": 1566668704407,
+	"last_scraped": 1567618385586,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1566668682081
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1566668764407,
+	"next_scrape": 1567660652871,
 	"category": "fishie_tank",
-	"last_update": 1566668733086,
+	"last_update": 1567618385586,
 	"output": [
 		{
 			"args": {},
@@ -57,6 +52,24 @@
 				"ILD is *",
 				"50 be pl"
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 7930,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ses\\n21",
+				"ks.\\n21",
+				" the va",
+				"be playe",
+				"alue of ",
+				"ILD is *",
+				"50 be pl"
+			]
 		}
-	]
+	],
+	"updt": 1566668781560,
+	"edit": 1
 }
