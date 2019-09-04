@@ -1,36 +1,39 @@
 {
 	"_id": "uknown_8j8cuc.rectifier",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_8j8cuc.rectifier",
 	"sector": "K_3429",
 	"sec_level": 4,
 	"date_added": 1559315707721,
-	"last_scraped": 1564964645377,
+	"last_scraped": 1567635048530,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559315707721
 		}
 	],
-	"next_scrape": 1565008368942,
+	"next_scrape": 1567679517898,
 	"category": "dice_roller",
-	"last_update": 1564964645377,
+	"last_update": 1567635048530,
 	"output": [
 		{
 			"args": {},
-			"calls": 3247509,
+			"calls": 3255703,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
-				" 0001",
-				"LLFILE",
 				"100 00",
 				"0100 0",
+				"00 0110",
+				"0 0110 ",
 				" 0000 0",
+				"LFILE\\n0",
 				"001 0100",
 				"0000 000",
 				"00 0000 ",
-				" 0110 00"
+				"0 0001 0",
+				" 0110 00",
+				"ULLFILE\\n"
 			],
 			"hits": [
 				{
@@ -50,8 +53,8 @@
 			]
 		}
 	],
-	"updt": 1564958059370,
-	"edit": 309,
+	"updt": 1564964821030,
+	"edit": 310,
 	"identified": [
 		{
 			"document": "NOT FOUND",
