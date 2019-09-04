@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_pjojql.sys",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "npc",
 	"script": "abandoned_pjojql.sys",
 	"sector": "K_8416",
 	"sec_level": 0,
 	"date_added": 1558821408422,
-	"last_scraped": 1562488501896,
+	"last_scraped": 1567623822971,
 	"script_log": [
 		{
 			"type": "added",
@@ -21,17 +21,20 @@
 			}
 		]
 	],
-	"updt": 1562488666532,
-	"edit": 11,
+	"updt": 1562488890626,
+	"edit": 12,
 	"output": [
 		{
 			"args": {},
-			"calls": 297,
+			"calls": 503,
 			"base": "You have no system scripts. Load some with sys.manage",
 			"fragments": [
+				"000 000",
 				"00 0100",
-				"00 0000",
 				"\\n0000 0",
+				"100 0000",
+				"00 0000 ",
+				" 0000\\n0",
 				" 0000 00"
 			],
 			"hits": [
@@ -47,11 +50,11 @@
 			]
 		}
 	],
-	"next_scrape": 1562488561896,
+	"next_scrape": 1567669793759,
 	"pl_output": "You have no system scripts. Load some with sys.manage",
 	"scrape_ct": 20,
 	"category": "UNKNOWN CATEGORY",
-	"last_update": 1562488501896,
+	"last_update": 1567623822971,
 	"old_output": "You have no system scripts. Load some with sys.manage",
 	"identified": [
 		{
