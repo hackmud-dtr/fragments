@@ -1,12 +1,12 @@
 {
 	"_id": "anon_zfcfx3.emes",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_zfcfx3.emes",
 	"sector": "NGC_2512",
 	"sec_level": 4,
 	"date_added": 1565096582054,
-	"last_scraped": 1565096642488,
+	"last_scraped": 1567636133366,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,20 +14,26 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1565096702488,
+	"next_scrape": 1567681200755,
 	"category": "fishie_tank",
-	"last_update": 1565096642488,
+	"last_update": 1567636164861,
 	"output": [
 		{
 			"args": {},
-			"calls": 7964,
+			"calls": 21230,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"just ",
 				"thing ",
+				"out me",
 				"lly re",
 				"kay we",
+				" somet",
+				"lly lik",
+				" hobbie",
+				"hobbies ",
 				"eah? oka",
+				"as such,",
 				" yeah? o"
 			],
 			"hits": [
@@ -48,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1223,
+			"calls": 2144,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -58,9 +64,15 @@
 			"fragments": [
 				"just ",
 				"thing ",
+				"out me",
 				"lly re",
 				"kay we",
+				" somet",
+				"lly lik",
+				" hobbie",
+				"hobbies ",
 				"eah? oka",
+				"as such,",
 				" yeah? o"
 			],
 			"hits": [
@@ -106,8 +118,8 @@
 			]
 		}
 	],
-	"updt": 1565096735924,
-	"edit": 1,
+	"updt": 1567622480418,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
@@ -119,6 +131,11 @@
 				"eah? oka",
 				" yeah? o"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
