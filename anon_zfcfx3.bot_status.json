@@ -6,29 +6,35 @@
 	"sector": "K_8441",
 	"sec_level": 4,
 	"date_added": 1562030200717,
-	"last_scraped": 1563192547035,
+	"last_scraped": 1567626627817,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562030200717
 		}
 	],
-	"next_scrape": 1563233669023,
+	"next_scrape": 1567671934013,
 	"category": "fishie_tank",
-	"last_update": 1563192547035,
+	"last_update": 1567626647901,
 	"output": [
 		{
 			"args": {},
-			"calls": 406183,
+			"calls": 423010,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"lane.",
 				"er, I ",
 				"Initia",
+				"20B1 A",
+				" the a",
 				"the att",
+				"itiate ",
 				"iate co",
 				"bat in ",
 				"te comba",
-				"may\\n20B"
+				"may\\n20B",
+				"\\n20B2 My",
+				" I may\\n2"
 			],
 			"hits": [
 				{
@@ -49,7 +55,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 39408,
+			"calls": 40843,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -57,13 +63,19 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"lane.",
 				"er, I ",
 				"Initia",
+				"20B1 A",
+				" the a",
 				"the att",
+				"itiate ",
 				"iate co",
 				"bat in ",
 				"te comba",
-				"may\\n20B"
+				"may\\n20B",
+				"\\n20B2 My",
+				" I may\\n2"
 			],
 			"hits": [
 				{
@@ -125,6 +137,11 @@
 			]
 		}
 	],
-	"updt": 1563168870713,
-	"edit": 41
+	"updt": 1563192765388,
+	"edit": 42,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
