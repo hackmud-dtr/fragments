@@ -1,12 +1,12 @@
 {
 	"_id": "anon_9evaaf.man",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "npc",
 	"script": "anon_9evaaf.man",
 	"sector": "VNP_2284",
 	"sec_level": 4,
 	"date_added": 1563698119233,
-	"last_scraped": 0,
+	"last_scraped": 1567621723204,
 	"script_log": [
 		{
 			"type": "added",
@@ -17,6 +17,65 @@
 			"when": 1563704471381
 		}
 	],
-	"updt": 1563698260646,
-	"edit": 1
+	"updt": 1563704570107,
+	"edit": 2,
+	"next_scrape": 1567665254467,
+	"category": "fishie_tank",
+	"last_update": 1567621723204,
+	"output": [
+		{
+			"args": {},
+			"calls": 9306,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"07 Ha",
+				", use",
+				" user E",
+				"er Erin ",
+				" Erin R.",
+				"rds.\\n221",
+				"ds.\\n2213",
+				" cards.\\n"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1083,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"07 Ha",
+				", use",
+				" user E",
+				"er Erin ",
+				" Erin R.",
+				"rds.\\n221",
+				"ds.\\n2213",
+				" cards.\\n"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8736,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"07 Ha",
+				", use",
+				" user E",
+				"er Erin ",
+				" Erin R.",
+				"rds.\\n221",
+				"ds.\\n2213",
+				" cards.\\n"
+			]
+		}
+	]
 }
