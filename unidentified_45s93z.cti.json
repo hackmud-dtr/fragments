@@ -1,25 +1,20 @@
 {
 	"_id": "unidentified_45s93z.cti",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "unidentified_45s93z.cti",
 	"sector": "VNP_6280",
 	"sec_level": 4,
 	"date_added": 1565005539969,
-	"last_scraped": 1565005570072,
+	"last_scraped": 1567616826977,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1565005539969
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1565005630072,
+	"next_scrape": 1567708450995,
 	"category": "risk_factor",
 	"last_update": 1565005570072,
 	"output": [
@@ -39,5 +34,16 @@
 				" ## Ques"
 			]
 		}
-	]
+	],
+	"updt": 1565005640451,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

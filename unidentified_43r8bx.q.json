@@ -1,25 +1,20 @@
 {
 	"_id": "unidentified_43r8bx.q",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "unidentified_43r8bx.q",
 	"sector": "K_2655",
 	"sec_level": 4,
 	"date_added": 1565301566310,
-	"last_scraped": 1565301587417,
+	"last_scraped": 1567617139107,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1565301566310
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1565301647417,
+	"next_scrape": 1567702189274,
 	"category": "risk_factor",
 	"last_update": 1565301587417,
 	"output": [
@@ -38,5 +33,16 @@
 				"e\\n20F0 d"
 			]
 		}
-	]
+	],
+	"updt": 1565301732013,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

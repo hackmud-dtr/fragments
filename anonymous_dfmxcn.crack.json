@@ -1,32 +1,24 @@
 {
 	"_id": "anonymous_dfmxcn.crack",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anonymous_dfmxcn.crack",
 	"sector": "SPC_8841",
 	"sec_level": 4,
 	"date_added": 1565468362496,
-	"last_scraped": 1565468413622,
+	"last_scraped": 1567617400215,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1565468362496
 		}
 	],
-	"updt": 1565468365197,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
+	"updt": 1565468591376,
+	"edit": 2,
 	"scrape_ct": 17,
-	"next_scrape": 1565468473622,
+	"next_scrape": 1567662552085,
 	"category": "fishie_tank",
-	"last_update": 1565468413622,
+	"last_update": 1567617400215,
 	"output": [
 		{
 			"args": {},
@@ -39,6 +31,53 @@
 				"032089",
 				"LE0X2BC",
 				" We tak",
+				"175\\nAD03"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1169,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"_SECT0",
+				"CT0XF2",
+				"2089 W",
+				"0XBF_C",
+				"take tu",
+				"LST0X7A",
+				"0X2BC7D",
+				"turns\\n2",
+				"XF227_FI",
+				"XBF_CLST",
+				"27_FILE0",
+				"175\\nAD03"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 10984,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"_SECT0",
+				"CT0XF2",
+				"2089 W",
+				"0XBF_C",
+				"take tu",
+				"LST0X7A",
+				"0X2BC7D",
+				"turns\\n2",
+				"XF227_FI",
+				"XBF_CLST",
+				"27_FILE0",
 				"175\\nAD03"
 			]
 		}

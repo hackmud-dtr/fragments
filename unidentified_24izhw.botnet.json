@@ -1,25 +1,20 @@
 {
 	"_id": "unidentified_24izhw.botnet",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "unidentified_24izhw.botnet",
 	"sector": "VNP_6280",
 	"sec_level": 4,
 	"date_added": 1565034666239,
-	"last_scraped": 1565034684773,
+	"last_scraped": 1567616848283,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1565034666239
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1565034744773,
+	"next_scrape": 1567697176931,
 	"category": "risk_factor",
 	"last_update": 1565034684773,
 	"output": [
@@ -37,6 +32,15 @@
 			]
 		}
 	],
-	"updt": 1565034729727,
-	"edit": 1
+	"updt": 1565034954628,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

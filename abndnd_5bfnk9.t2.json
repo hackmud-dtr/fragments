@@ -1,25 +1,20 @@
 {
 	"_id": "abndnd_5bfnk9.t2",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "abndnd_5bfnk9.t2",
 	"sector": "SPC_4267",
 	"sec_level": 4,
 	"date_added": 1565382029247,
-	"last_scraped": 1565382069131,
+	"last_scraped": 1567617180817,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1565382029247
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1565382129131,
+	"next_scrape": 1567707775910,
 	"category": "risk_factor",
 	"last_update": 1565382069131,
 	"output": [
@@ -38,5 +33,16 @@
 				" is info"
 			]
 		}
-	]
+	],
+	"updt": 1565382250850,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

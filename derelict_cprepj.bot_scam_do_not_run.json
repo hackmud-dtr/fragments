@@ -1,25 +1,20 @@
 {
 	"_id": "derelict_cprepj.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "derelict_cprepj.bot_scam_do_not_run",
 	"sector": "K_5861",
 	"sec_level": 4,
 	"date_added": 1564917752061,
-	"last_scraped": 1564917762269,
+	"last_scraped": 1567616798645,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1564917752061
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1564917822269,
+	"next_scrape": 1567702863268,
 	"category": "risk_factor",
 	"last_update": 1564917762269,
 	"output": [
@@ -41,5 +36,16 @@
 				" ERROR |"
 			]
 		}
-	]
+	],
+	"updt": 1564917933366,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

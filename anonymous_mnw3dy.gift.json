@@ -1,25 +1,20 @@
 {
 	"_id": "anonymous_mnw3dy.gift",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "anonymous_mnw3dy.gift",
 	"sector": "K_2655",
 	"sec_level": 4,
 	"date_added": 1565278114333,
-	"last_scraped": 1565278124956,
+	"last_scraped": 1567617089695,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1565278114333
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1565278184956,
+	"next_scrape": 1567708093760,
 	"category": "risk_factor",
 	"last_update": 1565278124956,
 	"output": [
@@ -37,5 +32,16 @@
 				"cards.\\n"
 			]
 		}
-	]
+	],
+	"updt": 1565278734117,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

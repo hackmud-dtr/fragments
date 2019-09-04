@@ -1,25 +1,20 @@
 {
 	"_id": "abndnd_k73umg.t3crusher",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "abndnd_k73umg.t3crusher",
 	"sector": "K_5861",
 	"sec_level": 4,
 	"date_added": 1564921716944,
-	"last_scraped": 1564921726743,
+	"last_scraped": 1567616807103,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1564921716944
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1564921786743,
+	"next_scrape": 1567702729851,
 	"category": "risk_factor",
 	"last_update": 1564921726743,
 	"output": [
@@ -36,5 +31,16 @@
 				"on.\\n20B1"
 			]
 		}
-	]
+	],
+	"updt": 1564921768478,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

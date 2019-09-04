@@ -1,20 +1,28 @@
 {
 	"_id": "abandoned_q4icev.uncorrupt",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abandoned_q4icev.uncorrupt",
 	"sector": "K_2655",
 	"sec_level": 4,
 	"date_added": 1565144990256,
-	"last_scraped": 1565145112360,
+	"last_scraped": 1567616958907,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1565144990256
+		},
+		{
+			"type": "died",
+			"when": 1567616958907
+		},
+		{
+			"type": "died",
+			"when": 1567616973684
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1565145172360,
+	"next_scrape": 1567708482315,
 	"category": "fishie_tank",
 	"last_update": 1565145131648,
 	"output": [
@@ -112,9 +120,7 @@
 			]
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1565145205754,
+	"edit": 1,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_q4icev.uncorrupt: script doesn't exist\"}"
 }

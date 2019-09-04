@@ -1,25 +1,20 @@
 {
 	"_id": "uknown_nos692.hackmud_nano",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "uknown_nos692.hackmud_nano",
 	"sector": "NGC_7257",
 	"sec_level": 4,
 	"date_added": 1565387311191,
-	"last_scraped": 1565387341412,
+	"last_scraped": 1567617241510,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1565387311191
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 18,
-	"next_scrape": 1565387401412,
+	"next_scrape": 1567704613143,
 	"category": "risk_factor",
 	"last_update": 1565387341412,
 	"output": [
@@ -35,5 +30,16 @@
 				"0 0000 0"
 			]
 		}
-	]
+	],
+	"updt": 1565387436528,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
