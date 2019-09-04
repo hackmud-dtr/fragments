@@ -6,29 +6,35 @@
 	"sector": "K_3429",
 	"sec_level": 4,
 	"date_added": 1559276569397,
-	"last_scraped": 1563139125497,
+	"last_scraped": 1567626195425,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559276569397
 		}
 	],
-	"next_scrape": 1563179397091,
+	"next_scrape": 1567666592542,
 	"category": "fishie_tank",
-	"last_update": 1563139125497,
+	"last_update": 1567626195425,
 	"output": [
 		{
 			"args": {},
-			"calls": 1243232,
+			"calls": 1260337,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"erajb",
 				"SER e",
 				"LST0X",
+				"8_CLS",
+				"TW ERR",
 				"ILE0X8",
 				"E\\nSYS",
 				" USER ",
+				"16DE\\nS",
 				"0X87AF1",
-				" PROG E"
+				" PROG E",
+				"RROR | N",
+				"F_FILE0X"
 			],
 			"hits": [
 				{
@@ -49,7 +55,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 115820,
+			"calls": 116596,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -57,13 +63,19 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"erajb",
 				"SER e",
 				"LST0X",
+				"8_CLS",
+				"TW ERR",
 				"ILE0X8",
 				"E\\nSYS",
 				" USER ",
+				"16DE\\nS",
 				"0X87AF1",
-				" PROG E"
+				" PROG E",
+				"RROR | N",
+				"F_FILE0X"
 			],
 			"hits": [
 				{
@@ -84,16 +96,22 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 1249943,
+			"calls": 1254130,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"erajb",
 				"SER e",
 				"LST0X",
+				"8_CLS",
+				"TW ERR",
 				"ILE0X8",
 				"E\\nSYS",
 				" USER ",
+				"16DE\\nS",
 				"0X87AF1",
-				" PROG E"
+				" PROG E",
+				"RROR | N",
+				"F_FILE0X"
 			],
 			"hits": [
 				{
@@ -111,8 +129,8 @@
 			]
 		}
 	],
-	"updt": 1563139106448,
-	"edit": 141,
+	"updt": 1563139330815,
+	"edit": 142,
 	"identified": [
 		{
 			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",

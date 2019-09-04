@@ -6,28 +6,38 @@
 	"sector": "VNP_3574",
 	"sec_level": 4,
 	"date_added": 1559429391488,
-	"last_scraped": 1563073525788,
+	"last_scraped": 1567625873194,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1559429391488
 		}
 	],
-	"next_scrape": 1563116078812,
+	"next_scrape": 1567665516102,
 	"category": "fishie_tank",
-	"last_update": 1563073525788,
+	"last_update": 1567625883298,
 	"output": [
 		{
 			"args": {},
-			"calls": 1247215,
+			"calls": 1265776,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"rom t",
 				"ards ",
 				"ve tha",
+				"ove th",
+				"k\\n20F",
+				"ck\\n20",
 				"F card",
+				"ending ",
+				"ds from",
+				"20EF ca",
 				" the\\n2",
 				"stack\\n2",
 				"E Remove",
+				"0 defend",
+				"he\\n20F0 ",
+				"\\n20EE Re",
 				" many\\n20"
 			],
 			"hits": [
@@ -49,7 +59,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 113602,
+			"calls": 114343,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -57,12 +67,22 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"rom t",
 				"ards ",
 				"ve tha",
+				"ove th",
+				"k\\n20F",
+				"ck\\n20",
 				"F card",
+				"ending ",
+				"ds from",
+				"20EF ca",
 				" the\\n2",
 				"stack\\n2",
 				"E Remove",
+				"0 defend",
+				"he\\n20F0 ",
+				"\\n20EE Re",
 				" many\\n20"
 			],
 			"hits": [
@@ -111,8 +131,8 @@
 			]
 		}
 	],
-	"updt": 1563073511451,
-	"edit": 138,
+	"updt": 1563073738811,
+	"edit": 139,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -125,6 +145,11 @@
 				"E Remove",
 				" many\\n20"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
