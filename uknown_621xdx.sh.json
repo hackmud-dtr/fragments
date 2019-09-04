@@ -1,38 +1,42 @@
 {
 	"_id": "uknown_621xdx.sh",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_621xdx.sh",
 	"sector": "SPC_8584",
 	"sec_level": 4,
 	"date_added": 1560608780928,
-	"last_scraped": 1562961903356,
+	"last_scraped": 1567624667132,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560608780928
 		}
 	],
-	"updt": 1562913648463,
-	"edit": 94,
-	"next_scrape": 1563005099633,
+	"updt": 1562961909430,
+	"edit": 95,
+	"next_scrape": 1567670711084,
 	"category": "fishie_tank",
-	"last_update": 1562961903356,
+	"last_update": 1567624667132,
 	"output": [
 		{
 			"args": {},
-			"calls": 801313,
+			"calls": 822302,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"LST0X",
+				"3200F",
 				"\\nAD03",
-				"F_CLST",
-				"FILE0X",
 				"4\\nAD0",
 				"XBF_CLS",
-				"LE0X2BC",
+				"F_CLST0",
 				"A_SECT0",
+				"174\\nAD",
 				"ST0X7A_S",
+				"ILE0X2BC",
 				"FT0XBF_C",
+				"F First:",
+				"7_FILE0X",
 				"227_FILE",
 				"0XF227_F",
 				"0F First"
@@ -160,6 +164,14 @@
 				"0XF227_F",
 				"0F First"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

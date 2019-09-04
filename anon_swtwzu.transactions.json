@@ -1,29 +1,34 @@
 {
 	"_id": "anon_swtwzu.transactions",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_swtwzu.transactions",
 	"sector": "K_8441",
 	"sec_level": 4,
 	"date_added": 1562095213744,
-	"last_scraped": 1563002278933,
+	"last_scraped": 1567625149921,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562095213744
 		}
 	],
-	"next_scrape": 1563044704967,
+	"next_scrape": 1567667650076,
 	"category": "fishie_tank",
-	"last_update": 1563002278933,
+	"last_update": 1567625149921,
 	"output": [
 		{
 			"args": {},
-			"calls": 321009,
+			"calls": 331461,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"will ",
+				"ge 5 ",
+				"d to ",
 				" soon",
 				"ing so",
+				" to re",
+				"l need ",
 				" with st",
 				" we will",
 				" - with "
@@ -45,7 +50,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 31639,
+			"calls": 32436,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -53,8 +58,13 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"will ",
+				"ge 5 ",
+				"d to ",
 				" soon",
 				"ing so",
+				" to re",
+				"l need ",
 				" with st",
 				" we will",
 				" - with "
@@ -76,11 +86,16 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 310235,
+			"calls": 326685,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"will ",
+				"ge 5 ",
+				"d to ",
 				" soon",
 				"ing so",
+				" to re",
+				"l need ",
 				" with st",
 				" we will",
 				" - with "
@@ -111,6 +126,6 @@
 			]
 		}
 	],
-	"updt": 1563002266138,
-	"edit": 36
+	"updt": 1563002492572,
+	"edit": 37
 }
