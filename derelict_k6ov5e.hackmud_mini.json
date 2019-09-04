@@ -6,25 +6,27 @@
 	"sector": "HJG_5723",
 	"sec_level": 4,
 	"date_added": 1562255546221,
-	"last_scraped": 1563441715050,
+	"last_scraped": 1567629623536,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562255546221
 		}
 	],
-	"updt": 1563428375106,
-	"edit": 49,
-	"next_scrape": 1563485183736,
+	"updt": 1563441896956,
+	"edit": 50,
+	"next_scrape": 1567670173915,
 	"category": "fishie_tank",
-	"last_update": 1563441715050,
+	"last_update": 1567629663277,
 	"output": [
 		{
 			"args": {},
-			"calls": 458271,
+			"calls": 466678,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"e is ",
+				"Defen",
+				" is r",
 				"y 1.\\n",
 				"te com",
 				"e comb",
@@ -33,9 +35,12 @@
 				"efender",
 				"der tur",
 				"5F on d",
+				"r BREAKs",
+				"on defen",
 				"ender BR",
 				"educed b",
 				"EAKs ini",
+				" reduced",
 				"combat\\n2"
 			],
 			"hits": [
@@ -63,7 +68,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 45549,
+			"calls": 46558,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -72,6 +77,8 @@
 			],
 			"fragments": [
 				"e is ",
+				"Defen",
+				" is r",
 				"y 1.\\n",
 				"te com",
 				"e comb",
@@ -80,9 +87,12 @@
 				"efender",
 				"der tur",
 				"5F on d",
+				"r BREAKs",
+				"on defen",
 				"ender BR",
 				"educed b",
 				"EAKs ini",
+				" reduced",
 				"combat\\n2"
 			],
 			"hits": [
@@ -167,6 +177,11 @@
 				"EAKs ini",
 				"combat\\n2"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
