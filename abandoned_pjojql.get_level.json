@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_pjojql.get_level",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_pjojql.get_level",
 	"sector": "K_6506",
 	"sec_level": 0,
@@ -21,8 +21,8 @@
 			}
 		]
 	],
-	"updt": 1562488441470,
-	"edit": 7,
+	"updt": 1562488666532,
+	"edit": 8,
 	"output": [
 		{
 			"args": {},
@@ -37,6 +37,21 @@
 				"E95 prio",
 				"5 prior ",
 				"learn\\n1E"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"o lea",
+						"1E95 p",
+						" ago\\n",
+						"what th",
+						"arn\\n1E9",
+						"E95 prio",
+						"5 prior ",
+						"learn\\n1E"
+					]
+				}
 			]
 		}
 	],
@@ -44,5 +59,20 @@
 	"pl_output": "Usage: `Fscropts`.`Lget_level` { name: \"<scriptname>\" }",
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1562488472162,
-	"old_output": "Usage: `Fscropts`.`Lget_level` { name: \"<scriptname>\" }"
+	"old_output": "Usage: `Fscropts`.`Lget_level` { name: \"<scriptname>\" }",
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"o lea",
+				"1E95 p",
+				" ago\\n",
+				"what th",
+				"arn\\n1E9",
+				"E95 prio",
+				"5 prior ",
+				"learn\\n1E"
+			]
+		}
+	]
 }
