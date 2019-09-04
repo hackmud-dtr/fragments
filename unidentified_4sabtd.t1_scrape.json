@@ -1,27 +1,22 @@
 {
 	"_id": "unidentified_4sabtd.t1_scrape",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "npc",
 	"script": "unidentified_4sabtd.t1_scrape",
 	"sector": "SPC_2440",
 	"sec_level": 4,
 	"date_added": 1563225815674,
-	"last_scraped": 1563225853741,
+	"last_scraped": 1567613623457,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563225815674
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1563225913741,
+	"next_scrape": 1567657314192,
 	"category": "risk_factor",
-	"last_update": 1563225853741,
+	"last_update": 1567613623457,
 	"output": [
 		{
 			"args": {},
@@ -34,6 +29,40 @@
 				"rin + Sa",
 				"OR | NET"
 			]
+		},
+		{
+			"args": {
+				"do": "LOSE"
+			},
+			"calls": 386,
+			"base": "YOU COULD WIN 3GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"8_CLS4",
+				"8_CLS2",
+				"+ Sal4",
+				"8_CLS 2",
+				"4ER era",
+				"2G8_CLS",
+				"2ER era",
+				"X87AF16D",
+				"ROR | T2",
+				"ER era 4",
+				"ER era 2",
+				"8_CLSN 4",
+				"4GC8_CLS",
+				"4GC+ Sal",
+				"0X68_CL4",
+				"0X68_CL2",
+				"RROR | N4",
+				"RROR | N2",
+				"4RROR | N",
+				"4GROR | T",
+				"2G0X68_CL",
+				"0X68_CL 2",
+				"ROR | TN 4"
+			]
 		}
-	]
+	],
+	"updt": 1563225897148,
+	"edit": 1
 }

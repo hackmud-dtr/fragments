@@ -1,27 +1,22 @@
 {
 	"_id": "derelict_gl3crf.lock_unlocked",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "npc",
 	"script": "derelict_gl3crf.lock_unlocked",
 	"sector": "K_6566",
 	"sec_level": 4,
 	"date_added": 1563058569587,
-	"last_scraped": 1563058579113,
+	"last_scraped": 1567613362098,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563058569587
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1563058639113,
+	"next_scrape": 1567655307344,
 	"category": "risk_factor",
-	"last_update": 1563058579113,
+	"last_update": 1567613362098,
 	"output": [
 		{
 			"args": {},
@@ -34,6 +29,45 @@
 				" 0000 0",
 				"00 0000 "
 			]
+		},
+		{
+			"args": {
+				"do": "LOSE"
+			},
+			"calls": 402,
+			"base": "YOU COULD WIN 3GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"400 00",
+				"00 004",
+				"40100 0",
+				"40 0100",
+				"00 00 2",
+				"0 01002",
+				"4GC00 00",
+				"4G0 0100",
+				"2G0000 0",
+				"0100 0 2",
+				"0000 012",
+				"0000 0 2",
+				"00 00N 4",
+				"4Ã01 0100",
+				"4GC0100 0",
+				"4G01 0100",
+				"2GC0100 0",
+				"2GC0 0100",
+				"2G01 0100",
+				"0000 0N 2",
+				"000 01004",
+				"0 0100Nª4",
+				"4G000 0100",
+				"2GC01 0100",
+				"0000 01N 4",
+				"000 0100 4",
+				"000 0100 2",
+				"000 0100N 4"
+			]
 		}
-	]
+	],
+	"updt": 1563058635208,
+	"edit": 1
 }

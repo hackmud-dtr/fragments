@@ -1,25 +1,20 @@
 {
 	"_id": "abndnd_524u8g.delivery_run",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "abndnd_524u8g.delivery_run",
 	"sector": "K_6566",
 	"sec_level": 4,
 	"date_added": 1562959480181,
-	"last_scraped": 1562959529823,
+	"last_scraped": 1567612901020,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562959480181
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1562959589823,
+	"next_scrape": 1567701554852,
 	"category": "risk_factor",
 	"last_update": 1562959529823,
 	"output": [
@@ -37,5 +32,16 @@
 				"e up\\n21"
 			]
 		}
-	]
+	],
+	"updt": 1562959653770,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

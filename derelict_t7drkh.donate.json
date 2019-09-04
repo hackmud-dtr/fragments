@@ -1,27 +1,22 @@
 {
 	"_id": "derelict_t7drkh.donate",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "npc",
 	"script": "derelict_t7drkh.donate",
 	"sector": "NGC_4554",
 	"sec_level": 4,
 	"date_added": 1562861353847,
-	"last_scraped": 1562861363801,
+	"last_scraped": 1567612810655,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562861353847
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1562861423801,
+	"next_scrape": 1567655049034,
 	"category": "risk_factor",
-	"last_update": 1562861363801,
+	"last_update": 1567612810655,
 	"output": [
 		{
 			"args": {},
@@ -37,6 +32,38 @@
 				"OR | N",
 				"ERROR "
 			]
+		},
+		{
+			"args": {
+				"do": "LOSE"
+			},
+			"calls": 395,
+			"base": "YOU COULD WIN 3GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"IME E4",
+				"E ERR4",
+				"2E ERR",
+				"4E ERRO",
+				"R | TIME",
+				"4§E ERRO",
+				"2R | TIM",
+				"2GE ERRO",
+				"2ERROR |",
+				"RROR | P2",
+				"R | TIM 2",
+				"ERROR | 4",
+				"4RROR | T",
+				"4RROR | P",
+				"4NETW ERR",
+				"2RROR | P",
+				"RROR | T 4",
+				"RROR | T 2",
+				"4GCR | TIM",
+				"RROR | PN 2",
+				"4GCNETW ERR"
+			]
 		}
-	]
+	],
+	"updt": 1562861562103,
+	"edit": 1
 }

@@ -1,27 +1,22 @@
 {
 	"_id": "abndnd_3ykki0.looter_v2",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_3ykki0.looter_v2",
 	"sector": "K_9556",
 	"sec_level": 4,
 	"date_added": 1563492809100,
-	"last_scraped": 1563492849462,
+	"last_scraped": 1567615067230,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563492809100
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 18,
-	"next_scrape": 1563492909462,
+	"next_scrape": 1567661348179,
 	"category": "fishie_tank",
-	"last_update": 1563492860186,
+	"last_update": 1567615067230,
 	"output": [
 		{
 			"args": {},
@@ -49,8 +44,23 @@
 				"ROR | PR",
 				" ERROR |"
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8209,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"RROR | ",
+				"PROG ER",
+				"OR | PR",
+				" | PROG",
+				" NETW ER",
+				" ERROR |"
+			]
 		}
 	],
-	"updt": 1563492849781,
-	"edit": 1
+	"updt": 1563493075279,
+	"edit": 2
 }

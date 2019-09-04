@@ -1,27 +1,22 @@
 {
 	"_id": "anon_b6j3br.key_completion",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "npc",
 	"script": "anon_b6j3br.key_completion",
 	"sector": "SPC_9316",
 	"sec_level": 4,
 	"date_added": 1562681011187,
-	"last_scraped": 1562681021595,
+	"last_scraped": 1567612640808,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562681011187
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1562681081595,
+	"next_scrape": 1567656914805,
 	"category": "risk_factor",
-	"last_update": 1562681021595,
+	"last_update": 1567612640808,
 	"output": [
 		{
 			"args": {},
@@ -35,6 +30,40 @@
 				"LE0XEEF9",
 				"02D6\\nSYS"
 			]
+		},
+		{
+			"args": {
+				"do": "LOSE"
+			},
+			"calls": 407,
+			"base": "YOU COULD WIN 3GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"_FILE04",
+				"2_FILE0",
+				"4¤_FILE0",
+				"2G_FILE0",
+				"2G ERROR",
+				"26\\nSYST",
+				"202D6\\nS",
+				"2 ERROR ",
+				" ERROR 2",
+				"_FILE0N 2",
+				"XEEF902D4",
+				"6\\nSYST 4",
+				"6\\nSYST 2",
+				"4XEEF902D",
+				"4GCEEF902",
+				"4G02D6\\nS",
+				" ERROR  4",
+				"XEEF902D 2",
+				"4G6\\nSYST ",
+				" ERROR N 4",
+				"XEEF902DN 4",
+				"6\\nSYST N 2",
+				"4GCXEEF902D"
+			]
 		}
-	]
+	],
+	"updt": 1562681196543,
+	"edit": 1
 }
