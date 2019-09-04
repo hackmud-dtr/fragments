@@ -1,25 +1,20 @@
 {
 	"_id": "unidentified_mrk3bh.binmat",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "unidentified_mrk3bh.binmat",
 	"sector": "K_6830",
 	"sec_level": 4,
 	"date_added": 1566886548175,
-	"last_scraped": 1566886588219,
+	"last_scraped": 1567618496346,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1566886548175
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1566886648219,
+	"next_scrape": 1567704774831,
 	"category": "risk_factor",
 	"last_update": 1566886588219,
 	"output": [
@@ -37,5 +32,16 @@
 				"^2.\\n215"
 			]
 		}
-	]
+	],
+	"updt": 1566886788256,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

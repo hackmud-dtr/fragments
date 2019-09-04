@@ -1,25 +1,20 @@
 {
 	"_id": "uknown_12xsaa.t2_experimental",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "uknown_12xsaa.t2_experimental",
 	"sector": "VNP_8704",
 	"sec_level": 4,
 	"date_added": 1566744981438,
-	"last_scraped": 1566745037428,
+	"last_scraped": 1567618436703,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1566744981438
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1566745097428,
+	"next_scrape": 1567708329085,
 	"category": "risk_factor",
 	"last_update": 1566745037428,
 	"output": [
@@ -37,5 +32,16 @@
 				"\\n1E4B of"
 			]
 		}
-	]
+	],
+	"updt": 1566745174319,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

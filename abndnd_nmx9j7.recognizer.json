@@ -1,25 +1,20 @@
 {
 	"_id": "abndnd_nmx9j7.recognizer",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "abndnd_nmx9j7.recognizer",
 	"sector": "NGC_1250",
 	"sec_level": 4,
 	"date_added": 1566767674069,
-	"last_scraped": 1566767693482,
+	"last_scraped": 1567618446461,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1566767674069
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1566767753482,
+	"next_scrape": 1567703137531,
 	"category": "risk_factor",
 	"last_update": 1566767693482,
 	"output": [
@@ -36,5 +31,16 @@
 				" was at "
 			]
 		}
-	]
+	],
+	"updt": 1566767958046,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
