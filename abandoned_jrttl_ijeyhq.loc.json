@@ -3,18 +3,26 @@
 	"type": "fragment",
 	"mode": "timeout",
 	"script": "abandoned_jrttl_ijeyhq.loc",
-	"sector": "CHAOS_ZETA_5",
+	"sector": "K_2954",
 	"sec_level": 2,
 	"date_added": 1562388853637,
-	"last_scraped": 1562388863239,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562388853637
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1567572901201,
+				"from": "K_2954",
+				"to": "CHAOS_ZETA_5"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_jrttl_ijeyhq.loc: Shift operation is currently in progress. 843s remain\"}",
 	"next_scrape": 1562471626117,
-	"updt": 1562389025124,
-	"edit": 1
+	"updt": 1562416084573,
+	"edit": 2
 }
