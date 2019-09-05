@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_yb1n5z.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_yb1n5z.bot_scam_do_not_run",
 	"sector": "NGC_1037",
 	"sec_level": 4,
 	"date_added": 1564215123985,
-	"last_scraped": 1567615680628,
+	"last_scraped": 1567652048035,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1567658984311,
+	"next_scrape": 1567692438512,
 	"category": "fishie_tank",
-	"last_update": 1567615680628,
+	"last_update": 1567652088210,
 	"output": [
 		{
 			"args": {},
-			"calls": 16157,
+			"calls": 24136,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"tion' ",
@@ -48,7 +48,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 281,
+			"calls": 2262,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -106,8 +106,8 @@
 			]
 		}
 	],
-	"updt": 1567617065834,
-	"edit": 2,
+	"updt": 1567623385109,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
@@ -119,6 +119,11 @@
 				"nd 'last",
 				" 'last a"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
