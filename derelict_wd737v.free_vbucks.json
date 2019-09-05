@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_wd737v.free_vbucks",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "derelict_wd737v.free_vbucks",
 	"sector": "NGC_5259",
 	"sec_level": 4,
 	"date_added": 1563269074739,
-	"last_scraped": 1567613885494,
+	"last_scraped": 1567726827707,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567657667210,
+	"next_scrape": 1567767499680,
 	"category": "risk_factor",
-	"last_update": 1567613885494,
+	"last_update": 1567726827707,
 	"output": [
 		{
 			"args": {},
-			"calls": 990,
+			"calls": 1435,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"XF227",
@@ -233,8 +233,8 @@
 			]
 		}
 	],
-	"updt": 1567616166126,
-	"edit": 2,
+	"updt": 1567722389145,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -322,6 +322,11 @@
 				"0X7A_SE",
 				"LST0X7A_"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

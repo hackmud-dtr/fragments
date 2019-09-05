@@ -1,12 +1,12 @@
 {
 	"_id": "anon_y8qmri.release",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "anon_y8qmri.release",
 	"sector": "SPC_7402",
 	"sec_level": 4,
 	"date_added": 1562737965104,
-	"last_scraped": 1567612730225,
+	"last_scraped": 1567726734659,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,19 +14,23 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567655096446,
+	"next_scrape": 1567772641702,
 	"category": "risk_factor",
-	"last_update": 1567612730225,
+	"last_update": 1567726734659,
 	"output": [
 		{
 			"args": {},
-			"calls": 1105,
+			"calls": 1777,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
-				"| BOD",
-				"TIME ",
+				"fbret",
 				"on era",
+				"ME ERR",
+				" | BOD",
+				"| TIME ",
+				"| BODY ",
 				"n erajb",
+				"G ERROR",
 				"lory' | ",
 				"llory' |",
 				" 'Mallor"
@@ -210,8 +214,8 @@
 			]
 		}
 	],
-	"updt": 1567615713892,
-	"edit": 2,
+	"updt": 1567710883878,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -329,6 +333,11 @@
 			"frags": [
 				" erajb"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }
