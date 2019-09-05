@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_cvmak9.so",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_cvmak9.so",
 	"sector": "NGC_4040",
 	"sec_level": 4,
 	"date_added": 1565587813826,
-	"last_scraped": 1567617500997,
+	"last_scraped": 1567654362252,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,25 +14,34 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1567663584387,
+	"next_scrape": 1567695467175,
 	"category": "fishie_tank",
-	"last_update": 1567617500997,
+	"last_update": 1567654379285,
 	"output": [
 		{
 			"args": {},
-			"calls": 9392,
+			"calls": 27058,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"t - a",
+				"n tha",
+				"ly va",
+				"ic se",
 				"this t",
 				"ould o",
 				"- one ",
+				"xiomati",
 				"t answe",
+				"st? ## ",
 				"nly an ",
+				"ister t",
 				"d only ",
+				"ce is i",
 				"tience i",
 				"ter this",
-				"infinite"
+				"infinite",
+				"case, co",
+				", at tha"
 			],
 			"hits": [
 				{
@@ -56,7 +65,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 960,
+			"calls": 1868,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -65,15 +74,24 @@
 			],
 			"fragments": [
 				"t - a",
+				"n tha",
+				"ly va",
+				"ic se",
 				"this t",
 				"ould o",
 				"- one ",
+				"xiomati",
 				"t answe",
+				"st? ## ",
 				"nly an ",
+				"ister t",
 				"d only ",
+				"ce is i",
 				"tience i",
 				"ter this",
-				"infinite"
+				"infinite",
+				"case, co",
+				", at tha"
 			],
 			"hits": [
 				{
@@ -130,8 +148,8 @@
 			]
 		}
 	],
-	"updt": 1567617968841,
-	"edit": 2,
+	"updt": 1567622932410,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
@@ -156,6 +174,11 @@
 				"case, co",
 				", at tha"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
