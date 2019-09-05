@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_k73umg.t3crusher",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abndnd_k73umg.t3crusher",
 	"sector": "K_5861",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1564921716944
+		},
+		{
+			"type": "died",
+			"when": 1567680772640
 		}
 	],
 	"scrape_ct": 20,
@@ -29,15 +33,41 @@
 				"20B1 In",
 				"20B2 My ",
 				"on.\\n20B1"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" in a ",
+						"nitiate",
+						"ay\\n20B",
+						"20B1 In",
+						"20B2 My ",
+						"on.\\n20B1"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1567617742482,
-	"edit": 2,
+	"updt": 1567653375032,
+	"edit": 3,
 	"retry_args": [
 		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				" in a ",
+				"nitiate",
+				"ay\\n20B",
+				"20B1 In",
+				"20B2 My ",
+				"on.\\n20B1"
+			]
+		}
+	]
 }
