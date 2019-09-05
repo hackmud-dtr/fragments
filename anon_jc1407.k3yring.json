@@ -1,12 +1,12 @@
 {
 	"_id": "anon_jc1407.k3yring",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_jc1407.k3yring",
 	"sector": "K_9556",
 	"sec_level": 4,
 	"date_added": 1563594144831,
-	"last_scraped": 1567682792764,
+	"last_scraped": 1567698122279,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1567723541524,
+	"next_scrape": 1567739615076,
 	"category": "fishie_tank",
-	"last_update": 1567682792764,
+	"last_update": 1567698142932,
 	"output": [
 		{
 			"args": {},
-			"calls": 32104,
+			"calls": 48843,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" in a",
@@ -56,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3555,
+			"calls": 4643,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -130,8 +130,8 @@
 			]
 		}
 	],
-	"updt": 1567661718015,
-	"edit": 4,
+	"updt": 1567682917638,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -143,6 +143,11 @@
 				"ker, I m",
 				"in a lan"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
