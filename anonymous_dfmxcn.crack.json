@@ -1,36 +1,45 @@
 {
 	"_id": "anonymous_dfmxcn.crack",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_dfmxcn.crack",
 	"sector": "SPC_8841",
 	"sec_level": 4,
 	"date_added": 1565468362496,
-	"last_scraped": 1567617400215,
+	"last_scraped": 1567654208527,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1565468362496
 		}
 	],
-	"updt": 1567617968841,
-	"edit": 3,
+	"updt": 1567622704957,
+	"edit": 4,
 	"scrape_ct": 17,
-	"next_scrape": 1567662552085,
+	"next_scrape": 1567694848415,
 	"category": "fishie_tank",
-	"last_update": 1567617400215,
+	"last_update": 1567654218338,
 	"output": [
 		{
 			"args": {},
-			"calls": 12992,
+			"calls": 30235,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"F_CLS",
-				"2089 ",
+				"_SECT0",
 				"MFT0XB",
+				"CT0XF2",
+				"2089 W",
+				"0XBF_C",
 				"032089",
+				"take tu",
+				"LST0X7A",
 				"LE0X2BC",
+				"0X2BC7D",
 				" We tak",
+				"turns\\n2",
+				"XF227_FI",
+				"XBF_CLST",
+				"27_FILE0",
 				"175\\nAD03"
 			],
 			"hits": [
@@ -52,7 +61,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1169,
+			"calls": 1889,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -155,6 +164,11 @@
 				"27_FILE0",
 				"175\\nAD03"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_ej80v1.make_hug_it",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_ej80v1.make_hug_it",
 	"sector": "NGC_2512",
 	"sec_level": 4,
 	"date_added": 1565085664943,
-	"last_scraped": 1567616938013,
+	"last_scraped": 1567653535265,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,30 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567661537081,
+	"next_scrape": 1567698574454,
 	"category": "fishie_tank",
-	"last_update": 1567616938013,
+	"last_update": 1567653557018,
 	"output": [
 		{
 			"args": {},
-			"calls": 7009,
+			"calls": 23073,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"t mak",
+				"stage",
 				"n pol",
+				"makes",
 				"ater ",
 				" buil",
+				"tion p",
 				"policy",
 				"curati",
 				"ation ",
+				"th the ",
 				"s of th",
+				"help bu",
+				"am to h",
+				"licy tha",
 				"e projec"
 			],
 			"hits": [
@@ -52,7 +60,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1965,
+			"calls": 2967,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -60,13 +68,21 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"t mak",
+				"stage",
 				"n pol",
+				"makes",
 				"ater ",
 				" buil",
+				"tion p",
 				"policy",
 				"curati",
 				"ation ",
+				"th the ",
 				"s of th",
+				"help bu",
+				"am to h",
+				"licy tha",
 				"e projec"
 			],
 			"hits": [
@@ -120,8 +136,8 @@
 			]
 		}
 	],
-	"updt": 1567617742482,
-	"edit": 3,
+	"updt": 1567622256059,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
@@ -143,6 +159,11 @@
 				"licy tha",
 				"e projec"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

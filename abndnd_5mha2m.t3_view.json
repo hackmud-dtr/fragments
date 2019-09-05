@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_5mha2m.t3_view",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_5mha2m.t3_view",
 	"sector": "K_2655",
 	"sec_level": 4,
 	"date_added": 1565172026773,
-	"last_scraped": 1567616978267,
+	"last_scraped": 1567653656030,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 4,
-	"next_scrape": 1567657987363,
+	"next_scrape": 1567693784549,
 	"category": "clicker",
-	"last_update": 1567616978267,
+	"last_update": 1567653656030,
 	"output": [
 		{
 			"args": {},
-			"calls": 36707,
+			"calls": 52769,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"t as ",
@@ -56,7 +56,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 48885,
+			"calls": 56967,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"t as ",
@@ -142,6 +142,11 @@
 			]
 		}
 	],
-	"updt": 1565172579259,
-	"edit": 3
+	"updt": 1567617742482,
+	"edit": 4,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
