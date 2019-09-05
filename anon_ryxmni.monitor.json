@@ -1,35 +1,41 @@
 {
 	"_id": "anon_ryxmni.monitor",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_ryxmni.monitor",
 	"sector": "NGC_4554",
 	"sec_level": 4,
 	"date_added": 1562845216769,
-	"last_scraped": 1567613353386,
+	"last_scraped": 1567647918987,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562845216769
 		}
 	],
-	"next_scrape": 1567658268137,
+	"next_scrape": 1567694151224,
 	"category": "fishie_tank",
-	"last_update": 1567613353386,
+	"last_update": 1567647918987,
 	"output": [
 		{
 			"args": {},
-			"calls": 142026,
+			"calls": 154252,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ssue ",
-				"re: P",
 				"r imi",
 				"oriti",
-				"onna ",
 				"iorit",
+				" re: P",
+				" less ",
+				"s of an",
+				"gonna s",
+				" | BODY",
+				"waki | S",
 				"less of ",
-				"ki | SUB"
+				"ki | SUB",
+				"ities co",
+				"ODY stor"
 			],
 			"hits": [
 				{
@@ -138,6 +144,14 @@
 			]
 		}
 	],
-	"updt": 1563056831110,
-	"edit": 13
+	"updt": 1567615941401,
+	"edit": 14,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }

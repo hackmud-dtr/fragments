@@ -1,34 +1,39 @@
 {
 	"_id": "derelict_aiw7mg.t",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_aiw7mg.t",
 	"sector": "NGC_3087",
 	"sec_level": 4,
 	"date_added": 1560362026773,
-	"last_scraped": 1567613223524,
+	"last_scraped": 1567647577234,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560362026773
 		}
 	],
-	"next_scrape": 1567655544936,
+	"next_scrape": 1567689545909,
 	"category": "fishie_tank",
-	"last_update": 1567613223524,
+	"last_update": 1567647577234,
 	"output": [
 		{
 			"args": {},
-			"calls": 916083,
+			"calls": 924218,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"tack ",
+				": I r",
 				"\\n20BB",
 				"2^3.\\n",
-				".\\n20B",
+				" I att",
 				"veal 5 ",
 				"nd 3\\n2",
 				" attack",
-				"20B9 Her"
+				"es.\\n20B",
+				"^3.\\n20B",
+				"20B9 Her",
+				"\\n20B9 He"
 			],
 			"hits": [
 				{
@@ -49,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 81490,
+			"calls": 82213,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -57,13 +62,18 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"tack ",
+				": I r",
 				"\\n20BB",
 				"2^3.\\n",
-				".\\n20B",
+				" I att",
 				"veal 5 ",
 				"nd 3\\n2",
 				" attack",
-				"20B9 Her"
+				"es.\\n20B",
+				"^3.\\n20B",
+				"20B9 Her",
+				"\\n20B9 He"
 			],
 			"hits": [
 				{
@@ -84,7 +94,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 889633,
+			"calls": 909694,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"tack ",
@@ -116,8 +126,8 @@
 			]
 		}
 	],
-	"updt": 1563020978989,
-	"edit": 102,
+	"updt": 1567615941401,
+	"edit": 103,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",

@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_gl3crf.lock_unlocked",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "derelict_gl3crf.lock_unlocked",
 	"sector": "K_6566",
 	"sec_level": 4,
 	"date_added": 1563058569587,
-	"last_scraped": 1567613362098,
+	"last_scraped": 1567647938372,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,19 +14,21 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567655307344,
+	"next_scrape": 1567688883170,
 	"category": "risk_factor",
-	"last_update": 1567613362098,
+	"last_update": 1567647938372,
 	"output": [
 		{
 			"args": {},
-			"calls": 918,
+			"calls": 1595,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				" 0101 ",
 				"0100 00",
-				"00 0100",
+				"01 0100",
+				"0000 01",
 				" 0000 0",
+				"000 0100",
 				"00 0000 "
 			],
 			"hits": [
@@ -115,8 +117,8 @@
 			]
 		}
 	],
-	"updt": 1567615941401,
-	"edit": 2,
+	"updt": 1567622932410,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -154,6 +156,11 @@
 				"000 0100 2",
 				"000 0100N 4"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

@@ -1,34 +1,43 @@
 {
 	"_id": "abndnd_j3zx6u.lime_edge",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_j3zx6u.lime_edge",
 	"sector": "HJG_6509",
 	"sec_level": 4,
 	"date_added": 1562447886618,
-	"last_scraped": 1567612991165,
+	"last_scraped": 1567647014454,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562447886618
 		}
 	],
-	"next_scrape": 1567653826916,
+	"next_scrape": 1567691319885,
 	"category": "fishie_tank",
-	"last_update": 1567612991165,
+	"last_update": 1567647014454,
 	"output": [
 		{
 			"args": {},
-			"calls": 226927,
+			"calls": 255461,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ot si",
 				"futur",
+				"ed lo",
+				"befor",
+				". You",
 				" a dr",
 				"y thro",
+				"of oth",
+				" throu",
+				"s of ot",
+				"cular t",
 				"ch back",
+				" or boo",
 				"xtrapola",
 				"ugh grea",
+				"s how we",
 				"r book t",
 				"came a g"
 			],
@@ -212,6 +221,14 @@
 			]
 		}
 	],
-	"updt": 1562977463958,
-	"edit": 23
+	"updt": 1567615941401,
+	"edit": 24,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
