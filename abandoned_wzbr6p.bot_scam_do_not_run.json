@@ -1,25 +1,25 @@
 {
 	"_id": "abandoned_wzbr6p.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_wzbr6p.bot_scam_do_not_run",
 	"sector": "K_0689",
 	"sec_level": 4,
 	"date_added": 1561712517869,
-	"last_scraped": 1567660669840,
+	"last_scraped": 1567682148927,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561712517869
 		}
 	],
-	"next_scrape": 1567704114895,
+	"next_scrape": 1567728033243,
 	"category": "fishie_tank",
-	"last_update": 1567660669840,
+	"last_update": 1567682179971,
 	"output": [
 		{
 			"args": {},
-			"calls": 599591,
+			"calls": 611763,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"nicat",
@@ -85,7 +85,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 55482,
+			"calls": 57170,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -257,6 +257,11 @@
 			]
 		}
 	],
-	"updt": 1567629021677,
-	"edit": 65
+	"updt": 1567660815904,
+	"edit": 66,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
