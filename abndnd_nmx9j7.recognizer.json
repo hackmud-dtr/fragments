@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_nmx9j7.recognizer",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "abndnd_nmx9j7.recognizer",
 	"sector": "NGC_1250",
 	"sec_level": 4,
 	"date_added": 1566767674069,
-	"last_scraped": 1567618446461,
+	"last_scraped": 1567709166882,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567703137531,
+	"next_scrape": 1567789291917,
 	"category": "risk_factor",
 	"last_update": 1566767693482,
 	"output": [
@@ -29,15 +29,44 @@
 				"enced in",
 				"e-like p",
 				" was at "
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"too lat",
+						"tarted t",
+						"oo late ",
+						"enced in",
+						"e-like p",
+						" was at "
+					]
+				}
 			]
 		}
 	],
-	"updt": 1567619320312,
-	"edit": 2,
+	"updt": 1567657208541,
+	"edit": 3,
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"too lat",
+				"tarted t",
+				"oo late ",
+				"enced in",
+				"e-like p",
+				" was at "
+			]
+		}
+	],
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}
-	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	]
 }

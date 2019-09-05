@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_xf9y9m.escrow",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "derelict_xf9y9m.escrow",
 	"sector": "HJG_7617",
 	"sec_level": 4,
 	"date_added": 1566274110689,
-	"last_scraped": 1567618084861,
+	"last_scraped": 1567708905948,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1567710986376,
+	"next_scrape": 1567791575107,
 	"category": "risk_factor",
 	"last_update": 1566274128765,
 	"output": [
@@ -31,12 +31,15 @@
 			]
 		}
 	],
-	"updt": 1567618643512,
-	"edit": 2,
+	"updt": 1567655857570,
+	"edit": 3,
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}
-	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	]
 }

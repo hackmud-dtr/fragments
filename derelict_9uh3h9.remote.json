@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_9uh3h9.remote",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "skip",
 	"script": "derelict_9uh3h9.remote",
 	"sector": "VNP_1006",
 	"sec_level": 4,
 	"date_added": 1562558836058,
-	"last_scraped": 1567646190762,
+	"last_scraped": 1567713104302,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567688584139,
+	"next_scrape": 1567754463100,
 	"category": "risk_factor",
-	"last_update": 1567646190762,
+	"last_update": 1567713104302,
 	"output": [
 		{
 			"args": {},
@@ -52,34 +52,61 @@
 			"args": {
 				"do": "LOSE"
 			},
-			"calls": 446,
+			"calls": 1302,
 			"base": "YOU COULD WIN 3GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"r to 4",
+				"r to 2",
+				"ns in4",
 				"4r to ",
 				"4ns in",
 				"2r to ",
 				"2ns in",
 				"solve.4",
+				"r to  4",
 				"r to  2",
 				"ns in 4",
+				"ns in 2",
 				"42169 A",
+				"2Gns in",
 				"solve. 4",
+				"ns inN 4",
+				"nd card4",
+				"nd card2",
+				"4PS send",
+				"4GCns in",
 				"4G2169 A",
+				"469 Atta",
 				"2nd card",
+				"2Gsolve.",
 				"269 Atta",
+				"2169 A 4",
 				"2169 A 2",
 				"solve.N 4",
+				"solve.N 2",
 				"nd card 2",
+				"PS send 2",
 				"69 Atta 2",
+				"4G¨nd car",
 				"4Gnd card",
 				"4GCsolve.",
+				"4 in orde",
+				"2GCsolve.",
 				"2GC2169 A",
+				"2G69 Atta",
+				"2169 AN 4",
+				"2169 AN 2",
 				" in orde4",
+				" in orde2",
 				"nd cardN 4",
+				"PS send Ã2",
+				"PS send  4",
 				"PS send  2",
+				"69 AttaN 4",
 				"4GPS send ",
 				"4GC69 Atta",
+				"4G in orde",
+				"2GC69 Atta",
 				" in orde¦4",
 				" in orde 4",
 				"PS send N¦2",
@@ -127,10 +154,46 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "LOSE"
+			},
+			"calls": 337,
+			"base": "YOU COULD WIN 4GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"r to 2",
+				"ns in3",
+				"3ns in",
+				"r to  2",
+				"ns in 3",
+				"3Gr to ",
+				"2169 A3",
+				"ns inN 3",
+				"3nd card",
+				"3PS send",
+				"3GCns in",
+				"369 Atta",
+				"2GCns in",
+				"2169 AÁ2",
+				"solve.N 2",
+				"3Gnd card",
+				"3GCsolve.",
+				"3GCnd car",
+				"3G69 Atta",
+				"3 in orde",
+				" in orde3",
+				"PS send  2",
+				"69 AttaN 3",
+				"3G in orde",
+				"2GPS send ",
+				"2GC69 Atta",
+				" in ordeN 3"
+			]
 		}
 	],
-	"updt": 1567622932410,
-	"edit": 3,
+	"updt": 1567646384612,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -179,11 +242,6 @@
 				"ns in o",
 				"2169 At"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "LOSE"
 		}
 	]
 }

@@ -6,7 +6,7 @@
 	"sector": "NGC_7654",
 	"sec_level": 4,
 	"date_added": 1562278712182,
-	"last_scraped": 1567645848360,
+	"last_scraped": 1567712683811,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567691624182,
+	"next_scrape": 1567758404616,
 	"category": "risk_factor",
-	"last_update": 1567645848360,
+	"last_update": 1567712683811,
 	"output": [
 		{
 			"args": {},
@@ -57,10 +57,12 @@
 			"args": {
 				"do": "LOSE"
 			},
-			"calls": 605,
+			"calls": 1265,
 			"base": "YOU COULD WIN 3GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"mage 4",
 				"4mage ",
+				"42104 ",
 				"22104 ",
 				"2104 4",
 				"2104 2",
@@ -68,30 +70,50 @@
 				"1 the2",
 				"mage  2",
 				"ds in 4",
+				"ds in 2",
 				"4ds in ",
 				"4Gmage ",
+				"4G2104 ",
+				"4G1 the",
 				"2G2104 ",
 				"2G1 the",
+				"2104  2",
 				"1 the 2",
+				"mage N 4",
 				"ds in  4",
 				"4\\n2103 ",
 				"4Gds in ",
+				"4G\\n2103",
 				"4GCmage ",
 				"4GC2104 ",
+				"4GC1 the",
 				"2ne deck",
 				"2ceeds\\n",
+				"2Gds in ",
+				"2G\\n2103",
 				"2GCds in",
+				"2104 N 4",
 				"2104 N 2",
 				"2 Yes. I",
+				"1 theN 4",
+				" Yes. I4",
 				"ne deck 2",
+				"ds in N 4",
 				"ceeds\\n 4",
 				"\\n2103  4",
 				"\\n2103  2",
 				"4Gne deck",
 				"4Gceeds\\n",
+				"4G Yes. I",
 				"2G Yes. I",
+				" Yes. I 2",
+				"ne deckN 4",
+				"ceeds\\nN 4",
 				"ceeds\\nN 2",
+				"\\n2103 N 4",
+				"4GC\\n2103 ",
 				"2GCne deck",
+				"2GCceeds\\n",
 				"2GC\\n2103 "
 			],
 			"hits": [
@@ -139,10 +161,34 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "LOSE"
+			},
+			"calls": 214,
+			"base": "YOU COULD WIN 4GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"mage ",
+				"ds in ",
+				"1 the2",
+				"2G1 the",
+				"2104  2",
+				"\\n2103 3",
+				"3ceeds\\n",
+				"3GC1 the",
+				"2GC2104 ",
+				"2104 N 3",
+				"ceeds\\n 3",
+				"3Gne deck",
+				" Yes. I 3",
+				"ceeds\\nN 3",
+				"2GCne deck"
+			]
 		}
 	],
-	"updt": 1567622932410,
-	"edit": 3,
+	"updt": 1567645935297,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -193,11 +239,6 @@
 				" the lan",
 				"s\\n2103 c"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "LOSE"
 		}
 	]
 }

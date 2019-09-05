@@ -13,11 +13,11 @@
 			"when": 1561811202488
 		}
 	],
-	"updt": 1563040595916,
-	"edit": 48,
+	"updt": 1567625865334,
+	"edit": 49,
 	"next_scrape": 1567666235073,
 	"category": "fishie_tank",
-	"last_update": 1567625685553,
+	"last_update": 1567709749219,
 	"output": [
 		{
 			"args": {},
@@ -49,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 41516,
+			"calls": 44441,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -58,11 +58,11 @@
 			],
 			"fragments": [
 				"R | N",
-				" | PR",
-				"NETW E",
-				" PROG ",
+				"| PROG E",
+				"R | PROG",
 				"PROG ERR",
-				"ERROR | "
+				"ERROR | ",
+				" NETW ER"
 			],
 			"hits": [
 				{
@@ -121,9 +121,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}

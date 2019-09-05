@@ -1,12 +1,12 @@
 {
 	"_id": "anon_b6j3br.key_completion",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "skip",
 	"script": "anon_b6j3br.key_completion",
 	"sector": "SPC_9316",
 	"sec_level": 4,
 	"date_added": 1562681011187,
-	"last_scraped": 1567646391767,
+	"last_scraped": 1567713401280,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567688006052,
+	"next_scrape": 1567753425806,
 	"category": "risk_factor",
-	"last_update": 1567646391767,
+	"last_update": 1567713401280,
 	"output": [
 		{
 			"args": {},
@@ -55,32 +55,49 @@
 			"args": {
 				"do": "LOSE"
 			},
-			"calls": 407,
+			"calls": 961,
 			"base": "YOU COULD WIN 3GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"_FILE04",
+				"EEF9024",
+				"4_FILE0",
 				"2_FILE0",
+				"EEF902 4",
 				"4¤_FILE0",
+				"402D6\\nS",
+				"4 ERROR ",
 				"2G_FILE0",
 				"2G ERROR",
 				"26\\nSYST",
 				"202D6\\nS",
 				"2 ERROR ",
+				"02D6\\nS2",
 				" ERROR 2",
 				"_FILE0N 2",
 				"XEEF902D4",
+				"EEF902N 4",
+				"EEF902N 2",
 				"6\\nSYST 4",
 				"6\\nSYST 2",
 				"4XEEF902D",
+				"4GC_FILE0",
 				"4GCEEF902",
 				"4G02D6\\nS",
+				"2Á02D6\\nS",
 				" ERROR  4",
+				" ERROR  2",
 				"XEEF902D 2",
+				"4GXEEF902D",
 				"4G6\\nSYST ",
+				"2GXEEF902D",
+				"02D6\\nSN 2",
 				" ERROR N 4",
 				"XEEF902DN 4",
+				"XEEF902DN 2",
 				"6\\nSYST N 2",
-				"4GCXEEF902D"
+				"4GCXEEF902D",
+				"2GCXEEF902D",
+				"2GC6\\nSYST "
 			],
 			"hits": [
 				{
@@ -112,10 +129,76 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "LOSE"
+			},
+			"calls": 327,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"_FILE04",
+				"EEF9023",
+				"3_FILE0",
+				"02D6\\nS",
+				"EEF902 4",
+				"4G_FILE0",
+				"3GEEF902",
+				"XEEF902D4",
+				"4GC_FILE0",
+				"3XEEF902D",
+				"3GC_FILE0",
+				" ERROR  3",
+				"XEEF902D 4",
+				"XEEF902D 3",
+				"4GXEEF902D",
+				"XEEF902DN 4",
+				"6\\nSYST N 4",
+				"4GC6\\nSYST "
+			]
+		},
+		{
+			"args": {
+				"do": "LOSE"
+			},
+			"calls": 455,
+			"base": "YOU COULD WIN 4GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"_FILE03",
+				"EEF902 3",
+				"EEF902 2",
+				"3G_FILE0",
+				"3GEEF902",
+				"2GEEF902",
+				"26\\nSYST",
+				"02D6\\nS3",
+				" ERROR 3",
+				"XEEF902D2",
+				"6\\nSYST 3",
+				"3XEEF902D",
+				"2GCEEF902",
+				"02D6\\nS¡3",
+				"02D6\\nS 3",
+				"02D6\\nS 2",
+				" ERROR  3",
+				"XEEF902D 3",
+				"6\\nSYST ª3",
+				"6\\nSYST  3",
+				"3GXEEF902D",
+				"3GC02D6\\nS",
+				"3G6\\nSYST ",
+				"2GC02D6\\nS",
+				"02D6\\nSN 2",
+				" ERROR N 2",
+				"6\\nSYST N 3",
+				"6\\nSYST N 2",
+				"3GCXEEF902D",
+				"3GC6\\nSYST "
+			]
 		}
 	],
-	"updt": 1567622480418,
-	"edit": 3,
+	"updt": 1567646609914,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -159,7 +242,7 @@
 	],
 	"retry_args": [
 		{
-			"do": "LOSE"
+			"do": "win"
 		}
 	]
 }
