@@ -1,25 +1,25 @@
 {
 	"_id": "unknown_9ryxhr.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_9ryxhr.db",
 	"sector": "VNP_9228",
 	"sec_level": 4,
 	"date_added": 1560231623057,
-	"last_scraped": 1567658732774,
+	"last_scraped": 1567681275218,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560231623057
 		}
 	],
-	"next_scrape": 1567700853862,
+	"next_scrape": 1567727572756,
 	"category": "fishie_tank",
-	"last_update": 1567658732774,
+	"last_update": 1567681275218,
 	"output": [
 		{
 			"args": {},
-			"calls": 991216,
+			"calls": 1016007,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"k you",
@@ -147,8 +147,8 @@
 			]
 		}
 	],
-	"updt": 1567658787740,
-	"edit": 108,
+	"updt": 1567672542579,
+	"edit": 109,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -167,6 +167,14 @@
 				"A5 You'v",
 				"Mallory\\n"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
