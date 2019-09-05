@@ -1,12 +1,12 @@
 {
 	"_id": "anon_o6npfu.botnet",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_o6npfu.botnet",
 	"sector": "VNP_2284",
 	"sec_level": 4,
 	"date_added": 1563686354079,
-	"last_scraped": 1567708191102,
+	"last_scraped": 1567721248743,
 	"script_log": [
 		{
 			"type": "added",
@@ -18,9 +18,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1567751030986,
+	"next_scrape": 1567802565243,
 	"category": "risk_factor",
-	"last_update": 1567708191102,
+	"last_update": 1567721248743,
 	"output": [
 		{
 			"args": {},
@@ -379,10 +379,25 @@
 				"d play\\n2371G© with do:\"win\"\n\nOR\n\nYOU COULD `V§OS",
 				" arms\\n2N 1K847GC with do:§win\"\n\nOR\n\nYOU COU¢D `VL"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 316,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"drone",
+				"could ",
+				" we cou",
+				"ne with ",
+				"h arms\\n2",
+				"d play\\n2"
+			]
 		}
 	],
-	"updt": 1567616616901,
-	"edit": 3,
+	"updt": 1567711560321,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -397,9 +412,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

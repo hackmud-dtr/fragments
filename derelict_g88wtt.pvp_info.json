@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_g88wtt.pvp_info",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_g88wtt.pvp_info",
 	"sector": "HJG_7908",
 	"sec_level": 4,
 	"date_added": 1565565582742,
-	"last_scraped": 1567708222555,
+	"last_scraped": 1567721319504,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1567750439415,
+	"next_scrape": 1567762850028,
 	"category": "risk_factor",
-	"last_update": 1567708222555,
+	"last_update": 1567721319504,
 	"output": [
 		{
 			"args": {},
@@ -234,14 +234,28 @@
 				" did? H231GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOS",
 				"ill have 10¦C witÁ do:\"win\"\n\nOR\n\n¤OU COULD `VLOSE"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 535,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"4",
+				"about",
+				"t thou",
+				" years",
+				"a. I've",
+				" did? H",
+				"ve not t",
+				"ill have"
+			]
 		}
 	],
-	"updt": 1567617968841,
-	"edit": 2,
+	"updt": 1567712690954,
+	"edit": 3,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
