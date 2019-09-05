@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_gmslub.g",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "abndnd_gmslub.g",
 	"sector": "VNP_8704",
 	"sec_level": 4,
 	"date_added": 1566692815284,
-	"last_scraped": 1567709115387,
+	"last_scraped": 1567723047488,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567749511810,
+	"next_scrape": 1567804879996,
 	"category": "risk_factor",
-	"last_update": 1567709115387,
+	"last_update": 1567723047488,
 	"output": [
 		{
 			"args": {},
@@ -701,15 +701,24 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 110,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"926_F",
+				"X08_CLS",
+				"T0X8926_"
+			]
 		}
 	],
-	"updt": 1567656983452,
-	"edit": 3,
+	"updt": 1567715169640,
+	"edit": 4,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

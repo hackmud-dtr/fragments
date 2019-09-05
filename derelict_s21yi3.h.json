@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_s21yi3.h",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "derelict_s21yi3.h",
 	"sector": "VNP_7825",
 	"sec_level": 4,
 	"date_added": 1566479931199,
-	"last_scraped": 1567708994688,
+	"last_scraped": 1567723017880,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1567750726657,
+	"next_scrape": 1567805897792,
 	"category": "risk_factor",
-	"last_update": 1567708994688,
+	"last_update": 1567723017880,
 	"output": [
 		{
 			"args": {},
@@ -879,15 +879,28 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 103,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"ari |",
+				"rocess",
+				"andari",
+				" Index",
+				"ndex pro",
+				"ex proce",
+				" SUBJ: I"
+			]
 		}
 	],
-	"updt": 1567715169640,
-	"edit": 4,
+	"updt": 1567722389145,
+	"edit": 5,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

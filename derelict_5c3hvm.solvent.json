@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_5c3hvm.solvent",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_5c3hvm.solvent",
 	"sector": "K_1531",
 	"sec_level": 4,
 	"date_added": 1565670010122,
-	"last_scraped": 1567708803534,
+	"last_scraped": 1567722716335,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567751901787,
+	"next_scrape": 1567811424667,
 	"category": "risk_factor",
-	"last_update": 1567708803534,
+	"last_update": 1567722716335,
 	"output": [
 		{
 			"args": {},
@@ -755,15 +755,29 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 478,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"9",
+				"ken a ",
+				"ys to p",
+				"only ta",
+				"k centr",
+				"sed syst",
+				"ogether.",
+				"gether. "
+			]
 		}
 	],
-	"updt": 1567715169640,
-	"edit": 4,
+	"updt": 1567722163081,
+	"edit": 5,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

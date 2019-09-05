@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_46p2f5.vc2c7q",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_46p2f5.vc2c7q",
 	"sector": "NGC_4040",
 	"sec_level": 4,
 	"date_added": 1565604153313,
-	"last_scraped": 1567708753139,
+	"last_scraped": 1567722645366,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1567754994351,
+	"next_scrape": 1567811940823,
 	"category": "risk_factor",
-	"last_update": 1567708753139,
+	"last_update": 1567722645366,
 	"output": [
 		{
 			"args": {},
@@ -611,15 +611,25 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 314,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"00\\n0000",
+				"000 0100",
+				"00 0000 ",
+				"0000\\n000"
+			]
 		}
 	],
-	"updt": 1567715169640,
-	"edit": 4,
+	"updt": 1567721937753,
+	"edit": 5,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

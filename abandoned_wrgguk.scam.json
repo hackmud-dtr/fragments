@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_wrgguk.scam",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "abandoned_wrgguk.scam",
 	"sector": "HJG_7617",
 	"sec_level": 4,
 	"date_added": 1566274372956,
-	"last_scraped": 1567708914419,
+	"last_scraped": 1567722926629,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1567749187895,
+	"next_scrape": 1567813186750,
 	"category": "risk_factor",
-	"last_update": 1567708914419,
+	"last_update": 1567722926629,
 	"output": [
 		{
 			"args": {},
@@ -890,15 +890,30 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 262,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"tern\"",
+				"it's n",
+				"it wit",
+				" to th",
+				"ind thi",
+				", that'",
+				"t's not ",
+				"Hope it'",
+				" NETW ER"
+			]
 		}
 	],
-	"updt": 1567655857570,
-	"edit": 3,
+	"updt": 1567715169640,
+	"edit": 4,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
