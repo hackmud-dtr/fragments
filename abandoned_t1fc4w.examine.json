@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_t1fc4w.examine",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "abandoned_t1fc4w.examine",
 	"sector": "K_8441",
 	"sec_level": 4,
 	"date_added": 1562047196600,
-	"last_scraped": 1567612298562,
+	"last_scraped": 1567645637590,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,23 +14,28 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567656177619,
+	"next_scrape": 1567688195134,
 	"category": "risk_factor",
-	"last_update": 1567612298562,
+	"last_update": 1567645637590,
 	"output": [
 		{
 			"args": {},
-			"calls": 831,
+			"calls": 1566,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"X7A_S",
-				"C7D17",
+				"p writ",
 				"g 'I, ",
+				"D178\\n",
+				"BC7D17",
 				"78\\nAD0",
 				"_FILE0X2",
 				"MFT0XBF_",
+				"LE0X2BC7",
+				"F227_FIL",
 				"4 You ke",
-				"27_FILE0"
+				"27_FILE0",
+				"2114 You"
 			],
 			"hits": [
 				{
@@ -109,8 +114,8 @@
 			]
 		}
 	],
-	"updt": 1567615037978,
-	"edit": 2,
+	"updt": 1567622029643,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -151,6 +156,11 @@
 				"4 You ke",
 				"27_FILE0"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

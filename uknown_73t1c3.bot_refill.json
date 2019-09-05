@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_73t1c3.bot_refill",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_73t1c3.bot_refill",
 	"sector": "SPC_3851",
 	"sec_level": 4,
 	"date_added": 1561971962605,
-	"last_scraped": 1567612287386,
+	"last_scraped": 1567645576772,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,24 +14,31 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567657309766,
+	"next_scrape": 1567685469036,
 	"category": "risk_factor",
-	"last_update": 1567612287386,
+	"last_update": 1567645576772,
 	"output": [
 		{
 			"args": {},
-			"calls": 1093,
+			"calls": 1716,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"u wan",
 				"to ta",
 				"t did",
+				"somet",
 				" ## P",
-				"d you ",
 				"ve to m",
+				"to mail",
+				"roving.",
+				"me. So ",
+				"me abou",
 				"l home ",
+				". Speci",
 				" mail h",
-				"So - wha"
+				"id you w",
+				"So - wha",
+				"## Provi"
 			],
 			"hits": [
 				{
@@ -153,8 +160,8 @@
 			]
 		}
 	],
-	"updt": 1567615037978,
-	"edit": 2,
+	"updt": 1567623161324,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -217,6 +224,11 @@
 				" mail h",
 				"So - wha"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

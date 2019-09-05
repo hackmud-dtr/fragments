@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_56ramp.sys_expose_balance",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_56ramp.sys_expose_balance",
 	"sector": "NGC_7654",
 	"sec_level": 4,
 	"date_added": 1562269108896,
-	"last_scraped": 1567612428072,
+	"last_scraped": 1567645778117,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,20 +14,27 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567658555875,
+	"next_scrape": 1567687214260,
 	"category": "risk_factor",
-	"last_update": 1567612428072,
+	"last_update": 1567645778117,
 	"output": [
 		{
 			"args": {},
-			"calls": 840,
+			"calls": 1503,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
-				"s - o",
+				"- or ",
+				"s - or",
 				"ry lit",
+				"means ",
+				"instan",
 				"essful",
+				"er est",
+				"ances ",
+				"oach th",
 				"reams. W",
 				"nance th",
+				"ion stre",
 				"etitors "
 			],
 			"hits": [
@@ -135,8 +142,8 @@
 			]
 		}
 	],
-	"updt": 1567615265768,
-	"edit": 2,
+	"updt": 1567622029643,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -190,6 +197,11 @@
 				"nance th",
 				"etitors "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_czv1dd.looter",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "unknown_czv1dd.looter",
 	"sector": "SPC_7171",
 	"sec_level": 4,
 	"date_added": 1562518581911,
-	"last_scraped": 1567612568663,
+	"last_scraped": 1567646141401,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,20 +14,26 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567652338317,
+	"next_scrape": 1567687300743,
 	"category": "risk_factor",
-	"last_update": 1567612568663,
+	"last_update": 1567646141401,
 	"output": [
 		{
 			"args": {},
-			"calls": 899,
+			"calls": 2226,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"X2BC7",
 				"MFT0X",
-				"A_SEC",
+				"T0X7A_",
 				"CT0XF2",
 				"2BC7D17",
-				"FILE0X2B"
+				"0XF227_",
+				"0XBF_CL",
+				"F_CLST0X",
+				"FILE0X2B",
+				"A_SECT0X",
+				"0X7A_SEC"
 			],
 			"hits": [
 				{
@@ -126,8 +132,8 @@
 			]
 		}
 	],
-	"updt": 1567615490483,
-	"edit": 2,
+	"updt": 1567623611221,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -182,6 +188,11 @@
 			"frags": [
 				"A_SECT0X"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

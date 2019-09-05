@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_f01lh6.lock_distro",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "derelict_f01lh6.lock_distro",
 	"sector": "HJG_8307",
 	"sec_level": 4,
 	"date_added": 1562349953799,
-	"last_scraped": 1567612508804,
+	"last_scraped": 1567645999059,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,19 +14,24 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567658754590,
+	"next_scrape": 1567692083784,
 	"category": "risk_factor",
-	"last_update": 1567612508804,
+	"last_update": 1567645999059,
 	"output": [
 		{
 			"args": {},
-			"calls": 950,
+			"calls": 1638,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"line.",
 				"a lin",
+				"in a li",
 				"\\n2044 ",
+				"e you ar",
+				"\\n2042 6",
 				"44 Have ",
+				"43 6 lan",
+				" you arr",
 				"anes.\\n20",
 				" lanes.\\n"
 			],
@@ -139,8 +144,8 @@
 			]
 		}
 	],
-	"updt": 1567615265768,
-	"edit": 2,
+	"updt": 1567622932410,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -196,6 +201,11 @@
 				"anes.\\n20",
 				" lanes.\\n"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }
