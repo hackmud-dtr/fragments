@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_uwzq4k.ctx",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_uwzq4k.ctx",
 	"sector": "K_2748",
 	"sec_level": 4,
 	"date_added": 1564142401570,
-	"last_scraped": 1567708441695,
+	"last_scraped": 1567721801498,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567749896234,
+	"next_scrape": 1567801091884,
 	"category": "risk_factor",
-	"last_update": 1567708441695,
+	"last_update": 1567721801498,
 	"output": [
 		{
 			"args": {},
@@ -313,15 +313,29 @@
 				" Excitin5GC with do:\"win\"\n\nOR¨\nYOU COULD `VLOSE",
 				"4D ExcN 117GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOS"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 100,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"mCODE",
+				"E4D E",
+				"? Spy",
+				"1E4C ",
+				"4D Exc",
+				"r Erin ",
+				"boteur? ",
+				" Excitin"
+			]
 		}
 	],
-	"updt": 1567652021828,
-	"edit": 4,
+	"updt": 1567715169640,
+	"edit": 5,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_tye3md.xfer",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_tye3md.xfer",
 	"sector": "K_2748",
 	"sec_level": 4,
 	"date_added": 1564063595065,
-	"last_scraped": 1567708432402,
+	"last_scraped": 1567721771470,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1567751115716,
+	"next_scrape": 1567815333153,
 	"category": "risk_factor",
-	"last_update": 1567708432402,
+	"last_update": 1567721771470,
 	"output": [
 		{
 			"args": {},
@@ -460,15 +460,28 @@
 				"ho aren'N 164GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOS",
 				"ho aren'N 11GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 423,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"5",
+				"make ",
+				"se the",
+				" they'r",
+				"ople who",
+				"n't goin",
+				"ho aren'"
+			]
 		}
 	],
-	"updt": 1567651797149,
-	"edit": 3,
+	"updt": 1567715169640,
+	"edit": 4,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

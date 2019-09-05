@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_nos692.hackmud_nano",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_nos692.hackmud_nano",
 	"sector": "NGC_7257",
 	"sec_level": 4,
 	"date_added": 1565387311191,
-	"last_scraped": 1567708723667,
+	"last_scraped": 1567722555760,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1567750648737,
+	"next_scrape": 1567807113615,
 	"category": "risk_factor",
-	"last_update": 1567708723667,
+	"last_update": 1567722555760,
 	"output": [
 		{
 			"args": {},
@@ -391,15 +391,26 @@
 				" 0000\\n00 202GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOS",
 				" 0000\\n00 175GC with do:\"win\"\n\nOR¢\nYOU COULD `VLOS"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 102,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"000 0",
+				"0\\n0000",
+				"100 0000",
+				"00 0100 ",
+				" 0000\\n00"
+			]
 		}
 	],
-	"updt": 1567654051324,
-	"edit": 3,
+	"updt": 1567715169640,
+	"edit": 4,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

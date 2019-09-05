@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_4a949e.break",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_4a949e.break",
 	"sector": "VNP_5717",
 	"sec_level": 4,
 	"date_added": 1563716096218,
-	"last_scraped": 1567708392192,
+	"last_scraped": 1567721712132,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1567754883710,
+	"next_scrape": 1567807421442,
 	"category": "risk_factor",
-	"last_update": 1567708392192,
+	"last_update": 1567721712132,
 	"output": [
 		{
 			"args": {},
@@ -380,15 +380,28 @@
 				"Miyawak141GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOS",
 				"obal |N InfinityQGC with do:\"win\"\n\nOR\n\nYOU COULD"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 200,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"veryo",
+				"s gre",
+				"na Mi",
+				"aki |",
+				"obal |",
+				"Miyawak",
+				"UBJ: Int"
+			]
 		}
 	],
-	"updt": 1567651571324,
-	"edit": 3,
+	"updt": 1567715169640,
+	"edit": 4,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

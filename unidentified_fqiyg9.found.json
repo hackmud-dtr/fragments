@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_fqiyg9.found",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_fqiyg9.found",
 	"sector": "K_3804",
 	"sec_level": 4,
 	"date_added": 1564560526720,
-	"last_scraped": 1567708473839,
+	"last_scraped": 1567721933415,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567754101225,
+	"next_scrape": 1567762141262,
 	"category": "risk_factor",
-	"last_update": 1567708473839,
+	"last_update": 1567721933415,
 	"output": [
 		{
 			"args": {},
@@ -384,15 +384,28 @@
 				"alue of N 300B145M57¢K52¨GC with do:\"win\"\n\nÃR\n\nYOU",
 				" value.\\n 123GC with do:\"win\"\n\nO§\n\nYOU COULD `VLOS"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 318,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"of th",
+				"dd 1 ",
+				"\\n20ED",
+				" 1 to t",
+				"alue of ",
+				"ED value",
+				" value.\\n"
+			]
 		}
 	],
-	"updt": 1567652700713,
-	"edit": 3,
+	"updt": 1567721937753,
+	"edit": 5,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

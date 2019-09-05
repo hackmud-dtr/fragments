@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_kgz9x5.donate",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_kgz9x5.donate",
 	"sector": "VNP_2284",
 	"sec_level": 4,
 	"date_added": 1563657085437,
-	"last_scraped": 1567708371726,
+	"last_scraped": 1567721631445,
 	"script_log": [
 		{
 			"type": "added",
@@ -18,9 +18,9 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567754682598,
+	"next_scrape": 1567804854148,
 	"category": "risk_factor",
-	"last_update": 1567708371726,
+	"last_update": 1567721631445,
 	"output": [
 		{
 			"args": {},
@@ -370,10 +370,25 @@
 				"Creative 490GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOS",
 				"Creative 14GC wi¨h do:\"win\"\n\nOR\n\nYOU COULD ¡VLOSE"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 322,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"waki |",
+				"nterest",
+				"i | SUB",
+				"ive proc",
+				"Creative",
+				" I'm int"
+			]
 		}
 	],
-	"updt": 1567651571324,
-	"edit": 4,
+	"updt": 1567715169640,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
@@ -391,9 +406,6 @@
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

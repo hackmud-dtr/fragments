@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_wt9phy.cti",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_wt9phy.cti",
 	"sector": "K_5861",
 	"sec_level": 4,
 	"date_added": 1564956313147,
-	"last_scraped": 1567708562742,
+	"last_scraped": 1567722203395,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1567749248436,
+	"next_scrape": 1567809783084,
 	"category": "risk_factor",
-	"last_update": 1567708562742,
+	"last_update": 1567722203395,
 	"output": [
 		{
 			"args": {},
@@ -723,15 +723,32 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 503,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"ost wi",
+				"e with",
+				"21D9 a",
+				"rone wi",
+				"ive me ",
+				"1D8 Giv",
+				"wish we ",
+				"sh we co",
+				" play\\n2",
+				" drone w",
+				"y\\n21D8 G"
+			]
 		}
 	],
-	"updt": 1567653375032,
-	"edit": 3,
+	"updt": 1567715169640,
+	"edit": 4,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

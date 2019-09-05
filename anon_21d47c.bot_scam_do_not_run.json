@@ -1,12 +1,12 @@
 {
 	"_id": "anon_21d47c.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_21d47c.bot_scam_do_not_run",
 	"sector": "K_2748",
 	"sec_level": 4,
 	"date_added": 1564199255125,
-	"last_scraped": 1567708461717,
+	"last_scraped": 1567721892769,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567749653967,
+	"next_scrape": 1567813263665,
 	"category": "risk_factor",
-	"last_update": 1567708461717,
+	"last_update": 1567721892769,
 	"output": [
 		{
 			"args": {},
@@ -724,15 +724,28 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 414,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				" line.",
+				" 6 lane",
+				"e.\\n2043",
+				"Have you",
+				"6 lanes.",
+				"4 Have y",
+				"es.\\n2044"
+			]
 		}
 	],
-	"updt": 1567652248408,
-	"edit": 4,
+	"updt": 1567715169640,
+	"edit": 5,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
