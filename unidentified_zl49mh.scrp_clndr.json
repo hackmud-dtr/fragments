@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_zl49mh.scrp_clndr",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_zl49mh.scrp_clndr",
 	"sector": "VNP_5082",
 	"sec_level": 4,
 	"date_added": 1565981617409,
-	"last_scraped": 1565981777751,
+	"last_scraped": 1567640605705,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 13,
-	"next_scrape": 1565981837751,
+	"next_scrape": 1567682185614,
 	"category": "clicker",
-	"last_update": 1565981777751,
+	"last_update": 1567640605705,
 	"output": [
 		{
 			"args": {},
-			"calls": 18634,
+			"calls": 31433,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"CLST0",
@@ -48,7 +48,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 15435,
+			"calls": 36387,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"CLST0",
@@ -101,8 +101,8 @@
 			]
 		}
 	],
-	"updt": 1565981927970,
-	"edit": 2,
+	"updt": 1567623611221,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -114,6 +114,11 @@
 				"LE0X2BC",
 				"3216E B"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"CLICK": true
 		}
 	]
 }
