@@ -1,35 +1,40 @@
 {
 	"_id": "abndnd_suvkcr.trashcan",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_suvkcr.trashcan",
 	"sector": "NGC_9751",
 	"sec_level": 4,
 	"date_added": 1563326330033,
-	"last_scraped": 1567618617276,
+	"last_scraped": 1567657463729,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563326330033
 		}
 	],
-	"next_scrape": 1567659219265,
+	"next_scrape": 1567701681649,
 	"category": "clicker",
-	"last_update": 1567618617276,
+	"last_update": 1567657463729,
 	"output": [
 		{
 			"args": {},
-			"calls": 181838,
+			"calls": 189603,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"t act",
+				"t acc",
 				"sk 'la",
 				"ask 'l",
+				"access",
 				"timesta",
 				"amps an",
 				"' times",
 				" 'last ",
-				"ss' and "
+				"ss' and ",
+				"imestamp",
+				"cess' an",
+				"ccess' a"
 			],
 			"hits": [
 				{
@@ -51,7 +56,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 163891,
+			"calls": 180647,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"t act",
@@ -137,6 +142,11 @@
 			]
 		}
 	],
-	"updt": 1567616391600,
-	"edit": 12
+	"updt": 1567657432892,
+	"edit": 14,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
