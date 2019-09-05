@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_mtr1sw.brute_t3",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "abndnd_mtr1sw.brute_t3",
 	"sector": "HJG_6509",
 	"sec_level": 4,
 	"date_added": 1562370315833,
-	"last_scraped": 1567612529173,
+	"last_scraped": 1567646019455,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,29 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567657368368,
+	"next_scrape": 1567687832028,
 	"category": "risk_factor",
-	"last_update": 1567612529173,
+	"last_update": 1567646019455,
 	"output": [
 		{
 			"args": {},
-			"calls": 1054,
+			"calls": 1745,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				", no.",
 				" syst",
+				"urity ",
 				"s she ",
+				"of the",
 				"e secu",
+				"a thre",
 				" the s",
+				"t to th",
 				"securit",
+				"or the ",
 				" Well, ",
 				"o. ## is",
+				". ## is ",
 				"## Well,"
 			],
 			"hits": [
@@ -149,8 +156,8 @@
 			]
 		}
 	],
-	"updt": 1567615265768,
-	"edit": 2,
+	"updt": 1567622256059,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -211,6 +218,11 @@
 				"o. ## is",
 				"## Well,"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

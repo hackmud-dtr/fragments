@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_t7drkh.donate",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_t7drkh.donate",
 	"sector": "NGC_4554",
 	"sec_level": 4,
 	"date_added": 1562861353847,
-	"last_scraped": 1567612810655,
+	"last_scraped": 1567646441304,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,23 +14,26 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567655049034,
+	"next_scrape": 1567691042601,
 	"category": "risk_factor",
-	"last_update": 1567612810655,
+	"last_update": 1567646441304,
 	"output": [
 		{
 			"args": {},
-			"calls": 898,
+			"calls": 1589,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"TIME ",
-				"R | T",
-				"R | P",
-				"ROR | ",
+				"IME E",
 				"R | NE",
 				"OR | U",
 				"OR | N",
-				"ERROR "
+				"E ERRO",
+				"ERROR |",
+				"RROR | T",
+				"RROR | P",
+				"R | TIME",
+				"NETW ERR"
 			],
 			"hits": [
 				{
@@ -226,8 +229,8 @@
 			]
 		}
 	],
-	"updt": 1567615713892,
-	"edit": 2,
+	"updt": 1567622932410,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -380,6 +383,11 @@
 			"frags": [
 				"R | TIME"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

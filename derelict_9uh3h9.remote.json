@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_9uh3h9.remote",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "derelict_9uh3h9.remote",
 	"sector": "VNP_1006",
 	"sec_level": 4,
 	"date_added": 1562558836058,
-	"last_scraped": 1567612578786,
+	"last_scraped": 1567646190762,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,25 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567654735360,
+	"next_scrape": 1567688584139,
 	"category": "risk_factor",
-	"last_update": 1567612578786,
+	"last_update": 1567646190762,
 	"output": [
 		{
 			"args": {},
-			"calls": 589,
+			"calls": 1288,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"r to ",
 				"RAPS ",
-				" Atta",
-				"PS sen",
+				"solve.",
 				"olve.\\n",
 				"ns in o",
-				"2169 At"
+				"nd card",
+				"69 Atta",
+				"2169 At",
+				"PS send ",
+				" in orde"
 			],
 			"hits": [
 				{
@@ -125,8 +129,8 @@
 			]
 		}
 	],
-	"updt": 1567615490483,
-	"edit": 2,
+	"updt": 1567622932410,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -175,6 +179,11 @@
 				"ns in o",
 				"2169 At"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

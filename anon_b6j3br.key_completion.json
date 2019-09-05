@@ -1,12 +1,12 @@
 {
 	"_id": "anon_b6j3br.key_completion",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "anon_b6j3br.key_completion",
 	"sector": "SPC_9316",
 	"sec_level": 4,
 	"date_added": 1562681011187,
-	"last_scraped": 1567612640808,
+	"last_scraped": 1567646391767,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,20 +14,22 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567656914805,
+	"next_scrape": 1567688006052,
 	"category": "risk_factor",
-	"last_update": 1567612640808,
+	"last_update": 1567646391767,
 	"output": [
 		{
 			"args": {},
-			"calls": 877,
+			"calls": 1483,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
-				"RROR ",
-				"FILE0",
 				"6_FIL",
+				"_FILE0",
 				"SYST ER",
+				" ERROR ",
+				"XEEF902D",
 				"LE0XEEF9",
+				"6\\nSYST ",
 				"02D6\\nSYS"
 			],
 			"hits": [
@@ -112,8 +114,8 @@
 			]
 		}
 	],
-	"updt": 1567615713892,
-	"edit": 2,
+	"updt": 1567622480418,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -153,6 +155,11 @@
 				"6_FIL",
 				"SYST ER"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

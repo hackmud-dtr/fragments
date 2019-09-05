@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_fkgya1.request",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "abndnd_fkgya1.request",
 	"sector": "SPC_9316",
 	"sec_level": 4,
 	"date_added": 1562692891917,
-	"last_scraped": 1567612679774,
+	"last_scraped": 1567646410897,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,20 +14,26 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1567658036417,
+	"next_scrape": 1567692216564,
 	"category": "risk_factor",
-	"last_update": 1567612679774,
+	"last_update": 1567646410897,
 	"output": [
 		{
 			"args": {},
-			"calls": 1373,
+			"calls": 1968,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"t tha",
 				"EE Yo",
 				"21EE ",
-				" and w",
+				" that",
+				"t temp",
+				"lmost ",
+				".\\n21E",
 				"ted\\n21F",
 				"know I'm",
+				" can.\\n2",
+				" and we ",
 				"we can.\\n"
 			],
 			"hits": [
@@ -173,8 +179,8 @@
 			]
 		}
 	],
-	"updt": 1567615713892,
-	"edit": 2,
+	"updt": 1567622256059,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -247,6 +253,11 @@
 				"know I'm",
 				"we can.\\n"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }
