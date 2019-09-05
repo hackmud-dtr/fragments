@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_t9xwp1.wrapper",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_t9xwp1.wrapper",
 	"sector": "VNP_7825",
 	"sec_level": 4,
 	"date_added": 1566482303761,
-	"last_scraped": 1566482354729,
+	"last_scraped": 1567642294703,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1566482414729,
+	"next_scrape": 1567686293009,
 	"category": "fishie_tank",
-	"last_update": 1566482354729,
+	"last_update": 1567642312173,
 	"output": [
 		{
 			"args": {},
-			"calls": 8113,
+			"calls": 28339,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" ## S",
@@ -46,7 +46,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 713,
+			"calls": 1517,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -100,8 +100,8 @@
 			]
 		}
 	],
-	"updt": 1566482540860,
-	"edit": 1,
+	"updt": 1567622932410,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "Prisoners",
@@ -112,6 +112,11 @@
 				"dboxing ",
 				" is trad"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
