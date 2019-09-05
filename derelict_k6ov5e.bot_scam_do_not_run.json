@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_k6ov5e.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_k6ov5e.bot_scam_do_not_run",
 	"sector": "HJG_5776",
 	"sec_level": 4,
 	"date_added": 1564826877962,
-	"last_scraped": 1567616379306,
+	"last_scraped": 1567652861593,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,19 +14,29 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1567660190078,
+	"next_scrape": 1567697581742,
 	"category": "fishie_tank",
-	"last_update": 1567616379306,
+	"last_update": 1567652861593,
 	"output": [
 		{
 			"args": {},
-			"calls": 14176,
+			"calls": 35776,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"r env",
+				"ntal ",
+				"hat i",
 				"al sc",
 				"ts or ",
+				"tists.",
+				"ists o",
+				"enviro",
 				"e unde",
+				". We d",
+				"n't. We",
 				"ioengin",
+				"us answe",
+				"n, the o",
 				"it. Ofte",
 				", the ob",
 				" it. Oft"
@@ -136,6 +146,14 @@
 			]
 		}
 	],
-	"updt": 1564827059753,
-	"edit": 1
+	"updt": 1567617517395,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
