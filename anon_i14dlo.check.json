@@ -1,12 +1,12 @@
 {
 	"_id": "anon_i14dlo.check",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_i14dlo.check",
 	"sector": "SPC_4016",
 	"sec_level": 4,
 	"date_added": 1566787594207,
-	"last_scraped": 1567674774937,
+	"last_scraped": 1567693079663,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1567716744870,
+	"next_scrape": 1567739601564,
 	"category": "fishie_tank",
-	"last_update": 1567674774937,
+	"last_update": 1567693109949,
 	"output": [
 		{
 			"args": {},
-			"calls": 31569,
+			"calls": 43785,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"l ## p",
@@ -46,7 +46,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2816,
+			"calls": 4612,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -100,8 +100,8 @@
 			]
 		}
 	],
-	"updt": 1567643229524,
-	"edit": 3,
+	"updt": 1567674795200,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "Passphrase",
@@ -112,6 +112,11 @@
 				"ELETE TH",
 				" bmakila"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
