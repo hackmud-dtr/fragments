@@ -1,31 +1,34 @@
 {
 	"_id": "unknown_ni4bb3.t1_cracker",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_ni4bb3.t1_cracker",
 	"sector": "HJG_5723",
 	"sec_level": 4,
 	"date_added": 1562214285296,
-	"last_scraped": 1567615148325,
+	"last_scraped": 1567651004235,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562214285296
 		}
 	],
-	"next_scrape": 1567661248640,
+	"next_scrape": 1567696715762,
 	"category": "fishie_tank",
-	"last_update": 1567615148325,
+	"last_update": 1567651004235,
 	"output": [
 		{
 			"args": {},
-			"calls": 556331,
+			"calls": 566814,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"0 010",
-				"000 00",
+				"000 01",
 				"00 0000",
-				"0 0000 0"
+				"0000 000",
+				"0 0000 0",
+				" 0100 00",
+				"0 0000\\n0"
 			],
 			"hits": [
 				{
@@ -43,7 +46,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 50702,
+			"calls": 52021,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -52,9 +55,12 @@
 			],
 			"fragments": [
 				"0 010",
-				"000 00",
+				"000 01",
 				"00 0000",
-				"0 0000 0"
+				"0000 000",
+				"0 0000 0",
+				" 0100 00",
+				"0 0000\\n0"
 			],
 			"hits": [
 				{
@@ -72,7 +78,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 531858,
+			"calls": 540762,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"0 010",
@@ -107,6 +113,6 @@
 			]
 		}
 	],
-	"updt": 1563518328856,
-	"edit": 54
+	"updt": 1567616391600,
+	"edit": 55
 }

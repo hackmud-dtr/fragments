@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_a3mys1.deliver_pls",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_a3mys1.deliver_pls",
 	"sector": "K_8416",
 	"sec_level": 0,
@@ -19,10 +19,14 @@
 				"from": "K_8416",
 				"to": "K_0431"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1567651329625
+		}
 	],
-	"updt": 1567610976125,
-	"edit": 1357,
+	"updt": 1567644354650,
+	"edit": 1358,
 	"output": "null",
 	"next_scrape": 1567730452364,
 	"pl_output": "Unexpected token u in JSON at position 0"

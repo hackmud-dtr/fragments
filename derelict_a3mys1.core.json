@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_a3mys1.core",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_a3mys1.core",
 	"sector": "SPC_5497",
 	"sec_level": 0,
@@ -19,10 +19,14 @@
 				"from": "SPC_5497",
 				"to": "K_0431"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1567651329625
+		}
 	],
-	"updt": 1561412397136,
-	"edit": 5,
+	"updt": 1567620224665,
+	"edit": 6,
 	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR bubmet.malice: script doesn't exist\"}",
 	"next_scrape": 1567712768115
 }
