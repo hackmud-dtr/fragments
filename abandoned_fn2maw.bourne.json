@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_fn2maw.bourne",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_fn2maw.bourne",
 	"sector": "VNP_5082",
 	"sec_level": 4,
 	"date_added": 1565981355763,
-	"last_scraped": 1567655123442,
+	"last_scraped": 1567680070697,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1567695868214,
+	"next_scrape": 1567722010767,
 	"category": "fishie_tank",
-	"last_update": 1567655123442,
+	"last_update": 1567680092067,
 	"output": [
 		{
 			"args": {},
-			"calls": 24536,
+			"calls": 31865,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"tempt",
@@ -54,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2803,
+			"calls": 3923,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -140,6 +140,11 @@
 			]
 		}
 	],
-	"updt": 1567618418045,
-	"edit": 3
+	"updt": 1567655179769,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
