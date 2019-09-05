@@ -6,27 +6,31 @@
 	"sector": "SPC_9316",
 	"sec_level": 4,
 	"date_added": 1562669628004,
-	"last_scraped": 1567614045444,
+	"last_scraped": 1567649596951,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562669628004
 		}
 	],
-	"next_scrape": 1567660813107,
+	"next_scrape": 1567692405840,
 	"category": "fishie_tank",
-	"last_update": 1567614045444,
+	"last_update": 1567649596951,
 	"output": [
 		{
 			"args": {},
-			"calls": 289310,
+			"calls": 297664,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"ce up",
 				"of 13,",
 				" decks",
+				"cks of ",
 				"13, fac",
+				", face ",
 				" face d",
 				"l 3 deck",
+				"f 13, fa",
 				"e down.\\n"
 			],
 			"hits": [
@@ -47,7 +51,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 24764,
+			"calls": 25402,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -55,11 +59,15 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"ce up",
 				"of 13,",
 				" decks",
+				"cks of ",
 				"13, fac",
+				", face ",
 				" face d",
 				"l 3 deck",
+				"f 13, fa",
 				"e down.\\n"
 			],
 			"hits": [
@@ -80,7 +88,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 278402,
+			"calls": 291839,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ce up",
@@ -122,6 +130,6 @@
 			]
 		}
 	],
-	"updt": 1563332321216,
-	"edit": 28
+	"updt": 1567616166126,
+	"edit": 29
 }
