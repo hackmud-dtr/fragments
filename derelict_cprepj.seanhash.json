@@ -1,25 +1,25 @@
 {
 	"_id": "derelict_cprepj.seanhash",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_cprepj.seanhash",
 	"sector": "VNP_9228",
 	"sec_level": 4,
 	"date_added": 1560289214879,
-	"last_scraped": 1567624989252,
+	"last_scraped": 1567658750279,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560289214879
 		}
 	],
-	"next_scrape": 1567667049461,
+	"next_scrape": 1567703332874,
 	"category": "fishie_tank",
-	"last_update": 1567624989252,
+	"last_update": 1567658792315,
 	"output": [
 		{
 			"args": {},
-			"calls": 904615,
+			"calls": 912851,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"hat t",
@@ -59,7 +59,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 86057,
+			"calls": 87828,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -141,8 +141,8 @@
 			]
 		}
 	],
-	"updt": 1567624965392,
-	"edit": 106,
+	"updt": 1567658787740,
+	"edit": 108,
 	"identified": [
 		{
 			"document": "Proving/Children",
@@ -155,6 +155,11 @@
 				"royed an",
 				" continu"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
