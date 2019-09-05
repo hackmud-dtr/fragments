@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_4sabtd.t1_scrape",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "unidentified_4sabtd.t1_scrape",
 	"sector": "SPC_2440",
 	"sec_level": 4,
 	"date_added": 1563225815674,
-	"last_scraped": 1567613623457,
+	"last_scraped": 1567648772579,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,19 +14,26 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1567657314192,
+	"next_scrape": 1567694525731,
 	"category": "risk_factor",
-	"last_update": 1567613623457,
+	"last_update": 1567648772579,
 	"output": [
 		{
 			"args": {},
-			"calls": 1415,
+			"calls": 2051,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"8_CLS",
 				"0X0F5",
+				"+ Sal",
 				" TIME",
+				"ER era",
 				": Erin",
+				"ROR | T",
+				"0X68_CL",
 				"rin + Sa",
+				"X87AF16D",
+				"RROR | N",
 				"OR | NET"
 			],
 			"hits": [
@@ -110,8 +117,8 @@
 			]
 		}
 	],
-	"updt": 1567616166126,
-	"edit": 2,
+	"updt": 1567623385109,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -150,6 +157,11 @@
 				"X87AF16D",
 				"OR | NET"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }
