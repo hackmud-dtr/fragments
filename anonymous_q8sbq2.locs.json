@@ -1,19 +1,27 @@
 {
 	"_id": "anonymous_q8sbq2.locs",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "anonymous_q8sbq2.locs",
 	"sector": "VNP_9228",
 	"sec_level": 4,
 	"date_added": 1560261228032,
-	"last_scraped": 1567629020011,
+	"last_scraped": 1567660680387,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1560261228032
+		},
+		{
+			"type": "died",
+			"when": 1567660680387
+		},
+		{
+			"type": "died",
+			"when": 1567660827873
 		}
 	],
-	"next_scrape": 1567670491381,
+	"next_scrape": 1567751053046,
 	"category": "fishie_tank",
 	"last_update": 1567629020011,
 	"output": [
@@ -183,8 +191,8 @@
 			]
 		}
 	],
-	"updt": 1563371550917,
-	"edit": 119,
+	"updt": 1567660815904,
+	"edit": 121,
 	"identified": [
 		{
 			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
@@ -204,5 +212,6 @@
 				" scienti"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_q8sbq2.locs: script doesn't exist\"}"
 }
