@@ -1,25 +1,25 @@
 {
 	"_id": "abndnd_73umwy.mining_laser",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_73umwy.mining_laser",
 	"sector": "HJG_3466",
 	"sec_level": 4,
 	"date_added": 1562172767891,
-	"last_scraped": 1567771031444,
+	"last_scraped": 1567786723139,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562172767891
 		}
 	],
-	"next_scrape": 1567811994763,
+	"next_scrape": 1567826601003,
 	"category": "fishie_tank",
-	"last_update": 1567771031444,
+	"last_update": 1567786723139,
 	"output": [
 		{
 			"args": {},
-			"calls": 426007,
+			"calls": 437489,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ombat",
@@ -73,7 +73,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 43731,
+			"calls": 44799,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -132,7 +132,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 466564,
+			"calls": 470220,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ombat",
@@ -209,6 +209,6 @@
 			]
 		}
 	],
-	"updt": 1567755111165,
-	"edit": 52
+	"updt": 1567771127453,
+	"edit": 53
 }
