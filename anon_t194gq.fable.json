@@ -1,28 +1,28 @@
 {
 	"_id": "anon_t194gq.fable",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_t194gq.fable",
 	"sector": "K_6566",
 	"sec_level": 4,
 	"date_added": 1562940683067,
-	"last_scraped": 1567780084867,
+	"last_scraped": 1567796223359,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562940683067
 		}
 	],
-	"updt": 1567764362457,
-	"edit": 9,
+	"updt": 1567780373507,
+	"edit": 10,
 	"scrape_ct": 19,
-	"next_scrape": 1567821614541,
+	"next_scrape": 1567840157229,
 	"category": "fishie_tank",
-	"last_update": 1567780084867,
+	"last_update": 1567796252772,
 	"output": [
 		{
 			"args": {},
-			"calls": 59961,
+			"calls": 71214,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"Of cou",
@@ -56,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5605,
+			"calls": 7525,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -139,6 +139,11 @@
 				"ole. Lik",
 				"I hate i"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
