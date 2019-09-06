@@ -1,28 +1,28 @@
 {
 	"_id": "abandoned_dxja8k.log",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_dxja8k.log",
 	"sector": "NGC_9751",
 	"sec_level": 4,
 	"date_added": 1563381448359,
-	"last_scraped": 1567797751229,
+	"last_scraped": 1567811997904,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563381448359
 		}
 	],
-	"updt": 1567781948956,
-	"edit": 9,
+	"updt": 1567797969058,
+	"edit": 10,
 	"scrape_ct": 15,
-	"next_scrape": 1567844318291,
+	"next_scrape": 1567855057894,
 	"category": "fishie_tank",
-	"last_update": 1567797751229,
+	"last_update": 1567812027375,
 	"output": [
 		{
 			"args": {},
-			"calls": 82159,
+			"calls": 93981,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"T0X7A",
@@ -58,7 +58,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7261,
+			"calls": 8501,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -144,6 +144,11 @@
 				"A\\nAD03",
 				"_SECT0XF"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
