@@ -1,25 +1,25 @@
 {
 	"_id": "anon_swtwzu.transactions",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_swtwzu.transactions",
 	"sector": "K_8441",
 	"sec_level": 4,
 	"date_added": 1562095213744,
-	"last_scraped": 1567658843741,
+	"last_scraped": 1567730575283,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562095213744
 		}
 	],
-	"next_scrape": 1567699075090,
+	"next_scrape": 1567770224719,
 	"category": "fishie_tank",
-	"last_update": 1567658843741,
+	"last_update": 1567730575283,
 	"output": [
 		{
 			"args": {},
-			"calls": 344212,
+			"calls": 351883,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"will ",
@@ -50,7 +50,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 33200,
+			"calls": 34015,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -86,7 +86,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 330889,
+			"calls": 335183,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"will ",
@@ -126,6 +126,6 @@
 			]
 		}
 	],
-	"updt": 1567625189789,
-	"edit": 38
+	"updt": 1567659012141,
+	"edit": 39
 }
