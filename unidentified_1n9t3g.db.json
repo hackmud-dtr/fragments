@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_1n9t3g.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "unidentified_1n9t3g.db",
 	"sector": "K_8441",
 	"sec_level": 4,
 	"date_added": 1562099760934,
-	"last_scraped": 1567726724545,
+	"last_scraped": 1567744009208,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567770978794,
+	"next_scrape": 1567833014934,
 	"category": "risk_factor",
-	"last_update": 1567726724545,
+	"last_update": 1567744009208,
 	"output": [
 		{
 			"args": {},
-			"calls": 1574,
+			"calls": 2132,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"| It ",
@@ -213,7 +213,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 118,
+			"calls": 227,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"| It ",
@@ -225,8 +225,8 @@
 			]
 		}
 	],
-	"updt": 1567722843115,
-	"edit": 4,
+	"updt": 1567726905934,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -298,6 +298,11 @@
 				"cause it",
 				" or beca"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }
