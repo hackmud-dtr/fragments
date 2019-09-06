@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_2mspk1.script",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "uknown_2mspk1.script",
 	"sector": "VNP_3290",
 	"sec_level": 4,
 	"date_added": 1564669326036,
-	"last_scraped": 1567708493063,
+	"last_scraped": 1567742803278,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567800575486,
+	"next_scrape": 1567832765063,
 	"category": "risk_factor",
-	"last_update": 1567708484196,
+	"last_update": 1567742803278,
 	"output": [
 		{
 			"args": {},
@@ -294,15 +294,28 @@
 				"self\\n213N 59GC witÃ do:\"win\"\n\nOR\n\nYOU COULD `VÁOSE",
 				"self\\n213N 13GC wit¡ do:\"win\"\n\nOR\n\nYOU COULD `VLOSE"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 161,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"But if",
+				"137 ta",
+				"you want",
+				"hive you",
+				"2132 you",
+				"ted to,\\n",
+				"self\\n213"
+			]
 		}
 	],
-	"updt": 1567652924763,
-	"edit": 3,
+	"updt": 1567715169640,
+	"edit": 4,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

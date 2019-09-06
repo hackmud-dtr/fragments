@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_yvo3al.protectsy",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "abndnd_yvo3al.protectsy",
 	"sector": "NGC_2512",
 	"sec_level": 4,
 	"date_added": 1565070948818,
-	"last_scraped": 1567708614746,
+	"last_scraped": 1567742854240,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1567789715169,
+	"next_scrape": 1567835594271,
 	"category": "risk_factor",
-	"last_update": 1565070997733,
+	"last_update": 1567742854240,
 	"output": [
 		{
 			"args": {},
@@ -29,15 +29,26 @@
 				"7 Whisp",
 				"Whispers"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 108,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				" this",
+				"ate th",
+				"is\\n1E2",
+				"7 Whisp",
+				"Whispers"
+			]
 		}
 	],
-	"updt": 1567653602398,
-	"edit": 3,
+	"updt": 1567715169640,
+	"edit": 4,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
