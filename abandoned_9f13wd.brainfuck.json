@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_9f13wd.brainfuck",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "abandoned_9f13wd.brainfuck",
 	"sector": "NGC_4554",
 	"sec_level": 4,
 	"date_added": 1562830942032,
-	"last_scraped": 1567744059862,
+	"last_scraped": 1567760842864,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567786272143,
+	"next_scrape": 1567846811123,
 	"category": "risk_factor",
-	"last_update": 1567744059862,
+	"last_update": 1567760842864,
 	"output": [
 		{
 			"args": {},
-			"calls": 2614,
+			"calls": 3056,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"tal s",
@@ -119,7 +119,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 249,
+			"calls": 356,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"tal s",
@@ -131,8 +131,8 @@
 			]
 		}
 	],
-	"updt": 1567744052882,
-	"edit": 4,
+	"updt": 1567744279184,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
@@ -144,6 +144,11 @@
 				"bvious",
 				"t bioen"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }
