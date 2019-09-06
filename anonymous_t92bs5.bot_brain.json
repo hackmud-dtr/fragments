@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_t92bs5.bot_brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_t92bs5.bot_brain",
 	"sector": "SPC_8268",
 	"sec_level": 4,
 	"date_added": 1563200008047,
-	"last_scraped": 1567781722516,
+	"last_scraped": 1567797590027,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 2,
-	"next_scrape": 1567825674157,
+	"next_scrape": 1567841305844,
 	"category": "fishie_tank",
-	"last_update": 1567781722516,
+	"last_update": 1567797599643,
 	"output": [
 		{
 			"args": {},
-			"calls": 125588,
+			"calls": 140810,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"le. Lik",
@@ -55,7 +55,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 12561,
+			"calls": 13215,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -142,6 +142,11 @@
 			]
 		}
 	],
-	"updt": 1567765939750,
-	"edit": 10
+	"updt": 1567781948956,
+	"edit": 11,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
