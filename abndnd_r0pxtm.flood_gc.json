@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_r0pxtm.flood_gc",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_r0pxtm.flood_gc",
 	"sector": "K_4792",
 	"sec_level": 4,
 	"date_added": 1561359302764,
-	"last_scraped": 1567845790769,
+	"last_scraped": 1567856109078,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1567891909831,
+	"next_scrape": 1567899942839,
 	"category": "fishie_tank",
-	"last_update": 1567845790769,
+	"last_update": 1567856120594,
 	"output": [
 		{
 			"args": {},
-			"calls": 811681,
+			"calls": 825951,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ng] [b",
@@ -62,7 +62,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 80811,
+			"calls": 81142,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -148,8 +148,8 @@
 			]
 		}
 	],
-	"updt": 1567845803642,
-	"edit": 98,
+	"updt": 1567850090657,
+	"edit": 99,
 	"identified": [
 		{
 			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
@@ -168,6 +168,11 @@
 				" [bat_ic",
 				" ## [bun"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
