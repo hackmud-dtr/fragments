@@ -1,25 +1,25 @@
 {
 	"_id": "derelict_u67elq.chatloc",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_u67elq.chatloc",
 	"sector": "SPC_3851",
 	"sec_level": 4,
 	"date_added": 1561996423202,
-	"last_scraped": 1567824414736,
+	"last_scraped": 1567837142893,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561996423202
 		}
 	],
-	"next_scrape": 1567868055669,
+	"next_scrape": 1567881333597,
 	"category": "fishie_tank",
-	"last_update": 1567824414736,
+	"last_update": 1567837152490,
 	"output": [
 		{
 			"args": {},
-			"calls": 650144,
+			"calls": 665178,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" leav",
@@ -55,7 +55,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 67827,
+			"calls": 68700,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -142,6 +142,11 @@
 			]
 		}
 	],
-	"updt": 1567812412521,
-	"edit": 77
+	"updt": 1567824597870,
+	"edit": 78,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
