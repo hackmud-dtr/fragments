@@ -1,7 +1,7 @@
 {
 	"_id": "anon_9evaaf.man",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_9evaaf.man",
 	"sector": "VNP_2284",
 	"sec_level": 4,
@@ -21,11 +21,11 @@
 	"edit": 22,
 	"next_scrape": 1567952297839,
 	"category": "fishie_tank",
-	"last_update": 1567908502634,
+	"last_update": 1567908541342,
 	"output": [
 		{
 			"args": {},
-			"calls": 133898,
+			"calls": 142036,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"07 Ha",
@@ -57,7 +57,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 14423,
+			"calls": 14911,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -139,9 +139,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
