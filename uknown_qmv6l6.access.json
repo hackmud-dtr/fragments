@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_qmv6l6.access",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "uknown_qmv6l6.access",
 	"sector": "VNP_3290",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1564614290345
+		},
+		{
+			"type": "died",
+			"when": 1568073743288
 		}
 	],
 	"scrape_ct": 19,
@@ -28,6 +32,18 @@
 				"e that ",
 				"ards fr",
 				"ack.\\n2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"\\n20F0",
+						"g stack",
+						"e that ",
+						"ards fr",
+						"ack.\\n2"
+					]
+				}
 			]
 		},
 		{
@@ -47,15 +63,52 @@
 				"ck\\n20F1",
 				"k\\n20F1 a",
 				"ack.\\n20E"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"e tha",
+						"rom th",
+						"ny\\n20",
+						" the\\n",
+						"defendi",
+						"EE Remo",
+						"0EF car",
+						"ck\\n20F1",
+						"k\\n20F1 a",
+						"ack.\\n20E"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1567715846573,
-	"edit": 4,
+	"updt": 1567743604541,
+	"edit": 5,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
 		{
 			"do": "LOSE"
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"rom th",
+				"ny\\n20",
+				"\\n20F0",
+				" the\\n",
+				"g stack",
+				"e that ",
+				"defendi",
+				"ards fr",
+				"EE Remo",
+				"0EF car",
+				"ck\\n20F1",
+				"k\\n20F1 a",
+				"ack.\\n20E"
+			]
 		}
 	]
 }
