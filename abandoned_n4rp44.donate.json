@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_n4rp44.donate",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abandoned_n4rp44.donate",
 	"sector": "K_9897",
 	"sec_level": 2,
@@ -23,10 +23,14 @@
 				"from": "K_9897",
 				"to": "HJG_7128"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1568405935879
+		}
 	],
-	"updt": 1568397356814,
-	"edit": 98,
+	"updt": 1568402767147,
+	"edit": 99,
 	"output": "{\"ok\":false,\"msg\":\"Your account balance of 0GC is too low to send 10MGC.\"}",
 	"next_scrape": 1568483323333,
 	"pl_output": "{\"ok\":false,\"msg\":\"Your account balance of 0GC is too low to send 10MGC.\"}",
