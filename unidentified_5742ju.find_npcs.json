@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_5742ju.find_npcs",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unidentified_5742ju.find_npcs",
 	"sector": "K_7641",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "K_7641",
 				"to": "NGC_8582"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1568660063313
+		}
 	],
-	"updt": 1568655274569,
-	"edit": 530,
+	"updt": 1568659113639,
+	"edit": 531,
 	"output": "{\"ok\":false,\"m\":\"Usage: marhja.find_npcs { t:#s.name.public }\"}",
 	"next_scrape": 1568739285385,
 	"pl_output": "{\"ok\":false,\"m\":\"Usage: marhja.find_npcs { t:#s.name.public }\"}",
