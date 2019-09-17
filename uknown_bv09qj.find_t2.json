@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_bv09qj.find_t2",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "uknown_bv09qj.find_t2",
 	"sector": "SPC_2500",
 	"sec_level": 4,
 	"date_added": 1563095388516,
-	"last_scraped": 1567714316281,
+	"last_scraped": 1568688663373,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567760457047,
+	"next_scrape": 1568733851832,
 	"category": "risk_factor",
-	"last_update": 1567714316281,
+	"last_update": 1568688663373,
 	"output": [
 		{
 			"args": {},
-			"calls": 3026,
+			"calls": 3850,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"p as ",
@@ -169,8 +169,8 @@
 			]
 		}
 	],
-	"updt": 1567648412063,
-	"edit": 4,
+	"updt": 1568688676077,
+	"edit": 6,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -212,6 +212,11 @@
 				" we go ",
 				"No, Iona"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

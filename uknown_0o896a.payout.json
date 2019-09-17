@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_0o896a.payout",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "uknown_0o896a.payout",
 	"sector": "NGC_4554",
 	"sec_level": 4,
 	"date_added": 1562894671732,
-	"last_scraped": 1567713642789,
+	"last_scraped": 1568688430656,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567753379559,
+	"next_scrape": 1568779648703,
 	"category": "risk_factor",
-	"last_update": 1567713642789,
+	"last_update": 1568688430656,
 	"output": [
 		{
 			"args": {},
-			"calls": 2763,
+			"calls": 3229,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"cker'",
@@ -148,10 +148,28 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 109,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"rds pl",
+				" along",
+				"ong wit",
+				"em\\n20F",
+				"\\n20F2 ",
+				"pile\\n20",
+				"le\\n20F4",
+				"ll\\n20F5 ",
+				"er's\\n20F"
+			]
 		}
 	],
-	"updt": 1567646609914,
-	"edit": 4,
+	"updt": 1567714945331,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -192,6 +210,11 @@
 				"0F4 alon",
 				" in the "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

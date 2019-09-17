@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_gbk0nx.db_backup",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "anonymous_gbk0nx.db_backup",
 	"sector": "VNP_1006",
 	"sec_level": 4,
 	"date_added": 1562578214393,
-	"last_scraped": 1567713166424,
+	"last_scraped": 1568688239614,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567757660982,
+	"next_scrape": 1568779067802,
 	"category": "risk_factor",
-	"last_update": 1567713166424,
+	"last_update": 1568688239614,
 	"output": [
 		{
 			"args": {},
-			"calls": 1722,
+			"calls": 2319,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"date:",
@@ -200,10 +200,29 @@
 				"ion | BON 3",
 				"ion | BON 2"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 100,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				" USER",
+				" ERRO",
+				"ter mo",
+				"nfirma",
+				"minati",
+				" of te",
+				"rsonnel ",
+				"ion | BO",
+				"ation. S",
+				"R | NETW"
+			]
 		}
 	],
-	"updt": 1567646384612,
-	"edit": 4,
+	"updt": 1568688223475,
+	"edit": 6,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -248,6 +267,11 @@
 				"ination ",
 				"OR | PRO"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

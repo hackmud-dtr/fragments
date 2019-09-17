@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_q9frs4.pounce",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unknown_q9frs4.pounce",
 	"sector": "HJG_2064",
 	"sec_level": 4,
 	"date_added": 1562638953712,
-	"last_scraped": 1567713295394,
+	"last_scraped": 1568688281415,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567755817936,
+	"next_scrape": 1568734972770,
 	"category": "risk_factor",
-	"last_update": 1567713295394,
+	"last_update": 1568688281415,
 	"output": [
 		{
 			"args": {},
-			"calls": 2512,
+			"calls": 3226,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"01 010",
@@ -47,7 +47,7 @@
 			"args": {
 				"do": "LOSE"
 			},
-			"calls": 2161,
+			"calls": 2405,
 			"base": "YOU COULD WIN 3GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"401 010",
@@ -95,6 +95,7 @@
 				" 0100 102",
 				" 0000 004",
 				"4GC100 100",
+				"4GC000\\n00",
 				"4GC000 000",
 				"4G 0000 00",
 				"2GC100 100",
@@ -154,10 +155,26 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 108,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"01 010",
+				"100 100",
+				"000\\n00",
+				"000 000",
+				"0 0000 ",
+				" 0100 10",
+				" 0000 00"
+			]
 		}
 	],
-	"updt": 1567646384612,
-	"edit": 4,
+	"updt": 1567714945331,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "NOT FOUND",

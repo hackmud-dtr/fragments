@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_vpm24c.deposit",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "anonymous_vpm24c.deposit",
 	"sector": "HJG_8307",
 	"sec_level": 4,
 	"date_added": 1562345195874,
-	"last_scraped": 1568687979208,
+	"last_scraped": 1568688008704,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1568733101883,
+	"next_scrape": 1568770542874,
 	"category": "risk_factor",
-	"last_update": 1568687979208,
+	"last_update": 1568688008704,
 	"output": [
 		{
 			"args": {},
@@ -193,10 +193,31 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 117,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"W ERR",
+				"SYST ",
+				"ILE0X",
+				"E_CLS",
+				"0X77AB",
+				"X77AB55",
+				"OR | NE",
+				"77AB550",
+				"0XCE_CL",
+				"ECT0XAD0",
+				"AB550B\\nS",
+				"550B\\nSYS"
+			]
 		}
 	],
-	"updt": 1567714945331,
-	"edit": 5,
+	"updt": 1568687995472,
+	"edit": 6,
 	"identified": [
 		{
 			"document": "NOT FOUND",
