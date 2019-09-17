@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_6f70q4.solve_j_wright",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_6f70q4.solve_j_wright",
 	"sector": "NGC_1810",
 	"sec_level": 4,
 	"date_added": 1566608335523,
-	"last_scraped": 1568696264114,
+	"last_scraped": 1568715756718,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 6,
-	"next_scrape": 1568738481087,
+	"next_scrape": 1568756656634,
 	"category": "fishie_tank",
-	"last_update": 1568696264114,
+	"last_update": 1568715788511,
 	"output": [
 		{
 			"args": {},
-			"calls": 143612,
+			"calls": 148548,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"his is",
@@ -46,7 +46,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 12497,
+			"calls": 13445,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -112,6 +112,11 @@
 			]
 		}
 	],
-	"updt": 1567824824806,
-	"edit": 13
+	"updt": 1568696575310,
+	"edit": 14,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
