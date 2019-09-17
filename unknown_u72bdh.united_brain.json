@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_u72bdh.united_brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_u72bdh.united_brain",
 	"sector": "K_3804",
 	"sec_level": 4,
 	"date_added": 1564471722051,
-	"last_scraped": 1568713114354,
+	"last_scraped": 1568729769236,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 5,
-	"next_scrape": 1568754107644,
+	"next_scrape": 1568770391001,
 	"category": "fishie_tank",
-	"last_update": 1568713114354,
+	"last_update": 1568729769236,
 	"output": [
 		{
 			"args": {},
-			"calls": 112853,
+			"calls": 124761,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"the po",
@@ -133,6 +133,14 @@
 			]
 		}
 	],
-	"updt": 1568691155334,
-	"edit": 8
+	"updt": 1568713264479,
+	"edit": 9,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
