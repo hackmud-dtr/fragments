@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_wd737v.free_vbucks",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "npc",
 	"script": "derelict_wd737v.free_vbucks",
 	"sector": "NGC_5259",
 	"sec_level": 4,
 	"date_added": 1563269074739,
-	"last_scraped": 1567726827707,
+	"last_scraped": 1568680261486,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567767499680,
+	"next_scrape": 1568725760158,
 	"category": "risk_factor",
-	"last_update": 1567726827707,
+	"last_update": 1568680261486,
 	"output": [
 		{
 			"args": {},
@@ -52,12 +52,15 @@
 			"args": {
 				"do": "LOSE"
 			},
-			"calls": 823,
+			"calls": 1085,
 			"base": "YOU COULD WIN 3GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"XF2274",
+				"F227_4",
 				"BC7D14",
 				"4XF227",
+				"4F227_",
+				"2XF227",
 				"2F227_",
 				"XBF_CL4",
 				"F227_ 4",
@@ -65,6 +68,7 @@
 				"BC7D172",
 				"BC7D1 4",
 				"BC7D1 2",
+				"4GXF227",
 				"4FT0XBF",
 				"4BC7D17",
 				"2XBF_CL",
@@ -73,24 +77,31 @@
 				"XF227N 4",
 				"XBF_CL 4",
 				"XBF_CL 2",
+				"FT0XBF 2",
+				"F227_N 2",
 				"BC7D1N 4",
 				"BC7D1N 2",
 				"BC7D17C4",
+				"BC7D17 4",
 				"BC7D17 2",
 				"4G§XF227",
+				"4GFT0XBF",
 				"4GCF227_",
 				"40X7A_SE",
 				"2ÃBC7D17",
 				"2ÁBC7D17",
 				"2GCF227_",
 				"0X7A_SE2",
+				"XBF_CLN 4",
 				"XBF_CLN 2",
+				"LST0X7A_4",
 				"LST0X7A_2",
 				"FT0XBFN 4",
 				"FT0XBFN 2",
 				"BC7D17N 4",
 				"BC7D17N 2",
 				"4GCXBF_CL",
+				"4GC27_FIL",
 				"4G0X7A_SE",
 				"2GÁXBF_CL",
 				"2GCFT0XBF",
@@ -102,7 +113,9 @@
 				"LST0X7A_ 4",
 				"BC7D17CN 2",
 				"4GCBC7D17C",
+				"4GC0X7A_SE",
 				"2GC0X7A_SE",
+				"0X7A_SEN 2",
 				"LST0X7A_N 2",
 				"2GCLST0X7A_"
 			],
@@ -233,8 +246,8 @@
 			]
 		}
 	],
-	"updt": 1567722389145,
-	"edit": 3,
+	"updt": 1567726905934,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -322,11 +335,6 @@
 				"0X7A_SE",
 				"LST0X7A_"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "LOSE"
 		}
 	]
 }

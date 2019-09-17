@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_doh0ha.bcd",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "npc",
 	"script": "anonymous_doh0ha.bcd",
 	"sector": "NGC_9751",
 	"sec_level": 4,
 	"date_added": 1563345286290,
-	"last_scraped": 1567726906470,
+	"last_scraped": 1568680273780,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1567767554162,
+	"next_scrape": 1568721321387,
 	"category": "risk_factor",
-	"last_update": 1567726906470,
+	"last_update": 1568680273780,
 	"output": [
 		{
 			"args": {},
@@ -121,7 +121,7 @@
 			"args": {
 				"do": "LOSE"
 			},
-			"calls": 827,
+			"calls": 1026,
 			"base": "YOU COULD WIN 3GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"| SUB4",
@@ -146,6 +146,8 @@
 				"2G| SUBJ",
 				"2Gproces",
 				"2GCed in",
+				"procesN 4",
+				"nteresN 4",
 				"nteresN 2",
 				"interest4",
 				"ed in N 4",
@@ -154,6 +156,7 @@
 				"4I'm inte",
 				"4GCproces",
 				"4GCnteres",
+				"2interest",
 				"2I'm inte",
 				"2GC| SUBJ",
 				"2GCnteres",
@@ -222,8 +225,8 @@
 			]
 		}
 	],
-	"updt": 1567711109557,
-	"edit": 3,
+	"updt": 1567727133590,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -306,11 +309,6 @@
 				"ested in",
 				" process"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "LOSE"
 		}
 	]
 }

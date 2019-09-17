@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_ub0jb7.bot_lowsec",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "skip",
 	"script": "unknown_ub0jb7.bot_lowsec",
 	"sector": "K_3221",
 	"sec_level": 4,
 	"date_added": 1563653116029,
-	"last_scraped": 1567708361430,
+	"last_scraped": 1568685909462,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567790134099,
+	"next_scrape": 1568728130237,
 	"category": "risk_factor",
-	"last_update": 1567708352270,
+	"last_update": 1568685909462,
 	"output": [
 		{
 			"args": {},
-			"calls": 1758,
+			"calls": 3001,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"ecisi",
@@ -498,7 +498,12 @@
 			]
 		}
 	],
-	"updt": 1567715169640,
-	"edit": 6,
-	"pl_output": "YOU COULD WIN 1GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"updt": 1567742701425,
+	"edit": 7,
+	"pl_output": "YOU COULD WIN 1GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }

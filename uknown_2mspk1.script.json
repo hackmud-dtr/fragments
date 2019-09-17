@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_2mspk1.script",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "uknown_2mspk1.script",
 	"sector": "VNP_3290",
 	"sec_level": 4,
 	"date_added": 1564669326036,
-	"last_scraped": 1567742803278,
+	"last_scraped": 1568680342268,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567832765063,
+	"next_scrape": 1568768692754,
 	"category": "risk_factor",
 	"last_update": 1567742803278,
 	"output": [
@@ -312,10 +312,13 @@
 			]
 		}
 	],
-	"updt": 1567715169640,
-	"edit": 4,
+	"updt": 1567742926063,
+	"edit": 5,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}

@@ -1,12 +1,12 @@
 {
 	"_id": "anon_y8qmri.release",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "npc",
 	"script": "anon_y8qmri.release",
 	"sector": "SPC_7402",
 	"sec_level": 4,
 	"date_added": 1562737965104,
-	"last_scraped": 1567726734659,
+	"last_scraped": 1568680251901,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567772641702,
+	"next_scrape": 1568726726509,
 	"category": "risk_factor",
-	"last_update": 1567726734659,
+	"last_update": 1568680251901,
 	"output": [
 		{
 			"args": {},
@@ -54,30 +54,35 @@
 			"args": {
 				"do": "LOSE"
 			},
-			"calls": 832,
+			"calls": 1090,
 			"base": "YOU COULD WIN 3GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"fbret4",
+				"4fbret",
+				"4Gfbre",
 				"4G ERR",
 				"2fbret",
 				"2TIME ",
-				" erajb",
 				"fbret 4",
+				"ME ERR4",
 				"G ERR 2",
 				"4ME ERR",
 				"2G| BOD",
 				"2 | BOD",
 				" | BOD4",
 				" | BOD2",
+				" erajb2",
 				"| TIME 2",
 				"| BODY 4",
 				"| BODY 2",
 				"fbretN 4",
 				"fbretN 2",
+				"TIME N 4",
 				"ME ERR 4",
 				"G ERRN 2",
 				"4©| TIME",
 				"4| TIME ",
+				"4| BODY ",
 				"4G| TIME",
 				"4G| BODY",
 				"4GC| BOD",
@@ -87,7 +92,9 @@
 				"2G| TIME",
 				"2GME ERR",
 				"2GC| BOD",
+				"2G ERROR",
 				" | BOD 4",
+				" | BOD 2",
 				"| TIME  4",
 				"| BODY  2",
 				"ME ERRN 4",
@@ -97,7 +104,9 @@
 				"2GG ERROR",
 				" | BODN 4",
 				" | BODN 2",
-				"2GC| TIME "
+				"| BODY N 4",
+				"2GC| TIME ",
+				"2GCG ERROR"
 			],
 			"hits": [
 				{
@@ -214,8 +223,8 @@
 			]
 		}
 	],
-	"updt": 1567710883878,
-	"edit": 3,
+	"updt": 1567726905934,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -333,11 +342,6 @@
 			"frags": [
 				" erajb"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "LOSE"
 		}
 	]
 }
