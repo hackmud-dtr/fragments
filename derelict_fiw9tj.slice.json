@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_fiw9tj.slice",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_fiw9tj.slice",
 	"sector": "K_2655",
 	"sec_level": 4,
 	"date_added": 1565313042605,
-	"last_scraped": 1568706713789,
+	"last_scraped": 1568706736555,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 14,
-	"next_scrape": 1568753084049,
+	"next_scrape": 1568747970681,
 	"category": "fishie_tank",
-	"last_update": 1568706713789,
+	"last_update": 1568706736555,
 	"output": [
 		{
 			"args": {},
@@ -44,7 +44,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6105,
+			"calls": 6896,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -73,7 +73,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 53645,
+			"calls": 57094,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"er win",
@@ -106,10 +106,5 @@
 		}
 	],
 	"updt": 1568686193659,
-	"edit": 6,
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	]
+	"edit": 6
 }
