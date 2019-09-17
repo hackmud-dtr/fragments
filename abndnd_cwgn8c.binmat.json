@@ -1,28 +1,28 @@
 {
 	"_id": "abndnd_cwgn8c.binmat",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "abndnd_cwgn8c.binmat",
 	"sector": "K_6566",
 	"sec_level": 4,
 	"date_added": 1563036144690,
-	"last_scraped": 1568688581595,
+	"last_scraped": 1568711687471,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563036144690
 		}
 	],
-	"updt": 1567714945331,
-	"edit": 6,
+	"updt": 1568688676077,
+	"edit": 7,
 	"scrape_ct": 20,
-	"next_scrape": 1568729460904,
+	"next_scrape": 1568752673259,
 	"category": "risk_factor",
-	"last_update": 1568688581595,
+	"last_update": 1568711687471,
 	"output": [
 		{
 			"args": {},
-			"calls": 2085,
+			"calls": 2536,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"al 3 d",
@@ -279,6 +279,11 @@
 				"n.\\n203E ",
 				"me\\n203F "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

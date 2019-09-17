@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_q9frs4.pounce",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_q9frs4.pounce",
 	"sector": "HJG_2064",
 	"sec_level": 4,
 	"date_added": 1562638953712,
-	"last_scraped": 1568688281415,
+	"last_scraped": 1568711607246,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1568734972770,
+	"next_scrape": 1568758260789,
 	"category": "risk_factor",
-	"last_update": 1568688281415,
+	"last_update": 1568711607246,
 	"output": [
 		{
 			"args": {},
-			"calls": 3226,
+			"calls": 3971,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"01 010",
@@ -173,8 +173,8 @@
 			]
 		}
 	],
-	"updt": 1567714945331,
-	"edit": 5,
+	"updt": 1568688676077,
+	"edit": 6,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -216,6 +216,11 @@
 				" 0100 10N 2",
 				" 0000 00N 4"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }
