@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_0qqq4w.quests",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_0qqq4w.quests",
 	"sector": "K_4785",
 	"sec_level": 4,
 	"date_added": 1565851754980,
-	"last_scraped": 1568706645574,
+	"last_scraped": 1568726029394,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 9,
-	"next_scrape": 1568750652202,
+	"next_scrape": 1568768959748,
 	"category": "fishie_tank",
-	"last_update": 1568706645574,
+	"last_update": 1568726029394,
 	"output": [
 		{
 			"args": {},
-			"calls": 60393,
+			"calls": 66129,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ted s",
@@ -50,7 +50,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7029,
+			"calls": 7586,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -85,7 +85,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 56516,
+			"calls": 64707,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ted s",
@@ -126,6 +126,6 @@
 			]
 		}
 	],
-	"updt": 1568686193659,
-	"edit": 7
+	"updt": 1568706727557,
+	"edit": 8
 }
