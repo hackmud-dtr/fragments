@@ -1,25 +1,25 @@
 {
 	"_id": "abndnd_q3lz8t.payout",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_q3lz8t.payout",
 	"sector": "VNP_1006",
 	"sec_level": 4,
 	"date_added": 1562614852222,
-	"last_scraped": 1568691345704,
+	"last_scraped": 1568713316444,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562614852222
 		}
 	],
-	"next_scrape": 1568737964026,
+	"next_scrape": 1568753018071,
 	"category": "clicker",
-	"last_update": 1568691345704,
+	"last_update": 1568713316444,
 	"output": [
 		{
 			"args": {},
-			"calls": 299487,
+			"calls": 307583,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"rtuni",
@@ -154,6 +154,14 @@
 			]
 		}
 	],
-	"updt": 1567719905413,
-	"edit": 34
+	"updt": 1568691381319,
+	"edit": 35,
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
+		}
+	]
 }
