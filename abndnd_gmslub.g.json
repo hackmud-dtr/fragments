@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_gmslub.g",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "abndnd_gmslub.g",
 	"sector": "VNP_8704",
 	"sec_level": 4,
 	"date_added": 1566692815284,
-	"last_scraped": 1567723047488,
+	"last_scraped": 1568680211308,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567804879996,
+	"next_scrape": 1568766976794,
 	"category": "risk_factor",
 	"last_update": 1567723047488,
 	"output": [
@@ -715,14 +715,9 @@
 			]
 		}
 	],
-	"updt": 1567715169640,
-	"edit": 4,
+	"updt": 1567723294921,
+	"edit": 5,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -1052,6 +1047,14 @@
 				"T0X8926_ 101GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOS",
 				"0X8926_N 16GC with do:\"win\"¨\nOR\n\nYOU ªOULD `VLOSE"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
 		}
 	]
 }

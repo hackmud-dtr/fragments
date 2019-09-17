@@ -1,25 +1,25 @@
 {
 	"_id": "derelict_sowlo0.glock_money",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_sowlo0.glock_money",
 	"sector": "HJG_5723",
 	"sec_level": 4,
 	"date_added": 1562246815464,
-	"last_scraped": 1567718365817,
+	"last_scraped": 1568690482273,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562246815464
 		}
 	],
-	"next_scrape": 1567758662351,
+	"next_scrape": 1568730173846,
 	"category": "fishie_tank",
-	"last_update": 1567718365817,
+	"last_update": 1568690482273,
 	"output": [
 		{
 			"args": {},
-			"calls": 322450,
+			"calls": 328316,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"reed ",
@@ -57,7 +57,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 30561,
+			"calls": 31239,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -100,7 +100,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 321143,
+			"calls": 331843,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"reed ",
@@ -149,6 +149,6 @@
 			]
 		}
 	],
-	"updt": 1567677503308,
-	"edit": 35
+	"updt": 1568690477198,
+	"edit": 37
 }
