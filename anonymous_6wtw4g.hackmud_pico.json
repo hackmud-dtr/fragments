@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_6wtw4g.hackmud_pico",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_6wtw4g.hackmud_pico",
 	"sector": "SPC_8268",
 	"sec_level": 4,
 	"date_added": 1563195773490,
-	"last_scraped": 1568714762035,
+	"last_scraped": 1568730894578,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 13,
-	"next_scrape": 1568754948891,
+	"next_scrape": 1568773420046,
 	"category": "clicker",
-	"last_update": 1568714762035,
+	"last_update": 1568730894578,
 	"output": [
 		{
 			"args": {},
-			"calls": 61602,
+			"calls": 68535,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"n'! #",
@@ -54,7 +54,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 96265,
+			"calls": 106616,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"n'! #",
@@ -162,6 +162,11 @@
 			]
 		}
 	],
-	"updt": 1568694316137,
-	"edit": 9
+	"updt": 1568714841910,
+	"edit": 10,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
