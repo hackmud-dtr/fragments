@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_1u5gvt.alchemy",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_1u5gvt.alchemy",
 	"sector": "K_9564",
 	"sec_level": 4,
 	"date_added": 1563869440926,
-	"last_scraped": 1568711858252,
+	"last_scraped": 1568728761464,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 9,
-	"next_scrape": 1568755565175,
+	"next_scrape": 1568771579655,
 	"category": "clicker",
-	"last_update": 1568711858252,
+	"last_update": 1568728761464,
 	"output": [
 		{
 			"args": {},
-			"calls": 54028,
+			"calls": 68124,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"ctive",
@@ -89,7 +89,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 67410,
+			"calls": 80043,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"ctive",
@@ -276,6 +276,11 @@
 			]
 		}
 	],
-	"updt": 1568689125689,
-	"edit": 6
+	"updt": 1568711911713,
+	"edit": 7,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
