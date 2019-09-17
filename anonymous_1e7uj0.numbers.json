@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_1e7uj0.numbers",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "anonymous_1e7uj0.numbers",
 	"sector": "SPC_2341",
 	"sec_level": 4,
 	"date_added": 1563382794914,
-	"last_scraped": 1567715169782,
+	"last_scraped": 1568689003769,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567757612763,
+	"next_scrape": 1568778990666,
 	"category": "risk_factor",
-	"last_update": 1567715169782,
+	"last_update": 1568689003769,
 	"output": [
 		{
 			"args": {},
-			"calls": 1546,
+			"calls": 1966,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"ted r",
@@ -185,10 +185,29 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 119,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"ted r",
+				"city ",
+				"ance ",
+				"M cap",
+				"pacity",
+				"gnific",
+				"ources ",
+				"ltural/",
+				"R histo",
+				"al/perso"
+			]
 		}
 	],
-	"updt": 1567715169640,
-	"edit": 5,
+	"updt": 1567715846573,
+	"edit": 6,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -234,6 +253,11 @@
 				"RY limi",
 				"ty with "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

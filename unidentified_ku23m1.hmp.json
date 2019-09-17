@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_ku23m1.hmp",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "unidentified_ku23m1.hmp",
 	"sector": "K_6830",
 	"sec_level": 4,
 	"date_added": 1566953993592,
-	"last_scraped": 1567709295791,
+	"last_scraped": 1568686059907,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1567801176536,
+	"next_scrape": 1568775706564,
 	"category": "risk_factor",
-	"last_update": 1567709295791,
+	"last_update": 1568686049945,
 	"output": [
 		{
 			"args": {},
-			"calls": 3057,
+			"calls": 4644,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"th of",
@@ -38,7 +38,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 309,
+			"calls": 414,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"th of",
@@ -53,7 +53,15 @@
 			]
 		}
 	],
-	"updt": 1567619546929,
-	"edit": 2,
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"updt": 1567714494397,
+	"edit": 3,
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }

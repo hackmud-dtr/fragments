@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_46p2f5.vc2c7q",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "derelict_46p2f5.vc2c7q",
 	"sector": "NGC_4040",
 	"sec_level": 4,
 	"date_added": 1565604153313,
-	"last_scraped": 1567722645366,
+	"last_scraped": 1568680091121,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1567811940823,
+	"next_scrape": 1568765855032,
 	"category": "risk_factor",
 	"last_update": 1567722645366,
 	"output": [
@@ -626,14 +626,9 @@
 			]
 		}
 	],
-	"updt": 1567721937753,
-	"edit": 5,
+	"updt": 1567722843115,
+	"edit": 6,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -917,6 +912,14 @@
 				"0000\\n0001B251M667K808GC with do:\"wÁn\"\n¢OR\n\nY¤U¤C",
 				"0000\\n000 21K123GC with do:\"win\"\n\nOR\n\n¨OU §OULD `V"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
 		}
 	]
 }

@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_wt9phy.cti",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anonymous_wt9phy.cti",
 	"sector": "K_5861",
 	"sec_level": 4,
 	"date_added": 1564956313147,
-	"last_scraped": 1567722203395,
+	"last_scraped": 1568680041468,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1567809783084,
+	"next_scrape": 1568764315988,
 	"category": "risk_factor",
 	"last_update": 1567722203395,
 	"output": [
@@ -745,14 +745,9 @@
 			]
 		}
 	],
-	"updt": 1567715169640,
-	"edit": 4,
+	"updt": 1567722389145,
+	"edit": 5,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -1101,6 +1096,14 @@
 				"a drone",
 				"uld play"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
 		}
 	]
 }
