@@ -1,23 +1,23 @@
 {
 	"_id": "anonymous_201xh5.unglitch",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anonymous_201xh5.unglitch",
 	"sector": "HJG_5959",
 	"sec_level": 4,
 	"date_added": 1561811202488,
-	"last_scraped": 1567625685553,
+	"last_scraped": 1568679146713,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561811202488
 		}
 	],
-	"updt": 1567625865334,
-	"edit": 49,
-	"next_scrape": 1567666235073,
+	"updt": 1567714945331,
+	"edit": 50,
+	"next_scrape": 1568725479591,
 	"category": "fishie_tank",
-	"last_update": 1567709749219,
+	"last_update": 1568679146713,
 	"output": [
 		{
 			"args": {},
@@ -82,15 +82,15 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 447238,
+			"calls": 457690,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"R | N",
-				" | PR",
-				"NETW E",
-				" PROG ",
+				"| PROG E",
+				"R | PROG",
 				"PROG ERR",
-				"ERROR | "
+				"ERROR | ",
+				" NETW ER"
 			],
 			"hits": [
 				{
@@ -118,11 +118,6 @@
 				"PROG ERR",
 				"ERROR | "
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
