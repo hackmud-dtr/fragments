@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_funbrk.k3y_brain",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "unknown_funbrk.k3y_brain",
 	"sector": "K_9564",
 	"sec_level": 4,
 	"date_added": 1563895884458,
-	"last_scraped": 1568680331957,
+	"last_scraped": 1568708141776,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1568764459554,
+	"next_scrape": 1568796987480,
 	"category": "risk_factor",
-	"last_update": 1568680323046,
+	"last_update": 1568708141776,
 	"output": [
 		{
 			"args": {},
@@ -35,7 +35,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 102,
+			"calls": 227,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"xt, i",
@@ -228,13 +228,10 @@
 			]
 		}
 	],
-	"updt": 1567742926063,
-	"edit": 5,
+	"updt": 1568686417352,
+	"edit": 6,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_1n9t3g.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_1n9t3g.db",
 	"sector": "K_8441",
 	"sec_level": 4,
 	"date_added": 1562099760934,
-	"last_scraped": 1568680584929,
+	"last_scraped": 1568708356962,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1568721517975,
+	"next_scrape": 1568753718734,
 	"category": "risk_factor",
-	"last_update": 1568680584929,
+	"last_update": 1568708356962,
 	"output": [
 		{
 			"args": {},
-			"calls": 2132,
+			"calls": 2945,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"| It ",
@@ -228,8 +228,8 @@
 			]
 		}
 	],
-	"updt": 1567744052882,
-	"edit": 6,
+	"updt": 1568686642359,
+	"edit": 7,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -301,6 +301,11 @@
 				"cause it",
 				" or beca"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

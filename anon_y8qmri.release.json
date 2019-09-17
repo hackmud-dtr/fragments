@@ -1,12 +1,12 @@
 {
 	"_id": "anon_y8qmri.release",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_y8qmri.release",
 	"sector": "SPC_7402",
 	"sec_level": 4,
 	"date_added": 1562737965104,
-	"last_scraped": 1568680251901,
+	"last_scraped": 1568707973225,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1568726726509,
+	"next_scrape": 1568749730743,
 	"category": "risk_factor",
-	"last_update": 1568680251901,
+	"last_update": 1568707973225,
 	"output": [
 		{
 			"args": {},
-			"calls": 1777,
+			"calls": 2211,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"fbret",
@@ -223,8 +223,8 @@
 			]
 		}
 	],
-	"updt": 1567726905934,
-	"edit": 4,
+	"updt": 1568686417352,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -342,6 +342,11 @@
 			"frags": [
 				" erajb"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

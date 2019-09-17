@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_doh0ha.bcd",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_doh0ha.bcd",
 	"sector": "NGC_9751",
 	"sec_level": 4,
 	"date_added": 1563345286290,
-	"last_scraped": 1568680273780,
+	"last_scraped": 1568708112015,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1568721321387,
+	"next_scrape": 1568748815309,
 	"category": "risk_factor",
-	"last_update": 1568680273780,
+	"last_update": 1568708112015,
 	"output": [
 		{
 			"args": {},
-			"calls": 1714,
+			"calls": 2920,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"| SUBJ",
@@ -225,8 +225,8 @@
 			]
 		}
 	],
-	"updt": 1567727133590,
-	"edit": 4,
+	"updt": 1568708080241,
+	"edit": 6,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -309,6 +309,14 @@
 				"ested in",
 				" process"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
 		}
 	]
 }
