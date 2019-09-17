@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_wt9phy.cti",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "anonymous_wt9phy.cti",
 	"sector": "K_5861",
 	"sec_level": 4,
 	"date_added": 1564956313147,
-	"last_scraped": 1568707691142,
+	"last_scraped": 1568726561134,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1568796218974,
+	"next_scrape": 1568819746105,
 	"category": "risk_factor",
-	"last_update": 1568707680612,
+	"last_update": 1568726561134,
 	"output": [
 		{
 			"args": {},
@@ -728,7 +728,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 658,
+			"calls": 765,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"ost wi",
@@ -745,8 +745,8 @@
 			]
 		}
 	],
-	"updt": 1568686193659,
-	"edit": 6,
+	"updt": 1568707853594,
+	"edit": 7,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"identified": [
 		{
@@ -1099,9 +1099,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

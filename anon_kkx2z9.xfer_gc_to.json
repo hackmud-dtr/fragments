@@ -1,12 +1,12 @@
 {
 	"_id": "anon_kkx2z9.xfer_gc_to",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "anon_kkx2z9.xfer_gc_to",
 	"sector": "SPC_9479",
 	"sec_level": 4,
 	"date_added": 1563425364830,
-	"last_scraped": 1568707459054,
+	"last_scraped": 1568726531690,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1568800109784,
+	"next_scrape": 1568817781704,
 	"category": "risk_factor",
-	"last_update": 1568707449877,
+	"last_update": 1568726531690,
 	"output": [
 		{
 			"args": {},
@@ -1232,7 +1232,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 850,
+			"calls": 950,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"n whe",
@@ -1247,8 +1247,8 @@
 			]
 		}
 	],
-	"updt": 1568686193659,
-	"edit": 6,
+	"updt": 1568707628144,
+	"edit": 7,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"identified": [
 		{
@@ -1849,9 +1849,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
