@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_56ramp.sys_expose_balance",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "abndnd_56ramp.sys_expose_balance",
 	"sector": "NGC_7654",
 	"sec_level": 4,
 	"date_added": 1562269108896,
-	"last_scraped": 1567712622776,
+	"last_scraped": 1568687879550,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567753398529,
+	"next_scrape": 1568728208130,
 	"category": "risk_factor",
-	"last_update": 1567712622776,
+	"last_update": 1568687879550,
 	"output": [
 		{
 			"args": {},
-			"calls": 1503,
+			"calls": 2427,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"- or ",
@@ -181,8 +181,8 @@
 			]
 		}
 	],
-	"updt": 1567645935297,
-	"edit": 4,
+	"updt": 1567714945331,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -236,6 +236,11 @@
 				"nance th",
 				"etitors "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

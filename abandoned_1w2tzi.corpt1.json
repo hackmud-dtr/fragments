@@ -6,7 +6,7 @@
 	"sector": "K_7153",
 	"sec_level": 4,
 	"date_added": 1565339822937,
-	"last_scraped": 1567711638403,
+	"last_scraped": 1568687184819,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1567753284725,
+	"next_scrape": 1568726848640,
 	"category": "fishie_tank",
-	"last_update": 1567711638403,
+	"last_update": 1568687205712,
 	"output": [
 		{
 			"args": {},
-			"calls": 39075,
+			"calls": 51813,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"have ",
@@ -46,7 +46,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2467,
+			"calls": 3421,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -100,8 +100,8 @@
 			]
 		}
 	],
-	"updt": 1567639168633,
-	"edit": 3,
+	"updt": 1567714945331,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
@@ -112,6 +112,11 @@
 				"ater, g",
 				" card g"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

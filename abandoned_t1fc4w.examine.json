@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_t1fc4w.examine",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "abandoned_t1fc4w.examine",
 	"sector": "K_8441",
 	"sec_level": 4,
 	"date_added": 1562047196600,
-	"last_scraped": 1567712443530,
+	"last_scraped": 1568687827317,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567759104824,
+	"next_scrape": 1568770475090,
 	"category": "risk_factor",
-	"last_update": 1567712443530,
+	"last_update": 1568687827317,
 	"output": [
 		{
 			"args": {},
-			"calls": 1566,
+			"calls": 2024,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"X7A_S",
@@ -163,10 +163,26 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 122,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"p writ",
+				"You ke",
+				"D178\\n",
+				"BC7D17",
+				"LE0X2BC7",
+				"F227_FIL",
+				"2114 You"
+			]
 		}
 	],
-	"updt": 1567645709409,
-	"edit": 4,
+	"updt": 1567714945331,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -207,6 +223,11 @@
 				"4 You ke",
 				"27_FILE0"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_73t1c3.bot_refill",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "uknown_73t1c3.bot_refill",
 	"sector": "SPC_3851",
 	"sec_level": 4,
 	"date_added": 1561971962605,
-	"last_scraped": 1567712381309,
+	"last_scraped": 1568687778691,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567758564206,
+	"next_scrape": 1568728368909,
 	"category": "risk_factor",
-	"last_update": 1567712381309,
+	"last_update": 1568687778691,
 	"output": [
 		{
 			"args": {},
-			"calls": 1716,
+			"calls": 2400,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"u wan",
@@ -204,8 +204,8 @@
 			]
 		}
 	],
-	"updt": 1567645709409,
-	"edit": 4,
+	"updt": 1567714945331,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -268,6 +268,11 @@
 				" mail h",
 				"So - wha"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

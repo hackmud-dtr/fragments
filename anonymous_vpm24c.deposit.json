@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_vpm24c.deposit",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anonymous_vpm24c.deposit",
 	"sector": "HJG_8307",
 	"sec_level": 4,
 	"date_added": 1562345195874,
-	"last_scraped": 1567712803098,
+	"last_scraped": 1568687979208,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567757184192,
+	"next_scrape": 1568733101883,
 	"category": "risk_factor",
-	"last_update": 1567712803098,
+	"last_update": 1568687979208,
 	"output": [
 		{
 			"args": {},
-			"calls": 1434,
+			"calls": 2012,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"W ERR",
@@ -195,8 +195,8 @@
 			]
 		}
 	],
-	"updt": 1567646160463,
-	"edit": 4,
+	"updt": 1567714945331,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -251,6 +251,11 @@
 				"0C_FILE0",
 				"B\\nSYST E"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

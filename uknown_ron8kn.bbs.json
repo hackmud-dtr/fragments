@@ -6,7 +6,7 @@
 	"sector": "NGC_1514",
 	"sec_level": 4,
 	"date_added": 1566343140000,
-	"last_scraped": 1567712010253,
+	"last_scraped": 1568687487191,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1567755535502,
+	"next_scrape": 1568733381968,
 	"category": "fishie_tank",
-	"last_update": 1567712010253,
+	"last_update": 1568687519073,
 	"output": [
 		{
 			"args": {},
-			"calls": 27327,
+			"calls": 31626,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ri im",
@@ -46,7 +46,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1940,
+			"calls": 2625,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -100,8 +100,8 @@
 			]
 		}
 	],
-	"updt": 1567642100073,
-	"edit": 4,
+	"updt": 1567714945331,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
@@ -112,6 +112,11 @@
 				" USER ",
 				"SER era"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
