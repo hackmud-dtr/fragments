@@ -1,25 +1,25 @@
 {
 	"_id": "anon_i2to71.riot",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_i2to71.riot",
 	"sector": "HJG_5024",
 	"sec_level": 4,
 	"date_added": 1561581886645,
-	"last_scraped": 1568791328908,
+	"last_scraped": 1568802433345,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1561581886645
 		}
 	],
-	"next_scrape": 1568837313789,
+	"next_scrape": 1568844442465,
 	"category": "fishie_tank",
-	"last_update": 1568791328908,
+	"last_update": 1568802464258,
 	"output": [
 		{
 			"args": {},
-			"calls": 554550,
+			"calls": 558562,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"_FILE",
@@ -55,7 +55,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 48352,
+			"calls": 49278,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -129,8 +129,8 @@
 			]
 		}
 	],
-	"updt": 1568791323373,
-	"edit": 64,
+	"updt": 1568791549542,
+	"edit": 65,
 	"identified": [
 		{
 			"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
@@ -143,6 +143,11 @@
 				"ROR | US",
 				"9D\\nSYST"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

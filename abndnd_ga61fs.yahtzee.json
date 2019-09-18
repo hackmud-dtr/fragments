@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_ga61fs.yahtzee",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_ga61fs.yahtzee",
 	"sector": "NGC_1037",
 	"sec_level": 4,
 	"date_added": 1564296048065,
-	"last_scraped": 1568791427426,
+	"last_scraped": 1568802596700,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 7,
-	"next_scrape": 1568831591828,
+	"next_scrape": 1568847693262,
 	"category": "clicker",
-	"last_update": 1568791427426,
+	"last_update": 1568802596700,
 	"output": [
 		{
 			"args": {},
-			"calls": 80514,
+			"calls": 87607,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"t. It",
@@ -80,7 +80,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 106200,
+			"calls": 116653,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"t. It",
@@ -259,6 +259,11 @@
 			]
 		}
 	],
-	"updt": 1568767631667,
-	"edit": 11
+	"updt": 1568802596690,
+	"edit": 13,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
