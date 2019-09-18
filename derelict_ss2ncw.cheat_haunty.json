@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_ss2ncw.cheat_haunty",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "derelict_ss2ncw.cheat_haunty",
 	"sector": "K_9556",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1568786288327,
+	"last_scraped": 1568797193853,
 	"script_log": [
 		{
 			"type": "added",
@@ -21,11 +21,11 @@
 			}
 		]
 	],
-	"updt": 1568762669855,
-	"edit": 266,
-	"next_scrape": 1568873956838,
+	"updt": 1568797184643,
+	"edit": 268,
+	"next_scrape": 1568878127989,
 	"category": "UNKNOWN CATEGORY",
-	"last_update": 1568786288327,
+	"last_update": 1568797175283,
 	"output": [
 		{
 			"args": {},
@@ -2230,9 +2230,21 @@
 				"49",
 				"48"
 			]
+		},
+		{
+			"args": {},
+			"calls": 1236,
+			"base": "[\"For help and usage use derelict_ss2ncw.cheat_haunty { help: true }\",\"\",\"Already played haunty mall today. `LYou won`.\\nPlay again in `A15`:`A 0`:`A24`\"]",
+			"fragments": [
+				"5",
+				"3",
+				"2",
+				"1",
+				"0"
+			]
 		}
 	],
-	"pl_output": "[\"For help and usage use derelict_ss2ncw.cheat_haunty { help: true }\",\"\",\"Already played haunty mall today. `JUnknown`.\\nPlay again in `A 0`:`A38`:`A11`\"]",
+	"pl_output": "[\"For help and usage use derelict_ss2ncw.cheat_haunty { help: true }\",\"\",\"Already played haunty mall today. `LYou won`.\\nPlay again in `A15`:`A 0`:`A 6`\"]",
 	"old_output": "[\"For help and usage use derelict_ss2ncw.cheat_haunty { help: true }\",\"\",\"Already played haunty mall today. `DYou lost`.\\nPlay again in `A20`:`A15`:`A32`\"]",
 	"identified": [
 		{
@@ -2333,6 +2345,5 @@
 				"0"
 			]
 		}
-	],
-	"scrape_ct": -1
+	]
 }
