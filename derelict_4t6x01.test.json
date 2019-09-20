@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_4t6x01.test",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_4t6x01.test",
 	"sector": "K_0689",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "K_0689",
 				"to": "K_7923"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1568942847680
+		}
 	],
-	"updt": 1568931891880,
-	"edit": 1470,
+	"updt": 1568940689852,
+	"edit": 1471,
 	"output": "null",
 	"next_scrape": 1569032584943,
 	"pl_output": "Unexpected token u in JSON at position 0"
