@@ -1,7 +1,7 @@
 {
 	"_id": "anon_zzi7fi.withdraw",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anon_zzi7fi.withdraw",
 	"sector": "VNP_1006",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "VNP_1006",
 				"to": "VNP_6240"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1569016438288
+		}
 	],
-	"updt": 1569009301841,
-	"edit": 1571,
+	"updt": 1569013808662,
+	"edit": 1572,
 	"output": "0",
 	"next_scrape": 1569104483662,
 	"pl_output": "0"
