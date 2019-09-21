@@ -1,28 +1,28 @@
 {
 	"_id": "uknown_tc92ub.beat",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "uknown_tc92ub.beat",
 	"sector": "SPC_6164",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1569095756000,
+	"last_scraped": 1569103271359,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1569086110548,
-	"edit": 1,
-	"scrape_ct": 18,
-	"next_scrape": 1569095816000,
+	"updt": 1569095800633,
+	"edit": 2,
+	"scrape_ct": 17,
+	"next_scrape": 1569103331359,
 	"category": "fishie_tank",
-	"last_update": 1569095756000,
+	"last_update": 1569103310834,
 	"output": [
 		{
 			"args": {},
-			"calls": 7449,
+			"calls": 11340,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"our c",
@@ -54,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 558,
+			"calls": 2232,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -133,6 +133,11 @@
 				"I get t",
 				"ues. I g"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
