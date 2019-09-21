@@ -1,16 +1,110 @@
 {
 	"_id": "anonymous_tqznb4.db",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "anonymous_tqznb4.db",
 	"sector": "VNP_8380",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 0,
+	"last_scraped": 1569094290769,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
+		}
+	],
+	"updt": 1569085887045,
+	"edit": 1,
+	"scrape_ct": 19,
+	"next_scrape": 1569094350769,
+	"category": "fishie_tank",
+	"last_update": 1569094290769,
+	"output": [
+		{
+			"args": {},
+			"calls": 6829,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"on. 'T",
+				"orrecti",
+				"ng face",
+				" has ev"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"on. 'T",
+						"orrecti",
+						"ng face",
+						" has ev"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 483,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"on. 'T",
+				"orrecti",
+				"ng face",
+				" has ev"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"on. 'T",
+						"orrecti",
+						"ng face",
+						" has ev"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 4209,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"on. 'T",
+				"orrecti",
+				"ng face",
+				" has ev"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"on. 'T",
+						"orrecti",
+						"ng face",
+						" has ev"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+			"frags": [
+				"on. 'T",
+				"orrecti",
+				"ng face",
+				" has ev"
+			]
 		}
 	]
 }
