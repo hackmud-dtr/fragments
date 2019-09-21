@@ -1,16 +1,138 @@
 {
 	"_id": "uknown_vs802j.t1",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "uknown_vs802j.t1",
 	"sector": "VNP_9534",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 0,
+	"last_scraped": 1569087952247,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
+		}
+	],
+	"updt": 1569085661801,
+	"edit": 1,
+	"scrape_ct": 19,
+	"next_scrape": 1569088012247,
+	"category": "fishie_tank",
+	"last_update": 1569087952247,
+	"output": [
+		{
+			"args": {},
+			"calls": 9803,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"eel a",
+				"algic",
+				"el ang",
+				"ic abou",
+				"gh to f",
+				" as muc",
+				"l thing ",
+				"e old en"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"eel a",
+						"algic",
+						"el ang",
+						"ic abou",
+						"gh to f",
+						" as muc",
+						"l thing ",
+						"e old en"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 927,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"eel a",
+				"algic",
+				"el ang",
+				"ic abou",
+				"gh to f",
+				" as muc",
+				"l thing ",
+				"e old en"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"eel a",
+						"algic",
+						"el ang",
+						"ic abou",
+						"gh to f",
+						" as muc",
+						"l thing ",
+						"e old en"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 3984,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"eel a",
+				"algic",
+				"el ang",
+				"ic abou",
+				"gh to f",
+				" as muc",
+				"l thing ",
+				"e old en"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"eel a",
+						"algic",
+						"el ang",
+						"ic abou",
+						"gh to f",
+						" as muc",
+						"l thing ",
+						"e old en"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"eel a",
+				"algic",
+				"el ang",
+				"ic abou",
+				"gh to f",
+				" as muc",
+				"l thing ",
+				"e old en"
+			]
 		}
 	]
 }

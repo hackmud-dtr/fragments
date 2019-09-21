@@ -1,16 +1,70 @@
 {
 	"_id": "abndnd_dscb4e.respects",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "skip",
 	"script": "abndnd_dscb4e.respects",
 	"sector": "NGC_1025",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 0,
+	"last_scraped": 1569088160989,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
+		}
+	],
+	"updt": 1569085661801,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1569088220989,
+	"category": "fishie_tank",
+	"last_update": 1569088173610,
+	"output": [
+		{
+			"args": {},
+			"calls": 8250,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"I hav",
+				" the ",
+				"given ",
+				"19D Th",
+				" Thank",
+				"ave giv",
+				" have g",
+				"iven you",
+				"\\n219D T",
+				"es.\\n219D"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 516,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"I hav",
+				" the ",
+				"given ",
+				"19D Th",
+				" Thank",
+				"ave giv",
+				" have g",
+				"iven you",
+				"\\n219D T",
+				"es.\\n219D"
+			]
 		}
 	]
 }
