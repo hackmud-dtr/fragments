@@ -1,28 +1,28 @@
 {
 	"_id": "abndnd_gkr20d.end_5d3hyz",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abndnd_gkr20d.end_5d3hyz",
 	"sector": "NGC_5711",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1569089980823,
+	"last_scraped": 1569100284467,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1569085661801,
-	"edit": 1,
-	"scrape_ct": 18,
-	"next_scrape": 1569090040823,
+	"updt": 1569100314257,
+	"edit": 3,
+	"scrape_ct": 17,
+	"next_scrape": 1569100344467,
 	"category": "fishie_tank",
-	"last_update": 1569089980823,
+	"last_update": 1569100325094,
 	"output": [
 		{
 			"args": {},
-			"calls": 10716,
+			"calls": 17159,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"you I",
@@ -64,7 +64,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 517,
+			"calls": 2238,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -168,6 +168,11 @@
 				"bably WA",
 				"I hope t"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
