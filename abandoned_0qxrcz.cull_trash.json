@@ -1,16 +1,59 @@
 {
 	"_id": "abandoned_0qxrcz.cull_trash",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "timeout",
 	"script": "abandoned_0qxrcz.cull_trash",
 	"sector": "VNP_7267",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 0,
+	"last_scraped": 1569090511780,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
+		}
+	],
+	"updt": 1569085661801,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1569176041619,
+	"category": "risk_factor",
+	"last_update": 1569090511780,
+	"output": [
+		{
+			"args": {},
+			"calls": 3053,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"ETW E",
+				"R | PR",
+				" TIME ",
+				"W ERROR",
+				"SER fbr",
+				"R fbret",
+				"RROR | U"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 105,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"ETW E",
+				"R | PR",
+				" TIME ",
+				"W ERROR",
+				"SER fbr",
+				"R fbret",
+				"RROR | U"
+			]
 		}
 	]
 }
