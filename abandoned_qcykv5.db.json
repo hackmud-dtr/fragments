@@ -6,23 +6,23 @@
 	"sector": "HJG_4380",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1569094470366,
+	"last_scraped": 1569102557769,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1569094449849,
-	"edit": 2,
-	"scrape_ct": 18,
-	"next_scrape": 1569094530366,
+	"updt": 1569094674387,
+	"edit": 3,
+	"scrape_ct": 17,
+	"next_scrape": 1569102617769,
 	"category": "fishie_tank",
-	"last_update": 1569094470366,
+	"last_update": 1569102557769,
 	"output": [
 		{
 			"args": {},
-			"calls": 7249,
+			"calls": 11305,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ve to",
@@ -126,6 +126,11 @@
 				"ackers w",
 				"20B6 nea"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
