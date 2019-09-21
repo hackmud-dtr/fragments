@@ -1,16 +1,28 @@
 {
 	"_id": "abndnd_i9br0j.download",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "abndnd_i9br0j.download",
-	"sector": "K_3221",
+	"sector": "SPC_2168",
 	"sec_level": 4,
 	"date_added": 1563654703215,
-	"last_scraped": 0,
+	"last_scraped": 1569086297990,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563654703215
-		}
-	]
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569085645113,
+				"from": "SPC_2168",
+				"to": "K_3221"
+			}
+		]
+	],
+	"updt": 1563654980528,
+	"edit": 1,
+	"pl_output": "Unexpected token u in JSON at position 0",
+	"next_scrape": 1569175368967
 }

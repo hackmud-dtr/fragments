@@ -1,20 +1,72 @@
 {
 	"_id": "uknown_864wmx.fake_users",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "uknown_864wmx.fake_users",
-	"sector": "NGC_9751",
+	"sector": "K_2217",
 	"sec_level": 4,
 	"date_added": 1563311813012,
-	"last_scraped": 1569076810218,
+	"last_scraped": 1569086197413,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563311813012
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569085645113,
+				"from": "K_2217",
+				"to": "NGC_9751"
+			}
+		]
 	],
 	"pl_output": "Usage:\n`Nusers`: an array of usernames\n`Nmaxusers` (Optional): maximum amount of usernames. Default is max(2, users.​length).\n`Nretired` (Optional): an array of retired usernames.\n`Nmaxretired` (Optional): maximum amount of retired users. Default is 5.\n`Nactiveuser` (Optional): active user. Default is users[0].\nfullscreen:true (Optional): Self explanatory.",
-	"next_scrape": 1569165059448,
-	"updt": 1569075074509,
-	"edit": 1443
+	"next_scrape": 1569086257413,
+	"updt": 1569076875072,
+	"edit": 1444,
+	"scrape_ct": 20,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1569086197413,
+	"output": [
+		{
+			"args": {},
+			"calls": 69746,
+			"base": "Usage:\n`Nusers`: an array of usernames\n`Nmaxusers` (Optional): maximum amount of usernames. Default is max(2, users.​length).\n`Nretired` (Optional): an array of retired usernames.\n`Nmaxretired` (Optional): maximum amount of retired users. Default is 5.\n`Nactiveuser` (Optional): active user. Default is users[0].\nfullscreen:true (Optional): Self explanatory.",
+			"fragments": [
+				"e: Er",
+				" smir",
+				"X0F5F_",
+				"SYST E",
+				"CLST0X",
+				"dari smi"
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"e: Er",
+						" smir",
+						"X0F5F_",
+						"SYST E",
+						"CLST0X",
+						"dari smi"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+			"frags": [
+				"e: Er",
+				" smir",
+				"X0F5F_",
+				"SYST E",
+				"CLST0X",
+				"dari smi"
+			]
+		}
+	]
 }

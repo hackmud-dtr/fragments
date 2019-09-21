@@ -1,20 +1,84 @@
 {
 	"_id": "abndnd_i9br0j.cooling_system",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "abndnd_i9br0j.cooling_system",
-	"sector": "VNP_8719",
+	"sector": "K_2954",
 	"sec_level": 2,
 	"date_added": 1563654703215,
-	"last_scraped": 1569077890242,
+	"last_scraped": 1569086377534,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563654703215
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569085645113,
+				"from": "K_2954",
+				"to": "VNP_8719"
+			}
+		]
 	],
 	"pl_output": "You have no PvP upgrades equipped, aborting...",
-	"next_scrape": 1569168456719,
-	"updt": 1569075523925,
-	"edit": 304
+	"next_scrape": 1569086437534,
+	"updt": 1569086334758,
+	"edit": 306,
+	"scrape_ct": 20,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1569086377534,
+	"output": [
+		{
+			"args": {},
+			"calls": 396,
+			"base": "You have no PvP upgrades equipped, aborting...",
+			"fragments": [
+				"RROR ",
+				"NETW ",
+				"ER mho",
+				"A848D0",
+				"7_CLST",
+				"er imiya",
+				"ST0XF7_S",
+				"ROR | PR",
+				"OR | PRO",
+				"ILE0X3A8"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"RROR ",
+						"NETW ",
+						"ER mho",
+						"A848D0",
+						"7_CLST",
+						"er imiya",
+						"ST0XF7_S",
+						"ROR | PR",
+						"OR | PRO",
+						"ILE0X3A8"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+			"frags": [
+				"RROR ",
+				"NETW ",
+				"ER mho",
+				"A848D0",
+				"7_CLST",
+				"er imiya",
+				"ST0XF7_S",
+				"ROR | PR",
+				"OR | PRO",
+				"ILE0X3A8"
+			]
+		}
+	]
 }

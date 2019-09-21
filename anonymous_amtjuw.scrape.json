@@ -3,18 +3,26 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "anonymous_amtjuw.scrape",
-	"sector": "VNP_0345",
+	"sector": "SPC_6164",
 	"sec_level": 4,
 	"date_added": 1562469367470,
-	"last_scraped": 1569076107585,
+	"last_scraped": 1569085805511,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562469367470
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569085645113,
+				"from": "SPC_6164",
+				"to": "VNP_0345"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"please provide pub\"}",
-	"next_scrape": 1569163357408,
-	"updt": 1569075074509,
-	"edit": 1468
+	"next_scrape": 1569176479453,
+	"updt": 1569076200186,
+	"edit": 1469
 }

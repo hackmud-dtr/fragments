@@ -1,20 +1,28 @@
 {
 	"_id": "derelict_kphz5j.mgb",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "new",
 	"script": "derelict_kphz5j.mgb",
-	"sector": "K_7459",
+	"sector": "VNP_8380",
 	"sec_level": 4,
 	"date_added": 1564439419309,
-	"last_scraped": 1569077720617,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1564439419309
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569085645113,
+				"from": "VNP_8380",
+				"to": "K_7459"
+			}
+		]
 	],
-	"updt": 1569075298922,
-	"edit": 1347,
+	"updt": 1569077775366,
+	"edit": 1348,
 	"pl_output": "t:#s.script \nc:numbers to hold before switch\na:{static:args} for the script you're probing\nf:action to use\nv1:value1\nif v1:\"fscriptor\" load fv1:{name:\"\",call:values} to load a fake scriptor return\nv2:value2 \nif v2:\"fscriptor\" load fv2:{name:\"\",call:values} to load a fake scriptor return",
 	"next_scrape": 1569168919145
 }

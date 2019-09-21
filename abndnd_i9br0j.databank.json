@@ -1,20 +1,72 @@
 {
 	"_id": "abndnd_i9br0j.databank",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "abndnd_i9br0j.databank",
-	"sector": "K_3221",
+	"sector": "SPC_2168",
 	"sec_level": 4,
 	"date_added": 1563654703215,
-	"last_scraped": 1569075936693,
+	"last_scraped": 1569086287563,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563654703215
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569085645113,
+				"from": "SPC_2168",
+				"to": "K_3221"
+			}
+		]
 	],
 	"pl_output": "`PDatabank` Storage System contains 2427 player locs.\nYou can do a `Nr`egex search, `Ng`et a specific user's loc,\n`Nb`rowse by page or `Nd`ump all locs. (dump may be too large for CLI)\nFind any locs we're missing? `Na`dd them!",
-	"next_scrape": 1569165474571,
-	"updt": 1569075074509,
-	"edit": 1227
+	"next_scrape": 1569086347563,
+	"updt": 1569075973527,
+	"edit": 1228,
+	"scrape_ct": 19,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1569086287563,
+	"output": [
+		{
+			"args": {},
+			"calls": 1598,
+			"base": "`PDatabank` Storage System contains 2427 player locs.\nYou can do a `Nr`egex search, `Ng`et a specific user's loc,\n`Nb`rowse by page or `Nd`ump all locs. (dump may be too large for CLI)\nFind any locs we're missing? `Na`dd them!",
+			"fragments": [
+				"SECT0",
+				"E0X2BC",
+				"7A_SEC",
+				"2BC7D1",
+				"FILE0X2",
+				"BOUNCE "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"SECT0",
+						"E0X2BC",
+						"7A_SEC",
+						"2BC7D1",
+						"FILE0X2",
+						"BOUNCE "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"SECT0",
+				"E0X2BC",
+				"7A_SEC",
+				"2BC7D1",
+				"FILE0X2",
+				"BOUNCE "
+			]
+		}
+	]
 }

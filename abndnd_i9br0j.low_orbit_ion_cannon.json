@@ -1,20 +1,28 @@
 {
 	"_id": "abndnd_i9br0j.low_orbit_ion_cannon",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "new",
 	"script": "abndnd_i9br0j.low_orbit_ion_cannon",
-	"sector": "K_6506",
+	"sector": "K_6492",
 	"sec_level": 0,
 	"date_added": 1563655890676,
-	"last_scraped": 1569078112072,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563655890676
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569085645113,
+				"from": "K_6492",
+				"to": "K_6506"
+			}
+		]
 	],
-	"updt": 1569075749650,
-	"edit": 547,
+	"updt": 1569078225671,
+	"edit": 548,
 	"pl_output": "               _____\n            .':::::::'.\n       ___ /:::::::::::\\____ _            _.''_\n    /||   ||`.______.-`||   | |\\_\\\\\\\\____/_ _.-'\\\\\\\\\n.|-| ||===||           ||===| ||_||||____|_| .-'|||||\n'|-| ||===||===========||===| ||_||||____|_|`-._|||||\n    \\||___||___________||___|_|/\n\n            )  _____  (\n           / .'| (  '. \\\n          ( (  './    ) )\n           \\ '._____.' /\n            '._______.'\nLow Orbit Ion Cannon locked and ready.\nPlease enter `Nt`arget coordinates.\nPass `Nr`eset:<truthy> along with target to wipe current session.\nPass `Nto` to set who to autodump GC to.",
 	"next_scrape": 1569170610429
 }

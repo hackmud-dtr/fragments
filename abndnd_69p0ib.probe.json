@@ -1,17 +1,25 @@
 {
 	"_id": "abndnd_69p0ib.probe",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "new",
 	"script": "abndnd_69p0ib.probe",
-	"sector": "HJG_7908",
+	"sector": "VNP_9171",
 	"sec_level": 4,
 	"date_added": 1565539560064,
-	"last_scraped": 1568747696964,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1565539560064
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569085645113,
+				"from": "VNP_9171",
+				"to": "HJG_7908"
+			}
+		]
 	],
 	"scrape_ct": 15,
 	"next_scrape": 1568787710300,
@@ -4089,6 +4097,6 @@
 			]
 		}
 	],
-	"updt": 1568733846337,
-	"edit": 41
+	"updt": 1568747829023,
+	"edit": 42
 }

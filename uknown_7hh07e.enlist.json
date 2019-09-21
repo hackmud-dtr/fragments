@@ -1,20 +1,28 @@
 {
 	"_id": "uknown_7hh07e.enlist",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "uknown_7hh07e.enlist",
-	"sector": "SPC_0707",
+	"sector": "HJG_8314",
 	"sec_level": 4,
 	"date_added": 1562661695663,
-	"last_scraped": 1568710532945,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1562661695663
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569085645113,
+				"from": "HJG_8314",
+				"to": "SPC_0707"
+			}
+		]
 	],
-	"updt": 1568686193659,
-	"edit": 4,
+	"updt": 1568711007582,
+	"edit": 5,
 	"pl_output": "{\"ok\":false,\"msg\":\"Cannot read property 'undefined' of null\\n`D#######`\\n\"}",
 	"next_scrape": 1568803434424
 }

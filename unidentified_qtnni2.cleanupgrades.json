@@ -1,20 +1,28 @@
 {
 	"_id": "unidentified_qtnni2.cleanupgrades",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "new",
 	"script": "unidentified_qtnni2.cleanupgrades",
-	"sector": "NGC_0026",
+	"sector": "K_5707",
 	"sec_level": 1,
 	"date_added": 1563801530743,
-	"last_scraped": 1568879382474,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563801530743
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569085645113,
+				"from": "K_5707",
+				"to": "NGC_0026"
+			}
+		]
 	],
-	"updt": 1568872297581,
-	"edit": 165,
+	"updt": 1568879548549,
+	"edit": 166,
 	"pl_output": "\nNo worthless items found\n\n\nlist of `Nk3ys`:\n",
 	"next_scrape": 1568965209054
 }

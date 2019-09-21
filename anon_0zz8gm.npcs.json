@@ -1,12 +1,12 @@
 {
 	"_id": "anon_0zz8gm.npcs",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "anon_0zz8gm.npcs",
-	"sector": "VNP_2284",
+	"sector": "VNP_9399",
 	"sec_level": 4,
 	"date_added": 1563655759056,
-	"last_scraped": 1569077870405,
+	"last_scraped": 1569086478609,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,14 +15,22 @@
 		{
 			"type": "died",
 			"when": 1563704471381
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569085645113,
+				"from": "VNP_9399",
+				"to": "VNP_2284"
+			}
+		]
 	],
-	"updt": 1569075523925,
-	"edit": 214,
+	"updt": 1569086334758,
+	"edit": 216,
 	"pl_output": "SECLVL  SCRIPT    Last seen\n`LFULLSEC` amal_robo.public\n`LFULLSEC` aon.public\n`LFULLSEC` archaic.public\n`LFULLSEC` bluebun.public\n`LFULLSEC` bunnybat_hut.public\n`LFULLSEC` context.public\n`LFULLSEC` core.public\n`LFULLSEC` cyberdine.public\n`LFULLSEC` empty_nest.public\n`LFULLSEC` etceteraco.public\n`LFULLSEC` futuretech.public\n`LFULLSEC` goodfellow.public\n`LFULLSEC` halperyon.public\n`LFULLSEC` kill_9_1.public\n`LFULLSEC` kill_bio.public\n`LFULLSEC` legion_bible.public\n`LFULLSEC` legion_intl.public\n`LFULLSEC` light.public\n`LFULLSEC` lowell_extermination.public\n`LFULLSEC` marco_polo.public\n`LFULLSEC` merrymoor_pharma.public\n`LFULLSEC` nation_of_wales.public\n`LFULLSEC` nogrub.public\n`LFULLSEC` nuutec.public\n`LFULLSEC` pica.public\n`LFULLSEC` protein_prevention.public\n`LFULLSEC` ros13.public\n`LFULLSEC` ros_13_update_checker.public\n`LFULLSEC` setec_gas.public\n`LFULLSEC` skimmerite.public\n`LFULLSEC` sn_w.public\n`LFULLSEC` soylentbean.public\n`LFULLSEC` subject_object.public\n`LFULLSEC` suborbital_airlines.public\n`LFULLSEC` tandoori.public\n`LFULLSEC` the_holy_checksum.public\n`LFULLSEC` turing_testing.public\n`LFULLSEC` tyrell.public\n`LFULLSEC` vacuum_rescue.public\n`LFULLSEC` weathernet.public\n`LFULLSEC` welsh_measles_info.public\n`LFULLSEC` weyland.public\n`LFULLSEC` world_pop.public\n`JHIGHSEC` cyberdine.memberlogin 220409m ago\n`JHIGHSEC` setec_gas.members_only 220390m ago\n`JHIGHSEC` soylentbean.memberlogin 220353m ago\n`JHIGHSEC` suborbital_airlines.members_only 220484m ago\n`JHIGHSEC` tandoori.member_access 220390m ago\n`JHIGHSEC` weyland.memberlogin 220316m ago\n`FMIDSEC ` bunnybat_hut.members_only 220316m ago\n`FMIDSEC ` tyrell.memberlogin 220749m ago\n`DLOWSEC ` archaic.priv 220540m ago\n`DLOWSEC ` core.employee_login 220671m ago\n`DLOWSEC ` futuretech.intern 220334m ago\n`DLOWSEC ` halperyon.employee_login 220559m ago\n`DLOWSEC ` light.employee_login 220389m ago\n`DLOWSEC ` sn_w.priv 220372m ago",
-	"next_scrape": 1569166965862,
+	"next_scrape": 1569086538609,
 	"category": "UNKNOWN CATEGORY",
-	"last_update": 1569068145893,
+	"last_update": 1569086478609,
 	"output": [
 		{
 			"args": {},
@@ -415,6 +423,20 @@
 			"fragments": [
 				"4"
 			]
+		},
+		{
+			"args": {},
+			"calls": 795,
+			"base": "SECLVL  SCRIPT    Last seen\n`LFULLSEC` amal_robo.public\n`LFULLSEC` aon.public\n`LFULLSEC` archaic.public\n`LFULLSEC` bluebun.public\n`LFULLSEC` bunnybat_hut.public\n`LFULLSEC` context.public\n`LFULLSEC` core.public\n`LFULLSEC` cyberdine.public\n`LFULLSEC` empty_nest.public\n`LFULLSEC` etceteraco.public\n`LFULLSEC` futuretech.public\n`LFULLSEC` goodfellow.public\n`LFULLSEC` halperyon.public\n`LFULLSEC` kill_9_1.public\n`LFULLSEC` kill_bio.public\n`LFULLSEC` legion_bible.public\n`LFULLSEC` legion_intl.public\n`LFULLSEC` light.public\n`LFULLSEC` lowell_extermination.public\n`LFULLSEC` marco_polo.public\n`LFULLSEC` merrymoor_pharma.public\n`LFULLSEC` nation_of_wales.public\n`LFULLSEC` nogrub.public\n`LFULLSEC` nuutec.public\n`LFULLSEC` pica.public\n`LFULLSEC` protein_prevention.public\n`LFULLSEC` ros13.public\n`LFULLSEC` ros_13_update_checker.public\n`LFULLSEC` setec_gas.public\n`LFULLSEC` skimmerite.public\n`LFULLSEC` sn_w.public\n`LFULLSEC` soylentbean.public\n`LFULLSEC` subject_object.public\n`LFULLSEC` suborbital_airlines.public\n`LFULLSEC` tandoori.public\n`LFULLSEC` the_holy_checksum.public\n`LFULLSEC` turing_testing.public\n`LFULLSEC` tyrell.public\n`LFULLSEC` vacuum_rescue.public\n`LFULLSEC` weathernet.public\n`LFULLSEC` welsh_measles_info.public\n`LFULLSEC` weyland.public\n`LFULLSEC` world_pop.public\n`JHIGHSEC` cyberdine.memberlogin 220553m ago\n`JHIGHSEC` setec_gas.members_only 220534m ago\n`JHIGHSEC` soylentbean.memberlogin 220496m ago\n`JHIGHSEC` suborbital_airlines.members_only 220627m ago\n`JHIGHSEC` tandoori.member_access 220534m ago\n`JHIGHSEC` weyland.memberlogin 220459m ago\n`FMIDSEC ` bunnybat_hut.members_only 220459m ago\n`FMIDSEC ` tyrell.memberlogin 220893m ago\n`DLOWSEC ` archaic.priv 220684m ago\n`DLOWSEC ` core.employee_login 220815m ago\n`DLOWSEC ` futuretech.intern 220478m ago\n`DLOWSEC ` halperyon.employee_login 220702m ago\n`DLOWSEC ` light.employee_login 220533m ago\n`DLOWSEC ` sn_w.priv 220515m ago",
+			"fragments": [
+				"ROR |",
+				" ERRO",
+				"_FILE0",
+				"ILE0XE",
+				"LE0XEEF",
+				"EEF902D6",
+				"D6\\nSYST"
+			]
 		}
 	],
 	"identified": [
@@ -453,5 +475,5 @@
 			]
 		}
 	],
-	"scrape_ct": -1
+	"scrape_ct": 20
 }

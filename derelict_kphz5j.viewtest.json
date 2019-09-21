@@ -1,20 +1,28 @@
 {
 	"_id": "derelict_kphz5j.viewtest",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "new",
 	"script": "derelict_kphz5j.viewtest",
-	"sector": "SPC_0634",
+	"sector": "VNP_7267",
 	"sec_level": 4,
 	"date_added": 1564439419309,
-	"last_scraped": 1569077911949,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1564439419309
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569085645113,
+				"from": "VNP_7267",
+				"to": "SPC_0634"
+			}
+		]
 	],
-	"updt": 1569075523925,
-	"edit": 293,
+	"updt": 1569078001457,
+	"edit": 294,
 	"pl_output": "find:\"name\",(optional)subfind:\"field\"",
 	"next_scrape": 1569167911790
 }

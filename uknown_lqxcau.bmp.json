@@ -1,20 +1,28 @@
 {
 	"_id": "uknown_lqxcau.bmp",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "new",
 	"script": "uknown_lqxcau.bmp",
-	"sector": "K_6274",
+	"sector": "HJG_9716",
 	"sec_level": 4,
 	"date_added": 1563655759056,
-	"last_scraped": 1569078223312,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563655759056
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569085645113,
+				"from": "HJG_9716",
+				"to": "K_6274"
+			}
+		]
 	],
-	"updt": 1569075973527,
-	"edit": 583,
+	"updt": 1569078225671,
+	"edit": 584,
 	"pl_output": "skriipts.bmp\n`FA bitmap renderer`\n\n`FUSAGE`\n\tPass an array of bytes as the parameter `Nd`.\n\n`FCAVEATS`\n\tOnly colors that are supported by hackmud with color codes will be rendered correctly, if the image contains a color that is not supported by hackmud, an allowed color with the closest hue will be used.\n\tThis only supports 8bpp and 24bpp formats with a BITMAPINFOHEADER.",
 	"next_scrape": 1569161526074
 }

@@ -1,20 +1,75 @@
 {
 	"_id": "uknown_864wmx.t1",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "uknown_864wmx.t1",
-	"sector": "SPC_3411",
+	"sector": "K_2217",
 	"sec_level": 4,
 	"date_added": 1563311793098,
-	"last_scraped": 1569076800698,
+	"last_scraped": 1569086139839,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563311793098
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569085645113,
+				"from": "K_2217",
+				"to": "SPC_3411"
+			}
+		]
+	],
+	"updt": 1569076875072,
+	"edit": 1446,
+	"pl_output": "Usage:\n`Nscrape`:`V#s.t1.corp` -- self explanatory. Optionally pass format:true to return the locs formatted for cracking.\n`Ncrack`:`V#s.t1.npc` -- self explanatory.",
+	"next_scrape": 1569086199839,
+	"scrape_ct": 20,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1569086139839,
+	"output": [
+		{
+			"args": {},
+			"calls": 95036,
+			"base": "Usage:\n`Nscrape`:`V#s.t1.corp` -- self explanatory. Optionally pass format:true to return the locs formatted for cracking.\n`Ncrack`:`V#s.t1.npc` -- self explanatory.",
+			"fragments": [
+				"nervo",
+				" than",
+				"But we",
+				" when,",
+				"we made",
+				". But w",
+				"e to sin"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"nervo",
+						" than",
+						"But we",
+						" when,",
+						"we made",
+						". But w",
+						"e to sin"
+					]
+				}
+			]
 		}
 	],
-	"updt": 1569075074509,
-	"edit": 1445,
-	"pl_output": "Usage:\n`Nscrape`:`V#s.t1.corp` -- self explanatory. Optionally pass format:true to return the locs formatted for cracking.\n`Ncrack`:`V#s.t1.npc` -- self explanatory.",
-	"next_scrape": 1569160887116
+	"identified": [
+		{
+			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+			"frags": [
+				"nervo",
+				" than",
+				"But we",
+				" when,",
+				"we made",
+				". But w",
+				"e to sin"
+			]
+		}
+	]
 }
