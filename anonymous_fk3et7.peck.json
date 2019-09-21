@@ -1,16 +1,144 @@
 {
 	"_id": "anonymous_fk3et7.peck",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "anonymous_fk3et7.peck",
 	"sector": "K_0542",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 0,
+	"last_scraped": 1569089386732,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
+		}
+	],
+	"updt": 1569085661801,
+	"edit": 1,
+	"scrape_ct": 19,
+	"next_scrape": 1569089446732,
+	"category": "fishie_tank",
+	"last_update": 1569089386732,
+	"output": [
+		{
+			"args": {},
+			"calls": 7395,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ied t",
+				"of cat",
+				" globa",
+				"rophic ",
+				"as digi",
+				" to a pr"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"of cat",
+						" globa",
+						"rophic ",
+						"as digi",
+						" to a pr"
+					]
+				},
+				{
+					"document": "Proving/Children",
+					"frags": [
+						"ied t"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 750,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ied t",
+				"of cat",
+				" globa",
+				"rophic ",
+				"as digi",
+				" to a pr"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"of cat",
+						" globa",
+						"rophic ",
+						"as digi",
+						" to a pr"
+					]
+				},
+				{
+					"document": "Proving/Children",
+					"frags": [
+						"ied t"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8370,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ied t",
+				"of cat",
+				" globa",
+				"rophic ",
+				"as digi",
+				" to a pr"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"of cat",
+						" globa",
+						"rophic ",
+						"as digi",
+						" to a pr"
+					]
+				},
+				{
+					"document": "Proving/Children",
+					"frags": [
+						"ied t"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"of cat",
+				" globa",
+				"rophic ",
+				"as digi",
+				" to a pr"
+			]
+		},
+		{
+			"document": "Proving/Children",
+			"frags": [
+				"ied t"
+			]
 		}
 	]
 }

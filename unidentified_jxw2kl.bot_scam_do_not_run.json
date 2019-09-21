@@ -1,16 +1,128 @@
 {
 	"_id": "unidentified_jxw2kl.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "unidentified_jxw2kl.bot_scam_do_not_run",
 	"sector": "K_0542",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 0,
+	"last_scraped": 1569089316514,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
+		}
+	],
+	"updt": 1569085661801,
+	"edit": 1,
+	"scrape_ct": 19,
+	"next_scrape": 1569089376514,
+	"category": "fishie_tank",
+	"last_update": 1569089316514,
+	"output": [
+		{
+			"args": {},
+			"calls": 4194,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ion eq",
+				" of co",
+				"onment;",
+				"nt; cre",
+				"ure digi",
+				"propriat",
+				"aintenan",
+				"OS maint"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ion eq",
+						"onment;",
+						"nt; cre",
+						"ure digi",
+						"OS maint"
+					]
+				},
+				{
+					"document": "Erin File",
+					"frags": [
+						"propriat",
+						"aintenan"
+					]
+				},
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" of co"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 989,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ion eq",
+				" of co",
+				"onment;",
+				"nt; cre",
+				"ure digi",
+				"propriat",
+				"aintenan",
+				"OS maint"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 7212,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ion eq",
+				" of co",
+				"onment;",
+				"nt; cre",
+				"ure digi",
+				"propriat",
+				"aintenan",
+				"OS maint"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"ion eq",
+				"onment;",
+				"nt; cre",
+				"ure digi",
+				"OS maint"
+			]
+		},
+		{
+			"document": "Erin File",
+			"frags": [
+				"propriat",
+				"aintenan"
+			]
+		},
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				" of co"
+			]
 		}
 	]
 }

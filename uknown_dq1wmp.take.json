@@ -1,16 +1,64 @@
 {
 	"_id": "uknown_dq1wmp.take",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "skip",
 	"script": "uknown_dq1wmp.take",
 	"sector": "K_0542",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 0,
+	"last_scraped": 1569089520013,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
+		}
+	],
+	"updt": 1569085661801,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1569089580013,
+	"category": "fishie_tank",
+	"last_update": 1569089538237,
+	"output": [
+		{
+			"args": {},
+			"calls": 16546,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"is re",
+				"game ",
+				"ame i",
+				"acker h",
+				" resolv",
+				"on.\\n210",
+				"olved.\\n2"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 640,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"is re",
+				"game ",
+				"ame i",
+				"acker h",
+				" resolv",
+				"on.\\n210",
+				"olved.\\n2"
+			]
 		}
 	]
 }
