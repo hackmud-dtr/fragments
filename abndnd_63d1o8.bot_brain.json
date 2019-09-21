@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_63d1o8.bot_brain",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "fresh",
 	"script": "abndnd_63d1o8.bot_brain",
-	"sector": "K_2655",
+	"sector": "HJG_5971",
 	"sec_level": 2,
 	"date_added": 1565147784815,
-	"last_scraped": 0,
+	"last_scraped": 1569093465352,
 	"script_log": [
 		{
 			"type": "added",
@@ -23,8 +23,68 @@
 				"from": 2,
 				"to": 4
 			}
+		],
+		{
+			"type": "died",
+			"when": 1569092787752
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569093165720,
+				"from": "HJG_5971",
+				"to": "K_2655"
+			}
 		]
 	],
-	"updt": 1569091520723,
-	"edit": 5
+	"updt": 1569093323451,
+	"edit": 8,
+	"scrape_ct": 19,
+	"next_scrape": 1569093525352,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1569093465352,
+	"output": [
+		{
+			"args": {},
+			"calls": 3056,
+			"base": "\"ah. ye again.\nmy ol bones need a rest from extortion. ye come back termorrow.\"\n--the upkeeper",
+			"fragments": [
+				"mail h",
+				"k abou",
+				"ically",
+				"Specifi",
+				"? ## Pr",
+				"o - what",
+				"ally: wh"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						"mail h",
+						"k abou",
+						"ically",
+						"Specifi",
+						"? ## Pr",
+						"o - what",
+						"ally: wh"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+			"frags": [
+				"mail h",
+				"k abou",
+				"ically",
+				"Specifi",
+				"? ## Pr",
+				"o - what",
+				"ally: wh"
+			]
+		}
+	]
 }

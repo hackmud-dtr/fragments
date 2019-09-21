@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_3fjgaa.cli",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "new",
 	"script": "abndnd_3fjgaa.cli",
-	"sector": "VNP_7267",
+	"sector": "NGC_9612",
 	"sec_level": 2,
 	"date_added": 1569085645113,
-	"last_scraped": 1569092370845,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
@@ -23,10 +23,22 @@
 				"from": 2,
 				"to": 4
 			}
+		],
+		{
+			"type": "died",
+			"when": 1569092734453
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569093156078,
+				"from": "NGC_9612",
+				"to": "VNP_7267"
+			}
 		]
 	],
-	"updt": 1569091746833,
-	"edit": 4,
+	"updt": 1569092874381,
+	"edit": 6,
 	"scrape_ct": 19,
 	"next_scrape": 1569092430845,
 	"category": "UNKNOWN CATEGORY",

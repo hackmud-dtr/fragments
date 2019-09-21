@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_i5argo.spec_search",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "new",
 	"script": "uknown_i5argo.spec_search",
-	"sector": "K_0542",
+	"sector": "NGC_9612",
 	"sec_level": 2,
 	"date_added": 1569085645113,
-	"last_scraped": 1569092290236,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
@@ -27,10 +27,18 @@
 		{
 			"type": "died",
 			"when": 1569092635916
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569093156078,
+				"from": "NGC_9612",
+				"to": "K_0542"
+			}
+		]
 	],
-	"updt": 1569092422726,
-	"edit": 5,
+	"updt": 1569092648772,
+	"edit": 6,
 	"scrape_ct": 20,
 	"next_scrape": 1569092350236,
 	"category": "UNKNOWN CATEGORY",

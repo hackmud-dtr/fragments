@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_v4fsde.flex",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "fresh",
 	"script": "unknown_v4fsde.flex",
-	"sector": "K_3804",
+	"sector": "NGC_7513",
 	"sec_level": 2,
 	"date_added": 1564547536219,
-	"last_scraped": 0,
+	"last_scraped": 1569093405214,
 	"script_log": [
 		{
 			"type": "added",
@@ -23,8 +23,77 @@
 				"from": 2,
 				"to": 4
 			}
+		],
+		{
+			"type": "died",
+			"when": 1569092908357
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569093165720,
+				"from": "NGC_7513",
+				"to": "K_3804"
+			}
 		]
 	],
-	"updt": 1569091520723,
-	"edit": 6
+	"updt": 1569093323451,
+	"edit": 9,
+	"scrape_ct": 20,
+	"next_scrape": 1569093465214,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1569093405214,
+	"output": [
+		{
+			"args": {},
+			"calls": 1742,
+			"base": "\"ah. ye again.\nmy ol bones need a rest from extortion. ye come back termorrow.\"\n--the upkeeper",
+			"fragments": [
+				"hat n",
+				" impr",
+				"a mixe",
+				". I ge",
+				" that ",
+				" a mix",
+				"at not ",
+				" knows ",
+				"t not ev",
+				"of your "
+			],
+			"hits": [
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						"hat n",
+						" impr",
+						"a mixe",
+						". I ge",
+						" that ",
+						" a mix",
+						"at not ",
+						" knows ",
+						"t not ev",
+						"of your "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+			"frags": [
+				"hat n",
+				" impr",
+				"a mixe",
+				". I ge",
+				" that ",
+				" a mix",
+				"at not ",
+				" knows ",
+				"t not ev",
+				"of your "
+			]
+		}
+	]
 }

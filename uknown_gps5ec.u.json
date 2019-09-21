@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_gps5ec.u",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "new",
 	"script": "uknown_gps5ec.u",
-	"sector": "NGC_1025",
+	"sector": "NGC_9612",
 	"sec_level": 2,
 	"date_added": 1569085645113,
-	"last_scraped": 1569092199300,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
@@ -27,10 +27,18 @@
 		{
 			"type": "died",
 			"when": 1569092646506
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569093156078,
+				"from": "NGC_9612",
+				"to": "NGC_1025"
+			}
+		]
 	],
-	"updt": 1569092422726,
-	"edit": 6,
+	"updt": 1569092648772,
+	"edit": 7,
 	"scrape_ct": 19,
 	"next_scrape": 1569092259300,
 	"category": "UNKNOWN CATEGORY",

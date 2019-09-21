@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_oss7m3.reload",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "fresh",
 	"script": "unidentified_oss7m3.reload",
-	"sector": "NGC_7257",
+	"sector": "HJG_5971",
 	"sec_level": 2,
 	"date_added": 1565402118072,
-	"last_scraped": 0,
+	"last_scraped": 1569093518017,
 	"script_log": [
 		{
 			"type": "added",
@@ -23,8 +23,68 @@
 				"from": 2,
 				"to": 4
 			}
+		],
+		{
+			"type": "died",
+			"when": 1569092798055
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569093165720,
+				"from": "HJG_5971",
+				"to": "NGC_7257"
+			}
 		]
 	],
-	"updt": 1569091746833,
-	"edit": 6
+	"updt": 1569093323451,
+	"edit": 9,
+	"scrape_ct": 19,
+	"next_scrape": 1569093578017,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1569093518017,
+	"output": [
+		{
+			"args": {},
+			"calls": 2064,
+			"base": "\"ah. ye again.\nmy ol bones need a rest from extortion. ye come back termorrow.\"\n--the upkeeper",
+			"fragments": [
+				"RROR |",
+				"R fbre",
+				"llory' ",
+				"on erajb",
+				"breton e",
+				"SUBJ: 'M",
+				" TIME ER"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"RROR |",
+						"R fbre",
+						"llory' ",
+						"on erajb",
+						"breton e",
+						"SUBJ: 'M",
+						" TIME ER"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				"RROR |",
+				"R fbre",
+				"llory' ",
+				"on erajb",
+				"breton e",
+				"SUBJ: 'M",
+				" TIME ER"
+			]
+		}
+	]
 }

@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_s0h80n.db",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "fresh",
 	"script": "abandoned_s0h80n.db",
-	"sector": "NGC_1037",
+	"sector": "NGC_7513",
 	"sec_level": 2,
 	"date_added": 1564225058091,
-	"last_scraped": 0,
+	"last_scraped": 1569093335527,
 	"script_log": [
 		{
 			"type": "added",
@@ -23,8 +23,65 @@
 				"from": 2,
 				"to": 4
 			}
+		],
+		{
+			"type": "died",
+			"when": 1569092813244
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569093165720,
+				"from": "NGC_7513",
+				"to": "NGC_1037"
+			}
 		]
 	],
-	"updt": 1569091520723,
-	"edit": 5
+	"updt": 1569093323451,
+	"edit": 8,
+	"scrape_ct": 20,
+	"next_scrape": 1569093395527,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1569093335527,
+	"output": [
+		{
+			"args": {},
+			"calls": 1783,
+			"base": "\"ah. ye again.\nmy ol bones need a rest from extortion. ye come back termorrow.\"\n--the upkeeper",
+			"fragments": [
+				"orget",
+				"omple",
+				"etion",
+				"ism for ",
+				"e necess",
+				"DY forge"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"orget",
+						"omple",
+						"etion",
+						"ism for ",
+						"e necess",
+						"DY forge"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				"orget",
+				"omple",
+				"etion",
+				"ism for ",
+				"e necess",
+				"DY forge"
+			]
+		}
+	]
 }

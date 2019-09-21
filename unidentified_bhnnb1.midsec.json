@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_bhnnb1.midsec",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "fresh",
 	"script": "unidentified_bhnnb1.midsec",
-	"sector": "K_2748",
+	"sector": "NGC_7513",
 	"sec_level": 2,
 	"date_added": 1564110391171,
-	"last_scraped": 0,
+	"last_scraped": 1569093255911,
 	"script_log": [
 		{
 			"type": "added",
@@ -23,8 +23,78 @@
 				"from": 2,
 				"to": 4
 			}
+		],
+		{
+			"type": "died",
+			"when": 1569092746613
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569093165720,
+				"from": "NGC_7513",
+				"to": "K_2748"
+			}
 		]
 	],
-	"updt": 1569091746833,
-	"edit": 6
+	"updt": 1569092874381,
+	"edit": 8,
+	"scrape_ct": 18,
+	"next_scrape": 1569093315911,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1569093255911,
+	"output": [
+		{
+			"args": {},
+			"calls": 3826,
+			"base": "\"ah. ye again.\nmy ol bones need a rest from extortion. ye come back termorrow.\"\n--the upkeeper",
+			"fragments": [
+				"ty mo",
+				"PORT C",
+				" pione",
+				"upport\"",
+				"nitorin",
+				"PILED BY",
+				"LED BY '"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ty mo",
+						"PORT C",
+						" pione",
+						"upport\"",
+						"PILED BY",
+						"LED BY '"
+					]
+				},
+				{
+					"document": "Erin File",
+					"frags": [
+						"nitorin"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"ty mo",
+				"PORT C",
+				" pione",
+				"upport\"",
+				"PILED BY",
+				"LED BY '"
+			]
+		},
+		{
+			"document": "Erin File",
+			"frags": [
+				"nitorin"
+			]
+		}
+	]
 }

@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_9a611f.f",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "fresh",
 	"script": "anonymous_9a611f.f",
-	"sector": "K_2748",
+	"sector": "NGC_7513",
 	"sec_level": 2,
 	"date_added": 1564134210148,
-	"last_scraped": 0,
+	"last_scraped": 1569093265028,
 	"script_log": [
 		{
 			"type": "added",
@@ -23,8 +23,96 @@
 				"from": 2,
 				"to": 4
 			}
+		],
+		{
+			"type": "died",
+			"when": 1569092746613
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569093165720,
+				"from": "NGC_7513",
+				"to": "K_2748"
+			}
 		]
 	],
-	"updt": 1569091746833,
-	"edit": 6
+	"updt": 1569092874381,
+	"edit": 8,
+	"scrape_ct": 20,
+	"next_scrape": 1569093325028,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1569093265028,
+	"output": [
+		{
+			"args": {},
+			"calls": 1630,
+			"base": "\"ah. ye again.\nmy ol bones need a rest from extortion. ye come back termorrow.\"\n--the upkeeper",
+			"fragments": [
+				"ngry i",
+				"enough",
+				" wreak",
+				"nd if yo",
+				"if you'r"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ngry i",
+						" wreak",
+						"nd if yo",
+						"if you'r"
+					]
+				},
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"enough"
+					]
+				},
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"enough"
+					]
+				},
+				{
+					"document": "Cycle/Don Quixote",
+					"frags": [
+						"enough"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"ngry i",
+				" wreak",
+				"nd if yo",
+				"if you'r"
+			]
+		},
+		{
+			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+			"frags": [
+				"enough"
+			]
+		},
+		{
+			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+			"frags": [
+				"enough"
+			]
+		},
+		{
+			"document": "Cycle/Don Quixote",
+			"frags": [
+				"enough"
+			]
+		}
+	]
 }

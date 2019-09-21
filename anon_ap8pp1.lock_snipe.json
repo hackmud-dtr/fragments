@@ -1,12 +1,12 @@
 {
 	"_id": "anon_ap8pp1.lock_snipe",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "fresh",
 	"script": "anon_ap8pp1.lock_snipe",
-	"sector": "K_2655",
+	"sector": "HJG_5971",
 	"sec_level": 2,
 	"date_added": 1565187769249,
-	"last_scraped": 0,
+	"last_scraped": 1569093495696,
 	"script_log": [
 		{
 			"type": "added",
@@ -23,8 +23,62 @@
 				"from": 2,
 				"to": 4
 			}
+		],
+		{
+			"type": "died",
+			"when": 1569092787752
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569093165720,
+				"from": "HJG_5971",
+				"to": "K_2655"
+			}
 		]
 	],
-	"updt": 1569091520723,
-	"edit": 5
+	"updt": 1569093323451,
+	"edit": 8,
+	"scrape_ct": 19,
+	"next_scrape": 1569093555696,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1569093495696,
+	"output": [
+		{
+			"args": {},
+			"calls": 2496,
+			"base": "\"ah. ye again.\nmy ol bones need a rest from extortion. ye come back termorrow.\"\n--the upkeeper",
+			"fragments": [
+				"phrase",
+				"ases ar",
+				"are ann",
+				"assphras",
+				" passphr"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"phrase",
+						"ases ar",
+						"are ann",
+						"assphras",
+						" passphr"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "Passphrase",
+			"frags": [
+				"phrase",
+				"ases ar",
+				"are ann",
+				"assphras",
+				" passphr"
+			]
+		}
+	]
 }
