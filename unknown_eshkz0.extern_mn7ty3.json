@@ -1,16 +1,138 @@
 {
 	"_id": "unknown_eshkz0.extern_mn7ty3",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "unknown_eshkz0.extern_mn7ty3",
 	"sector": "K_2217",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 0,
+	"last_scraped": 1569088924507,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
+		}
+	],
+	"updt": 1569085661801,
+	"edit": 1,
+	"scrape_ct": 19,
+	"next_scrape": 1569088984507,
+	"category": "fishie_tank",
+	"last_update": 1569088924507,
+	"output": [
+		{
+			"args": {},
+			"calls": 10358,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ons. ",
+				"is ex",
+				" a ri",
+				"ns. ## ",
+				"## Risk",
+				" to me ",
+				"risk to ",
+				" exactly"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"ons. ",
+						"is ex",
+						" a ri",
+						"ns. ## ",
+						"## Risk",
+						" to me ",
+						"risk to ",
+						" exactly"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 906,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ons. ",
+				"is ex",
+				" a ri",
+				"ns. ## ",
+				"## Risk",
+				" to me ",
+				"risk to ",
+				" exactly"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"ons. ",
+						"is ex",
+						" a ri",
+						"ns. ## ",
+						"## Risk",
+						" to me ",
+						"risk to ",
+						" exactly"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 7803,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ons. ",
+				"is ex",
+				" a ri",
+				"ns. ## ",
+				"## Risk",
+				" to me ",
+				"risk to ",
+				" exactly"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"ons. ",
+						"is ex",
+						" a ri",
+						"ns. ## ",
+						"## Risk",
+						" to me ",
+						"risk to ",
+						" exactly"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				"ons. ",
+				"is ex",
+				" a ri",
+				"ns. ## ",
+				"## Risk",
+				" to me ",
+				"risk to ",
+				" exactly"
+			]
 		}
 	]
 }
