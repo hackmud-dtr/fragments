@@ -1,10 +1,10 @@
 {
 	"_id": "derelict_ix2d6n.hm_test",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "new",
 	"script": "derelict_ix2d6n.hm_test",
 	"sector": "HJG_4380",
-	"sec_level": 4,
+	"sec_level": 2,
 	"date_added": 1569085645113,
 	"last_scraped": 0,
 	"script_log": [
@@ -15,8 +15,16 @@
 		{
 			"type": "died",
 			"when": 1569091553244
-		}
+		},
+		[
+			{
+				"type": "sec level change",
+				"when": 1569091808432,
+				"from": 2,
+				"to": 4
+			}
+		]
 	],
-	"updt": 1569085887045,
-	"edit": 1
+	"updt": 1569091746833,
+	"edit": 2
 }

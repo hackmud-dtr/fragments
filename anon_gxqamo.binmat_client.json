@@ -1,10 +1,10 @@
 {
 	"_id": "anon_gxqamo.binmat_client",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "new",
 	"script": "anon_gxqamo.binmat_client",
 	"sector": "SPC_2784",
-	"sec_level": 4,
+	"sec_level": 2,
 	"date_added": 1569085645113,
 	"last_scraped": 0,
 	"script_log": [
@@ -15,8 +15,16 @@
 		{
 			"type": "died",
 			"when": 1569091321667
-		}
+		},
+		[
+			{
+				"type": "sec level change",
+				"when": 1569091788284,
+				"from": 2,
+				"to": 4
+			}
+		]
 	],
-	"updt": 1569085887045,
-	"edit": 1
+	"updt": 1569091520723,
+	"edit": 2
 }

@@ -1,16 +1,61 @@
 {
 	"_id": "abndnd_sowomr.selling",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "player",
 	"script": "abndnd_sowomr.selling",
 	"sector": "VNP_9399",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 0,
+	"last_scraped": 1569092581429,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
-	]
+	],
+	"updt": 1569085887045,
+	"edit": 1,
+	"scrape_ct": 19,
+	"next_scrape": 1569172824408,
+	"category": "risk_factor",
+	"last_update": 1569092571623,
+	"output": [
+		{
+			"args": {},
+			"calls": 1520,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"h wai",
+				"ld,\\n21",
+				"13D Of ",
+				",\\n213E",
+				" wait, ",
+				"could,\\n2"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 133,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"h wai",
+				"ld,\\n21",
+				"13D Of ",
+				",\\n213E",
+				" wait, ",
+				"could,\\n2"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

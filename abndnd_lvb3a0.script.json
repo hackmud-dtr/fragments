@@ -1,10 +1,10 @@
 {
 	"_id": "abndnd_lvb3a0.script",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "could not json",
 	"script": "abndnd_lvb3a0.script",
 	"sector": "K_2655",
-	"sec_level": 4,
+	"sec_level": 2,
 	"date_added": 1565147784815,
 	"last_scraped": 0,
 	"script_log": [
@@ -15,8 +15,16 @@
 		{
 			"type": "died",
 			"when": 1569091512472
-		}
+		},
+		[
+			{
+				"type": "sec level change",
+				"when": 1569091768579,
+				"from": 2,
+				"to": 4
+			}
+		]
 	],
-	"updt": 1568686417352,
-	"edit": 4
+	"updt": 1569091520723,
+	"edit": 5
 }
