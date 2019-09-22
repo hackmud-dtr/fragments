@@ -1,0 +1,73 @@
+{
+	"_id": "abandoned_l0oky4.garden",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abandoned_l0oky4.garden",
+	"sector": "SPC_0993",
+	"sec_level": 4,
+	"date_added": 1569136380019,
+	"last_scraped": 1569136440545,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1569136380019
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1569136500545,
+	"category": "fishie_tank",
+	"last_update": 1569136440545,
+	"output": [
+		{
+			"args": {},
+			"calls": 15100,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"tion ",
+				"nal ar",
+				"ELL. R",
+				"t signe",
+				"s exemp",
+				"submitte",
+				"rt submi"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1470,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"tion ",
+				"nal ar",
+				"ELL. R",
+				"t signe",
+				"s exemp",
+				"submitte",
+				"rt submi"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 3519,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"tion ",
+				"nal ar",
+				"ELL. R",
+				"t signe",
+				"s exemp",
+				"submitte",
+				"rt submi"
+			]
+		}
+	]
+}
