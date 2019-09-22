@@ -1,28 +1,27 @@
 {
 	"_id": "uknown_tkrb2y.flush",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "uknown_tkrb2y.flush",
 	"sector": "HJG_2723",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1569130542462,
+	"last_scraped": 1569133701249,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1569127375052,
-	"edit": 8,
-	"scrape_ct": 0,
-	"next_scrape": 1569130602462,
+	"updt": 1569133688679,
+	"edit": 10,
+	"next_scrape": 1569175691760,
 	"category": "fishie_tank",
-	"last_update": 1569130542462,
+	"last_update": 1569133721704,
 	"output": [
 		{
 			"args": {},
-			"calls": 63762,
+			"calls": 74679,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"rstood",
@@ -52,7 +51,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5939,
+			"calls": 7323,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -126,6 +125,11 @@
 				" if we k",
 				" don't t"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
