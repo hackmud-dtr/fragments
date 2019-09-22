@@ -1,28 +1,28 @@
 {
 	"_id": "unknown_zpits8.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unknown_zpits8.bot_scam_do_not_run",
 	"sector": "SPC_2784",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1569114765250,
+	"last_scraped": 1569119388463,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1569109558032,
-	"edit": 4,
-	"scrape_ct": 11,
-	"next_scrape": 1569114825250,
+	"updt": 1569115425134,
+	"edit": 5,
+	"scrape_ct": 7,
+	"next_scrape": 1569119448463,
 	"category": "fishie_tank",
-	"last_update": 1569114765250,
+	"last_update": 1569119388463,
 	"output": [
 		{
 			"args": {},
-			"calls": 31202,
+			"calls": 48497,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ms of",
@@ -170,6 +170,14 @@
 			"frags": [
 				"igital "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
