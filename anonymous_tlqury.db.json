@@ -1,28 +1,28 @@
 {
 	"_id": "anonymous_tlqury.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anonymous_tlqury.db",
 	"sector": "HJG_2723",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1569115418887,
+	"last_scraped": 1569120020306,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1569110235125,
-	"edit": 5,
-	"scrape_ct": 11,
-	"next_scrape": 1569115478887,
+	"updt": 1569115425134,
+	"edit": 6,
+	"scrape_ct": 8,
+	"next_scrape": 1569120080306,
 	"category": "fishie_tank",
-	"last_update": 1569115418887,
+	"last_update": 1569120020306,
 	"output": [
 		{
 			"args": {},
-			"calls": 28112,
+			"calls": 37224,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ease.",
@@ -54,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3576,
+			"calls": 4363,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -91,7 +91,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 30471,
+			"calls": 34690,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ease.",
