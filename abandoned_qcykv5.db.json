@@ -1,28 +1,28 @@
 {
 	"_id": "abandoned_qcykv5.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abandoned_qcykv5.db",
 	"sector": "HJG_4380",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1569109158061,
+	"last_scraped": 1569114534454,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1569102795284,
-	"edit": 4,
-	"scrape_ct": 13,
-	"next_scrape": 1569109218061,
+	"updt": 1569109332796,
+	"edit": 5,
+	"scrape_ct": 11,
+	"next_scrape": 1569114594454,
 	"category": "fishie_tank",
-	"last_update": 1569109158061,
+	"last_update": 1569114563543,
 	"output": [
 		{
 			"args": {},
-			"calls": 20954,
+			"calls": 29203,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ve to",
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2018,
+			"calls": 3180,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -126,6 +126,11 @@
 				"ackers w",
 				"20B6 nea"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
