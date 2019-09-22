@@ -1,20 +1,79 @@
 {
 	"_id": "unknown_wt9h2y.flush",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "unknown_wt9h2y.flush",
-	"sector": "VNP_8719",
+	"sector": "K_8332",
 	"sec_level": 2,
 	"date_added": 1563656292128,
-	"last_scraped": 1568841716636,
+	"last_scraped": 1569162442965,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563656292128
-		}
+		},
+		{
+			"type": "died",
+			"when": 1569162125959
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1569162192797,
+				"from": "K_8332",
+				"to": "VNP_8719"
+			}
+		]
 	],
 	"pl_output": ":flush: 0\n{\"ok\":false,\"msg\":\"Your account balance of 0GC is too low to send 1GC.\"}",
-	"next_scrape": 1568931782281,
-	"updt": 1568833502701,
-	"edit": 137
+	"next_scrape": 1569252779370,
+	"updt": 1569162340014,
+	"edit": 139,
+	"scrape_ct": 17,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1569162442965,
+	"output": [
+		{
+			"args": {},
+			"calls": 764,
+			"base": ":flush: 0\n{\"ok\":false,\"msg\":\"Your account balance of 0GC is too low to send 1GC.\"}",
+			"fragments": [
+				"ticali",
+				"ity. ##",
+				"g] [bat",
+				"## [bun",
+				"n_png] #",
+				"## Take ",
+				"# Take t"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"ticali",
+						"ity. ##",
+						"g] [bat",
+						"## [bun",
+						"n_png] #",
+						"## Take ",
+						"# Take t"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+			"frags": [
+				"ticali",
+				"ity. ##",
+				"g] [bat",
+				"## [bun",
+				"n_png] #",
+				"## Take ",
+				"# Take t"
+			]
+		}
+	]
 }
