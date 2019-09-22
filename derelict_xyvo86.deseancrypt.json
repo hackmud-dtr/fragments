@@ -1,28 +1,28 @@
 {
 	"_id": "derelict_xyvo86.deseancrypt",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "derelict_xyvo86.deseancrypt",
 	"sector": "HJG_9716",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1569110875480,
+	"last_scraped": 1569116201360,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1569105046992,
-	"edit": 3,
-	"scrape_ct": 10,
-	"next_scrape": 1569110935480,
+	"updt": 1569110911049,
+	"edit": 4,
+	"scrape_ct": 9,
+	"next_scrape": 1569116261360,
 	"category": "fishie_tank",
-	"last_update": 1569110875480,
+	"last_update": 1569116242780,
 	"output": [
 		{
 			"args": {},
-			"calls": 23206,
+			"calls": 29694,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"the d",
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2077,
+			"calls": 3532,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -126,6 +126,11 @@
 				"ead of t",
 				".\\n20AD "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
