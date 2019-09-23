@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_wt9h2y.flush",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "unknown_wt9h2y.flush",
 	"sector": "K_8332",
 	"sec_level": 2,
@@ -23,12 +23,16 @@
 				"from": "K_8332",
 				"to": "VNP_8719"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1569270166069
+		}
 	],
 	"pl_output": ":flush: 0\n{\"ok\":false,\"msg\":\"Your account balance of 0GC is too low to send 1GC.\"}",
 	"next_scrape": 1569252779370,
-	"updt": 1569162340014,
-	"edit": 139,
+	"updt": 1569162565643,
+	"edit": 140,
 	"scrape_ct": 17,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1569162442965,
