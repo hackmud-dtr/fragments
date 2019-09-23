@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_ai25zc.brain_check",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "unknown_ai25zc.brain_check",
 	"sector": "SPC_4016",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1566786809967
+		},
+		{
+			"type": "died",
+			"when": 1569259115754
 		}
 	],
 	"scrape_ct": 20,
@@ -33,6 +37,23 @@
 				"the secu",
 				"t to the",
 				"at to th"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						", no.",
+						"ty of ",
+						"ell, n",
+						"reat to",
+						"he syst",
+						"eat to ",
+						"# is sh",
+						"the secu",
+						"t to the",
+						"at to th"
+					]
+				}
 			]
 		},
 		{
@@ -52,15 +73,49 @@
 				"the secu",
 				"t to the",
 				"at to th"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						", no.",
+						"ty of ",
+						"ell, n",
+						"reat to",
+						"he syst",
+						"eat to ",
+						"# is sh",
+						"the secu",
+						"t to the",
+						"at to th"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1568686417352,
-	"edit": 8,
+	"updt": 1568708529689,
+	"edit": 9,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
 		{
 			"do": "LOSE"
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				", no.",
+				"ty of ",
+				"ell, n",
+				"reat to",
+				"he syst",
+				"eat to ",
+				"# is sh",
+				"the secu",
+				"t to the",
+				"at to th"
+			]
 		}
 	]
 }
