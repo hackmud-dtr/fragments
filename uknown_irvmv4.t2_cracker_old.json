@@ -1,26 +1,26 @@
 {
 	"_id": "uknown_irvmv4.t2_cracker_old",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "uknown_irvmv4.t2_cracker_old",
 	"sector": "K_8071",
 	"sec_level": 4,
 	"date_added": 1569258130333,
-	"last_scraped": 1569258160506,
+	"last_scraped": 1569258240315,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569258130333
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1569258220506,
+	"scrape_ct": 17,
+	"next_scrape": 1569258300315,
 	"category": "fishie_tank",
-	"last_update": 1569258160506,
+	"last_update": 1569258271106,
 	"output": [
 		{
 			"args": {},
-			"calls": 7975,
+			"calls": 18752,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ay ev",
@@ -33,13 +33,30 @@
 				" has le",
 				"ons to t",
 				"n be hel"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"ay ev",
+						"h us a",
+						"She ha",
+						" lesso",
+						"he has ",
+						"en be h",
+						"e may e",
+						" has le",
+						"ons to t",
+						"n be hel"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 765,
+			"calls": 1673,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -57,6 +74,23 @@
 				" has le",
 				"ons to t",
 				"n be hel"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"ay ev",
+						"h us a",
+						"She ha",
+						" lesso",
+						"he has ",
+						"en be h",
+						"e may e",
+						" has le",
+						"ons to t",
+						"n be hel"
+					]
+				}
 			]
 		},
 		{
@@ -76,7 +110,48 @@
 				" has le",
 				"ons to t",
 				"n be hel"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"ay ev",
+						"h us a",
+						"She ha",
+						" lesso",
+						"he has ",
+						"en be h",
+						"e may e",
+						" has le",
+						"ons to t",
+						"n be hel"
+					]
+				}
 			]
+		}
+	],
+	"updt": 1569258172162,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				"ay ev",
+				"h us a",
+				"She ha",
+				" lesso",
+				"he has ",
+				"en be h",
+				"e may e",
+				" has le",
+				"ons to t",
+				"n be hel"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
