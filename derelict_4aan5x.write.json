@@ -1,19 +1,27 @@
 {
 	"_id": "derelict_4aan5x.write",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "derelict_4aan5x.write",
 	"sector": "K_8071",
 	"sec_level": 4,
 	"date_added": 1569241039391,
-	"last_scraped": 1569265079019,
+	"last_scraped": 1569268436766,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569241039391
+		},
+		{
+			"type": "died",
+			"when": 1569268436766
+		},
+		{
+			"type": "died",
+			"when": 1569268476150
 		}
 	],
-	"next_scrape": 1569309043515,
+	"next_scrape": 1569357106001,
 	"category": "coin_flipper",
 	"last_update": 1569265079019,
 	"output": [
@@ -110,6 +118,7 @@
 			]
 		}
 	],
-	"updt": 1569262010260,
-	"edit": 12
+	"updt": 1569265169944,
+	"edit": 13,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_4aan5x.write: script doesn't exist\"}"
 }
