@@ -1,19 +1,23 @@
 {
 	"_id": "abndnd_bvlplk.t2_crack",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abndnd_bvlplk.t2_crack",
 	"sector": "HJG_6485",
 	"sec_level": 4,
 	"date_added": 1569298717748,
-	"last_scraped": 1569315885366,
+	"last_scraped": 1569318999527,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569298717748
+		},
+		{
+			"type": "died",
+			"when": 1569318999527
 		}
 	],
-	"next_scrape": 1569362200031,
+	"next_scrape": 1569406458298,
 	"category": "coin_flipper",
 	"last_update": 1569315885366,
 	"output": [
@@ -74,6 +78,7 @@
 			]
 		}
 	],
-	"updt": 1569313226221,
-	"edit": 10
+	"updt": 1569315926458,
+	"edit": 11,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_bvlplk.t2_crack: script doesn't exist\"}"
 }

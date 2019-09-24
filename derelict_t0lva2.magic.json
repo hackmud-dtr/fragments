@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_t0lva2.magic",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_t0lva2.magic",
 	"sector": "NGC_7982",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "NGC_7982",
 				"to": "HJG_4785"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1569318688253
+		}
 	],
-	"updt": 1569314799834,
-	"edit": 1639,
+	"updt": 1569317958013,
+	"edit": 1640,
 	"output": "{\"ok\":false}",
 	"next_scrape": 1569408439226,
 	"pl_output": "{\"ok\":false}"

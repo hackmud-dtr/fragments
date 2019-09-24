@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_h795ka.util",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unidentified_h795ka.util",
 	"sector": "HJG_0153",
 	"sec_level": 3,
 	"date_added": 1558821408422,
-	"last_scraped": 1569315350349,
+	"last_scraped": 1569318556250,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,11 +19,19 @@
 				"from": "HJG_0153",
 				"to": "HJG_2417"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1569318556250
+		},
+		{
+			"type": "died",
+			"when": 1569318721080
+		}
 	],
-	"updt": 1569312547153,
-	"edit": 1639,
+	"updt": 1569318634528,
+	"edit": 1641,
 	"output": "Cannot read property 'callers' of undefined",
-	"next_scrape": 1569406850347,
-	"pl_output": "Cannot read property 'callers' of undefined"
+	"next_scrape": 1569401306475,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_h795ka.util: script doesn't exist\"}"
 }
