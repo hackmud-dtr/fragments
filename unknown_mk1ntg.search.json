@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_mk1ntg.search",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "unknown_mk1ntg.search",
 	"sector": "NGC_4554",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "NGC_4554",
 				"to": "HJG_4785"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1569310358114
+		}
 	],
-	"updt": 1568695219975,
-	"edit": 63,
+	"updt": 1568715293897,
+	"edit": 64,
 	"output": [
 		{
 			"args": {},
