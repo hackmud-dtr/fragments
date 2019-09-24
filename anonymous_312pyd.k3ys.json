@@ -1,19 +1,27 @@
 {
 	"_id": "anonymous_312pyd.k3ys",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "anonymous_312pyd.k3ys",
 	"sector": "K_8071",
 	"sec_level": 4,
 	"date_added": 1569268718266,
-	"last_scraped": 1569285541251,
+	"last_scraped": 1569288659683,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569268718266
+		},
+		{
+			"type": "died",
+			"when": 1569288659683
+		},
+		{
+			"type": "died",
+			"when": 1569288686611
 		}
 	],
-	"next_scrape": 1569331393003,
+	"next_scrape": 1569378440194,
 	"category": "coin_flipper",
 	"last_update": 1569285541251,
 	"output": [
@@ -111,6 +119,7 @@
 			]
 		}
 	],
-	"updt": 1569282535892,
-	"edit": 10
+	"updt": 1569285694493,
+	"edit": 11,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_312pyd.k3ys: script doesn't exist\"}"
 }
