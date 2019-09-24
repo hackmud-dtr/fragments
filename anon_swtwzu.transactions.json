@@ -1,7 +1,7 @@
 {
 	"_id": "anon_swtwzu.transactions",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anon_swtwzu.transactions",
 	"sector": "K_8441",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1562095213744
+		},
+		{
+			"type": "died",
+			"when": 1569360778430
 		}
 	],
 	"next_scrape": 1568740729079,
@@ -126,8 +130,8 @@
 			]
 		}
 	],
-	"updt": 1567796389837,
-	"edit": 44,
+	"updt": 1568695219975,
+	"edit": 45,
 	"retry_args": [
 		{
 			"do": "clean"
