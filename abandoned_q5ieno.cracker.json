@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_q5ieno.cracker",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abandoned_q5ieno.cracker",
 	"sector": "VNP_1006",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "VNP_1006",
 				"to": "HJG_3940"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1569499428034
+		}
 	],
-	"updt": 1569495295406,
-	"edit": 1708,
+	"updt": 1569497324269,
+	"edit": 1709,
 	"output": "{\"msg\":\"`DError.` You are not autorized to execute this script. Exiting...\"}",
 	"next_scrape": 1569583860974,
 	"pl_output": "{\"msg\":\"`DError.` You are not autorized to execute this script. Exiting...\"}"
