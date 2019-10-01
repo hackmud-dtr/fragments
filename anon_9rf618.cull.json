@@ -1,7 +1,7 @@
 {
 	"_id": "anon_9rf618.cull",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_9rf618.cull",
 	"sector": "K_1215",
 	"sec_level": 1,
@@ -19,10 +19,14 @@
 				"from": "K_1215",
 				"to": "SPC_3537"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1569913366496
+		}
 	],
-	"updt": 1568971591032,
-	"edit": 163,
+	"updt": 1568976323795,
+	"edit": 164,
 	"output": [
 		{
 			"args": {},

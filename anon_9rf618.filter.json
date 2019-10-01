@@ -1,12 +1,12 @@
 {
 	"_id": "anon_9rf618.filter",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anon_9rf618.filter",
 	"sector": "HJG_3466",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1569912001138,
+	"last_scraped": 1569913325594,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,11 +19,19 @@
 				"from": "HJG_3466",
 				"to": "NGC_7636"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1569913325594
+		},
+		{
+			"type": "died",
+			"when": 1569913366496
+		}
 	],
-	"updt": 1569910757575,
-	"edit": 1907,
+	"updt": 1569912110516,
+	"edit": 1908,
 	"output": "{\"ok\":false,\"msg\":\"Access denied, boi\"}",
-	"next_scrape": 1569997450484,
-	"pl_output": "{\"ok\":false,\"msg\":\"Access denied, boi\"}"
+	"next_scrape": 1570003110193,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_9rf618.filter: script doesn't exist\"}"
 }

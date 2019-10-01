@@ -1,12 +1,12 @@
 {
 	"_id": "anon_9rf618.whitelist",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anon_9rf618.whitelist",
 	"sector": "HJG_3466",
 	"sec_level": 4,
 	"date_added": 1558821408422,
-	"last_scraped": 1569911427621,
+	"last_scraped": 1569912772903,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,12 +19,16 @@
 				"from": "HJG_3466",
 				"to": "NGC_7636"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1569913366496
+		}
 	],
-	"updt": 1569910082666,
-	"edit": 1035,
+	"updt": 1569912787028,
+	"edit": 1037,
 	"output": "{\"ok\":false,\"msg\":[\"Usage only as subscript:\",\"`Aif( !#fs.anon_9rf618.whitelist({ c }).ok ) return \\\"Lul oopsec\\\"`\"]}",
-	"next_scrape": 1570003660793,
+	"next_scrape": 1569993240871,
 	"pl_output": "{\"ok\":false,\"msg\":[\"Usage only as subscript:\",\"`Aif( !#fs.anon_9rf618.whitelist({ c }).ok ) return \\\"Lul oopsec\\\"`\"]}",
 	"cannot_identify": true
 }
