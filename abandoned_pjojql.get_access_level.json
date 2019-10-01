@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_pjojql.get_access_level",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abandoned_pjojql.get_access_level",
 	"sector": "K_8416",
 	"sec_level": 0,
@@ -19,10 +19,14 @@
 				"from": "K_8416",
 				"to": "K_0431"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1569914099904
+		}
 	],
-	"updt": 1568985121699,
-	"edit": 389,
+	"updt": 1568990350884,
+	"edit": 390,
 	"output": [
 		{
 			"args": {},

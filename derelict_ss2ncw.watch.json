@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_ss2ncw.watch",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_ss2ncw.watch",
 	"sector": "K_9556",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "K_9556",
 				"to": "K_0887"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1569914291042
+		}
 	],
-	"updt": 1569912334703,
-	"edit": 1908,
+	"updt": 1569913690920,
+	"edit": 1909,
 	"output": "{\"ok\":false,\"msg\":\"Le nop\"}",
 	"next_scrape": 1569996246377,
 	"pl_output": "{\"ok\":false,\"msg\":\"Le nop\"}"

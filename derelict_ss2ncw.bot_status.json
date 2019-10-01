@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_ss2ncw.bot_status",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_ss2ncw.bot_status",
 	"sector": "VNP_8719",
 	"sec_level": 2,
@@ -19,10 +19,14 @@
 				"from": "VNP_8719",
 				"to": "VNP_4859"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1569914060739
+		}
 	],
-	"updt": 1569912334703,
-	"edit": 1906,
+	"updt": 1569913690920,
+	"edit": 1907,
 	"output": "Nop",
 	"next_scrape": 1569996313568,
 	"pl_output": "Nop"

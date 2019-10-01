@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_pjojql.trust",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abandoned_pjojql.trust",
 	"sector": "K_8416",
 	"sec_level": 0,
@@ -19,10 +19,14 @@
 				"from": "K_8416",
 				"to": "K_0431"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1569914099904
+		}
 	],
-	"updt": 1568692286001,
-	"edit": 14,
+	"updt": 1568692510484,
+	"edit": 15,
 	"output": [
 		{
 			"args": {},

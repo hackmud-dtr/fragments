@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_ss2ncw.refill",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_ss2ncw.refill",
 	"sector": "VNP_8719",
 	"sec_level": 2,
@@ -19,10 +19,14 @@
 				"from": "VNP_8719",
 				"to": "VNP_4859"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1569914060739
+		}
 	],
-	"updt": 1569912334703,
-	"edit": 1905,
+	"updt": 1569913690920,
+	"edit": 1906,
 	"output": "{\"ok\":false,\"msg\":\"Le nop\"}",
 	"next_scrape": 1570002736652,
 	"pl_output": "{\"ok\":false,\"msg\":\"Le nop\"}"
