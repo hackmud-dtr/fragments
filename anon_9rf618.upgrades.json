@@ -1,12 +1,12 @@
 {
 	"_id": "anon_9rf618.upgrades",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anon_9rf618.upgrades",
 	"sector": "K_9897",
 	"sec_level": 2,
 	"date_added": 1558821408422,
-	"last_scraped": 1569912521260,
+	"last_scraped": 1569913868497,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,12 +19,20 @@
 				"from": "K_9897",
 				"to": "VNP_4859"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1569913868497
+		},
+		{
+			"type": "died",
+			"when": 1569913889092
+		}
 	],
-	"updt": 1569911208816,
-	"edit": 492,
+	"updt": 1569912562128,
+	"edit": 493,
 	"output": "[\"i | name | tier | class | keys | stats | rdy\",\"--+------+------+-------+------+-------+----\",\"\",\"Currently loaded upgrades​: 0\"]",
-	"next_scrape": 1570004075187,
-	"pl_output": "[\"i | name | tier | class | keys | stats | rdy\",\"--+------+------+-------+------+-------+----\",\"\",\"Currently loaded upgrades​: 0\"]",
+	"next_scrape": 1569999888998,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_9rf618.upgrades: script doesn't exist\"}",
 	"cannot_identify": true
 }

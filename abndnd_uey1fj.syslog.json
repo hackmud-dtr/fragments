@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_uey1fj.syslog",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abndnd_uey1fj.syslog",
 	"sector": "K_7717",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "K_7717",
 				"to": "K_0887"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1569913889092
+		}
 	],
-	"updt": 1568719352335,
-	"edit": 198,
+	"updt": 1568735649575,
+	"edit": 199,
 	"output": [
 		{
 			"args": {},

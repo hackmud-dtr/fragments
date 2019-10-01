@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_iax2v2.bank",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_iax2v2.bank",
 	"sector": "K_9897",
 	"sec_level": 2,
@@ -19,10 +19,14 @@
 				"from": "K_9897",
 				"to": "VNP_4859"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1569913889092
+		}
 	],
-	"updt": 1568716873595,
-	"edit": 28,
+	"updt": 1568732944328,
+	"edit": 29,
 	"output": [
 		{
 			"args": {},
