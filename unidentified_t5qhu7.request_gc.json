@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_t5qhu7.request_gc",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unidentified_t5qhu7.request_gc",
 	"sector": "HJG_0153",
 	"sec_level": 3,
@@ -23,10 +23,14 @@
 				"from": "HJG_0153",
 				"to": "HJG_2417"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1570212812156
+		}
 	],
-	"updt": 1567723522168,
-	"edit": 9,
+	"updt": 1568692058757,
+	"edit": 10,
 	"pl_output": "{\"ok\":true,\"msg\":\"I'll look at your request soon(tm)\"}",
 	"next_scrape": 1568781739268
 }
