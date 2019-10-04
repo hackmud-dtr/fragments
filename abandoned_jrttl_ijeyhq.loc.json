@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_jrttl_ijeyhq.loc",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abandoned_jrttl_ijeyhq.loc",
 	"sector": "K_2954",
 	"sec_level": 2,
@@ -19,10 +19,14 @@
 				"from": "K_2954",
 				"to": "CHAOS_ZETA_5"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1570224806011
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"You must transfer an amount as a GC string or a whole number. Examples: \\\"1KGC\\\" or 1000\"}",
 	"next_scrape": 1568785335745,
-	"updt": 1568284158319,
-	"edit": 66
+	"updt": 1568700411855,
+	"edit": 67
 }
