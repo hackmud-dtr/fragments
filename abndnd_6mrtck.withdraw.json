@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_6mrtck.withdraw",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abndnd_6mrtck.withdraw",
 	"sector": "K_3804",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "K_3804",
 				"to": "SPC_4228"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1570540391110
+		}
 	],
-	"updt": 1570539415011,
-	"edit": 2488,
+	"updt": 1570539866129,
+	"edit": 2489,
 	"output": "{\"ok\":true,\"msg\":\"no u\"}",
 	"next_scrape": 1570623799030,
 	"pl_output": "{\"ok\":true,\"msg\":\"no u\"}"

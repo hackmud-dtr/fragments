@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_6mrtck.glock_money",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abndnd_6mrtck.glock_money",
 	"sector": "K_7243",
 	"sec_level": 1,
@@ -23,10 +23,14 @@
 				"from": "K_7243",
 				"to": "HJG_4070"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1570540453690
+		}
 	],
-	"updt": 1570539415011,
-	"edit": 2486,
+	"updt": 1570539866129,
+	"edit": 2487,
 	"output": "{\"ok\":true,\"msg\":\"get your own money.. please\"}",
 	"next_scrape": 1570621343280,
 	"pl_output": "{\"ok\":true,\"msg\":\"get your own money.. please\"}"

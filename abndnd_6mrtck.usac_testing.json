@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_6mrtck.usac_testing",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abndnd_6mrtck.usac_testing",
 	"sector": "K_6506",
 	"sec_level": 0,
@@ -19,10 +19,14 @@
 				"from": "K_6506",
 				"to": "K_0431"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1570540401409
+		}
 	],
-	"updt": 1570278304196,
-	"edit": 1319,
+	"updt": 1570279659134,
+	"edit": 1320,
 	"output": "Cannot read property 'call' of undefined",
 	"next_scrape": 1570364042686,
 	"pl_output": "Cannot read property 'call' of undefined",
