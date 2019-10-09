@@ -1,23 +1,23 @@
 {
 	"_id": "derelict_jyfnkj.p_12p88n",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_jyfnkj.p_12p88n",
 	"sector": "VNP_7267",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1569166363289,
+	"last_scraped": 1570599487679,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1569164369162,
-	"edit": 16,
-	"next_scrape": 1569211532072,
+	"updt": 1569166401252,
+	"edit": 17,
+	"next_scrape": 1570645480859,
 	"category": "clicker",
-	"last_update": 1569166363289,
+	"last_update": 1570599487679,
 	"output": [
 		{
 			"args": {},
@@ -818,6 +818,71 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"CLICK": true
+			},
+			"calls": 594,
+			"base": "`LCLIC0 1ECURED`",
+			"fragments": [
+				"K1111 ",
+				"1111 S",
+				"K 0000 ",
+				"1111  S",
+				"0 0000S",
+				"K S1111 ",
+				"K 0111 1",
+				"K 0 0000",
+				"K  0000 ",
+				"1111 K S",
+				"1111 01S",
+				"1111 0 S",
+				"0111 1 S",
+				"0000 K S",
+				"0 0000 S",
+				" 1111 0S",
+				" 0111 1S",
+				" 0000  S",
+				"K111 0111",
+				"K0 0000 0",
+				"K SE1111 ",
+				"K S0 0000",
+				"K S 0000 ",
+				"K 1111 01",
+				"K  1111 0",
+				"K  0111 1",
+				"1111 CK S",
+				"111 0111S",
+				"0 0000K S",
+				"0 0000 0S"
+			]
+		},
+		{
+			"args": {
+				"CLICK": true
+			},
+			"calls": 990,
+			"base": "`LCLIC0 SECURED`",
+			"fragments": [
+				"K1111 ",
+				"1111 K",
+				"0000 K",
+				"K 0000 ",
+				"1111 CK",
+				"0 0000K",
+				"K S1111 ",
+				"K 0111 1",
+				"K 0 0000",
+				"K  0000 ",
+				"K111 0111",
+				"K0 0000 0",
+				"K S0 0000",
+				"K S 0000 ",
+				"K 1111 01",
+				"K  1111 0",
+				"K  0111 1"
+			]
 		}
 	],
 	"identified": [
@@ -869,11 +934,6 @@
 				"0 0000K SE",
 				"0 0000 0SE"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"CLICK": true
 		}
 	]
 }

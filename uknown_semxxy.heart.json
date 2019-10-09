@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_semxxy.heart",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_semxxy.heart",
 	"sector": "NGC_1836",
 	"sec_level": 4,
 	"date_added": 1564707600135,
-	"last_scraped": 1568692763577,
+	"last_scraped": 1570603240304,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,30 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1568733468611,
+	"next_scrape": 1570643326436,
 	"category": "fishie_tank",
-	"last_update": 1568692763577,
+	"last_update": 1570603250735,
 	"output": [
 		{
 			"args": {},
-			"calls": 43797,
+			"calls": 57117,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"T0XF7",
 				"ST ER",
 				"ROR |",
+				"R | N",
 				"_CLST0",
+				"OR | U",
+				"E ERRO",
+				"07\\nSY",
 				" ERROR",
+				"| NETW E",
 				"er imiya",
-				" mhollis"
+				"OR | TIM",
+				" | PROG ",
+				" mhollis",
+				"A848D07\\n"
 			],
 			"hits": [
 				{
@@ -48,7 +57,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5028,
+			"calls": 5660,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -56,12 +65,21 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"T0XF7",
 				"ST ER",
 				"ROR |",
+				"R | N",
 				"_CLST0",
+				"OR | U",
+				"E ERRO",
+				"07\\nSY",
 				" ERROR",
+				"| NETW E",
 				"er imiya",
-				" mhollis"
+				"OR | TIM",
+				" | PROG ",
+				" mhollis",
+				"A848D07\\n"
 			],
 			"hits": [
 				{
@@ -106,8 +124,8 @@
 			]
 		}
 	],
-	"updt": 1567731642060,
-	"edit": 6,
+	"updt": 1568692962005,
+	"edit": 7,
 	"identified": [
 		{
 			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
@@ -119,6 +137,11 @@
 				"er imiya",
 				" mhollis"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

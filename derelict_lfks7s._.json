@@ -1,27 +1,22 @@
 {
 	"_id": "derelict_lfks7s._",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "derelict_lfks7s._",
 	"sector": "SPC_2784",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1569095003747,
+	"last_scraped": 1570598270590,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1569085887045,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
+	"updt": 1569095125787,
+	"edit": 2,
 	"scrape_ct": 20,
-	"next_scrape": 1569185331115,
+	"next_scrape": 1570690186012,
 	"category": "risk_factor",
 	"last_update": 1569095003747,
 	"output": [
@@ -39,6 +34,22 @@
 				"gs whos",
 				"sical sp",
 				"em as re"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						" easi",
+						"ysical",
+						"ting. ",
+						", bein",
+						"ll, bei",
+						"l sport",
+						"gs whos",
+						"sical sp",
+						"em as re"
+					]
+				}
 			]
 		},
 		{
@@ -57,7 +68,48 @@
 				"gs whos",
 				"sical sp",
 				"em as re"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						" easi",
+						"ysical",
+						"ting. ",
+						", bein",
+						"ll, bei",
+						"l sport",
+						"gs whos",
+						"sical sp",
+						"em as re"
+					]
+				}
 			]
 		}
-	]
+	],
+	"identified": [
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
+				" easi",
+				"ysical",
+				"ting. ",
+				", bein",
+				"ll, bei",
+				"l sport",
+				"gs whos",
+				"sical sp",
+				"em as re"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

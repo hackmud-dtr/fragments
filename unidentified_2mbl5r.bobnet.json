@@ -1,37 +1,41 @@
 {
 	"_id": "unidentified_2mbl5r.bobnet",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unidentified_2mbl5r.bobnet",
 	"sector": "K_7459",
 	"sec_level": 4,
 	"date_added": 1564407840489,
-	"last_scraped": 1568690963363,
+	"last_scraped": 1570603003425,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1564407840489
 		}
 	],
-	"updt": 1568690930922,
-	"edit": 8,
+	"updt": 1568691155334,
+	"edit": 9,
 	"scrape_ct": 17,
-	"next_scrape": 1568735858273,
+	"next_scrape": 1570645981921,
 	"category": "fishie_tank",
-	"last_update": 1568690963363,
+	"last_update": 1570603024582,
 	"output": [
 		{
 			"args": {},
-			"calls": 41343,
+			"calls": 53709,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"th th",
 				"makes",
 				"he da",
 				"e dat",
 				" the ",
+				"build ",
 				"n polic",
+				"a team ",
 				" a cura",
 				"icy that",
+				"g with t",
 				"ages of "
 			],
 			"hits": [
@@ -54,7 +58,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6629,
+			"calls": 7583,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -62,13 +66,17 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"th th",
 				"makes",
 				"he da",
 				"e dat",
 				" the ",
+				"build ",
 				"n polic",
+				"a team ",
 				" a cura",
 				"icy that",
+				"g with t",
 				"ages of "
 			],
 			"hits": [
@@ -133,6 +141,11 @@
 				"icy that",
 				"ages of "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

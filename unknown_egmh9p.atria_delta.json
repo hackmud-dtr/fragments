@@ -1,27 +1,22 @@
 {
 	"_id": "unknown_egmh9p.atria_delta",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "unknown_egmh9p.atria_delta",
 	"sector": "NGC_1069",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1569088945634,
+	"last_scraped": 1570597799950,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1569085887045,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
+	"updt": 1569089038796,
+	"edit": 2,
 	"scrape_ct": 20,
-	"next_scrape": 1569178607615,
+	"next_scrape": 1570681432166,
 	"category": "risk_factor",
 	"last_update": 1569088945634,
 	"output": [
@@ -57,5 +52,14 @@
 				"e: re: "
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

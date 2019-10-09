@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_1ryirp.test0",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_1ryirp.test0",
 	"sector": "SPC_2341",
 	"sec_level": 4,
 	"date_added": 1563394002092,
-	"last_scraped": 1568691394417,
+	"last_scraped": 1570603130241,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,28 +14,33 @@
 		}
 	],
 	"scrape_ct": 10,
-	"next_scrape": 1568731445060,
+	"next_scrape": 1570645652183,
 	"category": "fishie_tank",
-	"last_update": 1568691394417,
+	"last_update": 1570603130241,
 	"output": [
 		{
 			"args": {},
-			"calls": 78525,
+			"calls": 90034,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"| NET",
-				"XA7_C",
 				"X57C3",
+				"| TIME",
 				"LE0X8C",
 				"C3_FIL",
+				" | NET",
+				"XA7_CLS",
 				"R | PRO",
 				"FT0XA7_",
 				"ER fbre",
 				" TIME E",
 				"X1F_SECT",
 				"TIME ERR",
+				"T ERROR ",
 				"ST0X1F_S",
-				" PROG ER"
+				"LST0X1F_",
+				"F_SECT0X",
+				" PROG ER",
+				" ERROR |"
 			],
 			"hits": [
 				{
@@ -55,7 +60,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8414,
+			"calls": 8808,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -63,19 +68,24 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"| NET",
-				"XA7_C",
 				"X57C3",
+				"| TIME",
 				"LE0X8C",
 				"C3_FIL",
+				" | NET",
+				"XA7_CLS",
 				"R | PRO",
 				"FT0XA7_",
 				"ER fbre",
 				" TIME E",
 				"X1F_SECT",
 				"TIME ERR",
+				"T ERROR ",
 				"ST0X1F_S",
-				" PROG ER"
+				"LST0X1F_",
+				"F_SECT0X",
+				" PROG ER",
+				" ERROR |"
 			],
 			"hits": [
 				{
@@ -95,22 +105,27 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 118808,
+			"calls": 124929,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"| NET",
-				"XA7_C",
 				"X57C3",
+				"| TIME",
 				"LE0X8C",
 				"C3_FIL",
+				" | NET",
+				"XA7_CLS",
 				"R | PRO",
 				"FT0XA7_",
 				"ER fbre",
 				" TIME E",
 				"X1F_SECT",
 				"TIME ERR",
+				"T ERROR ",
 				"ST0X1F_S",
-				" PROG ER"
+				"LST0X1F_",
+				"F_SECT0X",
+				" PROG ER",
+				" ERROR |"
 			],
 			"hits": [
 				{
@@ -127,8 +142,8 @@
 			]
 		}
 	],
-	"updt": 1568691381319,
-	"edit": 8,
+	"updt": 1568691608854,
+	"edit": 9,
 	"identified": [
 		{
 			"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",

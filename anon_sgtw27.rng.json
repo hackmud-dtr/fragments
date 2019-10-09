@@ -1,27 +1,22 @@
 {
 	"_id": "anon_sgtw27.rng",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "anon_sgtw27.rng",
 	"sector": "NGC_5711",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1569090130655,
+	"last_scraped": 1570597890704,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1569085661801,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
+	"updt": 1569090167363,
+	"edit": 2,
 	"scrape_ct": 20,
-	"next_scrape": 1569177812529,
+	"next_scrape": 1570680795728,
 	"category": "risk_factor",
 	"last_update": 1569090130655,
 	"output": [
@@ -37,6 +32,20 @@
 				"s The ",
 				" Way F",
 				"\"data_ty"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"t\",\"h",
+						"r\":\"F",
+						"The W",
+						" Pave",
+						"s The ",
+						" Way F",
+						"\"data_ty"
+					]
+				}
 			]
 		},
 		{
@@ -53,7 +62,44 @@
 				"s The ",
 				" Way F",
 				"\"data_ty"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"t\",\"h",
+						"r\":\"F",
+						"The W",
+						" Pave",
+						"s The ",
+						" Way F",
+						"\"data_ty"
+					]
+				}
 			]
 		}
-	]
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"t\",\"h",
+				"r\":\"F",
+				"The W",
+				" Pave",
+				"s The ",
+				" Way F",
+				"\"data_ty"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
