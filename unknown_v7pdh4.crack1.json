@@ -6,31 +6,37 @@
 	"sector": "K_9556",
 	"sec_level": 4,
 	"date_added": 1563624033768,
-	"last_scraped": 1568726722262,
+	"last_scraped": 1570604261097,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563624033768
 		}
 	],
-	"updt": 1568708756522,
-	"edit": 11,
+	"updt": 1568727021722,
+	"edit": 12,
 	"scrape_ct": 4,
-	"next_scrape": 1568773105015,
+	"next_scrape": 1570649365609,
 	"category": "fishie_tank",
-	"last_update": 1568726722262,
+	"last_update": 1570604292125,
 	"output": [
 		{
 			"args": {},
-			"calls": 111086,
+			"calls": 126951,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"f ter",
+				"pdate",
+				"date:",
+				"FT0XC",
 				"CLST0",
 				"on of ",
 				"E ERRO",
 				"mation ",
-				"X085A_F"
+				"hollist",
+				"X085A_F",
+				"of termi",
+				"e: notic",
+				"ation. S"
 			],
 			"hits": [
 				{
@@ -50,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 11221,
+			"calls": 12513,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -58,12 +64,18 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"f ter",
+				"pdate",
+				"date:",
+				"FT0XC",
 				"CLST0",
 				"on of ",
 				"E ERRO",
 				"mation ",
-				"X085A_F"
+				"hollist",
+				"X085A_F",
+				"of termi",
+				"e: notic",
+				"ation. S"
 			],
 			"hits": [
 				{
@@ -119,6 +131,11 @@
 				"mation ",
 				"X085A_F"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
