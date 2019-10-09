@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_wd737v.free_vbucks",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "npc",
 	"script": "derelict_wd737v.free_vbucks",
 	"sector": "NGC_5259",
 	"sec_level": 4,
 	"date_added": 1563269074739,
-	"last_scraped": 1568708041414,
+	"last_scraped": 1570595537600,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1568753321565,
+	"next_scrape": 1570638526735,
 	"category": "risk_factor",
-	"last_update": 1568708041414,
+	"last_update": 1570595537600,
 	"output": [
 		{
 			"args": {},
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "LOSE"
 			},
-			"calls": 1085,
+			"calls": 1352,
 			"base": "YOU COULD WIN 3GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"XF2274",
@@ -64,6 +64,8 @@
 				"2F227_",
 				"XBF_CL4",
 				"F227_ 4",
+				"E0X2BC4",
+				"E0X2BC2",
 				"BC7D174",
 				"BC7D172",
 				"BC7D1 4",
@@ -79,6 +81,7 @@
 				"XBF_CL 2",
 				"FT0XBF 2",
 				"F227_N 2",
+				"E0X2BC 2",
 				"BC7D1N 4",
 				"BC7D1N 2",
 				"BC7D17C4",
@@ -103,20 +106,30 @@
 				"4GCXBF_CL",
 				"4GC27_FIL",
 				"4G0X7A_SE",
+				"2ST0X7A_S",
 				"2GÁXBF_CL",
 				"2GCFT0XBF",
+				"2GCE0X2BC",
 				"2GCBC7D17",
 				"2GBC7D17C",
 				"2G0X7A_SE",
 				"0X7A_SE¢4",
 				"0X7A_SE 4",
 				"LST0X7A_ 4",
+				"ECT0XF22 4",
 				"BC7D17CN 2",
+				"4GECT0XF22",
 				"4GCBC7D17C",
 				"4GC0X7A_SE",
+				"4G227_FILE",
 				"2GC0X7A_SE",
+				"227_FILE 4",
+				"227_FILE 2",
 				"0X7A_SEN 2",
 				"LST0X7A_N 2",
+				"ECT0XF22N 4",
+				"4GC0X2BC7D1",
+				"2GCST0X7A_S",
 				"2GCLST0X7A_"
 			],
 			"hits": [
@@ -246,8 +259,8 @@
 			]
 		}
 	],
-	"updt": 1568686417352,
-	"edit": 5,
+	"updt": 1568708080241,
+	"edit": 6,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -335,11 +348,6 @@
 				"0X7A_SE",
 				"LST0X7A_"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "LOSE"
 		}
 	]
 }

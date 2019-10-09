@@ -6,7 +6,7 @@
 	"sector": "NGC_4040",
 	"sec_level": 4,
 	"date_added": 1565574505922,
-	"last_scraped": 1568690353164,
+	"last_scraped": 1570595217024,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1568730700438,
+	"next_scrape": 1570636493356,
 	"category": "fishie_tank",
-	"last_update": 1568690353164,
+	"last_update": 1570595217024,
 	"output": [
 		{
 			"args": {},
@@ -157,7 +157,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2893,
+			"calls": 4611,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -165,9 +165,16 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"2D6\\nS",
+				"6_FILE",
+				"T ERROR",
+				"RROR | ",
+				"EEF902D",
+				"LE0XEEF9",
 				"FILE0XEE",
 				"F902D6\\n",
+				"6\\nSYST ",
+				"02D6\\nSY",
+				" ERROR |",
 				"\\nSYST ER"
 			],
 			"hits": [
@@ -299,12 +306,19 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 47868,
+			"calls": 51736,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"2D6\\nS",
+				"6_FILE",
+				"T ERROR",
+				"RROR | ",
+				"EEF902D",
+				"LE0XEEF9",
 				"FILE0XEE",
 				"F902D6\\n",
+				"6\\nSYST ",
+				"02D6\\nSY",
+				" ERROR |",
 				"\\nSYST ER"
 			],
 			"hits": [
@@ -433,8 +447,8 @@
 			]
 		}
 	],
-	"updt": 1567718326713,
-	"edit": 5,
+	"updt": 1568690477198,
+	"edit": 6,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -557,14 +571,6 @@
 			"frags": [
 				"\\nSYST ER"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
