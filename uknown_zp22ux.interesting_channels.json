@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_zp22ux.interesting_channels",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "uknown_zp22ux.interesting_channels",
 	"sector": "NGC_1810",
 	"sec_level": 4,
 	"date_added": 1566643151732,
-	"last_scraped": 1567709095042,
+	"last_scraped": 1570602410785,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1567750905359,
+	"next_scrape": 1570693891312,
 	"category": "risk_factor",
-	"last_update": 1567709095042,
+	"last_update": 1570602400038,
 	"output": [
 		{
 			"args": {},
-			"calls": 3153,
+			"calls": 4922,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"r all",
@@ -2237,10 +2237,26 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 200,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"r all",
+				"lled ",
+				"g, aft",
+				" them ",
+				"ing and",
+				"aking a",
+				" way, to"
+			]
 		}
 	],
-	"updt": 1568686193659,
-	"edit": 5,
+	"updt": 1570601454412,
+	"edit": 6,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"identified": [
 		{
@@ -3347,6 +3363,14 @@
 				"aking a",
 				" way, to"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
 		}
 	]
 }

@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_xjjoxe.mine",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "unknown_xjjoxe.mine",
 	"sector": "SPC_4016",
 	"sec_level": 4,
 	"date_added": 1566782067985,
-	"last_scraped": 1567709176522,
+	"last_scraped": 1570602441315,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1567753216896,
+	"next_scrape": 1570690494586,
 	"category": "risk_factor",
-	"last_update": 1567709176522,
+	"last_update": 1570602441315,
 	"output": [
 		{
 			"args": {},
-			"calls": 1834,
+			"calls": 2733,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"use i",
@@ -489,10 +489,28 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 131,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"use i",
+				"t the",
+				"t a l",
+				"n't g",
+				"ause ",
+				" that",
+				"o me, ",
+				"he heat",
+				"e they'r"
+			]
 		}
 	],
-	"updt": 1568686193659,
-	"edit": 5,
+	"updt": 1570601454412,
+	"edit": 6,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"identified": [
 		{
@@ -725,6 +743,11 @@
 				"he heat",
 				"e they'r"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

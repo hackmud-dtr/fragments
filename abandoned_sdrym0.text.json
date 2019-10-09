@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_sdrym0.text",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_sdrym0.text",
 	"sector": "K_3804",
 	"sec_level": 4,
 	"date_added": 1564533067945,
-	"last_scraped": 1568711298162,
+	"last_scraped": 1570603873354,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,25 @@
 		}
 	],
 	"scrape_ct": 12,
-	"next_scrape": 1568757507222,
+	"next_scrape": 1570647024159,
 	"category": "fishie_tank",
-	"last_update": 1568711298162,
+	"last_update": 1570603873354,
 	"output": [
 		{
 			"args": {},
-			"calls": 55600,
+			"calls": 64061,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"| USE",
 				" eraj",
-				"USER er",
+				" PROG",
+				"handari",
+				"jbhandar",
 				"i imiyaw",
 				"ROR | PR",
 				"ERROR | ",
-				"E ERROR "
+				"E ERROR ",
+				" USER er"
 			],
 			"hits": [
 				{
@@ -48,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5790,
+			"calls": 6855,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -56,12 +60,16 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"| USE",
 				" eraj",
-				"USER er",
+				" PROG",
+				"handari",
+				"jbhandar",
 				"i imiyaw",
 				"ROR | PR",
 				"ERROR | ",
-				"E ERROR "
+				"E ERROR ",
+				" USER er"
 			],
 			"hits": [
 				{
@@ -81,15 +89,19 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 54875,
+			"calls": 63497,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"| USE",
 				" eraj",
-				"USER er",
+				" PROG",
+				"handari",
+				"jbhandar",
 				"i imiyaw",
 				"ROR | PR",
 				"ERROR | ",
-				"E ERROR "
+				"E ERROR ",
+				" USER er"
 			],
 			"hits": [
 				{
@@ -119,6 +131,6 @@
 			]
 		}
 	],
-	"updt": 1568687321228,
-	"edit": 5
+	"updt": 1568711457884,
+	"edit": 6
 }
