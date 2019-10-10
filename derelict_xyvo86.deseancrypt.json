@@ -1,28 +1,28 @@
 {
 	"_id": "derelict_xyvo86.deseancrypt",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_xyvo86.deseancrypt",
 	"sector": "HJG_9716",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1570599186468,
+	"last_scraped": 1570672114907,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1569116327846,
-	"edit": 5,
+	"updt": 1570602581263,
+	"edit": 6,
 	"scrape_ct": 9,
-	"next_scrape": 1570644533544,
+	"next_scrape": 1570716185402,
 	"category": "fishie_tank",
-	"last_update": 1570599186468,
+	"last_update": 1570672114907,
 	"output": [
 		{
 			"args": {},
-			"calls": 29694,
+			"calls": 39094,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"the d",
@@ -126,6 +126,14 @@
 				"ead of t",
 				".\\n20AD "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
