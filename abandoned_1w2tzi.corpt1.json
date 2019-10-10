@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_1w2tzi.corpt1",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_1w2tzi.corpt1",
 	"sector": "K_7153",
 	"sec_level": 4,
 	"date_added": 1565339822937,
-	"last_scraped": 1570736559813,
+	"last_scraped": 1570745783351,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1570781137538,
+	"next_scrape": 1570791811145,
 	"category": "fishie_tank",
-	"last_update": 1570736559813,
+	"last_update": 1570745792930,
 	"output": [
 		{
 			"args": {},
-			"calls": 107292,
+			"calls": 123697,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"have ",
@@ -46,7 +46,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7520,
+			"calls": 8332,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -100,8 +100,8 @@
 			]
 		}
 	],
-	"updt": 1570726812951,
-	"edit": 11,
+	"updt": 1570736725528,
+	"edit": 12,
 	"identified": [
 		{
 			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
@@ -112,6 +112,11 @@
 				"ater, g",
 				" card g"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
