@@ -1,12 +1,12 @@
 {
 	"_id": "anon_ix3ppa.bank",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_ix3ppa.bank",
 	"sector": "NGC_1514",
 	"sec_level": 4,
 	"date_added": 1566322325720,
-	"last_scraped": 1570701534625,
+	"last_scraped": 1570713724125,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 12,
-	"next_scrape": 1570741273628,
+	"next_scrape": 1570756969288,
 	"category": "clicker",
-	"last_update": 1570701534625,
+	"last_update": 1570713724125,
 	"output": [
 		{
 			"args": {},
-			"calls": 87080,
+			"calls": 95002,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"i | S",
@@ -57,7 +57,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 87537,
+			"calls": 99347,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"i | S",
@@ -141,6 +141,11 @@
 			]
 		}
 	],
-	"updt": 1570688477036,
-	"edit": 9
+	"updt": 1570701557221,
+	"edit": 10,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
