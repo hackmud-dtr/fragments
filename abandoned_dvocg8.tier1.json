@@ -1,28 +1,28 @@
 {
 	"_id": "abandoned_dvocg8.tier1",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_dvocg8.tier1",
 	"sector": "K_2217",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1570708820358,
+	"last_scraped": 1570720836894,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1570696819434,
-	"edit": 12,
+	"updt": 1570708998241,
+	"edit": 13,
 	"scrape_ct": 1,
-	"next_scrape": 1570755022183,
+	"next_scrape": 1570761209076,
 	"category": "fishie_tank",
-	"last_update": 1570708820358,
+	"last_update": 1570720864365,
 	"output": [
 		{
 			"args": {},
-			"calls": 73005,
+			"calls": 79693,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"domis",
@@ -56,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8588,
+			"calls": 9467,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -140,6 +140,11 @@
 				"data.\\n20",
 				" Data?\\n2"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

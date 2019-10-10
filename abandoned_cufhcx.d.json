@@ -1,28 +1,28 @@
 {
 	"_id": "abandoned_cufhcx.d",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_cufhcx.d",
 	"sector": "HJG_4380",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1570708217438,
+	"last_scraped": 1570720384678,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1570696145413,
-	"edit": 6,
+	"updt": 1570708321406,
+	"edit": 7,
 	"scrape_ct": 18,
-	"next_scrape": 1570749545291,
+	"next_scrape": 1570762102598,
 	"category": "fishie_tank",
-	"last_update": 1570708217438,
+	"last_update": 1570720411711,
 	"output": [
 		{
 			"args": {},
-			"calls": 33687,
+			"calls": 41111,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ki | SU",
@@ -54,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4211,
+			"calls": 5269,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -133,6 +133,11 @@
 				": Creati",
 				" interes"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

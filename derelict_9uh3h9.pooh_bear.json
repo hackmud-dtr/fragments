@@ -1,28 +1,28 @@
 {
 	"_id": "derelict_9uh3h9.pooh_bear",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_9uh3h9.pooh_bear",
 	"sector": "VNP_9171",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1570708448377,
+	"last_scraped": 1570720612301,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1570696369425,
-	"edit": 8,
+	"updt": 1570708547937,
+	"edit": 9,
 	"scrape_ct": 9,
-	"next_scrape": 1570754110223,
+	"next_scrape": 1570762959600,
 	"category": "clicker",
-	"last_update": 1570708448377,
+	"last_update": 1570720612301,
 	"output": [
 		{
 			"args": {},
-			"calls": 58179,
+			"calls": 75067,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"FT0XB",
@@ -56,7 +56,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 58661,
+			"calls": 65811,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"FT0XB",
@@ -135,6 +135,11 @@
 				"LST0X7A_",
 				"I almost"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"CLICK": true
 		}
 	]
 }
