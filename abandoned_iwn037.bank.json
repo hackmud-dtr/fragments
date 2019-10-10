@@ -1,28 +1,28 @@
 {
 	"_id": "abandoned_iwn037.bank",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_iwn037.bank",
 	"sector": "K_0542",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1570702499452,
+	"last_scraped": 1570714568209,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1570690053827,
-	"edit": 14,
+	"updt": 1570702685901,
+	"edit": 15,
 	"scrape_ct": 3,
-	"next_scrape": 1570746425408,
+	"next_scrape": 1570755707959,
 	"category": "fishie_tank",
-	"last_update": 1570702499452,
+	"last_update": 1570714587565,
 	"output": [
 		{
 			"args": {},
-			"calls": 83283,
+			"calls": 98769,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"209A ",
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6951,
+			"calls": 7762,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -126,6 +126,11 @@
 				"What's n",
 				" What's "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
