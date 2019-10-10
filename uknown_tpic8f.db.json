@@ -1,28 +1,28 @@
 {
 	"_id": "uknown_tpic8f.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_tpic8f.db",
 	"sector": "NGC_1069",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1570672020669,
+	"last_scraped": 1570689746399,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1570602581263,
-	"edit": 6,
+	"updt": 1570672244976,
+	"edit": 7,
 	"scrape_ct": 12,
-	"next_scrape": 1570716954280,
+	"next_scrape": 1570731939702,
 	"category": "fishie_tank",
-	"last_update": 1570672020669,
+	"last_update": 1570689777126,
 	"output": [
 		{
 			"args": {},
-			"calls": 35164,
+			"calls": 44646,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"user ",
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5135,
+			"calls": 6390,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -126,6 +126,11 @@
 				"13 Goodb",
 				"\\n2207 Ha"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
