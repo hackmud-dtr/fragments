@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_0o896a.payout",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "uknown_0o896a.payout",
 	"sector": "NGC_4554",
 	"sec_level": 4,
 	"date_added": 1562894671732,
-	"last_scraped": 1570595085285,
+	"last_scraped": 1570669649970,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,23 +14,26 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1570640752254,
+	"next_scrape": 1570754497611,
 	"category": "risk_factor",
-	"last_update": 1570595085285,
+	"last_update": 1570669649970,
 	"output": [
 		{
 			"args": {},
-			"calls": 3229,
+			"calls": 4476,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"cker'",
+				"20F3 ",
 				" along",
 				"ong wit",
 				"em\\n20F",
 				"\\n20F2 ",
+				"20F2 in",
 				"pile\\n20",
 				"le\\n20F4",
 				"cards pl",
+				"all\\n20F",
 				"3 discar",
 				"0F4 alon",
 				" in the ",
@@ -168,23 +171,28 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 109,
+			"calls": 224,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
+				"20F3 ",
+				" the ",
 				"rds pl",
 				" along",
 				"ong wit",
 				"em\\n20F",
 				"\\n20F2 ",
+				"20F2 in",
+				" in the",
 				"pile\\n20",
 				"le\\n20F4",
+				"all\\n20F",
 				"ll\\n20F5 ",
 				"er's\\n20F"
 			]
 		}
 	],
-	"updt": 1568688676077,
-	"edit": 6,
+	"updt": 1570601904054,
+	"edit": 7,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -225,6 +233,11 @@
 				"0F4 alon",
 				" in the "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

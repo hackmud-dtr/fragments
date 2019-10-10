@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_l2qrdz.upgrades",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_l2qrdz.upgrades",
 	"sector": "K_6830",
 	"sec_level": 4,
 	"date_added": 1566877883346,
-	"last_scraped": 1570594955267,
+	"last_scraped": 1570669288423,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,26 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1570640745426,
+	"next_scrape": 1570714079282,
 	"category": "fishie_tank",
-	"last_update": 1570594955267,
+	"last_update": 1570669320015,
 	"output": [
 		{
 			"args": {},
-			"calls": 34194,
+			"calls": 44989,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"ecks ",
+				"s of 1",
 				"of 13,",
+				"face do",
+				"e down.",
+				"down.\\n",
 				"13, fac",
 				"l 3 deck",
-				"ce up.\\n",
+				"decks of",
 				"ace down",
-				"p.\\n2041 "
+				"p.\\n2041 ",
+				"ce up.\\n2"
 			],
 			"hits": [
 				{
@@ -50,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3342,
+			"calls": 4377,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -58,13 +62,17 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"ecks ",
+				"s of 1",
 				"of 13,",
+				"face do",
+				"e down.",
+				"down.\\n",
 				"13, fac",
 				"l 3 deck",
-				"ce up.\\n",
+				"decks of",
 				"ace down",
-				"p.\\n2041 "
+				"p.\\n2041 ",
+				"ce up.\\n2"
 			],
 			"hits": [
 				{
@@ -116,8 +124,8 @@
 			]
 		}
 	],
-	"updt": 1568687770464,
-	"edit": 6,
+	"updt": 1570669315755,
+	"edit": 8,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -130,6 +138,11 @@
 				"ace down",
 				"p.\\n2041 "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

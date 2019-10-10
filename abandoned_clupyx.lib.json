@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_clupyx.lib",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "abandoned_clupyx.lib",
 	"sector": "K_2655",
 	"sec_level": 4,
 	"date_added": 1565197943832,
-	"last_scraped": 1570594443892,
+	"last_scraped": 1570668976033,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,29 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1570640619741,
+	"next_scrape": 1570750399549,
 	"category": "risk_factor",
-	"last_update": 1570594443892,
+	"last_update": 1570668976033,
 	"output": [
 		{
 			"args": {},
-			"calls": 1564,
+			"calls": 3799,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"XF227",
-				"D172\\n",
+				"MFT0XB",
+				"AD031E",
+				"_CLST0X",
+				"X7A_SEC",
 				"LST0X7A",
 				"E46 Jus",
+				"SECT0XF2",
 				"F227_FIL",
 				"E0X2BC7D",
 				"27_FILE0",
+				"0XBF_CLS",
+				"0X2BC7D1",
+				"C7D172\\nA",
 				"172\\nAD03"
 			],
 			"hits": [
@@ -527,7 +534,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 354,
+			"calls": 551,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"MFT0XB",
@@ -541,8 +548,8 @@
 			]
 		}
 	],
-	"updt": 1568686193659,
-	"edit": 6,
+	"updt": 1570601454412,
+	"edit": 7,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -558,5 +565,10 @@
 			]
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }

@@ -6,7 +6,7 @@
 	"sector": "K_2748",
 	"sec_level": 4,
 	"date_added": 1564191853194,
-	"last_scraped": 1570595146746,
+	"last_scraped": 1570669749909,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,30 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1570641199317,
+	"next_scrape": 1570710892441,
 	"category": "fishie_tank",
-	"last_update": 1570595146746,
+	"last_update": 1570669760991,
 	"output": [
 		{
 			"args": {},
-			"calls": 58510,
+			"calls": 67131,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"ry hu",
+				"re di",
 				"eir c",
 				"e to ",
 				"aythe",
+				" oppo",
+				" is i",
 				"to pur",
 				"necess",
+				"metime",
+				"e land",
 				"adapt ",
-				"opposed"
+				"opposed",
+				" capaci",
+				"-hand wi"
 			],
 			"hits": [
 				{
@@ -139,7 +147,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5867,
+			"calls": 6442,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -147,13 +155,21 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"ry hu",
+				"re di",
 				"eir c",
 				"e to ",
 				"aythe",
+				" oppo",
+				" is i",
 				"to pur",
 				"necess",
+				"metime",
+				"e land",
 				"adapt ",
-				"opposed"
+				"opposed",
+				" capaci",
+				"-hand wi"
 			],
 			"hits": [
 				{
@@ -490,6 +506,11 @@
 			]
 		}
 	],
-	"updt": 1568689576275,
-	"edit": 5
+	"updt": 1570601904054,
+	"edit": 6,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }

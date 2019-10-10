@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_fkgya1.request",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_fkgya1.request",
 	"sector": "SPC_9316",
 	"sec_level": 4,
 	"date_added": 1562692891917,
-	"last_scraped": 1570595036066,
+	"last_scraped": 1570669509686,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,27 +14,33 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1570641502510,
+	"next_scrape": 1570711075185,
 	"category": "risk_factor",
-	"last_update": 1570595036066,
+	"last_update": 1570669509686,
 	"output": [
 		{
 			"args": {},
-			"calls": 2448,
+			"calls": 2869,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"t tha",
+				"ou kn",
 				"EE Yo",
 				"21EE ",
 				" that",
 				"t temp",
-				"lmost ",
 				".\\n21E",
+				"w I'm a",
+				"most te",
+				"m almos",
 				"ted\\n21F",
 				"know I'm",
-				" can.\\n2",
+				"3 But th",
 				" and we ",
-				"we can.\\n"
+				" almost ",
+				" I'm alm",
+				"we can.\\n",
+				"e can.\\n2"
 			],
 			"hits": [
 				{
@@ -233,8 +239,8 @@
 			]
 		}
 	],
-	"updt": 1568688676077,
-	"edit": 6,
+	"updt": 1570601904054,
+	"edit": 7,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -307,6 +313,11 @@
 				"know I'm",
 				"we can.\\n"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }
