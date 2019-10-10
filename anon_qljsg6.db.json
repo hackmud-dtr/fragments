@@ -1,24 +1,24 @@
 {
 	"_id": "anon_qljsg6.db",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "anon_qljsg6.db",
 	"sector": "VNP_9534",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1570597457176,
+	"last_scraped": 1570678261477,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1569154216763,
-	"edit": 4,
+	"updt": 1570602581263,
+	"edit": 5,
 	"scrape_ct": 18,
-	"next_scrape": 1570685238216,
+	"next_scrape": 1570770226883,
 	"category": "risk_factor",
-	"last_update": 1570597446994,
+	"last_update": 1570678261477,
 	"output": [
 		{
 			"args": {},
@@ -39,7 +39,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 152,
+			"calls": 252,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"ed fac",
@@ -680,9 +680,6 @@
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

@@ -1,24 +1,24 @@
 {
 	"_id": "abandoned_8jskhs.castle",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "abandoned_8jskhs.castle",
 	"sector": "NGC_2868",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1570598551797,
+	"last_scraped": 1570678712698,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1569096026375,
-	"edit": 2,
+	"updt": 1570602581263,
+	"edit": 3,
 	"scrape_ct": 19,
-	"next_scrape": 1570688518214,
+	"next_scrape": 1570763096528,
 	"category": "risk_factor",
-	"last_update": 1570598533223,
+	"last_update": 1570678712698,
 	"output": [
 		{
 			"args": {},
@@ -58,7 +58,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 100,
+			"calls": 210,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"miyaw",
@@ -271,9 +271,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
