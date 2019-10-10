@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_bu2igt.t1",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_bu2igt.t1",
 	"sector": "HJG_6540",
 	"sec_level": 4,
 	"date_added": 1569280665860,
-	"last_scraped": 1570690610245,
+	"last_scraped": 1570703083593,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 8,
-	"next_scrape": 1570735251129,
+	"next_scrape": 1570745522718,
 	"category": "clicker",
-	"last_update": 1570690610245,
+	"last_update": 1570703083593,
 	"output": [
 		{
 			"args": {},
-			"calls": 39973,
+			"calls": 49271,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"ument",
@@ -48,7 +48,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 40104,
+			"calls": 50566,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"ument",
@@ -114,6 +114,11 @@
 			]
 		}
 	],
-	"updt": 1570673148102,
-	"edit": 5
+	"updt": 1570690728970,
+	"edit": 6,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
