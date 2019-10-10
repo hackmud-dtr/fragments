@@ -1,28 +1,28 @@
 {
 	"_id": "abandoned_6aowqq.break",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_6aowqq.break",
 	"sector": "VNP_7267",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1570663557257,
+	"last_scraped": 1570682492829,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1569118580543,
-	"edit": 6,
+	"updt": 1570663907457,
+	"edit": 7,
 	"scrape_ct": 1,
-	"next_scrape": 1570703344499,
+	"next_scrape": 1570725062742,
 	"category": "clicker",
-	"last_update": 1570663557257,
+	"last_update": 1570682492829,
 	"output": [
 		{
 			"args": {},
-			"calls": 35738,
+			"calls": 48953,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"if at",
@@ -52,7 +52,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 44840,
+			"calls": 57139,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"if at",
@@ -121,6 +121,11 @@
 				"t damage",
 				"defender"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"CLICK": true
 		}
 	]
 }
