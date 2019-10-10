@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_pegn60.init",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "unknown_pegn60.init",
 	"sector": "SPC_0993",
 	"sec_level": 4,
 	"date_added": 1569135586803,
-	"last_scraped": 1570599366388,
+	"last_scraped": 1570678865123,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1570681687894,
+	"next_scrape": 1570771403328,
 	"category": "risk_factor",
-	"last_update": 1569135625672,
+	"last_update": 1570678865123,
 	"output": [
 		{
 			"args": {},
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 105,
+			"calls": 205,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"k of ",
@@ -929,8 +929,8 @@
 			]
 		}
 	],
-	"updt": 1569135718304,
-	"edit": 1,
+	"updt": 1570602581263,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -1368,9 +1368,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

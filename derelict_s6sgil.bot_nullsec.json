@@ -1,24 +1,24 @@
 {
 	"_id": "derelict_s6sgil.bot_nullsec",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "derelict_s6sgil.bot_nullsec",
 	"sector": "NGC_6016",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1570598713321,
+	"last_scraped": 1570678793141,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1569097380113,
-	"edit": 2,
+	"updt": 1570602581263,
+	"edit": 3,
 	"scrape_ct": 18,
-	"next_scrape": 1570690985176,
+	"next_scrape": 1570764886266,
 	"category": "risk_factor",
-	"last_update": 1569097285121,
+	"last_update": 1570678793141,
 	"output": [
 		{
 			"args": {},
@@ -49,6 +49,23 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 110,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"last ",
+				"d rel",
+				"'last",
+				" 'las",
+				"ccess' ",
+				"ast act",
+				"n' times",
+				"mestamps"
+			]
 		}
 	],
 	"identified": [
@@ -67,9 +84,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
