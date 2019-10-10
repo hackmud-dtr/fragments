@@ -6,7 +6,7 @@
 	"sector": "K_6458",
 	"sec_level": 4,
 	"date_added": 1566117714624,
-	"last_scraped": 1570595668585,
+	"last_scraped": 1570670644397,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,24 +14,30 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1570640045122,
+	"next_scrape": 1570716630276,
 	"category": "fishie_tank",
-	"last_update": 1570595668585,
+	"last_update": 1570670655842,
 	"output": [
 		{
 			"args": {},
-			"calls": 59084,
+			"calls": 63634,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"g sta",
 				" plac",
 				"F0 def",
+				"0 defe",
 				" stack",
-				"ck.\\n20",
+				"ds from",
 				"and pla",
+				"fending ",
 				"defendin",
+				"ck.\\n20E",
+				"\\n20F0 d",
+				" that ma",
 				"y\\n20EF c",
 				"tack\\n20F",
+				"\\n20EF ca",
 				".\\n20EE R"
 			],
 			"hits": [
@@ -56,7 +62,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7067,
+			"calls": 7495,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -67,12 +73,18 @@
 				"g sta",
 				" plac",
 				"F0 def",
+				"0 defe",
 				" stack",
-				"ck.\\n20",
+				"ds from",
 				"and pla",
+				"fending ",
 				"defendin",
+				"ck.\\n20E",
+				"\\n20F0 d",
+				" that ma",
 				"y\\n20EF c",
 				"tack\\n20F",
+				"\\n20EF ca",
 				".\\n20EE R"
 			],
 			"hits": [
@@ -136,8 +148,8 @@
 			]
 		}
 	],
-	"updt": 1568712361629,
-	"edit": 7,
+	"updt": 1570602128402,
+	"edit": 8,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -153,6 +165,11 @@
 				"tack\\n20F",
 				".\\n20EE R"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
