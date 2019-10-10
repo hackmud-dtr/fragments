@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_6nkwxg.dump",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_6nkwxg.dump",
 	"sector": "SPC_9562",
 	"sec_level": 4,
 	"date_added": 1566577543634,
-	"last_scraped": 1570605104823,
+	"last_scraped": 1570674886744,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1570650831835,
+	"next_scrape": 1570718101922,
 	"category": "fishie_tank",
-	"last_update": 1570605104823,
+	"last_update": 1570674924515,
 	"output": [
 		{
 			"args": {},
-			"calls": 80683,
+			"calls": 84266,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"B550B",
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7576,
+			"calls": 8079,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -105,8 +105,8 @@
 			]
 		}
 	],
-	"updt": 1568745344626,
-	"edit": 9,
+	"updt": 1570605290861,
+	"edit": 10,
 	"identified": [
 		{
 			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
@@ -118,6 +118,11 @@
 				"ERROR |",
 				"FILE0X77"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
