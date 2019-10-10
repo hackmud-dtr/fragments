@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_semxxy.heart",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_semxxy.heart",
 	"sector": "NGC_1836",
 	"sec_level": 4,
 	"date_added": 1564707600135,
-	"last_scraped": 1570673528128,
+	"last_scraped": 1570691033009,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1570716645362,
+	"next_scrape": 1570731198398,
 	"category": "fishie_tank",
-	"last_update": 1570673528128,
+	"last_update": 1570691065082,
 	"output": [
 		{
 			"args": {},
-			"calls": 67513,
+			"calls": 74378,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"T0XF7",
@@ -57,7 +57,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6835,
+			"calls": 8014,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -133,8 +133,8 @@
 			]
 		}
 	],
-	"updt": 1570603935181,
-	"edit": 9,
+	"updt": 1570673597841,
+	"edit": 10,
 	"identified": [
 		{
 			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
@@ -146,6 +146,11 @@
 				"er imiya",
 				" mhollis"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
