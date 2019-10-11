@@ -1,28 +1,28 @@
 {
 	"_id": "anonymous_tlqury.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_tlqury.db",
 	"sector": "HJG_2723",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1570792653053,
+	"last_scraped": 1570792672840,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1570784988096,
-	"edit": 19,
+	"updt": 1570792661844,
+	"edit": 20,
 	"scrape_ct": 8,
-	"next_scrape": 1570836092059,
+	"next_scrape": 1570838621285,
 	"category": "fishie_tank",
-	"last_update": 1570792653053,
+	"last_update": 1570792683390,
 	"output": [
 		{
 			"args": {},
-			"calls": 130970,
+			"calls": 134957,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ease.",
@@ -54,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 14642,
+			"calls": 15071,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -136,9 +136,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
