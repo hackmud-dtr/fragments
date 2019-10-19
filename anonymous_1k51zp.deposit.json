@@ -1,20 +1,82 @@
 {
 	"_id": "anonymous_1k51zp.deposit",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "anonymous_1k51zp.deposit",
-	"sector": "HJG_0482",
+	"sector": "K_7086",
 	"sec_level": 4,
 	"date_added": 1565331082097,
-	"last_scraped": 1571523511787,
+	"last_scraped": 1571525350789,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1565331082097
-		}
+		},
+		{
+			"type": "died",
+			"when": 1571525225506
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1571525251223,
+				"from": "K_7086",
+				"to": "HJG_0482"
+			}
+		]
 	],
 	"pl_output": "\n`A (\\ /)`\n`A   &`     `vThe Boulevard`\n`A  / \\ `  \n`A /$GC\\ `  `LDEPOSIT  CAGE`\n`A(_____)`\n\nPlease choose the `Namount` (as a number or GC string) you wish to deposit, and the `Nservice` you wish to use from the list below.\n\n`AAccepted Services`\n- `Vpaypal` for pay.pal\n- `Vjade` for jade.vita\n",
-	"next_scrape": 1571613297352,
-	"updt": 1571521568920,
-	"edit": 2002
+	"next_scrape": 1571525410789,
+	"updt": 1571523595885,
+	"edit": 2003,
+	"scrape_ct": 19,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1571525350789,
+	"output": [
+		{
+			"args": {},
+			"calls": 75540,
+			"base": "\n`A (\\ /)`\n`A   &`     `vThe Boulevard`\n`A  / \\ `  \n`A /$GC\\ `  `LDEPOSIT  CAGE`\n`A(_____)`\n\nPlease choose the `Namount` (as a number or GC string) you wish to deposit, and the `Nservice` you wish to use from the list below.\n\n`AAccepted Services`\n- `Vpaypal` for pay.pal\n- `Vjade` for jade.vita\n",
+			"fragments": [
+				"y litt",
+				"ittle ",
+				"this is ",
+				"the syst",
+				"le addit",
+				"gligible",
+				" very li",
+				" increas"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"y litt",
+						"ittle ",
+						"this is ",
+						"the syst",
+						"le addit",
+						"gligible",
+						" very li",
+						" increas"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"y litt",
+				"ittle ",
+				"this is ",
+				"the syst",
+				"le addit",
+				"gligible",
+				" very li",
+				" increas"
+			]
+		}
+	]
 }

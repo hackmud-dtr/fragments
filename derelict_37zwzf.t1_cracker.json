@@ -1,16 +1,131 @@
 {
 	"_id": "derelict_37zwzf.t1_cracker",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "derelict_37zwzf.t1_cracker",
 	"sector": "NGC_8726",
 	"sec_level": 4,
 	"date_added": 1571524678417,
-	"last_scraped": 0,
+	"last_scraped": 1571525263128,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571524678417
+		}
+	],
+	"updt": 1571524725258,
+	"edit": 1,
+	"scrape_ct": 19,
+	"next_scrape": 1571525323128,
+	"category": "fishie_tank",
+	"last_update": 1571525263128,
+	"output": [
+		{
+			"args": {},
+			"calls": 7263,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" Solu",
+				"tions\"",
+				"the er",
+				"lenges ",
+				"er. The",
+				" of com",
+				" over. T"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" Solu",
+						"tions\"",
+						"the er",
+						"lenges ",
+						"er. The",
+						" of com",
+						" over. T"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1291,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" Solu",
+				"tions\"",
+				"the er",
+				"lenges ",
+				"er. The",
+				" of com",
+				" over. T"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" Solu",
+						"tions\"",
+						"the er",
+						"lenges ",
+						"er. The",
+						" of com",
+						" over. T"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 2908,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" Solu",
+				"tions\"",
+				"the er",
+				"lenges ",
+				"er. The",
+				" of com",
+				" over. T"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" Solu",
+						"tions\"",
+						"the er",
+						"lenges ",
+						"er. The",
+						" of com",
+						" over. T"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				" Solu",
+				"tions\"",
+				"the er",
+				"lenges ",
+				"er. The",
+				" of com",
+				" over. T"
+			]
 		}
 	]
 }

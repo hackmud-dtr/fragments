@@ -1,22 +1,34 @@
 {
 	"_id": "anonymous_1k51zp.texas_holdem",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "fresh",
 	"script": "anonymous_1k51zp.texas_holdem",
-	"sector": "HJG_0482",
+	"sector": "K_7086",
 	"sec_level": 4,
 	"date_added": 1565331082097,
-	"last_scraped": 1570983675628,
+	"last_scraped": 1571525390715,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1565331082097
-		}
+		},
+		{
+			"type": "died",
+			"when": 1571525225506
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1571525251223,
+				"from": "K_7086",
+				"to": "HJG_0482"
+			}
+		]
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1571024391036,
+	"next_scrape": 1571525450715,
 	"category": "UNKNOWN CATEGORY",
-	"last_update": 1570983675628,
+	"last_update": 1571525390715,
 	"output": [
 		{
 			"args": {},
@@ -36,7 +48,7 @@
 		},
 		{
 			"args": {},
-			"calls": 40401381,
+			"calls": 40927501,
 			"base": "{\"ok\":false,\"msg\":\"This scrip",
 			"fragments": [
 				"l.init_lang is not a function"
@@ -51,8 +63,8 @@
 			]
 		}
 	],
-	"updt": 1570976889246,
-	"edit": 85,
+	"updt": 1570983882188,
+	"edit": 86,
 	"identified": [
 		{
 			"document": "NOT FOUND",
