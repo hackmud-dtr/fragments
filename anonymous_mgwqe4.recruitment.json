@@ -1,20 +1,72 @@
 {
 	"_id": "anonymous_mgwqe4.recruitment",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "anonymous_mgwqe4.recruitment",
-	"sector": "HJG_0482",
+	"sector": "NGC_8726",
 	"sec_level": 4,
 	"date_added": 1565331082097,
-	"last_scraped": 1571521866528,
+	"last_scraped": 1571524496331,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1565331082097
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1571524437153,
+				"from": "NGC_8726",
+				"to": "HJG_0482"
+			}
+		]
 	],
 	"pl_output": "`PCentral Intelligence Agency`\n`h  United States of America`\n\n`P    The Work of a Nation.`\n`P      The Center of Intelligence.`\n\nWe are not recruiting at this time.",
-	"next_scrape": 1571608868212,
-	"updt": 1571520215423,
-	"edit": 2367
+	"next_scrape": 1571524556331,
+	"updt": 1571524048076,
+	"edit": 2369,
+	"scrape_ct": 20,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1571524496331,
+	"output": [
+		{
+			"args": {},
+			"calls": 1638,
+			"base": "`PCentral Intelligence Agency`\n`h  United States of America`\n\n`P    The Work of a Nation.`\n`P      The Center of Intelligence.`\n\nWe are not recruiting at this time.",
+			"fragments": [
+				"ght. ",
+				"o what ",
+				"ng is: ",
+				" so wha",
+				"ve the m",
+				"! ## rig"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"ght. ",
+						"o what ",
+						"ng is: ",
+						" so wha",
+						"ve the m",
+						"! ## rig"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+			"frags": [
+				"ght. ",
+				"o what ",
+				"ng is: ",
+				" so wha",
+				"ve the m",
+				"! ## rig"
+			]
+		}
+	]
 }

@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "derelict_flrrtz.unlock_t1",
-	"sector": "HJG_0205",
+	"sector": "NGC_8726",
 	"sec_level": 4,
 	"date_added": 1563801791960,
-	"last_scraped": 1571522046462,
+	"last_scraped": 1571524479328,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563801791960
-		}
+		},
+		{
+			"type": "died",
+			"when": 1571524411650
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1571524437153,
+				"from": "NGC_8726",
+				"to": "HJG_0205"
+			}
+		]
 	],
 	"pl_output": "Cannot read property 'call' of undefined",
-	"next_scrape": 1571608988495,
-	"updt": 1571520215423,
-	"edit": 2576
+	"next_scrape": 1571610539078,
+	"updt": 1571522244580,
+	"edit": 2577
 }

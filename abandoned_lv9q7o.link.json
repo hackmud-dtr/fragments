@@ -1,0 +1,64 @@
+{
+	"_id": "abandoned_lv9q7o.link",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abandoned_lv9q7o.link",
+	"sector": "SPC_2379",
+	"sec_level": 4,
+	"date_added": 1571523936019,
+	"last_scraped": 1571524048454,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1571523936019
+		}
+	],
+	"updt": 1571524048076,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1571524108454,
+	"category": "fishie_tank",
+	"last_update": 1571524076197,
+	"output": [
+		{
+			"args": {},
+			"calls": 2979,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"struct",
+				" instr",
+				"ll tech",
+				" are in",
+				"technici",
+				"hnicians",
+				" all tec"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 786,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"struct",
+				" instr",
+				"ll tech",
+				" are in",
+				"technici",
+				"hnicians",
+				" all tec"
+			]
+		}
+	]
+}
