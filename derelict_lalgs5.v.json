@@ -1,16 +1,70 @@
 {
 	"_id": "derelict_lalgs5.v",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "skip",
 	"script": "derelict_lalgs5.v",
 	"sector": "K_7086",
 	"sec_level": 4,
 	"date_added": 1571526056870,
-	"last_scraped": 0,
+	"last_scraped": 1571526786919,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571526056870
+		}
+	],
+	"updt": 1571526079301,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1571526846919,
+	"category": "fishie_tank",
+	"last_update": 1571526807733,
+	"output": [
+		{
+			"args": {},
+			"calls": 10963,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ial p",
+				"ons th",
+				"n exce",
+				"astal ",
+				"ooding ",
+				"n coast",
+				" in exc",
+				" In 204",
+				"dictions",
+				" coastal"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 712,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ial p",
+				"ons th",
+				"n exce",
+				"astal ",
+				"ooding ",
+				"n coast",
+				" in exc",
+				" In 204",
+				"dictions",
+				" coastal"
+			]
 		}
 	]
 }

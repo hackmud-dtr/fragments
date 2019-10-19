@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "anon_jkuos3.send",
-	"sector": "K_4785",
+	"sector": "K_2006",
 	"sec_level": 4,
 	"date_added": 1565894320039,
-	"last_scraped": 1571522186235,
+	"last_scraped": 1571527641700,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1565894320039
-		}
+		},
+		{
+			"type": "died",
+			"when": 1571527356905
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1571527621107,
+				"from": "K_2006",
+				"to": "K_4785"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"Try the following: email.send { to: \\\"\\\", subject: \\\"\\\", body: \\\"\\\" }\"}",
-	"next_scrape": 1571614881036,
-	"updt": 1571520215423,
-	"edit": 2176
+	"next_scrape": 1571618878345,
+	"updt": 1571527431053,
+	"edit": 2178
 }

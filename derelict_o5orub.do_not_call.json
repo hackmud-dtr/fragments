@@ -1,16 +1,124 @@
 {
 	"_id": "derelict_o5orub.do_not_call",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "derelict_o5orub.do_not_call",
 	"sector": "K_7086",
 	"sec_level": 4,
 	"date_added": 1571526567541,
-	"last_scraped": 0,
+	"last_scraped": 1571527149202,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571526567541
+		}
+	],
+	"updt": 1571526754387,
+	"edit": 1,
+	"scrape_ct": 18,
+	"next_scrape": 1571527209202,
+	"category": "fishie_tank",
+	"last_update": 1571527149202,
+	"output": [
+		{
+			"args": {},
+			"calls": 5483,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"o the",
+				"ct as",
+				"tent t",
+				"ployee",
+				"as proh",
+				"th ComCO"
+			],
+			"hits": [
+				{
+					"document": "Erin File",
+					"frags": [
+						"o the",
+						"ct as",
+						"tent t",
+						"ployee",
+						"as proh",
+						"th ComCO"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 549,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"o the",
+				"ct as",
+				"tent t",
+				"ployee",
+				"as proh",
+				"th ComCO"
+			],
+			"hits": [
+				{
+					"document": "Erin File",
+					"frags": [
+						"o the",
+						"ct as",
+						"tent t",
+						"ployee",
+						"as proh",
+						"th ComCO"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8384,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"o the",
+				"ct as",
+				"tent t",
+				"ployee",
+				"as proh",
+				"th ComCO"
+			],
+			"hits": [
+				{
+					"document": "Erin File",
+					"frags": [
+						"o the",
+						"ct as",
+						"tent t",
+						"ployee",
+						"as proh",
+						"th ComCO"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "Erin File",
+			"frags": [
+				"o the",
+				"ct as",
+				"tent t",
+				"ployee",
+				"as proh",
+				"th ComCO"
+			]
 		}
 	]
 }

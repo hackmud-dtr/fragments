@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "anon_jkuos3.check",
-	"sector": "K_4785",
+	"sector": "K_2006",
 	"sec_level": 4,
 	"date_added": 1565894320039,
-	"last_scraped": 1571522660498,
+	"last_scraped": 1571527632017,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1565894320039
-		}
+		},
+		{
+			"type": "died",
+			"when": 1571527356905
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1571527621107,
+				"from": "K_2006",
+				"to": "K_4785"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":true,\"msg\":\"No emails found. Friends can send you email with email.send { to: \\\"farmer_john\\\", body: \\\"\\\" }. Adding a subject is optional.\"}",
-	"next_scrape": 1571605253879,
-	"updt": 1571520665926,
-	"edit": 1422
+	"next_scrape": 1571620012468,
+	"updt": 1571527431053,
+	"edit": 1424
 }
