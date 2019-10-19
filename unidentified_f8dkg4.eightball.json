@@ -1,20 +1,95 @@
 {
 	"_id": "unidentified_f8dkg4.eightball",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "unidentified_f8dkg4.eightball",
-	"sector": "K_7153",
+	"sector": "K_7086",
 	"sec_level": 4,
 	"date_added": 1565331352350,
-	"last_scraped": 1571522007135,
+	"last_scraped": 1571526104010,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1565331352350
-		}
+		},
+		{
+			"type": "died",
+			"when": 1571525806989
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1571526056870,
+				"from": "K_7086",
+				"to": "K_7153"
+			}
+		]
 	],
 	"pl_output": "`dError` Please ask me a `Nquestion`.",
-	"next_scrape": 1571602177353,
-	"updt": 1571520215423,
-	"edit": 2367
+	"next_scrape": 1571526164010,
+	"updt": 1571522244580,
+	"edit": 2368,
+	"scrape_ct": 18,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1571526104010,
+	"output": [
+		{
+			"args": {},
+			"calls": 13461,
+			"base": "`dError` Please ask me a `Nquestion`.",
+			"fragments": [
+				"news\"",
+				"ion CF",
+				"ates H",
+				"ILE0XE",
+				"2A90\\n{",
+				"rator se",
+				"of opera",
+				"ST0X1C_S",
+				"\" of ope"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"news\"",
+						"ion CF",
+						"ates H",
+						"2A90\\n{",
+						"rator se",
+						"of opera",
+						"ST0X1C_S",
+						"\" of ope"
+					]
+				},
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"ILE0XE"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"news\"",
+				"ion CF",
+				"ates H",
+				"2A90\\n{",
+				"rator se",
+				"of opera",
+				"ST0X1C_S",
+				"\" of ope"
+			]
+		},
+		{
+			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+			"frags": [
+				"ILE0XE"
+			]
+		}
+	]
 }

@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_vpve57.pub_vz2zxe",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "timeout",
 	"script": "anonymous_vpve57.pub_vz2zxe",
-	"sector": "VNP_8134",
+	"sector": "K_6492",
 	"sec_level": 0,
 	"date_added": 1565740936357,
-	"last_scraped": 1570601776879,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1571525375919
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1571525662606,
+				"from": "K_6492",
+				"to": "VNP_8134"
+			}
+		]
 	],
-	"updt": 1570679235150,
-	"edit": 6,
+	"updt": 1571525630128,
+	"edit": 7,
 	"pl_output": "loc is not defined",
 	"next_scrape": 1570689368440
 }

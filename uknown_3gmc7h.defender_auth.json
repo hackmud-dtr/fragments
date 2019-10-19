@@ -1,16 +1,117 @@
 {
 	"_id": "uknown_3gmc7h.defender_auth",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "uknown_3gmc7h.defender_auth",
 	"sector": "K_7086",
 	"sec_level": 4,
 	"date_added": 1571525251223,
-	"last_scraped": 0,
+	"last_scraped": 1571525914623,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571525251223
+		}
+	],
+	"updt": 1571525630128,
+	"edit": 1,
+	"scrape_ct": 19,
+	"next_scrape": 1571525974623,
+	"category": "fishie_tank",
+	"last_update": 1571525914623,
+	"output": [
+		{
+			"args": {},
+			"calls": 4265,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ry\\n1E1",
+				"o, user ",
+				"llory\\n1",
+				"in R.\\n1E",
+				"\\n1E18 I "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ry\\n1E1",
+						"o, user ",
+						"llory\\n1",
+						"in R.\\n1E",
+						"\\n1E18 I "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 650,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ry\\n1E1",
+				"o, user ",
+				"llory\\n1",
+				"in R.\\n1E",
+				"\\n1E18 I "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ry\\n1E1",
+						"o, user ",
+						"llory\\n1",
+						"in R.\\n1E",
+						"\\n1E18 I "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 4159,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ry\\n1E1",
+				"o, user ",
+				"llory\\n1",
+				"in R.\\n1E",
+				"\\n1E18 I "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ry\\n1E1",
+						"o, user ",
+						"llory\\n1",
+						"in R.\\n1E",
+						"\\n1E18 I "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"ry\\n1E1",
+				"o, user ",
+				"llory\\n1",
+				"in R.\\n1E",
+				"\\n1E18 I "
+			]
 		}
 	]
 }
