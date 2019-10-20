@@ -1,28 +1,28 @@
 {
 	"_id": "unidentified_oss7m3.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unidentified_oss7m3.bot_scam_do_not_run",
 	"sector": "NGC_8726",
 	"sec_level": 4,
 	"date_added": 1571524437153,
-	"last_scraped": 1571546053925,
+	"last_scraped": 1571549202161,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571524437153
 		}
 	],
-	"updt": 1571542765544,
-	"edit": 5,
-	"scrape_ct": 10,
-	"next_scrape": 1571546113925,
+	"updt": 1571546149841,
+	"edit": 6,
+	"scrape_ct": 7,
+	"next_scrape": 1571549262161,
 	"category": "fishie_tank",
-	"last_update": 1571546053925,
+	"last_update": 1571549224429,
 	"output": [
 		{
 			"args": {},
-			"calls": 35142,
+			"calls": 47338,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"FILE0",
@@ -46,7 +46,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4471,
+			"calls": 5444,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -105,6 +105,11 @@
 				"D17B\\nAD0",
 				"B\\nAD0321"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
