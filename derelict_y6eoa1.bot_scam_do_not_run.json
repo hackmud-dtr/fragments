@@ -1,16 +1,88 @@
 {
 	"_id": "derelict_y6eoa1.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "derelict_y6eoa1.bot_scam_do_not_run",
 	"sector": "VNP_4635",
 	"sec_level": 4,
 	"date_added": 1571530173570,
-	"last_scraped": 0,
+	"last_scraped": 1571530776633,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571530173570
+		}
+	],
+	"updt": 1571530363192,
+	"edit": 1,
+	"scrape_ct": 20,
+	"next_scrape": 1571530836633,
+	"category": "coin_flipper",
+	"last_update": 1571530776633,
+	"output": [
+		{
+			"args": {},
+			"calls": 7138,
+			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
+			"fragments": [
+				"that ",
+				"gital",
+				" line ",
+				" digita",
+				" a good",
+				" It's a",
+				" as they"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"that ",
+						"gital",
+						" line ",
+						" digita"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" It's a",
+						" as they"
+					]
+				},
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"that ",
+						" a good"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
+				"that ",
+				"gital",
+				" line ",
+				" digita"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				" It's a",
+				" as they"
+			]
+		},
+		{
+			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+			"frags": [
+				"that ",
+				" a good"
+			]
 		}
 	]
 }

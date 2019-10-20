@@ -1,20 +1,73 @@
 {
 	"_id": "abandoned_ahv8p2.vet",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "abandoned_ahv8p2.vet",
-	"sector": "K_4785",
+	"sector": "K_8779",
 	"sec_level": 4,
 	"date_added": 1565894073189,
-	"last_scraped": 1571522127754,
+	"last_scraped": 1571531098724,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1565894073189
-		}
+		},
+		{
+			"type": "died",
+			"when": 1571530904422
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1571531077580,
+				"from": "K_8779",
+				"to": "K_4785"
+			}
+		]
 	],
 	"pl_output": "\n\t\tWelcome to Vet v0.1.0, a `LFULLSEC` defensive security tool by util. \n\t\tTo start vetting users and scripts, first make macros:\n\n\t\t/vet = util.vet {{ name: \"{0}\" }}\n\n\t\tThen call it with /vet util or /vet util.vet \n",
-	"next_scrape": 1571612118110,
-	"updt": 1571520215423,
-	"edit": 2177
+	"next_scrape": 1571531158724,
+	"updt": 1571531038602,
+	"edit": 2179,
+	"scrape_ct": 19,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1571531098724,
+	"output": [
+		{
+			"args": {},
+			"calls": 103154,
+			"base": "\n\t\tWelcome to Vet v0.1.0, a `LFULLSEC` defensive security tool by util. \n\t\tTo start vetting users and scripts, first make macros:\n\n\t\t/vet = util.vet {{ name: \"{0}\" }}\n\n\t\tThen call it with /vet util or /vet util.vet \n",
+			"fragments": [
+				"ve eno",
+				" retai",
+				"nsensus ",
+				"ndividua",
+				"consensu"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"ve eno",
+						" retai",
+						"nsensus ",
+						"ndividua",
+						"consensu"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+			"frags": [
+				"ve eno",
+				" retai",
+				"nsensus ",
+				"ndividua",
+				"consensu"
+			]
+		}
+	]
 }

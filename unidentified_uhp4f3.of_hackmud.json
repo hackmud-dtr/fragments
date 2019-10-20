@@ -1,20 +1,75 @@
 {
 	"_id": "unidentified_uhp4f3.of_hackmud",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "unidentified_uhp4f3.of_hackmud",
-	"sector": "K_7153",
+	"sector": "SPC_2020",
 	"sec_level": 4,
 	"date_added": 1565331613626,
-	"last_scraped": 1571522036783,
+	"last_scraped": 1571530816510,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1565331613626
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1571530786680,
+				"from": "SPC_2020",
+				"to": "K_7153"
+			}
+		]
 	],
 	"pl_output": "`BCURRENT GAME STATE`\n\nRole: `DGodfather` (`DMafia` `PKilling`)\nAbilities:\n- Kill someone each night\n\nAttributes:\n- You can't be jailed at night\n\n\n    G R A V E Y A R D    \n",
-	"next_scrape": 1571606384530,
-	"updt": 1571520215423,
-	"edit": 2367
+	"next_scrape": 1571530876510,
+	"updt": 1571530814056,
+	"edit": 2369,
+	"scrape_ct": 19,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1571530816510,
+	"output": [
+		{
+			"args": {},
+			"calls": 8829,
+			"base": "`BCURRENT GAME STATE`\n\nRole: `DGodfather` (`DMafia` `PKilling`)\nAbilities:\n- Kill someone each night\n\nAttributes:\n- You can't be jailed at night\n\n\n    G R A V E Y A R D    \n",
+			"fragments": [
+				"re do",
+				"7C I ",
+				" are ",
+				"here: ",
+				"AD0321",
+				"3217B ",
+				"e: we ar"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"re do",
+						"7C I ",
+						" are ",
+						"here: ",
+						"AD0321",
+						"3217B ",
+						"e: we ar"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"re do",
+				"7C I ",
+				" are ",
+				"here: ",
+				"AD0321",
+				"3217B ",
+				"e: we ar"
+			]
+		}
+	]
 }
