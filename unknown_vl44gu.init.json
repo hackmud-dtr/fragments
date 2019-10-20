@@ -1,20 +1,81 @@
 {
 	"_id": "unknown_vl44gu.init",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "unknown_vl44gu.init",
-	"sector": "K_7153",
+	"sector": "VNP_4635",
 	"sec_level": 4,
 	"date_added": 1565331352350,
-	"last_scraped": 1571522609927,
+	"last_scraped": 1571529722382,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1565331352350
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1571529701042,
+				"from": "VNP_4635",
+				"to": "K_7153"
+			}
+		]
 	],
 	"pl_output": "\n`B> Initiating Virtual Environment Container...`\n`c----------------------------------------------------------------`\n\n`bPROJECT BLACKFOX(c) 2055 Capital Acquisition Technologies, Inc.`\n`bDate 05/17/55 14:32:21 Ver 00.01.00`\n\n`B> Preparing BLACKFOX Environment...` `lOK`\n`B> Peforming VEC Security Self-Test...` `eFAILED`\n\n`B>` `eUSER IS NOT AUTHORISED.` `zLOCK_ERROR`\n`B>` `eSYSTEM WILL NOW HALT.`\n",
-	"next_scrape": 1571615861542,
-	"updt": 1571520665926,
-	"edit": 1472
+	"next_scrape": 1571529782382,
+	"updt": 1571522919525,
+	"edit": 1473,
+	"scrape_ct": 19,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1571529722382,
+	"output": [
+		{
+			"args": {},
+			"calls": 77571,
+			"base": "\n`B> Initiating Virtual Environment Container...`\n`c----------------------------------------------------------------`\n\n`bPROJECT BLACKFOX(c) 2055 Capital Acquisition Technologies, Inc.`\n`bDate 05/17/55 14:32:21 Ver 00.01.00`\n\n`B> Preparing BLACKFOX Environment...` `lOK`\n`B> Peforming VEC Security Self-Test...` `eFAILED`\n\n`B>` `eUSER IS NOT AUTHORISED.` `zLOCK_ERROR`\n`B>` `eSYSTEM WILL NOW HALT.`\n",
+			"fragments": [
+				"t eve",
+				"BINMA",
+				"ended ",
+				": the ",
+				" the te",
+				"o not be",
+				"ng of a ",
+				"has unin",
+				"barricad"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"t eve",
+						"BINMA",
+						"ended ",
+						": the ",
+						" the te",
+						"o not be",
+						"ng of a ",
+						"has unin",
+						"barricad"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
+				"t eve",
+				"BINMA",
+				"ended ",
+				": the ",
+				" the te",
+				"o not be",
+				"ng of a ",
+				"has unin",
+				"barricad"
+			]
+		}
+	]
 }

@@ -1,16 +1,138 @@
 {
 	"_id": "anon_ujwdt9.manage",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "anon_ujwdt9.manage",
 	"sector": "VNP_4635",
 	"sec_level": 4,
 	"date_added": 1571529200544,
-	"last_scraped": 0,
+	"last_scraped": 1571529962887,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571529200544
+		}
+	],
+	"updt": 1571529237459,
+	"edit": 1,
+	"scrape_ct": 19,
+	"next_scrape": 1571530022887,
+	"category": "fishie_tank",
+	"last_update": 1571529962887,
+	"output": [
+		{
+			"args": {},
+			"calls": 4016,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"our re",
+				" I kno",
+				"w you h",
+				"est!\\n1",
+				"t!\\n1E1D",
+				"like tha",
+				"at.\\n1E2",
+				" like th"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"our re",
+						" I kno",
+						"w you h",
+						"est!\\n1",
+						"t!\\n1E1D",
+						"like tha",
+						"at.\\n1E2",
+						" like th"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 600,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"our re",
+				" I kno",
+				"w you h",
+				"est!\\n1",
+				"t!\\n1E1D",
+				"like tha",
+				"at.\\n1E2",
+				" like th"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"our re",
+						" I kno",
+						"w you h",
+						"est!\\n1",
+						"t!\\n1E1D",
+						"like tha",
+						"at.\\n1E2",
+						" like th"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 3589,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"our re",
+				" I kno",
+				"w you h",
+				"est!\\n1",
+				"t!\\n1E1D",
+				"like tha",
+				"at.\\n1E2",
+				" like th"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"our re",
+						" I kno",
+						"w you h",
+						"est!\\n1",
+						"t!\\n1E1D",
+						"like tha",
+						"at.\\n1E2",
+						" like th"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"our re",
+				" I kno",
+				"w you h",
+				"est!\\n1",
+				"t!\\n1E1D",
+				"like tha",
+				"at.\\n1E2",
+				" like th"
+			]
 		}
 	]
 }
