@@ -1,16 +1,46 @@
 {
 	"_id": "anonymous_vhp3bt.t2locs",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "skip",
 	"script": "anonymous_vhp3bt.t2locs",
 	"sector": "SPC_2020",
 	"sec_level": 4,
 	"date_added": 1571530786680,
-	"last_scraped": 0,
+	"last_scraped": 1571531541867,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571530786680
+		}
+	],
+	"updt": 1571530814056,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1571531601867,
+	"category": "fishie_tank",
+	"last_update": 1571531541867,
+	"output": [
+		{
+			"args": {},
+			"calls": 5827,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"01 01",
+				"00 000",
+				"0 0000",
+				"\\n0000 ",
+				"00 0100",
+				"00\\n0000",
+				"0000\\n00"
+			]
 		}
 	]
 }
