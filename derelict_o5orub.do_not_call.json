@@ -1,28 +1,28 @@
 {
 	"_id": "derelict_o5orub.do_not_call",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "derelict_o5orub.do_not_call",
 	"sector": "K_7086",
 	"sec_level": 4,
 	"date_added": 1571526567541,
-	"last_scraped": 1571535429968,
+	"last_scraped": 1571540023499,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571526567541
 		}
 	],
-	"updt": 1571527206224,
-	"edit": 2,
-	"scrape_ct": 16,
-	"next_scrape": 1571535489968,
+	"updt": 1571535549096,
+	"edit": 3,
+	"scrape_ct": 12,
+	"next_scrape": 1571540083499,
 	"category": "fishie_tank",
-	"last_update": 1571535429968,
+	"last_update": 1571540023499,
 	"output": [
 		{
 			"args": {},
-			"calls": 9138,
+			"calls": 23040,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"o the",
@@ -119,6 +119,14 @@
 				"as proh",
 				"th ComCO"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
