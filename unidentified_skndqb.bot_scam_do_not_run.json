@@ -1,16 +1,58 @@
 {
 	"_id": "unidentified_skndqb.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "skip",
 	"script": "unidentified_skndqb.bot_scam_do_not_run",
 	"sector": "K_8779",
 	"sec_level": 4,
 	"date_added": 1571531309105,
-	"last_scraped": 0,
+	"last_scraped": 1571532526148,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571531309105
+		}
+	],
+	"updt": 1571531716375,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1571532586148,
+	"category": "fishie_tank",
+	"last_update": 1571532546951,
+	"output": [
+		{
+			"args": {},
+			"calls": 10658,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"o> ##",
+				" on a ",
+				"ts cool ",
+				" trad sa"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 963,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"o> ##",
+				" on a ",
+				"ts cool ",
+				" trad sa"
+			]
 		}
 	]
 }
