@@ -1,21 +1,25 @@
 {
 	"_id": "unknown_nd836z.logviewer",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_nd836z.logviewer",
 	"sector": "NGC_8726",
 	"sec_level": 4,
 	"date_added": 1571524467110,
-	"last_scraped": 1571721640190,
+	"last_scraped": 1571724571730,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571524467110
+		},
+		{
+			"type": "died",
+			"when": 1571724571730
 		}
 	],
-	"updt": 1571718832807,
-	"edit": 55,
-	"next_scrape": 1571762072125,
+	"updt": 1571721764380,
+	"edit": 56,
+	"next_scrape": 1571808672355,
 	"category": "plant_sim",
 	"last_update": 1571721640190,
 	"output": [
@@ -138,5 +142,6 @@
 				" and get"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_nd836z.logviewer: script doesn't exist\"}"
 }
