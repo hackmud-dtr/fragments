@@ -1,21 +1,29 @@
 {
 	"_id": "derelict_dtuq9w.fl",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "derelict_dtuq9w.fl",
 	"sector": "K_7086",
 	"sec_level": 4,
 	"date_added": 1571526307987,
-	"last_scraped": 1571723940256,
+	"last_scraped": 1571727020708,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571526307987
+		},
+		{
+			"type": "died",
+			"when": 1571727020708
+		},
+		{
+			"type": "died",
+			"when": 1571727106099
 		}
 	],
-	"updt": 1571721087528,
-	"edit": 52,
-	"next_scrape": 1571765025656,
+	"updt": 1571724014191,
+	"edit": 53,
+	"next_scrape": 1571814095999,
 	"category": "coin_flipper",
 	"last_update": 1571723940256,
 	"output": [
@@ -84,5 +92,6 @@
 				"olves\\n2"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_dtuq9w.fl: script doesn't exist\"}"
 }
