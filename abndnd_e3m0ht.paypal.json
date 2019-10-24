@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_e3m0ht.paypal",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abndnd_e3m0ht.paypal",
 	"sector": "K_3221",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "K_3221",
 				"to": "HJG_4491"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1571932138487
+		}
 	],
 	"pl_output": "l.get_date is not a function",
 	"next_scrape": 1572017021839,
-	"updt": 1571922891058,
-	"edit": 2840
+	"updt": 1571925376882,
+	"edit": 2841
 }

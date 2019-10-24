@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_yxz1xb.pal",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unknown_yxz1xb.pal",
 	"sector": "K_0199",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "K_0199",
 				"to": "HJG_4491"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1571932169486
+		}
 	],
-	"updt": 1571921088134,
-	"edit": 928,
+	"updt": 1571923343259,
+	"edit": 929,
 	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR crashdoom.paypal: script doesn't exist\"}",
 	"next_scrape": 1572004604666
 }

@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_e3m0ht.auction_house",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abndnd_e3m0ht.auction_house",
 	"sector": "K_6506",
 	"sec_level": 0,
@@ -19,12 +19,16 @@
 				"from": "K_6506",
 				"to": "K_8416"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1571932047970
+		}
 	],
 	"pl_output": "RUNTIME ERROR crashdoom.hk_auction_house: script doesn't exist",
 	"next_scrape": 1570913763259,
-	"updt": 1570863247669,
-	"edit": 433,
+	"updt": 1570869785994,
+	"edit": 434,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1570869772374,
 	"output": [
