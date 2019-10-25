@@ -1,16 +1,115 @@
 {
 	"_id": "anonymous_h62d9f.at",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "skip",
 	"script": "anonymous_h62d9f.at",
 	"sector": "SPC_8800",
 	"sec_level": 4,
 	"date_added": 1572013751586,
-	"last_scraped": 0,
+	"last_scraped": 1572013902023,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1572013751586
+		}
+	],
+	"updt": 1572013752620,
+	"edit": 1,
+	"scrape_ct": 17,
+	"next_scrape": 1572013962023,
+	"category": "fishie_tank",
+	"last_update": 1572013911761,
+	"output": [
+		{
+			"args": {},
+			"calls": 11483,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"I place",
+				"re do I ",
+				" your si",
+				"a lane,\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"I place",
+						"re do I ",
+						" your si",
+						"a lane,\\n"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1938,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"I place",
+				"re do I ",
+				" your si",
+				"a lane,\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"I place",
+						"re do I ",
+						" your si",
+						"a lane,\\n"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 7985,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"I place",
+				"re do I ",
+				" your si",
+				"a lane,\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"I place",
+						"re do I ",
+						" your si",
+						"a lane,\\n"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"I place",
+				"re do I ",
+				" your si",
+				"a lane,\\n"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
