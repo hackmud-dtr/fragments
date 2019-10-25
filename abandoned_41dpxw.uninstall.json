@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_41dpxw.uninstall",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "abandoned_41dpxw.uninstall",
 	"sector": "VNP_8418",
 	"sec_level": 4,
 	"date_added": 1572043962190,
-	"last_scraped": 1572044001645,
+	"last_scraped": 1572046150002,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1572130524858,
+	"next_scrape": 1572128589663,
 	"category": "risk_factor",
-	"last_update": 1572043990230,
+	"last_update": 1572046150002,
 	"output": [
 		{
 			"args": {},
@@ -38,7 +38,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 103,
+			"calls": 210,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"e of ",
@@ -55,11 +55,10 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1572044422105,
+	"edit": 1
 }
