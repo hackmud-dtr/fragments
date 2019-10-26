@@ -1,34 +1,26 @@
 {
 	"_id": "unknown_w8pu0k.logs",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unknown_w8pu0k.logs",
 	"sector": "VNP_8418",
 	"sec_level": 4,
 	"date_added": 1572056353494,
-	"last_scraped": 1572056373723,
+	"last_scraped": 1572056494489,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1572056353494
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 19,
-	"next_scrape": 1572056433723,
+	"scrape_ct": 15,
+	"next_scrape": 1572056554489,
 	"category": "fishie_tank",
-	"last_update": 1572056365076,
+	"last_update": 1572056505248,
 	"output": [
 		{
 			"args": {},
-			"calls": 9160,
+			"calls": 28477,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"SECT0X",
@@ -38,7 +30,105 @@
 				"R | NET",
 				" USER sm",
 				" PROG ER"
+			],
+			"hits": [
+				{
+					"document": "Essence",
+					"frags": [
+						"SECT0X",
+						"RROR |",
+						"R smir",
+						" | USE",
+						"R | NET",
+						" USER sm",
+						" PROG ER"
+					]
+				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1264,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"SECT0X",
+				"RROR |",
+				"R smir",
+				" | USE",
+				"R | NET",
+				" USER sm",
+				" PROG ER"
+			],
+			"hits": [
+				{
+					"document": "Essence",
+					"frags": [
+						"SECT0X",
+						"RROR |",
+						"R smir",
+						" | USE",
+						"R | NET",
+						" USER sm",
+						" PROG ER"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 5176,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"SECT0X",
+				"RROR |",
+				"R smir",
+				" | USE",
+				"R | NET",
+				" USER sm",
+				" PROG ER"
+			],
+			"hits": [
+				{
+					"document": "Essence",
+					"frags": [
+						"SECT0X",
+						"RROR |",
+						"R smir",
+						" | USE",
+						"R | NET",
+						" USER sm",
+						" PROG ER"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "Essence",
+			"frags": [
+				"SECT0X",
+				"RROR |",
+				"R smir",
+				" | USE",
+				"R | NET",
+				" USER sm",
+				" PROG ER"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
