@@ -1,0 +1,84 @@
+{
+	"_id": "anon_csfdqv.brain_acctnt",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "anon_csfdqv.brain_acctnt",
+	"sector": "VNP_8418",
+	"sec_level": 4,
+	"date_added": 1572129051289,
+	"last_scraped": 1572129231893,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1572129051289
+		},
+		{
+			"type": "died",
+			"when": 1572129231893
+		},
+		{
+			"type": "died",
+			"when": 1572129323052
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1572208594416,
+	"category": "coin_flipper",
+	"last_update": 1572129152099,
+	"output": [
+		{
+			"args": {},
+			"calls": 15797,
+			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
+			"fragments": [
+				", but",
+				" the ",
+				"wn the",
+				"in, bu",
+				"/high-",
+				"ure roa",
+				"ow-cult",
+				"he low-",
+				"h-cultu",
+				"culture",
+				"t want t",
+				"ad again",
+				" want to",
+				" to go d"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"-cult",
+						"wn the",
+						"/high-",
+						"ure roa",
+						"culture",
+						"t want t",
+						"ad again",
+						" want to"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+			"frags": [
+				"-cult",
+				"wn the",
+				"/high-",
+				"ure roa",
+				"culture",
+				"t want t",
+				"ad again",
+				" want to"
+			]
+		}
+	],
+	"updt": 1572129223842,
+	"edit": 1,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_csfdqv.brain_acctnt: script doesn't exist\"}"
+}
