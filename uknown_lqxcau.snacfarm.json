@@ -1,20 +1,130 @@
 {
 	"_id": "uknown_lqxcau.snacfarm",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "uknown_lqxcau.snacfarm",
-	"sector": "K_3221",
+	"sector": "VNP_8418",
 	"sec_level": 4,
 	"date_added": 1563655759056,
-	"last_scraped": 1572100429684,
+	"last_scraped": 1572102604437,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563655759056
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1572102454337,
+				"from": "VNP_8418",
+				"to": "K_3221"
+			}
+		]
 	],
 	"pl_output": "`2===== `Fscanfarm` `2=====`\n\n`1Welcome to the ``Fsnacfarm``1!`\n\n`2Usage:`\n\t`Nt` `Vscriptor`\n\t`1Corp scriptor to scrape, must be T1.`\n\nmade by skiilaa",
-	"next_scrape": 1572182271576,
-	"updt": 1572098329557,
-	"edit": 1900
+	"next_scrape": 1572102664437,
+	"updt": 1572100586513,
+	"edit": 1901,
+	"scrape_ct": 18,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1572102604437,
+	"output": [
+		{
+			"args": {
+				"t": 0
+			},
+			"calls": 194326,
+			"base": "`2===== `Fscanfarm` `2=====`\n\n`1Welcome to the ``Fsnacfarm``1!`\n\n`2Usage:`\n\t`Nt` `Vscriptor`\n\t`1Corp scriptor to scrape, must be T1.`\n\nmade by skiilaa",
+			"fragments": [
+				"LLORY",
+				"ATOR ",
+				"'re c",
+				"s, UNS",
+				"ke that",
+				" knows "
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"LLORY",
+						"ATOR ",
+						"'re c",
+						"s, UNS"
+					]
+				},
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ke that"
+					]
+				},
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"ke that"
+					]
+				},
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						" knows "
+					]
+				},
+				{
+					"document": "Prisoners",
+					"frags": [
+						" knows "
+					]
+				},
+				{
+					"document": "Proving/Children",
+					"frags": [
+						" knows "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"LLORY",
+				"ATOR ",
+				"'re c",
+				"s, UNS"
+			]
+		},
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"ke that"
+			]
+		},
+		{
+			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+			"frags": [
+				"ke that"
+			]
+		},
+		{
+			"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+			"frags": [
+				" knows "
+			]
+		},
+		{
+			"document": "Prisoners",
+			"frags": [
+				" knows "
+			]
+		},
+		{
+			"document": "Proving/Children",
+			"frags": [
+				" knows "
+			]
+		}
+	]
 }
