@@ -1,7 +1,7 @@
 {
 	"_id": "anon_4avf7s.ingest",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anon_4avf7s.ingest",
 	"sector": "VNP_8418",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1572128789453
+		},
+		{
+			"type": "died",
+			"when": 1572157245476
 		}
 	],
 	"scrape_ct": 17,
@@ -30,6 +34,20 @@
 				"5_SECT",
 				" ERROR",
 				"CT0XAD0C"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"NETW ",
+						"_SECT0",
+						"TW ERR",
+						"ST0X15",
+						"5_SECT",
+						" ERROR",
+						"CT0XAD0C"
+					]
+				}
 			]
 		},
 		{
@@ -46,6 +64,20 @@
 				"5_SECT",
 				" ERROR",
 				"CT0XAD0C"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"NETW ",
+						"_SECT0",
+						"TW ERR",
+						"ST0X15",
+						"5_SECT",
+						" ERROR",
+						"CT0XAD0C"
+					]
+				}
 			]
 		},
 		{
@@ -55,6 +87,36 @@
 			"calls": 459,
 			"base": "`LCLICK SECURED`",
 			"fragments": [
+				"NETW ",
+				"_SECT0",
+				"TW ERR",
+				"ST0X15",
+				"5_SECT",
+				" ERROR",
+				"CT0XAD0C"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"NETW ",
+						"_SECT0",
+						"TW ERR",
+						"ST0X15",
+						"5_SECT",
+						" ERROR",
+						"CT0XAD0C"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1572128998544,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
 				"NETW ",
 				"_SECT0",
 				"TW ERR",
