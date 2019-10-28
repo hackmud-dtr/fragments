@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_cxdgaj.obsub",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_cxdgaj.obsub",
 	"sector": "SPC_9360",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1572251839163
+		},
+		{
+			"type": "died",
+			"when": 1572273185005
 		}
 	],
 	"retry_args": [
@@ -32,6 +36,17 @@
 				"0000 00",
 				"\\n0000 0",
 				" 0000 01"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"0000\\n",
+						"0000 00",
+						"\\n0000 0",
+						" 0000 01"
+					]
+				}
 			]
 		},
 		{
@@ -41,6 +56,30 @@
 			"calls": 169,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
+				"0000\\n",
+				"0000 00",
+				"\\n0000 0",
+				" 0000 01"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"0000\\n",
+						"0000 00",
+						"\\n0000 0",
+						" 0000 01"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1572252057460,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
 				"0000\\n",
 				"0000 00",
 				"\\n0000 0",
