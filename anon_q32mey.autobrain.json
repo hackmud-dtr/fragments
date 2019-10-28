@@ -1,25 +1,25 @@
 {
 	"_id": "anon_q32mey.autobrain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_q32mey.autobrain",
 	"sector": "K_7825",
 	"sec_level": 4,
 	"date_added": 1572221757933,
-	"last_scraped": 1572241472818,
+	"last_scraped": 1572243552758,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1572221757933
 		}
 	],
-	"next_scrape": 1572284537799,
+	"next_scrape": 1572286082804,
 	"category": "clicker",
-	"last_update": 1572241472818,
+	"last_update": 1572243552758,
 	"output": [
 		{
 			"args": {},
-			"calls": 103615,
+			"calls": 113701,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"IME E",
@@ -51,7 +51,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 128177,
+			"calls": 139193,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"IME E",
@@ -127,6 +127,11 @@
 			]
 		}
 	],
-	"updt": 1572241451936,
-	"edit": 13
+	"updt": 1572241677359,
+	"edit": 14,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
