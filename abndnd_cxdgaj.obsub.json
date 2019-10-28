@@ -1,0 +1,51 @@
+{
+	"_id": "abndnd_cxdgaj.obsub",
+	"type": "fragment",
+	"mode": "timeout",
+	"script": "abndnd_cxdgaj.obsub",
+	"sector": "SPC_9360",
+	"sec_level": 4,
+	"date_added": 1572251839163,
+	"last_scraped": 1572251869404,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1572251839163
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1572331818460,
+	"category": "risk_factor",
+	"last_update": 1572251869404,
+	"output": [
+		{
+			"args": {},
+			"calls": 1683,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"0000\\n",
+				"0000 00",
+				"\\n0000 0",
+				" 0000 01"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 169,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"0000\\n",
+				"0000 00",
+				"\\n0000 0",
+				" 0000 01"
+			]
+		}
+	]
+}
