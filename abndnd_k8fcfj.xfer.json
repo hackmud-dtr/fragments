@@ -1,0 +1,117 @@
+{
+	"_id": "abndnd_k8fcfj.xfer",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abndnd_k8fcfj.xfer",
+	"sector": "HJG_1897",
+	"sec_level": 4,
+	"date_added": 1572270029283,
+	"last_scraped": 1572270280326,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1572270029283
+		}
+	],
+	"scrape_ct": 12,
+	"next_scrape": 1572270340326,
+	"category": "fishie_tank",
+	"last_update": 1572270280326,
+	"output": [
+		{
+			"args": {},
+			"calls": 29068,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ister",
+				" for a",
+				"ster's ",
+				"ecessary",
+				" she nec"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"ister",
+						" for a",
+						"ster's ",
+						"ecessary",
+						" she nec"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1877,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ister",
+				" for a",
+				"ster's ",
+				"ecessary",
+				" she nec"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"ister",
+						" for a",
+						"ster's ",
+						"ecessary",
+						" she nec"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 23776,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ister",
+				" for a",
+				"ster's ",
+				"ecessary",
+				" she nec"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"ister",
+						" for a",
+						"ster's ",
+						"ecessary",
+						" she nec"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				"ister",
+				" for a",
+				"ster's ",
+				"ecessary",
+				" she nec"
+			]
+		}
+	],
+	"updt": 1572270102372,
+	"edit": 1
+}
