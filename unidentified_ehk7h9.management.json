@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_ehk7h9.management",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unidentified_ehk7h9.management",
 	"sector": "HJG_5571",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1571990301291
+		},
+		{
+			"type": "died",
+			"when": 1572236498082
 		}
 	],
-	"updt": 1571990307213,
-	"edit": 1,
+	"updt": 1571990533571,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -30,6 +34,30 @@
 			"calls": 1124,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"01 010",
+				" 0101 ",
+				"000 010",
+				"000 000",
+				"0 0000 0"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"01 010",
+						" 0101 ",
+						"000 010",
+						"000 000",
+						"0 0000 0"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
 				"01 010",
 				" 0101 ",
 				"000 010",
