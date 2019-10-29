@@ -1,36 +1,41 @@
 {
 	"_id": "abandoned_k2byea.bot_brain",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abandoned_k2byea.bot_brain",
 	"sector": "K_3516",
 	"sec_level": 4,
 	"date_added": 1572386997180,
-	"last_scraped": 1572387158851,
+	"last_scraped": 1572387880986,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1572386997180
 		}
 	],
-	"scrape_ct": 15,
-	"next_scrape": 1572387218851,
+	"next_scrape": 1572430937420,
 	"category": "fishie_tank",
-	"last_update": 1572387158851,
+	"last_update": 1572387880986,
 	"output": [
 		{
 			"args": {},
-			"calls": 17709,
+			"calls": 73243,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"| SUB",
-				"ote -",
+				"m | S",
+				"note -",
 				"ge 5 |",
-				"J: ent",
-				"BODY q",
+				"Y quic",
+				" 5 | B",
 				"ton ai-",
 				"stage 5",
+				"ai-team",
+				"J: ente",
 				" enteri",
+				" BODY q",
+				"ring sta",
+				"SUBJ: en",
 				"-team | "
 			],
 			"hits": [
@@ -54,7 +59,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1685,
+			"calls": 7476,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -63,13 +68,19 @@
 			],
 			"fragments": [
 				"| SUB",
-				"ote -",
+				"m | S",
+				"note -",
 				"ge 5 |",
-				"J: ent",
-				"BODY q",
+				"Y quic",
+				" 5 | B",
 				"ton ai-",
 				"stage 5",
+				"ai-team",
+				"J: ente",
 				" enteri",
+				" BODY q",
+				"ring sta",
+				"SUBJ: en",
 				"-team | "
 			],
 			"hits": [
@@ -93,17 +104,23 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 18553,
+			"calls": 70686,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"| SUB",
-				"ote -",
+				"m | S",
+				"note -",
 				"ge 5 |",
-				"J: ent",
-				"BODY q",
+				"Y quic",
+				" 5 | B",
 				"ton ai-",
 				"stage 5",
+				"ai-team",
+				"J: ente",
 				" enteri",
+				" BODY q",
+				"ring sta",
+				"SUBJ: en",
 				"-team | "
 			],
 			"hits": [
@@ -139,5 +156,7 @@
 				"-team | "
 			]
 		}
-	]
+	],
+	"updt": 1572387668792,
+	"edit": 2
 }
