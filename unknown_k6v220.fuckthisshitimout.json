@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_k6v220.fuckthisshitimout",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "unknown_k6v220.fuckthisshitimout",
 	"sector": "K_7243",
 	"sec_level": 1,
@@ -19,8 +19,12 @@
 				"from": "K_7243",
 				"to": "K_1215"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1572397160386
+		}
 	],
-	"updt": 1568686193659,
-	"edit": 6
+	"updt": 1570601454412,
+	"edit": 7
 }
