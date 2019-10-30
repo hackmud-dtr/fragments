@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_k6v220.sha256",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unknown_k6v220.sha256",
 	"sector": "K_3804",
 	"sec_level": 4,
@@ -23,8 +23,12 @@
 				"from": "K_3804",
 				"to": "VNP_3200"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1572397107105
+		}
 	],
-	"updt": 1564544503963,
-	"edit": 2
+	"updt": 1564544955243,
+	"edit": 3
 }
