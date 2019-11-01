@@ -1,0 +1,142 @@
+{
+	"_id": "unidentified_t2nek0.bot_scam_do_not_run",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "unidentified_t2nek0.bot_scam_do_not_run",
+	"sector": "VNP_2214",
+	"sec_level": 4,
+	"date_added": 1572591803307,
+	"last_scraped": 1572592354995,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1572591803307
+		}
+	],
+	"scrape_ct": 5,
+	"next_scrape": 1572592414995,
+	"category": "fishie_tank",
+	"last_update": 1572592374043,
+	"output": [
+		{
+			"args": {},
+			"calls": 56069,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"riate",
+				" suspe",
+				"ss to s",
+				"of penal",
+				"digital "
+			],
+			"hits": [
+				{
+					"document": "Erin File",
+					"frags": [
+						"riate",
+						"ss to s",
+						"of penal",
+						"digital "
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" suspe"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4161,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"riate",
+				" suspe",
+				"ss to s",
+				"of penal",
+				"digital "
+			],
+			"hits": [
+				{
+					"document": "Erin File",
+					"frags": [
+						"riate",
+						"ss to s",
+						"of penal",
+						"digital "
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" suspe"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 44507,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"riate",
+				" suspe",
+				"ss to s",
+				"of penal",
+				"digital "
+			],
+			"hits": [
+				{
+					"document": "Erin File",
+					"frags": [
+						"riate",
+						"ss to s",
+						"of penal",
+						"digital "
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" suspe"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "Erin File",
+			"frags": [
+				"riate",
+				"ss to s",
+				"of penal",
+				"digital "
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				" suspe"
+			]
+		}
+	],
+	"updt": 1572592238661,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
