@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "abndnd_i9br0j.datadir",
-	"sector": "K_3221",
+	"sector": "K_1684",
 	"sec_level": 4,
 	"date_added": 1563654703215,
-	"last_scraped": 1572629071455,
+	"last_scraped": 1572629754317,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1563654703215
-		}
+		},
+		{
+			"type": "died",
+			"when": 1572629703780
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1572629743571,
+				"from": "K_1684",
+				"to": "K_3221"
+			}
+		]
 	],
 	"pl_output": "[\"{`FSYS`} automatically logged in as weld\",\"{`FSYS`} resuming session\",\"{`PNET`} connected\",\"{`DERR`} further access requires `Nauthentication`\",\"{`ASVR`} c21er2jpy68g5frl\",\"{`PNET`} Connection lost\",\"{`FSYS`} shutting down\"]",
-	"next_scrape": 1572716704481,
-	"updt": 1572626974315,
-	"edit": 2649
+	"next_scrape": 1572722554126,
+	"updt": 1572629228131,
+	"edit": 2650
 }
