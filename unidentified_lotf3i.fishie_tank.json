@@ -1,0 +1,141 @@
+{
+	"_id": "unidentified_lotf3i.fishie_tank",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "unidentified_lotf3i.fishie_tank",
+	"sector": "K_1684",
+	"sec_level": 4,
+	"date_added": 1572627895399,
+	"last_scraped": 1572628016027,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1572627895399
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1572628076027,
+	"category": "fishie_tank",
+	"last_update": 1572628045049,
+	"output": [
+		{
+			"args": {},
+			"calls": 18107,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"te ag",
+				"sure ",
+				"ses. ",
+				". Hon",
+				"e the ",
+				"duate ",
+				" analog",
+				"tuff mak"
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"te ag",
+						"sure ",
+						"ses. ",
+						". Hon",
+						"e the ",
+						"duate ",
+						" analog",
+						"tuff mak"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2396,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"te ag",
+				"sure ",
+				"ses. ",
+				". Hon",
+				"e the ",
+				"duate ",
+				" analog",
+				"tuff mak"
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"te ag",
+						"sure ",
+						"ses. ",
+						". Hon",
+						"e the ",
+						"duate ",
+						" analog",
+						"tuff mak"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8574,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"te ag",
+				"sure ",
+				"ses. ",
+				". Hon",
+				"e the ",
+				"duate ",
+				" analog",
+				"tuff mak"
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"te ag",
+						"sure ",
+						"ses. ",
+						". Hon",
+						"e the ",
+						"duate ",
+						" analog",
+						"tuff mak"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+			"frags": [
+				"te ag",
+				"sure ",
+				"ses. ",
+				". Hon",
+				"e the ",
+				"duate ",
+				" analog",
+				"tuff mak"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
