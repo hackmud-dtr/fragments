@@ -1,19 +1,27 @@
 {
 	"_id": "anonymous_l2qrdz.gpet",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "anonymous_l2qrdz.gpet",
 	"sector": "K_1684",
 	"sec_level": 4,
 	"date_added": 1572624468887,
-	"last_scraped": 1572640564437,
+	"last_scraped": 1572643397287,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1572624468887
+		},
+		{
+			"type": "died",
+			"when": 1572643397287
+		},
+		{
+			"type": "died",
+			"when": 1572643442085
 		}
 	],
-	"next_scrape": 1572682467530,
+	"next_scrape": 1572736289351,
 	"category": "plant_sim",
 	"last_update": 1572640564437,
 	"output": [
@@ -69,8 +77,8 @@
 			]
 		}
 	],
-	"updt": 1572638243638,
-	"edit": 11,
+	"updt": 1572640779985,
+	"edit": 12,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -89,5 +97,6 @@
 				"017 Shuf"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_l2qrdz.gpet: script doesn't exist\"}"
 }
