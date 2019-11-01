@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_jau9wq.sha256",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "uknown_jau9wq.sha256",
 	"sector": "K_6830",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1566873426209
+		},
+		{
+			"type": "died",
+			"when": 1572604359026
 		}
 	],
 	"scrape_ct": 19,
@@ -31,6 +35,21 @@
 				"s' the p",
 				"itted to",
 				"e proces"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						"be th",
+						"onside",
+						"t 'surv",
+						"e AI th",
+						" the pr",
+						"s' the p",
+						"itted to",
+						"e proces"
+					]
+				}
 			]
 		},
 		{
@@ -54,15 +73,57 @@
 				"itted to",
 				"e proces",
 				"e AI tha"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						"onside",
+						"n AI t",
+						"at sub",
+						"t submi",
+						"t 'surv",
+						"o be th",
+						"bmitted",
+						" the pr",
+						"the proc",
+						"same AI ",
+						"s' the p",
+						"itted to",
+						"e proces",
+						"e AI tha"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1570601454412,
-	"edit": 5,
+	"updt": 1570678332413,
+	"edit": 6,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
 		{
 			"do": "LOSE"
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+			"frags": [
+				"onside",
+				"n AI t",
+				"at sub",
+				"t submi",
+				"t 'surv",
+				"o be th",
+				"bmitted",
+				" the pr",
+				"the proc",
+				"same AI ",
+				"s' the p",
+				"itted to",
+				"e proces",
+				"e AI tha"
+			]
 		}
 	]
 }
