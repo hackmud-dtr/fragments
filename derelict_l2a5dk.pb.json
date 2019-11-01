@@ -1,19 +1,27 @@
 {
 	"_id": "derelict_l2a5dk.pb",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "derelict_l2a5dk.pb",
 	"sector": "HJG_0007",
 	"sec_level": 4,
 	"date_added": 1572561507941,
-	"last_scraped": 1572579173431,
+	"last_scraped": 1572581405852,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1572561507941
+		},
+		{
+			"type": "died",
+			"when": 1572581405852
+		},
+		{
+			"type": "died",
+			"when": 1572581526878
 		}
 	],
-	"next_scrape": 1572620731494,
+	"next_scrape": 1572665892496,
 	"category": "clicker",
 	"last_update": 1572579173431,
 	"output": [
@@ -267,6 +275,7 @@
 			]
 		}
 	],
-	"updt": 1572579159576,
-	"edit": 10
+	"updt": 1572581412140,
+	"edit": 12,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_l2a5dk.pb: script doesn't exist\"}"
 }
