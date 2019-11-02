@@ -1,18 +1,28 @@
 {
 	"_id": "unidentified_a42k9h.stitute",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "player",
 	"script": "unidentified_a42k9h.stitute",
-	"sector": "NGC_7203",
+	"sector": "SPC_1841",
 	"sec_level": 4,
 	"date_added": 1566853466185,
-	"last_scraped": 0,
+	"last_scraped": 1572735683142,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1566853466185
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1572735662896,
+				"from": "SPC_1841",
+				"to": "NGC_7203"
+			}
+		]
 	],
-	"updt": 1568686417352,
-	"edit": 4
+	"updt": 1570602128402,
+	"edit": 5,
+	"pl_output": "str.substr is not a function",
+	"next_scrape": 1572817450452
 }
