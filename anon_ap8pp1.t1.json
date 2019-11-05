@@ -1,19 +1,27 @@
 {
 	"_id": "anon_ap8pp1.t1",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "anon_ap8pp1.t1",
 	"sector": "HJG_1108",
 	"sec_level": 4,
 	"date_added": 1572713963569,
-	"last_scraped": 1572965333655,
+	"last_scraped": 1572967855693,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1572713963569
+		},
+		{
+			"type": "died",
+			"when": 1572967855693
+		},
+		{
+			"type": "died",
+			"when": 1572968029428
 		}
 	],
-	"next_scrape": 1573010268696,
+	"next_scrape": 1573059875683,
 	"category": "coin_flipper",
 	"last_update": 1572965333655,
 	"output": [
@@ -117,6 +125,7 @@
 			]
 		}
 	],
-	"updt": 1572962935991,
-	"edit": 98
+	"updt": 1572967896745,
+	"edit": 100,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_ap8pp1.t1: script doesn't exist\"}"
 }
