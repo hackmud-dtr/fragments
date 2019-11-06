@@ -6,28 +6,32 @@
 	"sector": "K_4610",
 	"sec_level": 4,
 	"date_added": 1572849204634,
-	"last_scraped": 1572997468557,
+	"last_scraped": 1573000116782,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1572849204634
 		}
 	],
-	"next_scrape": 1573040766194,
+	"next_scrape": 1573043093804,
 	"category": "coin_flipper",
-	"last_update": 1572997468557,
+	"last_update": 1573000116782,
 	"output": [
 		{
 			"args": {},
-			"calls": 581804,
+			"calls": 587209,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
-				" 0000 ",
 				"110 000",
+				"0110 00",
 				"000 011",
+				" 0000 0",
+				"NULLFILE",
 				"LLFILE\\n",
 				"001 0100",
-				"0000 000"
+				"0000 000",
+				"00 0000 ",
+				"LFILE\\n00"
 			],
 			"hits": [
 				{
@@ -57,6 +61,6 @@
 			]
 		}
 	],
-	"updt": 1572994969303,
-	"edit": 57
+	"updt": 1572997673035,
+	"edit": 58
 }
