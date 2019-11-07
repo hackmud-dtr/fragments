@@ -1,26 +1,30 @@
 {
 	"_id": "abndnd_8omwkm.t3_check",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abndnd_8omwkm.t3_check",
 	"sector": "NGC_1745",
 	"sec_level": 4,
 	"date_added": 1573162900790,
-	"last_scraped": 1573163796110,
+	"last_scraped": 1573163976296,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1573162900790
+		},
+		{
+			"type": "died",
+			"when": 1573164651046
 		}
 	],
-	"scrape_ct": 3,
-	"next_scrape": 1573163856110,
+	"scrape_ct": 2,
+	"next_scrape": 1573252905743,
 	"category": "dice_roller",
-	"last_update": 1573163796110,
+	"last_update": 1573163976296,
 	"output": [
 		{
 			"args": {},
-			"calls": 100762,
+			"calls": 114480,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
 				"9 but",
@@ -100,6 +104,6 @@
 			]
 		}
 	],
-	"updt": 1573163632964,
-	"edit": 4
+	"updt": 1573164081443,
+	"edit": 6
 }
