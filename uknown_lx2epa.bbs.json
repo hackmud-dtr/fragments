@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_lx2epa.bbs",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "uknown_lx2epa.bbs",
 	"sector": "K_5861",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "K_5861",
 				"to": "K_7542"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1573216998505
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"Please give me a `Nmode` : `V\\\"read\\\"` or `V\\\"write\\\"` to proceed.\"}",
 	"next_scrape": 1570802232542,
-	"updt": 1570706066019,
-	"edit": 109
+	"updt": 1570717801174,
+	"edit": 110
 }
