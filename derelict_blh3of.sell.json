@@ -1,0 +1,53 @@
+{
+	"_id": "derelict_blh3of.sell",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "derelict_blh3of.sell",
+	"sector": "VNP_8671",
+	"sec_level": 4,
+	"date_added": 1573269867512,
+	"last_scraped": 1573269909098,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1573269867512
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1573269969098,
+	"category": "risk_factor",
+	"last_update": 1573269909098,
+	"output": [
+		{
+			"args": {},
+			"calls": 2752,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"000\\n0",
+				" 0011 ",
+				"000 0000",
+				"0 0000 0",
+				" 0000 01"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 220,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"000\\n0",
+				" 0011 ",
+				"000 0000",
+				"0 0000 0",
+				" 0000 01"
+			]
+		}
+	]
+}
