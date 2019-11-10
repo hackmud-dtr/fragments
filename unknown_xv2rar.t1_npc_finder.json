@@ -1,0 +1,76 @@
+{
+	"_id": "unknown_xv2rar.t1_npc_finder",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "unknown_xv2rar.t1_npc_finder",
+	"sector": "VNP_7346",
+	"sec_level": 4,
+	"date_added": 1573424063264,
+	"last_scraped": 1573424114946,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1573424063264
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1573424174946,
+	"category": "fishie_tank",
+	"last_update": 1573424114946,
+	"output": [
+		{
+			"args": {},
+			"calls": 3736,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ter's",
+				"ecess",
+				"a mom",
+				"ry for",
+				"hollis",
+				"ent. is",
+				"ism for ",
+				"essary f"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 622,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ter's",
+				"ecess",
+				"a mom",
+				"ry for",
+				"hollis",
+				"ent. is",
+				"ism for ",
+				"essary f"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 10138,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ter's",
+				"ecess",
+				"a mom",
+				"ry for",
+				"hollis",
+				"ent. is",
+				"ism for ",
+				"essary f"
+			]
+		}
+	]
+}
