@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_hcgqj7.h",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anonymous_hcgqj7.h",
 	"sector": "VNP_7346",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1573362936030
+		},
+		{
+			"type": "died",
+			"when": 1573364773362
 		}
 	],
 	"retry_args": [
@@ -41,6 +45,26 @@
 				"passphra",
 				"ases are",
 				" passphr"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"sphras",
+						"noying",
+						"annoyi",
+						"rases a",
+						"are ann",
+						"## pass",
+						"# passp",
+						"s are an",
+						"re annoy",
+						"phrases ",
+						"passphra",
+						"ases are",
+						" passphr"
+					]
+				}
 			]
 		},
 		{
@@ -68,9 +92,49 @@
 				"passphra",
 				"ases are",
 				" passphr"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"sphras",
+						"noying",
+						"annoyi",
+						"rases a",
+						"are ann",
+						"## pass",
+						"# passp",
+						"s are an",
+						"re annoy",
+						"phrases ",
+						"passphra",
+						"ases are",
+						" passphr"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1573362961950,
-	"edit": 1
+	"updt": 1573363189030,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "Passphrase",
+			"frags": [
+				"sphras",
+				"noying",
+				"annoyi",
+				"rases a",
+				"are ann",
+				"## pass",
+				"# passp",
+				"s are an",
+				"re annoy",
+				"phrases ",
+				"passphra",
+				"ases are",
+				" passphr"
+			]
+		}
+	]
 }
