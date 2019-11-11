@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_auzhcc.t",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "derelict_auzhcc.t",
 	"sector": "HJG_7249",
 	"sec_level": 4,
 	"date_added": 1573458417509,
-	"last_scraped": 1573461354311,
+	"last_scraped": 1573464216262,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1573554077153,
+	"next_scrape": 1573551585981,
 	"category": "risk_factor",
-	"last_update": 1573461342041,
+	"last_update": 1573464216262,
 	"output": [
 		{
 			"args": {},
@@ -44,7 +44,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 232,
+			"calls": 333,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"6",
@@ -67,12 +67,9 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1573461346383,
-	"edit": 2,
+	"updt": 1573461797408,
+	"edit": 3,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
