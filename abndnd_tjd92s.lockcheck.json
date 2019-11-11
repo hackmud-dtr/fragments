@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_tjd92s.lockcheck",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abndnd_tjd92s.lockcheck",
 	"sector": "VNP_3080",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1573160267089
+		},
+		{
+			"type": "died",
+			"when": 1573465473395
 		}
 	],
 	"scrape_ct": 12,
@@ -168,8 +172,8 @@
 			]
 		}
 	],
-	"updt": 1573160475085,
-	"edit": 1,
+	"updt": 1573160700611,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "clean"
