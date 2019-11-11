@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_ddlrey.acct_nt_crck",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anonymous_ddlrey.acct_nt_crck",
 	"sector": "VNP_3676",
 	"sec_level": 3,
@@ -23,10 +23,14 @@
 				"from": "VNP_3676",
 				"to": "HJG_0153"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1573467876954
+		}
 	],
 	"pl_output": "[\"`pPass target as` `Nloc`:`V#s.scriptor`\",\"`p(optional) pass arguments as` `Narg`:`V{}` `pfor context`\",\"`psource code:github.com/iamacorn/hackmud/blob/master/acct_nt_crck.js`\"]",
 	"next_scrape": 1573548775793,
-	"updt": 1573464728861,
-	"edit": 3346
+	"updt": 1573467659847,
+	"edit": 3347
 }
