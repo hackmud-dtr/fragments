@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_rwmgly.checker",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "anonymous_rwmgly.checker",
-	"sector": "NGC_9263",
+	"sector": "K_4801",
 	"sec_level": 4,
 	"date_added": 1567610594731,
-	"last_scraped": 1573594815698,
+	"last_scraped": 1573596456926,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1573596373953
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1573596425860,
+				"from": "K_4801",
+				"to": "NGC_9263"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"Try passing the parameters `Nname`:`V\\\"trust.me\\\"` or `Ns`:`V#s.trust.me`\"}",
-	"next_scrape": 1573678325644,
-	"updt": 1573594823411,
-	"edit": 2147
+	"next_scrape": 1573681624766,
+	"updt": 1573596402855,
+	"edit": 2148
 }
