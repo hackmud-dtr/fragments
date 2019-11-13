@@ -1,19 +1,27 @@
 {
 	"_id": "unidentified_0bsexj.decorrupter",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unidentified_0bsexj.decorrupter",
 	"sector": "VNP_7346",
 	"sec_level": 4,
 	"date_added": 1573420885897,
-	"last_scraped": 1573616152811,
+	"last_scraped": 1573618918349,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1573420885897
+		},
+		{
+			"type": "died",
+			"when": 1573618918349
+		},
+		{
+			"type": "died",
+			"when": 1573619007953
 		}
 	],
-	"next_scrape": 1573656286547,
+	"next_scrape": 1573700520906,
 	"category": "dice_roller",
 	"last_update": 1573616152811,
 	"output": [
@@ -88,6 +96,7 @@
 			]
 		}
 	],
-	"updt": 1573613310748,
-	"edit": 69
+	"updt": 1573618949289,
+	"edit": 71,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_0bsexj.decorrupter: script doesn't exist\"}"
 }
