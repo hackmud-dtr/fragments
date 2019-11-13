@@ -1,19 +1,27 @@
 {
 	"_id": "abndnd_zit9lt.check",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abndnd_zit9lt.check",
 	"sector": "VNP_8671",
 	"sec_level": 4,
 	"date_added": 1573323338524,
-	"last_scraped": 1573613430989,
+	"last_scraped": 1573616294071,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1573323338524
+		},
+		{
+			"type": "died",
+			"when": 1573616294071
+		},
+		{
+			"type": "died",
+			"when": 1573616329936
 		}
 	],
-	"next_scrape": 1573656271992,
+	"next_scrape": 1573707418866,
 	"category": "plant_sim",
 	"last_update": 1573613430989,
 	"output": [
@@ -113,6 +121,7 @@
 			]
 		}
 	],
-	"updt": 1573610380976,
-	"edit": 102
+	"updt": 1573613535960,
+	"edit": 103,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_zit9lt.check: script doesn't exist\"}"
 }
