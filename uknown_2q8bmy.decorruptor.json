@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_2q8bmy.decorruptor",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "uknown_2q8bmy.decorruptor",
 	"sector": "SPC_6536",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "SPC_6536",
 				"to": "HJG_5959"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1573622031994
+		}
 	],
-	"updt": 1570774614021,
-	"edit": 233,
+	"updt": 1570782281372,
+	"edit": 234,
 	"pl_output": "rheaghe.decorruptor{target:#s.cyberdine.public,args:\"arg1:value1,arg2:value2,arg3:value3,etc:etcetera\"}\n\nArguments are optional. All values will be converted to strings\n\nmacro:\rheaghe.decorruptor {{ target:#s.{0}, args:{1} }}",
 	"next_scrape": 1570821691438,
 	"scrape_ct": 14,
