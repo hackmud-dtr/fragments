@@ -1,0 +1,70 @@
+{
+	"_id": "unknown_yv7jeg.weblist",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "unknown_yv7jeg.weblist",
+	"sector": "K_9888",
+	"sec_level": 4,
+	"date_added": 1573951443118,
+	"last_scraped": 1573951533723,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1573951443118
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1573951593723,
+	"category": "fishie_tank",
+	"last_update": 1573951533723,
+	"output": [
+		{
+			"args": {},
+			"calls": 9225,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"2085 Y",
+				"y\\n2086",
+				"5 in fr",
+				"llory\\n2",
+				"85 Yes, ",
+				" you?\\n2"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1302,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"2085 Y",
+				"y\\n2086",
+				"5 in fr",
+				"llory\\n2",
+				"85 Yes, ",
+				" you?\\n2"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 7648,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"2085 Y",
+				"y\\n2086",
+				"5 in fr",
+				"llory\\n2",
+				"85 Yes, ",
+				" you?\\n2"
+			]
+		}
+	]
+}
