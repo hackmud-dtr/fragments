@@ -1,20 +1,28 @@
 {
 	"_id": "unknown_srj679.loc",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "unknown_srj679.loc",
-	"sector": "K_8332",
+	"sector": "SPC_5275",
 	"sec_level": 2,
 	"date_added": 1570224703381,
-	"last_scraped": 1570735787190,
+	"last_scraped": 1573986758192,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1570224703381
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1573986747897,
+				"from": "SPC_5275",
+				"to": "K_8332"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"You must transfer an amount as a GC string or a whole number. Examples: \\\"1KGC\\\" or 1000\"}",
-	"next_scrape": 1570818429550,
-	"updt": 1570735823264,
-	"edit": 21
+	"next_scrape": 1574073283153,
+	"updt": 1570745069683,
+	"edit": 22
 }
