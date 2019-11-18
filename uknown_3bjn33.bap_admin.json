@@ -1,26 +1,26 @@
 {
 	"_id": "uknown_3bjn33.bap_admin",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "uknown_3bjn33.bap_admin",
 	"sector": "HJG_5141",
 	"sec_level": 4,
 	"date_added": 1574082045279,
-	"last_scraped": 1574082615732,
+	"last_scraped": 1574082686153,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1574082045279
 		}
 	],
-	"scrape_ct": 9,
-	"next_scrape": 1574082675732,
+	"scrape_ct": 8,
+	"next_scrape": 1574082746153,
 	"category": "fishie_tank",
-	"last_update": 1574082615732,
+	"last_update": 1574082718574,
 	"output": [
 		{
 			"args": {},
-			"calls": 33110,
+			"calls": 37784,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"nfirm",
@@ -71,7 +71,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5961,
+			"calls": 6669,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -206,6 +206,13 @@
 			"frags": [
 				"perator "
 			]
+		}
+	],
+	"updt": 1574082661139,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
