@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_9w6exn.extern_t1npsc",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "derelict_9w6exn.extern_t1npsc",
-	"sector": "FORM_THETA_2",
+	"sector": "HJG_5141",
 	"sec_level": 4,
 	"date_added": 1568809019709,
-	"last_scraped": 1574042129565,
+	"last_scraped": 1574043730631,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1574043269901
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1574043721354,
+				"from": "HJG_5141",
+				"to": "FORM_THETA_2"
+			}
+		]
 	],
 	"pl_output": "Cannot read property 'name' of undefined",
-	"next_scrape": 1574130696118,
-	"updt": 1574042256882,
-	"edit": 2125
+	"next_scrape": 1574124345376,
+	"updt": 1574043613248,
+	"edit": 2126
 }
