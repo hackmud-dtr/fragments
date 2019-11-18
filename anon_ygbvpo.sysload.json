@@ -1,0 +1,72 @@
+{
+	"_id": "anon_ygbvpo.sysload",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anon_ygbvpo.sysload",
+	"sector": "HJG_5141",
+	"sec_level": 4,
+	"date_added": 1574103167037,
+	"last_scraped": 1574103214846,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1574103167037
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1574103274846,
+	"category": "fishie_tank",
+	"last_update": 1574103214846,
+	"output": [
+		{
+			"args": {},
+			"calls": 8926,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"t kno",
+				"to mak",
+				"ld or ",
+				"ey're o",
+				"e old o",
+				"ause the"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1562,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"t kno",
+				"to mak",
+				"ld or ",
+				"ey're o",
+				"e old o",
+				"ause the"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8279,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"t kno",
+				"to mak",
+				"ld or ",
+				"ey're o",
+				"e old o",
+				"ause the"
+			]
+		}
+	],
+	"updt": 1574103179920,
+	"edit": 1
+}
