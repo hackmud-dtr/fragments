@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_amtjuw.t3",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anonymous_amtjuw.t3",
 	"sector": "SPC_6164",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "SPC_6164",
 				"to": "VNP_0345"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1574253531965
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"Please provide target, user, pin\"}",
 	"next_scrape": 1574343862689,
-	"updt": 1574250425997,
-	"edit": 2730
+	"updt": 1574252459474,
+	"edit": 2731
 }

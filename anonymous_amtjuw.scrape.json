@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_amtjuw.scrape",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anonymous_amtjuw.scrape",
 	"sector": "SPC_6164",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "SPC_6164",
 				"to": "VNP_0345"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1574253531965
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"please provide pub\"}",
 	"next_scrape": 1574342767118,
-	"updt": 1574249974949,
-	"edit": 3303
+	"updt": 1574252007343,
+	"edit": 3304
 }

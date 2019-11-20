@@ -1,19 +1,27 @@
 {
 	"_id": "abndnd_uvlkl7.dance",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abndnd_uvlkl7.dance",
 	"sector": "K_9888",
 	"sec_level": 4,
 	"date_added": 1573956972259,
-	"last_scraped": 1574251300895,
+	"last_scraped": 1574253412228,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1573956972259
+		},
+		{
+			"type": "died",
+			"when": 1574253412228
+		},
+		{
+			"type": "died",
+			"when": 1574253521000
 		}
 	],
-	"next_scrape": 1574297768582,
+	"next_scrape": 1574339961259,
 	"category": "coin_flipper",
 	"last_update": 1574251300895,
 	"output": [
@@ -260,6 +268,7 @@
 			]
 		}
 	],
-	"updt": 1574249300918,
-	"edit": 129
+	"updt": 1574251328399,
+	"edit": 130,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_uvlkl7.dance: script doesn't exist\"}"
 }

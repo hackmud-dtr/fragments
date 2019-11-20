@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_amtjuw.sortupgrades",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anonymous_amtjuw.sortupgrades",
 	"sector": "K_2954",
 	"sec_level": 2,
@@ -19,10 +19,14 @@
 				"from": "K_2954",
 				"to": "K_9897"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1574253654124
+		}
 	],
-	"updt": 1570663228308,
-	"edit": 34,
+	"updt": 1570682387407,
+	"edit": 35,
 	"pl_output": "No upgrades present. Reclaim upgrades from other users or purchase them on the market.",
 	"next_scrape": 1570761892066,
 	"scrape_ct": 18,
