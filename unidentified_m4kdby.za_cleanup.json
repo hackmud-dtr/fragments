@@ -1,25 +1,25 @@
 {
 	"_id": "unidentified_m4kdby.za_cleanup",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_m4kdby.za_cleanup",
 	"sector": "HJG_1745",
 	"sec_level": 4,
 	"date_added": 1574307865361,
-	"last_scraped": 1574336736243,
+	"last_scraped": 1574338807048,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1574307865361
 		}
 	],
-	"next_scrape": 1574379346108,
+	"next_scrape": 1574382666354,
 	"category": "clicker",
-	"last_update": 1574336736243,
+	"last_update": 1574338807048,
 	"output": [
 		{
 			"args": {},
-			"calls": 120101,
+			"calls": 135073,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"| TIME",
@@ -45,7 +45,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 165713,
+			"calls": 170964,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"| TIME",
@@ -562,6 +562,11 @@
 			]
 		}
 	],
-	"updt": 1574334841289,
-	"edit": 20
+	"updt": 1574336873506,
+	"edit": 21,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
