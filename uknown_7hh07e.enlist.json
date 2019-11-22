@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_7hh07e.enlist",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "uknown_7hh07e.enlist",
 	"sector": "HJG_8314",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "HJG_8314",
 				"to": "SPC_0707"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1574446818791
+		}
 	],
-	"updt": 1569086334758,
-	"edit": 6,
+	"updt": 1570602353583,
+	"edit": 7,
 	"pl_output": "{\"ok\":false,\"msg\":\"Cannot read property 'undefined' of null\\n`D#######`\\n\"}",
 	"next_scrape": 1568803434424
 }
