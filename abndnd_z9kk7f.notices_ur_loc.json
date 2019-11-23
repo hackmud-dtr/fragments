@@ -1,30 +1,22 @@
 {
 	"_id": "abndnd_z9kk7f.notices_ur_loc",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abndnd_z9kk7f.notices_ur_loc",
 	"sector": "K_1497",
 	"sec_level": 4,
 	"date_added": 1574538893269,
-	"last_scraped": 1574538912222,
+	"last_scraped": 1574538952675,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1574538893269
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 19,
-	"next_scrape": 1574538972222,
+	"scrape_ct": 18,
+	"next_scrape": 1574539012675,
 	"category": "fishie_tank",
-	"last_update": 1574538912222,
+	"last_update": 1574538952675,
 	"output": [
 		{
 			"args": {},
@@ -40,6 +32,47 @@
 				"man play",
 				"INMAT?\\n"
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1048,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"a hum",
+				", wha",
+				"T?\\n1E",
+				"8 Or at",
+				" playin",
+				"so.\\n1EB",
+				"man play",
+				"INMAT?\\n"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 5543,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"a hum",
+				", wha",
+				"T?\\n1E",
+				"8 Or at",
+				" playin",
+				"so.\\n1EB",
+				"man play",
+				"INMAT?\\n"
+			]
 		}
-	]
+	],
+	"updt": 1574538918131,
+	"edit": 1
 }
