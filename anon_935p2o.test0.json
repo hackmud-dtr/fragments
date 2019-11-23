@@ -1,19 +1,23 @@
 {
 	"_id": "anon_935p2o.test0",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_935p2o.test0",
 	"sector": "K_8369",
 	"sec_level": 4,
 	"date_added": 1574307865361,
-	"last_scraped": 1574503477496,
+	"last_scraped": 1574505515631,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1574307865361
+		},
+		{
+			"type": "died",
+			"when": 1574505515631
 		}
 	],
-	"next_scrape": 1574546736812,
+	"next_scrape": 1574587421262,
 	"category": "coin_flipper",
 	"last_update": 1574503477496,
 	"output": [
@@ -143,6 +147,7 @@
 			]
 		}
 	],
-	"updt": 1574501471031,
-	"edit": 96
+	"updt": 1574503501532,
+	"edit": 97,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_935p2o.test0: script doesn't exist\"}"
 }
