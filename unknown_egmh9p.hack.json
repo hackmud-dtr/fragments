@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_egmh9p.hack",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "unknown_egmh9p.hack",
 	"sector": "K_3076",
 	"sec_level": 4,
 	"date_added": 1574628045802,
-	"last_scraped": 1574628085421,
+	"last_scraped": 1574630035401,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1574715024336,
+	"next_scrape": 1574719754444,
 	"category": "risk_factor",
-	"last_update": 1574628074790,
+	"last_update": 1574630035401,
 	"output": [
 		{
 			"args": {},
@@ -39,7 +39,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 105,
+			"calls": 376,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"n dat",
@@ -57,11 +57,10 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1574628184205,
+	"edit": 1
 }
