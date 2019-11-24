@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_h728kz.bank",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "derelict_h728kz.bank",
 	"sector": "K_3076",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1574614605699
+		},
+		{
+			"type": "died",
+			"when": 1574616978899
 		}
 	],
 	"retry_args": [
@@ -38,6 +42,23 @@
 				"usted s",
 				"I have ",
 				"20AF I "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" comp",
+						"ve adj",
+						"e adju",
+						"d spat",
+						"\\n20AF",
+						"20B0 f",
+						".\\n20A",
+						"usted s",
+						"I have ",
+						"20AF I "
+					]
+				}
 			]
 		},
 		{
@@ -57,9 +78,43 @@
 				"usted s",
 				"I have ",
 				"20AF I "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" comp",
+						"ve adj",
+						"e adju",
+						"d spat",
+						"\\n20AF",
+						"20B0 f",
+						".\\n20A",
+						"usted s",
+						"I have ",
+						"20AF I "
+					]
+				}
 			]
 		}
 	],
-	"updt": 1574614658220,
-	"edit": 1
+	"updt": 1574614883743,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				" comp",
+				"ve adj",
+				"e adju",
+				"d spat",
+				"\\n20AF",
+				"20B0 f",
+				".\\n20A",
+				"usted s",
+				"I have ",
+				"20AF I "
+			]
+		}
+	]
 }
