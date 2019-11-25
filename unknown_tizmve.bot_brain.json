@@ -1,22 +1,22 @@
 {
 	"_id": "unknown_tizmve.bot_brain",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unknown_tizmve.bot_brain",
 	"sector": "NGC_8536",
 	"sec_level": 4,
 	"date_added": 1574712599797,
-	"last_scraped": 1574712730580,
+	"last_scraped": 1574712751969,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1574712599797
 		}
 	],
-	"scrape_ct": 16,
-	"next_scrape": 1574712790580,
+	"scrape_ct": 15,
+	"next_scrape": 1574712811969,
 	"category": "fishie_tank",
-	"last_update": 1574712730580,
+	"last_update": 1574712751969,
 	"output": [
 		{
 			"args": {},
@@ -54,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 938,
+			"calls": 1494,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -93,7 +93,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 5405,
+			"calls": 11000,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ur sa",
@@ -140,12 +140,6 @@
 			]
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1574712740231,
+	"edit": 1
 }
