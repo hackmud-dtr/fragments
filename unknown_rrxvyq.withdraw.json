@@ -1,0 +1,94 @@
+{
+	"_id": "unknown_rrxvyq.withdraw",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "unknown_rrxvyq.withdraw",
+	"sector": "NGC_8536",
+	"sec_level": 4,
+	"date_added": 1574685107165,
+	"last_scraped": 1574685158571,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1574685107165
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1574685218571,
+	"category": "fishie_tank",
+	"last_update": 1574685158571,
+	"output": [
+		{
+			"args": {},
+			"calls": 12736,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ors s",
+				"nceme",
+				"ing s",
+				"d to ",
+				" expe",
+				"suffer",
+				"cement",
+				"r losse",
+				"nnounce",
+				"losses ",
+				" furthe",
+				"tioned p",
+				"rs such ",
+				"oday's a"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1810,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ors s",
+				"nceme",
+				"ing s",
+				"d to ",
+				" expe",
+				"suffer",
+				"cement",
+				"r losse",
+				"nnounce",
+				"losses ",
+				" furthe",
+				"tioned p",
+				"rs such ",
+				"oday's a"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 3877,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ors s",
+				"nceme",
+				"ing s",
+				"d to ",
+				" expe",
+				"suffer",
+				"cement",
+				"r losse",
+				"nnounce",
+				"losses ",
+				" furthe",
+				"tioned p",
+				"rs such ",
+				"oday's a"
+			]
+		}
+	]
+}
