@@ -3,16 +3,36 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "anonymous_jr_9kqe4b.hopefullythisnameisunique",
-	"sector": "CHAOS_ZETA_5",
-	"sec_level": 2,
+	"sector": "CHAOS_THETA_2",
+	"sec_level": 0,
 	"date_added": 1574756000585,
-	"last_scraped": 1574756010080,
+	"last_scraped": 1574757246222,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1574756000585
-		}
+		},
+		{
+			"type": "died",
+			"when": 1574757197921
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1574757237491,
+				"from": "CHAOS_THETA_2",
+				"to": "CHAOS_ZETA_5"
+			},
+			{
+				"type": "sec level change",
+				"when": 1574757237491,
+				"from": 0,
+				"to": 2
+			}
+		]
 	],
-	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_jr_9kqe4b.hopefullythisnameisunique: Shift operation is currently in progress. 479s remain\"}",
-	"next_scrape": 1574845928157
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_jr_9kqe4b.hopefullythisnameisunique: Shift operation is currently in progress. 674s remain\"}",
+	"next_scrape": 1574845678688,
+	"updt": 1574756030339,
+	"edit": 1
 }
