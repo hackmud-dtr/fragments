@@ -1,7 +1,7 @@
 {
 	"_id": "anon_vvgie4.gallery",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anon_vvgie4.gallery",
 	"sector": "SPC_4016",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "SPC_4016",
 				"to": "K_6566"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1574796561670
+		}
 	],
-	"updt": 1573118994420,
-	"edit": 1404,
+	"updt": 1573121250216,
+	"edit": 1405,
 	"pl_output": "Unexpected token u in JSON at position 0",
 	"next_scrape": 1573214050230
 }
