@@ -1,0 +1,64 @@
+{
+	"_id": "anonymous_qd6egc.db",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anonymous_qd6egc.db",
+	"sector": "HJG_1942",
+	"sec_level": 4,
+	"date_added": 1574792743948,
+	"last_scraped": 1574792764033,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1574792743948
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1574792824033,
+	"category": "fishie_tank",
+	"last_update": 1574792792793,
+	"output": [
+		{
+			"args": {},
+			"calls": 7990,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"again",
+				"lve:\\n",
+				"e:\\n20B",
+				"4 deter",
+				"nst your",
+				"determin",
+				"\\n20B3 W",
+				"ours.\\n20"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 857,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"again",
+				"lve:\\n",
+				"e:\\n20B",
+				"4 deter",
+				"nst your",
+				"determin",
+				"\\n20B3 W",
+				"ours.\\n20"
+			]
+		}
+	]
+}
