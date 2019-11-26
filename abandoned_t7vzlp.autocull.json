@@ -3,18 +3,64 @@
 	"type": "fragment",
 	"mode": "timeout",
 	"script": "abandoned_t7vzlp.autocull",
-	"sector": "SPC_5330",
+	"sector": "VNP_7212",
 	"sec_level": 1,
 	"date_added": 1569042023648,
-	"last_scraped": 1570986237613,
+	"last_scraped": 1574764357093,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569042023648
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1574763946308,
+				"from": "VNP_7212",
+				"to": "SPC_5330"
+			}
+		]
 	],
 	"pl_output": "Nothing to delete",
-	"next_scrape": 1571077109881,
-	"updt": 1570979595678,
-	"edit": 46
+	"next_scrape": 1574844030088,
+	"updt": 1570986364976,
+	"edit": 47,
+	"scrape_ct": 15,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1574764357093,
+	"output": [
+		{
+			"args": {},
+			"calls": 1105,
+			"base": "Nothing to delete",
+			"fragments": [
+				"15_SEC",
+				"W ERROR",
+				"_CLST0X1",
+				"YST ERRO"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"15_SEC",
+						"W ERROR",
+						"_CLST0X1",
+						"YST ERRO"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
+				"15_SEC",
+				"W ERROR",
+				"_CLST0X1",
+				"YST ERRO"
+			]
+		}
+	]
 }
