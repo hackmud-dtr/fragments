@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_h1iow1.script",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abndnd_h1iow1.script",
 	"sector": "NGC_9087",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1571532133068
+		},
+		{
+			"type": "died",
+			"when": 1574736408716
 		}
 	],
-	"updt": 1571532166559,
-	"edit": 1,
+	"updt": 1574736411747,
+	"edit": 3,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -36,6 +40,54 @@
 				"udy - w",
 				" patter",
 				"ing rent"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"rns, ",
+						"ich c",
+						"reas. ",
+						"udy - w",
+						"ing rent"
+					]
+				},
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						" patter"
+					]
+				},
+				{
+					"document": "Proving/Children",
+					"frags": [
+						" patter"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"rns, ",
+				"ich c",
+				"reas. ",
+				"udy - w",
+				"ing rent"
+			]
+		},
+		{
+			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+			"frags": [
+				" patter"
+			]
+		},
+		{
+			"document": "Proving/Children",
+			"frags": [
+				" patter"
 			]
 		}
 	]
