@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_42zksa.bombs",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unknown_42zksa.bombs",
 	"sector": "NGC_1810",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "NGC_1810",
 				"to": "HJG_2788"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1574890835548
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"Script access denied.\"}",
 	"next_scrape": 1572301819535,
-	"updt": 1572215282123,
-	"edit": 2496
+	"updt": 1572217311125,
+	"edit": 2497
 }

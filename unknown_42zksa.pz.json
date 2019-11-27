@@ -1,19 +1,27 @@
 {
 	"_id": "unknown_42zksa.pz",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unknown_42zksa.pz",
 	"sector": "K_3076",
 	"sec_level": 4,
 	"date_added": 1574621182370,
-	"last_scraped": 1574888430313,
+	"last_scraped": 1574890893007,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1574621182370
+		},
+		{
+			"type": "died",
+			"when": 1574890893007
+		},
+		{
+			"type": "died",
+			"when": 1574890973015
 		}
 	],
-	"next_scrape": 1574933105825,
+	"next_scrape": 1574970903600,
 	"category": "dice_roller",
 	"last_update": 1574888430313,
 	"output": [
@@ -88,6 +96,7 @@
 			]
 		}
 	],
-	"updt": 1574886812033,
-	"edit": 142
+	"updt": 1574888618092,
+	"edit": 143,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_42zksa.pz: script doesn't exist\"}"
 }
