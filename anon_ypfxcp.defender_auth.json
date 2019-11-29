@@ -1,0 +1,59 @@
+{
+	"_id": "anon_ypfxcp.defender_auth",
+	"type": "fragment",
+	"mode": "timeout",
+	"script": "anon_ypfxcp.defender_auth",
+	"sector": "K_2236",
+	"sec_level": 4,
+	"date_added": 1575003631050,
+	"last_scraped": 1575003669584,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1575003631050
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1575090896399,
+	"category": "risk_factor",
+	"last_update": 1575003669584,
+	"output": [
+		{
+			"args": {},
+			"calls": 2315,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"s | B",
+				"reste",
+				"SUBJ ",
+				"waki |",
+				"ted in",
+				"ed in ",
+				" BODY ",
+				"ive proc"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 143,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"s | B",
+				"reste",
+				"SUBJ ",
+				"waki |",
+				"ted in",
+				"ed in ",
+				" BODY ",
+				"ive proc"
+			]
+		}
+	]
+}
