@@ -1,26 +1,26 @@
 {
 	"_id": "abandoned_vrvrzx.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abandoned_vrvrzx.db",
 	"sector": "K_2236",
 	"sec_level": 4,
 	"date_added": 1575010222119,
-	"last_scraped": 1575010593162,
+	"last_scraped": 1575010844228,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1575010222119
 		}
 	],
-	"scrape_ct": 9,
-	"next_scrape": 1575010653162,
+	"scrape_ct": 4,
+	"next_scrape": 1575010904228,
 	"category": "fishie_tank",
-	"last_update": 1575010593162,
+	"last_update": 1575010875306,
 	"output": [
 		{
 			"args": {},
-			"calls": 32842,
+			"calls": 46671,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"vated",
@@ -78,7 +78,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2575,
+			"calls": 4753,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -141,7 +141,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 36321,
+			"calls": 41980,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"vated",
@@ -232,6 +232,11 @@
 			]
 		}
 	],
-	"updt": 1575010380894,
-	"edit": 1
+	"updt": 1575010832364,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
