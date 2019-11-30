@@ -1,7 +1,7 @@
 {
 	"_id": "anon_v1y97y.sector",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anon_v1y97y.sector",
 	"sector": "K_2236",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1575091796034
+		},
+		{
+			"type": "died",
+			"when": 1575096358408
 		}
 	],
-	"updt": 1575091988753,
-	"edit": 1,
+	"updt": 1575092213278,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "feed"
@@ -33,6 +37,34 @@
 			"calls": 18485,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"0000 01",
+				"00\\n0000",
+				"0000 000",
+				"000 0100",
+				"00 0000 ",
+				" 0000 00",
+				"00 0000\\n"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"0000 01",
+						"00\\n0000",
+						"0000 000",
+						"000 0100",
+						"00 0000 ",
+						" 0000 00",
+						"00 0000\\n"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
 				"0000 01",
 				"00\\n0000",
 				"0000 000",

@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_864wmx.fake_users",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "uknown_864wmx.fake_users",
 	"sector": "K_2217",
 	"sec_level": 4,
@@ -19,12 +19,16 @@
 				"from": "K_2217",
 				"to": "NGC_9751"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1575096577376
+		}
 	],
 	"pl_output": "Usage:\n`Nusers`: an array of usernames\n`Nmaxusers` (Optional): maximum amount of usernames. Default is max(2, users.​length).\n`Nretired` (Optional): an array of retired usernames.\n`Nmaxretired` (Optional): maximum amount of retired users. Default is 5.\n`Nactiveuser` (Optional): active user. Default is users[0].\nfullscreen:true (Optional): Self explanatory.",
 	"next_scrape": 1571061272441,
-	"updt": 1571015687053,
-	"edit": 1502,
+	"updt": 1571021548523,
+	"edit": 1503,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1571021469056,
 	"output": [
