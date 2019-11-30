@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_27unu1.bank",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abndnd_27unu1.bank",
 	"sector": "K_1497",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "K_1497",
 				"to": "KIN_THETA_2"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1575113832804
+		}
 	],
 	"pl_output": "Flip a coin! heads wins, tails loses. {flip:true}",
 	"next_scrape": 1575205737452,
-	"updt": 1575111599162,
-	"edit": 2520
+	"updt": 1575113177815,
+	"edit": 2521
 }
