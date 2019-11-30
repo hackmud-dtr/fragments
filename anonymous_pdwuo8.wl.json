@@ -1,26 +1,25 @@
 {
 	"_id": "anonymous_pdwuo8.wl",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anonymous_pdwuo8.wl",
 	"sector": "K_2236",
 	"sec_level": 4,
 	"date_added": 1575093992556,
-	"last_scraped": 1575094455447,
+	"last_scraped": 1575094837895,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1575093992556
 		}
 	],
-	"scrape_ct": 7,
-	"next_scrape": 1575094515447,
+	"next_scrape": 1575137931043,
 	"category": "fishie_tank",
-	"last_update": 1575094465447,
+	"last_update": 1575094837895,
 	"output": [
 		{
 			"args": {},
-			"calls": 29593,
+			"calls": 49833,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"2086 ",
@@ -50,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3135,
+			"calls": 5579,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -58,13 +57,22 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"2086 ",
-				"u?\\n20",
-				"of you",
-				"f you?",
+				"arran",
+				", Mal",
+				" of y",
+				"5 in f",
+				"ront of",
+				"of you?",
+				"\\n2086 ",
+				"?\\n2085",
+				"85 Yes,",
+				" them\\n",
+				"anged th",
 				"2085 Yes",
+				" Mallory",
 				"them\\n204",
-				"m\\n2045 i"
+				"m\\n2045 i",
+				" you?\\n20"
 			],
 			"hits": [
 				{
@@ -85,16 +93,25 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 40570,
+			"calls": 64529,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"2086 ",
-				"u?\\n20",
-				"of you",
-				"f you?",
+				"arran",
+				", Mal",
+				" of y",
+				"5 in f",
+				"ront of",
+				"of you?",
+				"\\n2086 ",
+				"?\\n2085",
+				"85 Yes,",
+				" them\\n",
+				"anged th",
 				"2085 Yes",
+				" Mallory",
 				"them\\n204",
-				"m\\n2045 i"
+				"m\\n2045 i",
+				" you?\\n20"
 			],
 			"hits": [
 				{
@@ -112,8 +129,8 @@
 			]
 		}
 	],
-	"updt": 1575094244518,
-	"edit": 2,
+	"updt": 1575094695910,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -126,11 +143,6 @@
 				"them\\n204",
 				"m\\n2045 i"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
