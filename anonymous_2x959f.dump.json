@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_2x959f.dump",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "anonymous_2x959f.dump",
-	"sector": "HJG_9367",
+	"sector": "VNP_7212",
 	"sec_level": 1,
 	"date_added": 1572550615941,
-	"last_scraped": 1575259267151,
+	"last_scraped": 1575262860542,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1575260156886
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1575260231873,
+				"from": "VNP_7212",
+				"to": "HJG_9367"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"Please pass in an array of `Nitems`\"}",
-	"next_scrape": 1575349555234,
-	"updt": 1575259545842,
-	"edit": 1148
+	"next_scrape": 1575352400121,
+	"updt": 1575260446953,
+	"edit": 1150
 }
