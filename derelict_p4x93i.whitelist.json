@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_p4x93i.whitelist",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_p4x93i.whitelist",
 	"sector": "VNP_7825",
 	"sec_level": 4,
 	"date_added": 1563624033768,
-	"last_scraped": 1573682299851,
+	"last_scraped": 1573684908245,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,10 +19,14 @@
 				"from": "VNP_7825",
 				"to": "K_9556"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1575409129642
+		}
 	],
 	"pl_output": "Cannot read property 'users' of null",
-	"next_scrape": 1573774223707,
-	"updt": 1573679608041,
-	"edit": 3004
+	"next_scrape": 1573768720169,
+	"updt": 1573685020712,
+	"edit": 3006
 }
