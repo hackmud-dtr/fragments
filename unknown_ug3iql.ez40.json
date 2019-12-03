@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_ug3iql.ez40",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unknown_ug3iql.ez40",
 	"sector": "K_1993",
 	"sec_level": 4,
 	"date_added": 1563579072109,
-	"last_scraped": 1575362399891,
+	"last_scraped": 1575363978324,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,10 +19,18 @@
 				"from": "K_1993",
 				"to": "K_9556"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1575363978324
+		},
+		{
+			"type": "died",
+			"when": 1575364044122
+		}
 	],
-	"pl_output": "Cannot read property 'call' of undefined",
-	"next_scrape": 1575451886527,
-	"updt": 1575360996083,
-	"edit": 4205
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_ug3iql.ez40: script doesn't exist\"}",
+	"next_scrape": 1575451888514,
+	"updt": 1575362574744,
+	"edit": 4206
 }
