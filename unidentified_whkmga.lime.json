@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_whkmga.lime",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "unidentified_whkmga.lime",
 	"sector": "NGC_9080",
 	"sec_level": 4,
 	"date_added": 1575457567424,
-	"last_scraped": 1575457597284,
+	"last_scraped": 1575459295895,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1575549800497,
+	"next_scrape": 1575544700457,
 	"category": "risk_factor",
-	"last_update": 1575457587192,
+	"last_update": 1575459295895,
 	"output": [
 		{
 			"args": {},
@@ -36,7 +36,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 100,
+			"calls": 256,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"ink s",
@@ -51,11 +51,10 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1575459297091,
+	"edit": 2
 }
