@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_lqxcau.service",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "uknown_lqxcau.service",
 	"sector": "K_5707",
 	"sec_level": 1,
 	"date_added": 1563655768919,
-	"last_scraped": 1575438753885,
+	"last_scraped": 1575440647746,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,10 +19,18 @@
 				"from": "K_5707",
 				"to": "HJG_2629"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1575440647746
+		},
+		{
+			"type": "died",
+			"when": 1575440843995
+		}
 	],
-	"updt": 1575435167598,
-	"edit": 2133,
-	"pl_output": "Unexpected token u in JSON at position 0",
-	"next_scrape": 1575518351097
+	"updt": 1575440809503,
+	"edit": 2135,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_lqxcau.service: script doesn't exist\"}",
+	"next_scrape": 1575522992936
 }

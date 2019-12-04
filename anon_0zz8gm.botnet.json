@@ -1,12 +1,12 @@
 {
 	"_id": "anon_0zz8gm.botnet",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anon_0zz8gm.botnet",
 	"sector": "K_5707",
 	"sec_level": 1,
 	"date_added": 1563655768919,
-	"last_scraped": 1575439177891,
+	"last_scraped": 1575440818320,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,10 +19,18 @@
 				"from": "K_5707",
 				"to": "HJG_2629"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1575440818320
+		},
+		{
+			"type": "died",
+			"when": 1575440843995
+		}
 	],
-	"updt": 1575435394398,
-	"edit": 3034,
-	"pl_output": "Nah B",
-	"next_scrape": 1575523809816
+	"updt": 1575439228769,
+	"edit": 3035,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_0zz8gm.botnet: script doesn't exist\"}",
+	"next_scrape": 1575524738103
 }

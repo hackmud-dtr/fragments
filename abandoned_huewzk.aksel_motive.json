@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_huewzk.aksel_motive",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_huewzk.aksel_motive",
 	"sector": "NGC_9518",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1572669790520
+		},
+		{
+			"type": "died",
+			"when": 1575440749756
 		}
 	],
 	"retry_args": [
@@ -36,6 +40,26 @@
 				"\\nSYST ",
 				"ST ERROR",
 				"02D6\\nSYS"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"RROR ",
+						"YST ER",
+						"ILE0XE",
+						"_FILE0X",
+						"\\nSYST ",
+						"ST ERROR"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"EEF90",
+						"02D6\\nSYS"
+					]
+				}
 			]
 		},
 		{
@@ -52,6 +76,48 @@
 				"_FILE0X",
 				"\\nSYST ",
 				"ST ERROR",
+				"02D6\\nSYS"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"RROR ",
+						"YST ER",
+						"ILE0XE",
+						"_FILE0X",
+						"\\nSYST ",
+						"ST ERROR"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"EEF90",
+						"02D6\\nSYS"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1572669874481,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+			"frags": [
+				"RROR ",
+				"YST ER",
+				"ILE0XE",
+				"_FILE0X",
+				"\\nSYST ",
+				"ST ERROR"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"EEF90",
 				"02D6\\nSYS"
 			]
 		}
