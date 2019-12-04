@@ -1,0 +1,122 @@
+{
+	"_id": "unknown_4iavt4.ad",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unknown_4iavt4.ad",
+	"sector": "NGC_9080",
+	"sec_level": 4,
+	"date_added": 1575458340609,
+	"last_scraped": 1575458833033,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1575458340609
+		}
+	],
+	"scrape_ct": 9,
+	"next_scrape": 1575458893033,
+	"category": "fishie_tank",
+	"last_update": 1575458833033,
+	"output": [
+		{
+			"args": {},
+			"calls": 40905,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"un of m",
+				".\\n203E",
+				"E You're",
+				"tion.\\n20",
+				"203F :)\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"un of m",
+						".\\n203E",
+						"E You're",
+						"tion.\\n20",
+						"203F :)\\n"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4383,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"un of m",
+				".\\n203E",
+				"E You're",
+				"tion.\\n20",
+				"203F :)\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"un of m",
+						".\\n203E",
+						"E You're",
+						"tion.\\n20",
+						"203F :)\\n"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 38760,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"un of m",
+				".\\n203E",
+				"E You're",
+				"tion.\\n20",
+				"203F :)\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"un of m",
+						".\\n203E",
+						"E You're",
+						"tion.\\n20",
+						"203F :)\\n"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"un of m",
+				".\\n203E",
+				"E You're",
+				"tion.\\n20",
+				"203F :)\\n"
+			]
+		}
+	],
+	"updt": 1575458620905,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
