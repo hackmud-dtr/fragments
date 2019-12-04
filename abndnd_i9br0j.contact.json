@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_i9br0j.contact",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_i9br0j.contact",
 	"sector": "NGC_4527",
 	"sec_level": 3,
@@ -19,10 +19,14 @@
 				"from": "NGC_4527",
 				"to": "HJG_0153"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1575439730976
+		}
 	],
-	"updt": 1571103494201,
-	"edit": 474,
+	"updt": 1571108685692,
+	"edit": 475,
 	"pl_output": "You have 0 usnax.\nYou will be paid a total of 0GC\nTo confirm, pass t:#s.sys.xfer_upgrade_to and u:#s.sys.manage.",
 	"next_scrape": 1571200825730,
 	"category": "UNKNOWN CATEGORY",

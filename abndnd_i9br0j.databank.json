@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_i9br0j.databank",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abndnd_i9br0j.databank",
 	"sector": "SPC_2168",
 	"sec_level": 4,
@@ -19,12 +19,16 @@
 				"from": "SPC_2168",
 				"to": "K_3221"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1575439838161
+		}
 	],
 	"pl_output": "`PDatabank` Storage System contains 2427 player locs.\nYou can do a `Nr`egex search, `Ng`et a specific user's loc,\n`Nb`rowse by page or `Nd`ump all locs. (dump may be too large for CLI)\nFind any locs we're missing? `Na`dd them!",
 	"next_scrape": 1571104093320,
-	"updt": 1571056364721,
-	"edit": 1294,
+	"updt": 1571061775122,
+	"edit": 1295,
 	"scrape_ct": 1,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1571061656514,
