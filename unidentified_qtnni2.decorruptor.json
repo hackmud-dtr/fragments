@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_qtnni2.decorruptor",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unidentified_qtnni2.decorruptor",
 	"sector": "HJG_2723",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "HJG_2723",
 				"to": "HJG_0205"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1575586688821
+		}
 	],
-	"updt": 1571033273424,
-	"edit": 568,
+	"updt": 1571038998437,
+	"edit": 569,
 	"pl_output": "cubit33.decorruptor{target:#s.cyberdine.public,args:\"arg1:value1,arg2:value2,arg3:value3,etc:etcetera\"}\n\nArguments are optional. All values will be converted to strings\n\nmacro:\ncubit33.decorruptor {{ target:#s.{0}, args:{1} }}",
 	"next_scrape": 1571083891584,
 	"category": "UNKNOWN CATEGORY",

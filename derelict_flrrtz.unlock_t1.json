@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_flrrtz.unlock_t1",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_flrrtz.unlock_t1",
 	"sector": "NGC_8726",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "NGC_8726",
 				"to": "HJG_0205"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1575586741103
+		}
 	],
 	"pl_output": "Cannot read property 'call' of undefined",
 	"next_scrape": 1575676013299,
-	"updt": 1575584529290,
-	"edit": 4324
+	"updt": 1575585883057,
+	"edit": 4325
 }
