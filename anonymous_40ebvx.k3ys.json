@@ -1,27 +1,27 @@
 {
 	"_id": "anonymous_40ebvx.k3ys",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_40ebvx.k3ys",
 	"sector": "VNP_0757",
 	"sec_level": 4,
 	"date_added": 1575629394043,
-	"last_scraped": 1575630376830,
+	"last_scraped": 1575631764208,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1575629394043
 		}
 	],
-	"updt": 1575630310378,
-	"edit": 4,
-	"next_scrape": 1575670819859,
+	"updt": 1575630535500,
+	"edit": 5,
+	"next_scrape": 1575671772654,
 	"category": "fishie_tank",
-	"last_update": 1575630376830,
+	"last_update": 1575631775261,
 	"output": [
 		{
 			"args": {},
-			"calls": 67535,
+			"calls": 79959,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ood o",
@@ -53,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8524,
+			"calls": 9010,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -132,6 +132,11 @@
 				"ssional ",
 				"icist. I"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
