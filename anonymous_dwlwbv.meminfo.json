@@ -1,19 +1,27 @@
 {
 	"_id": "anonymous_dwlwbv.meminfo",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "anonymous_dwlwbv.meminfo",
 	"sector": "VNP_5612",
 	"sec_level": 4,
 	"date_added": 1575308298584,
-	"last_scraped": 1575612648576,
+	"last_scraped": 1575613964141,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1575308298584
+		},
+		{
+			"type": "died",
+			"when": 1575613964141
+		},
+		{
+			"type": "died",
+			"when": 1575614119125
 		}
 	],
-	"next_scrape": 1575658659305,
+	"next_scrape": 1575704791479,
 	"category": "dice_roller",
 	"last_update": 1575612648576,
 	"output": [
@@ -241,6 +249,7 @@
 			]
 		}
 	],
-	"updt": 1575611367238,
-	"edit": 196
+	"updt": 1575614073712,
+	"edit": 198,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_dwlwbv.meminfo: script doesn't exist\"}"
 }
