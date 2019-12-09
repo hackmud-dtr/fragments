@@ -1,20 +1,123 @@
 {
 	"_id": "unknown_4my2zb.pub_4fg83",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "unknown_4my2zb.pub_4fg83",
-	"sector": "K_8199",
+	"sector": "NGC_1558",
 	"sec_level": 2,
 	"date_added": 1573237983893,
-	"last_scraped": 1573251589323,
+	"last_scraped": 1575932080468,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1573237983893
-		}
+		},
+		{
+			"type": "died",
+			"when": 1575931789953
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1575931909725,
+				"from": "NGC_1558",
+				"to": "K_8199"
+			}
+		]
 	],
 	"pl_output": "`NOh no! You ``VHacked ``Nme!`",
-	"next_scrape": 1573344660295,
-	"updt": 1573248413035,
-	"edit": 4
+	"next_scrape": 1576013233797,
+	"updt": 1575931882078,
+	"edit": 6,
+	"scrape_ct": 19,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1575932080468,
+	"output": [
+		{
+			"args": {},
+			"calls": 437,
+			"base": "`NOh no! You ``VHacked ``Nme!`",
+			"fragments": [
+				"ree t",
+				"g cit",
+				"drone",
+				"ks wit",
+				"the city",
+				"nt solut",
+				"ne netwo"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"g cit",
+						"ks wit",
+						"the city",
+						"nt solut",
+						"ne netwo"
+					]
+				},
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"ree t"
+					]
+				},
+				{
+					"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
+					"frags": [
+						"drone"
+					]
+				},
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"drone"
+					]
+				},
+				{
+					"document": "Proving/Children",
+					"frags": [
+						"drone"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"g cit",
+				"ks wit",
+				"the city",
+				"nt solut",
+				"ne netwo"
+			]
+		},
+		{
+			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+			"frags": [
+				"ree t"
+			]
+		},
+		{
+			"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
+			"frags": [
+				"drone"
+			]
+		},
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"drone"
+			]
+		},
+		{
+			"document": "Proving/Children",
+			"frags": [
+				"drone"
+			]
+		}
+	]
 }
