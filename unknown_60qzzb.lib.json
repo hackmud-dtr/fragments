@@ -1,0 +1,204 @@
+{
+	"_id": "unknown_60qzzb.lib",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unknown_60qzzb.lib",
+	"sector": "SPC_3338",
+	"sec_level": 4,
+	"date_added": 1575941655565,
+	"last_scraped": 1575942017601,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1575941655565
+		}
+	],
+	"scrape_ct": 11,
+	"next_scrape": 1575942077601,
+	"category": "fishie_tank",
+	"last_update": 1575942017601,
+	"output": [
+		{
+			"args": {},
+			"calls": 21658,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"k she",
+				"I don",
+				", the",
+				"ng. ##",
+				"mean s",
+				"ything.",
+				"# Iona, "
+			],
+			"hits": [
+				{
+					"document": "Proving/Children",
+					"frags": [
+						"k she",
+						"I don",
+						", the"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"mean s",
+						"ything.",
+						"# Iona, "
+					]
+				},
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						", the",
+						"ng. ##"
+					]
+				},
+				{
+					"document": "Essence",
+					"frags": [
+						"ng. ##"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2138,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"k she",
+				"I don",
+				", the",
+				"ng. ##",
+				"mean s",
+				"ything.",
+				"# Iona, "
+			],
+			"hits": [
+				{
+					"document": "Proving/Children",
+					"frags": [
+						"k she",
+						"I don",
+						", the"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"mean s",
+						"ything.",
+						"# Iona, "
+					]
+				},
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						", the",
+						"ng. ##"
+					]
+				},
+				{
+					"document": "Essence",
+					"frags": [
+						"ng. ##"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 25435,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"k she",
+				"I don",
+				", the",
+				"ng. ##",
+				"mean s",
+				"ything.",
+				"# Iona, "
+			],
+			"hits": [
+				{
+					"document": "Proving/Children",
+					"frags": [
+						"k she",
+						"I don",
+						", the"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"mean s",
+						"ything.",
+						"# Iona, "
+					]
+				},
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						", the",
+						"ng. ##"
+					]
+				},
+				{
+					"document": "Essence",
+					"frags": [
+						"ng. ##"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "Proving/Children",
+			"frags": [
+				"k she",
+				"I don",
+				", the"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"mean s",
+				"ything.",
+				"# Iona, "
+			]
+		},
+		{
+			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+			"frags": [
+				", the",
+				"ng. ##"
+			]
+		},
+		{
+			"document": "Essence",
+			"frags": [
+				"ng. ##"
+			]
+		}
+	],
+	"updt": 1575941804852,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
