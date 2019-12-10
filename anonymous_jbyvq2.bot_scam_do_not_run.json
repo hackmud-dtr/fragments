@@ -1,0 +1,60 @@
+{
+	"_id": "anonymous_jbyvq2.bot_scam_do_not_run",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anonymous_jbyvq2.bot_scam_do_not_run",
+	"sector": "SPC_3338",
+	"sec_level": 4,
+	"date_added": 1575935857585,
+	"last_scraped": 1575935878539,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1575935857585
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1575935938539,
+	"category": "fishie_tank",
+	"last_update": 1575935911715,
+	"output": [
+		{
+			"args": {},
+			"calls": 13557,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"iling",
+				"ng rat",
+				"t nervo",
+				"sing ra",
+				"than spe",
+				"her than"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1347,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"iling",
+				"ng rat",
+				"t nervo",
+				"sing ra",
+				"than spe",
+				"her than"
+			]
+		}
+	]
+}
