@@ -1,26 +1,29 @@
 {
 	"_id": "unidentified_vm2iug.t3_check",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unidentified_vm2iug.t3_check",
 	"sector": "SPC_3338",
 	"sec_level": 4,
 	"date_added": 1575949000035,
-	"last_scraped": 1575950346949,
+	"last_scraped": 1575950447743,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1575949000035
+		},
+		{
+			"type": "died",
+			"when": 1575951090512
 		}
 	],
-	"scrape_ct": 0,
-	"next_scrape": 1575950406949,
+	"next_scrape": 1575995054451,
 	"category": "coin_flipper",
-	"last_update": 1575950346949,
+	"last_update": 1575950447743,
 	"output": [
 		{
 			"args": {},
-			"calls": 131992,
+			"calls": 140844,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"ess pa",
@@ -75,6 +78,6 @@
 			]
 		}
 	],
-	"updt": 1575950153291,
-	"edit": 6
+	"updt": 1575950605177,
+	"edit": 8
 }
