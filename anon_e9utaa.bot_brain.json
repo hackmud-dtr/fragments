@@ -1,0 +1,150 @@
+{
+	"_id": "anon_e9utaa.bot_brain",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anon_e9utaa.bot_brain",
+	"sector": "VNP_1962",
+	"sec_level": 4,
+	"date_added": 1575959831192,
+	"last_scraped": 1575960061123,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1575959831192
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1575960121123,
+	"category": "fishie_tank",
+	"last_update": 1575960061123,
+	"output": [
+		{
+			"args": {},
+			"calls": 21788,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"gains",
+				"eal a",
+				"e sum",
+				"d res",
+				"ainst",
+				"20B3 ",
+				"0B4 d",
+				"y stack ",
+				"al and r"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"gains",
+						"eal a",
+						"e sum",
+						"d res",
+						"ainst",
+						"20B3 ",
+						"0B4 d",
+						"y stack ",
+						"al and r"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1674,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"gains",
+				"eal a",
+				"e sum",
+				"d res",
+				"ainst",
+				"20B3 ",
+				"0B4 d",
+				"y stack ",
+				"al and r"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"gains",
+						"eal a",
+						"e sum",
+						"d res",
+						"ainst",
+						"20B3 ",
+						"0B4 d",
+						"y stack ",
+						"al and r"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 15277,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"gains",
+				"eal a",
+				"e sum",
+				"d res",
+				"ainst",
+				"20B3 ",
+				"0B4 d",
+				"y stack ",
+				"al and r"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"gains",
+						"eal a",
+						"e sum",
+						"d res",
+						"ainst",
+						"20B3 ",
+						"0B4 d",
+						"y stack ",
+						"al and r"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1575959848803,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"gains",
+				"eal a",
+				"e sum",
+				"d res",
+				"ainst",
+				"20B3 ",
+				"0B4 d",
+				"y stack ",
+				"al and r"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
