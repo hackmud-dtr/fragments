@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "derelict_g2aar4.pin",
-	"sector": "SPC_2498",
+	"sector": "VNP_8541",
 	"sec_level": 4,
 	"date_added": 1570573781404,
-	"last_scraped": 1576089467102,
+	"last_scraped": 1576090432931,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1570573781404
-		}
+		},
+		{
+			"type": "died",
+			"when": 1576090301505
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1576090421350,
+				"from": "VNP_8541",
+				"to": "SPC_2498"
+			}
+		]
 	],
 	"pl_output": "Cannot read property 'call' of undefined",
-	"next_scrape": 1576182487866,
-	"updt": 1576088349542,
-	"edit": 2326
+	"next_scrape": 1576182777910,
+	"updt": 1576090378092,
+	"edit": 2328
 }
