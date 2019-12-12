@@ -1,19 +1,27 @@
 {
 	"_id": "unknown_tg52f6.guardian",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unknown_tg52f6.guardian",
 	"sector": "NGC_9323",
 	"sec_level": 4,
 	"date_added": 1576153667918,
-	"last_scraped": 1576154959003,
+	"last_scraped": 1576156265545,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1576153667918
+		},
+		{
+			"type": "died",
+			"when": 1576156265545
+		},
+		{
+			"type": "died",
+			"when": 1576156305505
 		}
 	],
-	"next_scrape": 1576195178196,
+	"next_scrape": 1576241238284,
 	"category": "coin_flipper",
 	"last_update": 1576154959003,
 	"output": [
@@ -88,6 +96,7 @@
 			]
 		}
 	],
-	"updt": 1576154877484,
-	"edit": 5
+	"updt": 1576155101402,
+	"edit": 6,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_tg52f6.guardian: script doesn't exist\"}"
 }
