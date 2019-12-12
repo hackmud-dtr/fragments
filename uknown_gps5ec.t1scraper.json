@@ -1,19 +1,27 @@
 {
 	"_id": "uknown_gps5ec.t1scraper",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "uknown_gps5ec.t1scraper",
 	"sector": "NGC_9323",
 	"sec_level": 4,
 	"date_added": 1576169530908,
-	"last_scraped": 1576181399959,
+	"last_scraped": 1576182637837,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1576169530908
+		},
+		{
+			"type": "died",
+			"when": 1576182637837
+		},
+		{
+			"type": "died",
+			"when": 1576182667605
 		}
 	],
-	"next_scrape": 1576222403924,
+	"next_scrape": 1576272400179,
 	"category": "coin_flipper",
 	"last_update": 1576181399959,
 	"output": [
@@ -147,6 +155,7 @@
 			]
 		}
 	],
-	"updt": 1576180349331,
-	"edit": 14
+	"updt": 1576181475886,
+	"edit": 15,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_gps5ec.t1scraper: script doesn't exist\"}"
 }
