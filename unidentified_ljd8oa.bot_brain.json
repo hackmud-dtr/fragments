@@ -1,19 +1,27 @@
 {
 	"_id": "unidentified_ljd8oa.bot_brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unidentified_ljd8oa.bot_brain",
 	"sector": "HJG_0593",
 	"sec_level": 4,
 	"date_added": 1576113343263,
-	"last_scraped": 1576114692103,
+	"last_scraped": 1576115809259,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1576113343263
+		},
+		{
+			"type": "died",
+			"when": 1576115809259
+		},
+		{
+			"type": "died",
+			"when": 1576115972999
 		}
 	],
-	"next_scrape": 1576154774444,
+	"next_scrape": 1576208118410,
 	"category": "coin_flipper",
 	"last_update": 1576114692103,
 	"output": [
@@ -71,6 +79,7 @@
 			]
 		}
 	],
-	"updt": 1576114521986,
-	"edit": 6
+	"updt": 1576115875116,
+	"edit": 8,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_ljd8oa.bot_brain: script doesn't exist\"}"
 }
