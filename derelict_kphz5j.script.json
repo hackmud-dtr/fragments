@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_kphz5j.script",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "derelict_kphz5j.script",
 	"sector": "VNP_7267",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "VNP_7267",
 				"to": "SPC_0634"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1576224332523
+		}
 	],
-	"updt": 1570859189325,
-	"edit": 1384,
+	"updt": 1570865280349,
+	"edit": 1385,
 	"pl_output": "`DAbaddon` `JPublic Script Search System`\n\nt:\"all,t1,t2,t3\"\n\nWill be refleshed out to more than npcs when I feel like playing with sectors more",
 	"next_scrape": 1570947739935,
 	"category": "UNKNOWN CATEGORY",

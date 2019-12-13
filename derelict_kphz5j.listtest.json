@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_kphz5j.listtest",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_kphz5j.listtest",
 	"sector": "VNP_7267",
 	"sec_level": 4,
 	"date_added": 1564439419309,
-	"last_scraped": 1576222918283,
+	"last_scraped": 1576224249067,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,10 +19,18 @@
 				"from": "VNP_7267",
 				"to": "SPC_0634"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1576224249067
+		},
+		{
+			"type": "died",
+			"when": 1576224332523
+		}
 	],
-	"updt": 1576221848177,
-	"edit": 3096,
-	"pl_output": "str.substr is not a function",
-	"next_scrape": 1576314736184
+	"updt": 1576224330550,
+	"edit": 3098,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_kphz5j.listtest: script doesn't exist\"}",
+	"next_scrape": 1576305123818
 }

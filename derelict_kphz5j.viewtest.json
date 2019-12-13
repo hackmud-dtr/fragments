@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_kphz5j.viewtest",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "derelict_kphz5j.viewtest",
 	"sector": "VNP_7267",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "VNP_7267",
 				"to": "SPC_0634"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1576224332523
+		}
 	],
-	"updt": 1570760628765,
-	"edit": 306,
+	"updt": 1570760853701,
+	"edit": 307,
 	"pl_output": "find:\"name\",(optional)subfind:\"field\"",
 	"next_scrape": 1570803456646,
 	"scrape_ct": 11,
