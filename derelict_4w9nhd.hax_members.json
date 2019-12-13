@@ -1,45 +1,53 @@
 {
 	"_id": "derelict_4w9nhd.hax_members",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_4w9nhd.hax_members",
 	"sector": "VNP_6226",
 	"sec_level": 4,
 	"date_added": 1576204267652,
-	"last_scraped": 1576206289236,
+	"last_scraped": 1576207749571,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1576204267652
 		}
 	],
-	"next_scrape": 1576248464473,
+	"next_scrape": 1576248378925,
 	"category": "fishie_tank",
-	"last_update": 1576206289236,
+	"last_update": 1576207776943,
 	"output": [
 		{
 			"args": {},
-			"calls": 67668,
+			"calls": 71388,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"u did",
-				". I'm",
+				"rs. I",
 				"re I s",
-				"e a co",
-				"I stil",
+				"ill ha",
 				" in ye",
+				"s. I'm ",
 				"n years",
+				"m not s",
 				"l have ",
-				"d? Ha. ",
+				"bout th",
+				". I've ",
+				" not th",
 				" about ",
 				" a copy",
 				" You di",
+				" I stil",
 				"y. I'll ",
 				"t sure I",
 				"out that",
+				"not sure",
 				"is. ## Y",
+				"id? Ha. ",
 				"hesis. #",
-				"did? Ha."
+				"did? Ha.",
+				"ave a co",
+				" Ha. I'v"
 			],
 			"hits": [
 				{
@@ -71,7 +79,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7129,
+			"calls": 8587,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -80,23 +88,31 @@
 			],
 			"fragments": [
 				"u did",
-				". I'm",
+				"rs. I",
 				"re I s",
-				"e a co",
-				"I stil",
+				"ill ha",
 				" in ye",
+				"s. I'm ",
 				"n years",
+				"m not s",
 				"l have ",
-				"d? Ha. ",
+				"bout th",
+				". I've ",
+				" not th",
 				" about ",
 				" a copy",
 				" You di",
+				" I stil",
 				"y. I'll ",
 				"t sure I",
 				"out that",
+				"not sure",
 				"is. ## Y",
+				"id? Ha. ",
 				"hesis. #",
-				"did? Ha."
+				"did? Ha.",
+				"ave a co",
+				" Ha. I'v"
 			],
 			"hits": [
 				{
@@ -202,6 +218,11 @@
 			]
 		}
 	],
-	"updt": 1576205164547,
-	"edit": 3
+	"updt": 1576206515246,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
