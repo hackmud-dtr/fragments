@@ -1,0 +1,139 @@
+{
+	"_id": "uknown_gpkv1q.lights",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "uknown_gpkv1q.lights",
+	"sector": "VNP_6226",
+	"sec_level": 4,
+	"date_added": 1576219021513,
+	"last_scraped": 1576219361958,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1576219021513
+		}
+	],
+	"scrape_ct": 12,
+	"next_scrape": 1576219421958,
+	"category": "fishie_tank",
+	"last_update": 1576219361958,
+	"output": [
+		{
+			"args": {},
+			"calls": 24363,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"tity ",
+				"excha",
+				"our fir",
+				"minatin",
+				"his exc",
+				" illumi",
+				"orry. ##"
+			],
+			"hits": [
+				{
+					"document": "Essence",
+					"frags": [
+						"tity ",
+						"excha",
+						"our fir",
+						"minatin",
+						"his exc",
+						" illumi",
+						"orry. ##"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2453,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"tity ",
+				"excha",
+				"our fir",
+				"minatin",
+				"his exc",
+				" illumi",
+				"orry. ##"
+			],
+			"hits": [
+				{
+					"document": "Essence",
+					"frags": [
+						"tity ",
+						"excha",
+						"our fir",
+						"minatin",
+						"his exc",
+						" illumi",
+						"orry. ##"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 20295,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"tity ",
+				"excha",
+				"our fir",
+				"minatin",
+				"his exc",
+				" illumi",
+				"orry. ##"
+			],
+			"hits": [
+				{
+					"document": "Essence",
+					"frags": [
+						"tity ",
+						"excha",
+						"our fir",
+						"minatin",
+						"his exc",
+						" illumi",
+						"orry. ##"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "Essence",
+			"frags": [
+				"tity ",
+				"excha",
+				"our fir",
+				"minatin",
+				"his exc",
+				" illumi",
+				"orry. ##"
+			]
+		}
+	],
+	"updt": 1576219142323,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
