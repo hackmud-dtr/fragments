@@ -1,27 +1,22 @@
 {
 	"_id": "abandoned_ao42el.spinner",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "abandoned_ao42el.spinner",
 	"sector": "SPC_2379",
 	"sec_level": 4,
 	"date_added": 1571524197262,
-	"last_scraped": 1571524407206,
+	"last_scraped": 1576357091782,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571524197262
 		}
 	],
-	"updt": 1571524275492,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
+	"updt": 1571524725258,
+	"edit": 2,
 	"scrape_ct": 18,
-	"next_scrape": 1571524467206,
+	"next_scrape": 1576444861143,
 	"category": "risk_factor",
 	"last_update": 1571524407206,
 	"output": [
@@ -36,7 +31,52 @@
 				" e, imp",
 				"ctive. I",
 				" impress"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" If an",
+						"He's no",
+						" obstru",
+						" e, imp",
+						"ctive. I"
+					]
+				},
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						" impress"
+					]
+				}
 			]
 		}
-	]
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				" If an",
+				"He's no",
+				" obstru",
+				" e, imp",
+				"ctive. I"
+			]
+		},
+		{
+			"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+			"frags": [
+				" impress"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

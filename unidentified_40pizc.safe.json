@@ -1,27 +1,22 @@
 {
 	"_id": "unidentified_40pizc.safe",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "unidentified_40pizc.safe",
 	"sector": "SPC_2020",
 	"sec_level": 4,
 	"date_added": 1571530786680,
-	"last_scraped": 1571531670010,
+	"last_scraped": 1576357373070,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571530786680
 		}
 	],
-	"updt": 1571530814056,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
+	"updt": 1571531716375,
+	"edit": 2,
 	"scrape_ct": 19,
-	"next_scrape": 1571531730010,
+	"next_scrape": 1576450570715,
 	"category": "risk_factor",
 	"last_update": 1571531670010,
 	"output": [
@@ -40,5 +35,14 @@
 				" remarka"
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

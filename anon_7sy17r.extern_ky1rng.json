@@ -1,27 +1,22 @@
 {
 	"_id": "anon_7sy17r.extern_ky1rng",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anon_7sy17r.extern_ky1rng",
 	"sector": "NGC_5505",
 	"sec_level": 4,
 	"date_added": 1571530516796,
-	"last_scraped": 1571531027134,
+	"last_scraped": 1576357324193,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571530516796
 		}
 	],
-	"updt": 1571531038602,
-	"edit": 2,
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
+	"updt": 1571531263969,
+	"edit": 3,
 	"scrape_ct": 20,
-	"next_scrape": 1571531087134,
+	"next_scrape": 1576448219239,
 	"category": "risk_factor",
 	"last_update": 1571531027134,
 	"output": [
@@ -37,5 +32,14 @@
 				"3B Do I "
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
