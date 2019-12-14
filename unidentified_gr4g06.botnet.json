@@ -1,25 +1,25 @@
 {
 	"_id": "unidentified_gr4g06.botnet",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_gr4g06.botnet",
 	"sector": "VNP_6226",
 	"sec_level": 4,
 	"date_added": 1576292970547,
-	"last_scraped": 1576297138517,
+	"last_scraped": 1576298335732,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1576292970547
 		}
 	],
-	"next_scrape": 1576340135706,
+	"next_scrape": 1576343035482,
 	"category": "clicker",
-	"last_update": 1576297138517,
+	"last_update": 1576298335732,
 	"output": [
 		{
 			"args": {},
-			"calls": 49476,
+			"calls": 61094,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"ons-l",
@@ -93,7 +93,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 48554,
+			"calls": 58514,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"ons-l",
@@ -294,6 +294,11 @@
 			]
 		}
 	],
-	"updt": 1576296031515,
-	"edit": 3
+	"updt": 1576297160768,
+	"edit": 4,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
