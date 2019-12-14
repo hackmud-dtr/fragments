@@ -1,22 +1,22 @@
 {
 	"_id": "abndnd_sowomr.selling",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "abndnd_sowomr.selling",
 	"sector": "VNP_9399",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1570693565630,
+	"last_scraped": 1576356922303,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1570678782659,
-	"edit": 5,
+	"updt": 1570693660847,
+	"edit": 6,
 	"scrape_ct": 16,
-	"next_scrape": 1570693625630,
+	"next_scrape": 1576437850015,
 	"category": "risk_factor",
 	"last_update": 1570693565630,
 	"output": [
@@ -611,6 +611,9 @@
 		}
 	],
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}
