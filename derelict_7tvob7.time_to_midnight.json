@@ -1,22 +1,30 @@
 {
 	"_id": "derelict_7tvob7.time_to_midnight",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "player",
 	"script": "derelict_7tvob7.time_to_midnight",
-	"sector": "SPC_1841",
+	"sector": "K_8961",
 	"sec_level": 4,
 	"date_added": 1572719596070,
-	"last_scraped": 1572740796897,
+	"last_scraped": 1576309128554,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1572719596070
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1576309055885,
+				"from": "K_8961",
+				"to": "SPC_1841"
+			}
+		]
 	],
-	"updt": 1572738192992,
-	"edit": 9,
+	"updt": 1576309105476,
+	"edit": 11,
 	"scrape_ct": 20,
-	"next_scrape": 1572821196990,
+	"next_scrape": 1576392539769,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1572740796897,
 	"output": [
@@ -8129,5 +8137,5 @@
 			]
 		}
 	],
-	"pl_output": "{\"ok\":true,\"msg\":\"1095470ms\\n0h 18m 15s\"}"
+	"pl_output": "{\"ok\":true,\"msg\":\"58870970ms\\n16h 21m 10s\"}"
 }

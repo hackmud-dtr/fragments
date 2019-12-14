@@ -1,20 +1,28 @@
 {
 	"_id": "derelict_7tvob7.discord_invite",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "derelict_7tvob7.discord_invite",
-	"sector": "SPC_1841",
+	"sector": "K_8961",
 	"sec_level": 4,
 	"date_added": 1572719596070,
-	"last_scraped": 1575000333392,
+	"last_scraped": 1576309077217,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1572719596070
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1576309055885,
+				"from": "K_8961",
+				"to": "SPC_1841"
+			}
+		]
 	],
-	"updt": 1575000462453,
-	"edit": 934,
+	"updt": 1575002266534,
+	"edit": 935,
 	"pl_output": "{\"ok\":true,\"msg\":\"Join Discord @ https://discord.gg/ucUBRwW\"}",
-	"next_scrape": 1575092265454
+	"next_scrape": 1576394780427
 }

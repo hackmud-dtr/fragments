@@ -1,9 +1,9 @@
 {
 	"_id": "derelict_7tvob7.b",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "skip",
 	"script": "derelict_7tvob7.b",
-	"sector": "K_6492",
+	"sector": "K_0597",
 	"sec_level": 0,
 	"date_added": 1572719596070,
 	"last_scraped": 0,
@@ -11,8 +11,20 @@
 		{
 			"type": "added",
 			"when": 1572719596070
-		}
+		},
+		{
+			"type": "died",
+			"when": 1576309041353
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1576309077217,
+				"from": "K_0597",
+				"to": "K_6492"
+			}
+		]
 	],
-	"updt": 1572719702933,
-	"edit": 1
+	"updt": 1576309105476,
+	"edit": 3
 }
