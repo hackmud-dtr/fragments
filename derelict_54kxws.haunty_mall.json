@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_54kxws.haunty_mall",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "derelict_54kxws.haunty_mall",
 	"sector": "VNP_0948",
 	"sec_level": 4,
 	"date_added": 1574439060220,
-	"last_scraped": 1574439121040,
+	"last_scraped": 1576359071281,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1574439181040,
+	"next_scrape": 1576445604912,
 	"category": "risk_factor",
-	"last_update": 1574439121040,
+	"last_update": 1576359071281,
 	"output": [
 		{
 			"args": {},
@@ -37,7 +37,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 241,
+			"calls": 341,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"5",
@@ -651,10 +651,9 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"updt": 1574439237425,
+	"edit": 1
 }

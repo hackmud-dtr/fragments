@@ -1,36 +1,38 @@
 {
 	"_id": "derelict_vh6sgp.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_vh6sgp.bot_scam_do_not_run",
 	"sector": "HJG_8589",
 	"sec_level": 4,
 	"date_added": 1571692219203,
-	"last_scraped": 1571693447244,
+	"last_scraped": 1576369851900,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571692219203
 		}
 	],
-	"updt": 1571693363070,
-	"edit": 5,
-	"next_scrape": 1571738515634,
+	"updt": 1571693587672,
+	"edit": 6,
+	"next_scrape": 1576414212074,
 	"category": "coin_flipper",
-	"last_update": 1571693447244,
+	"last_update": 1576369851900,
 	"output": [
 		{
 			"args": {},
-			"calls": 132638,
+			"calls": 137081,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
-				"00\\n00",
 				"0000 00",
-				"000 000",
 				" 0100 0",
-				" 0000 0",
+				" 0000\\n",
+				"000 0000",
 				"00 0100 ",
-				"00 0000 "
+				"00 0000 ",
+				" 0000 01",
+				"0\\n0000 0",
+				"00\\n0000 "
 			],
 			"hits": [
 				{

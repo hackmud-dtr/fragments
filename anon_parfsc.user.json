@@ -1,12 +1,12 @@
 {
 	"_id": "anon_parfsc.user",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_parfsc.user",
 	"sector": "HJG_3717",
 	"sec_level": 4,
 	"date_added": 1571661117466,
-	"last_scraped": 1571661380877,
+	"last_scraped": 1576369650461,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,29 @@
 		}
 	],
 	"scrape_ct": 11,
-	"next_scrape": 1571661440877,
+	"next_scrape": 1576414941543,
 	"category": "fishie_tank",
-	"last_update": 1571661380877,
+	"last_update": 1576369650461,
 	"output": [
 		{
 			"args": {},
-			"calls": 19292,
+			"calls": 27528,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"re lif",
+				"ife fo",
 				"hen. #",
+				"have w",
+				"en. ##",
+				"e life",
 				"d my e",
 				" this ",
 				"or this",
 				"ited my ",
 				"e for th",
-				"## i hav"
+				"aited my",
+				"## i hav",
+				" my enti"
 			],
 			"hits": [
 				{
@@ -50,7 +57,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2258,
+			"calls": 2758,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -58,13 +65,20 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"re lif",
+				"ife fo",
 				"hen. #",
+				"have w",
+				"en. ##",
+				"e life",
 				"d my e",
 				" this ",
 				"or this",
 				"ited my ",
 				"e for th",
-				"## i hav"
+				"aited my",
+				"## i hav",
+				" my enti"
 			],
 			"hits": [
 				{
@@ -85,16 +99,23 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 24267,
+			"calls": 33388,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"re lif",
+				"ife fo",
 				"hen. #",
+				"have w",
+				"en. ##",
+				"e life",
 				"d my e",
 				" this ",
 				"or this",
 				"ited my ",
 				"e for th",
-				"## i hav"
+				"aited my",
+				"## i hav",
+				" my enti"
 			],
 			"hits": [
 				{
@@ -126,6 +147,6 @@
 			]
 		}
 	],
-	"updt": 1571661338882,
-	"edit": 1
+	"updt": 1571661563931,
+	"edit": 2
 }

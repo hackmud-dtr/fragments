@@ -1,39 +1,43 @@
 {
 	"_id": "unidentified_udg1ml.t3_fast",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unidentified_udg1ml.t3_fast",
 	"sector": "NGC_5505",
 	"sec_level": 4,
 	"date_added": 1571530776633,
-	"last_scraped": 1571542014306,
+	"last_scraped": 1576368705676,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571530776633
 		}
 	],
-	"updt": 1571537806155,
-	"edit": 3,
+	"updt": 1571542313853,
+	"edit": 4,
 	"scrape_ct": 12,
-	"next_scrape": 1571542074306,
+	"next_scrape": 1576413650281,
 	"category": "fishie_tank",
-	"last_update": 1571542014306,
+	"last_update": 1576368705676,
 	"output": [
 		{
 			"args": {},
-			"calls": 16390,
+			"calls": 20693,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"94_SE",
 				"4_CLS",
 				"0X14_",
+				"\":\"Fr",
 				"aves T",
 				"E9\\n{\"",
 				"Equitab",
+				"AC8_FIL",
 				" Equita",
 				"4_SECT0X",
-				",\"header"
+				",\"header",
+				"\"data_ty",
+				"99DBE9\\n{"
 			],
 			"hits": [
 				{
@@ -84,7 +88,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1763,
+			"calls": 2561,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -95,12 +99,16 @@
 				"94_SE",
 				"4_CLS",
 				"0X14_",
+				"\":\"Fr",
 				"aves T",
 				"E9\\n{\"",
 				"Equitab",
+				"AC8_FIL",
 				" Equita",
 				"4_SECT0X",
-				",\"header"
+				",\"header",
+				"\"data_ty",
+				"99DBE9\\n{"
 			],
 			"hits": [
 				{
@@ -151,18 +159,22 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 21082,
+			"calls": 29841,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"94_SE",
 				"4_CLS",
 				"0X14_",
+				"\":\"Fr",
 				"aves T",
 				"E9\\n{\"",
 				"Equitab",
+				"AC8_FIL",
 				" Equita",
 				"4_SECT0X",
-				",\"header"
+				",\"header",
+				"\"data_ty",
+				"99DBE9\\n{"
 			],
 			"hits": [
 				{
