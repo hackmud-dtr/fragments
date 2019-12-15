@@ -6,7 +6,7 @@
 	"sector": "K_6762",
 	"sec_level": 4,
 	"date_added": 1572565991657,
-	"last_scraped": 1576385309056,
+	"last_scraped": 1576385337976,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,26 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1576429831444,
+	"next_scrape": 1576426115863,
 	"category": "fishie_tank",
-	"last_update": 1576358077464,
+	"last_update": 1576385337976,
 	"output": [
 		{
 			"args": {},
-			"calls": 11236,
+			"calls": 22634,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"n the",
+				" pile",
 				"le\\n20",
-				"20F4 a",
 				"ith all",
 				"\\n20F3 ",
 				"ong with",
-				"along wi"
+				"along wi",
+				" the att",
+				" in the ",
+				"r's\\n20F3",
+				"\\n20F5 ca",
+				"\\n20F4 al"
 			],
 			"hits": [
 				{
@@ -50,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1214,
+			"calls": 1940,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -58,13 +62,17 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"n the",
+				" pile",
 				"le\\n20",
-				"20F4 a",
 				"ith all",
 				"\\n20F3 ",
 				"ong with",
-				"along wi"
+				"along wi",
+				" the att",
+				" in the ",
+				"r's\\n20F3",
+				"\\n20F5 ca",
+				"\\n20F4 al"
 			],
 			"hits": [
 				{
@@ -85,7 +93,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 3443,
+			"calls": 9799,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" pile",
@@ -128,14 +136,6 @@
 				"\\n20F5 ca",
 				"\\n20F4 al"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

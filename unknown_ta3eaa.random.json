@@ -1,32 +1,36 @@
 {
 	"_id": "unknown_ta3eaa.random",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_ta3eaa.random",
 	"sector": "SPC_3222",
 	"sec_level": 4,
 	"date_added": 1572708507921,
-	"last_scraped": 1576358157185,
+	"last_scraped": 1576385491444,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1572708507921
 		}
 	],
-	"next_scrape": 1576401685436,
+	"next_scrape": 1576425190927,
 	"category": "fishie_tank",
-	"last_update": 1576358157185,
+	"last_update": 1576385491444,
 	"output": [
 		{
 			"args": {},
-			"calls": 112467,
+			"calls": 115636,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"## It",
 				"y ## I",
 				"the-ro",
-				"s elep",
-				"ant-in",
+				"time: w",
 				"n-the-r",
+				"in-the-",
+				"ant-in-",
+				"'s elep",
+				"room tim",
 				"om time:"
 			],
 			"hits": [
@@ -47,7 +51,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7979,
+			"calls": 9104,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -55,11 +59,15 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"## It",
 				"y ## I",
 				"the-ro",
-				"s elep",
-				"ant-in",
+				"time: w",
 				"n-the-r",
+				"in-the-",
+				"ant-in-",
+				"'s elep",
+				"room tim",
 				"om time:"
 			],
 			"hits": [
@@ -80,7 +88,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 69541,
+			"calls": 73576,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"## It",
@@ -122,6 +130,6 @@
 			]
 		}
 	],
-	"updt": 1572714968874,
-	"edit": 6
+	"updt": 1576367276232,
+	"edit": 7
 }
