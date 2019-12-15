@@ -1,22 +1,22 @@
 {
 	"_id": "anon_ypfxcp.defender_auth",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "anon_ypfxcp.defender_auth",
 	"sector": "K_2236",
 	"sec_level": 4,
 	"date_added": 1575003631050,
-	"last_scraped": 1576362265750,
+	"last_scraped": 1576389342607,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1575003631050
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1576452184398,
+	"scrape_ct": 15,
+	"next_scrape": 1576389402607,
 	"category": "risk_factor",
-	"last_update": 1576362257509,
+	"last_update": 1576389342607,
 	"output": [
 		{
 			"args": {},
@@ -37,9 +37,10 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 276,
+			"calls": 961,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
+				"4",
 				"s | B",
 				"reste",
 				"SUBJ ",
@@ -435,12 +436,9 @@
 			]
 		}
 	],
-	"updt": 1575003844482,
-	"edit": 1,
+	"updt": 1576369532731,
+	"edit": 2,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

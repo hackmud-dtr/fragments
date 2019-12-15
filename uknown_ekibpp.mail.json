@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_ekibpp.mail",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "uknown_ekibpp.mail",
 	"sector": "K_6570",
 	"sec_level": 4,
 	"date_added": 1575412717374,
-	"last_scraped": 1576361833742,
+	"last_scraped": 1576389008825,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1576441749669,
+	"next_scrape": 1576479351917,
 	"category": "risk_factor",
-	"last_update": 1576359634205,
+	"last_update": 1576389008825,
 	"output": [
 		{
 			"args": {},
@@ -37,7 +37,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 397,
+			"calls": 668,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"3",
@@ -620,12 +620,9 @@
 			]
 		}
 	],
-	"updt": 1575412856078,
-	"edit": 1,
+	"updt": 1576370209452,
+	"edit": 2,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

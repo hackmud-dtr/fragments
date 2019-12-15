@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_ur89y2.mop",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "derelict_ur89y2.mop",
 	"sector": "VNP_8671",
 	"sec_level": 4,
 	"date_added": 1573306482053,
-	"last_scraped": 1576362165926,
+	"last_scraped": 1576389190764,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1576443910030,
+	"next_scrape": 1576474642890,
 	"category": "risk_factor",
-	"last_update": 1576362155939,
+	"last_update": 1576389190764,
 	"output": [
 		{
 			"args": {},
@@ -588,7 +588,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 110,
+			"calls": 210,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"4",
@@ -603,12 +603,9 @@
 			]
 		}
 	],
-	"updt": 1573306587439,
-	"edit": 1,
+	"updt": 1576367729253,
+	"edit": 2,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
