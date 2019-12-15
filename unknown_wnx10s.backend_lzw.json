@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_wnx10s.backend_lzw",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "unknown_wnx10s.backend_lzw",
 	"sector": "HJG_3717",
 	"sec_level": 4,
 	"date_added": 1571675276995,
-	"last_scraped": 1576357755427,
+	"last_scraped": 1576384774954,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,29 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1576401844663,
+	"next_scrape": 1576465990223,
 	"category": "risk_factor",
-	"last_update": 1576357755427,
+	"last_update": 1576384774954,
 	"output": [
 		{
 			"args": {},
-			"calls": 2787,
+			"calls": 3919,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
-				"ve gr",
+				"he ca",
+				"OMETH",
 				"usly #",
+				"ty to ",
+				"NG ser",
 				"G seri",
+				"of this",
 				"his exp",
+				"ence wo",
+				"rience w",
+				"ould hav",
 				"ll_this_",
-				"e capaci"
+				"e capaci",
+				" have gr"
 			],
 			"hits": [
 				{
@@ -48,7 +56,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 302,
+			"calls": 432,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"he ca",
@@ -350,8 +358,8 @@
 			]
 		}
 	],
-	"updt": 1576366601929,
-	"edit": 3,
+	"updt": 1576384184739,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -496,6 +504,11 @@
 				"e capaci",
 				" have gr"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }

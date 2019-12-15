@@ -6,7 +6,7 @@
 	"sector": "SPC_8800",
 	"sec_level": 4,
 	"date_added": 1572025330742,
-	"last_scraped": 1576357926025,
+	"last_scraped": 1576385017541,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,20 +14,27 @@
 		}
 	],
 	"scrape_ct": 8,
-	"next_scrape": 1576400609789,
+	"next_scrape": 1576430451961,
 	"category": "fishie_tank",
-	"last_update": 1576357926025,
+	"last_update": 1576385017541,
 	"output": [
 		{
 			"args": {},
-			"calls": 36103,
+			"calls": 43294,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"rd pi",
+				"ent to",
+				"cker's",
+				" after",
+				"ttacker",
 				"o the a",
-				"217A di",
 				" discar",
 				"t to the",
-				"ker's\\n21"
+				"er comba",
+				"s\\n217A d",
+				"ker's\\n21",
+				"\\n217A di"
 			],
 			"hits": [
 				{
@@ -46,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4726,
+			"calls": 5613,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -54,11 +61,18 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"rd pi",
+				"ent to",
+				"cker's",
+				" after",
+				"ttacker",
 				"o the a",
-				"217A di",
 				" discar",
 				"t to the",
-				"ker's\\n21"
+				"er comba",
+				"s\\n217A d",
+				"ker's\\n21",
+				"\\n217A di"
 			],
 			"hits": [
 				{
@@ -77,7 +91,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 49596,
+			"calls": 58354,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"rd pi",
@@ -119,6 +133,6 @@
 			]
 		}
 	],
-	"updt": 1572025935606,
-	"edit": 2
+	"updt": 1576367051433,
+	"edit": 3
 }
