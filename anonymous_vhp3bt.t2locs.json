@@ -6,39 +6,56 @@
 	"sector": "SPC_2020",
 	"sec_level": 4,
 	"date_added": 1571530786680,
-	"last_scraped": 1576357364053,
+	"last_scraped": 1576384010578,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571530786680
 		}
 	],
-	"updt": 1571531716375,
-	"edit": 2,
+	"updt": 1576383957240,
+	"edit": 4,
 	"scrape_ct": 19,
-	"next_scrape": 1576397340977,
+	"next_scrape": 1576426598344,
 	"category": "fishie_tank",
-	"last_update": 1576357364053,
+	"last_update": 1576384010578,
 	"output": [
 		{
 			"args": {},
-			"calls": 5827,
+			"calls": 12621,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"01 01",
+				" 0001",
 				"00 000",
 				"0 0000",
 				"\\n0000 ",
 				"00 0100",
+				" 0000 0",
 				"00\\n0000",
-				"0000\\n00"
+				"0000\\n00",
+				" 0100 00"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"01 01",
+						"00 000",
+						"0 0000",
+						"\\n0000 ",
+						"00 0100",
+						"00\\n0000",
+						"0000\\n00"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 668,
+			"calls": 1498,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -49,17 +66,54 @@
 				" 0001",
 				" 0000 0",
 				" 0100 00"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" 0001",
+						" 0000 0",
+						" 0100 00"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 8037,
+			"calls": 16948,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" 0001",
 				" 0000 0",
+				" 0100 00"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" 0001",
+						" 0000 0",
+						" 0100 00"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"01 01",
+				" 0001",
+				"00 000",
+				"0 0000",
+				"\\n0000 ",
+				"00 0100",
+				" 0000 0",
+				"00\\n0000",
+				"0000\\n00",
 				" 0100 00"
 			]
 		}

@@ -6,36 +6,65 @@
 	"sector": "K_8779",
 	"sec_level": 4,
 	"date_added": 1571531309105,
-	"last_scraped": 1576357424744,
+	"last_scraped": 1576384211190,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571531309105
 		}
 	],
-	"updt": 1571532616639,
-	"edit": 2,
+	"updt": 1576366601929,
+	"edit": 3,
 	"scrape_ct": 18,
-	"next_scrape": 1576404035586,
+	"next_scrape": 1576429612219,
 	"category": "fishie_tank",
-	"last_update": 1576357424744,
+	"last_update": 1576384211190,
 	"output": [
 		{
 			"args": {},
-			"calls": 10658,
+			"calls": 18432,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"oot. ",
 				"o> ##",
-				" on a ",
+				"# its ",
+				"sandbox",
+				"up_ico> ",
 				"ts cool ",
+				"rk on a ",
+				"ng gonna",
+				"na work ",
+				"ah yeah ",
+				" work on",
 				" trad sa"
+			],
+			"hits": [
+				{
+					"document": "Prisoners",
+					"frags": [
+						"o> ##",
+						" trad sa"
+					]
+				},
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						" on a "
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ts cool "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 963,
+			"calls": 1572,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -43,17 +72,46 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"oot. ",
 				"o> ##",
-				" on a ",
+				"# its ",
+				"sandbox",
+				"up_ico> ",
 				"ts cool ",
+				"rk on a ",
+				"ng gonna",
+				"na work ",
+				"ah yeah ",
+				" work on",
 				" trad sa"
+			],
+			"hits": [
+				{
+					"document": "Prisoners",
+					"frags": [
+						"o> ##",
+						" trad sa"
+					]
+				},
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						" on a "
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ts cool "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 3976,
+			"calls": 12761,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"oot. ",
@@ -65,6 +123,57 @@
 				"na work ",
 				"ah yeah ",
 				" work on"
+			],
+			"hits": [
+				{
+					"document": "Prisoners",
+					"frags": [
+						"oot. ",
+						"sandbox",
+						"up_ico> ",
+						"ng gonna",
+						"na work ",
+						" work on"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"# its ",
+						"rk on a ",
+						"ah yeah "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "Prisoners",
+			"frags": [
+				"oot. ",
+				"o> ##",
+				"sandbox",
+				"up_ico> ",
+				"ng gonna",
+				"na work ",
+				" work on",
+				" trad sa"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"# its ",
+				"ts cool ",
+				"rk on a ",
+				"ah yeah "
+			]
+		},
+		{
+			"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+			"frags": [
+				" on a "
 			]
 		}
 	]
