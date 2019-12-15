@@ -1,28 +1,28 @@
 {
 	"_id": "anonymous_qt2gv4.botnet",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_qt2gv4.botnet",
 	"sector": "HJG_5571",
 	"sec_level": 4,
 	"date_added": 1571926550191,
-	"last_scraped": 1576393329921,
+	"last_scraped": 1576410937961,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571926550191
 		}
 	],
-	"updt": 1576383957240,
-	"edit": 4,
+	"updt": 1576393431657,
+	"edit": 5,
 	"scrape_ct": 18,
-	"next_scrape": 1576435926870,
+	"next_scrape": 1576456326264,
 	"category": "fishie_tank",
-	"last_update": 1576393329921,
+	"last_update": 1576410937961,
 	"output": [
 		{
 			"args": {},
-			"calls": 24225,
+			"calls": 28854,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"eed on",
@@ -66,7 +66,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2103,
+			"calls": 2908,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -115,7 +115,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 17855,
+			"calls": 26662,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"eed on",
