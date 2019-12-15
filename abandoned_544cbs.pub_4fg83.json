@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_544cbs.pub_4fg83",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_544cbs.pub_4fg83",
 	"sector": "HJG_3717",
 	"sec_level": 4,
 	"date_added": 1571690387032,
-	"last_scraped": 1576425940879,
+	"last_scraped": 1576444003861,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 3,
-	"next_scrape": 1576469261732,
+	"next_scrape": 1576488352730,
 	"category": "fishie_tank",
-	"last_update": 1576425940879,
+	"last_update": 1576444044286,
 	"output": [
 		{
 			"args": {},
-			"calls": 65414,
+			"calls": 72650,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"n a v",
@@ -57,7 +57,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8321,
+			"calls": 10194,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -148,6 +148,11 @@
 			]
 		}
 	],
-	"updt": 1576410125115,
-	"edit": 7
+	"updt": 1576426132553,
+	"edit": 8,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
