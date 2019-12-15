@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_qchinr.bobnet",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_qchinr.bobnet",
 	"sector": "VNP_8671",
 	"sec_level": 4,
 	"date_added": 1573284885040,
-	"last_scraped": 1576394436027,
+	"last_scraped": 1576411882533,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1576436947952,
+	"next_scrape": 1576454221756,
 	"category": "fishie_tank",
-	"last_update": 1576394436027,
+	"last_update": 1576411903959,
 	"output": [
 		{
 			"args": {},
-			"calls": 25118,
+			"calls": 35892,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ory. ",
@@ -60,7 +60,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3132,
+			"calls": 4546,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -142,8 +142,8 @@
 			]
 		}
 	],
-	"updt": 1576383731787,
-	"edit": 3,
+	"updt": 1576394559496,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -161,6 +161,11 @@
 				"221D Mer",
 				"\\n221D Me"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
