@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_3bjn33.bap_admin",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_3bjn33.bap_admin",
 	"sector": "HJG_5141",
 	"sec_level": 4,
 	"date_added": 1574082045279,
-	"last_scraped": 1576386614974,
+	"last_scraped": 1576405200391,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 8,
-	"next_scrape": 1576430088620,
+	"next_scrape": 1576446489129,
 	"category": "fishie_tank",
-	"last_update": 1576386614974,
+	"last_update": 1576405200391,
 	"output": [
 		{
 			"args": {},
-			"calls": 44797,
+			"calls": 65775,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"nfirm",
@@ -208,6 +208,14 @@
 			]
 		}
 	],
-	"updt": 1576368405858,
-	"edit": 3
+	"updt": 1576386665250,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
