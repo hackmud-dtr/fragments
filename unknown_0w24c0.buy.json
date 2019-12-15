@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_0w24c0.buy",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unknown_0w24c0.buy",
 	"sector": "K_7367",
 	"sec_level": 4,
 	"date_added": 1575726217924,
-	"last_scraped": 1575726369553,
+	"last_scraped": 1576377900503,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,24 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1575726429553,
+	"next_scrape": 1576419651618,
 	"category": "fishie_tank",
-	"last_update": 1575726369553,
+	"last_update": 1576377900503,
 	"output": [
 		{
 			"args": {},
-			"calls": 12561,
+			"calls": 17696,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"assph",
-				"s pass",
-				"ess pa",
+				"assphr",
+				"s passp",
 				"sphrase ",
+				"reminder",
 				"rase rem",
 				"nder DEL",
-				"e remind"
+				"er DELET",
+				"e remind",
+				"cess pas"
 			],
 			"hits": [
 				{
@@ -50,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1967,
+			"calls": 2692,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -58,13 +60,15 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"assph",
-				"s pass",
-				"ess pa",
+				"assphr",
+				"s passp",
 				"sphrase ",
+				"reminder",
 				"rase rem",
 				"nder DEL",
-				"e remind"
+				"er DELET",
+				"e remind",
+				"cess pas"
 			],
 			"hits": [
 				{
@@ -85,16 +89,18 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 16646,
+			"calls": 28814,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"assph",
-				"s pass",
-				"ess pa",
+				"assphr",
+				"s passp",
 				"sphrase ",
+				"reminder",
 				"rase rem",
 				"nder DEL",
-				"e remind"
+				"er DELET",
+				"e remind",
+				"cess pas"
 			],
 			"hits": [
 				{
@@ -126,6 +132,6 @@
 			]
 		}
 	],
-	"updt": 1575726343119,
-	"edit": 1
+	"updt": 1575726566829,
+	"edit": 2
 }
