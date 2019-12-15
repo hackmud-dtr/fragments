@@ -1,25 +1,20 @@
 {
 	"_id": "unidentified_hviyrd.payout",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "unidentified_hviyrd.payout",
 	"sector": "VNP_0757",
 	"sec_level": 4,
 	"date_added": 1575593839344,
-	"last_scraped": 1575593868532,
+	"last_scraped": 1576359685838,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1575593839344
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1575685985632,
+	"next_scrape": 1576442638771,
 	"category": "risk_factor",
 	"last_update": 1575593868532,
 	"output": [
@@ -55,5 +50,16 @@
 				"conds pe"
 			]
 		}
-	]
+	],
+	"updt": 1575594003202,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

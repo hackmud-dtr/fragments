@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_ekibpp.mail",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "uknown_ekibpp.mail",
 	"sector": "K_6570",
 	"sec_level": 4,
 	"date_added": 1575412717374,
-	"last_scraped": 1575412768919,
+	"last_scraped": 1576361833742,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1575412828919,
+	"next_scrape": 1576441749669,
 	"category": "risk_factor",
-	"last_update": 1575412768919,
+	"last_update": 1576359634205,
 	"output": [
 		{
 			"args": {},
@@ -37,7 +37,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 281,
+			"calls": 397,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"3",
@@ -620,6 +620,8 @@
 			]
 		}
 	],
+	"updt": 1575412856078,
+	"edit": 1,
 	"retry_args": [
 		{
 			"do": "win"
@@ -627,5 +629,6 @@
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

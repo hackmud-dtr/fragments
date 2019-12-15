@@ -1,25 +1,20 @@
 {
 	"_id": "unknown_fxqm2r.news_network",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "unknown_fxqm2r.news_network",
 	"sector": "NGC_9080",
 	"sec_level": 4,
 	"date_added": 1575575433128,
-	"last_scraped": 1575575473585,
+	"last_scraped": 1576359674243,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1575575433128
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1575657642335,
+	"next_scrape": 1576445758918,
 	"category": "risk_factor",
 	"last_update": 1575575473585,
 	"output": [
@@ -57,5 +52,16 @@
 				"e use of"
 			]
 		}
-	]
+	],
+	"updt": 1575575506197,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

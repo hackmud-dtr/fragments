@@ -1,27 +1,22 @@
 {
 	"_id": "anon_ghw1es.release",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_ghw1es.release",
 	"sector": "K_6570",
 	"sec_level": 4,
 	"date_added": 1575408778968,
-	"last_scraped": 1575408799062,
+	"last_scraped": 1576359617264,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1575408778968
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1575408859062,
+	"next_scrape": 1576401106756,
 	"category": "fishie_tank",
-	"last_update": 1575408838945,
+	"last_update": 1576359617264,
 	"output": [
 		{
 			"args": {},
@@ -57,8 +52,24 @@
 				"ROG ERRO",
 				"ETW ERRO"
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 15060,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"i smi",
+				"e: Re",
+				"handari",
+				" ERROR ",
+				"| SUBJ: ",
+				"ROG ERRO",
+				"ETW ERRO"
+			]
 		}
 	],
-	"updt": 1575408794994,
-	"edit": 1
+	"updt": 1575409020447,
+	"edit": 2
 }
