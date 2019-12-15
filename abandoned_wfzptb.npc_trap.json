@@ -1,28 +1,28 @@
 {
 	"_id": "abandoned_wfzptb.npc_trap",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_wfzptb.npc_trap",
 	"sector": "SPC_8152",
 	"sec_level": 4,
 	"date_added": 1571531842311,
-	"last_scraped": 1576420482499,
+	"last_scraped": 1576438939374,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571531842311
 		}
 	],
-	"updt": 1576403583216,
-	"edit": 6,
+	"updt": 1576420495591,
+	"edit": 7,
 	"scrape_ct": 17,
-	"next_scrape": 1576465548068,
+	"next_scrape": 1576484294836,
 	"category": "fishie_tank",
-	"last_update": 1576420482499,
+	"last_update": 1576438960037,
 	"output": [
 		{
 			"args": {},
-			"calls": 26139,
+			"calls": 39900,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ve AI",
@@ -61,7 +61,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2837,
+			"calls": 3873,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -161,6 +161,11 @@
 				" develop",
 				" AI Solu"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
