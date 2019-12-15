@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_hs77lr.helpdesk",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_hs77lr.helpdesk",
 	"sector": "K_4610",
 	"sec_level": 4,
 	"date_added": 1572799416990,
-	"last_scraped": 1572800201904,
+	"last_scraped": 1576371469393,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,19 +14,25 @@
 		}
 	],
 	"scrape_ct": 2,
-	"next_scrape": 1572800261904,
+	"next_scrape": 1576411299410,
 	"category": "fishie_tank",
-	"last_update": 1572800201904,
+	"last_update": 1576371469393,
 	"output": [
 		{
 			"args": {},
-			"calls": 47817,
+			"calls": 54540,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				".\\n204",
+				"eal 3 d",
 				"cks of ",
 				"Deal 3 ",
+				" of 13,",
 				" face u",
+				"of 13, f",
 				"e up.\\n2",
+				"41 Deal ",
+				"041 Deal",
 				", face d"
 			],
 			"hits": [
@@ -46,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7157,
+			"calls": 8617,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -54,10 +60,16 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				".\\n204",
+				"eal 3 d",
 				"cks of ",
 				"Deal 3 ",
+				" of 13,",
 				" face u",
+				"of 13, f",
 				"e up.\\n2",
+				"41 Deal ",
+				"041 Deal",
 				", face d"
 			],
 			"hits": [
@@ -77,13 +89,19 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 62069,
+			"calls": 70745,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				".\\n204",
+				"eal 3 d",
 				"cks of ",
 				"Deal 3 ",
+				" of 13,",
 				" face u",
+				"of 13, f",
 				"e up.\\n2",
+				"41 Deal ",
+				"041 Deal",
 				", face d"
 			],
 			"hits": [
@@ -112,6 +130,6 @@
 			]
 		}
 	],
-	"updt": 1572800201144,
-	"edit": 4
+	"updt": 1572800651559,
+	"edit": 5
 }

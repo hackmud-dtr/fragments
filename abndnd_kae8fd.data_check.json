@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_kae8fd.data_check",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_kae8fd.data_check",
 	"sector": "K_8961",
 	"sec_level": 4,
 	"date_added": 1576333970423,
-	"last_scraped": 1576334080643,
+	"last_scraped": 1576360268649,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 14,
-	"next_scrape": 1576334140643,
+	"next_scrape": 1576405041010,
 	"category": "fishie_tank",
-	"last_update": 1576334080643,
+	"last_update": 1576360268649,
 	"output": [
 		{
 			"args": {},
@@ -48,7 +48,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1712,
+			"calls": 2852,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -81,7 +81,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 12445,
+			"calls": 17720,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"T0XB1F",
@@ -119,12 +119,6 @@
 			]
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1576334130466,
+	"edit": 1
 }

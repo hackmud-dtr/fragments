@@ -1,25 +1,20 @@
 {
 	"_id": "abndnd_jtohuo.checkin",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "abndnd_jtohuo.checkin",
 	"sector": "VNP_8541",
 	"sec_level": 4,
 	"date_added": 1576059952587,
-	"last_scraped": 1576060003547,
+	"last_scraped": 1576360046815,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1576059952587
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1576150173390,
+	"next_scrape": 1576449839377,
 	"category": "risk_factor",
 	"last_update": 1576060003547,
 	"output": [
@@ -55,5 +50,16 @@
 				" accept "
 			]
 		}
-	]
+	],
+	"updt": 1576060173736,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
