@@ -1,37 +1,43 @@
 {
 	"_id": "anonymous_l4ex7u.extern_ky1rng",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anonymous_l4ex7u.extern_ky1rng",
 	"sector": "NGC_1069",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1570689436364,
+	"last_scraped": 1576367239231,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1570672021205,
-	"edit": 5,
+	"updt": 1570689603794,
+	"edit": 6,
 	"scrape_ct": 16,
-	"next_scrape": 1570735703757,
+	"next_scrape": 1576407531622,
 	"category": "fishie_tank",
-	"last_update": 1570689436364,
+	"last_update": 1576367269281,
 	"output": [
 		{
 			"args": {},
-			"calls": 35026,
+			"calls": 39058,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"sider",
 				"ow, c",
+				"o we,",
+				"had i",
 				" time",
 				"s an i",
+				"ut that",
 				"n idea ",
+				"e. Afte",
 				"time. Af",
 				"hese ser",
-				" conside"
+				" conside",
+				" After a"
 			],
 			"hits": [
 				{
@@ -129,7 +135,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2706,
+			"calls": 4633,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -137,13 +143,19 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"sider",
 				"ow, c",
+				"o we,",
+				"had i",
 				" time",
 				"s an i",
+				"ut that",
 				"n idea ",
+				"e. Afte",
 				"time. Af",
 				"hese ser",
-				" conside"
+				" conside",
+				" After a"
 			],
 			"hits": [
 				{
@@ -434,6 +446,11 @@
 			"frags": [
 				" time"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

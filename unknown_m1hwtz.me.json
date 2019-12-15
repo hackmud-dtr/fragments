@@ -1,21 +1,21 @@
 {
 	"_id": "unknown_m1hwtz.me",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unknown_m1hwtz.me",
 	"sector": "VNP_2214",
 	"sec_level": 4,
 	"date_added": 1572591009266,
-	"last_scraped": 1572601154745,
+	"last_scraped": 1576358116613,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1572591009266
 		}
 	],
-	"next_scrape": 1572647901944,
+	"next_scrape": 1576402868179,
 	"category": "fishie_tank",
-	"last_update": 1572601193651,
+	"last_update": 1576358116613,
 	"output": [
 		{
 			"args": {},
@@ -68,12 +68,15 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 92008,
+			"calls": 111189,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"100 00",
-				" 0000 0",
-				"000 0000"
+				"000\\n00",
+				"0\\n0000 ",
+				"00\\n0000",
+				"000 0000",
+				"0 0000 0"
 			],
 			"hits": [
 				{
@@ -97,11 +100,6 @@
 			]
 		}
 	],
-	"updt": 1572599010273,
-	"edit": 8,
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1572601265400,
+	"edit": 9
 }

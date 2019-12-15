@@ -1,25 +1,20 @@
 {
 	"_id": "unidentified_rpba6d.statistics",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "unidentified_rpba6d.statistics",
 	"sector": "K_4610",
 	"sec_level": 4,
 	"date_added": 1572982782144,
-	"last_scraped": 1572982811008,
+	"last_scraped": 1576358227875,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1572982782144
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1572982871008,
+	"next_scrape": 1576450701498,
 	"category": "risk_factor",
 	"last_update": 1572982811008,
 	"output": [
@@ -38,5 +33,16 @@
 				" have do"
 			]
 		}
-	]
+	],
+	"updt": 1572983012120,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

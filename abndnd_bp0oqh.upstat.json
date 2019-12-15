@@ -1,31 +1,35 @@
 {
 	"_id": "abndnd_bp0oqh.upstat",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_bp0oqh.upstat",
 	"sector": "K_8071",
 	"sec_level": 4,
 	"date_added": 1569180904081,
-	"last_scraped": 1570690441734,
+	"last_scraped": 1576367389458,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569180904081
 		}
 	],
-	"next_scrape": 1570732181149,
+	"next_scrape": 1576413397491,
 	"category": "fishie_tank",
-	"last_update": 1570690441734,
+	"last_update": 1576367389458,
 	"output": [
 		{
 			"args": {},
-			"calls": 69626,
+			"calls": 74952,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"r dis",
 				"S sen",
+				"RAPS ",
 				"\\n216A",
+				"o the a",
 				"le.\\n21",
 				" discar",
+				"discard ",
 				"6B Defen",
 				" attacke"
 			],
@@ -47,7 +51,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 10129,
+			"calls": 10800,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -55,10 +59,14 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"r dis",
 				"S sen",
+				"RAPS ",
 				"\\n216A",
+				"o the a",
 				"le.\\n21",
 				" discar",
+				"discard ",
 				"6B Defen",
 				" attacke"
 			],
@@ -80,13 +88,17 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 82093,
+			"calls": 86533,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"r dis",
 				"S sen",
+				"RAPS ",
 				"\\n216A",
+				"o the a",
 				"le.\\n21",
 				" discar",
+				"discard ",
 				"6B Defen",
 				" attacke"
 			],
@@ -118,6 +130,6 @@
 			]
 		}
 	],
-	"updt": 1570672922026,
-	"edit": 5
+	"updt": 1570690503202,
+	"edit": 6
 }
