@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_e54gut.k",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "derelict_e54gut.k",
 	"sector": "K_9888",
 	"sec_level": 4,
 	"date_added": 1573875629682,
-	"last_scraped": 1573875690742,
+	"last_scraped": 1576358709479,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1573875750742,
+	"next_scrape": 1576439416571,
 	"category": "risk_factor",
-	"last_update": 1573875690742,
+	"last_update": 1576358709479,
 	"output": [
 		{
 			"args": {},
@@ -36,7 +36,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 251,
+			"calls": 392,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"20EA ",
@@ -597,10 +597,9 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"updt": 1573875754692,
+	"edit": 1
 }

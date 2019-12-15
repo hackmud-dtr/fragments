@@ -1,25 +1,20 @@
 {
 	"_id": "anon_jkpba7.act",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "anon_jkpba7.act",
 	"sector": "K_8369",
 	"sec_level": 4,
 	"date_added": 1574168484891,
-	"last_scraped": 1574168516162,
+	"last_scraped": 1576358991200,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1574168484891
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1574251882808,
+	"next_scrape": 1576440517848,
 	"category": "risk_factor",
 	"last_update": 1574168516162,
 	"output": [
@@ -53,5 +48,16 @@
 				"cks.\\n215"
 			]
 		}
-	]
+	],
+	"updt": 1574168565183,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

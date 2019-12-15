@@ -6,41 +6,48 @@
 	"sector": "VNP_4635",
 	"sec_level": 4,
 	"date_added": 1571529701042,
-	"last_scraped": 1571530205085,
+	"last_scraped": 1576368063946,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571529701042
 		}
 	],
-	"updt": 1571529913388,
-	"edit": 1,
+	"updt": 1571530363192,
+	"edit": 2,
 	"scrape_ct": 18,
-	"next_scrape": 1571530265085,
+	"next_scrape": 1576414756271,
 	"category": "fishie_tank",
-	"last_update": 1571530205085,
+	"last_update": 1576368096328,
 	"output": [
 		{
 			"args": {},
-			"calls": 5888,
+			"calls": 16934,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ust 0",
 				"t 04 ",
-				"l pro",
+				"n. Ad",
 				"cutio",
-				"vise a",
+				"tted: ",
 				"s exem",
 				"OLLIST",
+				"LISTER",
+				"L. Rep",
+				"l prose",
+				"ecord w",
 				"opriate ",
-				". Report"
+				"eport si",
+				"dvise ap",
+				". Report",
+				" from op"
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 730,
+			"calls": 2337,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -50,13 +57,20 @@
 			"fragments": [
 				"ust 0",
 				"t 04 ",
-				"l pro",
+				"n. Ad",
 				"cutio",
-				"vise a",
+				"tted: ",
 				"s exem",
 				"OLLIST",
+				"LISTER",
+				"L. Rep",
+				"l prose",
+				"ecord w",
 				"opriate ",
-				". Report"
+				"eport si",
+				"dvise ap",
+				". Report",
+				" from op"
 			]
 		},
 		{
@@ -76,6 +90,11 @@
 				"opriate ",
 				". Report"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

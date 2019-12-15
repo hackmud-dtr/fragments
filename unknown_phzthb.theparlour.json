@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_phzthb.theparlour",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "unknown_phzthb.theparlour",
 	"sector": "K_9888",
 	"sec_level": 4,
 	"date_added": 1573949342170,
-	"last_scraped": 1573949393884,
+	"last_scraped": 1576361221981,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1573949453884,
+	"next_scrape": 1576449357568,
 	"category": "risk_factor",
-	"last_update": 1573949393884,
+	"last_update": 1576358801772,
 	"output": [
 		{
 			"args": {},
@@ -38,7 +38,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 328,
+			"calls": 547,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"o the",
@@ -613,6 +613,8 @@
 			]
 		}
 	],
+	"updt": 1573949725606,
+	"edit": 1,
 	"retry_args": [
 		{
 			"do": "win"
@@ -620,5 +622,6 @@
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
