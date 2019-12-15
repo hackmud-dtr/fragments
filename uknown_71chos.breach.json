@@ -1,35 +1,41 @@
 {
 	"_id": "uknown_71chos.breach",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_71chos.breach",
 	"sector": "NGC_6016",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1576356900961,
+	"last_scraped": 1576382574134,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1570685545694,
-	"edit": 31,
-	"next_scrape": 1576396756965,
+	"updt": 1576366149522,
+	"edit": 32,
+	"next_scrape": 1576422498719,
 	"category": "fishie_tank",
-	"last_update": 1576356900961,
+	"last_update": 1576382574134,
 	"output": [
 		{
 			"args": {},
-			"calls": 212237,
+			"calls": 241308,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"e: Yo",
 				"4B of",
+				"1E4B ",
 				" agai",
-				"ng aga",
+				"ours. ",
 				"orking ",
+				"of hour",
+				"ing aga",
 				"rking ag",
+				"re here ",
 				"You're h",
+				"inst\\n1E4",
 				"ere out\\n"
 			],
 			"hits": [
@@ -137,6 +143,14 @@
 				"You're h",
 				"ere out\\n"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

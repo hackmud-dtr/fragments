@@ -6,31 +6,35 @@
 	"sector": "SPC_2379",
 	"sec_level": 4,
 	"date_added": 1571523936019,
-	"last_scraped": 1576357071784,
+	"last_scraped": 1576383275724,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571523936019
 		}
 	],
-	"updt": 1571524275492,
-	"edit": 2,
+	"updt": 1576366375133,
+	"edit": 3,
 	"scrape_ct": 20,
-	"next_scrape": 1576401893376,
+	"next_scrape": 1576427643892,
 	"category": "fishie_tank",
-	"last_update": 1576357071784,
+	"last_update": 1576383275724,
 	"output": [
 		{
 			"args": {},
-			"calls": 2979,
+			"calls": 19325,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"e ins",
 				"struct",
-				" instr",
+				"ow on ",
+				"ructed ",
 				"ll tech",
+				" instru",
 				" are in",
 				"technici",
 				"hnicians",
+				"cians ar",
 				" all tec"
 			],
 			"hits": [
@@ -112,6 +116,14 @@
 				"hnicians",
 				" all tec"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

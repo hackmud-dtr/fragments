@@ -1,37 +1,43 @@
 {
 	"_id": "unknown_ka17ly.bbs_r",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_ka17ly.bbs_r",
 	"sector": "K_7086",
 	"sec_level": 4,
 	"date_added": 1571524991550,
-	"last_scraped": 1576357164070,
+	"last_scraped": 1576383478864,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571524991550
 		}
 	],
-	"updt": 1571526079301,
-	"edit": 2,
+	"updt": 1576366375133,
+	"edit": 3,
 	"scrape_ct": 19,
-	"next_scrape": 1576403554010,
+	"next_scrape": 1576427323100,
 	"category": "fishie_tank",
-	"last_update": 1576357164070,
+	"last_update": 1576383478864,
 	"output": [
 		{
 			"args": {},
-			"calls": 9841,
+			"calls": 31793,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"2_FIL",
 				"' The",
+				" We?\"",
+				"ype\":\"",
+				"ven' Th",
 				"X63A2_F",
+				"37C\\n{\"",
 				"- Have ",
 				"_SECT0X6",
 				"T0XE9_SE",
 				":\"transc",
 				"\"They've",
+				"\":\"They'",
 				"\",\"heade",
 				"C\\n{\"data"
 			]
@@ -78,6 +84,14 @@
 				"T0XE9_SE",
 				"\":\"They'"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

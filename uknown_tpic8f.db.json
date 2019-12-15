@@ -1,36 +1,43 @@
 {
 	"_id": "uknown_tpic8f.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_tpic8f.db",
 	"sector": "NGC_1069",
 	"sec_level": 4,
 	"date_added": 1569085645113,
-	"last_scraped": 1576356911248,
+	"last_scraped": 1576382633808,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1569085645113
 		}
 	],
-	"updt": 1570689828279,
-	"edit": 8,
+	"updt": 1576366149522,
+	"edit": 9,
 	"scrape_ct": 12,
-	"next_scrape": 1576402233190,
+	"next_scrape": 1576422657794,
 	"category": "fishie_tank",
-	"last_update": 1576356911248,
+	"last_update": 1576382633808,
 	"output": [
 		{
 			"args": {},
-			"calls": 44646,
+			"calls": 75277,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"user ",
+				"ying c",
+				"oodbye",
+				"ing ca",
+				"ave fu",
 				" cards",
+				" R.\\n2",
 				"bye, Ma",
 				"Erin R.",
+				"e, user ",
 				"2213 Goo",
 				"13 Goodb",
+				", user E",
+				" playing",
 				"\\n2207 Ha"
 			],
 			"hits": [
@@ -133,6 +140,14 @@
 				"13 Goodb",
 				"\\n2207 Ha"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
