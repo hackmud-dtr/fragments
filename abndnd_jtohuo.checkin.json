@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_jtohuo.checkin",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "abndnd_jtohuo.checkin",
 	"sector": "VNP_8541",
 	"sec_level": 4,
 	"date_added": 1576059952587,
-	"last_scraped": 1576360046815,
+	"last_scraped": 1576388223796,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1576449839377,
+	"next_scrape": 1576480568411,
 	"category": "risk_factor",
-	"last_update": 1576060003547,
+	"last_update": 1576388223796,
 	"output": [
 		{
 			"args": {},
@@ -37,7 +37,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 120,
+			"calls": 237,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"sourc",
@@ -51,12 +51,9 @@
 			]
 		}
 	],
-	"updt": 1576060173736,
-	"edit": 1,
+	"updt": 1576388241909,
+	"edit": 3,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
