@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_s5lwn7.db",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "uknown_s5lwn7.db",
 	"sector": "SPC_5746",
 	"sec_level": 4,
 	"date_added": 1576183885383,
-	"last_scraped": 1576388404028,
+	"last_scraped": 1576406475827,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1576477992281,
+	"next_scrape": 1576488694657,
 	"category": "risk_factor",
-	"last_update": 1576388394378,
+	"last_update": 1576406475827,
 	"output": [
 		{
 			"args": {},
@@ -35,7 +35,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 205,
+			"calls": 312,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"3",
@@ -289,13 +289,10 @@
 			]
 		}
 	],
-	"updt": 1576371110327,
-	"edit": 2,
+	"updt": 1576388467036,
+	"edit": 3,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
