@@ -1,28 +1,28 @@
 {
 	"_id": "derelict_37zwzf.t1_cracker",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_37zwzf.t1_cracker",
 	"sector": "NGC_8726",
 	"sec_level": 4,
 	"date_added": 1571524678417,
-	"last_scraped": 1576442889719,
+	"last_scraped": 1576457970647,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571524678417
 		}
 	],
-	"updt": 1576425228627,
-	"edit": 9,
+	"updt": 1576443257473,
+	"edit": 10,
 	"scrape_ct": 15,
-	"next_scrape": 1576484420053,
+	"next_scrape": 1576499559889,
 	"category": "fishie_tank",
-	"last_update": 1576442889719,
+	"last_update": 1576457970647,
 	"output": [
 		{
 			"args": {},
-			"calls": 53576,
+			"calls": 70303,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"lopme",
@@ -62,7 +62,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7649,
+			"calls": 8258,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -107,7 +107,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 58277,
+			"calls": 63503,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"lopme",
