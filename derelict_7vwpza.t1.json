@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_7vwpza.t1",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_7vwpza.t1",
 	"sector": "HJG_7249",
 	"sec_level": 4,
 	"date_added": 1573451314993,
-	"last_scraped": 1576455457322,
+	"last_scraped": 1576468650754,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 4,
-	"next_scrape": 1576497476716,
+	"next_scrape": 1576511492177,
 	"category": "fishie_tank",
-	"last_update": 1576455457322,
+	"last_update": 1576468680378,
 	"output": [
 		{
 			"args": {},
-			"calls": 105506,
+			"calls": 117986,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ions ",
@@ -77,7 +77,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 11445,
+			"calls": 12699,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -232,6 +232,11 @@
 			]
 		}
 	],
-	"updt": 1576440104638,
-	"edit": 10
+	"updt": 1576455653167,
+	"edit": 11,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
