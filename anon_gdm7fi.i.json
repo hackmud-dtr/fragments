@@ -6,7 +6,7 @@
 	"sector": "K_9888",
 	"sec_level": 4,
 	"date_added": 1573956710910,
-	"last_scraped": 1576508507136,
+	"last_scraped": 1576521475599,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,28 +14,35 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1576555162498,
+	"next_scrape": 1576567303137,
 	"category": "fishie_tank",
-	"last_update": 1576508507136,
+	"last_update": 1576521486725,
 	"output": [
 		{
 			"args": {},
-			"calls": 68999,
+			"calls": 77346,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"| NET",
-				"E ERR",
-				" ERRO",
+				"43B_F",
+				"TIME E",
 				"OR | T",
+				"ETW ER",
+				"0XA43B",
 				" | USE",
 				"SYST ER",
 				"R fbret",
+				"ME ERRO",
 				"FILE0XD",
 				"ERROR |",
+				" ERROR ",
 				"_SECT0XA",
 				"ST0X35_S",
 				"SECT0XA4",
-				"DD1A6B85"
+				"RROR | U",
+				"DD1A6B85",
+				"0X35_SEC",
+				" | PROG "
 			],
 			"hits": [
 				{
@@ -56,7 +63,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8407,
+			"calls": 8749,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -65,18 +72,25 @@
 			],
 			"fragments": [
 				"| NET",
-				"E ERR",
-				" ERRO",
+				"43B_F",
+				"TIME E",
 				"OR | T",
+				"ETW ER",
+				"0XA43B",
 				" | USE",
 				"SYST ER",
 				"R fbret",
+				"ME ERRO",
 				"FILE0XD",
 				"ERROR |",
+				" ERROR ",
 				"_SECT0XA",
 				"ST0X35_S",
 				"SECT0XA4",
-				"DD1A6B85"
+				"RROR | U",
+				"DD1A6B85",
+				"0X35_SEC",
+				" | PROG "
 			],
 			"hits": [
 				{
@@ -126,8 +140,8 @@
 			]
 		}
 	],
-	"updt": 1576495331070,
-	"edit": 12,
+	"updt": 1576508637608,
+	"edit": 13,
 	"identified": [
 		{
 			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
@@ -146,6 +160,11 @@
 				"SECT0XA4",
 				"DD1A6B85"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
