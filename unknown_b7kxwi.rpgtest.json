@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_b7kxwi.rpgtest",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_b7kxwi.rpgtest",
 	"sector": "NGC_2120",
 	"sec_level": 4,
 	"date_added": 1573753673529,
-	"last_scraped": 1576526288119,
+	"last_scraped": 1576537100513,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 8,
-	"next_scrape": 1576572501422,
+	"next_scrape": 1576578223252,
 	"category": "clicker",
-	"last_update": 1576526288119,
+	"last_update": 1576537100513,
 	"output": [
 		{
 			"args": {},
-			"calls": 110067,
+			"calls": 117265,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"ittle",
@@ -50,7 +50,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 126141,
+			"calls": 130277,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"ittle",
@@ -121,6 +121,11 @@
 			]
 		}
 	],
-	"updt": 1576514501006,
-	"edit": 12
+	"updt": 1576526451853,
+	"edit": 13,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
