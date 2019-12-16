@@ -1,25 +1,25 @@
 {
 	"_id": "anonymous_yr2ov2.hey_listen",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_yr2ov2.hey_listen",
 	"sector": "K_7367",
 	"sec_level": 4,
 	"date_added": 1575806476656,
-	"last_scraped": 1576478590983,
+	"last_scraped": 1576492355491,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1575806476656
 		}
 	],
-	"next_scrape": 1576518934596,
+	"next_scrape": 1576538238355,
 	"category": "clicker",
-	"last_update": 1576478590983,
+	"last_update": 1576492355491,
 	"output": [
 		{
 			"args": {},
-			"calls": 194840,
+			"calls": 208422,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"st act",
@@ -47,7 +47,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 172966,
+			"calls": 182836,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"st act",
@@ -113,6 +113,11 @@
 			]
 		}
 	],
-	"updt": 1576465571036,
-	"edit": 22
+	"updt": 1576478651626,
+	"edit": 23,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
