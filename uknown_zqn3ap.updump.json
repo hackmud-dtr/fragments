@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_zqn3ap.updump",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_zqn3ap.updump",
 	"sector": "K_8961",
 	"sec_level": 4,
 	"date_added": 1576325390443,
-	"last_scraped": 1576453848236,
+	"last_scraped": 1576467305296,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1576494891928,
+	"next_scrape": 1576507891564,
 	"category": "clicker",
-	"last_update": 1576453848236,
+	"last_update": 1576467305296,
 	"output": [
 		{
 			"args": {},
-			"calls": 46169,
+			"calls": 53062,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"SYST E",
@@ -51,7 +51,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 48774,
+			"calls": 63890,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"SYST E",
@@ -190,8 +190,8 @@
 			]
 		}
 	],
-	"updt": 1576438301310,
-	"edit": 6,
+	"updt": 1576454076385,
+	"edit": 7,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -223,6 +223,11 @@
 				"ST ERR",
 				"ERROR | "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"CLICK": true
 		}
 	]
 }
