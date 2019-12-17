@@ -1,0 +1,67 @@
+{
+	"_id": "anonymous_c0zmar.log",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anonymous_c0zmar.log",
+	"sector": "K_0371",
+	"sec_level": 4,
+	"date_added": 1576594823239,
+	"last_scraped": 1576594875410,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1576594823239
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1576594935410,
+	"category": "fishie_tank",
+	"last_update": 1576594875410,
+	"output": [
+		{
+			"args": {},
+			"calls": 8973,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"an co",
+				"hy 5 s",
+				"s?\\n209",
+				"1 Why 5",
+				" 5 secon"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1435,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"an co",
+				"hy 5 s",
+				"s?\\n209",
+				"1 Why 5",
+				" 5 secon"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 3796,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"an co",
+				"hy 5 s",
+				"s?\\n209",
+				"1 Why 5",
+				" 5 secon"
+			]
+		}
+	]
+}
