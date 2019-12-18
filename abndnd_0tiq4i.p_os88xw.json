@@ -1,0 +1,132 @@
+{
+	"_id": "abndnd_0tiq4i.p_os88xw",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abndnd_0tiq4i.p_os88xw",
+	"sector": "VNP_6676",
+	"sec_level": 4,
+	"date_added": 1576655572987,
+	"last_scraped": 1576656098398,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1576655572987
+		}
+	],
+	"scrape_ct": 12,
+	"next_scrape": 1576656158398,
+	"category": "fishie_tank",
+	"last_update": 1576656098398,
+	"output": [
+		{
+			"args": {},
+			"calls": 26904,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"he im",
+				" civi",
+				" ## Th",
+				"nt; rev",
+				"ion conf",
+				"ance bur"
+			],
+			"hits": [
+				{
+					"document": "Erin File",
+					"frags": [
+						"he im",
+						" civi",
+						" ## Th",
+						"nt; rev",
+						"ion conf",
+						"ance bur"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2699,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"he im",
+				" civi",
+				" ## Th",
+				"nt; rev",
+				"ion conf",
+				"ance bur"
+			],
+			"hits": [
+				{
+					"document": "Erin File",
+					"frags": [
+						"he im",
+						" civi",
+						" ## Th",
+						"nt; rev",
+						"ion conf",
+						"ance bur"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 27764,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"he im",
+				" civi",
+				" ## Th",
+				"nt; rev",
+				"ion conf",
+				"ance bur"
+			],
+			"hits": [
+				{
+					"document": "Erin File",
+					"frags": [
+						"he im",
+						" civi",
+						" ## Th",
+						"nt; rev",
+						"ion conf",
+						"ance bur"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "Erin File",
+			"frags": [
+				"he im",
+				" civi",
+				" ## Th",
+				"nt; rev",
+				"ion conf",
+				"ance bur"
+			]
+		}
+	],
+	"updt": 1576655879887,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
