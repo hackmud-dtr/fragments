@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_twjga1.greet",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abndnd_twjga1.greet",
 	"sector": "NGC_0285",
 	"sec_level": 4,
@@ -15,6 +15,10 @@
 		{
 			"type": "died",
 			"when": 1576743517362
+		},
+		{
+			"type": "died",
+			"when": 1576743683341
 		}
 	],
 	"scrape_ct": 19,
@@ -80,5 +84,7 @@
 			]
 		}
 	],
-	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_twjga1.greet: script doesn't exist\"}"
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_twjga1.greet: script doesn't exist\"}",
+	"updt": 1576743590588,
+	"edit": 1
 }
