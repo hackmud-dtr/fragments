@@ -1,54 +1,67 @@
 {
 	"_id": "anon_7izw9x.hackmud_mini",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_7izw9x.hackmud_mini",
 	"sector": "VNP_6676",
 	"sec_level": 4,
 	"date_added": 1576730501460,
-	"last_scraped": 1576740494346,
+	"last_scraped": 1576749247828,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1576730501460
 		}
 	],
-	"next_scrape": 1576783538863,
+	"next_scrape": 1576795394216,
 	"category": "fishie_tank",
-	"last_update": 1576740494346,
+	"last_update": 1576749277619,
 	"output": [
 		{
 			"args": {},
-			"calls": 69996,
+			"calls": 82512,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"_FILE",
 				"_CLST",
 				"X23E7",
 				"ST0X9",
-				"LE0X8",
+				"FT0XD",
 				"ETW E",
-				"8CAB0",
+				"CLST0",
+				"5_SEC",
+				"23E7_",
 				"1_CLS",
+				" Nece",
+				"UBJ: T",
 				"ROR | ",
+				"E7_FIL",
 				"3E7_FI",
 				" | USE",
 				" | PRO",
 				" TOTW ",
 				"a comco",
+				"SER smi",
+				"FILE0X8",
 				"ERROR |",
 				"ER smir",
+				"0X95_SE",
 				" | TIME",
 				" smirza",
+				"| PROG E",
 				"ode-glob",
 				"_SECT0X2",
+				"X8CAB060",
 				"TIME ERR",
 				"SYST ERR",
 				"OR | TIM",
 				"OR | NET",
+				"AB060B\\n",
 				" comcode",
+				" PROG ER",
 				" #7: Nec",
-				"\\nSYST ER"
+				"\\nSYST ER",
+				"0B\\nSYST "
 			],
 			"hits": [
 				{
@@ -80,7 +93,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8592,
+			"calls": 9782,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -92,29 +105,42 @@
 				"_CLST",
 				"X23E7",
 				"ST0X9",
-				"LE0X8",
+				"FT0XD",
 				"ETW E",
-				"8CAB0",
+				"CLST0",
+				"5_SEC",
+				"23E7_",
 				"1_CLS",
+				" Nece",
+				"UBJ: T",
 				"ROR | ",
+				"E7_FIL",
 				"3E7_FI",
 				" | USE",
 				" | PRO",
 				" TOTW ",
 				"a comco",
+				"SER smi",
+				"FILE0X8",
 				"ERROR |",
 				"ER smir",
+				"0X95_SE",
 				" | TIME",
 				" smirza",
+				"| PROG E",
 				"ode-glob",
 				"_SECT0X2",
+				"X8CAB060",
 				"TIME ERR",
 				"SYST ERR",
 				"OR | TIM",
 				"OR | NET",
+				"AB060B\\n",
 				" comcode",
+				" PROG ER",
 				" #7: Nec",
-				"\\nSYST ER"
+				"\\nSYST ER",
+				"0B\\nSYST "
 			],
 			"hits": [
 				{
@@ -229,6 +255,11 @@
 			]
 		}
 	],
-	"updt": 1576731869511,
-	"edit": 5
+	"updt": 1576740887375,
+	"edit": 6,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
