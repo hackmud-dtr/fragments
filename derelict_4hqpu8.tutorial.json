@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_4hqpu8.tutorial",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "derelict_4hqpu8.tutorial",
 	"sector": "VNP_6676",
 	"sec_level": 4,
@@ -11,11 +11,15 @@
 		{
 			"type": "added",
 			"when": 1576731035966
+		},
+		{
+			"type": "died",
+			"when": 1576732615555
 		}
 	],
 	"next_scrape": 1576776929293,
 	"category": "fishie_tank",
-	"last_update": 1576731857963,
+	"last_update": 1576731867399,
 	"output": [
 		{
 			"args": {},
@@ -120,7 +124,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 63790,
+			"calls": 70407,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"w the",
@@ -185,6 +189,6 @@
 			]
 		}
 	],
-	"updt": 1576731190111,
-	"edit": 1
+	"updt": 1576732094490,
+	"edit": 2
 }
