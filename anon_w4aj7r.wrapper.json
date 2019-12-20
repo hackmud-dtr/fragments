@@ -6,7 +6,7 @@
 	"sector": "K_8369",
 	"sec_level": 4,
 	"date_added": 1570937178034,
-	"last_scraped": 1576862584701,
+	"last_scraped": 1576869706252,
 	"script_log": [
 		{
 			"type": "added",
@@ -25,17 +25,17 @@
 			}
 		]
 	],
-	"updt": 1576853687892,
-	"edit": 1247,
+	"updt": 1576862927341,
+	"edit": 1248,
 	"pl_output": "\ndark.wrapper is used to create libraries. its arguments are:\n\n  `Na`: arguments from the calling script\n  `Nc`: context from the calling script\n  `Nd`: documentation to return when called via the CLI\n  `Nf`: array of functions to create the library\n\nthe library starts as the empty object. for each function, the function is\ncalled on the library alongside the passed arguments, then the return value's\nenumerable properties are added to the object. if a library ends up being\nloaded multiple times, the arguments get merged into a single object. this is\nonly useful if the arguments are accessed when methods are called, as the\nlibrary is initialised eagerly\n\nfor convenience, the \"scripts\" argument to libraries accepts an array of\nscriptors which expands out to properties for each script name, with the period\nremoved. there are a few known scripts which get expanded to shorter aliases,\nnamely:\n\n  accts.balance -> ab\n  accts.transactions -> at\n  accts.xfer_gc_to -> ax\n  chats.tell -> ct\n  market.browse -> mbr\n  market.buy -> mby\n  market.sell -> ms\n  owo.notices_ur_loc -> owo\n  sys.access_log -> sa\n  sys.manage -> sm\n  sys.upgrades -> su\n  your.bank -> bank\n\nif any of the known scriptors is accessed but not provided via the CLI, a\nfriendly error will be returned so that the user knows what's wrong.\n",
-	"next_scrape": 1576907895436,
+	"next_scrape": 1576912262291,
 	"scrape_ct": 17,
 	"category": "UNKNOWN CATEGORY",
-	"last_update": 1576862584701,
+	"last_update": 1576869706252,
 	"output": [
 		{
 			"args": {},
-			"calls": 1287184,
+			"calls": 1334530,
 			"base": "\ndark.wrapper is used to create libraries. its arguments are:\n\n  `Na`: arguments from the calling script\n  `Nc`: context from the calling script\n  `Nd`: documentation to return when called via the CLI\n  `Nf`: array of functions to create the library\n\nthe library starts as the empty object. for each function, the function is\ncalled on the library alongside the passed arguments, then the return value's\nenumerable properties are added to the object. if a library ends up being\nloaded multiple times, the arguments get merged into a single object. this is\nonly useful if the arguments are accessed when methods are called, as the\nlibrary is initialised eagerly\n\nfor convenience, the \"scripts\" argument to libraries accepts an array of\nscriptors which expands out to properties for each script name, with the period\nremoved. there are a few known scripts which get expanded to shorter aliases,\nnamely:\n\n  accts.balance -> ab\n  accts.transactions -> at\n  accts.xfer_gc_to -> ax\n  chats.tell -> ct\n  market.browse -> mbr\n  market.buy -> mby\n  market.sell -> ms\n  owo.notices_ur_loc -> owo\n  sys.access_log -> sa\n  sys.manage -> sm\n  sys.upgrades -> su\n  your.bank -> bank\n\nif any of the known scriptors is accessed but not provided via the CLI, a\nfriendly error will be returned so that the user knows what's wrong.\n",
 			"fragments": [
 				"he qu",
