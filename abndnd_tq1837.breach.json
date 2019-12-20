@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_tq1837.breach",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abndnd_tq1837.breach",
 	"sector": "NGC_7656",
 	"sec_level": 4,
@@ -15,6 +15,10 @@
 		{
 			"type": "died",
 			"when": 1576874367588
+		},
+		{
+			"type": "died",
+			"when": 1576875138289
 		}
 	],
 	"scrape_ct": 20,
@@ -39,8 +43,48 @@
 				"XCC32859",
 				"NETW ERR",
 				"J: Don't"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"tnl-a",
+						"_CLST0",
+						"ERROR ",
+						"\\nSYST ",
+						"XF623_F",
+						"USER ex",
+						"T0XA2_C",
+						"0XA2_CL",
+						"dari  | ",
+						"XCC32859",
+						"NETW ERR",
+						"J: Don't"
+					]
+				}
 			]
 		}
 	],
-	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_tq1837.breach: script doesn't exist\"}"
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_tq1837.breach: script doesn't exist\"}",
+	"updt": 1576874428010,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+			"frags": [
+				"tnl-a",
+				"_CLST0",
+				"ERROR ",
+				"\\nSYST ",
+				"XF623_F",
+				"USER ex",
+				"T0XA2_C",
+				"0XA2_CL",
+				"dari  | ",
+				"XCC32859",
+				"NETW ERR",
+				"J: Don't"
+			]
+		}
+	]
 }
