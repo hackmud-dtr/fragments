@@ -1,22 +1,26 @@
 {
 	"_id": "derelict_pcd51t.ns",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_pcd51t.ns",
 	"sector": "K_7086",
 	"sec_level": 4,
 	"date_added": 1571525773444,
-	"last_scraped": 1576849106982,
+	"last_scraped": 1576859380010,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571525773444
+		},
+		{
+			"type": "died",
+			"when": 1576859380010
 		}
 	],
-	"updt": 1576840157868,
-	"edit": 51,
+	"updt": 1576849176450,
+	"edit": 52,
 	"scrape_ct": 8,
-	"next_scrape": 1576893924241,
+	"next_scrape": 1576939879431,
 	"category": "dice_roller",
 	"last_update": 1576849106982,
 	"output": [
@@ -137,5 +141,6 @@
 				"ry of "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_pcd51t.ns: script doesn't exist\"}"
 }
