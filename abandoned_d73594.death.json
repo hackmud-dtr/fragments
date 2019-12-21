@@ -1,0 +1,117 @@
+{
+	"_id": "abandoned_d73594.death",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abandoned_d73594.death",
+	"sector": "VNP_3449",
+	"sec_level": 4,
+	"date_added": 1576928875318,
+	"last_scraped": 1576929178570,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1576928875318
+		}
+	],
+	"scrape_ct": 12,
+	"next_scrape": 1576929238570,
+	"category": "fishie_tank",
+	"last_update": 1576929178570,
+	"output": [
+		{
+			"args": {},
+			"calls": 22945,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"01 01",
+				"0 0000 ",
+				"000 0000",
+				" 0000 00",
+				"0\\n0000 0"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"01 01",
+						"0 0000 ",
+						"000 0000",
+						" 0000 00",
+						"0\\n0000 0"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2240,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"01 01",
+				"0 0000 ",
+				"000 0000",
+				" 0000 00",
+				"0\\n0000 0"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"01 01",
+						"0 0000 ",
+						"000 0000",
+						" 0000 00",
+						"0\\n0000 0"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 16388,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"01 01",
+				"0 0000 ",
+				"000 0000",
+				" 0000 00",
+				"0\\n0000 0"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"01 01",
+						"0 0000 ",
+						"000 0000",
+						" 0000 00",
+						"0\\n0000 0"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"01 01",
+				"0 0000 ",
+				"000 0000",
+				" 0000 00",
+				"0\\n0000 0"
+			]
+		}
+	],
+	"updt": 1576928987553,
+	"edit": 1
+}
