@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_rjwp5a.gibson",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "uknown_rjwp5a.gibson",
 	"sector": "VNP_3449",
 	"sec_level": 4,
 	"date_added": 1576934146329,
-	"last_scraped": 1576940522673,
+	"last_scraped": 1576946304988,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1577027431518,
+	"next_scrape": 1577034171517,
 	"category": "risk_factor",
-	"last_update": 1576940511851,
+	"last_update": 1576946304988,
 	"output": [
 		{
 			"args": {},
@@ -38,7 +38,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 215,
+			"calls": 398,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"3",
@@ -54,13 +54,10 @@
 			]
 		}
 	],
-	"updt": 1576934397415,
-	"edit": 2,
+	"updt": 1576940708291,
+	"edit": 3,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
