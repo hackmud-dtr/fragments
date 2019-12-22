@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "abandoned_igtadt.ez40",
-	"sector": "VNP_2153",
+	"sector": "VNP_3449",
 	"sec_level": 4,
 	"date_added": 1574128417103,
-	"last_scraped": 1577008752233,
+	"last_scraped": 1577009264484,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1574128417103
-		}
+		},
+		{
+			"type": "died",
+			"when": 1577009188446
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1577009255365,
+				"from": "VNP_3449",
+				"to": "VNP_2153"
+			}
+		]
 	],
 	"pl_output": "Cannot read property 'call' of undefined",
-	"next_scrape": 1577101994442,
-	"updt": 1577002514515,
-	"edit": 1334
+	"next_scrape": 1577095279359,
+	"updt": 1577008827228,
+	"edit": 1335
 }
