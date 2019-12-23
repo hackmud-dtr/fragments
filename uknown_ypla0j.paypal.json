@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_ypla0j.paypal",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "uknown_ypla0j.paypal",
 	"sector": "K_2006",
 	"sec_level": 4,
@@ -19,12 +19,16 @@
 				"from": "K_2006",
 				"to": "K_7153"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1577117298471
+		}
 	],
 	"pl_output": "`D:::PAYPAL ERROR:::` Please use pay.pal to access your account.",
 	"next_scrape": 1577154467299,
-	"updt": 1577106959772,
-	"edit": 1138,
+	"updt": 1577113497990,
+	"edit": 1139,
 	"scrape_ct": 3,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1577113280058,
