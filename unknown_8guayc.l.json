@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_8guayc.l",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "unknown_8guayc.l",
-	"sector": "NGC_4159",
+	"sector": "VNP_1677",
 	"sec_level": 4,
 	"date_added": 1574444593461,
-	"last_scraped": 1577104985516,
+	"last_scraped": 1577109251293,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1577108325202
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1577109218691,
+				"from": "VNP_1677",
+				"to": "NGC_4159"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR athenaeum.desk: script doesn't exist\"}",
-	"next_scrape": 1577191016946,
-	"updt": 1577105151976,
-	"edit": 832
+	"next_scrape": 1577199843230,
+	"updt": 1577108536713,
+	"edit": 833
 }
