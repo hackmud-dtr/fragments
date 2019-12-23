@@ -1,37 +1,42 @@
 {
 	"_id": "unidentified_uhp4f3.t1c",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unidentified_uhp4f3.t1c",
 	"sector": "VNP_1677",
 	"sec_level": 4,
 	"date_added": 1577115158402,
-	"last_scraped": 1577115730098,
+	"last_scraped": 1577116519994,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1577115158402
+		},
+		{
+			"type": "died",
+			"when": 1577116519994
+		},
+		{
+			"type": "died",
+			"when": 1577116735617
 		}
 	],
-	"scrape_ct": 10,
-	"next_scrape": 1577115790098,
+	"next_scrape": 1577202929908,
 	"category": "fishie_tank",
-	"last_update": 1577115741424,
+	"last_update": 1577116510191,
 	"output": [
 		{
 			"args": {},
-			"calls": 39939,
+			"calls": 83045,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"J: st",
-				"UBJ: s",
-				"OR | P",
-				"E ERRO",
+				"J: sta",
 				"ton ai-",
+				"on ai-t",
+				"m | SUB",
 				"am | SU",
 				"SER fbr",
-				"R | TIM",
-				"IME ERR",
+				"E ERROR",
 				": stage",
 				"| USER f",
 				"| TIME E",
@@ -43,6 +48,11 @@
 				"R | USER",
 				"R | PROG",
 				"R fbreto",
+				"OR | TIM",
+				"OR | PRO",
+				"OG ERROR",
+				"IME ERRO",
+				"G ERROR ",
 				"ER fbret",
 				"-team | ",
 				" | TIME ",
@@ -50,6 +60,7 @@
 				" | PROG ",
 				" USER fb",
 				" TIME ER",
+				" SUBJ: s",
 				" PROG ER",
 				" ERROR |"
 			],
@@ -84,7 +95,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2966,
+			"calls": 5647,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -92,14 +103,15 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"J: st",
 				"UBJ: s",
 				"OR | P",
+				"J: sta",
 				"E ERRO",
 				"ton ai-",
+				"on ai-t",
+				"m | SUB",
 				"am | SU",
 				"SER fbr",
-				"R | TIM",
 				"IME ERR",
 				": stage",
 				"| USER f",
@@ -112,6 +124,8 @@
 				"R | USER",
 				"R | PROG",
 				"R fbreto",
+				"OR | TIM",
+				"G ERROR ",
 				"ER fbret",
 				"-team | ",
 				" | TIME ",
@@ -153,24 +167,37 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 26218,
+			"calls": 59593,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"m | S",
+				"UBJ: s",
 				"OR | P",
+				"J: sta",
+				"E ERRO",
 				"ton ai-",
-				"R | TIM",
+				"on ai-t",
+				"m | SUB",
+				"am | SU",
+				"SER fbr",
+				"IME ERR",
 				": stage",
 				"| USER f",
 				"| TIME E",
+				"| PROG E",
 				"i-team |",
 				"fbreton ",
 				"ai-team ",
 				"ROG ERRO",
 				"R | USER",
+				"R | PROG",
 				"R fbreto",
+				"OR | TIM",
+				"G ERROR ",
 				"ER fbret",
+				"-team | ",
+				" | TIME ",
 				" | SUBJ:",
+				" | PROG ",
 				" USER fb",
 				" TIME ER",
 				" PROG ER",
@@ -230,11 +257,15 @@
 			]
 		}
 	],
-	"updt": 1577115525808,
-	"edit": 2,
+	"updt": 1577116652959,
+	"edit": 5,
 	"retry_args": [
+		{
+			"do": "feed"
+		},
 		{
 			"do": "clean"
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_uhp4f3.t1c: script doesn't exist\"}"
 }

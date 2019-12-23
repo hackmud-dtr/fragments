@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_ykyns3.update",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_ykyns3.update",
 	"sector": "HJG_4380",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "HJG_4380",
 				"to": "K_7153"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1577116408850
+		}
 	],
 	"pl_output": "l.checkAccess is not a function",
 	"next_scrape": 1577198336532,
-	"updt": 1577106281408,
-	"edit": 4014
+	"updt": 1577112597169,
+	"edit": 4015
 }

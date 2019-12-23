@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_1k51zp.blackjack",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "anonymous_1k51zp.blackjack",
 	"sector": "K_7086",
 	"sec_level": 4,
@@ -23,7 +23,11 @@
 				"from": "K_7086",
 				"to": "HJG_0482"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1577116408850
+		}
 	],
 	"scrape_ct": 12,
 	"next_scrape": 1577159105461,
@@ -72,6 +76,6 @@
 			]
 		}
 	],
-	"updt": 1577106959772,
-	"edit": 159
+	"updt": 1577113272554,
+	"edit": 160
 }
