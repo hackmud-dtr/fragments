@@ -1,35 +1,43 @@
 {
 	"_id": "uknown_t58dw4.bestsec",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "uknown_t58dw4.bestsec",
 	"sector": "VNP_1677",
 	"sec_level": 4,
 	"date_added": 1577088727519,
-	"last_scraped": 1577089048857,
+	"last_scraped": 1577089341622,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1577088727519
+		},
+		{
+			"type": "died",
+			"when": 1577089341622
+		},
+		{
+			"type": "died",
+			"when": 1577089342007
 		}
 	],
-	"scrape_ct": 16,
-	"next_scrape": 1577089108857,
+	"scrape_ct": 12,
+	"next_scrape": 1577180850105,
 	"category": "coin_flipper",
-	"last_update": 1577089048857,
+	"last_update": 1577089270613,
 	"output": [
 		{
 			"args": {},
-			"calls": 34157,
+			"calls": 53618,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"y? ##",
-				"top t",
-				"ng of",
 				"minds",
 				"king ",
 				"e hel",
+				"a goo",
 				" help",
+				"stop t",
 				"ntro |",
 				"inking",
 				"analog",
@@ -39,9 +47,10 @@
 				"y don't",
 				"to stop",
 				"rms' be",
+				"od anal",
 				"o | Per",
+				"ng of t",
 				"lpful t",
-				"ld 'wav",
 				"ave bra",
 				"alogy? ",
 				"They do",
@@ -51,12 +60,14 @@
 				"ps it'd ",
 				"op think",
 				"m. Would",
+				"ld 'wave",
 				"it'd be ",
 				"ins. ## ",
 				"helpful ",
 				"haps it'",
 				"g of the",
 				"forms' b",
+				"e brains",
 				"# Hm. Wo",
 				" | Perha",
 				" brains."
@@ -121,6 +132,7 @@
 			]
 		}
 	],
-	"updt": 1577088918418,
-	"edit": 1
+	"updt": 1577089143073,
+	"edit": 2,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_t58dw4.bestsec: script doesn't exist\"}"
 }
