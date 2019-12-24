@@ -1,26 +1,29 @@
 {
 	"_id": "unknown_pegn60.mall",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unknown_pegn60.mall",
 	"sector": "NGC_7007",
 	"sec_level": 4,
 	"date_added": 1577196575653,
-	"last_scraped": 1577197570140,
+	"last_scraped": 1577197740593,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1577196575653
+		},
+		{
+			"type": "died",
+			"when": 1577198969338
 		}
 	],
-	"scrape_ct": 3,
-	"next_scrape": 1577197630140,
+	"next_scrape": 1577241305902,
 	"category": "dice_roller",
-	"last_update": 1577197570140,
+	"last_update": 1577197740593,
 	"output": [
 		{
 			"args": {},
-			"calls": 107874,
+			"calls": 131383,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
 				"ts ag",
@@ -78,6 +81,6 @@
 			]
 		}
 	],
-	"updt": 1577197392984,
-	"edit": 4
+	"updt": 1577198069836,
+	"edit": 6
 }
