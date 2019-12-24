@@ -1,24 +1,24 @@
 {
 	"_id": "derelict_q6eor1.acct",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "derelict_q6eor1.acct",
 	"sector": "NGC_7603",
 	"sec_level": 4,
 	"date_added": 1577211335329,
-	"last_scraped": 1577211815671,
+	"last_scraped": 1577211855727,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1577211335329
 		}
 	],
-	"updt": 1577211380488,
-	"edit": 1,
-	"scrape_ct": 9,
-	"next_scrape": 1577211875671,
+	"updt": 1577211833048,
+	"edit": 2,
+	"scrape_ct": 8,
+	"next_scrape": 1577211915727,
 	"category": "fishie_tank",
-	"last_update": 1577211826913,
+	"last_update": 1577211855727,
 	"output": [
 		{
 			"args": {},
@@ -149,7 +149,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3836,
+			"calls": 5159,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -281,7 +281,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 27760,
+			"calls": 32839,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"city ",
@@ -511,11 +511,6 @@
 			"frags": [
 				"city "
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
