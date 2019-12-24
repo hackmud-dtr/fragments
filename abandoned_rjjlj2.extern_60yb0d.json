@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_rjjlj2.extern_60yb0d",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "abandoned_rjjlj2.extern_60yb0d",
 	"sector": "NGC_7007",
 	"sec_level": 4,
 	"date_added": 1577161149230,
-	"last_scraped": 1577161209319,
+	"last_scraped": 1577165748466,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1577243253847,
+	"next_scrape": 1577249080179,
 	"category": "risk_factor",
-	"last_update": 1577161198432,
+	"last_update": 1577165748466,
 	"output": [
 		{
 			"args": {},
@@ -36,7 +36,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 113,
+			"calls": 299,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"ould y",
@@ -51,11 +51,10 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1577161308130,
+	"edit": 1
 }
