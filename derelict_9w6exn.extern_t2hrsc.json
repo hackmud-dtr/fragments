@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_9w6exn.extern_t2hrsc",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "derelict_9w6exn.extern_t2hrsc",
 	"sector": "K_9888",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "K_9888",
 				"to": "FORM_THETA_2"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1577483902213
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_9w6exn.extern_t2hrsc: Shift operation is currently in progress. 648s remain\"}",
 	"next_scrape": 1568889429927,
-	"updt": 1573994000272,
-	"edit": 2
+	"updt": 1573994225546,
+	"edit": 3
 }
