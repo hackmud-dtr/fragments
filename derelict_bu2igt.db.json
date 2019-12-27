@@ -1,0 +1,78 @@
+{
+	"_id": "derelict_bu2igt.db",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "derelict_bu2igt.db",
+	"sector": "K_3495",
+	"sec_level": 4,
+	"date_added": 1577433506276,
+	"last_scraped": 1577433685429,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1577433506276
+		},
+		{
+			"type": "died",
+			"when": 1577433685429
+		},
+		{
+			"type": "died",
+			"when": 1577433771734
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1577521546378,
+	"category": "coin_flipper",
+	"last_update": 1577433615844,
+	"output": [
+		{
+			"args": {},
+			"calls": 25112,
+			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
+			"fragments": [
+				"1 0000 ",
+				"0111 11",
+				"0 0000 ",
+				"111 0111",
+				"111 0000",
+				"11 1111 ",
+				"11 0111 ",
+				"1 1111 0",
+				"1 0111 1",
+				"0000 000",
+				"000 0000",
+				" 0000 00"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"111 011",
+						"1 0111 ",
+						"1 0000 ",
+						"0111 11",
+						"1 1111 0",
+						"0000 000",
+						"000 0000"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"111 011",
+				"1 0111 ",
+				"1 0000 ",
+				"0111 11",
+				"1 1111 0",
+				"0000 000",
+				"000 0000"
+			]
+		}
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_bu2igt.db: script doesn't exist\"}"
+}
