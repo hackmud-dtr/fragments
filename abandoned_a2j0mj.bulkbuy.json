@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_a2j0mj.bulkbuy",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_a2j0mj.bulkbuy",
 	"sector": "HJG_0442",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1577294095866
+		},
+		{
+			"type": "died",
+			"when": 1577534366677
 		}
 	],
 	"retry_args": [
@@ -41,6 +45,26 @@
 				"X77AB550",
 				"ST ERROR",
 				"E_CLST0X"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"T0XCE",
+						"W ERRO",
+						"TW ERR",
+						"CE_CLS",
+						"5_SECT",
+						" NETW ",
+						"T0XAD0C",
+						"RROR | ",
+						" ERROR ",
+						"_CLST0X1",
+						"X77AB550",
+						"ST ERROR",
+						"E_CLST0X"
+					]
+				}
 			]
 		},
 		{
@@ -63,9 +87,49 @@
 				"X77AB550",
 				"ST ERROR",
 				"E_CLST0X"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"T0XCE",
+						"W ERRO",
+						"TW ERR",
+						"CE_CLS",
+						"5_SECT",
+						" NETW ",
+						"T0XAD0C",
+						"RROR | ",
+						" ERROR ",
+						"_CLST0X1",
+						"X77AB550",
+						"ST ERROR",
+						"E_CLST0X"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1577294135609,
-	"edit": 1
+	"updt": 1577294360803,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
+				"T0XCE",
+				"W ERRO",
+				"TW ERR",
+				"CE_CLS",
+				"5_SECT",
+				" NETW ",
+				"T0XAD0C",
+				"RROR | ",
+				" ERROR ",
+				"_CLST0X1",
+				"X77AB550",
+				"ST ERROR",
+				"E_CLST0X"
+			]
+		}
+	]
 }
