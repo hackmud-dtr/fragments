@@ -1,20 +1,69 @@
 {
 	"_id": "abndnd_jue59c.casino",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "abndnd_jue59c.casino",
-	"sector": "HJG_4648",
+	"sector": "K_3821",
 	"sec_level": 2,
 	"date_added": 1572299523889,
-	"last_scraped": 1577612416399,
+	"last_scraped": 1577639728323,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1572299523889
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1577639342214,
+				"from": "K_3821",
+				"to": "HJG_4648"
+			}
+		]
 	],
 	"pl_output": "HELLO THERE!!\n\nI AM A CASINO!!\n\nFLIP A COIN AND WIN DOUBLE YOUR BET MAX 100K, ARE YOU READY\n\nPLEASE ENTER THE amount:1234 TO WAGER",
-	"next_scrape": 1577693223437,
-	"updt": 1577608753492,
-	"edit": 2190
+	"next_scrape": 1577639788323,
+	"updt": 1577639402855,
+	"edit": 2192,
+	"scrape_ct": 18,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1577639728323,
+	"output": [
+		{
+			"args": {},
+			"calls": 363789,
+			"base": "HELLO THERE!!\n\nI AM A CASINO!!\n\nFLIP A COIN AND WIN DOUBLE YOUR BET MAX 100K, ARE YOU READY\n\nPLEASE ENTER THE amount:1234 TO WAGER",
+			"fragments": [
+				"0001 0",
+				"0 0000 ",
+				"0000 010",
+				"000 0000",
+				"0000\\n000"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"0001 0",
+						"0 0000 ",
+						"0000 010",
+						"000 0000",
+						"0000\\n000"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"0001 0",
+				"0 0000 ",
+				"0000 010",
+				"000 0000",
+				"0000\\n000"
+			]
+		}
+	]
 }
