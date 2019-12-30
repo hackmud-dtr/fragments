@@ -1,7 +1,7 @@
 {
 	"_id": "anon_jkuos3.send",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anon_jkuos3.send",
 	"sector": "K_2006",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "K_2006",
 				"to": "K_4785"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1577679477553
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"Try the following: email.send { to: \\\"\\\", subject: \\\"\\\", body: \\\"\\\" }\"}",
 	"next_scrape": 1577758416687,
-	"updt": 1577672180551,
-	"edit": 4661
+	"updt": 1577676239181,
+	"edit": 4662
 }

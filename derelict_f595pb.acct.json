@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_f595pb.acct",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_f595pb.acct",
 	"sector": "K_7086",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "K_7086",
 				"to": "K_4785"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1577679164359
+		}
 	],
 	"pl_output": "Assets.hasAccount is not a function",
 	"next_scrape": 1577763188392,
-	"updt": 1577674210843,
-	"edit": 3544
+	"updt": 1577678718728,
+	"edit": 3545
 }

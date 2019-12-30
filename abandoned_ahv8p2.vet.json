@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_ahv8p2.vet",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abandoned_ahv8p2.vet",
 	"sector": "K_8779",
 	"sec_level": 4,
@@ -23,12 +23,16 @@
 				"from": "K_8779",
 				"to": "K_4785"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1577679277975
+		}
 	],
 	"pl_output": "\n\t\tWelcome to Vet v0.1.0, a `LFULLSEC` defensive security tool by util. \n\t\tTo start vetting users and scripts, first make macros:\n\n\t\t/vet = util.vet {{ name: \"{0}\" }}\n\n\t\tThen call it with /vet util or /vet util.vet \n",
 	"next_scrape": 1576607931087,
-	"updt": 1576556672022,
-	"edit": 2233,
+	"updt": 1576566820940,
+	"edit": 2234,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1576566680912,
 	"output": [
