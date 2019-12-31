@@ -1,19 +1,27 @@
 {
 	"_id": "unknown_306aj1.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unknown_306aj1.db",
 	"sector": "NGC_2591",
 	"sec_level": 4,
 	"date_added": 1577810031175,
-	"last_scraped": 1577831184533,
+	"last_scraped": 1577833172536,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1577810031175
+		},
+		{
+			"type": "died",
+			"when": 1577833172536
+		},
+		{
+			"type": "died",
+			"when": 1577833205175
 		}
 	],
-	"next_scrape": 1577873783135,
+	"next_scrape": 1577925203684,
 	"category": "plant_sim",
 	"last_update": 1577831184533,
 	"output": [
@@ -67,6 +75,7 @@
 			]
 		}
 	],
-	"updt": 1577828848927,
-	"edit": 16
+	"updt": 1577831328652,
+	"edit": 17,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_306aj1.db: script doesn't exist\"}"
 }
