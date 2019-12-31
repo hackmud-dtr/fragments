@@ -1,20 +1,28 @@
 {
 	"_id": "unidentified_nilft8.workshop",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "new",
 	"script": "unidentified_nilft8.workshop",
-	"sector": "VNP_1973",
+	"sector": "K_3486",
 	"sec_level": 4,
 	"date_added": 1571847685810,
-	"last_scraped": 1577200932702,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1571847685810
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1577834249744,
+				"from": "K_3486",
+				"to": "VNP_1973"
+			}
+		]
 	],
-	"updt": 1577196943776,
-	"edit": 2268,
+	"updt": 1577200999833,
+	"edit": 2269,
 	"pl_output": "[\"`MEstablishing connection`\",\"`LSuccess`\",\"`A...`\",\"`PGDPR Notice`\",\"In order for you to use `LSanta's Workshop`, we require your consent to store some information about you.\",\"Stored information includes your name, address, and records of your behaviour in the past, present and future.\",\"This will be used solely for delivery, and to determine what items are delivered.\",\"If you consent to this, pass confirm:true to proceed.\",\"This will also start your timer.\"]",
 	"next_scrape": 1577283404825
 }
