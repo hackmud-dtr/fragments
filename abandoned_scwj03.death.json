@@ -1,27 +1,22 @@
 {
 	"_id": "abandoned_scwj03.death",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "abandoned_scwj03.death",
 	"sector": "HJG_6980",
 	"sec_level": 4,
 	"date_added": 1577988155796,
-	"last_scraped": 1577988166149,
+	"last_scraped": 1577988196107,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1577988155796
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1577988226149,
+	"scrape_ct": 18,
+	"next_scrape": 1578072623251,
 	"category": "risk_factor",
-	"last_update": 1577988166149,
+	"last_update": 1577988185809,
 	"output": [
 		{
 			"args": {},
@@ -39,6 +34,28 @@
 				" Nicely",
 				"cely put"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 277,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"ive t",
+				" hone",
+				"om. ##",
+				"nforma",
+				" we ha",
+				" to ar",
+				"ll make",
+				" come f",
+				" Nicely",
+				"cely put"
+			]
 		}
-	]
+	],
+	"updt": 1577988177816,
+	"edit": 1,
+	"pl_output": "YOU COULD WIN 1GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
