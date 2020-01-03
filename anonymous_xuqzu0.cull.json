@@ -1,26 +1,26 @@
 {
 	"_id": "anonymous_xuqzu0.cull",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anonymous_xuqzu0.cull",
 	"sector": "K_6692",
 	"sec_level": 4,
 	"date_added": 1578020800608,
-	"last_scraped": 1578020860794,
+	"last_scraped": 1578021414098,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1578020800608
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1578020920794,
+	"scrape_ct": 7,
+	"next_scrape": 1578021474098,
 	"category": "fishie_tank",
-	"last_update": 1578020860794,
+	"last_update": 1578021414098,
 	"output": [
 		{
 			"args": {},
-			"calls": 7495,
+			"calls": 30661,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"is red",
@@ -29,13 +29,26 @@
 				" on de",
 				"bat\\n21",
 				"at\\n215"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"is red",
+						"efende",
+						"15E De",
+						" on de",
+						"bat\\n21",
+						"at\\n215"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1163,
+			"calls": 5616,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -49,15 +62,56 @@
 				" on de",
 				"bat\\n21",
 				"at\\n215"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"is red",
+						"efende",
+						"15E De",
+						" on de",
+						"bat\\n21",
+						"at\\n215"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 3776,
+			"calls": 44506,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"is red",
+				"efende",
+				"15E De",
+				" on de",
+				"bat\\n21",
+				"at\\n215"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"is red",
+						"efende",
+						"15E De",
+						" on de",
+						"bat\\n21",
+						"at\\n215"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1578021319851,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"is red",
 				"efende",
 				"15E De",
