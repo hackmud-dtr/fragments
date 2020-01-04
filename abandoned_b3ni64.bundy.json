@@ -1,16 +1,32 @@
 {
 	"_id": "abandoned_b3ni64.bundy",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "player",
 	"script": "abandoned_b3ni64.bundy",
-	"sector": "K_3845",
+	"sector": "K_3821",
 	"sec_level": 2,
 	"date_added": 1575113762465,
-	"last_scraped": 0,
+	"last_scraped": 1578103013797,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1575113762465
-		}
-	]
+		},
+		{
+			"type": "died",
+			"when": 1578102897402
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1578102972972,
+				"from": "K_3821",
+				"to": "K_3845"
+			}
+		]
+	],
+	"updt": 1578102963948,
+	"edit": 2,
+	"pl_output": "Unexpected token u in JSON at position 0",
+	"next_scrape": 1578192238672
 }
