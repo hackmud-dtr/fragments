@@ -1,26 +1,26 @@
 {
 	"_id": "unknown_opfa3d.one_six_six_three",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unknown_opfa3d.one_six_six_three",
 	"sector": "VNP_9417",
 	"sec_level": 4,
 	"date_added": 1578327744212,
-	"last_scraped": 1578327795134,
+	"last_scraped": 1578328236147,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1578327744212
 		}
 	],
-	"scrape_ct": 17,
-	"next_scrape": 1578327855134,
+	"scrape_ct": 7,
+	"next_scrape": 1578328296147,
 	"category": "fishie_tank",
-	"last_update": 1578327795134,
+	"last_update": 1578328236147,
 	"output": [
 		{
 			"args": {},
-			"calls": 6542,
+			"calls": 33765,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"d pil",
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 525,
+			"calls": 2936,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -89,7 +89,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 20253,
+			"calls": 50334,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"d pil",
@@ -132,5 +132,7 @@
 				"0CA Plac"
 			]
 		}
-	]
+	],
+	"updt": 1578328041084,
+	"edit": 2
 }
