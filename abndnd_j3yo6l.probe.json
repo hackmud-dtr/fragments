@@ -1,0 +1,73 @@
+{
+	"_id": "abndnd_j3yo6l.probe",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abndnd_j3yo6l.probe",
+	"sector": "VNP_9417",
+	"sec_level": 4,
+	"date_added": 1578343179740,
+	"last_scraped": 1578343239628,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1578343179740
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1578343299628,
+	"category": "fishie_tank",
+	"last_update": 1578343239628,
+	"output": [
+		{
+			"args": {},
+			"calls": 11190,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"eers.",
+				"e note",
+				"Even s",
+				"e. Even ",
+				"chance t",
+				"You know",
+				" chance "
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1341,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"eers.",
+				"e note",
+				"Even s",
+				"e. Even ",
+				"chance t",
+				"You know",
+				" chance "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 4756,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"eers.",
+				"e note",
+				"Even s",
+				"e. Even ",
+				"chance t",
+				"You know",
+				" chance "
+			]
+		}
+	]
+}
