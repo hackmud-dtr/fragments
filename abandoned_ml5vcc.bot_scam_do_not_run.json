@@ -1,27 +1,22 @@
 {
 	"_id": "abandoned_ml5vcc.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "abandoned_ml5vcc.bot_scam_do_not_run",
 	"sector": "VNP_8618",
 	"sec_level": 4,
 	"date_added": 1578416078450,
-	"last_scraped": 1578416098769,
+	"last_scraped": 1578416119712,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1578416078450
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
-	"scrape_ct": 19,
-	"next_scrape": 1578416158769,
+	"scrape_ct": 18,
+	"next_scrape": 1578499942129,
 	"category": "risk_factor",
-	"last_update": 1578416098769,
+	"last_update": 1578416107900,
 	"output": [
 		{
 			"args": {},
@@ -48,7 +43,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 141,
+			"calls": 269,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"D8812",
@@ -67,5 +62,16 @@
 				"122E\\nSY"
 			]
 		}
-	]
+	],
+	"updt": 1578416106896,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
