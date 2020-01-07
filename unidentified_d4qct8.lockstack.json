@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_d4qct8.lockstack",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unidentified_d4qct8.lockstack",
 	"sector": "K_1993",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1571523936019
+		},
+		{
+			"type": "died",
+			"when": 1578369438223
 		}
 	],
 	"scrape_ct": 19,
@@ -28,6 +32,18 @@
 				"ems lik",
 				"isk is e",
 				"a risk t"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"word I",
+						"ke a ri",
+						"ems lik",
+						"isk is e",
+						"a risk t"
+					]
+				}
 			]
 		},
 		{
@@ -45,15 +61,49 @@
 				"rd I'd ",
 				"o me ## ",
 				"Risk is "
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"y the",
+						"actly",
+						" like",
+						" risk ",
+						" Risk ",
+						"rd I'd ",
+						"o me ## ",
+						"Risk is "
+					]
+				}
 			]
 		}
 	],
-	"updt": 1576366375133,
-	"edit": 2,
+	"updt": 1576383280454,
+	"edit": 3,
 	"retry_args": [
 		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"identified": [
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				"y the",
+				"actly",
+				" like",
+				"word I",
+				" Risk ",
+				"rd I'd ",
+				"ke a ri",
+				"ems lik",
+				"o me ## ",
+				"isk is e",
+				"a risk t",
+				"Risk is "
+			]
+		}
+	]
 }
