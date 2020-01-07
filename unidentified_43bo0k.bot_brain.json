@@ -1,0 +1,53 @@
+{
+	"_id": "unidentified_43bo0k.bot_brain",
+	"type": "fragment",
+	"mode": "timeout",
+	"script": "unidentified_43bo0k.bot_brain",
+	"sector": "K_0467",
+	"sec_level": 4,
+	"date_added": 1578398950276,
+	"last_scraped": 1578398999382,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1578398950276
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1578484066189,
+	"category": "risk_factor",
+	"last_update": 1578398999382,
+	"output": [
+		{
+			"args": {},
+			"calls": 1820,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				" 0000",
+				" 0100 0",
+				"E\\n0000 ",
+				"0000 000",
+				"000 0110"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 100,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				" 0000",
+				" 0100 0",
+				"E\\n0000 ",
+				"0000 000",
+				"000 0110"
+			]
+		}
+	]
+}
