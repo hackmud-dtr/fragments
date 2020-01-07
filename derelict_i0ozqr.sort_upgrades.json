@@ -1,0 +1,70 @@
+{
+	"_id": "derelict_i0ozqr.sort_upgrades",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "derelict_i0ozqr.sort_upgrades",
+	"sector": "VNP_9417",
+	"sec_level": 4,
+	"date_added": 1578358268809,
+	"last_scraped": 1578358298343,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1578358268809
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1578358358343,
+	"category": "fishie_tank",
+	"last_update": 1578358319211,
+	"output": [
+		{
+			"args": {},
+			"calls": 15433,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"| SUB",
+				"erajb",
+				"ari |",
+				"ER fb",
+				"BJ: '",
+				" | US",
+				"eton er",
+				"ajbhand",
+				"J: 'Mal",
+				"ERROR |",
+				" | BODY "
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1092,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"| SUB",
+				"erajb",
+				"ari |",
+				"ER fb",
+				"BJ: '",
+				" | US",
+				"eton er",
+				"ajbhand",
+				"J: 'Mal",
+				"ERROR |",
+				" | BODY "
+			]
+		}
+	]
+}
