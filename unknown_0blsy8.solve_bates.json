@@ -1,19 +1,27 @@
 {
 	"_id": "unknown_0blsy8.solve_bates",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unknown_0blsy8.solve_bates",
 	"sector": "HJG_7695",
 	"sec_level": 4,
 	"date_added": 1578473778596,
-	"last_scraped": 1578474550736,
+	"last_scraped": 1578475818013,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1578473778596
+		},
+		{
+			"type": "died",
+			"when": 1578475818013
+		},
+		{
+			"type": "died",
+			"when": 1578475889935
 		}
 	],
-	"next_scrape": 1578518913113,
+	"next_scrape": 1578565645569,
 	"category": "fishie_tank",
 	"last_update": 1578474550736,
 	"output": [
@@ -213,8 +221,8 @@
 			]
 		}
 	],
-	"updt": 1578474279569,
-	"edit": 3,
+	"updt": 1578475854275,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
@@ -241,5 +249,6 @@
 				" do we v"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_0blsy8.solve_bates: script doesn't exist\"}"
 }
