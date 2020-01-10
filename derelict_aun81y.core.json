@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_aun81y.core",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_aun81y.core",
 	"sector": "K_7086",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "K_7086",
 				"to": "NGC_7203"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1578638289328
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"`DUnauthorised`\"}",
 	"next_scrape": 1578718649059,
-	"updt": 1578635063373,
-	"edit": 2905
+	"updt": 1578636193112,
+	"edit": 2906
 }

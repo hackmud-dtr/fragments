@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_a42k9h.stitute",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unidentified_a42k9h.stitute",
 	"sector": "SPC_1841",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "SPC_1841",
 				"to": "NGC_7203"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1578638362979
+		}
 	],
-	"updt": 1578635291063,
-	"edit": 1539,
+	"updt": 1578636644595,
+	"edit": 1540,
 	"pl_output": "str.substr is not a function",
 	"next_scrape": 1578729542456
 }
