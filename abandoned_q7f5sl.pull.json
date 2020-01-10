@@ -1,19 +1,27 @@
 {
 	"_id": "abandoned_q7f5sl.pull",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abandoned_q7f5sl.pull",
 	"sector": "NGC_9950",
 	"sec_level": 4,
 	"date_added": 1578614035067,
-	"last_scraped": 1578639740569,
+	"last_scraped": 1578640637127,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1578614035067
+		},
+		{
+			"type": "died",
+			"when": 1578640637127
+		},
+		{
+			"type": "died",
+			"when": 1578640644942
 		}
 	],
-	"next_scrape": 1578685545975,
+	"next_scrape": 1578724676380,
 	"category": "plant_sim",
 	"last_update": 1578639740569,
 	"output": [
@@ -117,6 +125,7 @@
 			]
 		}
 	],
-	"updt": 1578638897321,
-	"edit": 23
+	"updt": 1578639798392,
+	"edit": 24,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_q7f5sl.pull: script doesn't exist\"}"
 }
