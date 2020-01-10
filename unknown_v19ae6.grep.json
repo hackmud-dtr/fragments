@@ -1,20 +1,28 @@
 {
 	"_id": "unknown_v19ae6.grep",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unknown_v19ae6.grep",
 	"sector": "VNP_1373",
 	"sec_level": 4,
 	"date_added": 1578685656778,
-	"last_scraped": 1578685736703,
+	"last_scraped": 1578685828310,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1578685656778
+		},
+		{
+			"type": "died",
+			"when": 1578685828310
+		},
+		{
+			"type": "died",
+			"when": 1578685919060
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1578685796703,
+	"next_scrape": 1578765371395,
 	"category": "coin_flipper",
 	"last_update": 1578685736703,
 	"output": [
@@ -295,5 +303,8 @@
 				"TIME E"
 			]
 		}
-	]
+	],
+	"updt": 1578685784583,
+	"edit": 1,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_v19ae6.grep: script doesn't exist\"}"
 }
