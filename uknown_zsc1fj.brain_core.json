@@ -1,26 +1,26 @@
 {
 	"_id": "uknown_zsc1fj.brain_core",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "uknown_zsc1fj.brain_core",
 	"sector": "NGC_2085",
 	"sec_level": 4,
 	"date_added": 1578819750831,
-	"last_scraped": 1578819800844,
+	"last_scraped": 1578820404972,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1578819750831
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1578819860844,
+	"scrape_ct": 4,
+	"next_scrape": 1578820464972,
 	"category": "fishie_tank",
-	"last_update": 1578819793069,
+	"last_update": 1578820444222,
 	"output": [
 		{
 			"args": {},
-			"calls": 6699,
+			"calls": 51024,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ster'",
@@ -29,13 +29,26 @@
 				"rget ho",
 				"mpletio",
 				"for a m"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"ster'",
+						"omple",
+						"r a mo",
+						"rget ho",
+						"mpletio",
+						"for a m"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1450,
+			"calls": 6993,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -49,7 +62,68 @@
 				"rget ho",
 				"mpletio",
 				"for a m"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"ster'",
+						"omple",
+						"r a mo",
+						"rget ho",
+						"mpletio",
+						"for a m"
+					]
+				}
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 42005,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ster'",
+				"omple",
+				"r a mo",
+				"rget ho",
+				"mpletio",
+				"for a m"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"ster'",
+						"omple",
+						"r a mo",
+						"rget ho",
+						"mpletio",
+						"for a m"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				"ster'",
+				"omple",
+				"r a mo",
+				"rget ho",
+				"mpletio",
+				"for a m"
+			]
+		}
+	],
+	"updt": 1578820254549,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
