@@ -1,28 +1,40 @@
 {
 	"_id": "anon_w4aj7r.words",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "anon_w4aj7r.words",
-	"sector": "K_1993",
+	"sector": "SPC_3022",
 	"sec_level": 4,
 	"date_added": 1570937178034,
-	"last_scraped": 1576723738179,
+	"last_scraped": 1578943122452,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1570937178034
-		}
+		},
+		{
+			"type": "died",
+			"when": 1578942931111
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1578943011949,
+				"from": "SPC_3022",
+				"to": "K_1993"
+			}
+		]
 	],
-	"updt": 1576715182440,
-	"edit": 741,
+	"updt": 1578943013680,
+	"edit": 743,
 	"pl_output": "do you `Nsuggest` anything?",
-	"next_scrape": 1576763922327,
+	"next_scrape": 1578943182452,
 	"category": "UNKNOWN CATEGORY",
-	"last_update": 1576723738179,
+	"last_update": 1578943122452,
 	"output": [
 		{
 			"args": {},
-			"calls": 929252,
+			"calls": 966453,
 			"base": "_.am is not a functio",
 			"fragments": [
 				"o.$ is not a function"
@@ -44,5 +56,6 @@
 				"o.$ is not a function"
 			]
 		}
-	]
+	],
+	"scrape_ct": 19
 }
