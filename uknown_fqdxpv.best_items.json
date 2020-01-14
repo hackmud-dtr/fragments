@@ -1,21 +1,29 @@
 {
 	"_id": "uknown_fqdxpv.best_items",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "uknown_fqdxpv.best_items",
 	"sector": "K_0399",
 	"sec_level": 4,
 	"date_added": 1579010694547,
-	"last_scraped": 1579011714613,
+	"last_scraped": 1579012719979,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1579010694547
+		},
+		{
+			"type": "died",
+			"when": 1579012719979
+		},
+		{
+			"type": "died",
+			"when": 1579012802926
 		}
 	],
-	"updt": 1579011604455,
-	"edit": 4,
-	"next_scrape": 1579057428898,
+	"updt": 1579012733496,
+	"edit": 6,
+	"next_scrape": 1579092792902,
 	"category": "dice_roller",
 	"last_update": 1579011714613,
 	"output": [
@@ -200,5 +208,6 @@
 				" inte"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_fqdxpv.best_items: script doesn't exist\"}"
 }
