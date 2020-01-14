@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "unknown_fpic8q.desk",
-	"sector": "VNP_0948",
+	"sector": "SPC_4089",
 	"sec_level": 4,
 	"date_added": 1574444331533,
-	"last_scraped": 1579041293948,
+	"last_scraped": 1579042318941,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1574444331533
-		}
+		},
+		{
+			"type": "died",
+			"when": 1579041961221
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1579042309672,
+				"from": "SPC_4089",
+				"to": "VNP_0948"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR athenaeum.desk: script doesn't exist\"}",
-	"next_scrape": 1579123820373,
-	"updt": 1579040464269,
-	"edit": 2389
+	"next_scrape": 1579123779409,
+	"updt": 1579042268021,
+	"edit": 2391
 }
