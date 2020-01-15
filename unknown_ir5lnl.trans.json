@@ -1,16 +1,32 @@
 {
 	"_id": "unknown_ir5lnl.trans",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "unknown_ir5lnl.trans",
-	"sector": "VNP_0948",
+	"sector": "SPC_7080",
 	"sec_level": 4,
 	"date_added": 1574444061693,
-	"last_scraped": 0,
+	"last_scraped": 1579124757532,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1574444061693
-		}
-	]
+		},
+		{
+			"type": "died",
+			"when": 1579124677757
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1579124745952,
+				"from": "SPC_7080",
+				"to": "VNP_0948"
+			}
+		]
+	],
+	"updt": 1574444197821,
+	"edit": 1,
+	"pl_output": "Unexpected token u in JSON at position 0",
+	"next_scrape": 1579212822144
 }
