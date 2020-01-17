@@ -1,31 +1,26 @@
 {
 	"_id": "derelict_f6xdo7.mall",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "derelict_f6xdo7.mall",
 	"sector": "K_1254",
 	"sec_level": 4,
 	"date_added": 1579289686669,
-	"last_scraped": 1579289716573,
+	"last_scraped": 1579290258731,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1579289686669
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1579289776573,
+	"scrape_ct": 7,
+	"next_scrape": 1579290318731,
 	"category": "fishie_tank",
-	"last_update": 1579289737507,
+	"last_update": 1579290279995,
 	"output": [
 		{
 			"args": {},
-			"calls": 4134,
+			"calls": 42585,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"e you",
@@ -43,13 +38,35 @@
 				"n.\\n2042 ",
 				"\\n2043 6 ",
 				" lanes.\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"e you",
+						"you ar",
+						"ave yo",
+						"3 6 la",
+						"044 Ha",
+						"wn.\\n20",
+						"6 lanes",
+						"s.\\n2044",
+						"in a lin",
+						"e.\\n2043",
+						"anes.\\n2",
+						" line.\\n",
+						"n.\\n2042 ",
+						"\\n2043 6 ",
+						" lanes.\\n"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1074,
+			"calls": 5294,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -72,7 +89,104 @@
 				"n.\\n2042 ",
 				"\\n2043 6 ",
 				" lanes.\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"e you",
+						"you ar",
+						"ave yo",
+						"3 6 la",
+						"044 Ha",
+						"wn.\\n20",
+						"6 lanes",
+						"s.\\n2044",
+						"in a lin",
+						"e.\\n2043",
+						"anes.\\n2",
+						" line.\\n",
+						"n.\\n2042 ",
+						"\\n2043 6 ",
+						" lanes.\\n"
+					]
+				}
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 49657,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"e you",
+				"you ar",
+				"ave yo",
+				"3 6 la",
+				"044 Ha",
+				"wn.\\n20",
+				"6 lanes",
+				"s.\\n2044",
+				"in a lin",
+				"e.\\n2043",
+				"anes.\\n2",
+				" line.\\n",
+				"n.\\n2042 ",
+				"\\n2043 6 ",
+				" lanes.\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"e you",
+						"you ar",
+						"ave yo",
+						"3 6 la",
+						"044 Ha",
+						"wn.\\n20",
+						"6 lanes",
+						"s.\\n2044",
+						"in a lin",
+						"e.\\n2043",
+						"anes.\\n2",
+						" line.\\n",
+						"n.\\n2042 ",
+						"\\n2043 6 ",
+						" lanes.\\n"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1579290196405,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"e you",
+				"you ar",
+				"ave yo",
+				"3 6 la",
+				"044 Ha",
+				"wn.\\n20",
+				"6 lanes",
+				"s.\\n2044",
+				"in a lin",
+				"e.\\n2043",
+				"anes.\\n2",
+				" line.\\n",
+				"n.\\n2042 ",
+				"\\n2043 6 ",
+				" lanes.\\n"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
