@@ -1,26 +1,26 @@
 {
 	"_id": "abandoned_ukecsx.cc",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abandoned_ukecsx.cc",
 	"sector": "SPC_6978",
 	"sec_level": 4,
 	"date_added": 1579243431778,
-	"last_scraped": 1579243765019,
+	"last_scraped": 1579243787410,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1579243431778
 		}
 	],
-	"scrape_ct": 13,
-	"next_scrape": 1579243825019,
+	"scrape_ct": 11,
+	"next_scrape": 1579243847410,
 	"category": "fishie_tank",
-	"last_update": 1579243684333,
+	"last_update": 1579243795121,
 	"output": [
 		{
 			"args": {},
-			"calls": 15137,
+			"calls": 28765,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"r TRA",
@@ -54,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2660,
+			"calls": 3295,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -143,9 +143,6 @@
 	"updt": 1579243540014,
 	"edit": 1,
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
