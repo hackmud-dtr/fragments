@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_rwmgly.checker",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anonymous_rwmgly.checker",
 	"sector": "K_4801",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "K_4801",
 				"to": "NGC_9263"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1579395646020
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"Try passing the parameters `Nname`:`V\\\"trust.me\\\"` or `Ns`:`V#s.trust.me`\"}",
 	"next_scrape": 1579291631987,
-	"updt": 1579200502731,
-	"edit": 5053
+	"updt": 1579201404153,
+	"edit": 5054
 }
