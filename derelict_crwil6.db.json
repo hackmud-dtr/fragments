@@ -1,26 +1,26 @@
 {
 	"_id": "derelict_crwil6.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "fresh",
 	"script": "derelict_crwil6.db",
 	"sector": "K_5477",
 	"sec_level": 4,
 	"date_added": 1579391306985,
-	"last_scraped": 1579392001329,
+	"last_scraped": 1579391797721,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1579391306985
 		}
 	],
-	"scrape_ct": 0,
-	"next_scrape": 1579392061329,
+	"scrape_ct": 5,
+	"next_scrape": 1579391857721,
 	"category": "fishie_tank",
-	"last_update": 1579392001329,
+	"last_update": 1579391797721,
 	"output": [
 		{
 			"args": {},
-			"calls": 47314,
+			"calls": 36714,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"remar",
@@ -75,7 +75,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5058,
+			"calls": 3684,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -135,7 +135,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 75113,
+			"calls": 58562,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"remar",
@@ -227,6 +227,6 @@
 			]
 		}
 	],
-	"updt": 1579391866532,
-	"edit": 2
+	"updt": 1579391416317,
+	"edit": 1
 }
