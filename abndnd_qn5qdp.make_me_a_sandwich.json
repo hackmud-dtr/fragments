@@ -1,26 +1,26 @@
 {
 	"_id": "abndnd_qn5qdp.make_me_a_sandwich",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abndnd_qn5qdp.make_me_a_sandwich",
 	"sector": "K_5477",
 	"sec_level": 4,
 	"date_added": 1579497977906,
-	"last_scraped": 1579498008104,
+	"last_scraped": 1579498421304,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1579497977906
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1579498068104,
+	"scrape_ct": 9,
+	"next_scrape": 1579498481304,
 	"category": "fishie_tank",
-	"last_update": 1579498008104,
+	"last_update": 1579498449145,
 	"output": [
 		{
 			"args": {},
-			"calls": 3955,
+			"calls": 32975,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"nted ",
@@ -50,7 +50,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 481,
+			"calls": 5220,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -85,7 +85,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 5556,
+			"calls": 30910,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"nted ",
@@ -124,6 +124,13 @@
 				" But if ",
 				" to,\\n213"
 			]
+		}
+	],
+	"updt": 1579498284855,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
