@@ -1,26 +1,26 @@
 {
 	"_id": "anon_esm3gs.solve_tresham",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anon_esm3gs.solve_tresham",
 	"sector": "K_5477",
 	"sec_level": 4,
 	"date_added": 1579494558688,
-	"last_scraped": 1579494659906,
+	"last_scraped": 1579494780797,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1579494558688
 		}
 	],
-	"scrape_ct": 18,
-	"next_scrape": 1579494719906,
+	"scrape_ct": 13,
+	"next_scrape": 1579494840797,
 	"category": "fishie_tank",
-	"last_update": 1579494669405,
+	"last_update": 1579494800435,
 	"output": [
 		{
 			"args": {},
-			"calls": 10934,
+			"calls": 23830,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"on't ",
@@ -54,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1307,
+			"calls": 2434,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -93,7 +93,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 7243,
+			"calls": 22324,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"on't ",
@@ -140,6 +140,8 @@
 			]
 		}
 	],
+	"updt": 1579494674397,
+	"edit": 1,
 	"retry_args": [
 		{
 			"do": "clean"
