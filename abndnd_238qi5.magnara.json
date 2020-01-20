@@ -1,0 +1,51 @@
+{
+	"_id": "abndnd_238qi5.magnara",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abndnd_238qi5.magnara",
+	"sector": "HJG_1695",
+	"sec_level": 4,
+	"date_added": 1579539348870,
+	"last_scraped": 1579539400318,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1579539348870
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1579632670164,
+	"category": "risk_factor",
+	"last_update": 1579539400318,
+	"output": [
+		{
+			"args": {},
+			"calls": 1323,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"1 0100 ",
+				"01 0100",
+				"0000 01",
+				"0001 010"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 104,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"1 0100 ",
+				"01 0100",
+				"0000 01",
+				"0001 010"
+			]
+		}
+	]
+}
