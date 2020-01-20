@@ -1,0 +1,148 @@
+{
+	"_id": "anon_esm3gs.solve_tresham",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anon_esm3gs.solve_tresham",
+	"sector": "K_5477",
+	"sec_level": 4,
+	"date_added": 1579494558688,
+	"last_scraped": 1579494659906,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1579494558688
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1579494719906,
+	"category": "fishie_tank",
+	"last_update": 1579494669405,
+	"output": [
+		{
+			"args": {},
+			"calls": 10934,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"on't ",
+				"ere's",
+				"cussi",
+				" defi",
+				"d abou",
+				"'s a d",
+				"ussion t",
+				"ion to b",
+				" our def"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"on't ",
+						"ere's",
+						"cussi",
+						" defi",
+						"d abou",
+						"'s a d",
+						"ussion t",
+						"ion to b",
+						" our def"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1307,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"on't ",
+				"ere's",
+				"cussi",
+				" defi",
+				"d abou",
+				"'s a d",
+				"ussion t",
+				"ion to b",
+				" our def"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"on't ",
+						"ere's",
+						"cussi",
+						" defi",
+						"d abou",
+						"'s a d",
+						"ussion t",
+						"ion to b",
+						" our def"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 7243,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"on't ",
+				"ere's",
+				"cussi",
+				" defi",
+				"d abou",
+				"'s a d",
+				"ussion t",
+				"ion to b",
+				" our def"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"on't ",
+						"ere's",
+						"cussi",
+						" defi",
+						"d abou",
+						"'s a d",
+						"ussion t",
+						"ion to b",
+						" our def"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+			"frags": [
+				"on't ",
+				"ere's",
+				"cussi",
+				" defi",
+				"d abou",
+				"'s a d",
+				"ussion t",
+				"ion to b",
+				" our def"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
