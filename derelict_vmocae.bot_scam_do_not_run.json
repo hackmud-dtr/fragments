@@ -1,0 +1,79 @@
+{
+	"_id": "derelict_vmocae.bot_scam_do_not_run",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "derelict_vmocae.bot_scam_do_not_run",
+	"sector": "SPC_7017",
+	"sec_level": 4,
+	"date_added": 1579728968467,
+	"last_scraped": 1579729019271,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1579728968467
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1579729079271,
+	"category": "fishie_tank",
+	"last_update": 1579729019271,
+	"output": [
+		{
+			"args": {},
+			"calls": 12310,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"e pub",
+				", now",
+				" do w",
+				"hat to",
+				"ea tha",
+				"t too i",
+				" public",
+				"ow, cons",
+				" all, wh"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 760,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"e pub",
+				", now",
+				" do w",
+				"hat to",
+				"ea tha",
+				"t too i",
+				" public",
+				"ow, cons",
+				" all, wh"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 12023,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"e pub",
+				", now",
+				" do w",
+				"hat to",
+				"ea tha",
+				"t too i",
+				" public",
+				"ow, cons",
+				" all, wh"
+			]
+		}
+	]
+}
