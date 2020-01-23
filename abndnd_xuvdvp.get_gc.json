@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_xuvdvp.get_gc",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "abndnd_xuvdvp.get_gc",
 	"sector": "VNP_5306",
 	"sec_level": 4,
 	"date_added": 1579766493066,
-	"last_scraped": 1579766543855,
+	"last_scraped": 1579767277281,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1579849286095,
+	"next_scrape": 1579850901779,
 	"category": "risk_factor",
-	"last_update": 1579766532442,
+	"last_update": 1579767277281,
 	"output": [
 		{
 			"args": {},
@@ -36,7 +36,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 349,
+			"calls": 493,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"FILE0",
@@ -51,11 +51,10 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1579766569699,
+	"edit": 1
 }
