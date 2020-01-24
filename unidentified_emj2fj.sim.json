@@ -6,21 +6,21 @@
 	"sector": "HJG_9161",
 	"sec_level": 4,
 	"date_added": 1579846785710,
-	"last_scraped": 1579846816404,
+	"last_scraped": 1579847039372,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1579846785710
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1579846876404,
+	"scrape_ct": 12,
+	"next_scrape": 1579847099372,
 	"category": "fishie_tank",
-	"last_update": 1579846805184,
+	"last_update": 1579847039372,
 	"output": [
 		{
 			"args": {},
-			"calls": 8405,
+			"calls": 20760,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"visit",
@@ -29,13 +29,26 @@
 				"r\":\"New ",
 				"CT0X7052",
 				",\"header"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"visit",
+						"type\"",
+						" Hous",
+						"r\":\"New ",
+						"CT0X7052",
+						",\"header"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 537,
+			"calls": 1931,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -43,6 +56,60 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"visit",
+				"type\"",
+				" Hous",
+				"r\":\"New ",
+				"CT0X7052",
+				",\"header"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"visit",
+						"type\"",
+						" Hous",
+						"r\":\"New ",
+						"CT0X7052",
+						",\"header"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 32991,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"visit",
+				"type\"",
+				" Hous",
+				"r\":\"New ",
+				"CT0X7052",
+				",\"header"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"visit",
+						"type\"",
+						" Hous",
+						"r\":\"New ",
+						"CT0X7052",
+						",\"header"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
 				"visit",
 				"type\"",
 				" Hous",
