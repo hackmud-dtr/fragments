@@ -1,0 +1,55 @@
+{
+	"_id": "unidentified_emj2fj.sim",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unidentified_emj2fj.sim",
+	"sector": "HJG_9161",
+	"sec_level": 4,
+	"date_added": 1579846785710,
+	"last_scraped": 1579846816404,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1579846785710
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1579846876404,
+	"category": "fishie_tank",
+	"last_update": 1579846805184,
+	"output": [
+		{
+			"args": {},
+			"calls": 8405,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"visit",
+				"type\"",
+				" Hous",
+				"r\":\"New ",
+				"CT0X7052",
+				",\"header"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 537,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"visit",
+				"type\"",
+				" Hous",
+				"r\":\"New ",
+				"CT0X7052",
+				",\"header"
+			]
+		}
+	]
+}
