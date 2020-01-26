@@ -1,9 +1,9 @@
 {
 	"_id": "anon_gvftjj.status",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "anon_gvftjj.status",
-	"sector": "HJG_9367",
+	"sector": "K_6511",
 	"sec_level": 1,
 	"date_added": 1571847405173,
 	"last_scraped": 0,
@@ -11,8 +11,20 @@
 		{
 			"type": "added",
 			"when": 1571847405173
-		}
+		},
+		{
+			"type": "died",
+			"when": 1580017178924
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1580017355729,
+				"from": "K_6511",
+				"to": "HJG_9367"
+			}
+		]
 	],
-	"updt": 1571847592079,
-	"edit": 1
+	"updt": 1580017332216,
+	"edit": 3
 }
