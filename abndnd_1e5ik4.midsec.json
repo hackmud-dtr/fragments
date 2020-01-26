@@ -1,19 +1,27 @@
 {
 	"_id": "abndnd_1e5ik4.midsec",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abndnd_1e5ik4.midsec",
 	"sector": "VNP_8557",
 	"sec_level": 4,
 	"date_added": 1580045521022,
-	"last_scraped": 1580046689395,
+	"last_scraped": 1580047791168,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1580045521022
+		},
+		{
+			"type": "died",
+			"when": 1580047791168
+		},
+		{
+			"type": "died",
+			"when": 1580047946678
 		}
 	],
-	"next_scrape": 1580086923716,
+	"next_scrape": 1580135296916,
 	"category": "plant_sim",
 	"last_update": 1580046689395,
 	"output": [
@@ -135,6 +143,7 @@
 			]
 		}
 	],
-	"updt": 1580046636489,
-	"edit": 5
+	"updt": 1580046863095,
+	"edit": 6,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_1e5ik4.midsec: script doesn't exist\"}"
 }
