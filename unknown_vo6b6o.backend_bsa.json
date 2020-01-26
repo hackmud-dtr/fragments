@@ -1,26 +1,26 @@
 {
 	"_id": "unknown_vo6b6o.backend_bsa",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unknown_vo6b6o.backend_bsa",
 	"sector": "VNP_8557",
 	"sec_level": 4,
 	"date_added": 1580054218461,
-	"last_scraped": 1580054267529,
+	"last_scraped": 1580054780494,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1580054218461
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1580054327529,
+	"scrape_ct": 5,
+	"next_scrape": 1580054840494,
 	"category": "fishie_tank",
-	"last_update": 1580054267529,
+	"last_update": 1580054791807,
 	"output": [
 		{
 			"args": {},
-			"calls": 6992,
+			"calls": 47798,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"t. I ",
@@ -50,7 +50,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 734,
+			"calls": 4511,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -85,7 +85,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 4469,
+			"calls": 39757,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"t. I ",
@@ -124,6 +124,13 @@
 				"he gove",
 				" governm"
 			]
+		}
+	],
+	"updt": 1580054753416,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
