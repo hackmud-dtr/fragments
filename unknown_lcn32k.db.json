@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_lcn32k.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unknown_lcn32k.db",
 	"sector": "NGC_2591",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1577826876507
+		},
+		{
+			"type": "died",
+			"when": 1580052671571
 		}
 	],
 	"scrape_ct": 10,
@@ -126,8 +130,8 @@
 			]
 		}
 	],
-	"updt": 1577827271122,
-	"edit": 2,
+	"updt": 1577827496584,
+	"edit": 3,
 	"retry_args": [
 		{
 			"do": "clean"
