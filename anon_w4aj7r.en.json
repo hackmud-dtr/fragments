@@ -1,28 +1,40 @@
 {
 	"_id": "anon_w4aj7r.en",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "fresh",
 	"script": "anon_w4aj7r.en",
-	"sector": "VNP_7391",
+	"sector": "VNP_3954",
 	"sec_level": 4,
 	"date_added": 1570937118043,
-	"last_scraped": 1576424595350,
+	"last_scraped": 1580142418361,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1570937118043
-		}
+		},
+		{
+			"type": "died",
+			"when": 1580142139153
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1580142329949,
+				"from": "VNP_3954",
+				"to": "VNP_7391"
+			}
+		]
 	],
 	"pl_output": "there was no one to dark.en. maybe you need some `Nhelp`.",
-	"next_scrape": 1576466608200,
-	"updt": 1576408546863,
-	"edit": 145,
+	"next_scrape": 1580142478361,
+	"updt": 1580142201780,
+	"edit": 147,
 	"category": "UNKNOWN CATEGORY",
-	"last_update": 1576424595350,
+	"last_update": 1580142418361,
 	"output": [
 		{
 			"args": {},
-			"calls": 101366,
+			"calls": 144075,
 			"base": "_.am is not a functio",
 			"fragments": [
 				"o.$ is not a function",
@@ -47,5 +59,6 @@
 				"a.c is not a function"
 			]
 		}
-	]
+	],
+	"scrape_ct": 18
 }
