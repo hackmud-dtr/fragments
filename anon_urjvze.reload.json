@@ -1,16 +1,124 @@
 {
 	"_id": "anon_urjvze.reload",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "skip",
 	"script": "anon_urjvze.reload",
 	"sector": "HJG_7659",
 	"sec_level": 4,
 	"date_added": 1580226831664,
-	"last_scraped": 0,
+	"last_scraped": 1580227123895,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1580226831664
+		}
+	],
+	"updt": 1580226849576,
+	"edit": 1,
+	"scrape_ct": 11,
+	"next_scrape": 1580227183895,
+	"category": "fishie_tank",
+	"last_update": 1580227123895,
+	"output": [
+		{
+			"args": {},
+			"calls": 34236,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"out\\n1",
+				"here o",
+				" hours.",
+				" Workin",
+				"ore: You",
+				"g agains"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"out\\n1",
+						"here o",
+						" hours.",
+						" Workin",
+						"ore: You",
+						"g agains"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2568,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"out\\n1",
+				"here o",
+				" hours.",
+				" Workin",
+				"ore: You",
+				"g agains"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"out\\n1",
+						"here o",
+						" hours.",
+						" Workin",
+						"ore: You",
+						"g agains"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 15967,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"out\\n1",
+				"here o",
+				" hours.",
+				" Workin",
+				"ore: You",
+				"g agains"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"out\\n1",
+						"here o",
+						" hours.",
+						" Workin",
+						"ore: You",
+						"g agains"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"out\\n1",
+				"here o",
+				" hours.",
+				" Workin",
+				"ore: You",
+				"g agains"
+			]
 		}
 	]
 }
