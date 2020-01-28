@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "derelict_icvc1x.p_bnk019",
-	"sector": "VNP_7903",
+	"sector": "HJG_7659",
 	"sec_level": 4,
 	"date_added": 1577483822582,
-	"last_scraped": 1580204274629,
+	"last_scraped": 1580205357025,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1577483822582
-		}
+		},
+		{
+			"type": "died",
+			"when": 1580205316978
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1580205347242,
+				"from": "HJG_7659",
+				"to": "VNP_7903"
+			}
+		]
 	],
-	"updt": 1580203075060,
-	"edit": 2434,
+	"updt": 1580204988038,
+	"edit": 2436,
 	"pl_output": "{\"msg\":\"You are not an approved user of this script\"}",
-	"next_scrape": 1580288574511
+	"next_scrape": 1580295143574
 }
