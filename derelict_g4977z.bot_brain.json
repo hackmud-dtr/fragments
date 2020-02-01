@@ -1,20 +1,28 @@
 {
 	"_id": "derelict_g4977z.bot_brain",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "derelict_g4977z.bot_brain",
 	"sector": "K_7655",
 	"sec_level": 4,
 	"date_added": 1580536364369,
-	"last_scraped": 1580536374081,
+	"last_scraped": 1580536455049,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1580536364369
+		},
+		{
+			"type": "died",
+			"when": 1580536455049
+		},
+		{
+			"type": "died",
+			"when": 1580536630647
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1580536434081,
+	"next_scrape": 1580618492416,
 	"category": "dice_roller",
 	"last_update": 1580536374081,
 	"output": [
@@ -40,7 +48,58 @@
 				"ll.\\n1EB",
 				"ay, user",
 				"R\\n1EBC "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"user ",
+						"eed a",
+						"a pri",
+						"t. Giv",
+						"1EBC Y",
+						"ve me f",
+						"me five",
+						"\\n1EC9 ",
+						"Okay, u",
+						"EBB Oka",
+						"C You w",
+						"BC You ",
+						"t all.\\n",
+						"rin R\\n1",
+						"ll.\\n1EB",
+						"ay, user",
+						"R\\n1EBC "
+					]
+				}
 			]
 		}
-	]
+	],
+	"updt": 1580536603200,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"user ",
+				"eed a",
+				"a pri",
+				"t. Giv",
+				"1EBC Y",
+				"ve me f",
+				"me five",
+				"\\n1EC9 ",
+				"Okay, u",
+				"EBB Oka",
+				"C You w",
+				"BC You ",
+				"t all.\\n",
+				"rin R\\n1",
+				"ll.\\n1EB",
+				"ay, user",
+				"R\\n1EBC "
+			]
+		}
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_g4977z.bot_brain: script doesn't exist\"}"
 }
