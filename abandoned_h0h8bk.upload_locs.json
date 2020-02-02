@@ -1,0 +1,139 @@
+{
+	"_id": "abandoned_h0h8bk.upload_locs",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abandoned_h0h8bk.upload_locs",
+	"sector": "K_7655",
+	"sec_level": 4,
+	"date_added": 1580633843782,
+	"last_scraped": 1580634438180,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1580633843782
+		}
+	],
+	"scrape_ct": 7,
+	"next_scrape": 1580634498180,
+	"category": "fishie_tank",
+	"last_update": 1580634438180,
+	"output": [
+		{
+			"args": {},
+			"calls": 42599,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"D17A\\n",
+				"0 TRAP",
+				"LST0X7A",
+				"CLST0X7",
+				"160 TRA",
+				"FT0XBF_C",
+				"0X7A_SEC"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"D17A\\n",
+						"0 TRAP",
+						"LST0X7A",
+						"CLST0X7",
+						"160 TRA",
+						"FT0XBF_C",
+						"0X7A_SEC"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4673,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"D17A\\n",
+				"0 TRAP",
+				"LST0X7A",
+				"CLST0X7",
+				"160 TRA",
+				"FT0XBF_C",
+				"0X7A_SEC"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"D17A\\n",
+						"0 TRAP",
+						"LST0X7A",
+						"CLST0X7",
+						"160 TRA",
+						"FT0XBF_C",
+						"0X7A_SEC"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 45591,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"D17A\\n",
+				"0 TRAP",
+				"LST0X7A",
+				"CLST0X7",
+				"160 TRA",
+				"FT0XBF_C",
+				"0X7A_SEC"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"D17A\\n",
+						"0 TRAP",
+						"LST0X7A",
+						"CLST0X7",
+						"160 TRA",
+						"FT0XBF_C",
+						"0X7A_SEC"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"D17A\\n",
+				"0 TRAP",
+				"LST0X7A",
+				"CLST0X7",
+				"160 TRA",
+				"FT0XBF_C",
+				"0X7A_SEC"
+			]
+		}
+	],
+	"updt": 1580634223807,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
