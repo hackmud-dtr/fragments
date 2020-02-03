@@ -1,26 +1,26 @@
 {
 	"_id": "unknown_nqcyh2.favs",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unknown_nqcyh2.favs",
 	"sector": "HJG_9679",
 	"sec_level": 4,
 	"date_added": 1580748680538,
-	"last_scraped": 1580748730874,
+	"last_scraped": 1580749033058,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1580748680538
 		}
 	],
-	"scrape_ct": 18,
-	"next_scrape": 1580748790874,
+	"scrape_ct": 10,
+	"next_scrape": 1580749093058,
 	"category": "fishie_tank",
-	"last_update": 1580748730874,
+	"last_update": 1580749063417,
 	"output": [
 		{
 			"args": {},
-			"calls": 4710,
+			"calls": 27917,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"hollis",
@@ -30,13 +30,27 @@
 				"lister ",
 				"0XD7_CL",
 				"| USER m"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"hollis",
+						"RROR |",
+						"R | US",
+						"| TIME ",
+						"lister ",
+						"0XD7_CL",
+						"| USER m"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 659,
+			"calls": 2981,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -51,13 +65,27 @@
 				"lister ",
 				"0XD7_CL",
 				"| USER m"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"hollis",
+						"RROR |",
+						"R | US",
+						"| TIME ",
+						"lister ",
+						"0XD7_CL",
+						"| USER m"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 9978,
+			"calls": 30401,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"hollis",
@@ -67,7 +95,42 @@
 				"lister ",
 				"0XD7_CL",
 				"| USER m"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"hollis",
+						"RROR |",
+						"R | US",
+						"| TIME ",
+						"lister ",
+						"0XD7_CL",
+						"| USER m"
+					]
+				}
 			]
+		}
+	],
+	"updt": 1580748961948,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+			"frags": [
+				"hollis",
+				"RROR |",
+				"R | US",
+				"| TIME ",
+				"lister ",
+				"0XD7_CL",
+				"| USER m"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
