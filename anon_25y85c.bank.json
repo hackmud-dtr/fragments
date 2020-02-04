@@ -1,7 +1,7 @@
 {
 	"_id": "anon_25y85c.bank",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anon_25y85c.bank",
 	"sector": "K_1098",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1580829352269
+		},
+		{
+			"type": "died",
+			"when": 1580831204382
 		}
 	],
 	"retry_args": [
@@ -38,6 +42,28 @@
 				"1F_CLST0",
 				"13_SECT0",
 				" ERROR |"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"ST ERR",
+						"ETW ER",
+						"_CLST0X",
+						"ERROR | ",
+						" ERROR |"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"82A91C",
+						"5282A91",
+						"ST0X13_S",
+						"1F_CLST0",
+						"13_SECT0"
+					]
+				}
 			]
 		},
 		{
@@ -62,6 +88,52 @@
 				"1F_CLST0",
 				"13_SECT0",
 				" ERROR |"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"ST ERR",
+						"ETW ER",
+						"_CLST0X",
+						"ERROR | ",
+						" ERROR |"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"82A91C",
+						"5282A91",
+						"ST0X13_S",
+						"1F_CLST0",
+						"13_SECT0"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1580829455812,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+			"frags": [
+				"ST ERR",
+				"ETW ER",
+				"_CLST0X",
+				"ERROR | ",
+				" ERROR |"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"82A91C",
+				"5282A91",
+				"ST0X13_S",
+				"1F_CLST0",
+				"13_SECT0"
 			]
 		}
 	]
