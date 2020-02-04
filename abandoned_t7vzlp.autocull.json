@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_t7vzlp.autocull",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_t7vzlp.autocull",
 	"sector": "VNP_7212",
 	"sec_level": 1,
@@ -19,12 +19,16 @@
 				"from": "VNP_7212",
 				"to": "SPC_5330"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1580827162194
+		}
 	],
 	"pl_output": "Nothing to delete",
 	"next_scrape": 1576455941397,
-	"updt": 1574764374364,
-	"edit": 48,
+	"updt": 1576375619914,
+	"edit": 49,
 	"scrape_ct": 15,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1576375447597,

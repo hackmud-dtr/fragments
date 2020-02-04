@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_t7vzlp.bank",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abandoned_t7vzlp.bank",
 	"sector": "VNP_1737",
 	"sec_level": 4,
 	"date_added": 1569042094802,
-	"last_scraped": 1580826587635,
+	"last_scraped": 1580827110125,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,10 +19,18 @@
 				"from": "VNP_1737",
 				"to": "VNP_7715"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1580827110125
+		},
+		{
+			"type": "died",
+			"when": 1580827253577
+		}
 	],
-	"pl_output": "Hi there.",
-	"next_scrape": 1580915819451,
-	"updt": 1580826292703,
-	"edit": 6515
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_t7vzlp.bank: script doesn't exist\"}",
+	"next_scrape": 1580910445444,
+	"updt": 1580827194225,
+	"edit": 6517
 }

@@ -1,35 +1,39 @@
 {
 	"_id": "anonymous_g3h2bp.transfer",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "anonymous_g3h2bp.transfer",
 	"sector": "K_1098",
 	"sec_level": 4,
 	"date_added": 1580806898448,
-	"last_scraped": 1580826468077,
+	"last_scraped": 1580827009291,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1580806898448
+		},
+		{
+			"type": "died",
+			"when": 1580827253577
 		}
 	],
-	"updt": 1580826292703,
-	"edit": 35,
-	"next_scrape": 1580871787845,
+	"updt": 1580827194225,
+	"edit": 37,
+	"next_scrape": 1580869150694,
 	"category": "coin_flipper",
-	"last_update": 1580826468077,
+	"last_update": 1580827009291,
 	"output": [
 		{
 			"args": {},
-			"calls": 427527,
+			"calls": 432745,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
-				"26_FI",
 				"MFT0X0",
 				"FT0X08_",
 				"_SECT0X8",
 				"_CLST0XC",
 				"XC4_SECT",
+				"X8926_FI",
 				"X08_CLST",
 				"T0X08_CL",
 				"ST0XC4_S",

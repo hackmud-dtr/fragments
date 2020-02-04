@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_xbfah4.bank",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "unknown_xbfah4.bank",
 	"sector": "K_4801",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1573598383816
+		},
+		{
+			"type": "died",
+			"when": 1580827253577
 		}
 	],
 	"scrape_ct": 19,
@@ -29,6 +33,19 @@
 				" USER",
 				"ERROR |",
 				"ER erajb"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"| TIM",
+						"R | U",
+						"ME ER",
+						" USER",
+						"ERROR |",
+						"ER erajb"
+					]
+				}
 			]
 		},
 		{
@@ -48,15 +65,49 @@
 				"TIME ERR",
 				"R erajbh",
 				"ER erajb"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"| USE",
+						"| TIM",
+						"R | U",
+						"OR | ",
+						" USER",
+						" ERRO",
+						"ERROR |",
+						"TIME ERR",
+						"R erajbh",
+						"ER erajb"
+					]
+				}
 			]
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1576386213272,
-	"edit": 4,
+	"updt": 1576386438563,
+	"edit": 5,
 	"retry_args": [
 		{
 			"do": "LOSE"
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+			"frags": [
+				"| USE",
+				"| TIM",
+				"R | U",
+				"OR | ",
+				" USER",
+				" ERRO",
+				"ERROR |",
+				"TIME ERR",
+				"R erajbh",
+				"ER erajb"
+			]
 		}
 	]
 }
