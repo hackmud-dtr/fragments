@@ -1,20 +1,78 @@
 {
 	"_id": "anon_c025pr.bank",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "anon_c025pr.bank",
-	"sector": "NGC_7096",
+	"sector": "K_1098",
 	"sec_level": 4,
 	"date_added": 1575113762465,
-	"last_scraped": 1579041776279,
+	"last_scraped": 1580853008203,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1575113762465
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1580852796198,
+				"from": "K_1098",
+				"to": "NGC_7096"
+			}
+		]
 	],
 	"pl_output": "Flip a coin! heads wins, tails loses. {flip:true}",
-	"next_scrape": 1579123814835,
-	"updt": 1579040914381,
-	"edit": 1699
+	"next_scrape": 1580853068203,
+	"updt": 1580852902957,
+	"edit": 1701,
+	"scrape_ct": 13,
+	"category": "coin_flipper",
+	"last_update": 1580853008203,
+	"output": [
+		{
+			"args": {},
+			"calls": 37665,
+			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
+			"fragments": [
+				"sh we",
+				"D9 an",
+				"s\\n21D",
+				"ith ar",
+				"D8 Giv",
+				"th arms",
+				"e with a",
+				"\\n21D9 a"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"sh we",
+						"D9 an",
+						"s\\n21D",
+						"ith ar",
+						"D8 Giv",
+						"th arms",
+						"e with a",
+						"\\n21D9 a"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"sh we",
+				"D9 an",
+				"s\\n21D",
+				"ith ar",
+				"D8 Giv",
+				"th arms",
+				"e with a",
+				"\\n21D9 a"
+			]
+		}
+	]
 }
