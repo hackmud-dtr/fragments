@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_e1rfi7.deleter",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abandoned_e1rfi7.deleter",
 	"sector": "K_1098",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1580878888533
+		},
+		{
+			"type": "died",
+			"when": 1580881260521
 		}
 	],
 	"retry_args": [
@@ -41,6 +45,26 @@
 				"60 TRAP ",
 				"0X7A_SEC",
 				"7A\\nAD032"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"FT0XB",
+						"F_CLST",
+						"CT0XF2",
+						"AD0321",
+						"0XF227",
+						"FILE0X2",
+						"7A_SECT",
+						"0X2BC7D",
+						"LST0X7A_",
+						"7_FILE0X",
+						"60 TRAP ",
+						"0X7A_SEC",
+						"7A\\nAD032"
+					]
+				}
 			]
 		},
 		{
@@ -50,6 +74,48 @@
 			"calls": 100,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
+				"FT0XB",
+				"F_CLST",
+				"CT0XF2",
+				"AD0321",
+				"0XF227",
+				"FILE0X2",
+				"7A_SECT",
+				"0X2BC7D",
+				"LST0X7A_",
+				"7_FILE0X",
+				"60 TRAP ",
+				"0X7A_SEC",
+				"7A\\nAD032"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"FT0XB",
+						"F_CLST",
+						"CT0XF2",
+						"AD0321",
+						"0XF227",
+						"FILE0X2",
+						"7A_SECT",
+						"0X2BC7D",
+						"LST0X7A_",
+						"7_FILE0X",
+						"60 TRAP ",
+						"0X7A_SEC",
+						"7A\\nAD032"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1580879055894,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"FT0XB",
 				"F_CLST",
 				"CT0XF2",
