@@ -1,0 +1,55 @@
+{
+	"_id": "abandoned_08whfv.ingest",
+	"type": "fragment",
+	"mode": "timeout",
+	"script": "abandoned_08whfv.ingest",
+	"sector": "K_6805",
+	"sec_level": 4,
+	"date_added": 1581128796189,
+	"last_scraped": 1581128825504,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1581128796189
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1581215591085,
+	"category": "risk_factor",
+	"last_update": 1581128825504,
+	"output": [
+		{
+			"args": {},
+			"calls": 1602,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"TW ER",
+				"OR | ",
+				" USER f",
+				" PROG E",
+				" fbreton",
+				" ERROR |"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 102,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"TW ER",
+				"OR | ",
+				" USER f",
+				" PROG E",
+				" fbreton",
+				" ERROR |"
+			]
+		}
+	]
+}
