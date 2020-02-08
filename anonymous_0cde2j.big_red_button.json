@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_0cde2j.big_red_button",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "anonymous_0cde2j.big_red_button",
 	"sector": "K_6805",
 	"sec_level": 4,
 	"date_added": 1581163316907,
-	"last_scraped": 1581163367273,
+	"last_scraped": 1581163869752,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1581251359389,
+	"next_scrape": 1581244923392,
 	"category": "risk_factor",
-	"last_update": 1581163356459,
+	"last_update": 1581163869752,
 	"output": [
 		{
 			"args": {},
@@ -36,7 +36,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 302,
+			"calls": 510,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"cards",
@@ -51,11 +51,10 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1581163391794,
+	"edit": 1
 }
