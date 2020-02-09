@@ -19,6 +19,10 @@
 		{
 			"type": "died",
 			"when": 1576356668404
+		},
+		{
+			"type": "manual edit",
+			"when": 1581271914187
 		}
 	],
 	"scrape_ct": 19,
@@ -127,6 +131,31 @@
 			"calls": 434,
 			"base": "`LCLICK  ECURED`",
 			"fragments": [
+				"icy t",
+				"icy t",
+				"help ",
+				"o help",
+				"icy t ",
+				"o help",
+				"Eicy t",
+				"Ehelp ",
+				"the da ",
+				"on poli",
+				"o help ",
+				"icy t",
+				"help ",
+				"h the d",
+				"e data ",
+				" the da",
+				"on poli ",
+				"o help",
+				"o help  ",
+				"ng with ",
+				"h the d ",
+				"e data  ",
+				"ation po"
+			],
+			"old_fragments": [
 				"icy tS",
 				"Sicy t",
 				"Shelp ",
@@ -150,11 +179,52 @@
 				"h the d S",
 				"e data  S",
 				"ation poS"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"icy t",
+						"icy t",
+						"help ",
+						"o help",
+						"o help",
+						"on poli",
+						"o help ",
+						"icy t",
+						"help ",
+						"h the d",
+						"e data ",
+						" the da",
+						"o help",
+						"ng with ",
+						"ation po"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"icy t ",
+						"Eicy t",
+						"Ehelp ",
+						"the da ",
+						"on poli ",
+						"o help  ",
+						"h the d ",
+						"e data  "
+					]
+				}
 			]
 		}
 	],
-	"updt": 1574712740231,
-	"edit": 12,
+	"updt": 1576369306152,
+	"edit": 13,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	],
+	"manual_cleanup": true,
 	"identified": [
 		{
 			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
@@ -168,11 +238,19 @@
 				"ng with ",
 				"ation po"
 			]
-		}
-	],
-	"retry_args": [
+		},
 		{
-			"CLICK": true
+			"document": "NOT FOUND",
+			"frags": [
+				"icy t ",
+				"Eicy t",
+				"Ehelp ",
+				"the da ",
+				"on poli ",
+				"o help  ",
+				"h the d ",
+				"e data  "
+			]
 		}
 	]
 }

@@ -15,6 +15,14 @@
 		{
 			"type": "died",
 			"when": 1578109003419
+		},
+		{
+			"type": "manual edit",
+			"when": 1581271974265
+		},
+		{
+			"type": "manual edit withdo",
+			"when": 1581272722389
 		}
 	],
 	"scrape_ct": 19,
@@ -27,6 +35,17 @@
 			"calls": 1946,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"tech ",
+				"ory i",
+				"ch at",
+				" stor",
+				"s it t",
+				"s ago ",
+				"at basi",
+				"ally ma",
+				"in the w"
+			],
+			"old_fragments": [
 				"tech ",
 				"ory i",
 				"ch at",
@@ -93,17 +112,39 @@
 				"in the w",
 				" It's th"
 			],
+			"old_fragments": [
+				"tech ",
+				"ory i",
+				"ch at",
+				" stor",
+				"s ago ",
+				"est st",
+				"at basi",
+				"ally ma",
+				" world,",
+				" the bi",
+				" isn't?",
+				"world, R",
+				"kes it t",
+				"in the w",
+				" It's th"
+			],
 			"hits": [
 				{
 					"document": "NOT FOUND",
 					"frags": [
 						"tech ",
 						"ch at",
-						"s it t",
 						"s ago ",
+						"est st",
 						"at basi",
 						"ally ma",
-						"in the w"
+						" world,",
+						" isn't?",
+						"world, R",
+						"kes it t",
+						"in the w",
+						" It's th"
 					]
 				},
 				{
@@ -123,6 +164,12 @@
 					"frags": [
 						" stor"
 					]
+				},
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						" the bi"
+					]
 				}
 			]
 		},
@@ -133,6 +180,32 @@
 			"calls": 886,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"49K7",
+				"orld,4",
+				"ch at4",
+				"ch at 4",
+				"est st 4",
+				"est st 3",
+				"6 the bi",
+				"3Gest st",
+				"3 isn't?",
+				"world, R4",
+				"3world, R",
+				"3G world,",
+				"1.3479639",
+				" world, 4",
+				" the bi 9",
+				" isn't? 4",
+				" world,N 4",
+				" the biN 4",
+				" the biN 3",
+				" isn't?N 5",
+				" isn't?N 4",
+				" It's th 3",
+				"\nOR\n\nYOU COch atV",
+				"9.647177266272914e+158Q1.098367625620897"
+			],
+			"old_fragments": [
 				"49K7",
 				"orld,4",
 				"ch at4",
@@ -492,22 +565,83 @@
 				"kes it tN 4T146B587Á25K253GC wiÃh do:\"win\"\n\nOR\n\nYO",
 				"kes it tN 36GC with do:\"w§n\"\n\nOR\n\nYOU COULD `VLOSE",
 				"kes it tN 15GC with do¢\"win\"\n\nOR\n\nYOU COULD `VLOSE"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"49K7",
+						"orld,4",
+						"ch at4",
+						"ch at 4",
+						"est st 4",
+						"est st 3",
+						"6 the bi",
+						"3Gest st",
+						"3 isn't?",
+						"world, R4",
+						"3world, R",
+						"3G world,",
+						"1.3479639",
+						" world, 4",
+						" the bi 9",
+						" isn't? 4",
+						" world,N 4",
+						" the biN 4",
+						" the biN 3",
+						" isn't?N 5",
+						" isn't?N 4",
+						" It's th 3",
+						"\nOR\n\nYOU COch atV",
+						"9.647177266272914e+158Q1.098367625620897"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1576366827083,
-	"edit": 2,
+	"updt": 1578109047283,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"manual_cleanup": true,
+	"manual_cleanup_withdo": true,
 	"identified": [
 		{
 			"document": "NOT FOUND",
 			"frags": [
+				"49K7",
 				"tech ",
-				"ch at",
-				"s it t",
 				"s ago ",
+				"orld,4",
+				"ch at4",
+				"ch at 4",
 				"at basi",
 				"ally ma",
-				"in the w"
+				"kes it t",
+				"in the w",
+				"est st 4",
+				"est st 3",
+				"6 the bi",
+				"3Gest st",
+				"3 isn't?",
+				"world, R4",
+				"3world, R",
+				"3G world,",
+				"1.3479639",
+				" world, 4",
+				" the bi 9",
+				" isn't? 4",
+				" world,N 4",
+				" the biN 4",
+				" the biN 3",
+				" isn't?N 5",
+				" isn't?N 4",
+				" It's th 3",
+				"\nOR\n\nYOU COch atV",
+				"9.647177266272914e+158Q1.098367625620897"
 			]
 		},
 		{
@@ -527,11 +661,12 @@
 			"frags": [
 				" stor"
 			]
-		}
-	],
-	"retry_args": [
+		},
 		{
-			"do": "LOSE"
+			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+			"frags": [
+				" the bi"
+			]
 		}
 	]
 }

@@ -41,8 +41,8 @@
 			"when": 1581271760518
 		}
 	],
-	"updt": 1576362542654,
-	"edit": 170,
+	"updt": 1581272754281,
+	"edit": 171,
 	"next_scrape": 1563444358964,
 	"category": "clicker",
 	"last_update": 1563404424934,
@@ -220,35 +220,48 @@
 				"K S any m",
 				"K , erin ",
 				"K  ## Sta"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"place",
+						"any m",
+						"place",
+						"ot dev",
+						"ot dev",
+						"place",
+						"any m",
+						", erin ",
+						"ot dev",
+						"place",
+						" any m",
+						"es in pl",
+						"e standa",
+						"erin ##",
+						"ot dev",
+						"any m",
+						", erin "
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"placeC",
+						"## ta",
+						" ## ta"
+					]
+				}
 			]
 		}
 	],
-	"identified": [
+	"retry_args": [
 		{
-			"document": "NOT FOUND",
-			"frags": [
-				"placeK",
-				"any mK",
-				"Kplace",
-				"placeCK",
-				"ot devK",
-				"Kot dev",
-				"K place",
-				"K any m",
-				"K, erin ",
-				"K ot dev",
-				"K Splace",
-				"K ## Sta",
-				"K  any m",
-				"Kes in pl",
-				"Ke standa",
-				"K erin ##",
-				"K Sot dev",
-				"K S any m",
-				"K , erin ",
-				"K  ## Sta"
-			]
-		},
+			"CLICK": true
+		}
+	],
+	"manual_cleanup": true,
+	"identified": [
 		{
 			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
 			"frags": [
@@ -266,12 +279,14 @@
 				"e standa",
 				" erin ##"
 			]
-		}
-	],
-	"retry_args": [
+		},
 		{
-			"CLICK": true
+			"document": "NOT FOUND",
+			"frags": [
+				"placeC",
+				"## ta",
+				" ## ta"
+			]
 		}
-	],
-	"manual_cleanup": true
+	]
 }

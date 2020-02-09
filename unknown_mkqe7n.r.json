@@ -41,8 +41,8 @@
 			"when": 1581271767090
 		}
 	],
-	"updt": 1576359836151,
-	"edit": 116,
+	"updt": 1581272528939,
+	"edit": 117,
 	"next_scrape": 1561659716208,
 	"category": "clicker",
 	"last_update": 1561615812749,
@@ -286,6 +286,44 @@
 				"a risk tS",
 				". ## seeS",
 				"# Risk iS"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"e wor",
+						"e wor",
+						"ctly ",
+						"tly th",
+						"o me #",
+						"tly th",
+						"o me #",
+						"s exact",
+						"me ## R",
+						"e wor",
+						"ctly ",
+						" me ## R",
+						"tly th",
+						"o me #",
+						"ke a ris",
+						"exactly ",
+						"a risk t",
+						". ## see",
+						"# Risk i"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"e wor ",
+						"Ee wor",
+						"Ectly ",
+						"tly th ",
+						"o me # ",
+						"xactly  ",
+						"s exact "
+					]
+				}
 			]
 		},
 		{
@@ -353,60 +391,56 @@
 				"K me ## R",
 				"K Stly th",
 				"K So me #"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"e wor",
+						"ctly ",
+						"e wor",
+						"ctly ",
+						"tly th",
+						"o me #",
+						"tly th",
+						"o me #",
+						"e wor",
+						"ctly ",
+						"xactly ",
+						"s exact",
+						"tly th",
+						"o me #",
+						"e wor",
+						"ctly ",
+						"ke a ris",
+						"exactly ",
+						"a risk t",
+						". ## see",
+						"# Risk i",
+						"xactly ",
+						"s exact",
+						"me ## R",
+						"tly th",
+						"o me #"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"e worC",
+						"ctly C"
+					]
+				}
 			]
 		}
 	],
-	"identified": [
+	"retry_args": [
 		{
-			"document": "NOT FOUND",
-			"frags": [
-				"e worS",
-				"Ke wor",
-				"Kctly ",
-				"tly thS",
-				"o me #S",
-				"e worCK",
-				"e wor S",
-				"ctly CK",
-				"SEe wor",
-				"SEctly ",
-				"Ktly th",
-				"Ko me #",
-				"K e wor",
-				"K ctly ",
-				"tly th S",
-				"s exactS",
-				"o me # S",
-				"me ## RS",
-				"e worK S",
-				"ctly K S",
-				"Kxactly ",
-				"Ks exact",
-				"K tly th",
-				"K o me #",
-				"K Se wor",
-				"K Sctly ",
-				"xactly  S",
-				"tly thK S",
-				"s exact S",
-				"o me #K S",
-				"ke a risS",
-				"exactly S",
-				"a risk tS",
-				"Kke a ris",
-				"Kexactly ",
-				"Ka risk t",
-				"K. ## see",
-				"K# Risk i",
-				"K xactly ",
-				"K s exact",
-				"K me ## R",
-				"K Stly th",
-				"K So me #",
-				". ## seeS",
-				"# Risk iS"
-			]
-		},
+			"CLICK": true
+		}
+	],
+	"manual_cleanup": true,
+	"identified": [
 		{
 			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
 			"frags": [
@@ -433,12 +467,20 @@
 				"# Risk i",
 				" me ## R"
 			]
-		}
-	],
-	"retry_args": [
+		},
 		{
-			"CLICK": true
+			"document": "NOT FOUND",
+			"frags": [
+				"e worC",
+				"e wor ",
+				"ctly C",
+				"Ee wor",
+				"Ectly ",
+				"tly th ",
+				"o me # ",
+				"xactly  ",
+				"s exact "
+			]
 		}
-	],
-	"manual_cleanup": true
+	]
 }

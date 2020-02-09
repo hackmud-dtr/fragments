@@ -19,10 +19,18 @@
 		{
 			"type": "died",
 			"when": 1576356668404
+		},
+		{
+			"type": "manual edit",
+			"when": 1581271935586
+		},
+		{
+			"type": "manual edit withdo",
+			"when": 1581272707478
 		}
 	],
-	"updt": 1574762340698,
-	"edit": 6,
+	"updt": 1576369306152,
+	"edit": 7,
 	"scrape_ct": 19,
 	"next_scrape": 1570693675162,
 	"category": "risk_factor",
@@ -33,6 +41,17 @@
 			"calls": 1991,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				" easi",
+				"ysical",
+				"ting. ",
+				", bein",
+				"ll, bei",
+				"l sport",
+				"gs whos",
+				"sical sp",
+				"em as re"
+			],
+			"old_fragments": [
 				" easi",
 				"ysical",
 				"ting. ",
@@ -78,10 +97,23 @@
 				"sical sp",
 				"em as re"
 			],
+			"old_fragments": [
+				"3",
+				" easi",
+				"ysical",
+				"ting. ",
+				", bein",
+				"ll, bei",
+				"l sport",
+				"gs whos",
+				"sical sp",
+				"em as re"
+			],
 			"hits": [
 				{
 					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
 					"frags": [
+						"3",
 						" easi",
 						"ysical",
 						"ting. ",
@@ -102,6 +134,36 @@
 			"calls": 770,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"easi3",
+				"92309",
+				"ting. 4",
+				"7ical s",
+				"4ysical",
+				"4, bein",
+				", bein3",
+				"ll, bei9",
+				"ll, bei6",
+				"6Gting. ",
+				"5Gting. ",
+				"5Gical s",
+				"4Gical s",
+				"3Gysical",
+				"3G, bein",
+				" easiN 3",
+				"ysicalN 3",
+				"ll, bei 3",
+				"ical sN 7",
+				"6em as re",
+				"3Gll, bei",
+				"em as re 6",
+				"8Gsical sp",
+				"4Gem as re",
+				"sical spN 9",
+				"sical spN 4",
+				"em as reN 4",
+				"OR\n\nYOU Cll, beiL"
+			],
+			"old_fragments": [
 				"easi3",
 				"92309",
 				"ting. 4",
@@ -448,13 +510,90 @@
 				"sical spN 1.3688605474198638e+66QGC with do:\"win\"",
 				"ll, beiN 483GC with do:\"win\"§\nOR\n\nYOU COULD `VÁOS",
 				"l sportN 70GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"easi3",
+						"92309",
+						"ting. 4",
+						"7ical s",
+						"4ysical",
+						"4, bein",
+						", bein3",
+						"ll, bei9",
+						"ll, bei6",
+						"6Gting. ",
+						"5Gting. ",
+						"5Gical s",
+						"4Gical s",
+						"3Gysical",
+						"3G, bein",
+						" easiN 3",
+						"ysicalN 3",
+						"ll, bei 3",
+						"ical sN 7",
+						"6em as re",
+						"3Gll, bei",
+						"em as re 6",
+						"8Gsical sp",
+						"4Gem as re",
+						"sical spN 9",
+						"sical spN 4",
+						"em as reN 4",
+						"OR\n\nYOU Cll, beiL"
+					]
+				}
 			]
 		}
 	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"manual_cleanup": true,
+	"manual_cleanup_withdo": true,
 	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"easi3",
+				"92309",
+				"ting. 4",
+				"7ical s",
+				"4ysical",
+				"4, bein",
+				", bein3",
+				"ll, bei9",
+				"ll, bei6",
+				"6Gting. ",
+				"5Gting. ",
+				"5Gical s",
+				"4Gical s",
+				"3Gysical",
+				"3G, bein",
+				" easiN 3",
+				"ysicalN 3",
+				"ll, bei 3",
+				"ical sN 7",
+				"6em as re",
+				"3Gll, bei",
+				"em as re 6",
+				"8Gsical sp",
+				"4Gem as re",
+				"sical spN 9",
+				"sical spN 4",
+				"em as reN 4",
+				"OR\n\nYOU Cll, beiL"
+			]
+		},
 		{
 			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
 			"frags": [
+				"3",
 				" easi",
 				"ysical",
 				"ting. ",
@@ -465,12 +604,6 @@
 				"sical sp",
 				"em as re"
 			]
-		}
-	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"retry_args": [
-		{
-			"do": "LOSE"
 		}
 	]
 }

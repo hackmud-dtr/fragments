@@ -41,8 +41,8 @@
 			"when": 1581271741735
 		}
 	],
-	"updt": 1576360512959,
-	"edit": 173,
+	"updt": 1581272528939,
+	"edit": 174,
 	"next_scrape": 1563196731723,
 	"category": "fishie_tank",
 	"last_update": 1563155969272,
@@ -297,6 +297,12 @@
 			]
 		}
 	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"manual_cleanup": true,
 	"identified": [
 		{
 			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
@@ -336,11 +342,5 @@
 				"23E7_FIL"
 			]
 		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"manual_cleanup": true
+	]
 }

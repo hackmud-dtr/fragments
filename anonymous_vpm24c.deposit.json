@@ -23,6 +23,10 @@
 		{
 			"type": "died",
 			"when": 1576356668404
+		},
+		{
+			"type": "manual edit",
+			"when": 1581271831768
 		}
 	],
 	"scrape_ct": 20,
@@ -305,8 +309,14 @@
 			]
 		}
 	],
-	"updt": 1570602807108,
-	"edit": 10,
+	"updt": 1576364794599,
+	"edit": 11,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"manual_cleanup": true,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -419,11 +429,6 @@
 				"AB550B\\nS",
 				"550B\\nSYS"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "LOSE"
 		}
 	]
 }

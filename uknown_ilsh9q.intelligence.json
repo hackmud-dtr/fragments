@@ -15,6 +15,10 @@
 		{
 			"type": "died",
 			"when": 1578144220585
+		},
+		{
+			"type": "manual edit",
+			"when": 1581272034705
 		}
 	],
 	"scrape_ct": 9,
@@ -49,10 +53,15 @@
 						" 0 if",
 						"h to 0",
 						" to 0 ",
-						" BREAK",
 						"f attac",
+						"\\n215C ",
 						"5C stre",
+						" if att",
+						" BREAKs",
+						"ut damag",
 						"t defend",
+						"amage is",
+						"5D but d",
 						" attacke",
 						" wins,\\n2"
 					]
@@ -88,10 +97,15 @@
 						" 0 if",
 						"h to 0",
 						" to 0 ",
-						" BREAK",
 						"f attac",
+						"\\n215C ",
 						"5C stre",
+						" if att",
+						" BREAKs",
+						"ut damag",
 						"t defend",
+						"amage is",
+						"5D but d",
 						" attacke",
 						" wins,\\n2"
 					]
@@ -127,10 +141,15 @@
 						" 0 if",
 						"h to 0",
 						" to 0 ",
-						" BREAK",
 						"f attac",
+						"\\n215C ",
 						"5C stre",
+						" if att",
+						" BREAKs",
+						"ut damag",
 						"t defend",
+						"amage is",
+						"5D but d",
 						" attacke",
 						" wins,\\n2"
 					]
@@ -144,6 +163,26 @@
 			"calls": 792,
 			"base": "`LCLICK  ECURED`",
 			"fragments": [
+				"tacke",
+				"tacke",
+				"tacke ",
+				"Etacke",
+				"5C str",
+				"5C str",
+				"tacke",
+				"if att ",
+				"\\n215C ",
+				"BREAs ",
+				"5C str ",
+				" if att",
+				" BREAs",
+				"ut damag",
+				"amage is",
+				"\\n215C  ",
+				"5D but d",
+				"5C str"
+			],
+			"old_fragments": [
 				"tackeS",
 				"Stacke",
 				"tacke S",
@@ -162,9 +201,42 @@
 				"\\n215C  S",
 				"5D but dS",
 				"5C strK S"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"tacke",
+						"tacke",
+						"5C str",
+						"5C str",
+						"tacke",
+						"\\n215C ",
+						" if att",
+						"ut damag",
+						"amage is",
+						"5D but d",
+						"5C str"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"tacke ",
+						"Etacke",
+						"if att ",
+						"BREAs ",
+						"5C str ",
+						" BREAs",
+						"\\n215C  "
+					]
+				}
 			]
 		}
 	],
+	"updt": 1578144235159,
+	"edit": 11,
+	"manual_cleanup": true,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -172,15 +244,30 @@
 				" 0 if",
 				"h to 0",
 				" to 0 ",
-				" BREAK",
 				"f attac",
+				"\\n215C ",
 				"5C stre",
+				" if att",
+				" BREAKs",
+				"ut damag",
 				"t defend",
+				"amage is",
+				"5D but d",
 				" attacke",
 				" wins,\\n2"
 			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"tacke ",
+				"Etacke",
+				"if att ",
+				"BREAs ",
+				"5C str ",
+				" BREAs",
+				"\\n215C  "
+			]
 		}
-	],
-	"updt": 1576469176556,
-	"edit": 10
+	]
 }

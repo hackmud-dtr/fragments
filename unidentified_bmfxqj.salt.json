@@ -15,6 +15,10 @@
 		{
 			"type": "died",
 			"when": 1578535995876
+		},
+		{
+			"type": "manual edit",
+			"when": 1581272108845
 		}
 	],
 	"scrape_ct": 16,
@@ -320,6 +324,14 @@
 			]
 		}
 	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"updt": 1578536057288,
+	"edit": 2,
+	"manual_cleanup": true,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -394,12 +406,5 @@
 				"ompetit"
 			]
 		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"updt": 1578331652809,
-	"edit": 1
+	]
 }

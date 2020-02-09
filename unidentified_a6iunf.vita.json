@@ -41,8 +41,8 @@
 			"when": 1581271754555
 		}
 	],
-	"updt": 1576360512959,
-	"edit": 185,
+	"updt": 1581272528939,
+	"edit": 186,
 	"next_scrape": 1563552534032,
 	"category": "clicker",
 	"last_update": 1563507111597,
@@ -424,6 +424,31 @@
 				"ari | SUS",
 				"ODY ThisS",
 				"ODY Thi S"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"This ",
+						" This ",
+						"r syste",
+						"This ",
+						"ODY Thi",
+						" re: re",
+						"most of ",
+						"ODY This"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"re: re ",
+						" This  ",
+						"r syste ",
+						"ari | U",
+						"ODY Thi "
+					]
+				}
 			]
 		},
 		{
@@ -459,9 +484,39 @@
 				"K S This ",
 				"K ODY Thi",
 				"K  re: re"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"This ",
+						"This ",
+						"r syste",
+						"re: re",
+						" This ",
+						"most of ",
+						"ODY This",
+						"r syste",
+						"This ",
+						"ODY Thi",
+						" re: re"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ari | U"
+					]
+				}
 			]
 		}
 	],
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	],
+	"manual_cleanup": true,
 	"identified": [
 		{
 			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
@@ -520,36 +575,12 @@
 		{
 			"document": "NOT FOUND",
 			"frags": [
-				"K This ",
-				" This S",
-				"re: re S",
-				"r systeS",
-				"This K S",
-				"ODY ThiS",
-				"Kr syste",
-				"K re: re",
-				"K  This ",
-				" re: reS",
-				" This  S",
-				"r syste S",
-				"most of S",
-				"ari | SUS",
-				"ODY ThisS",
-				"ODY Thi S",
-				"Kmost of ",
-				"Kari | SU",
-				"KODY This",
-				"K r syste",
-				"K S This ",
-				"K ODY Thi",
-				"K  re: re"
+				"re: re ",
+				"ari | U",
+				" This  ",
+				"r syste ",
+				"ODY Thi "
 			]
 		}
-	],
-	"retry_args": [
-		{
-			"CLICK": true
-		}
-	],
-	"manual_cleanup": true
+	]
 }

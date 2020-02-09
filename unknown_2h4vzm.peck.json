@@ -15,6 +15,10 @@
 		{
 			"type": "died",
 			"when": 1580221186765
+		},
+		{
+			"type": "manual edit",
+			"when": 1581271994353
 		}
 	],
 	"scrape_ct": 10,
@@ -50,11 +54,18 @@
 					"frags": [
 						"MFT0X",
 						"-extn",
+						" BODY",
+						"el upd",
 						"TW ERR",
 						" MOS p",
+						"ion. Su",
 						"ROR | T",
+						" | TIME",
 						" | SUBJ",
-						"SYST ERR"
+						"mination",
+						"SYST ERR",
+						"OS perso",
+						" ERROR |"
 					]
 				},
 				{
@@ -96,11 +107,18 @@
 					"frags": [
 						"MFT0X",
 						"-extn",
+						" BODY",
+						"el upd",
 						"TW ERR",
 						" MOS p",
+						"ion. Su",
 						"ROR | T",
+						" | TIME",
 						" | SUBJ",
-						"SYST ERR"
+						"mination",
+						"SYST ERR",
+						"OS perso",
+						" ERROR |"
 					]
 				},
 				{
@@ -142,11 +160,18 @@
 					"frags": [
 						"MFT0X",
 						"-extn",
+						" BODY",
+						"el upd",
 						"TW ERR",
 						" MOS p",
+						"ion. Su",
 						"ROR | T",
+						" | TIME",
 						" | SUBJ",
-						"SYST ERR"
+						"mination",
+						"SYST ERR",
+						"OS perso",
+						" ERROR |"
 					]
 				},
 				{
@@ -165,6 +190,25 @@
 			"calls": 2119,
 			"base": "`LCLIC  SECURED`",
 			"fragments": [
+				"BODY",
+				"BODYC",
+				" BODY",
+				"el upd",
+				"el upd",
+				"| TIM",
+				" BODY",
+				"ion. u",
+				"ERROR |",
+				"el upd",
+				"BODY",
+				"mination",
+				"Operso",
+				"ion. u",
+				"el upd",
+				"ERROR |",
+				" | TIME"
+			],
+			"old_fragments": [
 				"K BODY",
 				"BODYCK",
 				" BODYK",
@@ -182,30 +226,70 @@
 				"K Sel upd",
 				"K ERROR |",
 				"K  | TIME"
+			],
+			"hits": [
+				{
+					"document": "Erin File",
+					"frags": [
+						"BODY",
+						" BODY",
+						"el upd",
+						"el upd",
+						"| TIM",
+						" BODY",
+						"ERROR |",
+						"el upd",
+						"BODY",
+						"mination",
+						"el upd",
+						"ERROR |",
+						" | TIME"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"BODYC",
+						"ion. u",
+						"Operso",
+						"ion. u"
+					]
+				}
 			]
 		}
 	],
+	"updt": 1580221216599,
+	"edit": 21,
+	"manual_cleanup": true,
 	"identified": [
 		{
 			"document": "Erin File",
 			"frags": [
 				"MFT0X",
 				"-extn",
+				" BODY",
+				"el upd",
 				"TW ERR",
 				" MOS p",
+				"ion. Su",
 				"ROR | T",
+				" | TIME",
 				" | SUBJ",
-				"SYST ERR"
+				"mination",
+				"SYST ERR",
+				"OS perso",
+				" ERROR |"
 			]
 		},
 		{
 			"document": "NOT FOUND",
 			"frags": [
 				"DY MO",
+				"BODYC",
+				"ion. u",
+				"Operso",
 				"C10251\\nS"
 			]
 		}
-	],
-	"updt": 1576593881923,
-	"edit": 20
+	]
 }

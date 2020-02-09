@@ -15,6 +15,10 @@
 		{
 			"type": "died",
 			"when": 1577112747159
+		},
+		{
+			"type": "manual edit",
+			"when": 1581271955428
 		}
 	],
 	"scrape_ct": 3,
@@ -45,11 +49,15 @@
 					"frags": [
 						"r to y",
 						"arn\\n1",
+						"E95 pr",
 						"to lear",
 						"t was y",
+						"like to",
 						"ears ag",
 						"5 prior",
-						"and I'd "
+						" years ",
+						"and I'd ",
+						"ving\\n1E9"
 					]
 				}
 			]
@@ -121,6 +129,19 @@
 			"calls": 854,
 			"base": "`LCLICK  ECURED`",
 			"fragments": [
+				"E95 pr",
+				"E95 pr",
+				"years  ",
+				"like to",
+				"ears ag",
+				"E95 pr ",
+				" years ",
+				"ving\\n1E9",
+				"like to ",
+				"ears ag ",
+				"E95 pr"
+			],
+			"old_fragments": [
 				"SE95 pr",
 				"E95 prS",
 				"years  S",
@@ -132,31 +153,67 @@
 				"like to S",
 				"ears ag S",
 				"E95 prK S"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"E95 pr",
+						"E95 pr",
+						"like to",
+						"ears ag",
+						" years ",
+						"ving\\n1E9",
+						"like to ",
+						"E95 pr"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"years  ",
+						"E95 pr ",
+						"ears ag "
+					]
+				}
 			]
 		}
 	],
-	"identified": [
-		{
-			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
-			"frags": [
-				"r to y",
-				"arn\\n1",
-				"to lear",
-				"t was y",
-				"ears ag",
-				"5 prior",
-				"and I'd "
-			]
-		}
-	],
-	"updt": 1576383280454,
-	"edit": 15,
+	"updt": 1577112823303,
+	"edit": 16,
 	"retry_args": [
 		{
 			"click": true
 		},
 		{
 			"CLICK": true
+		}
+	],
+	"manual_cleanup": true,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"r to y",
+				"arn\\n1",
+				"E95 pr",
+				"to lear",
+				"t was y",
+				"ears ag",
+				"5 prior",
+				" years ",
+				"like to ",
+				"and I'd ",
+				"ving\\n1E9"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"years  ",
+				"E95 pr ",
+				"ears ag "
+			]
 		}
 	]
 }

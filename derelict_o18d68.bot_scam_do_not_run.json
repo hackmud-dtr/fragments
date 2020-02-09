@@ -41,8 +41,8 @@
 			"when": 1581271754555
 		}
 	],
-	"updt": 1576362091667,
-	"edit": 162,
+	"updt": 1581272754281,
+	"edit": 163,
 	"next_scrape": 1563471597743,
 	"category": "clicker",
 	"last_update": 1563430888492,
@@ -192,33 +192,46 @@
 				"K R | PRO",
 				"K OR | NE",
 				"K ERROR |"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"| PRO",
+						"| PRO",
+						"RROR |",
+						"R | PR",
+						"OR | N",
+						"| PRO",
+						"R | PRO",
+						"| PRO",
+						"RROR |",
+						" | PRO",
+						"RROR | U",
+						"RROR |",
+						"R | PR",
+						"| PRO",
+						"R | PRO",
+						"OR | NE",
+						"ERROR |"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"| PROC"
+					]
+				}
 			]
 		}
 	],
-	"identified": [
+	"retry_args": [
 		{
-			"document": "NOT FOUND",
-			"frags": [
-				"| PROK",
-				"K| PRO",
-				"| PROCK",
-				"RROR |K",
-				"R | PRK",
-				"KOR | N",
-				"K | PRO",
-				"KR | PRO",
-				"K S| PRO",
-				"K RROR |",
-				"K  | PRO",
-				"KRROR | U",
-				"K SRROR |",
-				"K SR | PR",
-				"K S | PRO",
-				"K R | PRO",
-				"K OR | NE",
-				"K ERROR |"
-			]
-		},
+			"CLICK": true
+		}
+	],
+	"manual_cleanup": true,
+	"identified": [
 		{
 			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
 			"frags": [
@@ -232,12 +245,12 @@
 				"ERROR | ",
 				" ERROR |"
 			]
-		}
-	],
-	"retry_args": [
+		},
 		{
-			"CLICK": true
+			"document": "NOT FOUND",
+			"frags": [
+				"| PROC"
+			]
 		}
-	],
-	"manual_cleanup": true
+	]
 }

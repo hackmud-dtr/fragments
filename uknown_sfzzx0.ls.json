@@ -41,8 +41,8 @@
 			"when": 1581271741735
 		}
 	],
-	"updt": 1576360963505,
-	"edit": 189,
+	"updt": 1581272528939,
+	"edit": 190,
 	"next_scrape": 1563525161085,
 	"category": "clicker",
 	"last_update": 1563480095324,
@@ -246,6 +246,39 @@
 				"g one, tS",
 				"eem. #K S",
 				"# Hi! ThS"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"is is",
+						"ing i",
+						"is is",
+						"ing i",
+						"is is ",
+						"eem. #",
+						"eem. #",
+						"the big",
+						"is is",
+						"ing in ",
+						"ing i",
+						" the big",
+						"g one, t",
+						"eem. #",
+						"# Hi! Th"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ing i ",
+						"Eis is",
+						"Eing i",
+						"eem. # ",
+						"Hi! Th ",
+						"ing in  "
+					]
+				}
 			]
 		},
 		{
@@ -295,58 +328,59 @@
 				"K ing in ",
 				"K Seem. #",
 				"K  Hi! Th"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"is is",
+						"ing i",
+						"is is",
+						"eem. #",
+						"eem. #",
+						"is is",
+						"ing in ",
+						"eem. #",
+						"is is",
+						"ing i",
+						"Hi! Th",
+						"g one, t",
+						"# Hi! Th",
+						"the big",
+						"ing in ",
+						"eem. #",
+						" Hi! Th"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"is isC",
+						"ing iC"
+					]
+				}
 			]
 		}
 	],
-	"identified": [
+	"retry_args": [
 		{
-			"document": "NOT FOUND",
-			"frags": [
-				"is isS",
-				"ing iS",
-				"Kis is",
-				"is isCK",
-				"is is S",
-				"ing iCK",
-				"ing i S",
-				"eem. #S",
-				"SEis is",
-				"SEing i",
-				"Keem. #",
-				"K is is",
-				"the bigS",
-				"is isK S",
-				"ing iK S",
-				"eem. # S",
-				"King in ",
-				"K eem. #",
-				"K Sis is",
-				"K Sing i",
-				"K Hi! Th",
-				"Hi! Th S",
-				"ing in  S",
-				"g one, tS",
-				"eem. #K S",
-				"Kg one, t",
-				"K# Hi! Th",
-				"K the big",
-				"K ing in ",
-				"K Seem. #",
-				"K  Hi! Th",
-				"# Hi! ThS"
-			]
-		},
+			"CLICK": true
+		}
+	],
+	"manual_cleanup": true,
+	"identified": [
 		{
 			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
 			"frags": [
 				"is th",
+				"is is ",
 				"his is",
 				"e big ",
 				"oping i",
+				"ing in ",
 				"in Sale",
 				", then.",
 				" in Sal",
-				"ing in S",
 				"ig one, ",
 				"g one, t",
 				"eem. ## ",
@@ -357,12 +391,19 @@
 				" the big",
 				" Hi! Thi"
 			]
-		}
-	],
-	"retry_args": [
+		},
 		{
-			"CLICK": true
+			"document": "NOT FOUND",
+			"frags": [
+				"is isC",
+				"ing iC",
+				"ing i ",
+				"Eis is",
+				"Eing i",
+				"eem. # ",
+				"Hi! Th ",
+				"ing in  "
+			]
 		}
-	],
-	"manual_cleanup": true
+	]
 }

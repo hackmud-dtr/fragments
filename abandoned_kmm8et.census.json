@@ -19,6 +19,10 @@
 		{
 			"type": "died",
 			"when": 1576356668404
+		},
+		{
+			"type": "manual edit",
+			"when": 1581271914187
 		}
 	],
 	"scrape_ct": 18,
@@ -121,6 +125,26 @@
 			"calls": 610,
 			"base": "`LCLIC  SECURED`",
 			"fragments": [
+				"Inde",
+				"IndeC",
+				" Inde",
+				"proces",
+				"proces",
+				" Inde",
+				"ri | U",
+				"ari | ",
+				"J: Inde",
+				"proces",
+				"Inde",
+				"bhandari",
+				"UBJ: Ind",
+				": Index ",
+				"ri | U",
+				"ari | ",
+				"proces",
+				"J: Inde"
+			],
+			"old_fragments": [
 				"K Inde",
 				"IndeCK",
 				" IndeK",
@@ -139,11 +163,47 @@
 				"K ari | S",
 				"K Sproces",
 				"K J: Inde"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"Inde",
+						" Inde",
+						"proces",
+						"proces",
+						" Inde",
+						"ari | ",
+						"J: Inde",
+						"proces",
+						"Inde",
+						"bhandari",
+						"UBJ: Ind",
+						": Index ",
+						"ari | ",
+						"proces",
+						"J: Inde"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"IndeC",
+						"ri | U",
+						"ri | U"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1574694701004,
-	"edit": 23,
+	"updt": 1576369306152,
+	"edit": 24,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	],
+	"manual_cleanup": true,
 	"identified": [
 		{
 			"document": "Passphrase",
@@ -156,11 +216,14 @@
 				"UBJ: Ind",
 				": Index "
 			]
-		}
-	],
-	"retry_args": [
+		},
 		{
-			"CLICK": true
+			"document": "NOT FOUND",
+			"frags": [
+				"IndeC",
+				"ri | U",
+				"ri | U"
+			]
 		}
 	]
 }

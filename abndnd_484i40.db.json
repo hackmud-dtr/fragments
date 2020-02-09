@@ -23,6 +23,10 @@
 		{
 			"type": "died",
 			"when": 1576356668404
+		},
+		{
+			"type": "manual edit",
+			"when": 1581271826067
 		}
 	],
 	"next_scrape": 1568732818843,
@@ -178,6 +182,22 @@
 			"calls": 3350,
 			"base": "`LCLIC  SECURED`",
 			"fragments": [
+				"UBJ: ",
+				"ERROR",
+				"UBJ: R",
+				"J: Re: ",
+				"CA_ECT",
+				"UBJ: R",
+				" ERROR",
+				"UBJ: R",
+				"ERROR",
+				"J: Re: ",
+				"ERROR |",
+				"CA_ECT",
+				"+ alee",
+				" UBJ: "
+			],
+			"old_fragments": [
 				"KUBJ: ",
 				"ERRORK",
 				"UBJ: RK",
@@ -195,27 +215,40 @@
 			],
 			"hits": [
 				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"UBJ: ",
+						"ERROR",
+						"UBJ: R",
+						"J: Re: ",
+						"UBJ: R",
+						" ERROR",
+						"UBJ: R",
+						"ERROR",
+						"J: Re: ",
+						"ERROR |"
+					]
+				},
+				{
 					"document": "NOT FOUND",
 					"frags": [
-						"KUBJ: ",
-						"ERRORK",
-						"UBJ: RK",
-						"KJ: Re: ",
-						"KCA_SECT",
-						"K UBJ: R",
-						"K  ERROR",
-						"K SUBJ: R",
-						"K S ERROR",
-						"K J: Re: ",
-						"K ERROR |",
-						"K CA_SECT",
-						"K + Salee",
-						"K  SUBJ: "
+						"CA_ECT",
+						"CA_ECT",
+						"+ alee",
+						" UBJ: "
 					]
 				}
 			]
 		}
 	],
+	"updt": 1576364794599,
+	"edit": 59,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	],
+	"manual_cleanup": true,
 	"identified": [
 		{
 			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
@@ -241,28 +274,11 @@
 		{
 			"document": "NOT FOUND",
 			"frags": [
-				"KUBJ: ",
-				"ERRORK",
-				"UBJ: RK",
-				"KJ: Re: ",
-				"KCA_SECT",
-				"K UBJ: R",
-				"K  ERROR",
-				"K SUBJ: R",
-				"K S ERROR",
-				"K J: Re: ",
-				"K ERROR |",
-				"K CA_SECT",
-				"K + Salee",
-				"K  SUBJ: "
+				"CA_ECT",
+				"CA_ECT",
+				"+ alee",
+				" UBJ: "
 			]
-		}
-	],
-	"updt": 1570602807108,
-	"edit": 58,
-	"retry_args": [
-		{
-			"CLICK": true
 		}
 	]
 }

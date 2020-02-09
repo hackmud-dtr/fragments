@@ -23,6 +23,10 @@
 		{
 			"type": "died",
 			"when": 1576356668404
+		},
+		{
+			"type": "manual edit",
+			"when": 1581271845318
 		}
 	],
 	"scrape_ct": 13,
@@ -155,6 +159,29 @@
 			"calls": 793,
 			"base": "`LCLIC  SECURED`",
 			"fragments": [
+				"late ",
+				"a cal",
+				"I th",
+				"I thC",
+				" I th",
+				"off ea",
+				"off ea",
+				"late ",
+				"a cal",
+				" I th",
+				"f early",
+				"all. Fe",
+				"off ea",
+				"I th",
+				" late ",
+				" a cal",
+				"f early",
+				"all. Fe",
+				"off ea",
+				"late ",
+				"a cal"
+			],
+			"old_fragments": [
 				"late K",
 				"a calK",
 				"K I th",
@@ -179,61 +206,48 @@
 			],
 			"hits": [
 				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"late ",
+						"a cal",
+						"I th",
+						" I th",
+						"off ea",
+						"off ea",
+						"late ",
+						"a cal",
+						" I th",
+						"f early",
+						"all. Fe",
+						"off ea",
+						"I th",
+						" late ",
+						" a cal",
+						"f early",
+						"all. Fe",
+						"off ea",
+						"late ",
+						"a cal"
+					]
+				},
+				{
 					"document": "NOT FOUND",
 					"frags": [
-						"late K",
-						"a calK",
-						"K I th",
-						"I thCK",
-						" I thK",
-						"off eaK",
-						"Koff ea",
-						"K late ",
-						"K a cal",
-						"K  I th",
-						"Kf early",
-						"Kall. Fe",
-						"K off ea",
-						"K S I th",
-						"K  late ",
-						"K  a cal",
-						"K f early",
-						"K all. Fe",
-						"K Soff ea",
-						"K S late ",
-						"K S a cal"
+						"I thC"
 					]
 				}
 			]
 		}
 	],
-	"identified": [
+	"updt": 1576364569785,
+	"edit": 15,
+	"retry_args": [
 		{
-			"document": "NOT FOUND",
-			"frags": [
-				"late K",
-				"a calK",
-				"K I th",
-				"I thCK",
-				" I thK",
-				"off eaK",
-				"Koff ea",
-				"K late ",
-				"K a cal",
-				"K  I th",
-				"Kf early",
-				"Kall. Fe",
-				"K off ea",
-				"K S I th",
-				"K  late ",
-				"K  a cal",
-				"K f early",
-				"K all. Fe",
-				"K Soff ea",
-				"K S late ",
-				"K S a cal"
-			]
-		},
+			"CLICK": true
+		}
+	],
+	"manual_cleanup": true,
+	"identified": [
 		{
 			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
 			"frags": [
@@ -250,13 +264,12 @@
 				"all. Fe",
 				"season'!"
 			]
-		}
-	],
-	"updt": 1570602353583,
-	"edit": 14,
-	"retry_args": [
+		},
 		{
-			"CLICK": true
+			"document": "NOT FOUND",
+			"frags": [
+				"I thC"
+			]
 		}
 	]
 }

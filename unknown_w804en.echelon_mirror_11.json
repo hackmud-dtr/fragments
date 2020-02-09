@@ -23,6 +23,10 @@
 		{
 			"type": "died",
 			"when": 1576356668404
+		},
+		{
+			"type": "manual edit",
+			"when": 1581271831768
 		}
 	],
 	"next_scrape": 1568798110545,
@@ -142,6 +146,23 @@
 			"calls": 2242,
 			"base": "`LCLIC  SECURED`",
 			"fragments": [
+				"THI",
+				"THIC",
+				"LETE T",
+				"LETE T",
+				"THI",
+				"aaalil ",
+				"I| bm",
+				"THI",
+				"LETE T",
+				"THI| b",
+				"TE THI",
+				"| bmak",
+				"aaalil ",
+				"LETE T",
+				"I| bm"
+			],
+			"old_fragments": [
 				"THIS K",
 				"THIS CK",
 				"LETE TK",
@@ -160,49 +181,42 @@
 			],
 			"hits": [
 				{
+					"document": "Passphrase",
+					"frags": [
+						"THI",
+						"LETE T",
+						"LETE T",
+						"THI",
+						"aaalil ",
+						"THI",
+						"LETE T",
+						"TE THI",
+						"| bmak",
+						"aaalil ",
+						"LETE T"
+					]
+				},
+				{
 					"document": "NOT FOUND",
 					"frags": [
-						"THIS K",
-						"THIS CK",
-						"LETE TK",
-						"KLETE T",
-						"K THIS ",
-						"Kaaalil ",
-						"KIS | bm",
-						"K STHIS ",
-						"K LETE T",
-						"KTHIS | b",
-						"KTE THIS ",
-						"KS | bmak",
-						"K aaalil ",
-						"K SLETE T",
-						"K IS | bm"
+						"THIC",
+						"I| bm",
+						"THI| b",
+						"I| bm"
 					]
 				}
 			]
 		}
 	],
-	"identified": [
+	"updt": 1576364569785,
+	"edit": 75,
+	"retry_args": [
 		{
-			"document": "NOT FOUND",
-			"frags": [
-				"THIS K",
-				"THIS CK",
-				"LETE TK",
-				"KLETE T",
-				"K THIS ",
-				"Kaaalil ",
-				"KIS | bm",
-				"K STHIS ",
-				"K LETE T",
-				"KTHIS | b",
-				"KTE THIS ",
-				"KS | bmak",
-				"K aaalil ",
-				"K SLETE T",
-				"K IS | bm"
-			]
-		},
+			"CLICK": true
+		}
+	],
+	"manual_cleanup": true,
+	"identified": [
 		{
 			"document": "Passphrase",
 			"frags": [
@@ -217,13 +231,15 @@
 				"ETE THIS",
 				"ELETE TH"
 			]
-		}
-	],
-	"updt": 1570602353583,
-	"edit": 74,
-	"retry_args": [
+		},
 		{
-			"CLICK": true
+			"document": "NOT FOUND",
+			"frags": [
+				"THIC",
+				"I| bm",
+				"THI| b",
+				"I| bm"
+			]
 		}
 	]
 }

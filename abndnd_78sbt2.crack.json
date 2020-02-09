@@ -41,8 +41,8 @@
 			"when": 1581271767090
 		}
 	],
-	"updt": 1576360963505,
-	"edit": 182,
+	"updt": 1581272528939,
+	"edit": 183,
 	"next_scrape": 1563443936892,
 	"category": "clicker",
 	"last_update": 1563403520983,
@@ -296,6 +296,34 @@
 				"K RROR | ",
 				"K  | NETW",
 				"K  ERROR "
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"G ERR",
+						"G ER",
+						"G ERR",
+						"0X71_C",
+						"0X71_C",
+						"| NETW",
+						"G ERR",
+						"ERROR ",
+						"0X71_C",
+						"RROR | P",
+						"ETW ERRO",
+						"0X71_C",
+						"RROR | ",
+						" | NETW",
+						" ERROR "
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"G ERRC"
+					]
+				}
 			]
 		},
 		{
@@ -365,6 +393,47 @@
 				"G ERRCK S",
 				"ETW ERROS",
 				"0X71_CK S"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"G ERR",
+						"G ER",
+						"G ERR",
+						"0X71_C",
+						"0X71_C",
+						"| NETW ",
+						"RROR | ",
+						"| NETW",
+						"G ERR",
+						"ERROR ",
+						"0X71_C",
+						"G ERR",
+						" | NETW",
+						" ERROR ",
+						"RROR | P",
+						"RROR | P",
+						"ETW ERRO",
+						"0X71_C",
+						"RROR | ",
+						" | NETW",
+						" ERROR ",
+						"ETW ERRO",
+						"0X71_C"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"G ERR ",
+						"ERROR  ",
+						"0X71_C ",
+						"RROR |  ",
+						"EG ERR",
+						"G ERRC"
+					]
+				}
 			]
 		},
 		{
@@ -408,6 +477,34 @@
 				"RROR | PS",
 				"RROR |  S",
 				"ETW ERROS"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"G ERR",
+						"G ERR",
+						"0X71_C",
+						"0X71_C",
+						"| NETW ",
+						"RROR | ",
+						"G ERR",
+						" | NETW",
+						" ERROR ",
+						"RROR | P",
+						"ETW ERRO"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"EG ERR",
+						"G ERR ",
+						"ERROR  ",
+						"0X71_C ",
+						"RROR |  "
+					]
+				}
 			]
 		},
 		{
@@ -451,44 +548,47 @@
 				"RROR | PS",
 				"RROR |  S",
 				"ETW ERROS"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"G ERR",
+						"G ERR",
+						"0X71_C",
+						"0X71_C",
+						"| NETW ",
+						"RROR | ",
+						"G ERR",
+						" | NETW",
+						" ERROR ",
+						"RROR | P",
+						"ETW ERRO"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"EG ERR",
+						"G ERR ",
+						"ERROR  ",
+						"0X71_C ",
+						"RROR |  "
+					]
+				}
 			]
 		}
 	],
-	"identified": [
+	"retry_args": [
 		{
-			"document": "NOT FOUND",
-			"frags": [
-				"KG ERR",
-				"K G ER",
-				"G ERRS",
-				"K0X71_C",
-				"G ERR S",
-				"0X71_CS",
-				"| NETW S",
-				"RROR | S",
-				"K | NETW",
-				"K SG ERR",
-				"K ERROR ",
-				"K 0X71_C",
-				"G ERRK S",
-				"ERROR  S",
-				"0X71_C S",
-				" | NETWS",
-				" ERROR S",
-				"RROR | PS",
-				"RROR |  S",
-				"KRROR | P",
-				"KETW ERRO",
-				"K SEG ERR",
-				"K S0X71_C",
-				"K RROR | ",
-				"K  | NETW",
-				"K  ERROR ",
-				"G ERRCK S",
-				"ETW ERROS",
-				"0X71_CK S"
-			]
+			"click": true
 		},
+		{
+			"CLICK": true
+		}
+	],
+	"manual_cleanup": true,
+	"identified": [
 		{
 			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
 			"frags": [
@@ -504,6 +604,7 @@
 				"0X71_C",
 				" | PRO",
 				" TIME ",
+				"| NETW ",
 				"ST ERRO",
 				"ECT0X73",
 				"CT0X735",
@@ -520,15 +621,17 @@
 				"F93F\\nSYS",
 				"3F\\nSYST "
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"click": true
 		},
 		{
-			"CLICK": true
+			"document": "NOT FOUND",
+			"frags": [
+				"G ERRC",
+				"G ERR ",
+				"EG ERR",
+				"ERROR  ",
+				"0X71_C ",
+				"RROR |  "
+			]
 		}
-	],
-	"manual_cleanup": true
+	]
 }
