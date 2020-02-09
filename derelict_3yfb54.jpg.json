@@ -11,6 +11,14 @@
 		{
 			"type": "added",
 			"when": 1575727786291
+		},
+		{
+			"type": "manual edit",
+			"when": 1581272065556
+		},
+		{
+			"type": "manual edit withdo",
+			"when": 1581272740598
 		}
 	],
 	"scrape_ct": 20,
@@ -23,6 +31,12 @@
 			"calls": 1775,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"l 3 dec",
+				" face d",
+				"3, face ",
+				"3 decks "
+			],
+			"old_fragments": [
 				"l 3 dec",
 				" face d",
 				"3, face ",
@@ -40,6 +54,12 @@
 				" face d",
 				"3, face ",
 				"3 decks "
+			],
+			"old_fragments": [
+				"l 3 dec",
+				" face d",
+				"3, face ",
+				"3 decks "
 			]
 		},
 		{
@@ -49,6 +69,21 @@
 			"calls": 704,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"5decks ",
+				"11K234G",
+				" face d7",
+				"3 decks 4",
+				"l 3 decN 6",
+				"l 3 decN 3",
+				"3G3, face ",
+				"3, face  6",
+				"3, face  4",
+				" face dN 7",
+				"533, face GC",
+				"3decks 2490Q",
+				"\nOR\n\nYOU CO, face OSE"
+			],
+			"old_fragments": [
 				"5decks ",
 				"11K234G",
 				" face d7",
@@ -356,11 +391,13 @@
 			]
 		}
 	],
-	"updt": 1575727919997,
-	"edit": 1,
+	"updt": 1576370660687,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"manual_cleanup": true,
+	"manual_cleanup_withdo": true
 }

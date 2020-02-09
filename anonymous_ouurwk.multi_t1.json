@@ -19,6 +19,10 @@
 		{
 			"type": "died",
 			"when": 1576356668404
+		},
+		{
+			"type": "manual edit",
+			"when": 1581271914187
 		}
 	],
 	"scrape_ct": 17,
@@ -127,6 +131,23 @@
 			"calls": 2679,
 			"base": "`LCLIC  SECURED`",
 			"fragments": [
+				"patibi",
+				"patibi",
+				"'ve ad",
+				"'ve ad",
+				"hy 5 se",
+				"patibi",
+				"'ve ad",
+				"sted the",
+				"e adjust",
+				"2093 for",
+				"2 I've a",
+				"seconds",
+				"hy 5 se",
+				"patibi",
+				"'ve ad"
+			],
+			"old_fragments": [
 				"patibiK",
 				"Kpatibi",
 				"K've ad",
@@ -145,23 +166,23 @@
 			],
 			"hits": [
 				{
-					"document": "NOT FOUND",
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
 					"frags": [
-						"patibiK",
-						"Kpatibi",
-						"K've ad",
-						"'ve adK",
-						"Khy 5 se",
-						"K patibi",
-						"K 've ad",
-						"Ksted the",
-						"Ke adjust",
-						"K2093 for",
-						"K2 I've a",
-						"K seconds",
-						"K hy 5 se",
-						"K Spatibi",
-						"K S've ad"
+						"patibi",
+						"patibi",
+						"'ve ad",
+						"'ve ad",
+						"hy 5 se",
+						"patibi",
+						"'ve ad",
+						"sted the",
+						"e adjust",
+						"2093 for",
+						"2 I've a",
+						"seconds",
+						"hy 5 se",
+						"patibi",
+						"'ve ad"
 					]
 				}
 			]
@@ -173,6 +194,24 @@
 			"calls": 1681,
 			"base": "`LCLICK  ECURED`",
 			"fragments": [
+				"patibi",
+				"patibi",
+				"'ve ad",
+				"'ve ad",
+				"seconds",
+				"patibi ",
+				"hy 5 se",
+				"'ve ad ",
+				" seconds",
+				"sted the",
+				"patibi",
+				"hy 5 se ",
+				"e adjust",
+				"2093 for",
+				"2 I've a",
+				"'ve ad"
+			],
+			"old_fragments": [
 				"patibiS",
 				"Spatibi",
 				"S've ad",
@@ -192,68 +231,43 @@
 			],
 			"hits": [
 				{
-					"document": "NOT FOUND",
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
 					"frags": [
-						"patibiS",
-						"Spatibi",
-						"S've ad",
-						"'ve adS",
-						"secondsS",
-						"patibi S",
-						"hy 5 seS",
-						"'ve ad S",
-						"sted theS",
-						"patibiK S",
-						"hy 5 se S",
-						"e adjustS",
-						"2093 forS",
-						"2 I've aS",
-						"'ve adK S"
+						"patibi",
+						"patibi",
+						"'ve ad",
+						"'ve ad",
+						"seconds",
+						"hy 5 se",
+						" seconds",
+						"sted the",
+						"patibi",
+						"e adjust",
+						"2093 for",
+						"2 I've a",
+						"'ve ad"
 					]
 				},
 				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"document": "NOT FOUND",
 					"frags": [
-						" seconds"
+						"patibi ",
+						"'ve ad ",
+						"hy 5 se "
 					]
 				}
 			]
 		}
 	],
-	"updt": 1575441034797,
-	"edit": 29,
-	"identified": [
+	"updt": 1576370434131,
+	"edit": 30,
+	"retry_args": [
 		{
-			"document": "NOT FOUND",
-			"frags": [
-				"patibiS",
-				"Kpatibi",
-				"K've ad",
-				"'ve adS",
-				"secondsS",
-				"patibi S",
-				"hy 5 seS",
-				"Khy 5 se",
-				"K patibi",
-				"K 've ad",
-				"'ve ad S",
-				"sted theS",
-				"patibiK S",
-				"hy 5 se S",
-				"e adjustS",
-				"Ksted the",
-				"Ke adjust",
-				"K2093 for",
-				"K2 I've a",
-				"K seconds",
-				"K hy 5 se",
-				"K Spatibi",
-				"K S've ad",
-				"2093 forS",
-				"2 I've aS",
-				"'ve adK S"
-			]
-		},
+			"CLICK": true
+		}
+	],
+	"manual_cleanup": true,
+	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
 			"frags": [
@@ -266,11 +280,14 @@
 				"2 I've a",
 				" seconds"
 			]
-		}
-	],
-	"retry_args": [
+		},
 		{
-			"CLICK": true
+			"document": "NOT FOUND",
+			"frags": [
+				"patibi ",
+				"'ve ad ",
+				"hy 5 se "
+			]
 		}
 	]
 }

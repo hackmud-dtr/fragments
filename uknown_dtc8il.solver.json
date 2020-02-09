@@ -23,10 +23,14 @@
 		{
 			"type": "died",
 			"when": 1576356668404
+		},
+		{
+			"type": "manual edit",
+			"when": 1581271805909
 		}
 	],
-	"updt": 1570603031194,
-	"edit": 120,
+	"updt": 1576365020349,
+	"edit": 121,
 	"next_scrape": 1568738932846,
 	"category": "clicker",
 	"last_update": 1568695164679,
@@ -168,6 +172,28 @@
 			"calls": 6451,
 			"base": "`LCLIC  SECURED`",
 			"fragments": [
+				"r des",
+				"r des",
+				"r desC",
+				"4 It i",
+				"r des",
+				"4 It i",
+				"your de",
+				"our des",
+				"ary to ",
+				"B4 It i",
+				"r des",
+				"4 It i",
+				"y to you",
+				"s contra",
+				"your de",
+				"our des",
+				"is cont",
+				"ary to ",
+				"4 It i",
+				"B4 It i"
+			],
+			"old_fragments": [
 				"r desK",
 				"Kr des",
 				"r desCK",
@@ -191,28 +217,33 @@
 			],
 			"hits": [
 				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"r des",
+						"r des",
+						"4 It i",
+						"r des",
+						"4 It i",
+						"your de",
+						"our des",
+						"ary to ",
+						"B4 It i",
+						"r des",
+						"4 It i",
+						"y to you",
+						"s contra",
+						"your de",
+						"our des",
+						"is cont",
+						"ary to ",
+						"4 It i",
+						"B4 It i"
+					]
+				},
+				{
 					"document": "NOT FOUND",
 					"frags": [
-						"r desK",
-						"Kr des",
-						"r desCK",
-						"K4 It i",
-						"K r des",
-						"4 It iK",
-						"Kyour de",
-						"Kour des",
-						"Kary to ",
-						"KB4 It i",
-						"K Sr des",
-						"K 4 It i",
-						"Ky to you",
-						"Ks contra",
-						"K your de",
-						"K our des",
-						"K is cont",
-						"K ary to ",
-						"K S4 It i",
-						"K B4 It i"
+						"r desC"
 					]
 				}
 			]
@@ -224,6 +255,25 @@
 			"calls": 5546,
 			"base": "`LCLICK  ECURED`",
 			"fragments": [
+				"r des",
+				"Er des",
+				"4 It i",
+				"your de",
+				"r des",
+				"our des",
+				"is cont",
+				"ary to ",
+				"B4 It i",
+				" is cont",
+				"your de ",
+				"y to you",
+				"s contra",
+				"our des ",
+				"ary to  ",
+				"B4 It i ",
+				"4 It i"
+			],
+			"old_fragments": [
 				"Sr des",
 				"SEr des",
 				"S4 It i",
@@ -244,73 +294,42 @@
 			],
 			"hits": [
 				{
-					"document": "NOT FOUND",
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
 					"frags": [
-						"Sr des",
-						"SEr des",
-						"S4 It i",
-						"your deS",
-						"r desK S",
-						"our desS",
-						"is contS",
-						"ary to S",
-						"B4 It iS",
-						"your de S",
-						"y to youS",
-						"s contraS",
-						"our des S",
-						"ary to  S",
-						"B4 It i S",
-						"4 It iK S"
+						"r des",
+						"4 It i",
+						"your de",
+						"r des",
+						"our des",
+						"is cont",
+						"ary to ",
+						"B4 It i",
+						" is cont",
+						"y to you",
+						"s contra",
+						"4 It i"
 					]
 				},
 				{
-					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"document": "NOT FOUND",
 					"frags": [
-						" is cont"
+						"Er des",
+						"your de ",
+						"our des ",
+						"ary to  ",
+						"B4 It i "
 					]
 				}
 			]
 		}
 	],
-	"identified": [
+	"retry_args": [
 		{
-			"document": "NOT FOUND",
-			"frags": [
-				"Kr des",
-				"r desCK",
-				"SEr des",
-				"K4 It i",
-				"K r des",
-				"your deS",
-				"r desK S",
-				"our desS",
-				"is contS",
-				"ary to S",
-				"Kyour de",
-				"Kour des",
-				"Kary to ",
-				"KB4 It i",
-				"K Sr des",
-				"K 4 It i",
-				"B4 It iS",
-				"your de S",
-				"y to youS",
-				"s contraS",
-				"our des S",
-				"ary to  S",
-				"Ky to you",
-				"Ks contra",
-				"K your de",
-				"K our des",
-				"K is cont",
-				"K ary to ",
-				"K S4 It i",
-				"K B4 It i",
-				"B4 It i S",
-				"4 It iK S"
-			]
-		},
+			"CLICK": true
+		}
+	],
+	"manual_cleanup": true,
+	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
 			"frags": [
@@ -329,11 +348,17 @@
 				"s contra",
 				" is cont"
 			]
-		}
-	],
-	"retry_args": [
+		},
 		{
-			"CLICK": true
+			"document": "NOT FOUND",
+			"frags": [
+				"r desC",
+				"Er des",
+				"your de ",
+				"our des ",
+				"ary to  ",
+				"B4 It i "
+			]
 		}
 	]
 }

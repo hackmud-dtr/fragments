@@ -23,6 +23,10 @@
 		{
 			"type": "died",
 			"when": 1576356668404
+		},
+		{
+			"type": "manual edit",
+			"when": 1581271949188
 		}
 	],
 	"scrape_ct": 17,
@@ -142,8 +146,14 @@
 			]
 		}
 	],
-	"updt": 1570602807108,
-	"edit": 4,
+	"updt": 1576365020349,
+	"edit": 5,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"manual_cleanup": true,
 	"identified": [
 		{
 			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
@@ -159,11 +169,6 @@
 				"ons to t",
 				"n be hel"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }

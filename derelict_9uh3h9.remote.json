@@ -19,6 +19,10 @@
 		{
 			"type": "died",
 			"when": 1576356668404
+		},
+		{
+			"type": "manual edit",
+			"when": 1581271837879
 		}
 	],
 	"scrape_ct": 20,
@@ -301,8 +305,14 @@
 			]
 		}
 	],
-	"updt": 1571519314788,
-	"edit": 10,
+	"updt": 1576366375133,
+	"edit": 11,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"manual_cleanup": true,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -422,11 +432,6 @@
 				" TRAPS s",
 				"ards\\n216"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "LOSE"
 		}
 	]
 }

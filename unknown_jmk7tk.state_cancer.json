@@ -23,10 +23,14 @@
 		{
 			"type": "died",
 			"when": 1576356668404
+		},
+		{
+			"type": "manual edit",
+			"when": 1581271845318
 		}
 	],
-	"updt": 1570603708726,
-	"edit": 22,
+	"updt": 1576365696706,
+	"edit": 23,
 	"scrape_ct": 5,
 	"next_scrape": 1568740043418,
 	"category": "clicker",
@@ -117,6 +121,18 @@
 			"calls": 1578,
 			"base": "`LCLIC  SECURED`",
 			"fragments": [
+				"ain, so",
+				". I'm l",
+				"(again",
+				"ll. I'm ",
+				"i all. I",
+				"es (agai",
+				"'m loopi",
+				"ain, so",
+				". I'm l",
+				" (again"
+			],
+			"old_fragments": [
 				"Kain, so",
 				"K. I'm l",
 				"K (again",
@@ -130,18 +146,18 @@
 			],
 			"hits": [
 				{
-					"document": "NOT FOUND",
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
 					"frags": [
-						"Kain, so",
-						"K. I'm l",
-						"K (again",
-						"Kll. I'm ",
-						"Ki all. I",
-						"Kes (agai",
-						"K'm loopi",
-						"K ain, so",
-						"K . I'm l",
-						"K  (again"
+						"ain, so",
+						". I'm l",
+						"(again",
+						"ll. I'm ",
+						"i all. I",
+						"es (agai",
+						"'m loopi",
+						"ain, so",
+						". I'm l",
+						" (again"
 					]
 				}
 			]
@@ -193,6 +209,18 @@
 			"calls": 732,
 			"base": "`LCLICK  ECURED`",
 			"fragments": [
+				"ain, so",
+				". I'm l",
+				"(again ",
+				" (again",
+				"ll. I'm ",
+				"i all. I",
+				"es (agai",
+				"ain, so ",
+				". I'm l ",
+				"'m loopi"
+			],
+			"old_fragments": [
 				"ain, soS",
 				". I'm lS",
 				"(again S",
@@ -206,49 +234,30 @@
 			],
 			"hits": [
 				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"ain, so",
+						". I'm l",
+						" (again",
+						"ll. I'm ",
+						"i all. I",
+						"es (agai",
+						"'m loopi"
+					]
+				},
+				{
 					"document": "NOT FOUND",
 					"frags": [
-						"ain, soS",
-						". I'm lS",
-						"(again S",
-						" (againS",
-						"ll. I'm S",
-						"i all. IS",
-						"es (agaiS",
-						"ain, so S",
-						". I'm l S",
-						"'m loopiS"
+						"(again ",
+						"ain, so ",
+						". I'm l "
 					]
 				}
 			]
 		}
 	],
+	"manual_cleanup": true,
 	"identified": [
-		{
-			"document": "NOT FOUND",
-			"frags": [
-				"ain, soS",
-				"Kain, so",
-				"K. I'm l",
-				"K (again",
-				". I'm lS",
-				"(again S",
-				" (againS",
-				"ll. I'm S",
-				"i all. IS",
-				"es (agaiS",
-				"ain, so S",
-				"Kll. I'm ",
-				"Ki all. I",
-				"Kes (agai",
-				"K'm loopi",
-				"K ain, so",
-				"K . I'm l",
-				"K  (again",
-				". I'm l S",
-				"'m loopiS"
-			]
-		},
 		{
 			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
 			"frags": [
@@ -264,6 +273,14 @@
 				"es (agai",
 				"again, s",
 				"'m loopi"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"(again ",
+				"ain, so ",
+				". I'm l "
 			]
 		}
 	]

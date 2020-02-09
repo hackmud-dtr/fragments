@@ -23,10 +23,14 @@
 		{
 			"type": "died",
 			"when": 1576356668404
+		},
+		{
+			"type": "manual edit",
+			"when": 1581271851475
 		}
 	],
-	"updt": 1570603708726,
-	"edit": 15,
+	"updt": 1576365696706,
+	"edit": 16,
 	"scrape_ct": 6,
 	"next_scrape": 1568775178025,
 	"category": "clicker",
@@ -145,6 +149,26 @@
 			"calls": 542,
 			"base": "`LCLICi SECURED`",
 			"fragments": [
+				"em. #",
+				"em. #",
+				"is the",
+				"em. #C",
+				"is the",
+				"## Hi!",
+				"em. #",
+				"## Hi!",
+				"is the",
+				"in al",
+				"em. #",
+				"## Hi!",
+				"is is th",
+				"aleem. #",
+				"Hi! This",
+				"is the",
+				"## Hi!",
+				" in al"
+			],
+			"old_fragments": [
 				"em. #K",
 				"Kem. #",
 				"is theK",
@@ -166,55 +190,43 @@
 			],
 			"hits": [
 				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"em. #",
+						"em. #",
+						"is the",
+						"is the",
+						"## Hi!",
+						"em. #",
+						"## Hi!",
+						"is the",
+						"em. #",
+						"## Hi!",
+						"is is th",
+						"aleem. #",
+						"Hi! This",
+						"is the",
+						"## Hi!"
+					]
+				},
+				{
 					"document": "NOT FOUND",
 					"frags": [
-						"em. #K",
-						"Kem. #",
-						"is theK",
-						"em. #CK",
-						"Kis the",
-						"K## Hi!",
-						"K em. #",
-						"## Hi!K",
-						"K is the",
-						"K in Sal",
-						"K Sem. #",
-						"K ## Hi!",
-						"Kis is th",
-						"Kaleem. #",
-						"KHi! This",
-						"K Sis the",
-						"K S## Hi!",
-						"K  in Sal"
+						"em. #C",
+						"in al",
+						" in al"
 					]
 				}
 			]
 		}
 	],
-	"identified": [
+	"retry_args": [
 		{
-			"document": "NOT FOUND",
-			"frags": [
-				"em. #K",
-				"Kem. #",
-				"is theK",
-				"em. #CK",
-				"Kis the",
-				"K## Hi!",
-				"K em. #",
-				"## Hi!K",
-				"K is the",
-				"K in Sal",
-				"K Sem. #",
-				"K ## Hi!",
-				"Kis is th",
-				"Kaleem. #",
-				"KHi! This",
-				"K Sis the",
-				"K S## Hi!",
-				"K  in Sal"
-			]
-		},
+			"CLICK": true
+		}
+	],
+	"manual_cleanup": true,
+	"identified": [
 		{
 			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
 			"frags": [
@@ -229,11 +241,14 @@
 				"aleem. #",
 				"Hi! This"
 			]
-		}
-	],
-	"retry_args": [
+		},
 		{
-			"CLICK": true
+			"document": "NOT FOUND",
+			"frags": [
+				"em. #C",
+				"in al",
+				" in al"
+			]
 		}
 	]
 }

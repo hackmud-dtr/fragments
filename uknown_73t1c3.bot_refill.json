@@ -23,6 +23,10 @@
 		{
 			"type": "died",
 			"when": 1576356668404
+		},
+		{
+			"type": "manual edit",
+			"when": 1581271831768
 		}
 	],
 	"scrape_ct": 20,
@@ -267,8 +271,14 @@
 			]
 		}
 	],
-	"updt": 1570603256811,
-	"edit": 9,
+	"updt": 1576365245939,
+	"edit": 10,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"manual_cleanup": true,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -382,11 +392,6 @@
 				"So - wha",
 				"## Provi"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "LOSE"
 		}
 	]
 }

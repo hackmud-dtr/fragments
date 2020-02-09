@@ -23,6 +23,10 @@
 		{
 			"type": "died",
 			"when": 1576356668404
+		},
+		{
+			"type": "manual edit",
+			"when": 1581271902170
 		}
 	],
 	"scrape_ct": 16,
@@ -91,6 +95,23 @@
 			"calls": 634,
 			"base": "`LCLICK  ECURED`",
 			"fragments": [
+				"winn",
+				"the ",
+				" winn",
+				" the ",
+				"E winn",
+				"E the ",
+				" winn ",
+				" the  ",
+				"row for",
+				" winn",
+				" the ",
+				"s narrow",
+				"row for ",
+				"curity o",
+				". Do not"
+			],
+			"old_fragments": [
 				"S winn",
 				"S the ",
 				" winnS",
@@ -109,23 +130,28 @@
 			],
 			"hits": [
 				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"winn",
+						"the ",
+						" winn",
+						" the ",
+						"row for",
+						" winn",
+						" the ",
+						"s narrow",
+						"row for ",
+						"curity o",
+						". Do not"
+					]
+				},
+				{
 					"document": "NOT FOUND",
 					"frags": [
-						"S winn",
-						"S the ",
-						" winnS",
-						" the S",
-						"SE winn",
-						"SE the ",
-						" winn S",
-						" the  S",
-						"row forS",
-						" winnK S",
-						" the K S",
-						"s narrowS",
-						"row for S",
-						"curity oS",
-						". Do notS"
+						"E winn",
+						"E the ",
+						" winn ",
+						" the  "
 					]
 				}
 			]
@@ -159,38 +185,28 @@
 			]
 		}
 	],
-	"updt": 1570602807108,
-	"edit": 10,
+	"updt": 1576364794599,
+	"edit": 11,
+	"manual_cleanup": true,
 	"identified": [
-		{
-			"document": "NOT FOUND",
-			"frags": [
-				"S winn",
-				"S the ",
-				" winnS",
-				" the S",
-				"SE winn",
-				"SE the ",
-				" winn S",
-				" the  S",
-				"row forS",
-				" winnK S",
-				" the K S",
-				"s narrowS",
-				"row for S",
-				"curity oS",
-				". Do notS"
-			]
-		},
 		{
 			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
 			"frags": [
 				" winn",
 				" the ",
-				"row for",
 				"s narrow",
+				"row for ",
 				"curity o",
 				". Do not"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"E winn",
+				"E the ",
+				" winn ",
+				" the  "
 			]
 		}
 	]

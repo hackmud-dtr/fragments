@@ -19,6 +19,10 @@
 		{
 			"type": "died",
 			"when": 1576356668404
+		},
+		{
+			"type": "manual edit",
+			"when": 1581271908207
 		}
 	],
 	"scrape_ct": 17,
@@ -133,6 +137,32 @@
 			"calls": 1653,
 			"base": "`LCLIC  SECURED`",
 			"fragments": [
+				"me, C",
+				" me, ",
+				"r maki",
+				"aking ",
+				"r maki",
+				"aking ",
+				"I've h",
+				"I've h",
+				"rin + ",
+				"m - int",
+				"r maki",
+				"me, Er",
+				"aking ",
+				"me, ",
+				"I've h",
+				"ank you ",
+				"you for",
+				"rin + ",
+				"m - int",
+				"intro |",
+				"r maki",
+				"aking ",
+				"I've h",
+				" me, Er"
+			],
+			"old_fragments": [
 				"me, CK",
 				" me, K",
 				"r makiK",
@@ -157,11 +187,53 @@
 				"K Saking ",
 				"K SI've h",
 				"K  me, Er"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						" me, ",
+						"r maki",
+						"aking ",
+						"r maki",
+						"aking ",
+						"I've h",
+						"I've h",
+						"rin + ",
+						"m - int",
+						"r maki",
+						"me, Er",
+						"aking ",
+						"me, ",
+						"I've h",
+						"ank you ",
+						"you for",
+						"rin + ",
+						"m - int",
+						"intro |",
+						"r maki",
+						"aking ",
+						"I've h",
+						" me, Er"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"me, C"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1575409472714,
-	"edit": 17,
+	"updt": 1576370209452,
+	"edit": 18,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	],
+	"manual_cleanup": true,
 	"identified": [
 		{
 			"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
@@ -176,11 +248,12 @@
 				" you for",
 				" intro |"
 			]
-		}
-	],
-	"retry_args": [
+		},
 		{
-			"CLICK": true
+			"document": "NOT FOUND",
+			"frags": [
+				"me, C"
+			]
 		}
 	]
 }

@@ -19,10 +19,14 @@
 		{
 			"type": "died",
 			"when": 1576356668404
+		},
+		{
+			"type": "manual edit withdo",
+			"when": 1581272707478
 		}
 	],
-	"updt": 1575599188895,
-	"edit": 4,
+	"updt": 1576370660687,
+	"edit": 5,
 	"scrape_ct": 20,
 	"next_scrape": 1570640707500,
 	"category": "risk_factor",
@@ -33,6 +37,17 @@
 			"calls": 1275,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"6_FIL",
+				"F\\nSYS",
+				"FILE0X",
+				" | TIM",
+				"SYST ER",
+				"RROR | ",
+				" PROG E",
+				"TW ERROR",
+				"ROG ERRO"
+			],
+			"old_fragments": [
 				"6_FIL",
 				"F\\nSYS",
 				"FILE0X",
@@ -77,6 +92,17 @@
 				"TW ERROR",
 				"ROG ERRO"
 			],
+			"old_fragments": [
+				"6_FIL",
+				"F\\nSYS",
+				"FILE0X",
+				" | TIM",
+				"SYST ER",
+				"RROR | ",
+				" PROG E",
+				"TW ERROR",
+				"ROG ERRO"
+			],
 			"hits": [
 				{
 					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
@@ -101,6 +127,34 @@
 			"calls": 731,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"3M1",
+				"FILE0X3",
+				"4F\\nSYS",
+				"4FILE0X",
+				"SYST ER4",
+				"RROR | 3",
+				"7RROR | ",
+				"6_FILN 3",
+				"4SYST ER",
+				"3SYST ER",
+				"SYST ER 4",
+				"RROR |  3",
+				"F\\nSYSN 5",
+				"FILE0XN 4",
+				"FILE0XN 3",
+				"COULDFILE",
+				"9GSYST ER",
+				"3TW ERROR",
+				" | TIMN 3",
+				"SYST ERN 5",
+				"SYST ERN 4",
+				"RROR | N 3",
+				"6GTW ERROR",
+				"TW ERRORN 3",
+				"win\" PROG EOU COULD `VL",
+				"10699874972785Q197T912B92M999K6TW ERRORh"
+			],
+			"old_fragments": [
 				"3M1",
 				"FILE0X3",
 				"4F\\nSYS",
@@ -407,10 +461,84 @@
 				"F\\nSYSN 31GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE",
 				"TW ERRORN 1.8973981709886115e+36QGC with do:\"win\"",
 				"TW ERRORN 56GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"3M1",
+						"4F\\nSYS",
+						"4FILE0X",
+						"SYST ER4",
+						"RROR | 3",
+						"7RROR | ",
+						"6_FILN 3",
+						"4SYST ER",
+						"3SYST ER",
+						"SYST ER 4",
+						"RROR |  3",
+						"F\\nSYSN 5",
+						"FILE0XN 4",
+						"FILE0XN 3",
+						"COULDFILE",
+						"9GSYST ER",
+						"3TW ERROR",
+						" | TIMN 3",
+						"SYST ERN 5",
+						"SYST ERN 4",
+						"RROR | N 3",
+						"6GTW ERROR",
+						"TW ERRORN 3",
+						"win\" PROG EOU COULD `VL",
+						"10699874972785Q197T912B92M999K6TW ERRORh"
+					]
+				},
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"FILE0X3"
+					]
+				}
 			]
 		}
 	],
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"manual_cleanup_withdo": true,
 	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"3M1",
+				"4F\\nSYS",
+				"4FILE0X",
+				"SYST ER4",
+				"RROR | 3",
+				"7RROR | ",
+				"6_FILN 3",
+				"4SYST ER",
+				"3SYST ER",
+				"SYST ER 4",
+				"RROR |  3",
+				"F\\nSYSN 5",
+				"FILE0XN 4",
+				"FILE0XN 3",
+				"COULDFILE",
+				"9GSYST ER",
+				"3TW ERROR",
+				" | TIMN 3",
+				"SYST ERN 5",
+				"SYST ERN 4",
+				"RROR | N 3",
+				"6GTW ERROR",
+				"TW ERRORN 3",
+				"win\" PROG EOU COULD `VL",
+				"10699874972785Q197T912B92M999K6TW ERRORh"
+			]
+		},
 		{
 			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
 			"frags": [
@@ -424,11 +552,12 @@
 				"TW ERROR",
 				"ROG ERRO"
 			]
-		}
-	],
-	"retry_args": [
+		},
 		{
-			"do": "LOSE"
+			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+			"frags": [
+				"FILE0X3"
+			]
 		}
 	]
 }

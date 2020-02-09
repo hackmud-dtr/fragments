@@ -23,6 +23,10 @@
 		{
 			"type": "died",
 			"when": 1576356668404
+		},
+		{
+			"type": "manual edit",
+			"when": 1581271831768
 		}
 	],
 	"next_scrape": 1568770566137,
@@ -166,6 +170,27 @@
 			"calls": 4826,
 			"base": "`LCLIC  SECURED`",
 			"fragments": [
+				"y lat",
+				"y lat",
+				"## Ac",
+				"y latC",
+				"rly if",
+				"rly if",
+				"y lat",
+				"## Ac",
+				"rly if",
+				"y lat",
+				" ## Ac",
+				"rin. 'Ti",
+				"ll. Feel",
+				"like, Er",
+				"a call.",
+				"rly if",
+				"## Ac",
+				"I'll st",
+				"'Tis th"
+			],
+			"old_fragments": [
 				"y latK",
 				"Ky lat",
 				"## AcK",
@@ -188,57 +213,46 @@
 			],
 			"hits": [
 				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"y lat",
+						"y lat",
+						"## Ac",
+						"rly if",
+						"rly if",
+						"y lat",
+						"## Ac",
+						"rly if",
+						"y lat",
+						" ## Ac",
+						"rin. 'Ti",
+						"ll. Feel",
+						"like, Er",
+						"a call.",
+						"rly if",
+						"## Ac",
+						"I'll st",
+						"'Tis th"
+					]
+				},
+				{
 					"document": "NOT FOUND",
 					"frags": [
-						"y latK",
-						"Ky lat",
-						"## AcK",
-						"y latCK",
-						"rly ifK",
-						"Krly if",
-						"K y lat",
-						"K ## Ac",
-						"K rly if",
-						"K Sy lat",
-						"K  ## Ac",
-						"Krin. 'Ti",
-						"Kll. Feel",
-						"Klike, Er",
-						"K a call.",
-						"K Srly if",
-						"K S ## Ac",
-						"K I'll st",
-						"K 'Tis th"
+						"y latC"
 					]
 				}
 			]
 		}
 	],
-	"identified": [
+	"updt": 1576365020349,
+	"edit": 57,
+	"retry_args": [
 		{
-			"document": "NOT FOUND",
-			"frags": [
-				"y latK",
-				"Ky lat",
-				"## AcK",
-				"y latCK",
-				"rly ifK",
-				"Krly if",
-				"K y lat",
-				"K ## Ac",
-				"K rly if",
-				"K Sy lat",
-				"K  ## Ac",
-				"Krin. 'Ti",
-				"Kll. Feel",
-				"Klike, Er",
-				"K a call.",
-				"K Srly if",
-				"K S ## Ac",
-				"K I'll st",
-				"K 'Tis th"
-			]
-		},
+			"CLICK": true
+		}
+	],
+	"manual_cleanup": true,
+	"identified": [
 		{
 			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
 			"frags": [
@@ -257,13 +271,12 @@
 				" I'll st",
 				" 'Tis th"
 			]
-		}
-	],
-	"updt": 1570603031194,
-	"edit": 56,
-	"retry_args": [
+		},
 		{
-			"CLICK": true
+			"document": "NOT FOUND",
+			"frags": [
+				"y latC"
+			]
 		}
 	]
 }
