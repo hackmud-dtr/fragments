@@ -1,30 +1,22 @@
 {
 	"_id": "abndnd_1zfj8y.test",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "could not json",
 	"script": "abndnd_1zfj8y.test",
 	"sector": "K_6805",
 	"sec_level": 4,
 	"date_added": 1581207338249,
-	"last_scraped": 1581207348443,
+	"last_scraped": 1581207380668,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1581207338249
 		}
 	],
-	"retry_args": [
-		{
-			"do": "win"
-		},
-		{
-			"do": "LOSE"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1581207408443,
+	"scrape_ct": 19,
+	"next_scrape": 1581296707018,
 	"category": "risk_factor",
-	"last_update": 1581207348443,
+	"last_update": 1581207361091,
 	"output": [
 		{
 			"args": {},
@@ -39,6 +31,30 @@
 				"ER mholl",
 				" | USER "
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 138,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"smirza",
+				"lliste",
+				"ister i",
+				"imiyawa",
+				"hollist",
+				"ER mholl",
+				" | USER "
+			]
 		}
-	]
+	],
+	"updt": 1581207808213,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
