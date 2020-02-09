@@ -37,8 +37,8 @@
 			"when": 1576356668404
 		}
 	],
-	"updt": 1570599647062,
-	"edit": 8,
+	"updt": 1576362091667,
+	"edit": 9,
 	"scrape_ct": 9,
 	"next_scrape": 1565435337778,
 	"category": "fishie_tank",
@@ -132,6 +132,14 @@
 			]
 		}
 	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
 	"identified": [
 		{
 			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
@@ -143,14 +151,6 @@
 				"andari ",
 				"ajbhand"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
