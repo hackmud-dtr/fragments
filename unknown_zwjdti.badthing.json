@@ -27,6 +27,10 @@
 		{
 			"type": "died",
 			"when": 1576356668404
+		},
+		{
+			"type": "manual edit",
+			"when": 1581271812882
 		}
 	],
 	"next_scrape": 1567880326730,
@@ -164,8 +168,14 @@
 			]
 		}
 	],
-	"updt": 1570601904054,
-	"edit": 132,
+	"updt": 1576364344628,
+	"edit": 133,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	],
+	"manual_cleanup": true,
 	"identified": [
 		{
 			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
@@ -185,11 +195,6 @@
 				"## Hi! T",
 				" is the "
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"CLICK": true
 		}
 	]
 }
