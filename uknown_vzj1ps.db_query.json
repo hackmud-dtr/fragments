@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_vzj1ps.db_query",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "uknown_vzj1ps.db_query",
 	"sector": "NGC_5366",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1581095334723
+		},
+		{
+			"type": "died",
+			"when": 1581396023194
 		}
 	],
 	"scrape_ct": 10,
@@ -376,8 +380,8 @@
 			]
 		}
 	],
-	"updt": 1581095526566,
-	"edit": 1,
+	"updt": 1581095751314,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "feed"
