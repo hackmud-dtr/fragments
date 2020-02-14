@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_b7kxwi.is",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unknown_b7kxwi.is",
 	"sector": "SPC_9118",
 	"sec_level": 4,
@@ -15,6 +15,10 @@
 		{
 			"type": "manual edit",
 			"when": 1581272115736
+		},
+		{
+			"type": "died",
+			"when": 1581676569161
 		}
 	],
 	"retry_args": [
@@ -41,6 +45,22 @@
 				"R?\\n1E4D",
 				"E4D Exci",
 				"in R?\\n1E"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"1E4C ",
+						"eur? S",
+						"DE, use",
+						"D Excit",
+						"user Eri",
+						"r Erin R",
+						"R?\\n1E4D",
+						"E4D Exci",
+						"in R?\\n1E"
+					]
+				}
 			]
 		},
 		{
@@ -59,10 +79,42 @@
 				"R?\\n1E4D",
 				"E4D Exci",
 				"in R?\\n1E"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"1E4C ",
+						"eur? S",
+						"DE, use",
+						"D Excit",
+						"user Eri",
+						"r Erin R",
+						"R?\\n1E4D",
+						"E4D Exci",
+						"in R?\\n1E"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1578543722439,
-	"edit": 1,
-	"manual_cleanup": true
+	"updt": 1581276705521,
+	"edit": 2,
+	"manual_cleanup": true,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"1E4C ",
+				"eur? S",
+				"DE, use",
+				"D Excit",
+				"user Eri",
+				"r Erin R",
+				"R?\\n1E4D",
+				"E4D Exci",
+				"in R?\\n1E"
+			]
+		}
+	]
 }
