@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_zu3uao.db",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "player",
 	"script": "derelict_zu3uao.db",
 	"sector": "K_9653",
 	"sec_level": 4,
@@ -55,10 +55,11 @@
 	],
 	"retry_args": [
 		{
+			"do": "win"
+		},
+		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1581768318130,
-	"edit": 1
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
