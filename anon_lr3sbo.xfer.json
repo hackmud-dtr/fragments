@@ -1,0 +1,76 @@
+{
+	"_id": "anon_lr3sbo.xfer",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anon_lr3sbo.xfer",
+	"sector": "NGC_0792",
+	"sec_level": 4,
+	"date_added": 1581830132083,
+	"last_scraped": 1581830182380,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1581830132083
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1581830242380,
+	"category": "fishie_tank",
+	"last_update": 1581830182380,
+	"output": [
+		{
+			"args": {},
+			"calls": 10929,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"code-",
+				"TOTW ",
+				"R | N",
+				"SYST ER",
+				"ER smir",
+				"bal | SU",
+				"ME ERROR",
+				" | USER "
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1129,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"code-",
+				"TOTW ",
+				"R | N",
+				"SYST ER",
+				"ER smir",
+				"bal | SU",
+				"ME ERROR",
+				" | USER "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 6755,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"code-",
+				"TOTW ",
+				"R | N",
+				"SYST ER",
+				"ER smir",
+				"bal | SU",
+				"ME ERROR",
+				" | USER "
+			]
+		}
+	]
+}
