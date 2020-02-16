@@ -1,0 +1,82 @@
+{
+	"_id": "unknown_aeptgr.upgrades",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "unknown_aeptgr.upgrades",
+	"sector": "NGC_0792",
+	"sec_level": 4,
+	"date_added": 1581833301236,
+	"last_scraped": 1581833351830,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1581833301236
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1581833411830,
+	"category": "fishie_tank",
+	"last_update": 1581833351830,
+	"output": [
+		{
+			"args": {},
+			"calls": 7131,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ry cl",
+				"21C3 O",
+				" my de",
+				"nd what",
+				"my desi",
+				"1C3 Oh,",
+				", very ",
+				"d what i",
+				"at is my",
+				" what is"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 726,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ry cl",
+				"21C3 O",
+				" my de",
+				"nd what",
+				"my desi",
+				"1C3 Oh,",
+				", very ",
+				"d what i",
+				"at is my",
+				" what is"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 6842,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ry cl",
+				"21C3 O",
+				" my de",
+				"nd what",
+				"my desi",
+				"1C3 Oh,",
+				", very ",
+				"d what i",
+				"at is my",
+				" what is"
+			]
+		}
+	]
+}
