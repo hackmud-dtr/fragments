@@ -1,28 +1,28 @@
 {
 	"_id": "abandoned_duzmi1.database",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abandoned_duzmi1.database",
 	"sector": "K_6493",
 	"sec_level": 4,
 	"date_added": 1581876024129,
-	"last_scraped": 1581876633814,
+	"last_scraped": 1581876784262,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1581876024129
 		}
 	],
-	"updt": 1581876538924,
-	"edit": 3,
-	"scrape_ct": 10,
-	"next_scrape": 1581876693814,
+	"updt": 1581876763533,
+	"edit": 4,
+	"scrape_ct": 8,
+	"next_scrape": 1581876844262,
 	"category": "fishie_tank",
-	"last_update": 1581876633814,
+	"last_update": 1581876805364,
 	"output": [
 		{
 			"args": {},
-			"calls": 32212,
+			"calls": 41229,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"0011 ",
@@ -50,7 +50,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4798,
+			"calls": 5967,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -119,6 +119,11 @@
 				"000 0100",
 				"000 0000"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
