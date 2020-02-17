@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_r4qvrp.time",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "dead",
 	"script": "abandoned_r4qvrp.time",
 	"sector": "K_9888",
 	"sec_level": 4,
@@ -15,6 +15,10 @@
 		{
 			"type": "manual edit withdo",
 			"when": 1581272729536
+		},
+		{
+			"type": "died",
+			"when": 1581935855892
 		}
 	],
 	"scrape_ct": 19,
@@ -43,6 +47,20 @@
 				"\\nAD032",
 				"XBF_CLS",
 				" take t"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"X2BC7",
+						"XF227_",
+						"LE0X2B",
+						"27_FIL",
+						"\\nAD032",
+						"XBF_CLS",
+						" take t"
+					]
+				}
 			]
 		},
 		{
@@ -68,6 +86,20 @@
 				"\\nAD032",
 				"XBF_CLS",
 				" take t"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"X2BC7",
+						"XF227_",
+						"LE0X2B",
+						"27_FIL",
+						"\\nAD032",
+						"XBF_CLS",
+						" take t"
+					]
+				}
 			]
 		},
 		{
@@ -468,16 +500,94 @@
 				" take t 91K677GC with do:\"win\"\n\nOR\n\nYOU COULD `V",
 				"\\nAD032N 12GC with do:\"win\"\n\nOR\n\nYOU CO¢LD `VLOSE",
 				" take tN 123GC ªith do:Áwin\"\n\nO§\n\nYOU COU©D `VLOS"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"187M2",
+						"X2BC75",
+						"XF227_5",
+						"E0X2B 3",
+						"5GX2BC7",
+						"27_FIL5",
+						"\\nAD0323",
+						"\\nAD03 8",
+						"XF227_ 5",
+						"\\nAD03N 4",
+						"\\nAD032 3",
+						"XF227_N 9",
+						"XBF_CLS 4",
+						"LE0X2BN 8",
+						"E0X2B `VL",
+						"COULD X2B",
+						"3G take t",
+						"27_FILN 3",
+						" take t 4",
+						"R\n\nYOU\\nAD0",
+						"OR\n\nYOU COUL\\nAD0",
+						"\nOR\n\nYOUXBF_CLS`V",
+						"16966697399351Q65T970B697M666K527_FILith"
+					]
+				},
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"7\\nAD032"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1576405162130,
-	"edit": 4,
+	"updt": 1581276695249,
+	"edit": 5,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
 		{
 			"do": "LOSE"
 		}
 	],
-	"manual_cleanup_withdo": true
+	"manual_cleanup_withdo": true,
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"187M2",
+				"X2BC75",
+				"XF227_5",
+				"E0X2B 3",
+				"5GX2BC7",
+				"27_FIL5",
+				"\\nAD0323",
+				"\\nAD03 8",
+				"XF227_ 5",
+				"\\nAD03N 4",
+				"\\nAD032 3",
+				"XF227_N 9",
+				"XBF_CLS 4",
+				"LE0X2BN 8",
+				"E0X2B `VL",
+				"COULD X2B",
+				"3G take t",
+				"27_FILN 3",
+				" take t 4",
+				"R\n\nYOU\\nAD0",
+				"OR\n\nYOU COUL\\nAD0",
+				"\nOR\n\nYOUXBF_CLS`V",
+				"16966697399351Q65T970B697M666K527_FILith"
+			]
+		},
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"X2BC7",
+				"XF227_",
+				"LE0X2B",
+				"27_FIL",
+				"XBF_CLS",
+				" take t",
+				"7\\nAD032"
+			]
+		}
+	]
 }
