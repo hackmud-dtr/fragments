@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_f25asj._",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "uknown_f25asj._",
 	"sector": "K_2236",
 	"sec_level": 4,
@@ -15,10 +15,14 @@
 		{
 			"type": "manual edit withdo",
 			"when": 1581272735295
+		},
+		{
+			"type": "died",
+			"when": 1582051353050
 		}
 	],
-	"updt": 1576369758493,
-	"edit": 3,
+	"updt": 1581276689655,
+	"edit": 4,
 	"scrape_ct": 16,
 	"next_scrape": 1576444043927,
 	"category": "risk_factor",
@@ -49,6 +53,22 @@
 				"LE0X2BC7",
 				"7A_SECT0",
 				"031E46 J"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"MFT0X",
+						"C7D17",
+						"ILE0X2",
+						"AD031E",
+						"X2BC7D1",
+						"0XBF_CL",
+						"LE0X2BC7",
+						"7A_SECT0",
+						"031E46 J"
+					]
+				}
 			]
 		},
 		{
@@ -78,6 +98,22 @@
 				"LE0X2BC7",
 				"7A_SECT0",
 				"031E46 J"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"MFT0X",
+						"C7D17",
+						"ILE0X2",
+						"AD031E",
+						"X2BC7D1",
+						"0XBF_CL",
+						"LE0X2BC7",
+						"7A_SECT0",
+						"031E46 J"
+					]
+				}
 			]
 		},
 		{
@@ -465,6 +501,46 @@
 				"X2BC7D1N 120GC with do:\"win\"\n\nOR\n\nYOU COULD `ªLOS",
 				"0XBF_CLN 125GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOS",
 				"031E46 JN 1K697GC with do:\"win\"\n\nOR\n\nYOU COULD `VL"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"3MFT0X",
+						"XBF_C 4",
+						"C7D17 5",
+						"AD031E3",
+						"MFT0XN 4",
+						"AD031E 4",
+						"3GILE0X2",
+						"30XBF_CL",
+						"X2BC7D1 4",
+						"LE0X2BC79",
+						"ILE0X2N 8",
+						"AD031EN 9",
+						"AD031EN 8",
+						"AD031EN 7",
+						"77A_SECT0",
+						"57A_SECT0",
+						"47A_SECT0",
+						"3GX2BC7D1",
+						"3G0XBF_CL",
+						"0XBF_CL 4",
+						"LE0X2BC7 4",
+						"LE0X2BC7 3",
+						"7A_SECT0 3",
+						"5G7A_SECT0",
+						"4GLE0X2BC7",
+						"0XBF_CLN 3",
+						"LE0X2BC7N 3",
+						"COULD ILE0X2",
+						"ORAD031ECOULD `VL",
+						"OR\n\nYOU COUMFT0XL",
+						"OR\n\nYOU COULD `C7",
+						"\nOR\n\nYOU X2BC7D1V",
+						"tILE0X2win\"\n\nOR\n\nYOU COUL"
+					]
+				}
 			]
 		}
 	],
@@ -473,5 +549,59 @@
 			"do": "LOSE"
 		}
 	],
-	"manual_cleanup_withdo": true
+	"manual_cleanup_withdo": true,
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"3MFT0X",
+				"XBF_C 4",
+				"C7D17 5",
+				"AD031E3",
+				"MFT0XN 4",
+				"AD031E 4",
+				"3GILE0X2",
+				"30XBF_CL",
+				"X2BC7D1 4",
+				"LE0X2BC79",
+				"ILE0X2N 8",
+				"AD031EN 9",
+				"AD031EN 8",
+				"AD031EN 7",
+				"77A_SECT0",
+				"57A_SECT0",
+				"47A_SECT0",
+				"3GX2BC7D1",
+				"3G0XBF_CL",
+				"0XBF_CL 4",
+				"LE0X2BC7 4",
+				"LE0X2BC7 3",
+				"7A_SECT0 3",
+				"5G7A_SECT0",
+				"4GLE0X2BC7",
+				"0XBF_CLN 3",
+				"LE0X2BC7N 3",
+				"COULD ILE0X2",
+				"ORAD031ECOULD `VL",
+				"OR\n\nYOU COUMFT0XL",
+				"OR\n\nYOU COULD `C7",
+				"\nOR\n\nYOU X2BC7D1V",
+				"tILE0X2win\"\n\nOR\n\nYOU COUL"
+			]
+		},
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"MFT0X",
+				"C7D17",
+				"ILE0X2",
+				"AD031E",
+				"X2BC7D1",
+				"0XBF_CL",
+				"LE0X2BC7",
+				"7A_SECT0",
+				"031E46 J"
+			]
+		}
+	]
 }
