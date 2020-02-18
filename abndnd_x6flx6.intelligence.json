@@ -1,0 +1,62 @@
+{
+	"_id": "abndnd_x6flx6.intelligence",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abndnd_x6flx6.intelligence",
+	"sector": "K_1099",
+	"sec_level": 4,
+	"date_added": 1582030098004,
+	"last_scraped": 1582030130201,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1582030098004
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1582030190201,
+	"category": "fishie_tank",
+	"last_update": 1582030148458,
+	"output": [
+		{
+			"args": {},
+			"calls": 14833,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"e rea",
+				"ith yo",
+				"rs? If y",
+				"really h",
+				"got to a",
+				"e of san",
+				"'ve got "
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1010,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"e rea",
+				"ith yo",
+				"rs? If y",
+				"really h",
+				"got to a",
+				"e of san",
+				"'ve got "
+			]
+		}
+	]
+}
