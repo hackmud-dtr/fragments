@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_clwoto.fishie_tank",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "derelict_clwoto.fishie_tank",
 	"sector": "K_1099",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1582115920147
+		},
+		{
+			"type": "died",
+			"when": 1582118038941
 		}
 	],
 	"scrape_ct": 9,
@@ -154,8 +158,8 @@
 			]
 		}
 	],
-	"updt": 1582116135808,
-	"edit": 1,
+	"updt": 1582116361333,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "feed"
