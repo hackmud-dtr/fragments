@@ -1,0 +1,62 @@
+{
+	"_id": "abndnd_l45ofd.yah_db",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abndnd_l45ofd.yah_db",
+	"sector": "K_1099",
+	"sec_level": 4,
+	"date_added": 1582072095368,
+	"last_scraped": 1582072154665,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1582072095368
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1582072214665,
+	"category": "fishie_tank",
+	"last_update": 1582072174756,
+	"output": [
+		{
+			"args": {},
+			"calls": 16692,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"You'v",
+				"A5 Yo",
+				"Mallory",
+				"you, Mal",
+				"very hel",
+				" very he"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1194,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"You'v",
+				"A5 Yo",
+				"Mallory",
+				"you, Mal",
+				"very hel",
+				" very he"
+			]
+		}
+	],
+	"updt": 1582072170577,
+	"edit": 1
+}
