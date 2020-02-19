@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_945ssk.mark",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "derelict_945ssk.mark",
 	"sector": "K_1099",
 	"sec_level": 4,
 	"date_added": 1582091588932,
-	"last_scraped": 1582091617353,
+	"last_scraped": 1582092059220,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1582176320817,
+	"next_scrape": 1582178150956,
 	"category": "risk_factor",
-	"last_update": 1582091607098,
+	"last_update": 1582092059220,
 	"output": [
 		{
 			"args": {},
@@ -41,7 +41,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 119,
+			"calls": 228,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"rn our",
@@ -61,11 +61,10 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1582091786800,
+	"edit": 1
 }
