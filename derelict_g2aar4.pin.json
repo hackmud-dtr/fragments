@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_g2aar4.pin",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_g2aar4.pin",
 	"sector": "VNP_8541",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "VNP_8541",
 				"to": "SPC_2498"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1582358345631
+		}
 	],
 	"pl_output": "Cannot read property 'call' of undefined",
 	"next_scrape": 1580078624555,
-	"updt": 1579995233595,
-	"edit": 4818
+	"updt": 1579996358610,
+	"edit": 4819
 }
