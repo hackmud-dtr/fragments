@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_49854u.xfer",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abandoned_49854u.xfer",
 	"sector": "SPC_3892",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "SPC_3892",
 				"to": "SPC_2498"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1582333294490
+		}
 	],
 	"pl_output": "{\"msg\":\"You are not an approved user of this script\"}",
 	"next_scrape": 1578671432274,
-	"updt": 1578580940517,
-	"edit": 1041
+	"updt": 1578582519973,
+	"edit": 1042
 }
