@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_mdd8zc.superhak",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_mdd8zc.superhak",
 	"sector": "NGC_9660",
 	"sec_level": 4,
@@ -19,6 +19,10 @@
 		{
 			"type": "manual edit withdo",
 			"when": 1581272740598
+		},
+		{
+			"type": "died",
+			"when": 1582332099612
 		}
 	],
 	"scrape_ct": 19,
@@ -47,6 +51,20 @@
 				" ComCOD",
 				"ess with",
 				"der the "
+			],
+			"hits": [
+				{
+					"document": "Erin File",
+					"frags": [
+						"tutes",
+						"ommit ",
+						" inten",
+						"tes as ",
+						" ComCOD",
+						"ess with",
+						"der the "
+					]
+				}
 			]
 		},
 		{
@@ -72,6 +90,20 @@
 				" ComCOD",
 				"ess with",
 				"der the "
+			],
+			"hits": [
+				{
+					"document": "Erin File",
+					"frags": [
+						"tutes",
+						"ommit ",
+						" inten",
+						"tes as ",
+						" ComCOD",
+						"ess with",
+						"der the "
+					]
+				}
 			]
 		},
 		{
@@ -390,16 +422,78 @@
 				"ess withN 47ÃC ¦ith do:\"win\"\n\nOR\n\nYOU COULD ¡VLOSE",
 				"der the N 48GC with do:\"win\"\n\nOR¤\nYOU COULD `VLOSE",
 				"der the N 31GC wi¢h do:\"win\"\n\nOR\n\nYOU COULD `VLOSE"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"8tutes",
+						"7 the ",
+						"ommit 4",
+						"7G the ",
+						"5 inten",
+						" the  3",
+						" the N 6",
+						"ommit N 3",
+						"der the 4",
+						"9G ComCOD",
+						"4ess with",
+						"der the  8",
+						"3Gder the ",
+						" ComCODN 5",
+						"404T1tutes1",
+						"1Mess withC",
+						".6162708070",
+						".tutes61072306856e+30Q31691265005705734"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1576369758493,
-	"edit": 2,
+	"updt": 1581276689655,
+	"edit": 3,
 	"retry_args": [
 		{
 			"do": "LOSE"
 		}
 	],
 	"manual_cleanup": true,
-	"manual_cleanup_withdo": true
+	"manual_cleanup_withdo": true,
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"8tutes",
+				"7 the ",
+				"ommit 4",
+				"7G the ",
+				"5 inten",
+				" the  3",
+				" the N 6",
+				"ommit N 3",
+				"der the 4",
+				"9G ComCOD",
+				"4ess with",
+				"der the  8",
+				"3Gder the ",
+				" ComCODN 5",
+				"404T1tutes1",
+				"1Mess withC",
+				".6162708070",
+				".tutes61072306856e+30Q31691265005705734"
+			]
+		},
+		{
+			"document": "Erin File",
+			"frags": [
+				"tutes",
+				"ommit ",
+				" inten",
+				"tes as ",
+				" ComCOD",
+				"ess with",
+				"der the "
+			]
+		}
+	]
 }
