@@ -1,19 +1,23 @@
 {
 	"_id": "anonymous_qd6egc.irs",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_qd6egc.irs",
 	"sector": "K_7755",
 	"sec_level": 4,
 	"date_added": 1582315584970,
-	"last_scraped": 1582333868576,
+	"last_scraped": 1582335413675,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1582315584970
+		},
+		{
+			"type": "died",
+			"when": 1582335413675
 		}
 	],
-	"next_scrape": 1582376048504,
+	"next_scrape": 1582416257262,
 	"category": "coin_flipper",
 	"last_update": 1582333868576,
 	"output": [
@@ -201,6 +205,7 @@
 			]
 		}
 	],
-	"updt": 1582332829030,
-	"edit": 20
+	"updt": 1582334182577,
+	"edit": 21,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_qd6egc.irs: script doesn't exist\"}"
 }
