@@ -1,9 +1,9 @@
 {
 	"_id": "anonymous_d6586x.if",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "anonymous_d6586x.if",
-	"sector": "K_0597",
+	"sector": "K_9339",
 	"sec_level": 0,
 	"date_added": 1578459016182,
 	"last_scraped": 0,
@@ -11,6 +11,20 @@
 		{
 			"type": "added",
 			"when": 1578459016182
-		}
-	]
+		},
+		{
+			"type": "died",
+			"when": 1582454213850
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1582454466085,
+				"from": "K_9339",
+				"to": "K_0597"
+			}
+		]
+	],
+	"updt": 1578459174441,
+	"edit": 1
 }
