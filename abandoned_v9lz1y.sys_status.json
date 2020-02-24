@@ -1,26 +1,26 @@
 {
 	"_id": "abandoned_v9lz1y.sys_status",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abandoned_v9lz1y.sys_status",
 	"sector": "VNP_4979",
 	"sec_level": 4,
 	"date_added": 1582564956132,
-	"last_scraped": 1582565008634,
+	"last_scraped": 1582565325730,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1582564956132
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1582565068634,
+	"scrape_ct": 13,
+	"next_scrape": 1582565385730,
 	"category": "fishie_tank",
-	"last_update": 1582565008634,
+	"last_update": 1582565362009,
 	"output": [
 		{
 			"args": {},
-			"calls": 7479,
+			"calls": 29101,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"rofes",
@@ -30,13 +30,27 @@
 				". I'm ",
 				" a pro",
 				"on't apo"
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"rofes",
+						"ogise",
+						"ofess",
+						"d thin",
+						". I'm ",
+						" a pro",
+						"on't apo"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 665,
+			"calls": 2204,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -51,13 +65,27 @@
 				". I'm ",
 				" a pro",
 				"on't apo"
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"rofes",
+						"ogise",
+						"ofess",
+						"d thin",
+						". I'm ",
+						" a pro",
+						"on't apo"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 6009,
+			"calls": 17904,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"rofes",
@@ -67,7 +95,42 @@
 				". I'm ",
 				" a pro",
 				"on't apo"
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"rofes",
+						"ogise",
+						"ofess",
+						"d thin",
+						". I'm ",
+						" a pro",
+						"on't apo"
+					]
+				}
 			]
+		}
+	],
+	"updt": 1582565286969,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+			"frags": [
+				"rofes",
+				"ogise",
+				"ofess",
+				"d thin",
+				". I'm ",
+				" a pro",
+				"on't apo"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
