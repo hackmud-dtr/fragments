@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_3yfb54.jpg",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "derelict_3yfb54.jpg",
 	"sector": "K_7367",
 	"sec_level": 4,
@@ -19,6 +19,10 @@
 		{
 			"type": "manual edit withdo",
 			"when": 1581272740598
+		},
+		{
+			"type": "died",
+			"when": 1582567385810
 		}
 	],
 	"scrape_ct": 20,
@@ -41,6 +45,17 @@
 				" face d",
 				"3, face ",
 				"3 decks "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"l 3 dec",
+						" face d",
+						"3, face ",
+						"3 decks "
+					]
+				}
 			]
 		},
 		{
@@ -60,6 +75,17 @@
 				" face d",
 				"3, face ",
 				"3 decks "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"l 3 dec",
+						" face d",
+						"3, face ",
+						"3 decks "
+					]
+				}
 			]
 		},
 		{
@@ -388,16 +414,65 @@
 				"3 decks N 1Q762T90B8§9M197K54GC with ¨o:\"win\"\n\nOR",
 				"3 decks  6K25GC with do:\"win\"\n\nOR\n\nYOU COULD `¢LO",
 				" face dN 1ª7GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOS"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"5decks ",
+						"11K234G",
+						" face d7",
+						"3 decks 4",
+						"l 3 decN 6",
+						"l 3 decN 3",
+						"3G3, face ",
+						"3, face  6",
+						"3, face  4",
+						" face dN 7",
+						"533, face GC",
+						"3decks 2490Q",
+						"\nOR\n\nYOU CO, face OSE"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1576370660687,
-	"edit": 2,
+	"updt": 1581276692318,
+	"edit": 3,
 	"retry_args": [
 		{
 			"do": "LOSE"
 		}
 	],
 	"manual_cleanup": true,
-	"manual_cleanup_withdo": true
+	"manual_cleanup_withdo": true,
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"5decks ",
+				"11K234G",
+				" face d7",
+				"3 decks 4",
+				"l 3 decN 6",
+				"l 3 decN 3",
+				"3G3, face ",
+				"3, face  6",
+				"3, face  4",
+				" face dN 7",
+				"533, face GC",
+				"3decks 2490Q",
+				"\nOR\n\nYOU CO, face OSE"
+			]
+		},
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"l 3 dec",
+				" face d",
+				"3, face ",
+				"3 decks "
+			]
+		}
+	]
 }
