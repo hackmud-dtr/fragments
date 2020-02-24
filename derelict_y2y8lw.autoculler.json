@@ -1,0 +1,61 @@
+{
+	"_id": "derelict_y2y8lw.autoculler",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "derelict_y2y8lw.autoculler",
+	"sector": "VNP_4979",
+	"sec_level": 4,
+	"date_added": 1582566011701,
+	"last_scraped": 1582566066962,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1582566011701
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1582566126962,
+	"category": "risk_factor",
+	"last_update": 1582566066962,
+	"output": [
+		{
+			"args": {},
+			"calls": 1565,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"of a b",
+				"f your",
+				"T has ",
+				"ner and",
+				"nded co",
+				"e redra",
+				"inner an",
+				" winner ",
+				" narrowe"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 209,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"of a b",
+				"f your",
+				"T has ",
+				"ner and",
+				"nded co",
+				"e redra",
+				"inner an",
+				" winner ",
+				" narrowe"
+			]
+		}
+	]
+}
