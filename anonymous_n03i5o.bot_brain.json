@@ -1,31 +1,26 @@
 {
 	"_id": "anonymous_n03i5o.bot_brain",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anonymous_n03i5o.bot_brain",
 	"sector": "VNP_4979",
 	"sec_level": 4,
 	"date_added": 1582547860593,
-	"last_scraped": 1582547896672,
+	"last_scraped": 1582548565560,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1582547860593
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 19,
-	"next_scrape": 1582547956672,
+	"scrape_ct": 6,
+	"next_scrape": 1582548625560,
 	"category": "fishie_tank",
-	"last_update": 1582547915609,
+	"last_update": 1582548565560,
 	"output": [
 		{
 			"args": {},
-			"calls": 9336,
+			"calls": 47491,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"face u",
@@ -35,13 +30,27 @@
 				"\\n2157 ",
 				"to force",
 				"p to for"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"face u",
+						". BREA",
+						"t resol",
+						"as 2.\\n",
+						"\\n2157 ",
+						"to force",
+						"p to for"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 497,
+			"calls": 4084,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -49,6 +58,66 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"face u",
+				". BREA",
+				"t resol",
+				"as 2.\\n",
+				"\\n2157 ",
+				"to force",
+				"p to for"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"face u",
+						". BREA",
+						"t resol",
+						"as 2.\\n",
+						"\\n2157 ",
+						"to force",
+						"p to for"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 36177,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"face u",
+				". BREA",
+				"t resol",
+				"as 2.\\n",
+				"\\n2157 ",
+				"to force",
+				"p to for"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"face u",
+						". BREA",
+						"t resol",
+						"as 2.\\n",
+						"\\n2157 ",
+						"to force",
+						"p to for"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1582548378431,
+	"edit": 3,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"face u",
 				". BREA",
 				"t resol",
