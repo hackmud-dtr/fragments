@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_w0ijpz.restock",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "unknown_w0ijpz.restock",
 	"sector": "K_5332",
 	"sec_level": 4,
 	"date_added": 1582628440168,
-	"last_scraped": 1582628494530,
+	"last_scraped": 1582629704923,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1582708356946,
+	"next_scrape": 1582714165785,
 	"category": "risk_factor",
-	"last_update": 1582628475720,
+	"last_update": 1582629704923,
 	"output": [
 		{
 			"args": {},
@@ -40,7 +40,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 111,
+			"calls": 225,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"ses\\n2",
@@ -59,11 +59,10 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1582628637095,
+	"edit": 1
 }
