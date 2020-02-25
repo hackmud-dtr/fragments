@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_03gxlv.db",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_03gxlv.db",
 	"sector": "NGC_1745",
 	"sec_level": 4,
@@ -15,6 +15,10 @@
 		{
 			"type": "manual edit withdo",
 			"when": 1581272747129
+		},
+		{
+			"type": "died",
+			"when": 1582644254186
 		}
 	],
 	"scrape_ct": 18,
@@ -47,6 +51,22 @@
 				"16E BO",
 				"0X7A_S",
 				"0XBF_CL"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"OUNCE",
+						"F227_",
+						"ECT0X",
+						"E0X2B",
+						"CT0XF",
+						"MFT0XB",
+						"16E BO",
+						"0X7A_S",
+						"0XBF_CL"
+					]
+				}
 			]
 		},
 		{
@@ -76,6 +96,22 @@
 				"16E BO",
 				"0X7A_S",
 				"0XBF_CL"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"OUNCE",
+						"F227_",
+						"ECT0X",
+						"E0X2B",
+						"CT0XF",
+						"MFT0XB",
+						"16E BO",
+						"0X7A_S",
+						"0XBF_CL"
+					]
+				}
 			]
 		},
 		{
@@ -400,12 +436,42 @@
 				"0X7A_S 562B425M143K512GC with do:\"win\"\n¢OR\n\nYOU",
 				"0X7A_S 48GÃ with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE",
 				"0X7A_SN 3K211GC with do:\"win\"\n\nOR\n\nYOU COULD `VL"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"OUNCE4",
+						"416E B",
+						"16E B4",
+						"E0X2B 3",
+						"6GOUNCE",
+						"3MFT0XB",
+						"3G16E B",
+						"16E B 3",
+						"14K333G",
+						"OUNCEN 3",
+						"MFT0XB 8",
+						"ECT0XN 3",
+						"40XBF_CL",
+						"3G0X7A_S",
+						"31CT0XFt",
+						"30XBF_CL",
+						"3G0XBF_CL",
+						"0XBF_CL 4",
+						"0X7A_SN 4",
+						"R\n\nYO0XBF_CL `VL",
+						"1.12639F227_05108",
+						"\nYOU COULDMFT0XBE",
+						"n\"\n\nOR\n\nYOU CO0X7A_SLOSE"
+					]
+				}
 			]
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1576521039389,
-	"edit": 3,
+	"updt": 1581276695249,
+	"edit": 4,
 	"retry_args": [
 		{
 			"do": "win"
@@ -414,5 +480,49 @@
 			"do": "LOSE"
 		}
 	],
-	"manual_cleanup_withdo": true
+	"manual_cleanup_withdo": true,
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"OUNCE4",
+				"416E B",
+				"16E B4",
+				"E0X2B 3",
+				"6GOUNCE",
+				"3MFT0XB",
+				"3G16E B",
+				"16E B 3",
+				"14K333G",
+				"OUNCEN 3",
+				"MFT0XB 8",
+				"ECT0XN 3",
+				"40XBF_CL",
+				"3G0X7A_S",
+				"31CT0XFt",
+				"30XBF_CL",
+				"3G0XBF_CL",
+				"0XBF_CL 4",
+				"0X7A_SN 4",
+				"R\n\nYO0XBF_CL `VL",
+				"1.12639F227_05108",
+				"\nYOU COULDMFT0XBE",
+				"n\"\n\nOR\n\nYOU CO0X7A_SLOSE"
+			]
+		},
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"OUNCE",
+				"F227_",
+				"ECT0X",
+				"E0X2B",
+				"CT0XF",
+				"MFT0XB",
+				"16E BO",
+				"0X7A_S",
+				"0XBF_CL"
+			]
+		}
+	]
 }
