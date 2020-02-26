@@ -1,28 +1,28 @@
 {
 	"_id": "unidentified_k0o93p.t3_archive",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unidentified_k0o93p.t3_archive",
 	"sector": "HJG_1237",
 	"sec_level": 4,
 	"date_added": 1582728888216,
-	"last_scraped": 1582729104231,
+	"last_scraped": 1582729519370,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1582728888216
 		}
 	],
-	"updt": 1582728971883,
-	"edit": 1,
-	"scrape_ct": 17,
-	"next_scrape": 1582729164231,
+	"updt": 1582729197723,
+	"edit": 2,
+	"scrape_ct": 12,
+	"next_scrape": 1582729579370,
 	"category": "fishie_tank",
-	"last_update": 1582729104231,
+	"last_update": 1582729519370,
 	"output": [
 		{
 			"args": {},
-			"calls": 9547,
+			"calls": 23226,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"MFT0X",
@@ -179,7 +179,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 845,
+			"calls": 2314,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -341,7 +341,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 10178,
+			"calls": 27361,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"MFT0X",
