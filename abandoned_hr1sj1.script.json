@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_hr1sj1.script",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abandoned_hr1sj1.script",
 	"sector": "K_0597",
 	"sec_level": 0,
@@ -19,10 +19,14 @@
 				"from": "K_0597",
 				"to": "K_6492"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1582722205731
+		}
 	],
-	"updt": 1578711046220,
-	"edit": 3335,
+	"updt": 1578711948411,
+	"edit": 3336,
 	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR dark.place: script doesn't exist\"}",
 	"next_scrape": 1578796262669
 }

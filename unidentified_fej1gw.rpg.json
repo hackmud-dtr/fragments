@@ -1,26 +1,29 @@
 {
 	"_id": "unidentified_fej1gw.rpg",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "unidentified_fej1gw.rpg",
 	"sector": "HJG_1237",
 	"sec_level": 4,
 	"date_added": 1582724380288,
-	"last_scraped": 1582725273408,
+	"last_scraped": 1582726520220,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1582724380288
+		},
+		{
+			"type": "died",
+			"when": 1582726520220
 		}
 	],
-	"scrape_ct": 1,
-	"next_scrape": 1582725333408,
+	"next_scrape": 1582805984566,
 	"category": "dice_roller",
-	"last_update": 1582725273408,
+	"last_update": 1582725507643,
 	"output": [
 		{
 			"args": {},
-			"calls": 107488,
+			"calls": 129906,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
 				"oes t",
@@ -97,6 +100,7 @@
 			]
 		}
 	],
-	"updt": 1582725139534,
-	"edit": 4
+	"updt": 1582725816165,
+	"edit": 6,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_fej1gw.rpg: script doesn't exist\"}"
 }
