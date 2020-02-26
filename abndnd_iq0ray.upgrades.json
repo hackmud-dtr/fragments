@@ -1,21 +1,21 @@
 {
 	"_id": "abndnd_iq0ray.upgrades",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_iq0ray.upgrades",
 	"sector": "HJG_1237",
 	"sec_level": 4,
 	"date_added": 1582740495637,
-	"last_scraped": 1582743604164,
+	"last_scraped": 1582743676923,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1582740495637
 		}
 	],
-	"next_scrape": 1582789354058,
+	"next_scrape": 1582789269137,
 	"category": "fishie_tank",
-	"last_update": 1582743604164,
+	"last_update": 1582743676923,
 	"output": [
 		{
 			"args": {},
@@ -51,7 +51,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5685,
+			"calls": 6706,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -88,7 +88,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 72381,
+			"calls": 82288,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"to pl",
@@ -133,10 +133,5 @@
 		}
 	],
 	"updt": 1582742726807,
-	"edit": 6,
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	]
+	"edit": 6
 }
