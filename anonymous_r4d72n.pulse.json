@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_r4d72n.pulse",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anonymous_r4d72n.pulse",
 	"sector": "SPC_5275",
 	"sec_level": 2,
@@ -19,10 +19,14 @@
 				"from": "SPC_5275",
 				"to": "K_8332"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1582725058204
+		}
 	],
-	"updt": 1576413503563,
-	"edit": 7,
+	"updt": 1576429514357,
+	"edit": 8,
 	"next_scrape": 1576514626430,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1576429346671,
