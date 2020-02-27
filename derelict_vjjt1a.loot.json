@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_vjjt1a.loot",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "derelict_vjjt1a.loot",
 	"sector": "HJG_4837",
 	"sec_level": 4,
@@ -15,6 +15,10 @@
 		{
 			"type": "manual edit",
 			"when": 1581272046158
+		},
+		{
+			"type": "died",
+			"when": 1582804235857
 		}
 	],
 	"scrape_ct": 16,
@@ -33,6 +37,19 @@
 				"ts cool ",
 				"## quest",
 				" cool <t"
+			],
+			"hits": [
+				{
+					"document": "Prisoners",
+					"frags": [
+						"_up_i",
+						"work o",
+						"on, tho",
+						"ts cool ",
+						"## quest",
+						" cool <t"
+					]
+				}
 			]
 		},
 		{
@@ -48,6 +65,19 @@
 				"ts cool ",
 				"## quest",
 				" cool <t"
+			],
+			"hits": [
+				{
+					"document": "Prisoners",
+					"frags": [
+						"_up_i",
+						"work o",
+						"on, tho",
+						"ts cool ",
+						"## quest",
+						" cool <t"
+					]
+				}
 			]
 		},
 		{
@@ -97,10 +127,63 @@
 				"on, tho S",
 				"## questS",
 				"# quesK S"
+			],
+			"hits": [
+				{
+					"document": "Prisoners",
+					"frags": [
+						"_up_i",
+						"_up_i",
+						"work o",
+						"work o",
+						"# ques",
+						"# ques",
+						"on, tho",
+						"cool <t",
+						"_up_i",
+						" cool <t",
+						"work o",
+						"ts cool ",
+						"on, tho ",
+						"## quest",
+						"# ques"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"_up_i ",
+						"E_up_i",
+						"work o ",
+						"# ques "
+					]
+				}
 			]
 		}
 	],
-	"updt": 1576376744901,
-	"edit": 2,
-	"manual_cleanup": true
+	"updt": 1581276693783,
+	"edit": 3,
+	"manual_cleanup": true,
+	"identified": [
+		{
+			"document": "Prisoners",
+			"frags": [
+				"_up_i",
+				"work o",
+				"ts cool ",
+				"on, tho ",
+				"## quest",
+				" cool <t"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"_up_i ",
+				"E_up_i",
+				"work o ",
+				"# ques "
+			]
+		}
+	]
 }
