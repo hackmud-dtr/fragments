@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_9u4sia.con_rect",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "derelict_9u4sia.con_rect",
-	"sector": "K_0399",
+	"sector": "HJG_1237",
 	"sec_level": 4,
 	"date_added": 1578990958471,
-	"last_scraped": 1581120620973,
+	"last_scraped": 1582807695282,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1582807154194
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1582807677466,
+				"from": "HJG_1237",
+				"to": "K_0399"
+			}
+		]
 	],
 	"pl_output": "Cannot read property 'match' of undefined",
-	"next_scrape": 1581202293104,
-	"updt": 1581120773779,
-	"edit": 2769
+	"next_scrape": 1582894556609,
+	"updt": 1582807593099,
+	"edit": 2770
 }
