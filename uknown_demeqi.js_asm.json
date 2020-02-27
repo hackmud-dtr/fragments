@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_demeqi.js_asm",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "uknown_demeqi.js_asm",
 	"sector": "HJG_1237",
 	"sec_level": 4,
 	"date_added": 1582804252479,
-	"last_scraped": 1582804307626,
+	"last_scraped": 1582805273349,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1582897906051,
+	"next_scrape": 1582888746670,
 	"category": "risk_factor",
-	"last_update": 1582804288215,
+	"last_update": 1582805273349,
 	"output": [
 		{
 			"args": {},
@@ -41,7 +41,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 113,
+			"calls": 213,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"ate i",
@@ -61,11 +61,10 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1582804508137,
+	"edit": 1
 }
