@@ -1,0 +1,76 @@
+{
+	"_id": "derelict_40l0sh.bot_scam_do_not_run",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "derelict_40l0sh.bot_scam_do_not_run",
+	"sector": "K_1919",
+	"sec_level": 4,
+	"date_added": 1582912699392,
+	"last_scraped": 1582912807280,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1582912699392
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1582912867280,
+	"category": "fishie_tank",
+	"last_update": 1582912807280,
+	"output": [
+		{
+			"args": {},
+			"calls": 6531,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"y ## ",
+				"t-in-t",
+				" ## It'",
+				"what are",
+				"t's elep",
+				"lephant-",
+				"elephant",
+				"## It's "
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 755,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"y ## ",
+				"t-in-t",
+				" ## It'",
+				"what are",
+				"t's elep",
+				"lephant-",
+				"elephant",
+				"## It's "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 17070,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"y ## ",
+				"t-in-t",
+				" ## It'",
+				"what are",
+				"t's elep",
+				"lephant-",
+				"elephant",
+				"## It's "
+			]
+		}
+	]
+}
