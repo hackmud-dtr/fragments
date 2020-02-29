@@ -1,0 +1,55 @@
+{
+	"_id": "anonymous_8rtpt4.acct_nt_lib",
+	"type": "fragment",
+	"mode": "timeout",
+	"script": "anonymous_8rtpt4.acct_nt_lib",
+	"sector": "K_1919",
+	"sec_level": 4,
+	"date_added": 1582980050464,
+	"last_scraped": 1582980140108,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1582980050464
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1583068257468,
+	"category": "risk_factor",
+	"last_update": 1582980140108,
+	"output": [
+		{
+			"args": {},
+			"calls": 1162,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"11 00",
+				"1111 0",
+				" 1111 ",
+				"11 0111",
+				"1 0111 1",
+				"0000 000"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 128,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"11 00",
+				"1111 0",
+				" 1111 ",
+				"11 0111",
+				"1 0111 1",
+				"0000 000"
+			]
+		}
+	]
+}
