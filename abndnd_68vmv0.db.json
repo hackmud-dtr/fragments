@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_68vmv0.db",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "dead",
 	"script": "abndnd_68vmv0.db",
 	"sector": "K_9320",
 	"sec_level": 4,
@@ -15,6 +15,10 @@
 		{
 			"type": "manual edit withdo",
 			"when": 1581272729536
+		},
+		{
+			"type": "died",
+			"when": 1582951428849
 		}
 	],
 	"scrape_ct": 20,
@@ -45,6 +49,21 @@
 				"R | TIME",
 				"OR | USE",
 				"OR | NET"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"ST ER",
+						"ROR | ",
+						"E4_FIL",
+						"CLST0X",
+						"OR | TI",
+						"R | TIME",
+						"OR | USE",
+						"OR | NET"
+					]
+				}
 			]
 		},
 		{
@@ -72,6 +91,21 @@
 				"R | TIME",
 				"OR | USE",
 				"OR | NET"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"ST ER",
+						"ROR | ",
+						"E4_FIL",
+						"CLST0X",
+						"OR | TI",
+						"R | TIME",
+						"OR | USE",
+						"OR | NET"
+					]
+				}
 			]
 		},
 		{
@@ -403,15 +437,80 @@
 				"R | TIME 26GC with do:\"wÁn\"\n\nOR\n\nYOU ÃOULD `VLOSE",
 				"R | TIME 1K671GC wi¡h do:\"win\"\n\nOR\n\nYOU COULD `VL",
 				"R | TIME 137GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOS"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"640M6",
+						"ST ER 6",
+						"64Q231T",
+						"ROR |  4",
+						"CLST0X 5",
+						"CLST0X 4",
+						"CLST0X 3",
+						"7GROR | ",
+						"3OR | TI",
+						"R | NET 4",
+						"OR | USE3",
+						"E4_FILN 7",
+						"E4_FILN 3",
+						"R | TIME 4",
+						"R | TIME 3",
+						"C witCLST0",
+						"7GR | TIME",
+						"6GR | TIME",
+						"3GOR | USE"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1576368181838,
-	"edit": 3,
+	"updt": 1581276683951,
+	"edit": 4,
 	"retry_args": [
 		{
 			"do": "win"
 		}
 	],
-	"manual_cleanup_withdo": true
+	"manual_cleanup_withdo": true,
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"640M6",
+				"ST ER 6",
+				"64Q231T",
+				"ROR |  4",
+				"CLST0X 5",
+				"CLST0X 4",
+				"CLST0X 3",
+				"7GROR | ",
+				"3OR | TI",
+				"R | NET 4",
+				"OR | USE3",
+				"E4_FILN 7",
+				"E4_FILN 3",
+				"R | TIME 4",
+				"R | TIME 3",
+				"C witCLST0",
+				"7GR | TIME",
+				"6GR | TIME",
+				"3GOR | USE"
+			]
+		},
+		{
+			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+			"frags": [
+				"ST ER",
+				"ROR | ",
+				"E4_FIL",
+				"CLST0X",
+				"OR | TI",
+				"R | TIME",
+				"OR | USE",
+				"OR | NET"
+			]
+		}
+	]
 }
