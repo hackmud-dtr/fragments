@@ -1,26 +1,26 @@
 {
 	"_id": "derelict_nfv9na.boop",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "derelict_nfv9na.boop",
 	"sector": "K_1919",
 	"sec_level": 4,
 	"date_added": 1582972669397,
-	"last_scraped": 1582972886482,
+	"last_scraped": 1582973029708,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1582972669397
 		}
 	],
-	"scrape_ct": 17,
-	"next_scrape": 1582972946482,
+	"scrape_ct": 13,
+	"next_scrape": 1582973089708,
 	"category": "fishie_tank",
-	"last_update": 1582972886482,
+	"last_update": 1582973047616,
 	"output": [
 		{
 			"args": {},
-			"calls": 9752,
+			"calls": 30728,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" for ",
@@ -48,7 +48,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1455,
+			"calls": 1935,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -106,8 +106,8 @@
 			]
 		}
 	],
-	"updt": 1582972735056,
-	"edit": 1,
+	"updt": 1582972961257,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
@@ -119,6 +119,11 @@
 				"onism f",
 				" necess"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
