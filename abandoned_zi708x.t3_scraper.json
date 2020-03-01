@@ -1,0 +1,66 @@
+{
+	"_id": "abandoned_zi708x.t3_scraper",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abandoned_zi708x.t3_scraper",
+	"sector": "NGC_4887",
+	"sec_level": 4,
+	"date_added": 1583071473191,
+	"last_scraped": 1583071545929,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1583071473191
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1583071605929,
+	"category": "fishie_tank",
+	"last_update": 1583071563540,
+	"output": [
+		{
+			"args": {},
+			"calls": 13846,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"etter",
+				" bett",
+				"\\n2205",
+				" Mallo",
+				"if I do",
+				" see. G",
+				"ter if I",
+				"e. Goodb",
+				" don't, "
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 803,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"etter",
+				" bett",
+				"\\n2205",
+				" Mallo",
+				"if I do",
+				" see. G",
+				"ter if I",
+				"e. Goodb",
+				" don't, "
+			]
+		}
+	]
+}
