@@ -1,0 +1,68 @@
+{
+	"_id": "abandoned_0box4k.scripts_lib",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abandoned_0box4k.scripts_lib",
+	"sector": "SPC_8357",
+	"sec_level": 4,
+	"date_added": 1583097792500,
+	"last_scraped": 1583097811350,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1583097792500
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1583097871350,
+	"category": "fishie_tank",
+	"last_update": 1583097882765,
+	"output": [
+		{
+			"args": {},
+			"calls": 7754,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"er fo",
+				"nment:",
+				"en a '",
+				" the s",
+				" of a ",
+				", the r",
+				"or us, b",
+				"ded cons",
+				"INMAT ha"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1771,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"er fo",
+				"nment:",
+				"en a '",
+				" the s",
+				" of a ",
+				", the r",
+				"or us, b",
+				"ded cons",
+				"INMAT ha"
+			]
+		}
+	],
+	"updt": 1583097854299,
+	"edit": 1
+}
