@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_lsggf4.money",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "uknown_lsggf4.money",
 	"sector": "SPC_7017",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1579712226769
+		},
+		{
+			"type": "died",
+			"when": 1583124065791
 		}
 	],
-	"updt": 1579712236525,
-	"edit": 1,
+	"updt": 1579712462019,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -38,6 +42,21 @@
 				"teach so",
 				"someone.",
 				"one.\\n21"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"Will ",
+						" Will",
+						"ou say",
+						" you s",
+						"taught ",
+						"teach so",
+						"someone.",
+						"one.\\n21"
+					]
+				}
 			]
 		},
 		{
@@ -47,6 +66,36 @@
 			"calls": 105,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
+				"Will ",
+				" Will",
+				"ou say",
+				" you s",
+				"taught ",
+				"teach so",
+				"someone.",
+				"one.\\n21"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"Will ",
+						" Will",
+						"ou say",
+						" you s",
+						"taught ",
+						"teach so",
+						"someone.",
+						"one.\\n21"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"Will ",
 				" Will",
 				"ou say",
