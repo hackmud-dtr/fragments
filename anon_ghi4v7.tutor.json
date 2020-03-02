@@ -1,7 +1,7 @@
 {
 	"_id": "anon_ghi4v7.tutor",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anon_ghi4v7.tutor",
 	"sector": "K_2236",
 	"sec_level": 4,
@@ -19,6 +19,10 @@
 		{
 			"type": "manual edit withdo",
 			"when": 1581272735295
+		},
+		{
+			"type": "died",
+			"when": 1583128718411
 		}
 	],
 	"scrape_ct": 15,
@@ -49,6 +53,21 @@
 				"pers thr",
 				"his\\n1E26",
 				" do too\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ce. I",
+						"E26 i",
+						"throug",
+						"rs thro",
+						"7 Whisp",
+						"pers thr",
+						"his\\n1E26",
+						" do too\\n"
+					]
+				}
 			]
 		},
 		{
@@ -80,6 +99,28 @@
 				"pers thr",
 				"his\\n1E26",
 				" do too\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"9",
+						"4",
+						"E26 i",
+						"throug",
+						"rs thro",
+						"7 Whisp",
+						"pers thr",
+						"his\\n1E26",
+						" do too\\n"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"5Gce. I"
+					]
+				}
 			]
 		},
 		{
@@ -761,11 +802,53 @@
 				" do too\\n 22K475GC with do:\"win\"\n\nOR\n\nYOU COULD `V",
 				"his\\n1E26N 14GC with do:¨win\"\n\nOR\n\nYOU¤COUL§ `VLOSE",
 				"his\\n1E26N 11GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"7552",
+						"904Q6",
+						"5E26 ",
+						"63B424",
+						"4pers ",
+						"4G do ",
+						"137013",
+						"85K541G",
+						"4GE26 i",
+						"3Gce. I",
+						"throug 9",
+						"pers t 9",
+						"pers t 7",
+						"E26 iN 7",
+						"7 Whisp8",
+						" do tN 4",
+						"througN 9",
+						"pers tN 5",
+						"pers tN 3",
+						"5G7 Whisp",
+						"pers thr 5",
+						"pers thr 3",
+						"his\\n1E269",
+						" do too\\n4",
+						"pers thrN 4",
+						"3Ghis\\n1E26",
+						"his\\n1E26N 4",
+						"his\\n1E26N 3",
+						"\nYOUhis\\n1E26LOSE",
+						"1.3315857087167333",
+						"wipers t\n\nYOU COULD `VL",
+						".6694854439683232e+113QG",
+						"througwin\"\n\nOR\n\nYOU COULD `VL",
+						"5.213382363431785e+145Q6.243497100631984",
+						"7 Whisp 3.349043677887008e+203Q3.9191066485258"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1576389595476,
-	"edit": 3,
+	"updt": 1581276695249,
+	"edit": 4,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -773,5 +856,63 @@
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"manual_cleanup": true,
-	"manual_cleanup_withdo": true
+	"manual_cleanup_withdo": true,
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"7552",
+				"904Q6",
+				"5E26 ",
+				"63B424",
+				"4pers ",
+				"4G do ",
+				"137013",
+				"85K541G",
+				"5Gce. I",
+				"4GE26 i",
+				"3Gce. I",
+				"throug 9",
+				"pers t 9",
+				"pers t 7",
+				"E26 iN 7",
+				"7 Whisp8",
+				" do tN 4",
+				"througN 9",
+				"pers tN 5",
+				"pers tN 3",
+				"5G7 Whisp",
+				"pers thr 5",
+				"pers thr 3",
+				"his\\n1E269",
+				" do too\\n4",
+				"pers thrN 4",
+				"3Ghis\\n1E26",
+				"his\\n1E26N 4",
+				"his\\n1E26N 3",
+				"\nYOUhis\\n1E26LOSE",
+				"1.3315857087167333",
+				"wipers t\n\nYOU COULD `VL",
+				".6694854439683232e+113QG",
+				"througwin\"\n\nOR\n\nYOU COULD `VL",
+				"5.213382363431785e+145Q6.243497100631984",
+				"7 Whisp 3.349043677887008e+203Q3.9191066485258"
+			]
+		},
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"9",
+				"4",
+				"ce. I",
+				"E26 i",
+				"throug",
+				"rs thro",
+				"7 Whisp",
+				"pers thr",
+				"his\\n1E26",
+				" do too\\n"
+			]
+		}
+	]
 }
