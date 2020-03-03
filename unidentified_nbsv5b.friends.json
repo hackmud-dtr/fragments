@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_nbsv5b.friends",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "unidentified_nbsv5b.friends",
 	"sector": "K_5175",
 	"sec_level": 4,
 	"date_added": 1583214819987,
-	"last_scraped": 1583214874295,
+	"last_scraped": 1583216031540,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1583298748782,
+	"next_scrape": 1583307170183,
 	"category": "risk_factor",
-	"last_update": 1583214856088,
+	"last_update": 1583216031540,
 	"output": [
 		{
 			"args": {},
@@ -37,7 +37,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 130,
+			"calls": 276,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"the a",
@@ -53,11 +53,10 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1583215067925,
+	"edit": 1
 }
