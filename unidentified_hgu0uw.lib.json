@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_hgu0uw.lib",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "dead",
 	"script": "unidentified_hgu0uw.lib",
 	"sector": "K_9888",
 	"sec_level": 4,
@@ -15,6 +15,10 @@
 		{
 			"type": "manual edit withdo",
 			"when": 1581272735295
+		},
+		{
+			"type": "died",
+			"when": 1583226971821
 		}
 	],
 	"scrape_ct": 20,
@@ -47,6 +51,22 @@
 				"7\\nAD032",
 				"27_FILE0",
 				"7D177\\nAD"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"T0X7A",
+						"CLST0",
+						"CT0XF22",
+						"ILE0X2BC",
+						"FT0XBF_C",
+						"FILE0X2B",
+						"7\\nAD032",
+						"27_FILE0",
+						"7D177\\nAD"
+					]
+				}
 			]
 		},
 		{
@@ -76,6 +96,22 @@
 				"7\\nAD032",
 				"27_FILE0",
 				"7D177\\nAD"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"T0X7A",
+						"CLST0",
+						"CT0XF22",
+						"ILE0X2BC",
+						"FT0XBF_C",
+						"FILE0X2B",
+						"7\\nAD032",
+						"27_FILE0",
+						"7D177\\nAD"
+					]
+				}
 			]
 		},
 		{
@@ -322,15 +358,75 @@
 				"7D177\\nAD44GC with do:\"win\"\n\nOR\n\nYOU COULD ¡VL§SE",
 				"FT0XBF_CN 1B494M589K342GC with do:\"win\"\n\nOR\n\nYOU C",
 				"27_FILE0N 15GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"5CLST0",
+						"T0X7A 3",
+						"D177\\nA4",
+						"CT0XF224",
+						"CT0XF223",
+						"ILE0X2BC3",
+						"D177\\nA 9",
+						"9ILE0X2BC",
+						"9FT0XBF_C",
+						"7\\nAD0323",
+						"37\\nAD032",
+						"8GILE0X2BC",
+						"67D177\\nAD",
+						"3G7\\nAD032",
+						".7CT0XF220087328",
+						"875150564321Q680T47B9"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1576368405858,
-	"edit": 2,
+	"updt": 1581276685465,
+	"edit": 3,
 	"retry_args": [
 		{
 			"do": "win"
 		}
 	],
-	"manual_cleanup_withdo": true
+	"manual_cleanup_withdo": true,
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"5CLST0",
+				"T0X7A 3",
+				"D177\\nA4",
+				"CT0XF224",
+				"CT0XF223",
+				"ILE0X2BC3",
+				"D177\\nA 9",
+				"9ILE0X2BC",
+				"9FT0XBF_C",
+				"7\\nAD0323",
+				"37\\nAD032",
+				"8GILE0X2BC",
+				"67D177\\nAD",
+				"3G7\\nAD032",
+				".7CT0XF220087328",
+				"875150564321Q680T47B9"
+			]
+		},
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"T0X7A",
+				"CLST0",
+				"CT0XF22",
+				"ILE0X2BC",
+				"FT0XBF_C",
+				"FILE0X2B",
+				"7\\nAD032",
+				"27_FILE0",
+				"7D177\\nAD"
+			]
+		}
+	]
 }
