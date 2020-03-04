@@ -1,20 +1,75 @@
 {
 	"_id": "unknown_nmovpb.decorrupter",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "unknown_nmovpb.decorrupter",
-	"sector": "K_0399",
+	"sector": "K_5175",
 	"sec_level": 4,
 	"date_added": 1578990958471,
-	"last_scraped": 1581124786109,
+	"last_scraped": 1583313258363,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1578990958471
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1583312933165,
+				"from": "K_5175",
+				"to": "K_0399"
+			}
+		]
 	],
 	"pl_output": "swankington.decorrupter{target:#s.cyberdine.public,args:\"arg1:value1,arg2:value2,arg3:value3,etc:etcetera\"}\n\nArguments are optional. All values will be converted to strings\n\nmacro:swankington.decorrupter {{ target:#s.{0}, args:{1} }}",
-	"next_scrape": 1581210480958,
-	"updt": 1581124380585,
-	"edit": 2775
+	"next_scrape": 1583313318363,
+	"updt": 1583313127825,
+	"edit": 2777,
+	"scrape_ct": 18,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1583313258363,
+	"output": [
+		{
+			"args": {},
+			"calls": 20441,
+			"base": "swankington.decorrupter{target:#s.cyberdine.public,args:\"arg1:value1,arg2:value2,arg3:value3,etc:etcetera\"}\n\nArguments are optional. All values will be converted to strings\n\nmacro:swankington.decorrupter {{ target:#s.{0}, args:{1} }}",
+			"fragments": [
+				"0\\n0000",
+				"0100 00",
+				"0000 01",
+				"0000 00",
+				" 0000 0",
+				"100 0000",
+				"01 0100 "
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"0\\n0000",
+						"0100 00",
+						"0000 01",
+						"0000 00",
+						" 0000 0",
+						"100 0000",
+						"01 0100 "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"0\\n0000",
+				"0100 00",
+				"0000 01",
+				"0000 00",
+				" 0000 0",
+				"100 0000",
+				"01 0100 "
+			]
+		}
+	]
 }

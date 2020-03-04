@@ -1,9 +1,9 @@
 {
 	"_id": "unknown_nmovpb.autoculler",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "unknown_nmovpb.autoculler",
-	"sector": "K_0597",
+	"sector": "HJG_7415",
 	"sec_level": 0,
 	"date_added": 1578990896663,
 	"last_scraped": 0,
@@ -11,6 +11,16 @@
 		{
 			"type": "added",
 			"when": 1578990896663
-		}
-	]
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1583312933165,
+				"from": "HJG_7415",
+				"to": "K_0597"
+			}
+		]
+	],
+	"updt": 1578991022150,
+	"edit": 1
 }
