@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_lzs1pz.listtest",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_lzs1pz.listtest",
 	"sector": "K_5165",
 	"sec_level": 4,
@@ -19,6 +19,10 @@
 		{
 			"type": "manual edit withdo",
 			"when": 1581272735295
+		},
+		{
+			"type": "died",
+			"when": 1583369655584
 		}
 	],
 	"scrape_ct": 20,
@@ -43,6 +47,18 @@
 				"T0X1D2F_",
 				"R | USER",
 				"ILE0X3A8"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						" ERROR ",
+						"| NETW E",
+						"T0X1D2F_",
+						"R | USER",
+						"ILE0X3A8"
+					]
+				}
 			]
 		},
 		{
@@ -64,6 +80,18 @@
 				"T0X1D2F_",
 				"R | USER",
 				"ILE0X3A8"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						" ERROR ",
+						"| NETW E",
+						"T0X1D2F_",
+						"R | USER",
+						"ILE0X3A8"
+					]
+				}
 			]
 		},
 		{
@@ -436,16 +464,78 @@
 				"| NETW EN 406GC with d¡:\"win\"\n\nOR\n\nYOU COULD `VLOS",
 				"R | USERN 14GC¢with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE",
 				"ILE0X3A8N 70GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"L| N",
+						"8 ERROR ",
+						"7G| USER",
+						"6G NETW ",
+						"5G ERROR",
+						"3 ERROR ",
+						" ERROR 6",
+						" ERROR 3",
+						"9R | USER",
+						"4ILE0X3A8",
+						"3| NETW E",
+						"6G| NETW E",
+						"3GR | USER",
+						"6B143M445K784G",
+						"\nYOU COUL| USERSE",
+						".6169683859936804e+1",
+						"| NETW Ewin\"\n\nOR\n\nYOU COULD ",
+						"76382571Q376T565B720M416K25ILE0X3A8 do:\"",
+						"1.431238973183T0X1D2F_Q1.645504557321206"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1576369306152,
-	"edit": 2,
+	"updt": 1581276686688,
+	"edit": 3,
 	"retry_args": [
 		{
 			"do": "LOSE"
 		}
 	],
 	"manual_cleanup": true,
-	"manual_cleanup_withdo": true
+	"manual_cleanup_withdo": true,
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"L| N",
+				"8 ERROR ",
+				"7G| USER",
+				"6G NETW ",
+				"5G ERROR",
+				"3 ERROR ",
+				" ERROR 6",
+				" ERROR 3",
+				"9R | USER",
+				"4ILE0X3A8",
+				"3| NETW E",
+				"6G| NETW E",
+				"3GR | USER",
+				"6B143M445K784G",
+				"\nYOU COUL| USERSE",
+				".6169683859936804e+1",
+				"| NETW Ewin\"\n\nOR\n\nYOU COULD ",
+				"76382571Q376T565B720M416K25ILE0X3A8 do:\"",
+				"1.431238973183T0X1D2F_Q1.645504557321206"
+			]
+		},
+		{
+			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+			"frags": [
+				" ERROR ",
+				"| NETW E",
+				"T0X1D2F_",
+				"R | USER",
+				"ILE0X3A8"
+			]
+		}
+	]
 }
