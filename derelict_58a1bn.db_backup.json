@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_58a1bn.db_backup",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "derelict_58a1bn.db_backup",
 	"sector": "HJG_2907",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1580425398254
+		},
+		{
+			"type": "died",
+			"when": 1583379263730
 		}
 	],
 	"retry_args": [
@@ -37,9 +41,41 @@
 				"nes.\\n2",
 				"42 6 de",
 				" a line"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"you a",
+						"decks",
+						"3 6 l",
+						" arra",
+						"e.\\n20",
+						"2043 6",
+						"nes.\\n2",
+						"42 6 de",
+						" a line"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1580425464917,
-	"edit": 1
+	"updt": 1580425690635,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"you a",
+				"decks",
+				"3 6 l",
+				" arra",
+				"e.\\n20",
+				"2043 6",
+				"nes.\\n2",
+				"42 6 de",
+				" a line"
+			]
+		}
+	]
 }
