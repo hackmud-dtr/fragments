@@ -1,0 +1,129 @@
+{
+	"_id": "abandoned_hebbvg.con_spec",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abandoned_hebbvg.con_spec",
+	"sector": "K_1506",
+	"sec_level": 4,
+	"date_added": 1583483734574,
+	"last_scraped": 1583484149996,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1583483734574
+		}
+	],
+	"scrape_ct": 14,
+	"next_scrape": 1583484209996,
+	"category": "fishie_tank",
+	"last_update": 1583484169183,
+	"output": [
+		{
+			"args": {},
+			"calls": 26451,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"o red",
+				"t invol",
+				" direct",
+				"volvemen",
+				"onitored",
+				"duce dir"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+					"frags": [
+						"o red",
+						"t invol",
+						" direct",
+						"volvemen",
+						"onitored",
+						"duce dir"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3569,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"o red",
+				"t invol",
+				" direct",
+				"volvemen",
+				"onitored",
+				"duce dir"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+					"frags": [
+						"o red",
+						"t invol",
+						" direct",
+						"volvemen",
+						"onitored",
+						"duce dir"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 22155,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"o red",
+				"t invol",
+				" direct",
+				"volvemen",
+				"onitored",
+				"duce dir"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+					"frags": [
+						"o red",
+						"t invol",
+						" direct",
+						"volvemen",
+						"onitored",
+						"duce dir"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+			"frags": [
+				"o red",
+				"t invol",
+				" direct",
+				"volvemen",
+				"onitored",
+				"duce dir"
+			]
+		}
+	],
+	"updt": 1583483956493,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
