@@ -1,0 +1,57 @@
+{
+	"_id": "derelict_takyr2.quit",
+	"type": "fragment",
+	"mode": "timeout",
+	"script": "derelict_takyr2.quit",
+	"sector": "VNP_0482",
+	"sec_level": 4,
+	"date_added": 1583563785182,
+	"last_scraped": 1583563838705,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1583563785182
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1583646839778,
+	"category": "risk_factor",
+	"last_update": 1583563838705,
+	"output": [
+		{
+			"args": {},
+			"calls": 1326,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				" Good",
+				"\\n2213",
+				"playing",
+				"laying ",
+				"aying c",
+				" user E",
+				"Have fun"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 115,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				" Good",
+				"\\n2213",
+				"playing",
+				"laying ",
+				"aying c",
+				" user E",
+				"Have fun"
+			]
+		}
+	]
+}
