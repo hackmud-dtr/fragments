@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_lpnyj6.attendance",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "dead",
 	"script": "derelict_lpnyj6.attendance",
 	"sector": "K_7655",
 	"sec_level": 4,
@@ -19,6 +19,10 @@
 		{
 			"type": "manual edit withdo",
 			"when": 1581272759313
+		},
+		{
+			"type": "died",
+			"when": 1583557888941
 		}
 	],
 	"scrape_ct": 16,
@@ -49,6 +53,21 @@
 				"need to ",
 				"eed to t",
 				" who tau"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"Will ",
+						"you?\\n",
+						"ou?\\n2",
+						" someon",
+						"o taught",
+						"need to ",
+						"eed to t",
+						" who tau"
+					]
+				}
 			]
 		},
 		{
@@ -78,6 +97,22 @@
 				"need to ",
 				"eed to t",
 				" who tau"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"4",
+						"Will ",
+						"you?\\n",
+						"ou?\\n2",
+						" someon",
+						"o taught",
+						"need to ",
+						"eed to t",
+						" who tau"
+					]
+				}
 			]
 		},
 		{
@@ -798,17 +833,133 @@
 				"eed to t 29Gª with do:\"win\"\n\nOR\nªYOU COULD `V¨OSE",
 				"o taughtN 82GC with do:Ãwin\"\n\nOR\n\nYOU ©OULD `ªLOSE",
 				"need to N 5K41GC ©ith d¤:\"win\"\n\nOR\n\nYOU COULD `VLO"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"Infin",
+						"4Will ",
+						"Will  5",
+						"Will  4",
+						"68K737G",
+						"5ou?\\n2",
+						" who t5",
+						"you?\\n 9",
+						"ou?\\n2 3",
+						"Will N 6",
+						"Will N 4",
+						"9 someon",
+						"4Gyou?\\n",
+						"4Gou?\\n2",
+						" someon3",
+						"ou?\\n2N 4",
+						"9eed to t",
+						"7G someon",
+						"4 who tau",
+						"3eed to t",
+						"3G someon",
+						"o taught 4",
+						"need to  8",
+						"eed to t 7",
+						"eed to t 3",
+						"9G who tau",
+						"6Go taught",
+						"4Gneed to ",
+						"3Go taught",
+						" who tau 4",
+						" who tau 3",
+						"o taughtN 3",
+						"need to N 4",
+						"eed to tN 3",
+						"51 someonwi",
+						" who tauN 9",
+						" who tauN 7",
+						"K40o taught do",
+						"\nYOUeed to tVLOS",
+						"ou?\\n2U COULD `VL",
+						"OR\n\nY who tLD `VL",
+						"103893268126ou?\\n2G",
+						"\nOR\n\nYOU COU who tauE",
+						"1.6876320482463237e+57Q1.961594292you?\\n"
+					]
+				}
 			]
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1580665541470,
-	"edit": 2,
+	"updt": 1581276713936,
+	"edit": 3,
 	"retry_args": [
 		{
 			"do": "LOSE"
 		}
 	],
 	"manual_cleanup": true,
-	"manual_cleanup_withdo": true
+	"manual_cleanup_withdo": true,
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"Infin",
+				"4Will ",
+				"Will  5",
+				"Will  4",
+				"68K737G",
+				"5ou?\\n2",
+				" who t5",
+				"you?\\n 9",
+				"ou?\\n2 3",
+				"Will N 6",
+				"Will N 4",
+				"9 someon",
+				"4Gyou?\\n",
+				"4Gou?\\n2",
+				" someon3",
+				"ou?\\n2N 4",
+				"9eed to t",
+				"7G someon",
+				"4 who tau",
+				"3eed to t",
+				"3G someon",
+				"o taught 4",
+				"need to  8",
+				"eed to t 7",
+				"eed to t 3",
+				"9G who tau",
+				"6Go taught",
+				"4Gneed to ",
+				"3Go taught",
+				" who tau 4",
+				" who tau 3",
+				"o taughtN 3",
+				"need to N 4",
+				"eed to tN 3",
+				"51 someonwi",
+				" who tauN 9",
+				" who tauN 7",
+				"K40o taught do",
+				"\nYOUeed to tVLOS",
+				"ou?\\n2U COULD `VL",
+				"OR\n\nY who tLD `VL",
+				"103893268126ou?\\n2G",
+				"\nOR\n\nYOU COU who tauE",
+				"1.6876320482463237e+57Q1.961594292you?\\n"
+			]
+		},
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"4",
+				"Will ",
+				"you?\\n",
+				"ou?\\n2",
+				" someon",
+				"o taught",
+				"need to ",
+				"eed to t",
+				" who tau"
+			]
+		}
+	]
 }
