@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_t1u8xi.heart_attack",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "derelict_t1u8xi.heart_attack",
 	"sector": "HJG_9131",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1583611972359
+		},
+		{
+			"type": "died",
+			"when": 1583632006079
 		}
 	],
-	"updt": 1583611981765,
-	"edit": 1,
+	"updt": 1583612206425,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -40,6 +44,23 @@
 				"TIME ERR",
 				"T ERROR ",
 				"OR | TIM"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
+					"frags": [
+						"XA7_C",
+						"T0X57",
+						"RROR |",
+						"ROR | ",
+						"MFT0XA",
+						"R | USE",
+						"R fbret",
+						"TIME ERR",
+						"T ERROR ",
+						"OR | TIM"
+					]
+				}
 			]
 		},
 		{
@@ -49,6 +70,40 @@
 			"calls": 108,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
+				"XA7_C",
+				"T0X57",
+				"RROR |",
+				"ROR | ",
+				"MFT0XA",
+				"R | USE",
+				"R fbret",
+				"TIME ERR",
+				"T ERROR ",
+				"OR | TIM"
+			],
+			"hits": [
+				{
+					"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
+					"frags": [
+						"XA7_C",
+						"T0X57",
+						"RROR |",
+						"ROR | ",
+						"MFT0XA",
+						"R | USE",
+						"R fbret",
+						"TIME ERR",
+						"T ERROR ",
+						"OR | TIM"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
+			"frags": [
 				"XA7_C",
 				"T0X57",
 				"RROR |",
