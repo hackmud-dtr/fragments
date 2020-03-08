@@ -1,7 +1,7 @@
 {
 	"_id": "anon_gvftjj.specs",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anon_gvftjj.specs",
 	"sector": "K_6511",
 	"sec_level": 1,
@@ -23,10 +23,14 @@
 				"from": "K_6511",
 				"to": "HJG_9367"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1583632800379
+		}
 	],
-	"updt": 1580017332216,
-	"edit": 4,
+	"updt": 1580017558195,
+	"edit": 5,
 	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR bubmet.malice: script doesn't exist\"}",
 	"next_scrape": 1580100648002
 }
