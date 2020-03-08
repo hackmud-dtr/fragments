@@ -1,26 +1,30 @@
 {
 	"_id": "anonymous_t2shqk.starting_point",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "anonymous_t2shqk.starting_point",
 	"sector": "K_1506",
 	"sec_level": 4,
 	"date_added": 1583467542826,
-	"last_scraped": 1583467669684,
+	"last_scraped": 1583467831943,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1583467542826
+		},
+		{
+			"type": "died",
+			"when": 1583694267103
 		}
 	],
-	"scrape_ct": 17,
-	"next_scrape": 1583467729684,
+	"scrape_ct": 13,
+	"next_scrape": 1583467891943,
 	"category": "fishie_tank",
-	"last_update": 1583467669684,
+	"last_update": 1583467831943,
 	"output": [
 		{
 			"args": {},
-			"calls": 6333,
+			"calls": 20539,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"unctio",
@@ -50,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 788,
+			"calls": 1541,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -85,7 +89,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 13958,
+			"calls": 20448,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"unctio",
@@ -125,5 +129,7 @@
 				"ns and s"
 			]
 		}
-	]
+	],
+	"updt": 1583467985924,
+	"edit": 2
 }
