@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_534eot.superhak",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "derelict_534eot.superhak",
-	"sector": "SPC_9621",
+	"sector": "HJG_0110",
 	"sec_level": 4,
 	"date_added": 1579217626004,
-	"last_scraped": 1580406020415,
+	"last_scraped": 1583695783728,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1583695060264
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1583695746703,
+				"from": "HJG_0110",
+				"to": "SPC_9621"
+			}
+		]
 	],
 	"pl_output": "Cannot read property '0' of undefined",
-	"next_scrape": 1580493282798,
-	"updt": 1580406075750,
-	"edit": 1441
+	"next_scrape": 1583777557212,
+	"updt": 1583695167934,
+	"edit": 1442
 }
