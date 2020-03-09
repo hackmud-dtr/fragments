@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_exdha7.sim",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "unknown_exdha7.sim",
 	"sector": "VNP_1737",
 	"sec_level": 4,
@@ -15,6 +15,10 @@
 		{
 			"type": "manual edit withdo",
 			"when": 1581272735295
+		},
+		{
+			"type": "died",
+			"when": 1583737900842
 		}
 	],
 	"scrape_ct": 18,
@@ -41,6 +45,19 @@
 				"USER er",
 				" USER e",
 				"| TIME E"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
+					"frags": [
+						"rajbh",
+						"RROR ",
+						" | TIM",
+						"USER er",
+						" USER e",
+						"| TIME E"
+					]
+				}
 			]
 		},
 		{
@@ -64,6 +81,19 @@
 				"USER er",
 				" USER e",
 				"| TIME E"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
+					"frags": [
+						"rajbh",
+						"RROR ",
+						" | TIM",
+						"USER er",
+						" USER e",
+						"| TIME E"
+					]
+				}
 			]
 		},
 		{
@@ -366,16 +396,83 @@
 				" | TIM 82GC with ¨o:\"win\"\n\nOR\n\nYOUÃCOULD¡`VLOSE",
 				" USER e54GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE",
 				"| TIME E 474GC with do:\"win\"\n\nOR\n\nYOU COULD `V¤OS"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"TIME 9",
+						"TIME 4",
+						"RROR 7",
+						"3TIME ",
+						"8Grajbh",
+						"6GRROR ",
+						"5GTIME ",
+						"rajbhN 7",
+						"SER er 5",
+						"9G| TIME",
+						" | TIM 7",
+						" | TIM 4",
+						"| TIMEN 5",
+						"| TIMEN 4",
+						"| TIME E4",
+						"4GUSER er",
+						"USER erN 7",
+						"4G| TIME E",
+						"OR\n\nYOU COULDTIME",
+						"\nOR\n\nYOU  USER eVLOSE",
+						"GC with do:\" | TIMOR\n\nYOU COULD `VLO"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1576369306152,
-	"edit": 4,
+	"updt": 1581276686688,
+	"edit": 5,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
 		{
 			"do": "LOSE"
 		}
 	],
-	"manual_cleanup_withdo": true
+	"manual_cleanup_withdo": true,
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"TIME 9",
+				"TIME 4",
+				"RROR 7",
+				"3TIME ",
+				"8Grajbh",
+				"6GRROR ",
+				"5GTIME ",
+				"rajbhN 7",
+				"SER er 5",
+				"9G| TIME",
+				" | TIM 7",
+				" | TIM 4",
+				"| TIMEN 5",
+				"| TIMEN 4",
+				"| TIME E4",
+				"4GUSER er",
+				"USER erN 7",
+				"4G| TIME E",
+				"OR\n\nYOU COULDTIME",
+				"\nOR\n\nYOU  USER eVLOSE",
+				"GC with do:\" | TIMOR\n\nYOU COULD `VLO"
+			]
+		},
+		{
+			"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
+			"frags": [
+				"rajbh",
+				"RROR ",
+				" | TIM",
+				"USER er",
+				" USER e",
+				"| TIME E"
+			]
+		}
+	]
 }
