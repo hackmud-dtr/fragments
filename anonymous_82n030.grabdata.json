@@ -1,0 +1,82 @@
+{
+	"_id": "anonymous_82n030.grabdata",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anonymous_82n030.grabdata",
+	"sector": "HJG_0110",
+	"sec_level": 4,
+	"date_added": 1583719445293,
+	"last_scraped": 1583719515298,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1583719445293
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1583719575298,
+	"category": "fishie_tank",
+	"last_update": 1583719497077,
+	"output": [
+		{
+			"args": {},
+			"calls": 7712,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"r all",
+				" cove",
+				" but ",
+				" at l",
+				"re at ",
+				"We're ",
+				"'re fi",
+				"drotors",
+				" can co",
+				"uadrotor"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 627,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"r all",
+				" cove",
+				" but ",
+				" at l",
+				"re at ",
+				"We're ",
+				"'re fi",
+				"drotors",
+				" can co",
+				"uadrotor"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 7073,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"r all",
+				" cove",
+				" but ",
+				" at l",
+				"re at ",
+				"We're ",
+				"'re fi",
+				"drotors",
+				" can co",
+				"uadrotor"
+			]
+		}
+	]
+}
