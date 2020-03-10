@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_azpsp1.laser_grid",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abndnd_azpsp1.laser_grid",
 	"sector": "NGC_7217",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1583852928355
+		},
+		{
+			"type": "died",
+			"when": 1583879372654
 		}
 	],
 	"retry_args": [
@@ -37,9 +41,35 @@
 				"i have ",
 				"ife for ",
 				" life fo"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"this d",
+						"my ent",
+						"re life",
+						"i have ",
+						"ife for ",
+						" life fo"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1583852978874,
-	"edit": 1
+	"updt": 1583853203884,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+			"frags": [
+				"this d",
+				"my ent",
+				"re life",
+				"i have ",
+				"ife for ",
+				" life fo"
+			]
+		}
+	]
 }
