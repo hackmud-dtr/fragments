@@ -1,0 +1,43 @@
+{
+	"_id": "abndnd_azpsp1.laser_grid",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abndnd_azpsp1.laser_grid",
+	"sector": "NGC_7217",
+	"sec_level": 4,
+	"date_added": 1583852928355,
+	"last_scraped": 1583852964575,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1583852928355
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1583853024575,
+	"category": "fishie_tank",
+	"last_update": 1583852964575,
+	"output": [
+		{
+			"args": {},
+			"calls": 8148,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"this d",
+				"my ent",
+				"re life",
+				"i have ",
+				"ife for ",
+				" life fo"
+			]
+		}
+	]
+}
