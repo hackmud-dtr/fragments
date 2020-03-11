@@ -1,26 +1,26 @@
 {
 	"_id": "anon_3pe1f2.database",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anon_3pe1f2.database",
 	"sector": "HJG_6173",
 	"sec_level": 4,
 	"date_added": 1583960244492,
-	"last_scraped": 1583960480059,
+	"last_scraped": 1583960787512,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1583960244492
 		}
 	],
-	"scrape_ct": 13,
-	"next_scrape": 1583960540059,
+	"scrape_ct": 5,
+	"next_scrape": 1583960847512,
 	"category": "clicker",
-	"last_update": 1583960480059,
+	"last_update": 1583960787512,
 	"output": [
 		{
 			"args": {},
-			"calls": 12446,
+			"calls": 33210,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"000 0",
@@ -46,7 +46,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 21473,
+			"calls": 42989,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"000 0",
@@ -226,10 +226,64 @@
 				"CK0000\\n00",
 				"CK 000\\n00"
 			]
+		},
+		{
+			"args": {
+				"CLICK": true
+			},
+			"calls": 855,
+			"base": "`LCLIC000ECURED`",
+			"fragments": [
+				"K0000 ",
+				"K000 0",
+				"K0 000",
+				"000 0S",
+				"00 00S",
+				"K0100 0",
+				"K00 000",
+				"K 0000 ",
+				"K 000 0",
+				"K 0 000",
+				"0100 0S",
+				"000 0 S",
+				"00 000S",
+				"00 00 S",
+				" 0000 S",
+				"K000\\n00",
+				"K S0000 ",
+				"K S000 0",
+				"K S0 000",
+				"K 0100 0",
+				"K 00 000",
+				"K  0000 ",
+				"0100 0 S",
+				"0000 K S",
+				"000 0K S",
+				"00 00K S",
+				"00 000 S",
+				" 0000  S",
+				"K0000\\n00",
+				"K SE0000 ",
+				"K SE000 0",
+				"K SE00 00",
+				"K SE0 000",
+				"K S0100 0",
+				"K S00 000",
+				"K S 0000 ",
+				"K 000\\n00",
+				"0100 0K S",
+				"000\\n00 S",
+				"0000\\n00S",
+				"0000 CK S",
+				"000 0CK S",
+				"00 00CK S",
+				"00 000K S",
+				"0 000CK S"
+			]
 		}
 	],
-	"updt": 1583960278467,
-	"edit": 1,
+	"updt": 1583960729186,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -282,6 +336,11 @@
 				"00 000K SEC",
 				"0 000CK SEC"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"CLICK": true
 		}
 	]
 }
