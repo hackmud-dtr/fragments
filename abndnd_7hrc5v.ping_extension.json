@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_7hrc5v.ping_extension",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abndnd_7hrc5v.ping_extension",
 	"sector": "SPC_2343",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1584027400626
+		},
+		{
+			"type": "died",
+			"when": 1584029246201
 		}
 	],
 	"retry_args": [
@@ -34,6 +38,19 @@
 				"E0XBD881",
 				"88122E\\nS",
 				"2E\\nSYST "
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+					"frags": [
+						"X8F99_",
+						"LE0XBD8",
+						"ECT0X8F9",
+						"E0XBD881",
+						"88122E\\nS",
+						"2E\\nSYST "
+					]
+				}
 			]
 		},
 		{
@@ -48,6 +65,34 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"X8F99_",
+				"LE0XBD8",
+				"ECT0X8F9",
+				"E0XBD881",
+				"88122E\\nS",
+				"2E\\nSYST "
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+					"frags": [
+						"X8F99_",
+						"LE0XBD8",
+						"ECT0X8F9",
+						"E0XBD881",
+						"88122E\\nS",
+						"2E\\nSYST "
+					]
+				}
+			]
+		}
+	],
+	"updt": 1584027665614,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+			"frags": [
 				"X8F99_",
 				"LE0XBD8",
 				"ECT0X8F9",
