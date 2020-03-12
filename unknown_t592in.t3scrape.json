@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_t592in.t3scrape",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unknown_t592in.t3scrape",
 	"sector": "NGC_7656",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1576828571065
+		},
+		{
+			"type": "died",
+			"when": 1583972477935
 		}
 	],
 	"retry_args": [
@@ -31,6 +35,36 @@
 			"calls": 12647,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				" Have",
+				"2 6 dec",
+				" you ar",
+				" a line.",
+				"line.\\n20",
+				".\\n2044 H",
+				".\\n2043 6"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" Have",
+						"2 6 dec",
+						" you ar",
+						" a line.",
+						"line.\\n20",
+						".\\n2044 H",
+						".\\n2043 6"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1576828655683,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				" Have",
 				"2 6 dec",
 				" you ar",
