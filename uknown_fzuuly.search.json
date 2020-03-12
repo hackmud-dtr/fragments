@@ -1,19 +1,27 @@
 {
 	"_id": "uknown_fzuuly.search",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "uknown_fzuuly.search",
 	"sector": "SPC_2343",
 	"sec_level": 4,
 	"date_added": 1583997396386,
-	"last_scraped": 1583999358687,
+	"last_scraped": 1584002157030,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1583997396386
+		},
+		{
+			"type": "died",
+			"when": 1584002157030
+		},
+		{
+			"type": "died",
+			"when": 1584002158527
 		}
 	],
-	"next_scrape": 1584045438442,
+	"next_scrape": 1584092978138,
 	"category": "coin_flipper",
 	"last_update": 1583999358687,
 	"output": [
@@ -181,6 +189,7 @@
 			]
 		}
 	],
-	"updt": 1583998818747,
-	"edit": 7
+	"updt": 1583999495684,
+	"edit": 8,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_fzuuly.search: script doesn't exist\"}"
 }
