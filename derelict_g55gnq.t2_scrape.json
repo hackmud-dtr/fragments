@@ -1,0 +1,157 @@
+{
+	"_id": "derelict_g55gnq.t2_scrape",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "derelict_g55gnq.t2_scrape",
+	"sector": "SPC_2343",
+	"sec_level": 4,
+	"date_added": 1584007663293,
+	"last_scraped": 1584007826990,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1584007663293
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1584007886990,
+	"category": "fishie_tank",
+	"last_update": 1584007826990,
+	"output": [
+		{
+			"args": {},
+			"calls": 15588,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"AI so",
+				"irmati",
+				"E's be",
+				"ins to ",
+				"elief i",
+				"tworked ",
+				"Chengdu "
+			],
+			"hits": [
+				{
+					"document": "Erin File",
+					"frags": [
+						"AI so",
+						"irmati",
+						"E's be",
+						"ins to ",
+						"elief i",
+						"Chengdu "
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"tworked "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 806,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"AI so",
+				"irmati",
+				"E's be",
+				"ins to ",
+				"elief i",
+				"tworked ",
+				"Chengdu "
+			],
+			"hits": [
+				{
+					"document": "Erin File",
+					"frags": [
+						"AI so",
+						"irmati",
+						"E's be",
+						"ins to ",
+						"elief i",
+						"Chengdu "
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"tworked "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 9878,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"AI so",
+				"irmati",
+				"E's be",
+				"ins to ",
+				"elief i",
+				"tworked ",
+				"Chengdu "
+			],
+			"hits": [
+				{
+					"document": "Erin File",
+					"frags": [
+						"AI so",
+						"irmati",
+						"E's be",
+						"ins to ",
+						"elief i",
+						"Chengdu "
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"tworked "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "Erin File",
+			"frags": [
+				"AI so",
+				"irmati",
+				"E's be",
+				"ins to ",
+				"elief i",
+				"Chengdu "
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"tworked "
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
