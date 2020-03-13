@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_jue59c.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abndnd_jue59c.db",
 	"sector": "SPC_5998",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1581792188744
+		},
+		{
+			"type": "died",
+			"when": 1584084599495
 		}
 	],
 	"scrape_ct": 19,
@@ -32,6 +36,22 @@
 				"rix proc",
 				"est inte",
 				" process"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"no, I ",
+						"l Binar",
+						"ional B",
+						" operat",
+						" intere",
+						"st inter",
+						"rix proc",
+						"est inte",
+						" process"
+					]
+				}
 			]
 		},
 		{
@@ -50,15 +70,58 @@
 				"rix proc",
 				" process",
 				"8est inte"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"no, I ",
+						"l Binar",
+						"ional B",
+						" operat",
+						" intere",
+						"st inter",
+						"rix proc",
+						" process"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"8est inte"
+					]
+				}
 			]
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1581792666050,
-	"edit": 2,
+	"updt": 1581793117144,
+	"edit": 3,
 	"retry_args": [
 		{
 			"do": "LOSE"
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+			"frags": [
+				"no, I ",
+				"l Binar",
+				"ional B",
+				" operat",
+				" intere",
+				"st inter",
+				"rix proc",
+				"est inte",
+				" process"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"8est inte"
+			]
 		}
 	]
 }
