@@ -1,19 +1,27 @@
 {
 	"_id": "anon_gzis6b.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "anon_gzis6b.db",
 	"sector": "K_0737",
 	"sec_level": 4,
 	"date_added": 1584127948368,
-	"last_scraped": 1584129616479,
+	"last_scraped": 1584130270681,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1584127948368
+		},
+		{
+			"type": "died",
+			"when": 1584130270681
+		},
+		{
+			"type": "died",
+			"when": 1584130309211
 		}
 	],
-	"next_scrape": 1584175322044,
+	"next_scrape": 1584211245956,
 	"category": "coin_flipper",
 	"last_update": 1584129616479,
 	"output": [
@@ -91,8 +99,8 @@
 			]
 		}
 	],
-	"updt": 1584129568667,
-	"edit": 7,
+	"updt": 1584129793225,
+	"edit": 8,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -124,5 +132,6 @@
 				"rankfurt"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_gzis6b.db: script doesn't exist\"}"
 }
