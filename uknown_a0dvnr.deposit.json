@@ -1,0 +1,141 @@
+{
+	"_id": "uknown_a0dvnr.deposit",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "uknown_a0dvnr.deposit",
+	"sector": "HJG_9830",
+	"sec_level": 4,
+	"date_added": 1584178741789,
+	"last_scraped": 1584178905702,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1584178741789
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1584178965702,
+	"category": "fishie_tank",
+	"last_update": 1584178979053,
+	"output": [
+		{
+			"args": {},
+			"calls": 18987,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"r Eri",
+				"am ha",
+				"ppy to",
+				"eceive",
+				"E18 I am",
+				"1E17 Hel",
+				"n R.\\n1E1",
+				"allory\\n1"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"r Eri",
+						"am ha",
+						"ppy to",
+						"eceive",
+						"E18 I am",
+						"1E17 Hel",
+						"n R.\\n1E1",
+						"allory\\n1"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2109,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"r Eri",
+				"am ha",
+				"ppy to",
+				"eceive",
+				"E18 I am",
+				"1E17 Hel",
+				"n R.\\n1E1",
+				"allory\\n1"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"r Eri",
+						"am ha",
+						"ppy to",
+						"eceive",
+						"E18 I am",
+						"1E17 Hel",
+						"n R.\\n1E1",
+						"allory\\n1"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 6924,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"r Eri",
+				"am ha",
+				"ppy to",
+				"eceive",
+				"E18 I am",
+				"1E17 Hel",
+				"n R.\\n1E1",
+				"allory\\n1"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"r Eri",
+						"am ha",
+						"ppy to",
+						"eceive",
+						"E18 I am",
+						"1E17 Hel",
+						"n R.\\n1E1",
+						"allory\\n1"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"r Eri",
+				"am ha",
+				"ppy to",
+				"eceive",
+				"E18 I am",
+				"1E17 Hel",
+				"n R.\\n1E1",
+				"allory\\n1"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
