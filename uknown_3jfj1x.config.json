@@ -1,0 +1,73 @@
+{
+	"_id": "uknown_3jfj1x.config",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "uknown_3jfj1x.config",
+	"sector": "NGC_9177",
+	"sec_level": 4,
+	"date_added": 1584303370966,
+	"last_scraped": 1584303463024,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1584303370966
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1584303523024,
+	"category": "fishie_tank",
+	"last_update": 1584303463024,
+	"output": [
+		{
+			"args": {},
+			"calls": 10948,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"0A5 W",
+				"lace th",
+				"ide of ",
+				"our side",
+				"Where do",
+				"On your ",
+				"?\\n20A6 O"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 546,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"0A5 W",
+				"lace th",
+				"ide of ",
+				"our side",
+				"Where do",
+				"On your ",
+				"?\\n20A6 O"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 7291,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"0A5 W",
+				"lace th",
+				"ide of ",
+				"our side",
+				"Where do",
+				"On your ",
+				"?\\n20A6 O"
+			]
+		}
+	]
+}
