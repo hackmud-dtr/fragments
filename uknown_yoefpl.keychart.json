@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_yoefpl.keychart",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "uknown_yoefpl.keychart",
 	"sector": "HJG_0593",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1576118069814
+		},
+		{
+			"type": "died",
+			"when": 1584266045218
 		}
 	],
 	"scrape_ct": 20,
@@ -29,6 +33,19 @@
 				"her. We",
 				"ack cen",
 				" put th"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"o put",
+						"aken ",
+						"We lac",
+						"her. We",
+						"ack cen",
+						" put th"
+					]
+				}
 			]
 		},
 		{
@@ -45,15 +62,43 @@
 				"her. We",
 				"ack cen",
 				" put th"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"6",
+						"o put",
+						"aken ",
+						"We lac",
+						"her. We",
+						"ack cen",
+						" put th"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1576388467036,
-	"edit": 4,
+	"updt": 1576406518796,
+	"edit": 5,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
 		{
 			"do": "LOSE"
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"6",
+				"o put",
+				"aken ",
+				"We lac",
+				"her. We",
+				"ack cen",
+				" put th"
+			]
 		}
 	]
 }
