@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_cqnlts.is_scriptor",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unidentified_cqnlts.is_scriptor",
 	"sector": "SPC_2343",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1584021072448
+		},
+		{
+			"type": "died",
+			"when": 1584335634912
 		}
 	],
 	"retry_args": [
@@ -42,6 +46,27 @@
 				"FT0X3F_C",
 				"E\\nSYST ",
 				"88122E\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+					"frags": [
+						"ST ER",
+						"MFT0X",
+						"XBD881",
+						"F_CLST",
+						"0X0A_S",
+						"T ERROR",
+						"FILE0XB",
+						"0A_SECT",
+						"\\nSYST E",
+						"SECT0X8F",
+						"LE0XBD88",
+						"FT0X3F_C",
+						"E\\nSYST ",
+						"88122E\\n"
+					]
+				}
 			]
 		},
 		{
@@ -51,6 +76,50 @@
 			"calls": 200,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
+				"ST ER",
+				"MFT0X",
+				"XBD881",
+				"F_CLST",
+				"0X0A_S",
+				"T ERROR",
+				"FILE0XB",
+				"0A_SECT",
+				"\\nSYST E",
+				"SECT0X8F",
+				"LE0XBD88",
+				"FT0X3F_C",
+				"E\\nSYST ",
+				"88122E\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+					"frags": [
+						"ST ER",
+						"MFT0X",
+						"XBD881",
+						"F_CLST",
+						"0X0A_S",
+						"T ERROR",
+						"FILE0XB",
+						"0A_SECT",
+						"\\nSYST E",
+						"SECT0X8F",
+						"LE0XBD88",
+						"FT0X3F_C",
+						"E\\nSYST ",
+						"88122E\\n"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1584021353651,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+			"frags": [
 				"ST ER",
 				"MFT0X",
 				"XBD881",
