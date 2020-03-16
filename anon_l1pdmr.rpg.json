@@ -1,26 +1,26 @@
 {
 	"_id": "anon_l1pdmr.rpg",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anon_l1pdmr.rpg",
 	"sector": "NGC_9177",
 	"sec_level": 4,
 	"date_added": 1584322690237,
-	"last_scraped": 1584322790356,
+	"last_scraped": 1584322919289,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1584322690237
 		}
 	],
-	"scrape_ct": 18,
-	"next_scrape": 1584322850356,
+	"scrape_ct": 15,
+	"next_scrape": 1584322979289,
 	"category": "fishie_tank",
-	"last_update": 1584322790356,
+	"last_update": 1584322955396,
 	"output": [
 		{
 			"args": {},
-			"calls": 8374,
+			"calls": 21824,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"reall",
@@ -48,7 +48,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 485,
+			"calls": 1427,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -117,6 +117,13 @@
 				" the dat",
 				" data te"
 			]
+		}
+	],
+	"updt": 1584322847293,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
