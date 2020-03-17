@@ -1,0 +1,55 @@
+{
+	"_id": "abndnd_zuryvk.utils",
+	"type": "fragment",
+	"mode": "timeout",
+	"script": "abndnd_zuryvk.utils",
+	"sector": "VNP_6115",
+	"sec_level": 4,
+	"date_added": 1584466241062,
+	"last_scraped": 1584466330757,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1584466241062
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1584549241560,
+	"category": "risk_factor",
+	"last_update": 1584466330757,
+	"output": [
+		{
+			"args": {},
+			"calls": 1350,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"MFT0X4",
+				"_CLST0X",
+				"\",\"msg\"",
+				" A Name",
+				"k Later,",
+				":\"A Week"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 119,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"MFT0X4",
+				"_CLST0X",
+				"\",\"msg\"",
+				" A Name",
+				"k Later,",
+				":\"A Week"
+			]
+		}
+	]
+}
