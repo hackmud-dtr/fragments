@@ -1,0 +1,171 @@
+{
+	"_id": "abandoned_ty8sr7.news_network",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abandoned_ty8sr7.news_network",
+	"sector": "VNP_6115",
+	"sec_level": 4,
+	"date_added": 1584421962256,
+	"last_scraped": 1584422197176,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1584421962256
+		}
+	],
+	"scrape_ct": 15,
+	"next_scrape": 1584422257176,
+	"category": "fishie_tank",
+	"last_update": 1584422197176,
+	"output": [
+		{
+			"args": {},
+			"calls": 13558,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"l act",
+				"e dig",
+				"tnasar",
+				"by the ",
+				"asari-E",
+				"\"A REPO",
+				"A REPORT"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"l act",
+						"tnasar",
+						"asari-E",
+						"\"A REPO",
+						"A REPORT"
+					]
+				},
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"e dig"
+					]
+				},
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"by the "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1457,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"l act",
+				"e dig",
+				"tnasar",
+				"by the ",
+				"asari-E",
+				"\"A REPO",
+				"A REPORT"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"l act",
+						"tnasar",
+						"asari-E",
+						"\"A REPO",
+						"A REPORT"
+					]
+				},
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"e dig"
+					]
+				},
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"by the "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 22129,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"l act",
+				"e dig",
+				"tnasar",
+				"by the ",
+				"asari-E",
+				"\"A REPO",
+				"A REPORT"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"l act",
+						"tnasar",
+						"asari-E",
+						"\"A REPO",
+						"A REPORT"
+					]
+				},
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"e dig"
+					]
+				},
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"by the "
+					]
+				}
+			]
+		}
+	],
+	"updt": 1584422012932,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"l act",
+				"tnasar",
+				"asari-E",
+				"\"A REPO",
+				"A REPORT"
+			]
+		},
+		{
+			"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+			"frags": [
+				"e dig"
+			]
+		},
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
+				"by the "
+			]
+		}
+	]
+}
