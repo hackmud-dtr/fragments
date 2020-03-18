@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_2erinl.upgrades",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_2erinl.upgrades",
 	"sector": "K_7755",
 	"sec_level": 4,
 	"date_added": 1582211079172,
-	"last_scraped": 1582211170168,
+	"last_scraped": 1584559715330,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,24 +14,36 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1582211230168,
+	"next_scrape": 1584605975591,
 	"category": "fishie_tank",
-	"last_update": 1582211170168,
+	"last_update": 1584559733073,
 	"output": [
 		{
 			"args": {},
-			"calls": 3844,
+			"calls": 18748,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"y has",
+				"tion.",
+				" us f",
 				" that",
 				"orant ",
+				"nology",
 				"logy h",
-				"e can ",
+				"ever. ",
+				" to as",
+				"ume tha",
 				"on. It ",
+				"evastat",
+				"devasta",
 				"assume ",
 				"simply d",
-				"rant to "
+				"rant to ",
+				"is means",
+				"imply do",
+				"eans tha",
+				"as deliv",
+				" we can "
 			],
 			"hits": [
 				{
@@ -150,7 +162,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 703,
+			"calls": 1346,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -159,14 +171,26 @@
 			],
 			"fragments": [
 				"y has",
+				"tion.",
+				" us f",
 				" that",
 				"orant ",
+				"nology",
 				"logy h",
-				"e can ",
+				"ever. ",
+				" to as",
+				"ume tha",
 				"on. It ",
+				"evastat",
+				"devasta",
 				"assume ",
 				"simply d",
-				"rant to "
+				"rant to ",
+				"is means",
+				"imply do",
+				"eans tha",
+				"as deliv",
+				" we can "
 			],
 			"hits": [
 				{
@@ -412,8 +436,8 @@
 			]
 		}
 	],
-	"updt": 1582211310066,
-	"edit": 1,
+	"updt": 1584518725454,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -524,6 +548,11 @@
 			"frags": [
 				"y has"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
