@@ -1,28 +1,28 @@
 {
 	"_id": "anon_jg41n7.list_scripts",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anon_jg41n7.list_scripts",
 	"sector": "SPC_4381",
 	"sec_level": 4,
 	"date_added": 1584525762266,
-	"last_scraped": 1584529500207,
+	"last_scraped": 1584573914748,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1584525762266
 		}
 	],
-	"updt": 1584525940661,
-	"edit": 1,
-	"scrape_ct": 18,
-	"next_scrape": 1584529560207,
+	"updt": 1584536761755,
+	"edit": 2,
+	"scrape_ct": 13,
+	"next_scrape": 1584573974748,
 	"category": "fishie_tank",
-	"last_update": 1584529500207,
+	"last_update": 1584573914748,
 	"output": [
 		{
 			"args": {},
-			"calls": 8348,
+			"calls": 37439,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"MFT0X",
@@ -119,6 +119,14 @@
 				"LE0XBBE2",
 				"FC\\nSYST "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
