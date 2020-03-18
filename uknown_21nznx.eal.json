@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_21nznx.eal",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_21nznx.eal",
 	"sector": "K_7655",
 	"sec_level": 4,
 	"date_added": 1580708378711,
-	"last_scraped": 1580708802396,
+	"last_scraped": 1584551978378,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,19 +14,22 @@
 		}
 	],
 	"scrape_ct": 9,
-	"next_scrape": 1580708862396,
+	"next_scrape": 1584596490329,
 	"category": "fishie_tank",
-	"last_update": 1580708802396,
+	"last_update": 1584551978378,
 	"output": [
 		{
 			"args": {},
-			"calls": 18412,
+			"calls": 28858,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"00 001",
+				"000 00",
 				" 0100 ",
+				"\\n0000 0",
+				"100 0011",
 				"00 0000 ",
 				"0 0000\\n",
+				" 0000 01",
 				"000\\n0000"
 			],
 			"hits": [
@@ -100,8 +103,8 @@
 			]
 		}
 	],
-	"updt": 1580708827351,
-	"edit": 2,
+	"updt": 1584522559435,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -112,6 +115,14 @@
 				"0 0000\\n",
 				"000\\n0000"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

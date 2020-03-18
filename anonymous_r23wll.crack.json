@@ -1,38 +1,45 @@
 {
 	"_id": "anonymous_r23wll.crack",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_r23wll.crack",
 	"sector": "HJG_9679",
 	"sec_level": 4,
 	"date_added": 1580740612838,
-	"last_scraped": 1580740937646,
+	"last_scraped": 1584552177526,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1580740612838
 		}
 	],
-	"updt": 1580741074882,
-	"edit": 3,
+	"updt": 1584518272947,
+	"edit": 4,
 	"scrape_ct": 12,
-	"next_scrape": 1580740997646,
+	"next_scrape": 1584598842129,
 	"category": "fishie_tank",
-	"last_update": 1580740937646,
+	"last_update": 1584552232648,
 	"output": [
 		{
 			"args": {},
-			"calls": 24937,
+			"calls": 34048,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"xt ^2",
+				"to th",
 				"the o",
+				"t ^2.",
 				"a sta",
+				" a st",
 				"s the ",
-				" If it",
-				"nly\\n21",
+				"rd in a",
+				"\\n2155 ",
+				"If it i",
+				"4 If it",
 				"5 card i",
-				".\\n2154 I"
+				"ack\\n2156",
+				".\\n2154 I",
+				" only\\n21"
 			],
 			"hits": [
 				{
@@ -54,7 +61,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1720,
+			"calls": 3343,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -63,13 +70,20 @@
 			],
 			"fragments": [
 				"xt ^2",
+				"to th",
 				"the o",
+				"t ^2.",
 				"a sta",
+				" a st",
 				"s the ",
-				" If it",
-				"nly\\n21",
+				"rd in a",
+				"\\n2155 ",
+				"If it i",
+				"4 If it",
 				"5 card i",
-				".\\n2154 I"
+				"ack\\n2156",
+				".\\n2154 I",
+				" only\\n21"
 			],
 			"hits": [
 				{
@@ -133,6 +147,11 @@
 				"5 card i",
 				".\\n2154 I"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
