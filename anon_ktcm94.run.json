@@ -1,7 +1,7 @@
 {
 	"_id": "anon_ktcm94.run",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_ktcm94.run",
 	"sector": "K_6692",
 	"sec_level": 4,
@@ -13,8 +13,8 @@
 			"when": 1578245219913
 		}
 	],
-	"updt": 1578254030333,
-	"edit": 11,
+	"updt": 1578255383640,
+	"edit": 12,
 	"next_scrape": 1578301931756,
 	"category": "fishie_tank",
 	"last_update": 1578255318918,
@@ -119,6 +119,11 @@
 			]
 		}
 	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
@@ -132,11 +137,6 @@
 				"ecause t",
 				", though"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }

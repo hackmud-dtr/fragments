@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_doy7k9.bundy",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_doy7k9.bundy",
 	"sector": "K_6692",
 	"sec_level": 4,
@@ -13,8 +13,8 @@
 			"when": 1578243426810
 		}
 	],
-	"updt": 1578243429021,
-	"edit": 1,
+	"updt": 1578243656322,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -30,6 +30,30 @@
 			"calls": 1369,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"| TIME",
+				"ME ERR",
+				" | PRO",
+				"PROG ER",
+				"ERROR | "
+			],
+			"hits": [
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"| TIME",
+						"ME ERR",
+						" | PRO",
+						"PROG ER",
+						"ERROR | "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
 				"| TIME",
 				"ME ERR",
 				" | PRO",

@@ -1,30 +1,22 @@
 {
 	"_id": "anonymous_74awvw.ls",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anonymous_74awvw.ls",
 	"sector": "NGC_7656",
 	"sec_level": 4,
 	"date_added": 1576815584146,
-	"last_scraped": 1576815633410,
+	"last_scraped": 1584516371255,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1576815584146
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 18,
-	"next_scrape": 1576815693410,
+	"next_scrape": 1584557034111,
 	"category": "fishie_tank",
-	"last_update": 1576815633410,
+	"last_update": 1584516371255,
 	"output": [
 		{
 			"args": {},
@@ -40,6 +32,43 @@
 				" decks o",
 				"ce up.\\n2"
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1238,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ks of",
+				"ace do",
+				"s of 13",
+				"face up.",
+				" up.\\n20",
+				" of 13, "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 19824,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ks of",
+				"ace do",
+				"s of 13",
+				"face up.",
+				" up.\\n20",
+				" of 13, "
+			]
 		}
-	]
+	],
+	"updt": 1576815802382,
+	"edit": 1
 }

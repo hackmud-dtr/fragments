@@ -6,24 +6,19 @@
 	"sector": "K_6692",
 	"sec_level": 4,
 	"date_added": 1578053116200,
-	"last_scraped": 1578053137003,
+	"last_scraped": 1584517475115,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1578053116200
 		}
 	],
-	"updt": 1578053117225,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
+	"updt": 1578053343926,
+	"edit": 2,
 	"scrape_ct": 19,
-	"next_scrape": 1578053197003,
+	"next_scrape": 1584561544868,
 	"category": "fishie_tank",
-	"last_update": 1578053166444,
+	"last_update": 1584517475115,
 	"output": [
 		{
 			"args": {},
@@ -32,6 +27,15 @@
 			"fragments": [
 				"0000 000",
 				"0 0000 0"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"0000 000",
+						"0 0000 0"
+					]
+				}
 			]
 		},
 		{
@@ -46,6 +50,40 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"0000 000",
+				"0 0000 0"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"0000 000",
+						"0 0000 0"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 23489,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"01 01",
+				"0000\\n0",
+				"0000 00",
+				" 0100 0",
+				"0100 100",
+				"00 0000 ",
+				"0 1001 0"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
 				"0000 000",
 				"0 0000 0"
 			]
