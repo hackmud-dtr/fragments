@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_ir0k69.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_ir0k69.bot_scam_do_not_run",
 	"sector": "HJG_1695",
 	"sec_level": 4,
 	"date_added": 1579542248462,
-	"last_scraped": 1579542741997,
+	"last_scraped": 1584546792279,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,29 @@
 		}
 	],
 	"scrape_ct": 4,
-	"next_scrape": 1579542801997,
+	"next_scrape": 1584590070027,
 	"category": "fishie_tank",
-	"last_update": 1579542741997,
+	"last_update": 1584546792279,
 	"output": [
 		{
 			"args": {},
-			"calls": 39505,
+			"calls": 59169,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"s is ",
+				"rom o",
 				"or ho",
+				"oday ",
 				"ng th",
 				"expec",
+				"ear f",
 				"MN th",
+				" beca",
 				" from ",
+				" fast ",
+				"ta expe",
 				"getting",
+				"is huge ",
 				"how it w",
 				"OD DAMN ",
 				"Now I'm "
@@ -427,8 +434,8 @@
 			]
 		}
 	],
-	"updt": 1579542920712,
-	"edit": 3,
+	"updt": 1584523913103,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -543,6 +550,14 @@
 			"frags": [
 				"s is "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
