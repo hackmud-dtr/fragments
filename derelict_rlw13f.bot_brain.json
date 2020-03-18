@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_rlw13f.bot_brain",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_rlw13f.bot_brain",
 	"sector": "SPC_5830",
 	"sec_level": 4,
 	"date_added": 1584265622488,
-	"last_scraped": 1584266040797,
+	"last_scraped": 1584526177502,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 7,
-	"next_scrape": 1584266100797,
+	"next_scrape": 1584568722306,
 	"category": "clicker",
-	"last_update": 1584266040797,
+	"last_update": 1584526177502,
 	"output": [
 		{
 			"args": {},
@@ -88,7 +88,7 @@
 			"args": {
 				"CLICK": true
 			},
-			"calls": 3234,
+			"calls": 6150,
 			"base": "`LCLICK SECURED`",
 			"fragments": [
 				"derst",
@@ -151,10 +151,76 @@
 				"K Se - ho",
 				"K  so muc",
 				"K  little"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"derstK",
+						"Kderst",
+						"think K",
+						"is so K",
+						"e - hoK",
+						"derstCK",
+						"Kthink ",
+						"Kis so ",
+						"Ke - ho",
+						"K derst",
+						"Ktle sen",
+						"K think ",
+						"K so muc",
+						"K little",
+						"K is so ",
+						"K e - ho",
+						"K Sderst",
+						"Kt a litt",
+						"Key were ",
+						"Kere - ho",
+						"K tle sen",
+						"K Sthink ",
+						"K Sis so ",
+						"K Se - ho",
+						"K  so muc",
+						"K  little"
+					]
+				}
 			]
 		}
 	],
+	"updt": 1584266260030,
+	"edit": 3,
 	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"derstK",
+				"Kderst",
+				"think K",
+				"is so K",
+				"e - hoK",
+				"derstCK",
+				"Kthink ",
+				"Kis so ",
+				"Ke - ho",
+				"K derst",
+				"Ktle sen",
+				"K think ",
+				"K so muc",
+				"K little",
+				"K is so ",
+				"K e - ho",
+				"K Sderst",
+				"Kt a litt",
+				"Key were ",
+				"Kere - ho",
+				"K tle sen",
+				"K Sthink ",
+				"K Sis so ",
+				"K Se - ho",
+				"K  so muc",
+				"K  little"
+			]
+		},
 		{
 			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
 			"frags": [
@@ -168,13 +234,6 @@
 				"ey were ",
 				"ere - ho"
 			]
-		}
-	],
-	"updt": 1584266035444,
-	"edit": 2,
-	"retry_args": [
-		{
-			"CLICK": true
 		}
 	]
 }

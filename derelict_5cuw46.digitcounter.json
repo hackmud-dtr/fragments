@@ -1,36 +1,87 @@
 {
 	"_id": "derelict_5cuw46.digitcounter",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_5cuw46.digitcounter",
 	"sector": "HJG_9830",
 	"sec_level": 4,
 	"date_added": 1584186215254,
-	"last_scraped": 1584186351499,
+	"last_scraped": 1584525779869,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1584186215254
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1584186411499,
+	"next_scrape": 1584569934169,
 	"category": "fishie_tank",
-	"last_update": 1584186351499,
+	"last_update": 1584525779869,
 	"output": [
 		{
 			"args": {},
 			"calls": 18846,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"iming",
+				"13C w",
+				"hin the ",
+				"ensive a",
+				" defensi"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"iming",
+						"13C w",
+						"hin the ",
+						"ensive a",
+						" defensi"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 601,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"iming",
+				"13C w",
+				"hin the ",
+				"ensive a",
+				" defensi"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 6493,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"iming",
+				"13C w",
+				"hin the ",
+				"ensive a",
+				" defensi"
+			]
+		}
+	],
+	"updt": 1584186381032,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"iming",
 				"13C w",
 				"hin the ",

@@ -15,6 +15,10 @@
 		{
 			"type": "died",
 			"when": 1584130309211
+		},
+		{
+			"type": "died",
+			"when": 1584515942412
 		}
 	],
 	"scrape_ct": 7,
@@ -350,8 +354,16 @@
 			]
 		}
 	],
-	"updt": 1583892208157,
-	"edit": 4,
+	"updt": 1584130695036,
+	"edit": 5,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -439,14 +451,6 @@
 			"frags": [
 				"e nee"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

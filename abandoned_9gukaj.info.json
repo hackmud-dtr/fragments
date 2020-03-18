@@ -19,6 +19,10 @@
 		{
 			"type": "died",
 			"when": 1584088560059
+		},
+		{
+			"type": "died",
+			"when": 1584515942412
 		}
 	],
 	"scrape_ct": 10,
@@ -187,16 +191,62 @@
 				"Or at l S",
 				"?\\n1EBA N",
 				".\\n1EB8 O"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"he ha",
+						"at al",
+						"he ha",
+						"at al",
+						"at a",
+						"one at",
+						"one at",
+						"one at ",
+						"ne at a",
+						"he ha",
+						"at al",
+						"Or at l",
+						" at a",
+						" a huma",
+						"rm?\\n1EB9",
+						"one at",
+						"?\\n1EBA N",
+						".\\n1EB8 O"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"he ha ",
+						"at al ",
+						"Ehe ha",
+						"Eat al",
+						"E at a",
+						"a huma ",
+						"ne at a ",
+						"Or at l "
+					]
+				}
 			]
 		}
 	],
+	"updt": 1584088769169,
+	"edit": 4,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	],
+	"manual_cleanup": true,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
 			"frags": [
 				"he ha",
 				"at al",
-				"one at",
+				"one at ",
 				"ne at a",
 				"Or at l",
 				" a huma",
@@ -204,14 +254,19 @@
 				"?\\n1EBA N",
 				".\\n1EB8 O"
 			]
-		}
-	],
-	"updt": 1581276715366,
-	"edit": 3,
-	"retry_args": [
+		},
 		{
-			"CLICK": true
+			"document": "NOT FOUND",
+			"frags": [
+				"he ha ",
+				"at al ",
+				"Ehe ha",
+				"Eat al",
+				"E at a",
+				"a huma ",
+				"ne at a ",
+				"Or at l "
+			]
 		}
-	],
-	"manual_cleanup": true
+	]
 }
