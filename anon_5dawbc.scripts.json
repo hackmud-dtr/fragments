@@ -1,12 +1,12 @@
 {
 	"_id": "anon_5dawbc.scripts",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_5dawbc.scripts",
 	"sector": "SPC_9598",
 	"sec_level": 4,
 	"date_added": 1581453561999,
-	"last_scraped": 1581453953823,
+	"last_scraped": 1584556069610,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 10,
-	"next_scrape": 1581454013823,
+	"next_scrape": 1584597941052,
 	"category": "fishie_tank",
-	"last_update": 1581453953823,
+	"last_update": 1584556104325,
 	"output": [
 		{
 			"args": {},
-			"calls": 43149,
+			"calls": 56291,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"prote",
@@ -68,7 +68,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4404,
+			"calls": 5585,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -166,8 +166,8 @@
 			]
 		}
 	],
-	"updt": 1581454007866,
-	"edit": 1,
+	"updt": 1584518498808,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -197,6 +197,11 @@
 			"frags": [
 				"nkfurt A"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_cv94vv.k3yp",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_cv94vv.k3yp",
 	"sector": "K_1590",
 	"sec_level": 4,
@@ -15,19 +15,24 @@
 	],
 	"next_scrape": 1584598257399,
 	"category": "fishie_tank",
-	"last_update": 1581294841452,
+	"last_update": 1584555545423,
 	"output": [
 		{
 			"args": {},
-			"calls": 65846,
+			"calls": 72419,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"sts. ",
 				"esn't",
+				"al ec",
+				"ientis",
 				"us answ",
 				"n't. We",
+				"at it d",
 				"We are ",
 				"'t. We ",
-				"ten, the"
+				"ten, the",
+				"e unders"
 			],
 			"hits": [
 				{
@@ -47,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7955,
+			"calls": 9528,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -55,12 +60,17 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"sts. ",
 				"esn't",
+				"al ec",
+				"ientis",
 				"us answ",
 				"n't. We",
+				"at it d",
 				"We are ",
 				"'t. We ",
-				"ten, the"
+				"ten, the",
+				"e unders"
 			],
 			"hits": [
 				{
@@ -121,9 +131,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
