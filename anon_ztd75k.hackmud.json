@@ -1,12 +1,12 @@
 {
 	"_id": "anon_ztd75k.hackmud",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_ztd75k.hackmud",
 	"sector": "VNP_8557",
 	"sec_level": 4,
 	"date_added": 1580078660660,
-	"last_scraped": 1580079125459,
+	"last_scraped": 1584549009797,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,19 +14,25 @@
 		}
 	],
 	"scrape_ct": 8,
-	"next_scrape": 1580079185459,
+	"next_scrape": 1584593217822,
 	"category": "fishie_tank",
-	"last_update": 1580079125459,
+	"last_update": 1584549045949,
 	"output": [
 		{
 			"args": {},
-			"calls": 42133,
+			"calls": 59088,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"s res",
+				"105 I",
 				" game ",
+				"have br",
 				"er has ",
+				"acker h",
 				"2107 :)",
 				" you an",
+				"ved.\\n21",
+				"u and\\n2",
 				"n.\\n2105 ",
 				"ed.\\n2107",
 				"d.\\n2107 "
@@ -50,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4923,
+			"calls": 6051,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -58,10 +64,16 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"s res",
+				"105 I",
 				" game ",
+				"have br",
 				"er has ",
+				"acker h",
 				"2107 :)",
 				" you an",
+				"ved.\\n21",
+				"u and\\n2",
 				"n.\\n2105 ",
 				"ed.\\n2107",
 				"d.\\n2107 "
@@ -112,8 +124,8 @@
 			]
 		}
 	],
-	"updt": 1580079325738,
-	"edit": 2,
+	"updt": 1584518047014,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -126,6 +138,11 @@
 				"ed.\\n2107",
 				"d.\\n2107 "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

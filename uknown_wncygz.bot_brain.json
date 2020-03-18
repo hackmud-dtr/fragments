@@ -6,33 +6,38 @@
 	"sector": "VNP_8557",
 	"sec_level": 4,
 	"date_added": 1580123493305,
-	"last_scraped": 1580123635347,
+	"last_scraped": 1584549155513,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1580123493305
 		}
 	],
-	"updt": 1580123727388,
-	"edit": 2,
+	"updt": 1584523235656,
+	"edit": 3,
 	"scrape_ct": 15,
-	"next_scrape": 1580123695347,
+	"next_scrape": 1584595285554,
 	"category": "fishie_tank",
-	"last_update": 1580123635347,
+	"last_update": 1584549155513,
 	"output": [
 		{
 			"args": {},
-			"calls": 13084,
+			"calls": 33989,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"ext ^",
 				"to the",
+				"s the ",
 				"only\\n",
 				"t ^2.\\n",
+				"rd in a",
 				"e next ",
-				"ck\\n215",
 				"2153 to",
-				"tack\\n21",
-				" ^2.\\n21"
+				"\\n2155 c",
+				" the nex",
+				" ^2.\\n21",
+				"tack\\n215",
+				"ack\\n2153"
 			],
 			"hits": [
 				{
@@ -133,6 +138,14 @@
 				"tack\\n21",
 				" ^2.\\n21"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
