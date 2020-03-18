@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_fsdp88.vlan_sim",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abndnd_fsdp88.vlan_sim",
 	"sector": "SPC_2994",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "SPC_2994",
 				"to": "HJG_1108"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1584504772328
+		}
 	],
-	"updt": 1576755541577,
-	"edit": 1822,
+	"updt": 1576755765008,
+	"edit": 1823,
 	"pl_output": "passphrase: TRUE\nusr_status: MIGRATED\naccess: GRANTED\n\nprocess halted by host",
 	"next_scrape": 1576755699107,
 	"scrape_ct": 3,

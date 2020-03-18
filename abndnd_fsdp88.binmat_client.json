@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_fsdp88.binmat_client",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abndnd_fsdp88.binmat_client",
 	"sector": "SPC_2994",
 	"sec_level": 4,
@@ -19,12 +19,16 @@
 				"from": "SPC_2994",
 				"to": "HJG_1108"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1584504772328
+		}
 	],
 	"pl_output": "Welcome! Make a game with make_game:true, attacker:\"name\", defender:\"name\"\n\nOr specify a game to view with `Ngame_id`:`Vnum`",
 	"next_scrape": 1576755818265,
-	"updt": 1576755541577,
-	"edit": 1821,
+	"updt": 1576755765008,
+	"edit": 1822,
 	"scrape_ct": 2,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1576755758265,

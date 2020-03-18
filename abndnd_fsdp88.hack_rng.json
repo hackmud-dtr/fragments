@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_fsdp88.hack_rng",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_fsdp88.hack_rng",
 	"sector": "SPC_2994",
 	"sec_level": 4,
@@ -19,8 +19,12 @@
 				"from": "SPC_2994",
 				"to": "HJG_1108"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1584504772328
+		}
 	],
-	"updt": 1576367276232,
-	"edit": 2
+	"updt": 1576755091268,
+	"edit": 3
 }
