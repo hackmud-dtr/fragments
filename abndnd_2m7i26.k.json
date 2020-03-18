@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_2m7i26.k",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_2m7i26.k",
 	"sector": "VNP_2199",
 	"sec_level": 4,
@@ -118,8 +118,13 @@
 			]
 		}
 	],
-	"updt": 1582849277373,
-	"edit": 1,
+	"updt": 1582849953248,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
 	"identified": [
 		{
 			"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
@@ -133,11 +138,6 @@
 				" our GUI",
 				" invest "
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }

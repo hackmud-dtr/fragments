@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_weg1fs.ez",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "unidentified_weg1fs.ez",
 	"sector": "K_5477",
 	"sec_level": 4,
 	"date_added": 1579394990270,
-	"last_scraped": 1579395040518,
+	"last_scraped": 1584519574286,
 	"script_log": [
 		{
 			"type": "added",
@@ -18,9 +18,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1579395100518,
+	"next_scrape": 1584602725181,
 	"category": "risk_factor",
-	"last_update": 1579395040518,
+	"last_update": 1584519574286,
 	"output": [
 		{
 			"args": {},
@@ -53,18 +53,24 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 120,
+			"calls": 429,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"ipt p",
 				" Yes.",
 				"It's i",
 				". is t",
+				". It's",
 				"## Yes",
+				" in my",
+				"ture. #",
 				"eam. is",
+				"# okay,",
+				"s the sc",
 				"personal",
 				"l take i",
-				"i'll tak"
+				"i'll tak",
+				"e. ## ok"
 			],
 			"old_fragments": [
 				"ipt p",
@@ -405,13 +411,10 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"updt": 1579395253253,
-	"edit": 1,
+	"updt": 1581276708452,
+	"edit": 2,
 	"manual_cleanup_withdo": true
 }

@@ -1,25 +1,20 @@
 {
 	"_id": "derelict_j5eojg.t3brute",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "skip",
 	"script": "derelict_j5eojg.t3brute",
 	"sector": "VNP_1373",
 	"sec_level": 4,
 	"date_added": 1578767235356,
-	"last_scraped": 1578767285740,
+	"last_scraped": 1584518831739,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1578767235356
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1578849338218,
+	"next_scrape": 1584608366363,
 	"category": "risk_factor",
 	"last_update": 1578767285740,
 	"output": [
@@ -55,5 +50,13 @@
 				" today. "
 			]
 		}
-	]
+	],
+	"updt": 1578767388878,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		}
+	],
+	"pl_output": "YOU COULD WIN 1GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
