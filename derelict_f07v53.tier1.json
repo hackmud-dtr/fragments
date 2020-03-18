@@ -1,33 +1,37 @@
 {
 	"_id": "derelict_f07v53.tier1",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_f07v53.tier1",
 	"sector": "VNP_1962",
 	"sec_level": 4,
 	"date_added": 1575996450913,
-	"last_scraped": 1577196124055,
+	"last_scraped": 1584537977411,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1575996450913
 		}
 	],
-	"next_scrape": 1577240721832,
+	"next_scrape": 1584582950607,
 	"category": "coin_flipper",
-	"last_update": 1577196124055,
+	"last_update": 1584537977411,
 	"output": [
 		{
 			"args": {},
-			"calls": 1232787,
+			"calls": 1260386,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
+				"E270FC",
 				"CLST0X",
-				"CT0X756",
+				"A_FILE",
+				"OR | NE",
 				"0X756A_",
 				"| PROG E",
 				"TW ERROR",
+				"ILE0XBBE",
 				"ERROR | ",
+				"ECT0X756",
 				"756A_FIL",
 				"\\nSYST ER"
 			],
@@ -48,8 +52,8 @@
 			]
 		}
 	],
-	"updt": 1577196266755,
-	"edit": 129,
+	"updt": 1584519176285,
+	"edit": 130,
 	"identified": [
 		{
 			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
