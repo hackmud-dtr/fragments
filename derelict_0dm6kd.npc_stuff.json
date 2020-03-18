@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_0dm6kd.npc_stuff",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_0dm6kd.npc_stuff",
 	"sector": "VNP_3954",
 	"sec_level": 4,
 	"date_added": 1580154357097,
-	"last_scraped": 1580154951105,
+	"last_scraped": 1584549391162,
 	"script_log": [
 		{
 			"type": "added",
@@ -17,22 +17,27 @@
 			"when": 1581272141599
 		}
 	],
-	"next_scrape": 1580196446054,
+	"next_scrape": 1584594500024,
 	"category": "clicker",
-	"last_update": 1580154951105,
+	"last_update": 1584549391162,
 	"output": [
 		{
 			"args": {},
-			"calls": 61191,
+			"calls": 65924,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
+				"of th",
 				"e of t",
 				"th.\\n20",
 				"strengt",
+				"C This ",
+				" is the",
 				"the atta",
+				"mage\\n20",
 				"ge\\n20ED",
 				"alue of ",
-				"\\n20EB A"
+				"\\n20EB A",
+				" damage\\n"
 			],
 			"hits": [
 				{
@@ -53,16 +58,21 @@
 			"args": {
 				"click": true
 			},
-			"calls": 49409,
+			"calls": 63275,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
+				"of th",
 				"e of t",
 				"th.\\n20",
 				"strengt",
+				"C This ",
+				" is the",
 				"the atta",
+				"mage\\n20",
 				"ge\\n20ED",
 				"alue of ",
-				"\\n20EB A"
+				"\\n20EB A",
+				" damage\\n"
 			],
 			"hits": [
 				{
@@ -179,8 +189,8 @@
 			]
 		}
 	],
-	"updt": 1581276711782,
-	"edit": 5,
+	"updt": 1584549389927,
+	"edit": 7,
 	"manual_cleanup": true,
 	"identified": [
 		{
@@ -194,6 +204,11 @@
 				"alue of ",
 				"\\n20EB A"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"CLICK": true
 		}
 	]
 }
