@@ -1,36 +1,43 @@
 {
 	"_id": "abandoned_nym4q7.snaxfer",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_nym4q7.snaxfer",
 	"sector": "K_1919",
 	"sec_level": 4,
 	"date_added": 1582902687966,
-	"last_scraped": 1582902778437,
+	"last_scraped": 1584564681026,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1582902687966
 		}
 	],
-	"updt": 1582902920235,
-	"edit": 2,
+	"updt": 1584564714985,
+	"edit": 4,
 	"scrape_ct": 17,
-	"next_scrape": 1582902838437,
+	"next_scrape": 1584606890991,
 	"category": "fishie_tank",
-	"last_update": 1582902778437,
+	"last_update": 1584564754646,
 	"output": [
 		{
 			"args": {},
-			"calls": 5371,
+			"calls": 11758,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"r's s",
+				"d aft",
 				"after",
 				"the de",
 				"e defe",
+				"FD And",
+				"F deal",
 				"2101 t",
 				"ck.\\n20",
+				"\\n20F6 ",
+				"r that w",
 				"ender's ",
+				"ed in\\n2",
 				"deal dam",
 				" deal da"
 			],
@@ -54,7 +61,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 649,
+			"calls": 2875,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -62,12 +69,19 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"r's s",
+				"d aft",
 				"after",
 				"the de",
 				"e defe",
+				"FD And",
+				"F deal",
 				"2101 t",
 				"ck.\\n20",
+				"\\n20F6 ",
+				"r that w",
 				"ender's ",
+				"ed in\\n2",
 				"deal dam",
 				" deal da"
 			],
@@ -133,6 +147,11 @@
 				"deal dam",
 				" deal da"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
