@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_v9lz1y.sys_status",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_v9lz1y.sys_status",
 	"sector": "VNP_4979",
 	"sec_level": 4,
@@ -112,8 +112,13 @@
 			]
 		}
 	],
-	"updt": 1582565286969,
-	"edit": 2,
+	"updt": 1582565512158,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
 	"identified": [
 		{
 			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
@@ -126,11 +131,6 @@
 				" a pro",
 				"on't apo"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
