@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_1mht4t.multi_t2",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_1mht4t.multi_t2",
 	"sector": "VNP_9417",
 	"sec_level": 4,
 	"date_added": 1578339141364,
-	"last_scraped": 1578339414621,
+	"last_scraped": 1584541343591,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,25 @@
 		}
 	],
 	"scrape_ct": 13,
-	"next_scrape": 1578339474621,
+	"next_scrape": 1584582510201,
 	"category": "fishie_tank",
-	"last_update": 1578339414621,
+	"last_update": 1584541343591,
 	"output": [
 		{
 			"args": {},
-			"calls": 21504,
+			"calls": 39894,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"llory",
-				"1C8 :",
-				"ver, M",
+				"7 Ver",
+				" Very",
 				"er, Ma",
+				"r\\n21C7",
+				"ever, M",
+				"21C7 Ve",
 				"ory\\n21C",
-				"Very cle"
+				"Very cle",
+				"\\n21C8 :)"
 			],
 			"hits": [
 				{
@@ -106,8 +110,8 @@
 			]
 		}
 	],
-	"updt": 1578339554492,
-	"edit": 2,
+	"updt": 1584523235656,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -119,6 +123,14 @@
 				"ory\\n21C",
 				"Very cle"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
