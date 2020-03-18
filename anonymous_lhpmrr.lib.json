@@ -15,10 +15,14 @@
 		{
 			"type": "died",
 			"when": 1583812099474
+		},
+		{
+			"type": "died",
+			"when": 1584515942412
 		}
 	],
-	"updt": 1580939706815,
-	"edit": 2,
+	"updt": 1583812178316,
+	"edit": 3,
 	"scrape_ct": 15,
 	"next_scrape": 1580939691301,
 	"category": "fishie_tank",
@@ -118,6 +122,11 @@
 			]
 		}
 	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
@@ -130,11 +139,6 @@
 				"t access",
 				" mask 'l"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
