@@ -6,7 +6,7 @@
 	"sector": "SPC_9621",
 	"sec_level": 4,
 	"date_added": 1579206565546,
-	"last_scraped": 1579207149448,
+	"last_scraped": 1584545361069,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,23 +14,29 @@
 		}
 	],
 	"scrape_ct": 3,
-	"next_scrape": 1579207209448,
+	"next_scrape": 1584586821691,
 	"category": "fishie_tank",
-	"last_update": 1579207149448,
+	"last_update": 1584545361069,
 	"output": [
 		{
 			"args": {},
-			"calls": 39631,
+			"calls": 44655,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"keep ",
+				"T0X7A_",
 				"F_CLST",
+				"FILE0X",
 				"E0X2BC",
-				"CLST0X",
+				"D178\\n",
 				"7_FILE",
 				"227_FI",
+				"ou keep",
+				"T0XBF_C",
 				"MFT0XBF",
 				"32114 Y",
-				"p writin"
+				"p writin",
+				"_CLST0X7"
 			],
 			"hits": [
 				{
@@ -52,7 +58,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4486,
+			"calls": 6430,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -60,14 +66,20 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"keep ",
+				"T0X7A_",
 				"F_CLST",
+				"FILE0X",
 				"E0X2BC",
-				"CLST0X",
+				"D178\\n",
 				"7_FILE",
 				"227_FI",
+				"ou keep",
+				"T0XBF_C",
 				"MFT0XBF",
 				"32114 Y",
-				"p writin"
+				"p writin",
+				"_CLST0X7"
 			],
 			"hits": [
 				{
@@ -89,17 +101,23 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 51489,
+			"calls": 60137,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"keep ",
+				"T0X7A_",
 				"F_CLST",
+				"FILE0X",
 				"E0X2BC",
-				"CLST0X",
+				"D178\\n",
 				"7_FILE",
 				"227_FI",
+				"ou keep",
+				"T0XBF_C",
 				"MFT0XBF",
 				"32114 Y",
-				"p writin"
+				"p writin",
+				"_CLST0X7"
 			],
 			"hits": [
 				{
@@ -118,8 +136,8 @@
 			]
 		}
 	],
-	"updt": 1579207261645,
-	"edit": 4,
+	"updt": 1584518047014,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
