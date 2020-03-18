@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_nlnubd.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_nlnubd.db",
 	"sector": "K_9653",
 	"sec_level": 4,
 	"date_added": 1581616229475,
-	"last_scraped": 1581616279349,
+	"last_scraped": 1584556866124,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,30 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1581616339349,
+	"next_scrape": 1584601151397,
 	"category": "fishie_tank",
-	"last_update": 1581616279349,
+	"last_update": 1584556938573,
 	"output": [
 		{
 			"args": {},
-			"calls": 12526,
+			"calls": 17632,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"r Eri",
+				"R, si",
 				"person",
+				"gular.",
+				"am Mal",
+				"F User",
+				"120 I ",
 				"y.\\n212",
 				"rin R, ",
+				"re one ",
 				"e one p",
+				"I am Ma",
 				"on.\\n211",
 				"211F Use",
+				".\\n211F ",
 				"llory.\\n2"
 			],
 			"hits": [
@@ -50,7 +59,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 574,
+			"calls": 2380,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -58,12 +67,21 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"r Eri",
+				"R, si",
 				"person",
+				"gular.",
+				"am Mal",
+				"F User",
+				"120 I ",
 				"y.\\n212",
 				"rin R, ",
+				"re one ",
 				"e one p",
+				"I am Ma",
 				"on.\\n211",
 				"211F Use",
+				".\\n211F ",
 				"llory.\\n2"
 			],
 			"hits": [
@@ -112,8 +130,8 @@
 			]
 		}
 	],
-	"updt": 1581616352873,
-	"edit": 1,
+	"updt": 1584523460698,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -126,6 +144,11 @@
 				"211F Use",
 				"llory.\\n2"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
