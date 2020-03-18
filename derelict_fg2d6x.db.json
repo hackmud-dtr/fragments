@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_fg2d6x.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_fg2d6x.db",
 	"sector": "K_0399",
 	"sec_level": 4,
 	"date_added": 1579004378860,
-	"last_scraped": 1579004760396,
+	"last_scraped": 1584544211816,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,23 +14,28 @@
 		}
 	],
 	"scrape_ct": 12,
-	"next_scrape": 1579004820396,
+	"next_scrape": 1584584344272,
 	"category": "fishie_tank",
-	"last_update": 1579004760396,
+	"last_update": 1584544285286,
 	"output": [
 		{
 			"args": {},
-			"calls": 26195,
+			"calls": 32519,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"to ma",
-				"here ",
-				" just",
+				"t a l",
+				"re ar",
+				"becau",
 				"knowin",
 				"een ju",
 				"d or b",
 				"ut know",
-				"s to me"
+				"s to me",
+				"ough. N",
+				"t there ",
+				"e it jus",
+				" just a "
 			],
 			"hits": [
 				{
@@ -52,7 +57,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3375,
+			"calls": 4832,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -61,13 +66,18 @@
 			],
 			"fragments": [
 				"to ma",
-				"here ",
-				" just",
+				"t a l",
+				"re ar",
+				"becau",
 				"knowin",
 				"een ju",
 				"d or b",
 				"ut know",
-				"s to me"
+				"s to me",
+				"ough. N",
+				"t there ",
+				"e it jus",
+				" just a "
 			],
 			"hits": [
 				{
@@ -118,8 +128,8 @@
 			]
 		}
 	],
-	"updt": 1579004842898,
-	"edit": 2,
+	"updt": 1584519176285,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
@@ -133,6 +143,11 @@
 				"ut know",
 				"s to me"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

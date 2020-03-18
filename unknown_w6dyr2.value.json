@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_w6dyr2.value",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_w6dyr2.value",
 	"sector": "SPC_4089",
 	"sec_level": 4,
 	"date_added": 1579032300932,
-	"last_scraped": 1579032583324,
+	"last_scraped": 1584544375106,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,23 +14,31 @@
 		}
 	],
 	"scrape_ct": 12,
-	"next_scrape": 1579032643324,
+	"next_scrape": 1584586473804,
 	"category": "fishie_tank",
-	"last_update": 1579032583324,
+	"last_update": 1584544392169,
 	"output": [
 		{
 			"args": {},
-			"calls": 33278,
+			"calls": 52507,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"st th",
+				"nk sh",
+				" her ",
 				" ## I",
 				"ble? #",
 				"I thin",
+				"I don'",
+				"what wo",
+				"gner, S",
+				"e knew ",
 				" don't ",
 				"ot just ",
 				"ons. I t",
 				", so she",
-				", Saleem"
+				", Saleem",
+				" she lie"
 			],
 			"hits": [
 				{
@@ -52,7 +60,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2714,
+			"calls": 3388,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -60,14 +68,22 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"st th",
+				"nk sh",
+				" her ",
 				" ## I",
 				"ble? #",
 				"I thin",
+				"I don'",
+				"what wo",
+				"gner, S",
+				"e knew ",
 				" don't ",
 				"ot just ",
 				"ons. I t",
 				", so she",
-				", Saleem"
+				", Saleem",
+				" she lie"
 			],
 			"hits": [
 				{
@@ -118,8 +134,8 @@
 			]
 		}
 	],
-	"updt": 1579032798278,
-	"edit": 2,
+	"updt": 1584523913103,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
@@ -133,6 +149,11 @@
 				", so she",
 				", Saleem"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
