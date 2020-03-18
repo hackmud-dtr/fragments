@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_2fgaj7.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unknown_2fgaj7.db",
 	"sector": "HJG_9167",
 	"sec_level": 4,
 	"date_added": 1580968713378,
-	"last_scraped": 1580968836834,
+	"last_scraped": 1584521309923,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1580968896834,
+	"next_scrape": 1584564359223,
 	"category": "fishie_tank",
-	"last_update": 1580968864741,
+	"last_update": 1584521309923,
 	"output": [
 		{
 			"args": {},
@@ -81,15 +81,14 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 11833,
+			"calls": 37075,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"0100 ",
-				"00 01",
-				"0000 0",
-				" 0000 ",
-				"000 000",
-				"00 0000"
+				"000 010",
+				"\\n0000 0",
+				"0000 000",
+				"00 0000 "
 			],
 			"hits": [
 				{
@@ -106,22 +105,6 @@
 			]
 		}
 	],
-	"identified": [
-		{
-			"document": "NOT FOUND",
-			"frags": [
-				"0100 ",
-				"00 01",
-				"0000 0",
-				" 0000 ",
-				"000 000",
-				"00 0000"
-			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1580969019359,
+	"edit": 1
 }
