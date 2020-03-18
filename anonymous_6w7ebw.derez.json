@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_6w7ebw.derez",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_6w7ebw.derez",
 	"sector": "K_1590",
 	"sec_level": 4,
 	"date_added": 1581318903724,
-	"last_scraped": 1581318951072,
+	"last_scraped": 1584527138758,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1581319011072,
+	"next_scrape": 1584608905338,
 	"category": "risk_factor",
-	"last_update": 1581318951072,
+	"last_update": 1584522033521,
 	"output": [
 		{
 			"args": {},
@@ -50,16 +50,24 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 367,
+			"calls": 758,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
+				"3",
+				"with ",
 				"lable",
 				"ble m",
+				"terial",
 				"t's wh",
+				"le mat",
+				". They",
 				"'s wha",
-				" do. S",
+				"l, it's",
+				"ey do. S",
 				"ey build",
-				"availabl"
+				"e materi",
+				"availabl",
+				" what th"
 			],
 			"hits": [
 				{
@@ -641,16 +649,8 @@
 			]
 		}
 	],
-	"retry_args": [
-		{
-			"do": "win"
-		},
-		{
-			"do": "LOSE"
-		}
-	],
-	"updt": 1581318973219,
-	"edit": 1,
+	"updt": 1584518498808,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -943,5 +943,14 @@
 				"availabl"
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

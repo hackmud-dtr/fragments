@@ -1,25 +1,20 @@
 {
 	"_id": "abndnd_4rhfeo.t1",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abndnd_4rhfeo.t1",
 	"sector": "NGC_5366",
 	"sec_level": 4,
 	"date_added": 1581047505872,
-	"last_scraped": 1581047575766,
+	"last_scraped": 1584521401362,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1581047505872
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1581131422234,
+	"next_scrape": 1584600795560,
 	"category": "risk_factor",
 	"last_update": 1581047575766,
 	"output": [
@@ -112,8 +107,8 @@
 			]
 		}
 	],
-	"updt": 1581047938915,
-	"edit": 1,
+	"updt": 1584518272947,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -143,5 +138,14 @@
 				"the fu"
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

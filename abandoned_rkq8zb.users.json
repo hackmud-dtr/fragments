@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_rkq8zb.users",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_rkq8zb.users",
 	"sector": "HJG_1695",
 	"sec_level": 4,
 	"date_added": 1579525639354,
-	"last_scraped": 1579528890202,
+	"last_scraped": 1584519791466,
 	"script_log": [
 		{
 			"type": "added",
@@ -18,7 +18,7 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1579528950202,
+	"next_scrape": 1584602398640,
 	"category": "risk_factor",
 	"last_update": 1579528890202,
 	"output": [
@@ -536,13 +536,8 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1581276708452,
-	"edit": 5,
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
+	"updt": 1584518272947,
+	"edit": 6,
 	"manual_cleanup_withdo": true,
 	"identified": [
 		{
@@ -600,6 +595,14 @@
 				"3",
 				" mark"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
 		}
 	]
 }

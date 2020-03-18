@@ -6,7 +6,7 @@
 	"sector": "K_6692",
 	"sec_level": 4,
 	"date_added": 1578020800608,
-	"last_scraped": 1578021414098,
+	"last_scraped": 1584540094210,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,27 @@
 		}
 	],
 	"scrape_ct": 7,
-	"next_scrape": 1578021474098,
+	"next_scrape": 1584583796724,
 	"category": "fishie_tank",
-	"last_update": 1578021414098,
+	"last_update": 1584540131467,
 	"output": [
 		{
 			"args": {},
-			"calls": 30661,
+			"calls": 44436,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"der B",
+				"E Def",
+				"mbat\\n",
 				"is red",
-				"efende",
-				"15E De",
-				" on de",
+				"initiat",
+				"educed ",
 				"bat\\n21",
-				"at\\n215"
+				"at\\n215",
+				"Defende",
+				"nder tur",
+				"F on def",
+				"\\n215E De"
 			],
 			"hits": [
 				{
@@ -48,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5616,
+			"calls": 6204,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -56,12 +62,18 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"der B",
+				"E Def",
+				"mbat\\n",
 				"is red",
-				"efende",
-				"15E De",
-				" on de",
+				"initiat",
+				"educed ",
 				"bat\\n21",
-				"at\\n215"
+				"at\\n215",
+				"Defende",
+				"nder tur",
+				"F on def",
+				"\\n215E De"
 			],
 			"hits": [
 				{
@@ -106,8 +118,8 @@
 			]
 		}
 	],
-	"updt": 1578021545396,
-	"edit": 3,
+	"updt": 1584517820870,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -119,6 +131,11 @@
 				"bat\\n21",
 				"at\\n215"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

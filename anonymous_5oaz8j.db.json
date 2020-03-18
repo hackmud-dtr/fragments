@@ -1,25 +1,20 @@
 {
 	"_id": "anonymous_5oaz8j.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_5oaz8j.db",
 	"sector": "K_7755",
 	"sec_level": 4,
 	"date_added": 1582181798144,
-	"last_scraped": 1582181887061,
+	"last_scraped": 1584523824634,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1582181798144
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1582267850389,
+	"next_scrape": 1584603808892,
 	"category": "risk_factor",
 	"last_update": 1582181887061,
 	"output": [
@@ -82,8 +77,8 @@
 			]
 		}
 	],
-	"updt": 1582182003073,
-	"edit": 1,
+	"updt": 1584518725454,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -97,5 +92,14 @@
 				"ond: ve"
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

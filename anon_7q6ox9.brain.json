@@ -1,12 +1,12 @@
 {
 	"_id": "anon_7q6ox9.brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_7q6ox9.brain",
 	"sector": "HJG_1237",
 	"sec_level": 4,
 	"date_added": 1582798460409,
-	"last_scraped": 1582798513064,
+	"last_scraped": 1584524295234,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1582798573064,
+	"next_scrape": 1584612820342,
 	"category": "risk_factor",
 	"last_update": 1582798513064,
 	"output": [
@@ -745,13 +745,8 @@
 			]
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
-	"updt": 1582798646577,
-	"edit": 1,
+	"updt": 1584518949726,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -1094,5 +1089,14 @@
 				" be work"
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

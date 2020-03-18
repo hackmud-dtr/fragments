@@ -1,12 +1,12 @@
 {
 	"_id": "anon_seh1d3.entry_vkm6r1",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_seh1d3.entry_vkm6r1",
 	"sector": "SPC_7017",
 	"sec_level": 4,
 	"date_added": 1579728032562,
-	"last_scraped": 1579728084456,
+	"last_scraped": 1584526938936,
 	"script_log": [
 		{
 			"type": "added",
@@ -22,9 +22,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1579728144456,
+	"next_scrape": 1584614427033,
 	"category": "risk_factor",
-	"last_update": 1579728084456,
+	"last_update": 1584520062546,
 	"output": [
 		{
 			"args": {},
@@ -73,19 +73,26 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 312,
+			"calls": 604,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"4",
 				"pers t",
 				"do too",
 				"ce. I ",
+				"6 inte",
 				" too\\n",
 				" inter",
+				"too\\n1E",
 				"Whisper",
+				"ugh a\\n1",
 				"terface.",
 				"rface. I",
-				"\\n1E26 in"
+				"ough a\\n",
+				"interfac",
+				"oo\\n1E27 ",
+				"\\n1E26 in",
+				" this\\n1E"
 			],
 			"old_fragments": [
 				"4",
@@ -832,16 +839,8 @@
 			]
 		}
 	],
-	"retry_args": [
-		{
-			"do": "win"
-		},
-		{
-			"do": "LOSE"
-		}
-	],
-	"updt": 1581276710360,
-	"edit": 2,
+	"updt": 1584518272947,
+	"edit": 3,
 	"manual_cleanup": true,
 	"manual_cleanup_withdo": true,
 	"identified": [
@@ -900,5 +899,14 @@
 				"\\n1E26 in"
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

@@ -1,25 +1,20 @@
 {
 	"_id": "abandoned_7mfep5.t3locs",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_7mfep5.t3locs",
 	"sector": "SPC_5998",
 	"sec_level": 4,
 	"date_added": 1581808789898,
-	"last_scraped": 1581808829232,
+	"last_scraped": 1584522975105,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1581808789898
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1581901337084,
+	"next_scrape": 1584613974251,
 	"category": "risk_factor",
 	"last_update": 1581808829232,
 	"output": [
@@ -156,8 +151,8 @@
 			]
 		}
 	],
-	"updt": 1581808896105,
-	"edit": 1,
+	"updt": 1584518498808,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -210,5 +205,14 @@
 				"s tha"
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

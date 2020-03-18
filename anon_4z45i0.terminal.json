@@ -1,12 +1,12 @@
 {
 	"_id": "anon_4z45i0.terminal",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_4z45i0.terminal",
 	"sector": "K_9653",
 	"sec_level": 4,
 	"date_added": 1581529475858,
-	"last_scraped": 1581529988855,
+	"last_scraped": 1584522287966,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1581530048855,
+	"next_scrape": 1584603076757,
 	"category": "risk_factor",
 	"last_update": 1581529988855,
 	"output": [
@@ -739,14 +739,9 @@
 			]
 		}
 	],
-	"updt": 1581530217932,
-	"edit": 3,
+	"updt": 1584518498808,
+	"edit": 4,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -1088,6 +1083,14 @@
 				"\\nSYST ",
 				"8_FILE0"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
 		}
 	]
 }

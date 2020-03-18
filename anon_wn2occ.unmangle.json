@@ -1,25 +1,20 @@
 {
 	"_id": "anon_wn2occ.unmangle",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_wn2occ.unmangle",
 	"sector": "K_6493",
 	"sec_level": 4,
 	"date_added": 1581848584046,
-	"last_scraped": 1581848622366,
+	"last_scraped": 1584523083630,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1581848584046
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1581938710275,
+	"next_scrape": 1584608491771,
 	"category": "risk_factor",
 	"last_update": 1581848622366,
 	"output": [
@@ -116,8 +111,8 @@
 			]
 		}
 	],
-	"updt": 1581848795579,
-	"edit": 1,
+	"updt": 1584518498808,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -148,5 +143,14 @@
 				" we nee"
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

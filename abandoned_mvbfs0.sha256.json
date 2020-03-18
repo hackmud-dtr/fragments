@@ -1,25 +1,20 @@
 {
 	"_id": "abandoned_mvbfs0.sha256",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_mvbfs0.sha256",
 	"sector": "K_7755",
 	"sec_level": 4,
 	"date_added": 1582296355046,
-	"last_scraped": 1582296411170,
+	"last_scraped": 1584523880105,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1582296355046
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1582389176024,
+	"next_scrape": 1584607728270,
 	"category": "risk_factor",
 	"last_update": 1582296411170,
 	"output": [
@@ -210,8 +205,8 @@
 			]
 		}
 	],
-	"updt": 1582296518829,
-	"edit": 1,
+	"updt": 1584518725454,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -290,5 +285,14 @@
 				"ould "
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

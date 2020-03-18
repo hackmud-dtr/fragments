@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_wpjlmk.range",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "anonymous_wpjlmk.range",
 	"sector": "K_5477",
 	"sec_level": 4,
 	"date_added": 1579450567637,
-	"last_scraped": 1579450619627,
+	"last_scraped": 1584519754671,
 	"script_log": [
 		{
 			"type": "added",
@@ -18,9 +18,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1579450679627,
+	"next_scrape": 1584612703625,
 	"category": "risk_factor",
-	"last_update": 1579450619627,
+	"last_update": 1584519754671,
 	"output": [
 		{
 			"args": {},
@@ -66,14 +66,19 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 322,
+			"calls": 509,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"XF227",
-				"SECT0",
+				"XBF_C",
 				"I alm",
 				"LST0X7",
+				"CT0XF2",
+				"321D7 ",
+				"_CLST0X",
 				"E0X2BC7",
+				"T0X7A_SE",
+				"A_SECT0X",
 				"2BC7D17D",
 				"\\nAD0321D",
 				"C7D17D\\nA"
@@ -455,14 +460,11 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"updt": 1581276708452,
-	"edit": 2,
+	"updt": 1584518272947,
+	"edit": 3,
 	"manual_cleanup_withdo": true,
 	"identified": [
 		{

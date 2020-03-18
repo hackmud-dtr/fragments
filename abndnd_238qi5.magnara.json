@@ -1,25 +1,20 @@
 {
 	"_id": "abndnd_238qi5.magnara",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abndnd_238qi5.magnara",
 	"sector": "HJG_1695",
 	"sec_level": 4,
 	"date_added": 1579539348870,
-	"last_scraped": 1579539400318,
+	"last_scraped": 1584519809708,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1579539348870
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1579632670164,
+	"next_scrape": 1584610518032,
 	"category": "risk_factor",
 	"last_update": 1579539400318,
 	"output": [
@@ -70,8 +65,8 @@
 			]
 		}
 	],
-	"updt": 1579539537687,
-	"edit": 1,
+	"updt": 1584518047014,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -82,5 +77,14 @@
 				"0001 010"
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

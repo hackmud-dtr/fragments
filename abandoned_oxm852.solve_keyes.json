@@ -1,25 +1,20 @@
 {
 	"_id": "abandoned_oxm852.solve_keyes",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_oxm852.solve_keyes",
 	"sector": "SPC_6978",
 	"sec_level": 4,
 	"date_added": 1579250554247,
-	"last_scraped": 1579250593463,
+	"last_scraped": 1584519465288,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1579250554247
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1579343178404,
+	"next_scrape": 1584609513265,
 	"category": "risk_factor",
 	"last_update": 1579250593463,
 	"output": [
@@ -100,8 +95,8 @@
 			]
 		}
 	],
-	"updt": 1579250752142,
-	"edit": 1,
+	"updt": 1584518047014,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "Unsanctioned",
@@ -122,5 +117,14 @@
 				"hey're c"
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
