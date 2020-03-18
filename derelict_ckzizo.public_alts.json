@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_ckzizo.public_alts",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_ckzizo.public_alts",
 	"sector": "HJG_8783",
 	"sec_level": 4,
 	"date_added": 1580383102493,
-	"last_scraped": 1580384973400,
+	"last_scraped": 1584520568219,
 	"script_log": [
 		{
 			"type": "added",
@@ -18,7 +18,7 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1580385033400,
+	"next_scrape": 1584602782031,
 	"category": "risk_factor",
 	"last_update": 1580384973400,
 	"output": [
@@ -481,14 +481,9 @@
 			]
 		}
 	],
-	"updt": 1581276711782,
-	"edit": 4,
+	"updt": 1584519176285,
+	"edit": 5,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"manual_cleanup_withdo": true,
 	"identified": [
 		{
@@ -532,6 +527,14 @@
 				"if atta",
 				"ength t"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
 		}
 	]
 }

@@ -1,24 +1,24 @@
 {
 	"_id": "anonymous_ldrq5q.scam",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_ldrq5q.scam",
 	"sector": "VNP_6031",
 	"sec_level": 4,
 	"date_added": 1583323717600,
-	"last_scraped": 1583323809106,
+	"last_scraped": 1584528123582,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1583323717600
 		}
 	],
-	"updt": 1583323953374,
-	"edit": 2,
+	"updt": 1584518949726,
+	"edit": 3,
 	"scrape_ct": 16,
-	"next_scrape": 1583323869106,
+	"next_scrape": 1584620905947,
 	"category": "risk_factor",
-	"last_update": 1583323809106,
+	"last_update": 1584525001315,
 	"output": [
 		{
 			"args": {},
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 214,
+			"calls": 378,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"ecks i",
@@ -1227,14 +1227,6 @@
 			]
 		}
 	],
-	"retry_args": [
-		{
-			"do": "win"
-		},
-		{
-			"do": "LOSE"
-		}
-	],
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -1819,5 +1811,14 @@
 				" you arr"
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

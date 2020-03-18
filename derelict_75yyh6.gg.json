@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_75yyh6.gg",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_75yyh6.gg",
 	"sector": "K_1919",
 	"sec_level": 4,
 	"date_added": 1582947399523,
-	"last_scraped": 1582947490385,
+	"last_scraped": 1584524513072,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1582947550385,
+	"next_scrape": 1584613015140,
 	"category": "risk_factor",
 	"last_update": 1582947490385,
 	"output": [
@@ -751,13 +751,8 @@
 			]
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
-	"updt": 1582947571086,
-	"edit": 1,
+	"updt": 1584518949726,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -1091,5 +1086,14 @@
 				"E9\\n{\"dat 7K290GC with do:\"win\"\n\nOR\n\nYOU COULD `¤L"
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

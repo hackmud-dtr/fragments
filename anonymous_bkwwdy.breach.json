@@ -1,22 +1,22 @@
 {
 	"_id": "anonymous_bkwwdy.breach",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_bkwwdy.breach",
 	"sector": "K_1919",
 	"sec_level": 4,
 	"date_added": 1582894575941,
-	"last_scraped": 1582894665817,
+	"last_scraped": 1584524439845,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1582894575941
 		}
 	],
-	"updt": 1582894802332,
-	"edit": 2,
+	"updt": 1584518949726,
+	"edit": 3,
 	"scrape_ct": 16,
-	"next_scrape": 1582894725817,
+	"next_scrape": 1584607973190,
 	"category": "risk_factor",
 	"last_update": 1582894665817,
 	"output": [
@@ -775,11 +775,6 @@
 			]
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -1137,5 +1132,14 @@
 				" may be "
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

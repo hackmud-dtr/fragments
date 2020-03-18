@@ -1,25 +1,20 @@
 {
 	"_id": "derelict_y2y8lw.autoculler",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_y2y8lw.autoculler",
 	"sector": "VNP_4979",
 	"sec_level": 4,
 	"date_added": 1582566011701,
-	"last_scraped": 1582566066962,
+	"last_scraped": 1584524060658,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1582566011701
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 18,
-	"next_scrape": 1582566126962,
+	"next_scrape": 1584607409254,
 	"category": "risk_factor",
 	"last_update": 1582566066962,
 	"output": [
@@ -90,8 +85,8 @@
 			]
 		}
 	],
-	"updt": 1582566414035,
-	"edit": 1,
+	"updt": 1584520079236,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
@@ -107,5 +102,14 @@
 				" narrowe"
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

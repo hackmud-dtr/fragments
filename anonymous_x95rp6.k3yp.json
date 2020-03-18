@@ -1,25 +1,20 @@
 {
 	"_id": "anonymous_x95rp6.k3yp",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_x95rp6.k3yp",
 	"sector": "SPC_8357",
 	"sec_level": 4,
 	"date_added": 1583127312831,
-	"last_scraped": 1583127403772,
+	"last_scraped": 1584524749032,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1583127312831
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1583211108334,
+	"next_scrape": 1584613474093,
 	"category": "risk_factor",
 	"last_update": 1583127403772,
 	"output": [
@@ -94,8 +89,8 @@
 			]
 		}
 	],
-	"updt": 1583127840002,
-	"edit": 2,
+	"updt": 1584518949726,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
@@ -112,5 +107,14 @@
 				"anning t"
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

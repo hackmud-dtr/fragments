@@ -1,16 +1,124 @@
 {
 	"_id": "anon_jg41n7.list_scripts",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "anon_jg41n7.list_scripts",
 	"sector": "SPC_4381",
 	"sec_level": 4,
 	"date_added": 1584525762266,
-	"last_scraped": 0,
+	"last_scraped": 1584529500207,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1584525762266
+		}
+	],
+	"updt": 1584525940661,
+	"edit": 1,
+	"scrape_ct": 18,
+	"next_scrape": 1584529560207,
+	"category": "fishie_tank",
+	"last_update": 1584529500207,
+	"output": [
+		{
+			"args": {},
+			"calls": 8348,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"MFT0X",
+				"R | PR",
+				"PROG E",
+				"_CLST0XF",
+				"LE0XBBE2",
+				"FC\\nSYST "
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"MFT0X",
+						"R | PR",
+						"PROG E",
+						"_CLST0XF",
+						"LE0XBBE2",
+						"FC\\nSYST "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 749,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"MFT0X",
+				"R | PR",
+				"PROG E",
+				"_CLST0XF",
+				"LE0XBBE2",
+				"FC\\nSYST "
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"MFT0X",
+						"R | PR",
+						"PROG E",
+						"_CLST0XF",
+						"LE0XBBE2",
+						"FC\\nSYST "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 11350,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"MFT0X",
+				"R | PR",
+				"PROG E",
+				"_CLST0XF",
+				"LE0XBBE2",
+				"FC\\nSYST "
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"MFT0X",
+						"R | PR",
+						"PROG E",
+						"_CLST0XF",
+						"LE0XBBE2",
+						"FC\\nSYST "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				"MFT0X",
+				"R | PR",
+				"PROG E",
+				"_CLST0XF",
+				"LE0XBBE2",
+				"FC\\nSYST "
+			]
 		}
 	]
 }

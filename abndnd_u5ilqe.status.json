@@ -1,25 +1,20 @@
 {
 	"_id": "abndnd_u5ilqe.status",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abndnd_u5ilqe.status",
 	"sector": "HJG_2921",
 	"sec_level": 4,
 	"date_added": 1583204287800,
-	"last_scraped": 1583204324247,
+	"last_scraped": 1584524838654,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1583204287800
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1583204384247,
+	"next_scrape": 1584611765509,
 	"category": "risk_factor",
 	"last_update": 1583204324247,
 	"output": [
@@ -90,8 +85,8 @@
 			]
 		}
 	],
-	"updt": 1583204469917,
-	"edit": 1,
+	"updt": 1584518949726,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -107,5 +102,14 @@
 				"?\\n1E43 I"
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

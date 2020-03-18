@@ -1,25 +1,20 @@
 {
 	"_id": "abandoned_o60knj.final",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_o60knj.final",
 	"sector": "K_1919",
 	"sec_level": 4,
 	"date_added": 1582885371671,
-	"last_scraped": 1582885462077,
+	"last_scraped": 1584524422828,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1582885371671
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1582964829584,
+	"next_scrape": 1584613700939,
 	"category": "risk_factor",
 	"last_update": 1582885462077,
 	"output": [
@@ -82,8 +77,8 @@
 			]
 		}
 	],
-	"updt": 1582885564460,
-	"edit": 1,
+	"updt": 1584518949726,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -97,5 +92,14 @@
 				" Add 1 t"
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
