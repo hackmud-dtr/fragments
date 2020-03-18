@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_m4ij6r.lookup",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_m4ij6r.lookup",
 	"sector": "VNP_5306",
 	"sec_level": 4,
 	"date_added": 1579740415777,
-	"last_scraped": 1579740467987,
+	"last_scraped": 1584547533618,
 	"script_log": [
 		{
 			"type": "added",
@@ -17,16 +17,16 @@
 			"when": 1581272128735
 		}
 	],
-	"updt": 1581276710360,
-	"edit": 3,
+	"updt": 1584518272947,
+	"edit": 4,
 	"scrape_ct": 19,
-	"next_scrape": 1579740527987,
+	"next_scrape": 1584591851697,
 	"category": "fishie_tank",
-	"last_update": 1579740467987,
+	"last_update": 1584547533618,
 	"output": [
 		{
 			"args": {},
-			"calls": 4387,
+			"calls": 15972,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" prove",
@@ -63,7 +63,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 937,
+			"calls": 1517,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -105,7 +105,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 3951,
+			"calls": 11058,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" prove",
