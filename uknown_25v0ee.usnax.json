@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_25v0ee.usnax",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "uknown_25v0ee.usnax",
 	"sector": "K_7367",
 	"sec_level": 4,
 	"date_added": 1575693448491,
-	"last_scraped": 1576387912116,
+	"last_scraped": 1584516027148,
 	"script_log": [
 		{
 			"type": "added",
@@ -22,7 +22,7 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1576387972116,
+	"next_scrape": 1584609210126,
 	"category": "risk_factor",
 	"last_update": 1576387912116,
 	"output": [
@@ -701,14 +701,17 @@
 			]
 		}
 	],
-	"updt": 1576388016879,
-	"edit": 3,
+	"updt": 1581276695249,
+	"edit": 4,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"manual_cleanup": true,
+	"manual_cleanup_withdo": true,
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}
-	],
-	"manual_cleanup": true,
-	"manual_cleanup_withdo": true
+	]
 }

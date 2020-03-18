@@ -1,12 +1,12 @@
 {
 	"_id": "anon_w5o3ni.npcs",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "anon_w5o3ni.npcs",
 	"sector": "NGC_7656",
 	"sec_level": 4,
 	"date_added": 1576882771353,
-	"last_scraped": 1576882821155,
+	"last_scraped": 1584516497349,
 	"script_log": [
 		{
 			"type": "added",
@@ -18,9 +18,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1576882881155,
+	"next_scrape": 1584601682142,
 	"category": "risk_factor",
-	"last_update": 1576882821155,
+	"last_update": 1584516497349,
 	"output": [
 		{
 			"args": {},
@@ -47,15 +47,24 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 210,
+			"calls": 412,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
-				"orld'",
+				"s, pr",
+				"ems a",
 				"cted ",
+				" prot",
+				"of the",
 				"e Fran",
 				"curity",
+				"ankfur",
 				"l asset",
-				"the worl"
+				"ital as",
+				" world'",
+				" assets",
+				"the worl",
+				"f the Fr",
+				" terms o"
 			],
 			"old_fragments": [
 				"orld'",
@@ -415,13 +424,10 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"updt": 1576882995660,
-	"edit": 1,
+	"updt": 1581276696870,
+	"edit": 2,
 	"manual_cleanup_withdo": true
 }

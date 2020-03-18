@@ -6,7 +6,7 @@
 	"sector": "K_1861",
 	"sec_level": 4,
 	"date_added": 1577718961274,
-	"last_scraped": 1577719013525,
+	"last_scraped": 1584517113172,
 	"script_log": [
 		{
 			"type": "added",
@@ -17,18 +17,10 @@
 			"when": 1581272098192
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1577719073525,
+	"next_scrape": 1584559486610,
 	"category": "fishie_tank",
-	"last_update": 1577719013525,
+	"last_update": 1584517113172,
 	"output": [
 		{
 			"args": {},
@@ -42,9 +34,54 @@
 				"bhandari",
 				": Index "
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1451,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"| SUB",
+				"ocess",
+				"dari ",
+				"bhand",
+				"ari |",
+				"UBJ: ",
+				"BJ: I",
+				"Index ",
+				"x proce",
+				"dex pro",
+				": Index"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 17567,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"| SUB",
+				"ocess",
+				"dari ",
+				"bhand",
+				"ari |",
+				"UBJ: ",
+				"BJ: I",
+				"Index ",
+				"x proce",
+				"dex pro",
+				": Index"
+			]
 		}
 	],
-	"updt": 1577719072621,
-	"edit": 1,
+	"updt": 1581276701609,
+	"edit": 2,
 	"manual_cleanup": true
 }

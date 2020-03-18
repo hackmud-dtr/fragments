@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_am988b.red",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unidentified_am988b.red",
 	"sector": "K_7825",
 	"sec_level": 4,
 	"date_added": 1569205954121,
-	"last_scraped": 1580987034737,
+	"last_scraped": 1580991127599,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,10 +19,22 @@
 				"from": "K_7825",
 				"to": "K_8071"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1580991127599
+		},
+		{
+			"type": "died",
+			"when": 1580991128178
+		},
+		{
+			"type": "died",
+			"when": 1584515942412
+		}
 	],
-	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR zac.pokemon_red: script doesn't exist\"}",
-	"next_scrape": 1581078039011,
-	"updt": 1580986606469,
-	"edit": 7085
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_am988b.red: script doesn't exist\"}",
+	"next_scrape": 1581082576627,
+	"updt": 1580991343120,
+	"edit": 7093
 }
