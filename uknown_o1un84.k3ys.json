@@ -6,7 +6,7 @@
 	"sector": "NGC_5366",
 	"sec_level": 4,
 	"date_added": 1581065946355,
-	"last_scraped": 1581065997217,
+	"last_scraped": 1584554566763,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,20 +14,28 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1581066057217,
+	"next_scrape": 1584599016398,
 	"category": "fishie_tank",
-	"last_update": 1581065997217,
+	"last_update": 1584554566763,
 	"output": [
 		{
 			"args": {},
-			"calls": 7580,
+			"calls": 23500,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ssista",
 				"of san",
+				" be re",
+				"stance ",
 				" operat",
 				"you've g",
 				"y honest",
+				"u've got",
+				"nest wit",
+				"n you've",
+				"gonna be",
+				"en you'v",
+				"e gonna ",
 				"ators? I",
 				" accept "
 			],
@@ -235,8 +243,8 @@
 			]
 		}
 	],
-	"updt": 1581066204803,
-	"edit": 2,
+	"updt": 1584523009541,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -290,6 +298,14 @@
 			"frags": [
 				" operat"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
