@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_7tvob7.rng",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "derelict_7tvob7.rng",
 	"sector": "K_8961",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "K_8961",
 				"to": "SPC_1841"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1584504663308
+		}
 	],
-	"updt": 1576316768869,
-	"edit": 6,
+	"updt": 1576382155724,
+	"edit": 7,
 	"pl_output": "Unexpected token u in JSON at position 0",
 	"next_scrape": 1576472455946
 }
