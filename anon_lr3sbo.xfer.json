@@ -1,12 +1,12 @@
 {
 	"_id": "anon_lr3sbo.xfer",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_lr3sbo.xfer",
 	"sector": "NGC_0792",
 	"sec_level": 4,
 	"date_added": 1581830132083,
-	"last_scraped": 1581830182380,
+	"last_scraped": 1584557644413,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,29 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1581830242380,
+	"next_scrape": 1584601555819,
 	"category": "fishie_tank",
-	"last_update": 1581830182380,
+	"last_update": 1584557644413,
 	"output": [
 		{
 			"args": {},
-			"calls": 10929,
+			"calls": 19988,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"obal ",
+				"mcode",
 				"code-",
-				"TOTW ",
 				"R | N",
+				" #7: ",
+				"TIME E",
+				"OR | T",
+				"BJ: TO",
+				"_SECT0X",
 				"SYST ER",
 				"ER smir",
+				" TOTW #",
 				"bal | SU",
+				"TW ERROR",
 				"ME ERROR",
 				" | USER "
 			],
@@ -52,7 +60,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1129,
+			"calls": 1919,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -60,12 +68,20 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"obal ",
+				"mcode",
 				"code-",
-				"TOTW ",
 				"R | N",
+				" #7: ",
+				"TIME E",
+				"OR | T",
+				"BJ: TO",
+				"_SECT0X",
 				"SYST ER",
 				"ER smir",
+				" TOTW #",
 				"bal | SU",
+				"TW ERROR",
 				"ME ERROR",
 				" | USER "
 			],
@@ -89,15 +105,23 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 6755,
+			"calls": 11786,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"obal ",
+				"mcode",
 				"code-",
-				"TOTW ",
 				"R | N",
+				" #7: ",
+				"TIME E",
+				"OR | T",
+				"BJ: TO",
+				"_SECT0X",
 				"SYST ER",
 				"ER smir",
+				" TOTW #",
 				"bal | SU",
+				"TW ERROR",
 				"ME ERROR",
 				" | USER "
 			],
@@ -118,8 +142,8 @@
 			]
 		}
 	],
-	"updt": 1581830308229,
-	"edit": 1,
+	"updt": 1584518498808,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
