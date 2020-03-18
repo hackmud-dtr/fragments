@@ -6,16 +6,16 @@
 	"sector": "NGC_2187",
 	"sec_level": 4,
 	"date_added": 1577017416430,
-	"last_scraped": 1584537652324,
+	"last_scraped": 1584537687370,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1577017416430
 		}
 	],
-	"next_scrape": 1584582870799,
+	"next_scrape": 1584580336723,
 	"category": "fishie_tank",
-	"last_update": 1584537652324,
+	"last_update": 1584537687370,
 	"output": [
 		{
 			"args": {},
@@ -53,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 10844,
+			"calls": 11582,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -61,11 +61,19 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				" done",
-				"17C I ",
+				"we are",
+				"here: ",
+				"There:",
 				"17B Th",
 				" There",
-				"AD03217B"
+				": we ar",
+				"3217B T",
+				"217C I ",
+				"17C\\nAD",
+				"C\\nAD032",
+				"AD03217B",
+				".\\n217C I",
+				" done.\\n2"
 			],
 			"hits": [
 				{
@@ -84,14 +92,22 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 100910,
+			"calls": 104668,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				" done",
-				"17C I ",
+				"we are",
+				"here: ",
+				"There:",
 				"17B Th",
 				" There",
-				"AD03217B"
+				": we ar",
+				"3217B T",
+				"217C I ",
+				"17C\\nAD",
+				"C\\nAD032",
+				"AD03217B",
+				".\\n217C I",
+				" done.\\n2"
 			],
 			"hits": [
 				{
@@ -107,8 +123,8 @@
 			]
 		}
 	],
-	"updt": 1584517820870,
-	"edit": 9,
+	"updt": 1584537662447,
+	"edit": 10,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -119,14 +135,6 @@
 				" There",
 				"AD03217B"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
