@@ -1,26 +1,26 @@
 {
 	"_id": "unknown_dl3o6d.npc_trap",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unknown_dl3o6d.npc_trap",
 	"sector": "HJG_9830",
 	"sec_level": 4,
 	"date_added": 1584167145499,
-	"last_scraped": 1584612204315,
+	"last_scraped": 1584612367910,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1584167145499
 		}
 	],
-	"scrape_ct": 15,
-	"next_scrape": 1584612264315,
+	"scrape_ct": 10,
+	"next_scrape": 1584612427910,
 	"category": "risk_factor",
-	"last_update": 1584612204315,
+	"last_update": 1584612367910,
 	"output": [
 		{
 			"args": {},
-			"calls": 1293,
+			"calls": 3881,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"C7D17A",
@@ -50,7 +50,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 727,
+			"calls": 1082,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"C7D17A",
@@ -958,8 +958,8 @@
 			]
 		}
 	],
-	"updt": 1584536084803,
-	"edit": 2,
+	"updt": 1584612276156,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -1299,5 +1299,10 @@
 			]
 		}
 	],
-	"pl_output": "YOU COULD WIN 1GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 1GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }
