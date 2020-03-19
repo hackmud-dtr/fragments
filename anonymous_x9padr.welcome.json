@@ -1,28 +1,31 @@
 {
 	"_id": "anonymous_x9padr.welcome",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "anonymous_x9padr.welcome",
 	"sector": "NGC_4847",
 	"sec_level": 4,
 	"date_added": 1584578454683,
-	"last_scraped": 1584579576359,
+	"last_scraped": 1584580226831,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1584578454683
+		},
+		{
+			"type": "died",
+			"when": 1584601911352
 		}
 	],
-	"updt": 1584579367983,
-	"edit": 5,
-	"scrape_ct": 8,
-	"next_scrape": 1584579636359,
+	"updt": 1584580269385,
+	"edit": 9,
+	"next_scrape": 1584620185630,
 	"category": "coin_flipper",
-	"last_update": 1584579576359,
+	"last_update": 1584580226831,
 	"output": [
 		{
 			"args": {},
-			"calls": 75570,
+			"calls": 136369,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"in th",
