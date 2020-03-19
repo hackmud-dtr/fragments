@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_25v0ee.usnax",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "uknown_25v0ee.usnax",
 	"sector": "K_7367",
 	"sec_level": 4,
@@ -19,6 +19,10 @@
 		{
 			"type": "manual edit withdo",
 			"when": 1581272740598
+		},
+		{
+			"type": "died",
+			"when": 1584623442238
 		}
 	],
 	"scrape_ct": 17,
@@ -45,6 +49,19 @@
 				"ed Rob",
 				"ion\",\"m",
 				"we look "
+			],
+			"hits": [
+				{
+					"document": "guest post",
+					"frags": [
+						"de on",
+						"T POS",
+						"ntegra",
+						"ed Rob",
+						"ion\",\"m",
+						"we look "
+					]
+				}
 			]
 		},
 		{
@@ -77,6 +94,33 @@
 				"ed Rob",
 				"ion\",\"m",
 				"we look "
+			],
+			"hits": [
+				{
+					"document": "guest post",
+					"frags": [
+						"T POS",
+						" prid",
+						"global",
+						"ed Rob",
+						"e on t",
+						"de on ",
+						"ck wit",
+						"cessfu",
+						"ssful, ",
+						"ion\",\"m",
+						"integra",
+						":\"GUEST",
+						"we look ",
+						" solutio"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"f succ"
+					]
+				}
 			]
 		},
 		{
@@ -707,17 +751,105 @@
 				"we look  1M27ÃK411GCÃwith do:\"win\"\n\nOR\n\nY¨U COULD",
 				"ion\",\"mN 79GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE",
 				"we look N 18GC with do:\"win\"¤\nOR\n\nYOUÁCOULD `VLOSE"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"3.209",
+						"de on4",
+						"T POS3",
+						"6de on",
+						"de on 3",
+						"T POS 4",
+						"9GT POS",
+						"9G look",
+						"72M645K",
+						"ion\",\"m3",
+						"ed Rob 4",
+						"ed Rob 3",
+						"de onN 4",
+						"4Gntegra",
+						"4Ged Rob",
+						"ed RobN 9",
+						"ed RobN 3",
+						"4Gion\",\"m",
+						"8Gwe look ",
+						"534633561Q939T",
+						"86K83Gwe look o",
+						"de onYOU COULD `VL",
+						" lookN 1.3754352557",
+						"\nOR\n\nYOU COULD  lookE",
+						"T POS606567274075e+58QG",
+						"9875Q44T448B53M30K9de onwith ",
+						"047616733Q205T26B169M454K59ion\",\"mh do:"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1584518272947,
-	"edit": 5,
+	"updt": 1584602583225,
+	"edit": 6,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"manual_cleanup": true,
 	"manual_cleanup_withdo": true,
 	"retry_args": [
 		{
 			"do": "LOSE"
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"3.209",
+				"f succ",
+				"de on4",
+				"T POS3",
+				"6de on",
+				"de on 3",
+				"T POS 4",
+				"9GT POS",
+				"9G look",
+				"72M645K",
+				"ion\",\"m3",
+				"ed Rob 4",
+				"ed Rob 3",
+				"de onN 4",
+				"4Gntegra",
+				"4Ged Rob",
+				"ed RobN 9",
+				"ed RobN 3",
+				"4Gion\",\"m",
+				"8Gwe look ",
+				"534633561Q939T",
+				"86K83Gwe look o",
+				"de onYOU COULD `VL",
+				" lookN 1.3754352557",
+				"\nOR\n\nYOU COULD  lookE",
+				"T POS606567274075e+58QG",
+				"9875Q44T448B53M30K9de onwith ",
+				"047616733Q205T26B169M454K59ion\",\"mh do:"
+			]
+		},
+		{
+			"document": "guest post",
+			"frags": [
+				"T POS",
+				" prid",
+				"global",
+				"ed Rob",
+				"e on t",
+				"de on ",
+				"ck wit",
+				"cessfu",
+				"ssful, ",
+				"ion\",\"m",
+				"integra",
+				":\"GUEST",
+				"we look ",
+				" solutio"
+			]
 		}
 	]
 }
