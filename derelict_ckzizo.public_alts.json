@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_ckzizo.public_alts",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "derelict_ckzizo.public_alts",
 	"sector": "HJG_8783",
 	"sec_level": 4,
 	"date_added": 1580383102493,
-	"last_scraped": 1584520568219,
+	"last_scraped": 1584607100862,
 	"script_log": [
 		{
 			"type": "added",
@@ -17,10 +17,10 @@
 			"when": 1581272759313
 		}
 	],
-	"scrape_ct": 15,
-	"next_scrape": 1584602782031,
+	"scrape_ct": 11,
+	"next_scrape": 1584607160862,
 	"category": "risk_factor",
-	"last_update": 1580384973400,
+	"last_update": 1584607100862,
 	"output": [
 		{
 			"args": {},
@@ -68,17 +68,23 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 675,
+			"calls": 1275,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"4",
-				"to 0 ",
+				"wins,",
 				"et de",
+				"age i",
 				"215C ",
 				"C stre",
+				"ttacker",
+				"o 0 if ",
 				"if atta",
 				"ength t",
-				"efender\\n"
+				"D but d",
+				"th to 0 ",
+				"efender\\n",
+				",\\n215D b"
 			],
 			"old_fragments": [
 				"4",
@@ -481,8 +487,8 @@
 			]
 		}
 	],
-	"updt": 1584519176285,
-	"edit": 5,
+	"updt": 1584536761755,
+	"edit": 6,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"manual_cleanup_withdo": true,
 	"identified": [
@@ -530,9 +536,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

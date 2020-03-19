@@ -6,7 +6,7 @@
 	"sector": "K_7655",
 	"sec_level": 4,
 	"date_added": 1580567187236,
-	"last_scraped": 1584520749792,
+	"last_scraped": 1584607210824,
 	"script_log": [
 		{
 			"type": "added",
@@ -21,22 +21,27 @@
 			"when": 1581272759313
 		}
 	],
-	"scrape_ct": 14,
-	"next_scrape": 1584611820515,
+	"scrape_ct": 13,
+	"next_scrape": 1584687541316,
 	"category": "risk_factor",
-	"last_update": 1580568051507,
+	"last_update": 1584607193698,
 	"output": [
 		{
 			"args": {},
-			"calls": 3082,
+			"calls": 5064,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"ratio",
+				"bal t",
+				" Robo",
 				"ul, so",
 				"nology",
 				"algama",
 				"T At A",
 				" we lo",
 				":\"GUEST",
+				"\",\"msg\"",
+				"ide on t",
 				"ated Rob"
 			],
 			"old_fragments": [
@@ -53,15 +58,20 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 706,
+			"calls": 868,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
+				"ratio",
+				"bal t",
+				" Robo",
 				"ul, so",
 				"nology",
 				"algama",
 				"T At A",
 				":\"GUEST",
 				"3 we lo",
+				"\",\"msg\"",
+				"ide on t",
 				"ated Rob"
 			],
 			"old_fragments": [
@@ -506,9 +516,17 @@
 			]
 		}
 	],
-	"pl_output": "YOU COULD WIN 1GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1581276713936,
-	"edit": 3,
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1584520754378,
+	"edit": 4,
 	"manual_cleanup": true,
-	"manual_cleanup_withdo": true
+	"manual_cleanup_withdo": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
