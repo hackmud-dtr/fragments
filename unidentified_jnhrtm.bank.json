@@ -6,7 +6,7 @@
 	"sector": "K_7655",
 	"sec_level": 4,
 	"date_added": 1580598545100,
-	"last_scraped": 1584577786080,
+	"last_scraped": 1584577840027,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,24 +14,31 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1584621832586,
+	"next_scrape": 1584617451022,
 	"category": "fishie_tank",
-	"last_update": 1584520785036,
+	"last_update": 1584577840027,
 	"output": [
 		{
 			"args": {},
-			"calls": 20731,
+			"calls": 32180,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				" dama",
 				"that w",
 				"der's ",
+				" that ",
+				"to\\n210",
 				"ack.\\n2",
 				"\\n20F6 ",
 				" to\\n21",
+				"\\n20FF d",
+				"F deal d",
+				"D And af",
 				"6 the de",
 				"20F6 the",
 				"'s stack",
-				"yed in\\n2"
+				"yed in\\n2",
+				"\\n2101 th"
 			],
 			"hits": [
 				{
@@ -54,7 +61,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1114,
+			"calls": 1869,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -62,15 +69,22 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				" dama",
 				"that w",
 				"der's ",
+				" that ",
+				"to\\n210",
 				"ack.\\n2",
 				"\\n20F6 ",
 				" to\\n21",
+				"\\n20FF d",
+				"F deal d",
+				"D And af",
 				"6 the de",
 				"20F6 the",
 				"'s stack",
-				"yed in\\n2"
+				"yed in\\n2",
+				"\\n2101 th"
 			],
 			"hits": [
 				{
@@ -93,7 +107,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 13427,
+			"calls": 20329,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"20F6 ",
@@ -145,14 +159,6 @@
 				"yed in\\n2",
 				"\\n2101 th"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
