@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_u8svxr.math",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "anonymous_u8svxr.math",
 	"sector": "SPC_5998",
 	"sec_level": 4,
 	"date_added": 1581790611034,
-	"last_scraped": 1584522957244,
+	"last_scraped": 1584609453477,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1584610663126,
+	"next_scrape": 1584696233630,
 	"category": "risk_factor",
-	"last_update": 1581790630395,
+	"last_update": 1584609453477,
 	"output": [
 		{
 			"args": {},
@@ -46,14 +46,16 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 102,
+			"calls": 418,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
-				"00 000",
 				"1 0100 ",
-				"0 0000 ",
+				"0100 00",
+				"100 0000",
 				"00 0100 ",
-				"0 0100 0"
+				"0 0100 0",
+				"0 0001 0",
+				"0 0000 0"
 			],
 			"hits": [
 				{
@@ -69,8 +71,8 @@
 			]
 		}
 	],
-	"updt": 1584518498808,
-	"edit": 3,
+	"updt": 1584536536698,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -84,9 +86,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
