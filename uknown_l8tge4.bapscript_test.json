@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_l8tge4.bapscript_test",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_l8tge4.bapscript_test",
 	"sector": "SPC_9598",
 	"sec_level": 4,
 	"date_added": 1581457254298,
-	"last_scraped": 1584522269482,
+	"last_scraped": 1584578492813,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1584561878347,
+	"next_scrape": 1584621695334,
 	"category": "fishie_tank",
-	"last_update": 1584522269482,
+	"last_update": 1584578527175,
 	"output": [
 		{
 			"args": {},
-			"calls": 9886,
+			"calls": 23639,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"Re: E",
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 818,
+			"calls": 2181,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -118,8 +118,8 @@
 			]
 		}
 	],
-	"updt": 1584522333742,
-	"edit": 2,
+	"updt": 1584578464741,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
@@ -133,6 +133,11 @@
 				"6DE\\nSYS",
 				" Re: Re:"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
