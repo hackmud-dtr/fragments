@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_orzwy4.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_orzwy4.db",
 	"sector": "K_1099",
 	"sec_level": 4,
 	"date_added": 1582136469864,
-	"last_scraped": 1584523661822,
+	"last_scraped": 1584580065006,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,25 @@
 		}
 	],
 	"scrape_ct": 13,
-	"next_scrape": 1584566299619,
+	"next_scrape": 1584624644990,
 	"category": "fishie_tank",
-	"last_update": 1584523661822,
+	"last_update": 1584580138490,
 	"output": [
 		{
 			"args": {},
-			"calls": 27718,
+			"calls": 34835,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"Chris",
 				"21D M",
-				"mas.\\n2",
+				"y Chris",
+				"Mallory",
+				".\\n221E",
 				".\\n221D",
 				" Mallor",
-				"ill.\\n22"
+				"ristmas.",
+				"ill.\\n22",
+				"erry Chr",
+				"mas.\\n221"
 			],
 			"hits": [
 				{
@@ -48,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3508,
+			"calls": 5173,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -56,12 +60,16 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"Chris",
 				"21D M",
-				"mas.\\n2",
+				"y Chris",
+				"Mallory",
+				".\\n221E",
 				".\\n221D",
 				" Mallor",
-				"ill.\\n22"
+				"ristmas.",
+				"ill.\\n22",
+				"erry Chr",
+				"mas.\\n221"
 			],
 			"hits": [
 				{
@@ -110,8 +118,8 @@
 			]
 		}
 	],
-	"updt": 1584523009541,
-	"edit": 3,
+	"updt": 1584536761755,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -123,6 +131,11 @@
 				" Mallor",
 				"ill.\\n22"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
