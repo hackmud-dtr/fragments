@@ -1,12 +1,12 @@
 {
 	"_id": "anon_w5o3ni.xfer_upgrade_from",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_w5o3ni.xfer_upgrade_from",
 	"sector": "VNP_2199",
 	"sec_level": 4,
 	"date_added": 1582845812976,
-	"last_scraped": 1584524331783,
+	"last_scraped": 1584581458755,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,24 +14,30 @@
 		}
 	],
 	"scrape_ct": 7,
-	"next_scrape": 1584568812888,
+	"next_scrape": 1584625605981,
 	"category": "fishie_tank",
-	"last_update": 1584524331783,
+	"last_update": 1584581494438,
 	"output": [
 		{
 			"args": {},
-			"calls": 40730,
+			"calls": 52192,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"hes o",
 				"Houst",
 				" neig",
 				"rhoods",
+				"oods, ",
+				"hoods,",
 				" was a",
+				"e to re",
 				"ston's A",
 				"perating",
+				"hborhood",
 				"esign sw",
+				"as able ",
 				"New Hous",
+				" municip",
 				" able to"
 			],
 			"hits": [
@@ -66,7 +72,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4203,
+			"calls": 5137,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -78,11 +84,17 @@
 				"Houst",
 				" neig",
 				"rhoods",
+				"oods, ",
+				"hoods,",
 				" was a",
+				"e to re",
 				"ston's A",
 				"perating",
+				"hborhood",
 				"esign sw",
+				"as able ",
 				"New Hous",
+				" municip",
 				" able to"
 			],
 			"hits": [
@@ -166,8 +178,8 @@
 			]
 		}
 	],
-	"updt": 1584518949726,
-	"edit": 6,
+	"updt": 1584536761755,
+	"edit": 7,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -193,6 +205,11 @@
 			"frags": [
 				"perating"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

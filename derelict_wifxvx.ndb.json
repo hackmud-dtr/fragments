@@ -1,36 +1,40 @@
 {
 	"_id": "derelict_wifxvx.ndb",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_wifxvx.ndb",
 	"sector": "K_5332",
 	"sec_level": 4,
 	"date_added": 1582642590409,
-	"last_scraped": 1584524169447,
+	"last_scraped": 1584581116112,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1582642590409
 		}
 	],
-	"updt": 1584519402889,
-	"edit": 6,
+	"updt": 1584536761755,
+	"edit": 7,
 	"scrape_ct": 6,
-	"next_scrape": 1584568397114,
+	"next_scrape": 1584622609538,
 	"category": "fishie_tank",
-	"last_update": 1584524169447,
+	"last_update": 1584581132979,
 	"output": [
 		{
 			"args": {},
-			"calls": 49423,
+			"calls": 60714,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ursel",
 				"rself",
+				"2F Bu",
 				"you co",
+				"ted to",
 				"ou coul",
 				"f\\n2137",
-				"137 take"
+				"hive you",
+				"137 take",
+				"to,\\n2132"
 			],
 			"hits": [
 				{
@@ -50,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4449,
+			"calls": 4994,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -60,10 +64,14 @@
 			"fragments": [
 				"ursel",
 				"rself",
+				"2F Bu",
 				"you co",
+				"ted to",
 				"ou coul",
 				"f\\n2137",
-				"137 take"
+				"hive you",
+				"137 take",
+				"to,\\n2132"
 			],
 			"hits": [
 				{
@@ -123,6 +131,11 @@
 				"f\\n2137",
 				"137 take"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
