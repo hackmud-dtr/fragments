@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_rvagvt.suck",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_rvagvt.suck",
 	"sector": "NGC_3954",
 	"sec_level": 4,
 	"date_added": 1580326710238,
-	"last_scraped": 1584520441709,
+	"last_scraped": 1584577696696,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,25 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1584560131439,
+	"next_scrape": 1584619756876,
 	"category": "fishie_tank",
-	"last_update": 1584520441709,
+	"last_update": 1584577696696,
 	"output": [
 		{
 			"args": {},
-			"calls": 11248,
+			"calls": 30844,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"user ",
+				"llo, u",
 				"ello, ",
 				"\\n1E19",
+				"o, user",
 				"E17 Hell",
 				"8 I am h",
+				" user Er",
 				"ry\\n1E17 ",
-				"ceive\\n1E"
+				"ceive\\n1E",
+				"R.\\n1E18 "
 			],
 			"hits": [
 				{
@@ -97,8 +100,8 @@
 			]
 		}
 	],
-	"updt": 1584518047014,
-	"edit": 2,
+	"updt": 1584536536698,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -111,6 +114,14 @@
 				"ry\\n1E17 ",
 				"ceive\\n1E"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
