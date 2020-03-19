@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_6ivm5p.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_6ivm5p.db",
 	"sector": "HJG_1237",
 	"sec_level": 4,
 	"date_added": 1582751031102,
-	"last_scraped": 1584613989652,
+	"last_scraped": 1584650261549,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 12,
-	"next_scrape": 1584655394369,
+	"next_scrape": 1584694430578,
 	"category": "fishie_tank",
-	"last_update": 1584613989652,
+	"last_update": 1584650315679,
 	"output": [
 		{
 			"args": {},
-			"calls": 38380,
+			"calls": 48260,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"g with ",
@@ -48,7 +48,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4823,
+			"calls": 5969,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -106,8 +106,8 @@
 			]
 		}
 	],
-	"updt": 1584564039775,
-	"edit": 5,
+	"updt": 1584614304805,
+	"edit": 6,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -119,6 +119,11 @@
 				"le\\n20F4",
 				"he attac"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
