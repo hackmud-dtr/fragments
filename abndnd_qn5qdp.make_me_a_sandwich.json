@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_qn5qdp.make_me_a_sandwich",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_qn5qdp.make_me_a_sandwich",
 	"sector": "K_5477",
 	"sec_level": 4,
 	"date_added": 1579497977906,
-	"last_scraped": 1584519772985,
+	"last_scraped": 1584576898987,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,19 +14,26 @@
 		}
 	],
 	"scrape_ct": 9,
-	"next_scrape": 1584564432577,
+	"next_scrape": 1584622113646,
 	"category": "fishie_tank",
-	"last_update": 1584519772985,
+	"last_update": 1584576936475,
 	"output": [
 		{
 			"args": {},
-			"calls": 32975,
+			"calls": 47481,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"u wan",
 				"nted ",
+				"ive y",
 				"2124 ",
+				"137 t",
 				" your",
+				"32 you",
+				"12F Bu",
+				"f you w",
 				"uld hive",
+				"ld hive ",
 				" could h",
 				" But if ",
 				" to,\\n213"
@@ -50,7 +57,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5220,
+			"calls": 6177,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -58,10 +65,17 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"u wan",
 				"nted ",
+				"ive y",
 				"2124 ",
+				"137 t",
 				" your",
+				"32 you",
+				"12F Bu",
+				"f you w",
 				"uld hive",
+				"ld hive ",
 				" could h",
 				" But if ",
 				" to,\\n213"
@@ -119,8 +133,8 @@
 			]
 		}
 	],
-	"updt": 1584518047014,
-	"edit": 4,
+	"updt": 1584576886921,
+	"edit": 6,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -133,6 +147,11 @@
 				" But if ",
 				" to,\\n213"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
