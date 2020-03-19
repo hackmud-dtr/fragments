@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_cewlvb.sort",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_cewlvb.sort",
 	"sector": "NGC_8674",
 	"sec_level": 4,
 	"date_added": 1582482599059,
-	"last_scraped": 1584611626041,
+	"last_scraped": 1584648851014,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1584654240591,
+	"next_scrape": 1584693956494,
 	"category": "fishie_tank",
-	"last_update": 1584611626041,
+	"last_update": 1584648851014,
 	"output": [
 		{
 			"args": {},
-			"calls": 15249,
+			"calls": 34060,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"nobod",
@@ -130,8 +130,8 @@
 			]
 		}
 	],
-	"updt": 1584611601762,
-	"edit": 5,
+	"updt": 1584611826641,
+	"edit": 6,
 	"identified": [
 		{
 			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
@@ -144,6 +144,14 @@
 				"evitably",
 				", 'play "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
