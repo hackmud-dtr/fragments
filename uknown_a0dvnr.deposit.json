@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_a0dvnr.deposit",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_a0dvnr.deposit",
 	"sector": "HJG_9830",
 	"sec_level": 4,
 	"date_added": 1584178741789,
-	"last_scraped": 1584525742873,
+	"last_scraped": 1584583214362,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1584569051719,
+	"next_scrape": 1584625468844,
 	"category": "fishie_tank",
-	"last_update": 1584525742873,
+	"last_update": 1584583232853,
 	"output": [
 		{
 			"args": {},
-			"calls": 18987,
+			"calls": 35268,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"r Eri",
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2109,
+			"calls": 2707,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -118,8 +118,8 @@
 			]
 		}
 	],
-	"updt": 1584179169587,
-	"edit": 1,
+	"updt": 1584583205206,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -133,6 +133,11 @@
 				"n R.\\n1E1",
 				"allory\\n1"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
