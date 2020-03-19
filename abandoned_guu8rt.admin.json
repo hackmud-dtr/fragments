@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_guu8rt.admin",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_guu8rt.admin",
 	"sector": "K_1098",
 	"sec_level": 4,
 	"date_added": 1580872824859,
-	"last_scraped": 1584553717754,
+	"last_scraped": 1584598838611,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 11,
-	"next_scrape": 1584597234697,
+	"next_scrape": 1584640707475,
 	"category": "fishie_tank",
-	"last_update": 1584553717754,
+	"last_update": 1584598892387,
 	"output": [
 		{
 			"args": {},
-			"calls": 40162,
+			"calls": 52123,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"p car",
@@ -54,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4784,
+			"calls": 6612,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -124,8 +124,8 @@
 			]
 		}
 	],
-	"updt": 1584553670247,
-	"edit": 4,
+	"updt": 1584553895240,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -140,6 +140,11 @@
 				"161 dis",
 				" discar"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
