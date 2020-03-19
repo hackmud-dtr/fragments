@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_238qi5.magnara",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "abndnd_238qi5.magnara",
 	"sector": "HJG_1695",
 	"sec_level": 4,
 	"date_added": 1579539348870,
-	"last_scraped": 1584519809708,
+	"last_scraped": 1584606431304,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1584610518032,
+	"next_scrape": 1584690487543,
 	"category": "risk_factor",
-	"last_update": 1579539400318,
+	"last_update": 1584606431304,
 	"output": [
 		{
 			"args": {},
@@ -44,13 +44,18 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 104,
+			"calls": 305,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
+				"100 00",
+				"00 000",
 				"1 0100 ",
 				"01 0100",
 				"0000 01",
-				"0001 010"
+				"000 010",
+				" 0101 0",
+				"0001 010",
+				"0 0000 0"
 			],
 			"hits": [
 				{
@@ -65,8 +70,8 @@
 			]
 		}
 	],
-	"updt": 1584518047014,
-	"edit": 2,
+	"updt": 1584606420117,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -79,9 +84,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
