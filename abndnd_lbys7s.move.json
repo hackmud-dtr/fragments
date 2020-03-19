@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_lbys7s.move",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "abndnd_lbys7s.move",
 	"sector": "NGC_7603",
 	"sec_level": 4,
 	"date_added": 1577235570909,
-	"last_scraped": 1584529228131,
+	"last_scraped": 1584615806706,
 	"script_log": [
 		{
 			"type": "added",
@@ -21,26 +21,31 @@
 			"when": 1581272747129
 		}
 	],
-	"scrape_ct": 16,
-	"next_scrape": 1584612556185,
+	"scrape_ct": 15,
+	"next_scrape": 1584699114594,
 	"category": "risk_factor",
-	"last_update": 1584528955712,
+	"last_update": 1584615806706,
 	"output": [
 		{
 			"args": {},
-			"calls": 818,
+			"calls": 3391,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"nvest",
 				"n ens",
 				"y in e",
+				"rgy in",
 				"ergy i",
 				"ensuri",
 				"TRACK.",
-				"K. We ",
+				" time/",
 				" APPRO",
 				"heir ti",
-				"CITING'"
+				"CITING'",
+				" have A",
+				"st their",
+				"RACK. We",
+				"ACK. We "
 			],
 			"old_fragments": [
 				"nvest",
@@ -76,7 +81,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 685,
+			"calls": 947,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"3",
@@ -1177,8 +1182,8 @@
 			]
 		}
 	],
-	"updt": 1584518272947,
-	"edit": 3,
+	"updt": 1584536536698,
+	"edit": 4,
 	"manual_cleanup": true,
 	"manual_cleanup_withdo": true,
 	"identified": [
@@ -1252,5 +1257,10 @@
 			]
 		}
 	],
-	"pl_output": "YOU COULD WIN 1GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 1GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }

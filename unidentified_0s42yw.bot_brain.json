@@ -1,25 +1,25 @@
 {
 	"_id": "unidentified_0s42yw.bot_brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_0s42yw.bot_brain",
 	"sector": "K_5175",
 	"sec_level": 4,
 	"date_added": 1583210612231,
-	"last_scraped": 1584566339627,
+	"last_scraped": 1584615337006,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1583210612231
 		}
 	],
-	"next_scrape": 1584606405295,
+	"next_scrape": 1584658551767,
 	"category": "fishie_tank",
-	"last_update": 1584566339627,
+	"last_update": 1584615391045,
 	"output": [
 		{
 			"args": {},
-			"calls": 76466,
+			"calls": 86810,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"rs wi",
@@ -49,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 10907,
+			"calls": 12581,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -111,8 +111,8 @@
 			]
 		}
 	],
-	"updt": 1584523235656,
-	"edit": 10,
+	"updt": 1584566517056,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -125,6 +125,11 @@
 				"arest po",
 				"sum\\n20B5"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
