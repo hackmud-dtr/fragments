@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_9n8qd5.uick_start",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_9n8qd5.uick_start",
 	"sector": "SPC_5830",
 	"sec_level": 4,
 	"date_added": 1584246401771,
-	"last_scraped": 1584572412716,
+	"last_scraped": 1584621818325,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1584617811920,
+	"next_scrape": 1584662395298,
 	"category": "fishie_tank",
-	"last_update": 1584572412716,
+	"last_update": 1584621890256,
 	"output": [
 		{
 			"args": {},
-			"calls": 24592,
+			"calls": 32715,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"e exce",
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2073,
+			"calls": 4366,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -118,8 +118,8 @@
 			]
 		}
 	],
-	"updt": 1584536084803,
-	"edit": 3,
+	"updt": 1584572602923,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -133,6 +133,11 @@
 				"deck?\\n2",
 				"?\\n2102 Y"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
