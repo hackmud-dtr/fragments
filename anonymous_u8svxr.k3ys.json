@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_u8svxr.k3ys",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_u8svxr.k3ys",
 	"sector": "VNP_3449",
 	"sec_level": 4,
 	"date_added": 1576904365049,
-	"last_scraped": 1584575903953,
+	"last_scraped": 1584624198895,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,29 +14,34 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1584619415878,
+	"next_scrape": 1584668455671,
 	"category": "fishie_tank",
-	"last_update": 1584575903953,
+	"last_update": 1584624233720,
 	"output": [
 		{
 			"args": {},
-			"calls": 22361,
+			"calls": 36987,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"it is",
 				"f it ",
 				"If it",
-				"e next",
 				"a stac",
+				"2155 c",
+				"2153 t",
+				"t is th",
 				"s the o",
+				"e next ",
 				"\\n2156 ",
 				" card i",
+				" ^2.\\n2",
 				"xt ^2.\\n",
-				"stack\\n2",
 				"ly\\n2155",
 				"ck\\n2153",
 				"ard in a",
 				"2154 If ",
-				".\\n2154 "
+				".\\n2154 ",
+				" stack\\n2"
 			],
 			"hits": [
 				{
@@ -59,7 +64,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1607,
+			"calls": 2747,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -67,20 +72,25 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"it is",
 				"f it ",
 				"If it",
-				"e next",
 				"a stac",
+				"2155 c",
+				"2153 t",
+				"t is th",
 				"s the o",
+				"e next ",
 				"\\n2156 ",
 				" card i",
+				" ^2.\\n2",
 				"xt ^2.\\n",
-				"stack\\n2",
 				"ly\\n2155",
 				"ck\\n2153",
 				"ard in a",
 				"2154 If ",
-				".\\n2154 "
+				".\\n2154 ",
+				" stack\\n2"
 			],
 			"hits": [
 				{
@@ -134,8 +144,8 @@
 			]
 		}
 	],
-	"updt": 1584536536698,
-	"edit": 3,
+	"updt": 1584624228915,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -155,6 +165,11 @@
 				"2154 If ",
 				".\\n2154 "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
