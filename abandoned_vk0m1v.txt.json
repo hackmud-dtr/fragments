@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_vk0m1v.txt",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_vk0m1v.txt",
 	"sector": "VNP_6115",
 	"sec_level": 4,
 	"date_added": 1584469139317,
-	"last_scraped": 1584584424731,
+	"last_scraped": 1584629028985,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,23 +14,27 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1584625701755,
+	"next_scrape": 1584668902097,
 	"category": "fishie_tank",
-	"last_update": 1584584424731,
+	"last_update": 1584629046868,
 	"output": [
 		{
 			"args": {},
-			"calls": 15328,
+			"calls": 31576,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"tack?",
 				"6 On ",
+				"20A6 ",
 				"ere do",
 				"ck?\\n2",
+				"On you",
+				"your si",
 				"ur side",
 				"the sta",
 				"of a la",
 				"k?\\n20A",
+				",\\n20A7",
 				"ne,\\n20A",
 				"n your s",
 				"f a lane",
@@ -38,10 +42,11 @@
 				"ace the ",
 				"I place ",
 				"0A5 Wher",
-				".\\n20A5 ",
+				" side of",
 				" lane,\\n",
 				" do I pl",
-				" a lane,"
+				" a lane,",
+				"k.\\n20A5 "
 			],
 			"hits": [
 				{
@@ -67,7 +72,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2510,
+			"calls": 3244,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -77,12 +82,16 @@
 			"fragments": [
 				"tack?",
 				"6 On ",
+				"20A6 ",
 				"ere do",
 				"ck?\\n2",
+				"On you",
+				"your si",
 				"ur side",
 				"the sta",
 				"of a la",
 				"k?\\n20A",
+				",\\n20A7",
 				"ne,\\n20A",
 				"n your s",
 				"f a lane",
@@ -90,10 +99,11 @@
 				"ace the ",
 				"I place ",
 				"0A5 Wher",
-				".\\n20A5 ",
+				" side of",
 				" lane,\\n",
 				" do I pl",
-				" a lane,"
+				" a lane,",
+				"k.\\n20A5 "
 			],
 			"hits": [
 				{
@@ -144,8 +154,8 @@
 			]
 		}
 	],
-	"updt": 1584536310611,
-	"edit": 2,
+	"updt": 1584584557520,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -163,6 +173,11 @@
 				" lane,\\n",
 				" do I pl"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
