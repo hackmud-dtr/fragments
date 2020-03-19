@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_nqcs39.obtuse",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_nqcs39.obtuse",
 	"sector": "K_1590",
 	"sec_level": 4,
 	"date_added": 1581227726646,
-	"last_scraped": 1584578435771,
+	"last_scraped": 1584625735971,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 13,
-	"next_scrape": 1584624903437,
+	"next_scrape": 1584668317007,
 	"category": "fishie_tank",
-	"last_update": 1584578435771,
+	"last_update": 1584625754438,
 	"output": [
 		{
 			"args": {},
-			"calls": 34687,
+			"calls": 53420,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"atedl",
@@ -141,7 +141,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3192,
+			"calls": 3735,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -385,8 +385,8 @@
 			]
 		}
 	],
-	"updt": 1584536536698,
-	"edit": 4,
+	"updt": 1584578464741,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -489,6 +489,11 @@
 			"frags": [
 				" that"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
