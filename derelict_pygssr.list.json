@@ -1,25 +1,25 @@
 {
 	"_id": "derelict_pygssr.list",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_pygssr.list",
 	"sector": "HJG_2697",
 	"sec_level": 4,
 	"date_added": 1576376784877,
-	"last_scraped": 1584630260496,
+	"last_scraped": 1584665906604,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1576376784877
 		}
 	],
-	"next_scrape": 1584675976838,
+	"next_scrape": 1584707931955,
 	"category": "fishie_tank",
-	"last_update": 1584630260496,
+	"last_update": 1584665941992,
 	"output": [
 		{
 			"args": {},
-			"calls": 128547,
+			"calls": 139982,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"o'. H",
@@ -127,7 +127,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 16291,
+			"calls": 17172,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -345,8 +345,8 @@
 			]
 		}
 	],
-	"updt": 1584585457742,
-	"edit": 17,
+	"updt": 1584665934621,
+	"edit": 19,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -419,6 +419,11 @@
 			"frags": [
 				"the a"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
