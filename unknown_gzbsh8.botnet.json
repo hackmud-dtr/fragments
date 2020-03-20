@@ -1,28 +1,28 @@
 {
 	"_id": "unknown_gzbsh8.botnet",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_gzbsh8.botnet",
 	"sector": "VNP_9417",
 	"sec_level": 4,
 	"date_added": 1578356680643,
-	"last_scraped": 1584633592442,
+	"last_scraped": 1584668891401,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1578356680643
 		}
 	],
-	"updt": 1584589739495,
-	"edit": 5,
+	"updt": 1584633695549,
+	"edit": 6,
 	"scrape_ct": 15,
-	"next_scrape": 1584678969669,
+	"next_scrape": 1584712518258,
 	"category": "fishie_tank",
-	"last_update": 1584633592442,
+	"last_update": 1584668945883,
 	"output": [
 		{
 			"args": {},
-			"calls": 35866,
+			"calls": 45035,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"e car",
@@ -53,7 +53,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5380,
+			"calls": 7233,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -127,6 +127,11 @@
 				"2037 Se",
 				"ards.\\n2"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
