@@ -1,19 +1,27 @@
 {
 	"_id": "abandoned_vk0m1v.rpgtest",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abandoned_vk0m1v.rpgtest",
 	"sector": "K_3495",
 	"sec_level": 4,
 	"date_added": 1577452198218,
-	"last_scraped": 1584689905195,
+	"last_scraped": 1584710878131,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1577452198218
+		},
+		{
+			"type": "died",
+			"when": 1584710878131
+		},
+		{
+			"type": "died",
+			"when": 1584711114316
 		}
 	],
-	"next_scrape": 1584734043837,
+	"next_scrape": 1584797314487,
 	"category": "plant_sim",
 	"last_update": 1584689905195,
 	"output": [
@@ -65,8 +73,8 @@
 			]
 		}
 	],
-	"updt": 1584667059184,
-	"edit": 18,
+	"updt": 1584711008871,
+	"edit": 20,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -79,5 +87,6 @@
 				" 0000 00"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_vk0m1v.rpgtest: script doesn't exist\"}"
 }
