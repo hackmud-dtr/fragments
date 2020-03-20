@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_g55gnq.t2_scrape",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_g55gnq.t2_scrape",
 	"sector": "SPC_2343",
 	"sec_level": 4,
 	"date_added": 1584007663293,
-	"last_scraped": 1584629155712,
+	"last_scraped": 1584664981931,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 9,
-	"next_scrape": 1584671307198,
+	"next_scrape": 1584711263801,
 	"category": "fishie_tank",
-	"last_update": 1584629155712,
+	"last_update": 1584665001914,
 	"output": [
 		{
 			"args": {},
-			"calls": 48138,
+			"calls": 67131,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"AI so",
@@ -50,7 +50,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6411,
+			"calls": 7074,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -112,8 +112,8 @@
 			]
 		}
 	],
-	"updt": 1584582979105,
-	"edit": 5,
+	"updt": 1584629185674,
+	"edit": 6,
 	"identified": [
 		{
 			"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
@@ -126,6 +126,11 @@
 				"tworked ",
 				"Chengdu "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

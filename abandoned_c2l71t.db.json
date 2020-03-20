@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_c2l71t.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_c2l71t.db",
 	"sector": "HJG_9830",
 	"sec_level": 4,
 	"date_added": 1584203330700,
-	"last_scraped": 1584628071667,
+	"last_scraped": 1584664675848,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1584669840976,
+	"next_scrape": 1584704453927,
 	"category": "fishie_tank",
-	"last_update": 1584628071667,
+	"last_update": 1584664729099,
 	"output": [
 		{
 			"args": {},
-			"calls": 25607,
+			"calls": 36714,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"f a s",
@@ -54,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3281,
+			"calls": 4773,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -92,8 +92,8 @@
 			]
 		}
 	],
-	"updt": 1584628060583,
-	"edit": 4,
+	"updt": 1584628284527,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -108,6 +108,11 @@
 				". WILD ",
 				"to stack"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
