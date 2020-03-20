@@ -1,25 +1,25 @@
 {
 	"_id": "abndnd_iq0ray.upgrades",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_iq0ray.upgrades",
 	"sector": "HJG_1237",
 	"sec_level": 4,
 	"date_added": 1582740495637,
-	"last_scraped": 1584650224893,
+	"last_scraped": 1584683010037,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1582740495637
 		}
 	],
-	"next_scrape": 1584694839098,
+	"next_scrape": 1584723053033,
 	"category": "fishie_tank",
-	"last_update": 1584650224893,
+	"last_update": 1584683066426,
 	"output": [
 		{
 			"args": {},
-			"calls": 114594,
+			"calls": 122140,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"to pl",
@@ -51,7 +51,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8995,
+			"calls": 10532,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -117,8 +117,8 @@
 			]
 		}
 	],
-	"updt": 1584613853428,
-	"edit": 10,
+	"updt": 1584650378548,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
@@ -132,6 +132,11 @@
 				"engineer",
 				"d I DO N"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
