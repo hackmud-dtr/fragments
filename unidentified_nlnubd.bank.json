@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_nlnubd.bank",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_nlnubd.bank",
 	"sector": "HJG_6980",
 	"sec_level": 4,
 	"date_added": 1577945685270,
-	"last_scraped": 1584712615783,
+	"last_scraped": 1584733437659,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 7,
-	"next_scrape": 1584758756043,
+	"next_scrape": 1584777067211,
 	"category": "clicker",
-	"last_update": 1584712615783,
+	"last_update": 1584733437659,
 	"output": [
 		{
 			"args": {},
-			"calls": 49084,
+			"calls": 70981,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"value",
@@ -164,8 +164,8 @@
 			]
 		}
 	],
-	"updt": 1584712585425,
-	"edit": 10,
+	"updt": 1584712809974,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -179,6 +179,14 @@
 				"EC This ",
 				"e\\n20ED v"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
 		}
 	]
 }
