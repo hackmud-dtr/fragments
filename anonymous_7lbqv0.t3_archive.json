@@ -1,21 +1,21 @@
 {
 	"_id": "anonymous_7lbqv0.t3_archive",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_7lbqv0.t3_archive",
 	"sector": "K_9620",
 	"sec_level": 4,
 	"date_added": 1583772554785,
-	"last_scraped": 1584685960338,
+	"last_scraped": 1584686031312,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1583772554785
 		}
 	],
-	"next_scrape": 1584731430833,
+	"next_scrape": 1584729692109,
 	"category": "fishie_tank",
-	"last_update": 1584685978038,
+	"last_update": 1584686031312,
 	"output": [
 		{
 			"args": {},
@@ -45,7 +45,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7287,
+			"calls": 8600,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -76,7 +76,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 89114,
+			"calls": 93585,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" card",
@@ -111,11 +111,6 @@
 				"iscard\\n2",
 				"ack\\n2175"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
