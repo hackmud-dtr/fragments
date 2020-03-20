@@ -1,7 +1,7 @@
 {
 	"_id": "anon_ldz6sm.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_ldz6sm.bot_scam_do_not_run",
 	"sector": "NGC_1668",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1584679227214
+		},
+		{
+			"type": "died",
+			"when": 1584681350234
 		}
 	],
-	"updt": 1584679235303,
-	"edit": 1,
+	"updt": 1584679686165,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -37,6 +41,20 @@
 				"phrase ",
 				"der DEL",
 				"hrase re"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"ss pa",
+						"minde",
+						" DELET",
+						"se remi",
+						"phrase ",
+						"der DEL",
+						"hrase re"
+					]
+				}
 			]
 		},
 		{
@@ -46,6 +64,34 @@
 			"calls": 100,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
+				"ss pa",
+				"minde",
+				" DELET",
+				"se remi",
+				"phrase ",
+				"der DEL",
+				"hrase re"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"ss pa",
+						"minde",
+						" DELET",
+						"se remi",
+						"phrase ",
+						"der DEL",
+						"hrase re"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "Passphrase",
+			"frags": [
 				"ss pa",
 				"minde",
 				" DELET",
