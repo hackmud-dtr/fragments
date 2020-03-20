@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_2d25sx.t3_clean",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_2d25sx.t3_clean",
 	"sector": "HJG_2921",
 	"sec_level": 4,
 	"date_added": 1583174262536,
-	"last_scraped": 1584627744995,
+	"last_scraped": 1584663199667,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,29 +14,31 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1584669148836,
+	"next_scrape": 1584708676548,
 	"category": "fishie_tank",
-	"last_update": 1584627744995,
+	"last_update": 1584663199667,
 	"output": [
 		{
 			"args": {},
-			"calls": 42040,
+			"calls": 64691,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"s is ",
-				"ng in",
 				"membe",
+				"ling ",
 				"aches",
 				" we h",
-				"en fai",
-				" remem",
+				"ing in",
+				"ach ne",
 				"ur duty",
 				"the tru",
 				"me Cris",
+				"- remem",
 				"'Meme C",
 				" new 'M",
 				" failin",
 				"th - rem",
+				"been fai",
 				"Crisis' ",
 				" been fa"
 			],
@@ -211,8 +213,8 @@
 			]
 		}
 	],
-	"updt": 1584582529462,
-	"edit": 5,
+	"updt": 1584627835218,
+	"edit": 6,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -249,6 +251,14 @@
 			"frags": [
 				" remem"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
