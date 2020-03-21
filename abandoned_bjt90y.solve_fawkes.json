@@ -1,26 +1,26 @@
 {
 	"_id": "abandoned_bjt90y.solve_fawkes",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abandoned_bjt90y.solve_fawkes",
 	"sector": "NGC_0746",
 	"sec_level": 4,
 	"date_added": 1584823580676,
-	"last_scraped": 1584824069423,
+	"last_scraped": 1584824506416,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1584823580676
 		}
 	],
-	"scrape_ct": 12,
-	"next_scrape": 1584824129423,
+	"scrape_ct": 5,
+	"next_scrape": 1584824566416,
 	"category": "fishie_tank",
-	"last_update": 1584824069423,
+	"last_update": 1584824540687,
 	"output": [
 		{
 			"args": {},
-			"calls": 27287,
+			"calls": 55600,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"rpora",
@@ -60,7 +60,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4577,
+			"calls": 7129,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -105,7 +105,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 31583,
+			"calls": 45593,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"rpora",
@@ -161,6 +161,11 @@
 			]
 		}
 	],
-	"updt": 1584823925698,
-	"edit": 2
+	"updt": 1584824375587,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
