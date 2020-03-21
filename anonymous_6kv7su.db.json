@@ -1,26 +1,34 @@
 {
 	"_id": "anonymous_6kv7su.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "anonymous_6kv7su.db",
 	"sector": "NGC_1668",
 	"sec_level": 4,
 	"date_added": 1584753798852,
-	"last_scraped": 1584753815648,
+	"last_scraped": 1584753997482,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1584753798852
+		},
+		{
+			"type": "died",
+			"when": 1584753997482
+		},
+		{
+			"type": "died",
+			"when": 1584754055826
 		}
 	],
-	"scrape_ct": 20,
-	"next_scrape": 1584753875648,
+	"scrape_ct": 19,
+	"next_scrape": 1584839937846,
 	"category": "dice_roller",
-	"last_update": 1584753815648,
+	"last_update": 1584753853761,
 	"output": [
 		{
 			"args": {},
-			"calls": 8420,
+			"calls": 12963,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
 				"th al",
@@ -41,7 +49,60 @@
 				"rd pile\\n",
 				"em\\n20F2 ",
 				"'s\\n20F3 "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"th al",
+						"e att",
+						" them",
+						"er's\\n",
+						"acker'",
+						"pile\\n2",
+						"n the a",
+						"long wi",
+						"0F4 alo",
+						"0F3 dis",
+						" in the",
+						"l\\n20F5 ",
+						"ards pla",
+						"F5 cards",
+						"5 cards ",
+						"rd pile\\n",
+						"em\\n20F2 ",
+						"'s\\n20F3 "
+					]
+				}
 			]
 		}
-	]
+	],
+	"updt": 1584753841712,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"th al",
+				"e att",
+				" them",
+				"er's\\n",
+				"acker'",
+				"pile\\n2",
+				"n the a",
+				"long wi",
+				"0F4 alo",
+				"0F3 dis",
+				" in the",
+				"l\\n20F5 ",
+				"ards pla",
+				"F5 cards",
+				"5 cards ",
+				"rd pile\\n",
+				"em\\n20F2 ",
+				"'s\\n20F3 "
+			]
+		}
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_6kv7su.db: script doesn't exist\"}"
 }
