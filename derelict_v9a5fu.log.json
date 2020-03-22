@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_v9a5fu.log",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "derelict_v9a5fu.log",
 	"sector": "VNP_5195",
 	"sec_level": 4,
 	"date_added": 1584850429126,
-	"last_scraped": 1584850518463,
+	"last_scraped": 1584854553749,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1584939696520,
+	"next_scrape": 1584937388205,
 	"category": "risk_factor",
-	"last_update": 1584850500282,
+	"last_update": 1584854553749,
 	"output": [
 		{
 			"args": {},
@@ -38,7 +38,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 110,
+			"calls": 211,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"ust be",
@@ -307,13 +307,10 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"updt": 1584850517813,
-	"edit": 1,
+	"updt": 1584850968691,
+	"edit": 2,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
