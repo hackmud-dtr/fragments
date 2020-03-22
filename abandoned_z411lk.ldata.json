@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "abandoned_z411lk.ldata",
-	"sector": "K_7755",
+	"sector": "VNP_5195",
 	"sec_level": 4,
 	"date_added": 1582244484174,
-	"last_scraped": 1584906256151,
+	"last_scraped": 1584907759162,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1582244484174
-		}
+		},
+		{
+			"type": "died",
+			"when": 1584907636767
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1584907740806,
+				"from": "VNP_5195",
+				"to": "K_7755"
+			}
+		]
 	],
 	"pl_output": "Cannot read property 'call' of undefined",
-	"next_scrape": 1584999452240,
-	"updt": 1584903266495,
-	"edit": 1574
+	"next_scrape": 1584997173885,
+	"updt": 1584906425645,
+	"edit": 1575
 }
