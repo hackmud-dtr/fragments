@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_1am25g.workload_scrape",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "timeout",
 	"script": "anonymous_1am25g.workload_scrape",
 	"sector": "NGC_4794",
 	"sec_level": 4,
 	"date_added": 1585061303308,
-	"last_scraped": 1585061320464,
+	"last_scraped": 1585061357777,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,12 +15,43 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1585061380464
+	"next_scrape": 1585150753753,
+	"category": "risk_factor",
+	"last_update": 1585061357777,
+	"output": [
+		{
+			"args": {},
+			"calls": 1950,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"MFT0XB",
+				"D17B\\n",
+				"ST0X7A_",
+				"216E BO",
+				" is ?. ",
+				"7_FILE0X",
+				"16E BOUN"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 123,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"MFT0XB",
+				"D17B\\n",
+				"ST0X7A_",
+				"216E BO",
+				" is ?. ",
+				"7_FILE0X",
+				"16E BOUN"
+			]
+		}
+	]
 }
