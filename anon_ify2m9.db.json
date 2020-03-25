@@ -1,0 +1,73 @@
+{
+	"_id": "anon_ify2m9.db",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anon_ify2m9.db",
+	"sector": "NGC_4794",
+	"sec_level": 4,
+	"date_added": 1585096613370,
+	"last_scraped": 1585096704198,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1585096613370
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1585096764198,
+	"category": "fishie_tank",
+	"last_update": 1585096704198,
+	"output": [
+		{
+			"args": {},
+			"calls": 4846,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"G ERR",
+				"lliste",
+				"X61_SEC",
+				"T ERROR",
+				"ROR | P",
+				" PROG E",
+				"mhollist"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 786,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"G ERR",
+				"lliste",
+				"X61_SEC",
+				"T ERROR",
+				"ROR | P",
+				" PROG E",
+				"mhollist"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 11903,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"G ERR",
+				"lliste",
+				"X61_SEC",
+				"T ERROR",
+				"ROR | P",
+				" PROG E",
+				"mhollist"
+			]
+		}
+	]
+}
