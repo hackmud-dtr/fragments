@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_0wm68m.t3scrape",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "abandoned_0wm68m.t3scrape",
 	"sector": "NGC_4630",
 	"sec_level": 4,
 	"date_added": 1585241414796,
-	"last_scraped": 1585241468508,
+	"last_scraped": 1585244578482,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1585330325428,
+	"next_scrape": 1585326010137,
 	"category": "risk_factor",
-	"last_update": 1585241448627,
+	"last_update": 1585244578482,
 	"output": [
 		{
 			"args": {},
@@ -41,7 +41,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 115,
+			"calls": 219,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"W ERRO",
@@ -61,11 +61,10 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1585241501760,
+	"edit": 1
 }
