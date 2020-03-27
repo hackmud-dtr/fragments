@@ -1,0 +1,136 @@
+{
+	"_id": "unidentified_dr7jee.apocrypha",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "unidentified_dr7jee.apocrypha",
+	"sector": "NGC_4630",
+	"sec_level": 4,
+	"date_added": 1585335709741,
+	"last_scraped": 1585335907503,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1585335709741
+		}
+	],
+	"scrape_ct": 15,
+	"next_scrape": 1585335967503,
+	"category": "fishie_tank",
+	"last_update": 1585335925381,
+	"output": [
+		{
+			"args": {},
+			"calls": 25124,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ht. We",
+				"e go #",
+				", Iona",
+				"## jk ",
+				"of us. ",
+				"as we g",
+				"rd to be"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"ht. We",
+						"e go #",
+						", Iona",
+						"## jk ",
+						"of us. ",
+						"as we g",
+						"rd to be"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 663,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ht. We",
+				"e go #",
+				", Iona",
+				"## jk ",
+				"of us. ",
+				"as we g",
+				"rd to be"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"ht. We",
+						"e go #",
+						", Iona",
+						"## jk ",
+						"of us. ",
+						"as we g",
+						"rd to be"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 7187,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ht. We",
+				"e go #",
+				", Iona",
+				"## jk ",
+				"of us. ",
+				"as we g",
+				"rd to be"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"ht. We",
+						"e go #",
+						", Iona",
+						"## jk ",
+						"of us. ",
+						"as we g",
+						"rd to be"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+			"frags": [
+				"ht. We",
+				"e go #",
+				", Iona",
+				"## jk ",
+				"of us. ",
+				"as we g",
+				"rd to be"
+			]
+		}
+	],
+	"updt": 1585335846167,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
