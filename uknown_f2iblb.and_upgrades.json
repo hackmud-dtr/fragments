@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_f2iblb.and_upgrades",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "uknown_f2iblb.and_upgrades",
 	"sector": "HJG_9437",
 	"sec_level": 4,
 	"date_added": 1585376599235,
-	"last_scraped": 1585381119288,
+	"last_scraped": 1585383959922,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1585467033741,
+	"next_scrape": 1585463997893,
 	"category": "risk_factor",
-	"last_update": 1585381100027,
+	"last_update": 1585383959922,
 	"output": [
 		{
 			"args": {},
@@ -39,7 +39,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 236,
+			"calls": 344,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"3",
@@ -280,12 +280,9 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1585376656112,
-	"edit": 1,
+	"updt": 1585381166181,
+	"edit": 2,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
