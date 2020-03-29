@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_foxa9n.backend_lzw",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "timeout",
 	"script": "unknown_foxa9n.backend_lzw",
 	"sector": "HJG_8400",
 	"sec_level": 4,
 	"date_added": 1585520259062,
-	"last_scraped": 1585520294864,
+	"last_scraped": 1585520330822,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1585520354864,
+	"next_scrape": 1585603820038,
 	"category": "risk_factor",
-	"last_update": 1585520294864,
+	"last_update": 1585520330822,
 	"output": [
 		{
 			"args": {},
@@ -38,6 +35,23 @@
 				"lead to",
 				"functio"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 110,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"or fu",
+				"some o",
+				"to prac",
+				"those l",
+				"lead to",
+				"functio"
+			]
 		}
-	]
+	],
+	"updt": 1585520306299,
+	"edit": 1
 }
