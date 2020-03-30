@@ -1,0 +1,62 @@
+{
+	"_id": "abandoned_2ort3x.extern_ub56eu",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abandoned_2ort3x.extern_ub56eu",
+	"sector": "VNP_8252",
+	"sec_level": 4,
+	"date_added": 1585588711410,
+	"last_scraped": 1585588747869,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1585588711410
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1585588807869,
+	"category": "fishie_tank",
+	"last_update": 1585588802816,
+	"output": [
+		{
+			"args": {},
+			"calls": 7678,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"rza c",
+				"X95_S",
+				"| NETW",
+				"0B\\nSY",
+				"| SUBJ: ",
+				"| PROG E",
+				"YST ERRO"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1630,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"rza c",
+				"X95_S",
+				"| NETW",
+				"0B\\nSY",
+				"| SUBJ: ",
+				"| PROG E",
+				"YST ERRO"
+			]
+		}
+	]
+}
