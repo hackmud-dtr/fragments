@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_sam64q.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unknown_sam64q.bot_scam_do_not_run",
 	"sector": "SPC_9621",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1579196563894
+		},
+		{
+			"type": "died",
+			"when": 1585821834414
 		}
 	],
 	"scrape_ct": 15,
@@ -28,6 +32,18 @@
 				"allory\\n",
 				"llory\\n21",
 				"\\n21C8 :)"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"lever",
+						"r, Mal",
+						"allory\\n",
+						"llory\\n21",
+						"\\n21C8 :)"
+					]
+				}
 			]
 		},
 		{
@@ -46,15 +62,57 @@
 				"\\n21C8 :)",
 				"Mallory\\n",
 				"9GCr\\n21C7"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"lever",
+						" Mallo",
+						"ery cle",
+						"ver, Mal",
+						"er\\n21C7",
+						"llory\\n21",
+						"\\n21C8 :)",
+						"Mallory\\n"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"9GCr\\n21C7"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1584519626971,
-	"edit": 2,
+	"updt": 1584606193497,
+	"edit": 3,
 	"retry_args": [
 		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"lever",
+				" Mallo",
+				"ery cle",
+				"ver, Mal",
+				"er\\n21C7",
+				"llory\\n21",
+				"\\n21C8 :)",
+				"Mallory\\n"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"9GCr\\n21C7"
+			]
+		}
+	]
 }
