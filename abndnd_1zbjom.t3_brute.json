@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_1zbjom.t3_brute",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abndnd_1zbjom.t3_brute",
 	"sector": "VNP_8252",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1585662978495
+		},
+		{
+			"type": "died",
+			"when": 1585889475637
 		}
 	],
 	"scrape_ct": 16,
@@ -31,9 +35,39 @@
 				"T0X82_C",
 				"SECT0X8",
 				"LE0X8C8"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"RROR ",
+						"LST0X",
+						"T ERRO",
+						"SYST E",
+						"82_CLS",
+						"T0X82_C",
+						"SECT0X8",
+						"LE0X8C8"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1585663096888,
-	"edit": 1
+	"updt": 1585663321388,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+			"frags": [
+				"RROR ",
+				"LST0X",
+				"T ERRO",
+				"SYST E",
+				"82_CLS",
+				"T0X82_C",
+				"SECT0X8",
+				"LE0X8C8"
+			]
+		}
+	]
 }
