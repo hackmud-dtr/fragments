@@ -1,28 +1,27 @@
 {
 	"_id": "abandoned_igtadt.record",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abandoned_igtadt.record",
 	"sector": "VNP_6838",
 	"sec_level": 4,
 	"date_added": 1585891855420,
-	"last_scraped": 1585892525761,
+	"last_scraped": 1585893158528,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1585891855420
 		}
 	],
-	"updt": 1585892318039,
-	"edit": 3,
-	"scrape_ct": 10,
-	"next_scrape": 1585892585761,
+	"updt": 1585892994488,
+	"edit": 5,
+	"next_scrape": 1585937822378,
 	"category": "fishie_tank",
-	"last_update": 1585892525761,
+	"last_update": 1585893158528,
 	"output": [
 		{
 			"args": {},
-			"calls": 52673,
+			"calls": 105687,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ediat",
@@ -60,7 +59,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5982,
+			"calls": 12102,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -103,7 +102,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 57339,
+			"calls": 118363,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ediat",
@@ -154,14 +153,6 @@
 				"ed immed",
 				"e implem"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
