@@ -1,22 +1,22 @@
 {
 	"_id": "abandoned_vtyien.mcp",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "abandoned_vtyien.mcp",
 	"sector": "VNP_6838",
 	"sec_level": 4,
 	"date_added": 1585906074879,
-	"last_scraped": 1585909442412,
+	"last_scraped": 1585909478230,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1585906074879
 		}
 	],
-	"scrape_ct": 15,
-	"next_scrape": 1585909502412,
+	"scrape_ct": 14,
+	"next_scrape": 1585993522923,
 	"category": "risk_factor",
-	"last_update": 1585909442412,
+	"last_update": 1585909459791,
 	"output": [
 		{
 			"args": {},
@@ -36,7 +36,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 748,
+			"calls": 918,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"4",
@@ -989,9 +989,12 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1585906295338,
-	"edit": 1,
+	"updt": 1585909455487,
+	"edit": 2,
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}

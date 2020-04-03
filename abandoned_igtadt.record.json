@@ -6,34 +6,35 @@
 	"sector": "VNP_6838",
 	"sec_level": 4,
 	"date_added": 1585891855420,
-	"last_scraped": 1585907703165,
+	"last_scraped": 1585910799080,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1585891855420
 		}
 	],
-	"updt": 1585904717873,
-	"edit": 10,
-	"next_scrape": 1585951308369,
+	"updt": 1585908103496,
+	"edit": 11,
+	"next_scrape": 1585953208670,
 	"category": "fishie_tank",
-	"last_update": 1585907703165,
+	"last_update": 1585910799080,
 	"output": [
 		{
 			"args": {},
-			"calls": 150207,
+			"calls": 157362,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"to be",
 				"ediat",
-				"ated ",
 				"d data",
-				"related",
+				"to be i",
 				"impleme",
 				"immedia",
 				"ge to b",
 				"ented i",
+				"emented",
 				"diately",
+				"related ",
+				"o be imp",
 				"nted imm",
 				"hange to",
 				"ely. Flo",
@@ -45,8 +46,10 @@
 				"ata. cha",
 				"ange to ",
 				"a. chang",
+				" related",
 				" data. c",
-				" change "
+				" change ",
+				" be impl"
 			],
 			"hits": [
 				{
@@ -189,6 +192,14 @@
 				"ed immed",
 				"e implem"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
