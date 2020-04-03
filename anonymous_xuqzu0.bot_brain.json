@@ -1,0 +1,169 @@
+{
+	"_id": "anonymous_xuqzu0.bot_brain",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anonymous_xuqzu0.bot_brain",
+	"sector": "SPC_7215",
+	"sec_level": 4,
+	"date_added": 1585931370722,
+	"last_scraped": 1585931531889,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1585931370722
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1585931591889,
+	"category": "fishie_tank",
+	"last_update": 1585931550530,
+	"output": [
+		{
+			"args": {},
+			"calls": 31434,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				", it'",
+				"t they",
+				"s what",
+				"ial, i",
+				"d with",
+				"availa",
+				"vailabl",
+				"They bu",
+				"uild wit",
+				"they do.",
+				"le mater",
+				". They b"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						", it'",
+						"t they",
+						"s what",
+						"ial, i",
+						"d with",
+						"availa",
+						"vailabl",
+						"They bu",
+						"uild wit",
+						"they do.",
+						"le mater",
+						". They b"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1781,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				", it'",
+				"t they",
+				"s what",
+				"ial, i",
+				"d with",
+				"availa",
+				"vailabl",
+				"They bu",
+				"uild wit",
+				"they do.",
+				"le mater",
+				". They b"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						", it'",
+						"t they",
+						"s what",
+						"ial, i",
+						"d with",
+						"availa",
+						"vailabl",
+						"They bu",
+						"uild wit",
+						"they do.",
+						"le mater",
+						". They b"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 7428,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				", it'",
+				"t they",
+				"s what",
+				"ial, i",
+				"d with",
+				"availa",
+				"vailabl",
+				"They bu",
+				"uild wit",
+				"they do.",
+				"le mater",
+				". They b"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						", it'",
+						"t they",
+						"s what",
+						"ial, i",
+						"d with",
+						"availa",
+						"vailabl",
+						"They bu",
+						"uild wit",
+						"they do.",
+						"le mater",
+						". They b"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+			"frags": [
+				", it'",
+				"t they",
+				"s what",
+				"ial, i",
+				"d with",
+				"availa",
+				"vailabl",
+				"They bu",
+				"uild wit",
+				"they do.",
+				"le mater",
+				". They b"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
