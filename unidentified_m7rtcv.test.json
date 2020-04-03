@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_m7rtcv.test",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unidentified_m7rtcv.test",
 	"sector": "VNP_3954",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1580162715385
+		},
+		{
+			"type": "died",
+			"when": 1585889928434
 		}
 	],
 	"scrape_ct": 19,
@@ -32,6 +36,22 @@
 				"ity of t",
 				"at to th",
 				"Well, no"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"she a",
+						" secu",
+						"to the",
+						"e a thr",
+						"# Well,",
+						"tem ## W",
+						"ity of t",
+						"at to th",
+						"Well, no"
+					]
+				}
 			]
 		},
 		{
@@ -49,15 +69,51 @@
 				" a thre",
 				"the secu",
 				" the sys"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"ity o",
+						"reat to",
+						"is she ",
+						" to the",
+						" threat",
+						" a thre",
+						"the secu",
+						" the sys"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1584520528846,
-	"edit": 2,
+	"updt": 1584607320334,
+	"edit": 3,
 	"retry_args": [
 		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"identified": [
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				"she a",
+				"reat to",
+				"is she ",
+				"e a thr",
+				"# Well,",
+				" to the",
+				" threat",
+				" a thre",
+				"the secu",
+				"tem ## W",
+				"ity of t",
+				"at to th",
+				"Well, no",
+				" the sys"
+			]
+		}
+	]
 }
