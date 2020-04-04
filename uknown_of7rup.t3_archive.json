@@ -1,28 +1,28 @@
 {
 	"_id": "uknown_of7rup.t3_archive",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "uknown_of7rup.t3_archive",
 	"sector": "K_2228",
 	"sec_level": 4,
 	"date_added": 1586019034106,
-	"last_scraped": 1586019225425,
+	"last_scraped": 1586019603941,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1586019034106
 		}
 	],
-	"updt": 1586019047449,
-	"edit": 1,
-	"scrape_ct": 17,
-	"next_scrape": 1586019285425,
+	"updt": 1586019274050,
+	"edit": 2,
+	"scrape_ct": 10,
+	"next_scrape": 1586019663941,
 	"category": "fishie_tank",
-	"last_update": 1586019225425,
+	"last_update": 1586019694260,
 	"output": [
 		{
 			"args": {},
-			"calls": 20883,
+			"calls": 47230,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"n tha",
@@ -58,7 +58,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1752,
+			"calls": 7496,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -99,7 +99,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 19022,
+			"calls": 45180,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"n tha",
@@ -147,6 +147,11 @@
 				"I get t",
 				"hat not "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
