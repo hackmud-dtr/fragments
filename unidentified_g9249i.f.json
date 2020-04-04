@@ -1,16 +1,59 @@
 {
 	"_id": "unidentified_g9249i.f",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "player",
 	"script": "unidentified_g9249i.f",
 	"sector": "SPC_7215",
 	"sec_level": 4,
 	"date_added": 1585959044999,
-	"last_scraped": 0,
+	"last_scraped": 1585959155121,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1585959044999
 		}
-	]
+	],
+	"updt": 1585959053928,
+	"edit": 1,
+	"scrape_ct": 19,
+	"next_scrape": 1586041077277,
+	"category": "risk_factor",
+	"last_update": 1585959136011,
+	"output": [
+		{
+			"args": {},
+			"calls": 1810,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"stack",
+				"2156 ",
+				"If it i",
+				"card in ",
+				"5 card i"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 164,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"stack",
+				"2156 ",
+				"If it i",
+				"card in ",
+				"5 card i"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
