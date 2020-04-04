@@ -1,24 +1,24 @@
 {
 	"_id": "unidentified_g9249i.f",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "unidentified_g9249i.f",
 	"sector": "SPC_7215",
 	"sec_level": 4,
 	"date_added": 1585959044999,
-	"last_scraped": 1585959155121,
+	"last_scraped": 1585962125742,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1585959044999
 		}
 	],
-	"updt": 1585959053928,
-	"edit": 1,
+	"updt": 1585959280099,
+	"edit": 2,
 	"scrape_ct": 19,
-	"next_scrape": 1586041077277,
+	"next_scrape": 1586042061049,
 	"category": "risk_factor",
-	"last_update": 1585959136011,
+	"last_update": 1585962125742,
 	"output": [
 		{
 			"args": {},
@@ -36,7 +36,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 164,
+			"calls": 476,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"stack",
@@ -48,9 +48,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
