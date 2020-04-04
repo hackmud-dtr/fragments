@@ -1,34 +1,66 @@
 {
 	"_id": "abandoned_iwdy6p.balance",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abandoned_iwdy6p.balance",
 	"sector": "K_2228",
 	"sec_level": 4,
 	"date_added": 1585974260382,
-	"last_scraped": 1585974314244,
+	"last_scraped": 1585974524872,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1585974260382
+		},
+		{
+			"type": "died",
+			"when": 1585974925349
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1585974374244,
+	"scrape_ct": 17,
+	"next_scrape": 1585974584872,
 	"category": "fishie_tank",
-	"last_update": 1585974314244,
+	"last_update": 1585974524872,
 	"output": [
 		{
 			"args": {},
-			"calls": 13028,
+			"calls": 26104,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"y as ",
 				"ut of",
+				"stuff",
+				"ing s",
+				"he bo",
+				"e bor",
 				"to say",
+				"ssible",
+				"sed to",
+				" possi",
+				" easy ",
+				"posed t",
+				"ng stuf",
+				"m suppo",
+				"le ## a",
 				"ible ##",
+				"hats th",
+				"e way. ",
+				"## anyw",
 				" as pos",
+				"y thats ",
+				"way. im ",
+				"ts the b",
+				"supposed",
+				"oject as",
+				"of the w",
+				"o say so",
 				"ject as ",
-				"# anyway"
+				"ed to sa",
+				"e ## any",
+				"# anyway",
+				" way. im",
+				" boring ",
+				" as easy"
 			],
 			"hits": [
 				{
@@ -117,6 +149,16 @@
 				"ject as ",
 				"# anyway"
 			]
+		}
+	],
+	"updt": 1585974614180,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
