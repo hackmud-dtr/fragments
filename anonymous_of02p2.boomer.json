@@ -1,16 +1,32 @@
 {
 	"_id": "anonymous_of02p2.boomer",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anonymous_of02p2.boomer",
-	"sector": "VNP_2199",
+	"sector": "VNP_2841",
 	"sec_level": 4,
 	"date_added": 1582831357752,
-	"last_scraped": 0,
+	"last_scraped": 1586103618171,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1582831357752
-		}
-	]
+		},
+		{
+			"type": "died",
+			"when": 1586103528817
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1586103601877,
+				"from": "VNP_2841",
+				"to": "VNP_2199"
+			}
+		]
+	],
+	"updt": 1586103610668,
+	"edit": 2,
+	"pl_output": "Unexpected token u in JSON at position 0",
+	"next_scrape": 1586193165251
 }
