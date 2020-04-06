@@ -1,26 +1,25 @@
 {
 	"_id": "abandoned_rzegg4.test",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abandoned_rzegg4.test",
 	"sector": "K_9904",
 	"sec_level": 4,
 	"date_added": 1586170070934,
-	"last_scraped": 1586171283146,
+	"last_scraped": 1586171446275,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1586170070934
 		}
 	],
-	"scrape_ct": 1,
-	"next_scrape": 1586171343146,
+	"next_scrape": 1586212953421,
 	"category": "fishie_tank",
-	"last_update": 1586171283146,
+	"last_update": 1586171446275,
 	"output": [
 		{
 			"args": {},
-			"calls": 93999,
+			"calls": 101585,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"onal/",
@@ -59,7 +58,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 11431,
+			"calls": 12694,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -103,7 +102,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 94300,
+			"calls": 115933,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"onal/",
@@ -160,6 +159,6 @@
 			]
 		}
 	],
-	"updt": 1586171116651,
-	"edit": 4
+	"updt": 1586171342356,
+	"edit": 5
 }
