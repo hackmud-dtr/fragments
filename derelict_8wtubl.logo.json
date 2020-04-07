@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_8wtubl.logo",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "derelict_8wtubl.logo",
 	"sector": "NGC_4276",
 	"sec_level": 4,
 	"date_added": 1586234613413,
-	"last_scraped": 1586238018933,
+	"last_scraped": 1586241250513,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1586329805753,
+	"next_scrape": 1586333024824,
 	"category": "risk_factor",
-	"last_update": 1586238000171,
+	"last_update": 1586241250513,
 	"output": [
 		{
 			"args": {},
@@ -36,7 +36,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 723,
+			"calls": 1419,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"8",
@@ -1108,12 +1108,9 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1586234697731,
-	"edit": 1,
+	"updt": 1586241237293,
+	"edit": 3,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
