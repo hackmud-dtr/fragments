@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_9w72aj.rpg",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abandoned_9w72aj.rpg",
 	"sector": "NGC_4276",
 	"sec_level": 4,
 	"date_added": 1586227225758,
-	"last_scraped": 1586227244028,
+	"last_scraped": 1586227317161,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"scrape_ct": 20,
-	"next_scrape": 1586227304028,
+	"scrape_ct": 16,
+	"next_scrape": 1586227377161,
 	"category": "risk_factor",
-	"last_update": 1586227244028,
+	"last_update": 1586227317161,
 	"output": [
 		{
 			"args": {},
@@ -42,6 +39,27 @@
 				"have hob",
 				"as such,"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 446,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"ell i",
+				"st rea",
+				"oo, yea",
+				"ly like",
+				"l i don",
+				"ay well",
+				"okay wel",
+				"i dont h",
+				"have hob",
+				"as such,"
+			]
 		}
-	]
+	],
+	"updt": 1586227252120,
+	"edit": 1
 }
