@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_fpic8q.desk",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unknown_fpic8q.desk",
 	"sector": "SPC_4089",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "SPC_4089",
 				"to": "VNP_0948"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1586229294131
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR athenaeum.desk: script doesn't exist\"}",
 	"next_scrape": 1586317934978,
-	"updt": 1586222294300,
-	"edit": 9282
+	"updt": 1586226799109,
+	"edit": 9283
 }
