@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_cgqljo.desk",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unidentified_cgqljo.desk",
 	"sector": "NGC_3954",
 	"sec_level": 4,
 	"date_added": 1574444331533,
-	"last_scraped": 1586227715967,
+	"last_scraped": 1586232297064,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,10 +19,18 @@
 				"from": "NGC_3954",
 				"to": "VNP_0948"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1586232297064
+		},
+		{
+			"type": "died",
+			"when": 1586232315829
+		}
 	],
-	"pl_output": "[[\"\",\"`JWelcome to the Atheneaum Public Library (APL)`\",\"`BThe Atheneaum RePository is currently under construction.`\",\"`BPlease come back later.`\",\"`T-M`\"]]",
-	"next_scrape": 1586317483891,
-	"updt": 1586223870433,
-	"edit": 9656
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_cgqljo.desk: script doesn't exist\"}",
+	"next_scrape": 1586316289384,
+	"updt": 1586227927006,
+	"edit": 9657
 }
