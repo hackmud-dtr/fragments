@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_ir5lnl.trans",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unknown_ir5lnl.trans",
 	"sector": "SPC_7080",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "SPC_7080",
 				"to": "VNP_0948"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1586229273367
+		}
 	],
-	"updt": 1586221165663,
-	"edit": 708,
+	"updt": 1586225222349,
+	"edit": 709,
 	"pl_output": "Unexpected token u in JSON at position 0",
 	"next_scrape": 1586314350248
 }
