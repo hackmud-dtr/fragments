@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_ipfszc.xfer",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "abndnd_ipfszc.xfer",
-	"sector": "K_6493",
+	"sector": "HJG_4204",
 	"sec_level": 4,
 	"date_added": 1581938351645,
-	"last_scraped": 1586413740585,
+	"last_scraped": 1586420325215,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1586418479984
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1586420308207,
+				"from": "HJG_4204",
+				"to": "K_6493"
+			}
+		]
 	],
 	"pl_output": "{\"msg\":\"You are not an approved user of this script\"}",
-	"next_scrape": 1586493854589,
-	"updt": 1586413943700,
-	"edit": 2488
+	"next_scrape": 1586506691626,
+	"updt": 1586418621349,
+	"edit": 2489
 }
