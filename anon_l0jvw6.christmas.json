@@ -1,12 +1,12 @@
 {
 	"_id": "anon_l0jvw6.christmas",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "anon_l0jvw6.christmas",
 	"sector": "VNP_2114",
 	"sec_level": 4,
 	"date_added": 1586486659055,
-	"last_scraped": 1586486749277,
+	"last_scraped": 1586490757404,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1586577059643,
+	"next_scrape": 1586577370673,
 	"category": "risk_factor",
-	"last_update": 1586486730769,
+	"last_update": 1586490757404,
 	"output": [
 		{
 			"args": {},
@@ -39,7 +39,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 348,
+			"calls": 488,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"turns",
@@ -55,12 +55,9 @@
 			]
 		}
 	],
-	"updt": 1586486722898,
-	"edit": 1,
+	"updt": 1586486948861,
+	"edit": 2,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
