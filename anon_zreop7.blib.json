@@ -6,21 +6,21 @@
 	"sector": "NGC_1036",
 	"sec_level": 4,
 	"date_added": 1586553436483,
-	"last_scraped": 1586553492215,
+	"last_scraped": 1586553907465,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1586553436483
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1586553552215,
+	"scrape_ct": 12,
+	"next_scrape": 1586553967465,
 	"category": "fishie_tank",
-	"last_update": 1586553472680,
+	"last_update": 1586553907465,
 	"output": [
 		{
 			"args": {},
-			"calls": 10164,
+			"calls": 44720,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" win ",
@@ -29,13 +29,26 @@
 				"in ties.",
 				"2^3.\\n20",
 				" attack "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" win ",
+						"l 5 an",
+						"ies.\\n2",
+						"in ties.",
+						"2^3.\\n20",
+						" attack "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1076,
+			"calls": 4883,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -49,7 +62,63 @@
 				"in ties.",
 				"2^3.\\n20",
 				" attack "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" win ",
+						"l 5 an",
+						"ies.\\n2",
+						"in ties.",
+						"2^3.\\n20",
+						" attack "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 47288,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" win ",
+				"l 5 an",
+				"ies.\\n2",
+				"in ties.",
+				"2^3.\\n20",
+				" attack "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" win ",
+						"l 5 an",
+						"ies.\\n2",
+						"in ties.",
+						"2^3.\\n20",
+						" attack "
+					]
+				}
 			]
 		}
-	]
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				" win ",
+				"l 5 an",
+				"ies.\\n2",
+				"in ties.",
+				"2^3.\\n20",
+				" attack "
+			]
+		}
+	],
+	"updt": 1586553719984,
+	"edit": 1
 }
