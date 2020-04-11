@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_b3udew.mpet",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "derelict_b3udew.mpet",
-	"sector": "K_7655",
+	"sector": "NGC_1036",
 	"sec_level": 4,
 	"date_added": 1580707585739,
-	"last_scraped": 1586641998786,
+	"last_scraped": 1586645754116,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1586643980941
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1586645719204,
+				"from": "NGC_1036",
+				"to": "K_7655"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"please provide api:\\\"\\\".\"}",
-	"next_scrape": 1586734445064,
-	"updt": 1586642128980,
-	"edit": 5743
+	"next_scrape": 1586736658585,
+	"updt": 1586645735644,
+	"edit": 5745
 }
