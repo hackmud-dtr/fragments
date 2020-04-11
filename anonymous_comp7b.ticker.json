@@ -1,28 +1,28 @@
 {
 	"_id": "anonymous_comp7b.ticker",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anonymous_comp7b.ticker",
 	"sector": "NGC_1036",
 	"sec_level": 4,
 	"date_added": 1586645719204,
-	"last_scraped": 1586646116562,
+	"last_scraped": 1586646442930,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1586645719204
 		}
 	],
-	"updt": 1586645960963,
-	"edit": 2,
-	"scrape_ct": 10,
-	"next_scrape": 1586646176562,
+	"updt": 1586646414298,
+	"edit": 4,
+	"scrape_ct": 0,
+	"next_scrape": 1586646502930,
 	"category": "clicker",
-	"last_update": 1586646116562,
+	"last_update": 1586646442930,
 	"output": [
 		{
 			"args": {},
-			"calls": 36901,
+			"calls": 71581,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"LST0X",
@@ -62,7 +62,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 36893,
+			"calls": 69617,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"LST0X",
@@ -102,7 +102,7 @@
 			"args": {
 				"CLICK": true
 			},
-			"calls": 7095,
+			"calls": 9545,
 			"base": "`LCLICK SECURED`",
 			"fragments": [
 				"LST0X",
@@ -156,6 +156,11 @@
 				" forget ",
 				" PROG ER"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"CLICK": true
 		}
 	]
 }
