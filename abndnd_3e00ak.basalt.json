@@ -1,0 +1,81 @@
+{
+	"_id": "abndnd_3e00ak.basalt",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abndnd_3e00ak.basalt",
+	"sector": "NGC_1036",
+	"sec_level": 4,
+	"date_added": 1586602585076,
+	"last_scraped": 1586602602505,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1586602585076
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1586602662505,
+	"category": "coin_flipper",
+	"last_update": 1586602602505,
+	"output": [
+		{
+			"args": {},
+			"calls": 5832,
+			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
+			"fragments": [
+				"ors -",
+				"n of ",
+				"ests ",
+				"tional/",
+				" - sugg",
+				"fessiona"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"ors -",
+						"n of ",
+						"ests "
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"tional/",
+						" - sugg"
+					]
+				},
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"fessiona"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
+				"ors -",
+				"n of ",
+				"ests "
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"tional/",
+				" - sugg"
+			]
+		},
+		{
+			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+			"frags": [
+				"fessiona"
+			]
+		}
+	]
+}
