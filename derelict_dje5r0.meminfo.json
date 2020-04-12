@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_dje5r0.meminfo",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "timeout",
 	"script": "derelict_dje5r0.meminfo",
-	"sector": "K_1227",
+	"sector": "K_9706",
 	"sec_level": 2,
 	"date_added": 1582984431553,
-	"last_scraped": 1584883075087,
+	"last_scraped": 1586732865876,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,34 @@
 		{
 			"type": "died",
 			"when": 1586732422457
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1586732829431,
+				"from": "K_9706",
+				"to": "K_1227"
+			}
+		]
 	],
-	"updt": 1584886805027,
-	"edit": 61,
+	"updt": 1586732601086,
+	"edit": 62,
 	"pl_output": "aaand your money's gone. all your money is gone.",
-	"next_scrape": 1584963317954
+	"next_scrape": 1586819686347,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1586732865876,
+	"output": [
+		{
+			"args": {},
+			"calls": 186,
+			"base": "aaand your money's gone. all your money is gone.",
+			"fragments": [
+				"ve act",
+				"the tim",
+				"fensive ",
+				"ensive a",
+				"e\\n213A "
+			]
+		}
+	]
 }
