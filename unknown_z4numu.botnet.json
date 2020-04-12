@@ -1,0 +1,137 @@
+{
+	"_id": "unknown_z4numu.botnet",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unknown_z4numu.botnet",
+	"sector": "VNP_0344",
+	"sec_level": 4,
+	"date_added": 1586724482013,
+	"last_scraped": 1586724751786,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1586724482013
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1586724811786,
+	"category": "fishie_tank",
+	"last_update": 1586724751786,
+	"output": [
+		{
+			"args": {},
+			"calls": 18683,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"re don",
+				"e: we ar",
+				"C\\nAD032",
+				"B There:",
+				"217C I h",
+				"\\nAD03217",
+				"D17C\\nAD0"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"re don",
+						"e: we ar",
+						"C\\nAD032",
+						"B There:",
+						"217C I h",
+						"\\nAD03217",
+						"D17C\\nAD0"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1899,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"re don",
+				"e: we ar",
+				"C\\nAD032",
+				"B There:",
+				"217C I h",
+				"\\nAD03217",
+				"D17C\\nAD0"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"re don",
+						"e: we ar",
+						"C\\nAD032",
+						"B There:",
+						"217C I h",
+						"\\nAD03217",
+						"D17C\\nAD0"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 11764,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"re don",
+				"e: we ar",
+				"C\\nAD032",
+				"B There:",
+				"217C I h",
+				"\\nAD03217",
+				"D17C\\nAD0"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"re don",
+						"e: we ar",
+						"C\\nAD032",
+						"B There:",
+						"217C I h",
+						"\\nAD03217",
+						"D17C\\nAD0"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"re don",
+				"e: we ar",
+				"C\\nAD032",
+				"B There:",
+				"217C I h",
+				"\\nAD03217",
+				"D17C\\nAD0"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
