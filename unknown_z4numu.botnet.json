@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_z4numu.botnet",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unknown_z4numu.botnet",
 	"sector": "VNP_0344",
 	"sec_level": 4,
@@ -16,7 +16,7 @@
 	"scrape_ct": 18,
 	"next_scrape": 1586724811786,
 	"category": "fishie_tank",
-	"last_update": 1586724751786,
+	"last_update": 1586724815307,
 	"output": [
 		{
 			"args": {},
@@ -50,7 +50,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1899,
+			"calls": 3089,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -128,10 +128,9 @@
 	],
 	"retry_args": [
 		{
-			"do": "feed"
-		},
-		{
 			"do": "clean"
 		}
-	]
+	],
+	"updt": 1586724784701,
+	"edit": 1
 }
