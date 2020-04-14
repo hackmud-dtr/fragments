@@ -1,7 +1,7 @@
 {
 	"_id": "anon_c025pr.bank",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anon_c025pr.bank",
 	"sector": "K_1098",
 	"sec_level": 4,
@@ -19,12 +19,16 @@
 				"from": "K_1098",
 				"to": "NGC_7096"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1586899836945
+		}
 	],
 	"pl_output": "Flip a coin! heads wins, tails loses. {flip:true}",
 	"next_scrape": 1584796504987,
-	"updt": 1584754743633,
-	"edit": 1712,
+	"updt": 1584754968933,
+	"edit": 1713,
 	"scrape_ct": 13,
 	"category": "coin_flipper",
 	"last_update": 1584754794421,
