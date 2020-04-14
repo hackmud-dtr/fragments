@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_b3ni64._",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abandoned_b3ni64._",
 	"sector": "K_3821",
 	"sec_level": 2,
@@ -23,10 +23,14 @@
 				"from": "K_3821",
 				"to": "K_3845"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1586898718514
+		}
 	],
-	"updt": 1584747524975,
-	"edit": 14,
+	"updt": 1584758989844,
+	"edit": 15,
 	"pl_output": "Unexpected token u in JSON at position 0",
 	"next_scrape": 1584844115036
 }

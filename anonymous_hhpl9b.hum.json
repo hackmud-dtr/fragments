@@ -1,22 +1,30 @@
 {
 	"_id": "anonymous_hhpl9b.hum",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "anonymous_hhpl9b.hum",
 	"sector": "NGC_9840",
 	"sec_level": 4,
 	"date_added": 1586896607556,
-	"last_scraped": 1586898600594,
+	"last_scraped": 1586898681898,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1586896607556
+		},
+		{
+			"type": "died",
+			"when": 1586898681898
+		},
+		{
+			"type": "died",
+			"when": 1586898918065
 		}
 	],
-	"updt": 1586898437828,
-	"edit": 6,
+	"updt": 1586898887062,
+	"edit": 8,
 	"scrape_ct": 2,
-	"next_scrape": 1586898660594,
+	"next_scrape": 1586988815762,
 	"category": "plant_sim",
 	"last_update": 1586898600594,
 	"output": [
@@ -105,5 +113,6 @@
 				"g. Speci"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_hhpl9b.hum: script doesn't exist\"}"
 }

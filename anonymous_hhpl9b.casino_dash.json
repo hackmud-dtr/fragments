@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_hhpl9b.casino_dash",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anonymous_hhpl9b.casino_dash",
 	"sector": "K_1861",
 	"sec_level": 4,
@@ -15,6 +15,10 @@
 		{
 			"type": "manual edit",
 			"when": 1581272098192
+		},
+		{
+			"type": "died",
+			"when": 1586898827659
 		}
 	],
 	"scrape_ct": 16,
@@ -33,6 +37,19 @@
 				"dex proc",
 				"bhandari",
 				": Index "
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"UBJ: ",
+						" | SUB",
+						"ari | S",
+						"dex proc",
+						"bhandari",
+						": Index "
+					]
+				}
 			]
 		},
 		{
@@ -58,6 +75,24 @@
 				"x proce",
 				"dex pro",
 				": Index"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"| SUB",
+						"ocess",
+						"dari ",
+						"bhand",
+						"ari |",
+						"UBJ: ",
+						"BJ: I",
+						"Index ",
+						"x proce",
+						"dex pro",
+						": Index"
+					]
+				}
 			]
 		},
 		{
@@ -78,10 +113,45 @@
 				"x proce",
 				"dex pro",
 				": Index"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"| SUB",
+						"ocess",
+						"dari ",
+						"bhand",
+						"ari |",
+						"UBJ: ",
+						"BJ: I",
+						"Index ",
+						"x proce",
+						"dex pro",
+						": Index"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1581276701609,
-	"edit": 2,
-	"manual_cleanup": true
+	"updt": 1584518272947,
+	"edit": 3,
+	"manual_cleanup": true,
+	"identified": [
+		{
+			"document": "Passphrase",
+			"frags": [
+				"ocess",
+				"dari ",
+				"UBJ: ",
+				"BJ: I",
+				" | SUB",
+				"x proce",
+				"ari | S",
+				"dex proc",
+				"bhandari",
+				": Index "
+			]
+		}
+	]
 }
