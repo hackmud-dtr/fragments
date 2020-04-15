@@ -1,25 +1,25 @@
 {
 	"_id": "uknown_a0dvnr.k3ys",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_a0dvnr.k3ys",
 	"sector": "SPC_1238",
 	"sec_level": 4,
 	"date_added": 1586932042668,
-	"last_scraped": 1586933220004,
+	"last_scraped": 1586936531446,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1586932042668
 		}
 	],
-	"next_scrape": 1586978931893,
+	"next_scrape": 1586978336554,
 	"category": "fishie_tank",
-	"last_update": 1586933220004,
+	"last_update": 1586936567670,
 	"output": [
 		{
 			"args": {},
-			"calls": 95266,
+			"calls": 122183,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"s. Ma",
@@ -57,7 +57,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 11748,
+			"calls": 13742,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -135,8 +135,8 @@
 			]
 		}
 	],
-	"updt": 1586933215081,
-	"edit": 6,
+	"updt": 1586933441584,
+	"edit": 7,
 	"identified": [
 		{
 			"document": "Prisoners",
@@ -153,6 +153,11 @@
 				"'re all ",
 				" Mallory"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
