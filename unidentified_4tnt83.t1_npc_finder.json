@@ -1,20 +1,66 @@
 {
 	"_id": "unidentified_4tnt83.t1_npc_finder",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "unidentified_4tnt83.t1_npc_finder",
-	"sector": "NGC_7474",
+	"sector": "NGC_9840",
 	"sec_level": 4,
 	"date_added": 1581030382485,
-	"last_scraped": 1586913442290,
+	"last_scraped": 1586920204034,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1581030382485
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1586919894752,
+				"from": "NGC_9840",
+				"to": "NGC_7474"
+			}
+		]
 	],
 	"pl_output": "\nSorry, you cant use this script =(\n",
-	"next_scrape": 1586995712197,
-	"updt": 1586904526103,
-	"edit": 5283
+	"next_scrape": 1586920264034,
+	"updt": 1586913559393,
+	"edit": 5284,
+	"scrape_ct": 16,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1586920204034,
+	"output": [
+		{
+			"args": {},
+			"calls": 1191241,
+			"base": "\nSorry, you cant use this script =(\n",
+			"fragments": [
+				"OR | ",
+				" erajb",
+				" TIME E",
+				"G ERROR "
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"OR | ",
+						" erajb",
+						" TIME E",
+						"G ERROR "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"OR | ",
+				" erajb",
+				" TIME E",
+				"G ERROR "
+			]
+		}
+	]
 }
