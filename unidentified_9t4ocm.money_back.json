@@ -1,20 +1,76 @@
 {
 	"_id": "unidentified_9t4ocm.money_back",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "unidentified_9t4ocm.money_back",
-	"sector": "K_3841",
+	"sector": "K_9063",
 	"sec_level": 4,
 	"date_added": 1581030373018,
-	"last_scraped": 1587078940071,
+	"last_scraped": 1587080615441,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1581030373018
-		}
+		},
+		{
+			"type": "died",
+			"when": 1587080316898
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1587080398774,
+				"from": "K_9063",
+				"to": "K_3841"
+			}
+		]
 	],
 	"pl_output": "\nYour are not in my list\nGet out of here boy",
-	"next_scrape": 1587161081838,
-	"updt": 1587075994875,
-	"edit": 5333
+	"next_scrape": 1587080675441,
+	"updt": 1587080501792,
+	"edit": 5335,
+	"scrape_ct": 17,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1587080615441,
+	"output": [
+		{
+			"args": {},
+			"calls": 1191383,
+			"base": "\nYour are not in my list\nGet out of here boy",
+			"fragments": [
+				"ition",
+				" awar",
+				"achiev",
+				"rive to",
+				"d form ",
+				"they pos"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"ition",
+						" awar",
+						"achiev",
+						"rive to",
+						"d form ",
+						"they pos"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
+				"ition",
+				" awar",
+				"achiev",
+				"rive to",
+				"d form ",
+				"they pos"
+			]
+		}
+	]
 }
