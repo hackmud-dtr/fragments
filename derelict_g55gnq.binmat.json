@@ -1,25 +1,21 @@
 {
 	"_id": "derelict_g55gnq.binmat",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "npc",
 	"script": "derelict_g55gnq.binmat",
 	"sector": "K_9063",
 	"sec_level": 4,
 	"date_added": 1587134057667,
-	"last_scraped": 1587134853463,
+	"last_scraped": 1587134837409,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1587134057667
-		},
-		{
-			"type": "died",
-			"when": 1587135798731
 		}
 	],
-	"next_scrape": 1587175328482,
+	"next_scrape": 1587179567196,
 	"category": "clicker",
-	"last_update": 1587134853463,
+	"last_update": 1587134818961,
 	"output": [
 		{
 			"args": {},
@@ -76,7 +72,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 53941,
+			"calls": 46403,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"s, Ma",
@@ -129,7 +125,7 @@
 			"args": {
 				"CLICK": true
 			},
-			"calls": 18509,
+			"calls": 15535,
 			"base": "`LCLICK SECURED`",
 			"fragments": [
 				"s, Ma",
@@ -204,6 +200,11 @@
 			]
 		}
 	],
-	"updt": 1587135066840,
-	"edit": 4
+	"updt": 1587134615460,
+	"edit": 3,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
