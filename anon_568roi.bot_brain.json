@@ -6,31 +6,124 @@
 	"sector": "K_6888",
 	"sec_level": 4,
 	"date_added": 1587249871470,
-	"last_scraped": 1587249891269,
+	"last_scraped": 1587251014080,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1587249871470
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1587249951269,
+	"scrape_ct": 1,
+	"next_scrape": 1587251074080,
 	"category": "fishie_tank",
-	"last_update": 1587249891269,
+	"last_update": 1587251014080,
 	"output": [
 		{
 			"args": {},
-			"calls": 7015,
+			"calls": 72347,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"ink t",
+				"| SUBJ",
+				"Priori",
+				"| BODY ",
+				"i | SUB",
+				" I thin",
+				"ter thre",
+				"DY I thi"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"ink t",
+						"| SUBJ",
+						"Priori",
+						"| BODY ",
+						"i | SUB",
+						" I thin",
+						"ter thre",
+						"DY I thi"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 13222,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ink t",
+				"| SUBJ",
+				"Priori",
+				"| BODY ",
+				"i | SUB",
+				" I thin",
+				"ter thre",
+				"DY I thi"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"ink t",
+						"| SUBJ",
+						"Priori",
+						"| BODY ",
+						"i | SUB",
+						" I thin",
+						"ter thre",
+						"DY I thi"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 103272,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ink t",
+				"| SUBJ",
+				"Priori",
+				"| BODY ",
+				"i | SUB",
+				" I thin",
+				"ter thre",
+				"DY I thi"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"ink t",
+						"| SUBJ",
+						"Priori",
+						"| BODY ",
+						"i | SUB",
+						" I thin",
+						"ter thre",
+						"DY I thi"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1587250810874,
+	"edit": 4,
+	"identified": [
+		{
+			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+			"frags": [
 				"ink t",
 				"| SUBJ",
 				"Priori",
