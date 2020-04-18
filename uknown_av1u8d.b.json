@@ -1,19 +1,23 @@
 {
 	"_id": "uknown_av1u8d.b",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "uknown_av1u8d.b",
 	"sector": "K_6888",
 	"sec_level": 4,
 	"date_added": 1587222073798,
-	"last_scraped": 1587239031662,
+	"last_scraped": 1587242984776,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1587222073798
+		},
+		{
+			"type": "died",
+			"when": 1587242984776
 		}
 	],
-	"next_scrape": 1587284612516,
+	"next_scrape": 1587323228339,
 	"category": "plant_sim",
 	"last_update": 1587239031662,
 	"output": [
@@ -104,8 +108,8 @@
 			]
 		}
 	],
-	"updt": 1587235860693,
-	"edit": 10,
+	"updt": 1587240667140,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -138,5 +142,6 @@
 				" world"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_av1u8d.b: script doesn't exist\"}"
 }
