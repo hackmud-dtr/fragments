@@ -1,19 +1,27 @@
 {
 	"_id": "abndnd_qemwrf.init",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abndnd_qemwrf.init",
 	"sector": "K_9063",
 	"sec_level": 4,
 	"date_added": 1587156176206,
-	"last_scraped": 1587171541638,
+	"last_scraped": 1587174691568,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1587156176206
+		},
+		{
+			"type": "died",
+			"when": 1587174691568
+		},
+		{
+			"type": "died",
+			"when": 1587175074906
 		}
 	],
-	"next_scrape": 1587218055363,
+	"next_scrape": 1587267702190,
 	"category": "plant_sim",
 	"last_update": 1587171541638,
 	"output": [
@@ -115,6 +123,7 @@
 			]
 		}
 	],
-	"updt": 1587168455290,
-	"edit": 8
+	"updt": 1587174769941,
+	"edit": 10,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_qemwrf.init: script doesn't exist\"}"
 }
