@@ -1,19 +1,27 @@
 {
 	"_id": "abndnd_kxuv9v.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abndnd_kxuv9v.bot_scam_do_not_run",
 	"sector": "K_6888",
 	"sec_level": 4,
 	"date_added": 1587352717816,
-	"last_scraped": 1587366076094,
+	"last_scraped": 1587369731320,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1587352717816
+		},
+		{
+			"type": "died",
+			"when": 1587369731320
+		},
+		{
+			"type": "died",
+			"when": 1587370098625
 		}
 	],
-	"next_scrape": 1587411263030,
+	"next_scrape": 1587458141507,
 	"category": "fishie_tank",
 	"last_update": 1587366076094,
 	"output": [
@@ -615,8 +623,8 @@
 			]
 		}
 	],
-	"updt": 1587366058368,
-	"edit": 12,
+	"updt": 1587369894345,
+	"edit": 14,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -767,5 +775,6 @@
 				"_CLST0X"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_kxuv9v.bot_scam_do_not_run: script doesn't exist\"}"
 }
