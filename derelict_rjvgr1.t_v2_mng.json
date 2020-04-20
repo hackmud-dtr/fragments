@@ -1,0 +1,191 @@
+{
+	"_id": "derelict_rjvgr1.t_v2_mng",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "derelict_rjvgr1.t_v2_mng",
+	"sector": "NGC_8201",
+	"sec_level": 4,
+	"date_added": 1587395376689,
+	"last_scraped": 1587395811615,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1587395376689
+		}
+	],
+	"scrape_ct": 13,
+	"next_scrape": 1587395871615,
+	"category": "fishie_tank",
+	"last_update": 1587395811615,
+	"output": [
+		{
+			"args": {},
+			"calls": 42765,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" Maci",
+				"ons...",
+				"ef Fin",
+				"amenta",
+				"aching",
+				"reachin",
+				"inancia",
+				"ching\\\"",
+				"ntal and"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" Maci",
+						"ons...",
+						"ef Fin",
+						"reachin",
+						"inancia",
+						"ching\\\"",
+						"ntal and"
+					]
+				},
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						"amenta"
+					]
+				},
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"aching"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3435,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" Maci",
+				"ons...",
+				"ef Fin",
+				"amenta",
+				"aching",
+				"reachin",
+				"inancia",
+				"ching\\\"",
+				"ntal and"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" Maci",
+						"ons...",
+						"ef Fin",
+						"reachin",
+						"inancia",
+						"ching\\\"",
+						"ntal and"
+					]
+				},
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						"amenta"
+					]
+				},
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"aching"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 36325,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" Maci",
+				"ons...",
+				"ef Fin",
+				"amenta",
+				"aching",
+				"reachin",
+				"inancia",
+				"ching\\\"",
+				"ntal and"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" Maci",
+						"ons...",
+						"ef Fin",
+						"reachin",
+						"inancia",
+						"ching\\\"",
+						"ntal and"
+					]
+				},
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						"amenta"
+					]
+				},
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"aching"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				" Maci",
+				"ons...",
+				"ef Fin",
+				"reachin",
+				"inancia",
+				"ching\\\"",
+				"ntal and"
+			]
+		},
+		{
+			"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+			"frags": [
+				"amenta"
+			]
+		},
+		{
+			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+			"frags": [
+				"aching"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
