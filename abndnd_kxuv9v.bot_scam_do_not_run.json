@@ -6,20 +6,20 @@
 	"sector": "K_6888",
 	"sec_level": 4,
 	"date_added": 1587352717816,
-	"last_scraped": 1587362401637,
+	"last_scraped": 1587366040075,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1587352717816
 		}
 	],
-	"next_scrape": 1587408535797,
+	"next_scrape": 1587406045105,
 	"category": "fishie_tank",
-	"last_update": 1587362401637,
+	"last_update": 1587366040075,
 	"output": [
 		{
 			"args": {},
-			"calls": 152041,
+			"calls": 164329,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ript\"",
@@ -30,6 +30,7 @@
 				"roven'",
 				"hey've",
 				"h - Ha",
+				"eader\"",
 				"e\":\"tr",
 				"e We?\"",
 				"anscri",
@@ -45,12 +46,14 @@
 				"2_FILE0",
 				"\"data_t",
 				" We?\",\"",
-				" 'Prove",
 				"y've 'Pr",
+				"heir Wor",
+				"e 'Prove",
 				"\\n{\"data",
 				"XE9_SECT",
 				"T0X63A2_",
 				"SECT0X63",
+				"LE0X2194",
 				"42_CLST0",
 				"4137C\\n{",
 				"\",\"heade",
@@ -606,8 +609,8 @@
 			]
 		}
 	],
-	"updt": 1587359519417,
-	"edit": 10,
+	"updt": 1587362452050,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -757,6 +760,14 @@
 			"frags": [
 				"_CLST0X"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
