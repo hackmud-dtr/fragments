@@ -1,27 +1,22 @@
 {
 	"_id": "derelict_ib36ps.t1",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "derelict_ib36ps.t1",
 	"sector": "NGC_8201",
 	"sec_level": 4,
 	"date_added": 1587457764571,
-	"last_scraped": 1587457782779,
+	"last_scraped": 1587457856119,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1587457764571
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1587457842779,
+	"scrape_ct": 18,
+	"next_scrape": 1587457916119,
 	"category": "fishie_tank",
-	"last_update": 1587457800632,
+	"last_update": 1587457856119,
 	"output": [
 		{
 			"args": {},
@@ -43,7 +38,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 833,
+			"calls": 2121,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -61,6 +56,26 @@
 				"s your q",
 				"good. So"
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 17273,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" ques",
+				"at is ",
+				"ould yo",
+				"is your",
+				"E Could",
+				"5E Coul",
+				" what i",
+				"s your q",
+				"good. So"
+			]
 		}
-	]
+	],
+	"updt": 1587457810081,
+	"edit": 1
 }
