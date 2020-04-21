@@ -1,20 +1,88 @@
 {
 	"_id": "unidentified_n4liyp.xfer",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "unidentified_n4liyp.xfer",
-	"sector": "K_6480",
+	"sector": "K_2782",
 	"sec_level": 0,
 	"date_added": 1584232403628,
-	"last_scraped": 1587484098675,
+	"last_scraped": 1587487485082,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1584232403628
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1587486925237,
+				"from": "K_2782",
+				"to": "K_6480"
+			}
+		]
 	],
 	"pl_output": "\n\n`c[USER NOT AUTHORIZED]`\n",
-	"next_scrape": 1587571526566,
-	"updt": 1587480795503,
-	"edit": 1027
+	"next_scrape": 1587487545082,
+	"updt": 1587487332019,
+	"edit": 1029,
+	"scrape_ct": 8,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1587487485082,
+	"output": [
+		{
+			"args": {},
+			"calls": 4089823,
+			"base": "\n\n`c[USER NOT AUTHORIZED]`\n",
+			"fragments": [
+				"R | U",
+				"YST ER",
+				"T ERRO",
+				"ERROR ",
+				" | PROG",
+				"TW ERROR",
+				"RROR | P",
+				"1C\\nSYST"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"R | U",
+						"YST ER",
+						"T ERRO",
+						"ERROR ",
+						" | PROG",
+						"TW ERROR",
+						"RROR | P"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"1C\\nSYST"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"R | U",
+				"YST ER",
+				"T ERRO",
+				"ERROR ",
+				" | PROG",
+				"TW ERROR",
+				"RROR | P"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"1C\\nSYST"
+			]
+		}
+	]
 }
