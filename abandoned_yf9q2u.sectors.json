@@ -1,22 +1,22 @@
 {
 	"_id": "abandoned_yf9q2u.sectors",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abandoned_yf9q2u.sectors",
 	"sector": "NGC_8201",
 	"sec_level": 4,
 	"date_added": 1587507081888,
-	"last_scraped": 1587507153972,
+	"last_scraped": 1587507172793,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1587507081888
 		}
 	],
-	"scrape_ct": 17,
-	"next_scrape": 1587507213972,
+	"scrape_ct": 16,
+	"next_scrape": 1587507232793,
 	"category": "risk_factor",
-	"last_update": 1587507153972,
+	"last_update": 1587507172793,
 	"output": [
 		{
 			"args": {},
@@ -41,9 +41,10 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 240,
+			"calls": 379,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
+				"3",
 				"n_png",
 				"calit",
 				"Take ",
@@ -691,10 +692,9 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"updt": 1587507164791,
+	"edit": 1
 }
