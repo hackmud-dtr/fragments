@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_cu5oga.con_spec",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anonymous_cu5oga.con_spec",
 	"sector": "HJG_9437",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1585363966892
+		},
+		{
+			"type": "died",
+			"when": 1587600281546
 		}
 	],
 	"retry_args": [
@@ -34,6 +38,19 @@
 				"R fbret",
 				"OR | TI",
 				"4_CLST0X"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"ROR |",
+						"\\nSYST ",
+						"T0X44_C",
+						"R fbret",
+						"OR | TI",
+						"4_CLST0X"
+					]
+				}
 			]
 		},
 		{
@@ -43,6 +60,34 @@
 			"calls": 6581,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
+				"ROR |",
+				"\\nSYST ",
+				"T0X44_C",
+				"R fbret",
+				"OR | TI",
+				"4_CLST0X"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"ROR |",
+						"\\nSYST ",
+						"T0X44_C",
+						"R fbret",
+						"OR | TI",
+						"4_CLST0X"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1585364243864,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
 				"ROR |",
 				"\\nSYST ",
 				"T0X44_C",
