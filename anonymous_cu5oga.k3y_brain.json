@@ -1,19 +1,23 @@
 {
 	"_id": "anonymous_cu5oga.k3y_brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_cu5oga.k3y_brain",
 	"sector": "HJG_9363",
 	"sec_level": 4,
 	"date_added": 1587590186125,
-	"last_scraped": 1587592765998,
+	"last_scraped": 1587599823917,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1587590186125
+		},
+		{
+			"type": "died",
+			"when": 1587599823917
 		}
 	],
-	"next_scrape": 1587635236328,
+	"next_scrape": 1587685404504,
 	"category": "coin_flipper",
 	"last_update": 1587592765998,
 	"output": [
@@ -71,8 +75,8 @@
 			]
 		}
 	],
-	"updt": 1587592671286,
-	"edit": 5,
+	"updt": 1587592895497,
+	"edit": 6,
 	"identified": [
 		{
 			"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
@@ -93,5 +97,6 @@
 				"owing in"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_cu5oga.k3y_brain: script doesn't exist\"}"
 }
