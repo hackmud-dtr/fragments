@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_txashh.lock_sim",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abndnd_txashh.lock_sim",
 	"sector": "SPC_8764",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1587363252472
+		},
+		{
+			"type": "died",
+			"when": 1587636542129
 		}
 	],
 	"next_scrape": 1587507116355,
@@ -118,8 +122,8 @@
 			]
 		}
 	],
-	"updt": 1587457810081,
-	"edit": 34,
+	"updt": 1587461641774,
+	"edit": 35,
 	"retry_args": [
 		{
 			"do": "clean"
