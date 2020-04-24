@@ -6,7 +6,7 @@
 	"sector": "SPC_7002",
 	"sec_level": 4,
 	"date_added": 1584232584927,
-	"last_scraped": 1587751243523,
+	"last_scraped": 1587752286159,
 	"script_log": [
 		{
 			"type": "added",
@@ -22,16 +22,16 @@
 		]
 	],
 	"pl_output": "\n\n/**\n * `1@function`                      print.f\n * `1@description`                   `cPrints a reference table for available hackmud colors`\n * `1@param` `Ntype` `V{string}`\n * `1@return` `V{string}`\n * `1@example`\n *\n *     print.f{type:\"color_ref\"}\n */\n\n/**\n * `1@function`           print.f\n * `1@description`        `cPrints a formatted data table. Standard csv format.`\n *                        `cFirst line is data headers.`\n * `1@known_issues`       `cCurrently, if a column contains color-wrapped data as`\n *                        `cwell as non-color-wrapped data, spacing *may* be incorrect.`\n * `1@param`              `Ntype` `V{string}`\n * `1@param`              `Ndata` `V{string}`\n * `1@return`             `V{string}`\n * `1@example`\n *\n *     print.f{type:\"table\", data:\"header1,header2,\\\\n,data1,data2\"}\n */\n\n/**\n * `1@function`                      print.f\n * `1@description`                   `cPrints a formatted data plot`\n * `1@param` `Ntype` `V{string}`\n * `1@param` `Ndata` `V{string}`\n * `1@return` `V{string}`\n * `1@example`\n *\n *     print.f{type:\"plot\"}\n */\n\n/**\n * `1@function`                      print.f\n * `1@description`                   `cPrints a formatted data plot`\n * `1@param` `Ntype` `V{string}`\n * `1@param` `Ndata` `V{string}`\n * `1@return {string}`\n * `1@example`\n *\n *     print.f{type:\"render\"}\n */",
-	"next_scrape": 1587751303523,
-	"updt": 1587751235671,
-	"edit": 836,
-	"scrape_ct": 6,
+	"next_scrape": 1587752346159,
+	"updt": 1587752137949,
+	"edit": 838,
+	"scrape_ct": 3,
 	"category": "UNKNOWN CATEGORY",
-	"last_update": 1587751243523,
+	"last_update": 1587752286159,
 	"output": [
 		{
 			"args": {},
-			"calls": 17764,
+			"calls": 21281,
 			"base": "\n\n/**\n * `1@function`                      print.f\n * `1@description`                   `cPrints a reference table for available hackmud colors`\n * `1@param` `Ntype` `V{string}`\n * `1@return` `V{string}`\n * `1@example`\n *\n *     print.f{type:\"color_ref\"}\n */\n\n/**\n * `1@function`           print.f\n * `1@description`        `cPrints a formatted data table. Standard csv format.`\n *                        `cFirst line is data headers.`\n * `1@known_issues`       `cCurrently, if a column contains color-wrapped data as`\n *                        `cwell as non-color-wrapped data, spacing *may* be incorrect.`\n * `1@param`              `Ntype` `V{string}`\n * `1@param`              `Ndata` `V{string}`\n * `1@return`             `V{string}`\n * `1@example`\n *\n *     print.f{type:\"table\", data:\"header1,header2,\\\\n,data1,data2\"}\n */\n\n/**\n * `1@function`                      print.f\n * `1@description`                   `cPrints a formatted data plot`\n * `1@param` `Ntype` `V{string}`\n * `1@param` `Ndata` `V{string}`\n * `1@return` `V{string}`\n * `1@example`\n *\n *     print.f{type:\"plot\"}\n */\n\n/**\n * `1@function`                      print.f\n * `1@description`                   `cPrints a formatted data plot`\n * `1@param` `Ntype` `V{string}`\n * `1@param` `Ndata` `V{string}`\n * `1@return {string}`\n * `1@example`\n *\n *     print.f{type:\"render\"}\n */",
 			"fragments": [
 				"done.",
