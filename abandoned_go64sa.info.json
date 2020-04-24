@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_go64sa.info",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abandoned_go64sa.info",
 	"sector": "HJG_8400",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1585465734897
+		},
+		{
+			"type": "died",
+			"when": 1587708500497
 		}
 	],
 	"retry_args": [
@@ -34,6 +38,19 @@
 				"from a ",
 				"raw a ca",
 				", or\\n20"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ard fr",
+						"a deck",
+						"209C d",
+						"from a ",
+						"raw a ca",
+						", or\\n20"
+					]
+				}
 			]
 		},
 		{
@@ -49,9 +66,35 @@
 				"from a ",
 				"raw a ca",
 				", or\\n20"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ard fr",
+						"a deck",
+						"209C d",
+						"from a ",
+						"raw a ca",
+						", or\\n20"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1585465758258,
-	"edit": 1
+	"updt": 1585465982892,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"ard fr",
+				"a deck",
+				"209C d",
+				"from a ",
+				"raw a ca",
+				", or\\n20"
+			]
+		}
+	]
 }
