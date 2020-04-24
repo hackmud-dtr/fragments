@@ -1,20 +1,72 @@
 {
 	"_id": "anonymous_pb59cn.f",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "anonymous_pb59cn.f",
-	"sector": "HJG_3307",
+	"sector": "SPC_7002",
 	"sec_level": 4,
 	"date_added": 1584232584927,
-	"last_scraped": 1586752603610,
+	"last_scraped": 1587750754587,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1584232584927
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1587750103121,
+				"from": "SPC_7002",
+				"to": "HJG_3307"
+			}
+		]
 	],
 	"pl_output": "\n\n/**\n * `1@function`                      print.f\n * `1@description`                   `cPrints a reference table for available hackmud colors`\n * `1@param` `Ntype` `V{string}`\n * `1@return` `V{string}`\n * `1@example`\n *\n *     print.f{type:\"color_ref\"}\n */\n\n/**\n * `1@function`           print.f\n * `1@description`        `cPrints a formatted data table. Standard csv format.`\n *                        `cFirst line is data headers.`\n * `1@known_issues`       `cCurrently, if a column contains color-wrapped data as`\n *                        `cwell as non-color-wrapped data, spacing *may* be incorrect.`\n * `1@param`              `Ntype` `V{string}`\n * `1@param`              `Ndata` `V{string}`\n * `1@return`             `V{string}`\n * `1@example`\n *\n *     print.f{type:\"table\", data:\"header1,header2,\\\\n,data1,data2\"}\n */\n\n/**\n * `1@function`                      print.f\n * `1@description`                   `cPrints a formatted data plot`\n * `1@param` `Ntype` `V{string}`\n * `1@param` `Ndata` `V{string}`\n * `1@return` `V{string}`\n * `1@example`\n *\n *     print.f{type:\"plot\"}\n */\n\n/**\n * `1@function`                      print.f\n * `1@description`                   `cPrints a formatted data plot`\n * `1@param` `Ntype` `V{string}`\n * `1@param` `Ndata` `V{string}`\n * `1@return {string}`\n * `1@example`\n *\n *     print.f{type:\"render\"}\n */",
-	"next_scrape": 1586836751928,
-	"updt": 1586749332973,
-	"edit": 829
+	"next_scrape": 1587750814587,
+	"updt": 1587750560791,
+	"edit": 833,
+	"scrape_ct": 13,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1587750754587,
+	"output": [
+		{
+			"args": {},
+			"calls": 9576,
+			"base": "\n\n/**\n * `1@function`                      print.f\n * `1@description`                   `cPrints a reference table for available hackmud colors`\n * `1@param` `Ntype` `V{string}`\n * `1@return` `V{string}`\n * `1@example`\n *\n *     print.f{type:\"color_ref\"}\n */\n\n/**\n * `1@function`           print.f\n * `1@description`        `cPrints a formatted data table. Standard csv format.`\n *                        `cFirst line is data headers.`\n * `1@known_issues`       `cCurrently, if a column contains color-wrapped data as`\n *                        `cwell as non-color-wrapped data, spacing *may* be incorrect.`\n * `1@param`              `Ntype` `V{string}`\n * `1@param`              `Ndata` `V{string}`\n * `1@return`             `V{string}`\n * `1@example`\n *\n *     print.f{type:\"table\", data:\"header1,header2,\\\\n,data1,data2\"}\n */\n\n/**\n * `1@function`                      print.f\n * `1@description`                   `cPrints a formatted data plot`\n * `1@param` `Ntype` `V{string}`\n * `1@param` `Ndata` `V{string}`\n * `1@return` `V{string}`\n * `1@example`\n *\n *     print.f{type:\"plot\"}\n */\n\n/**\n * `1@function`                      print.f\n * `1@description`                   `cPrints a formatted data plot`\n * `1@param` `Ntype` `V{string}`\n * `1@param` `Ndata` `V{string}`\n * `1@return {string}`\n * `1@example`\n *\n *     print.f{type:\"render\"}\n */",
+			"fragments": [
+				"done.",
+				"03217",
+				"17C\\nA",
+				"one.\\n2",
+				"e: we ar",
+				"17B Ther"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"done.",
+						"03217",
+						"17C\\nA",
+						"one.\\n2",
+						"e: we ar",
+						"17B Ther"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"done.",
+				"03217",
+				"17C\\nA",
+				"one.\\n2",
+				"e: we ar",
+				"17B Ther"
+			]
+		}
+	]
 }
