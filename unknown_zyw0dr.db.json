@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_zyw0dr.db",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unknown_zyw0dr.db",
 	"sector": "SPC_5998",
 	"sec_level": 4,
 	"date_added": 1575921894242,
-	"last_scraped": 1587703476226,
+	"last_scraped": 1587707006070,
 	"script_log": [
 		{
 			"type": "added",
@@ -23,10 +23,18 @@
 				"from": "SPC_5998",
 				"to": "SPC_3892"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1587707006070
+		},
+		{
+			"type": "died",
+			"when": 1587707006603
+		}
 	],
-	"pl_output": "Not for you!",
-	"next_scrape": 1587787427256,
-	"updt": 1587699166265,
-	"edit": 9608
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_zyw0dr.db: script doesn't exist\"}",
+	"next_scrape": 1587792771862,
+	"updt": 1587703673743,
+	"edit": 9609
 }
