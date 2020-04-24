@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_yf9q2u.withdraw",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abandoned_yf9q2u.withdraw",
 	"sector": "VNP_1373",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "VNP_1373",
 				"to": "VNP_1962"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1587743513925
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"`DAccess Denied`\"}",
 	"next_scrape": 1586984715234,
-	"updt": 1586898887062,
-	"edit": 6908
+	"updt": 1586902723211,
+	"edit": 6909
 }
