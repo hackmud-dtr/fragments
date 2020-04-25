@@ -1,22 +1,30 @@
 {
 	"_id": "unidentified_cku90y.t2_cracker",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unidentified_cku90y.t2_cracker",
 	"sector": "VNP_8460",
 	"sec_level": 4,
 	"date_added": 1587814638425,
-	"last_scraped": 1587814962702,
+	"last_scraped": 1587815125254,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1587814638425
+		},
+		{
+			"type": "died",
+			"when": 1587815125254
+		},
+		{
+			"type": "died",
+			"when": 1587816739993
 		}
 	],
-	"scrape_ct": 16,
-	"next_scrape": 1587815022702,
+	"scrape_ct": 15,
+	"next_scrape": 1587900899242,
 	"category": "fishie_tank",
-	"last_update": 1587815018117,
+	"last_update": 1587815034942,
 	"output": [
 		{
 			"args": {},
@@ -396,17 +404,21 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 22678,
+			"calls": 35080,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"roven",
 				"ata_t",
-				"Worth",
-				"3A2_F",
 				"h - Ha",
 				"- Have",
+				"_type\":",
+				"X63A2_F",
 				"They've",
 				"2_CLST0",
+				" Worth ",
+				"ader\":\"T",
 				"\\n{\"data",
+				"SECT0X63",
 				"FT0X42_C"
 			],
 			"hits": [
@@ -589,11 +601,7 @@
 			]
 		}
 	],
-	"updt": 1587814807208,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1587815258632,
+	"edit": 3,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_cku90y.t2_cracker: script doesn't exist\"}"
 }
