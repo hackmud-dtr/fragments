@@ -1,19 +1,23 @@
 {
 	"_id": "uknown_1s1oef.capitali",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "uknown_1s1oef.capitali",
 	"sector": "VNP_8460",
 	"sec_level": 4,
 	"date_added": 1587849227961,
-	"last_scraped": 1587871168287,
+	"last_scraped": 1587886285555,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1587849227961
+		},
+		{
+			"type": "died",
+			"when": 1587886285555
 		}
 	],
-	"next_scrape": 1587914041086,
+	"next_scrape": 1587969952810,
 	"category": "coin_flipper",
 	"last_update": 1587871168287,
 	"output": [
@@ -66,6 +70,7 @@
 			]
 		}
 	],
-	"updt": 1587867786859,
-	"edit": 13
+	"updt": 1587871393520,
+	"edit": 14,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_1s1oef.capitali: script doesn't exist\"}"
 }
