@@ -1,26 +1,29 @@
 {
 	"_id": "uknown_1s1oef.lime_edge",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "uknown_1s1oef.lime_edge",
 	"sector": "NGC_4630",
 	"sec_level": 4,
 	"date_added": 1585283566233,
-	"last_scraped": 1585283801249,
+	"last_scraped": 1585290750397,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1585283566233
+		},
+		{
+			"type": "died",
+			"when": 1587884153509
 		}
 	],
-	"scrape_ct": 12,
-	"next_scrape": 1585283861249,
+	"next_scrape": 1585332775677,
 	"category": "clicker",
-	"last_update": 1585283801249,
+	"last_update": 1585290750397,
 	"output": [
 		{
 			"args": {},
-			"calls": 18492,
+			"calls": 59611,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"visit",
@@ -66,7 +69,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 9427,
+			"calls": 51510,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"visit",
@@ -112,7 +115,7 @@
 			"args": {
 				"CLICK": true
 			},
-			"calls": 1821,
+			"calls": 8156,
 			"base": "`LCLICK SECURED`",
 			"fragments": [
 				"visit",
@@ -180,6 +183,13 @@
 			"frags": [
 				"ears "
 			]
+		}
+	],
+	"updt": 1585290756646,
+	"edit": 5,
+	"retry_args": [
+		{
+			"CLICK": true
 		}
 	]
 }

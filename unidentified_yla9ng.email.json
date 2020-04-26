@@ -1,20 +1,78 @@
 {
 	"_id": "unidentified_yla9ng.email",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "unidentified_yla9ng.email",
-	"sector": "K_0086",
+	"sector": "HJG_3667",
 	"sec_level": 3,
 	"date_added": 1583615665182,
-	"last_scraped": 1587871295629,
+	"last_scraped": 1587884166500,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1583615665182
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1587884149116,
+				"from": "HJG_3667",
+				"to": "K_0086"
+			}
+		]
 	],
 	"pl_output": "\n`P[NeoTech Internal Services] Status 407 - Proxy Auth Required`\n\n\n`PThis unauthorized access attempt has been logged.`\n\n",
-	"next_scrape": 1587957890167,
-	"updt": 1587867786859,
-	"edit": 1792
+	"next_scrape": 1587884226500,
+	"updt": 1587871393520,
+	"edit": 1793,
+	"scrape_ct": 20,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1587884166500,
+	"output": [
+		{
+			"args": {},
+			"calls": 396,
+			"base": "\n`P[NeoTech Internal Services] Status 407 - Proxy Auth Required`\n\n\n`PThis unauthorized access attempt has been logged.`\n\n",
+			"fragments": [
+				"ence ",
+				"e fil",
+				"Thank",
+				"you se",
+				"nce be",
+				"jbhanda",
+				" | BODY",
+				"iles you"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"ence ",
+						"e fil",
+						"Thank",
+						"you se",
+						"nce be",
+						"jbhanda",
+						" | BODY",
+						"iles you"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+			"frags": [
+				"ence ",
+				"e fil",
+				"Thank",
+				"you se",
+				"nce be",
+				"jbhanda",
+				" | BODY",
+				"iles you"
+			]
+		}
+	]
 }

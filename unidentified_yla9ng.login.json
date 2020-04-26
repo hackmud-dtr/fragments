@@ -1,20 +1,69 @@
 {
 	"_id": "unidentified_yla9ng.login",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "unidentified_yla9ng.login",
-	"sector": "K_0086",
+	"sector": "HJG_3667",
 	"sec_level": 3,
 	"date_added": 1583615665182,
-	"last_scraped": 1587872092664,
+	"last_scraped": 1587884184804,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1583615665182
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1587884149116,
+				"from": "HJG_3667",
+				"to": "K_0086"
+			}
+		]
 	],
 	"pl_output": "\n`P[NeoTech Internal Services] Status 407 - Proxy Auth Required`\n\n\n`PThis unauthorized access attempt has been logged.`\n\n",
-	"next_scrape": 1587954511991,
-	"updt": 1587868686818,
-	"edit": 1791
+	"next_scrape": 1587884244804,
+	"updt": 1587872294902,
+	"edit": 1792,
+	"scrape_ct": 20,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1587884184804,
+	"output": [
+		{
+			"args": {},
+			"calls": 400,
+			"base": "\n`P[NeoTech Internal Services] Status 407 - Proxy Auth Required`\n\n\n`PThis unauthorized access attempt has been logged.`\n\n",
+			"fragments": [
+				"| NETW",
+				"T ERRO",
+				"ME ERR",
+				" | NET",
+				"W ERROR"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"| NETW",
+						"T ERRO",
+						"ME ERR",
+						" | NET",
+						"W ERROR"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"| NETW",
+				"T ERRO",
+				"ME ERR",
+				" | NET",
+				"W ERROR"
+			]
+		}
+	]
 }
