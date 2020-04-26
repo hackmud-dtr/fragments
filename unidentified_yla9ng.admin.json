@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_yla9ng.admin",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "timeout",
 	"script": "unidentified_yla9ng.admin",
-	"sector": "HJG_9131",
+	"sector": "VNP_8460",
 	"sec_level": 4,
 	"date_added": 1583615665182,
-	"last_scraped": 1583727952949,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1587884153509
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1587887064041,
+				"from": "VNP_8460",
+				"to": "HJG_9131"
+			}
+		]
 	],
 	"pl_output": "You must be root or on the admin list to use admin functions.",
 	"next_scrape": 1583809263131,
-	"updt": 1584569221796,
-	"edit": 79
+	"updt": 1587884240353,
+	"edit": 80
 }
