@@ -1,0 +1,139 @@
+{
+	"_id": "abndnd_ie4590.l0ck_breaker",
+	"type": "fragment",
+	"mode": "timeout",
+	"script": "abndnd_ie4590.l0ck_breaker",
+	"sector": "K_5511",
+	"sec_level": 4,
+	"date_added": 1588005089005,
+	"last_scraped": 1588005650333,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1588005089005
+		}
+	],
+	"scrape_ct": 15,
+	"next_scrape": 1588094209888,
+	"category": "fishie_tank",
+	"last_update": 1588005650333,
+	"output": [
+		{
+			"args": {},
+			"calls": 47418,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"yawaki",
+				"o have",
+				"| SUBJ:",
+				"ere rig",
+				"<devil_",
+				"handari ",
+				"awaki er"
+			],
+			"hits": [
+				{
+					"document": "Prisoners",
+					"frags": [
+						"yawaki",
+						"o have",
+						"| SUBJ:",
+						"ere rig",
+						"<devil_",
+						"handari ",
+						"awaki er"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4067,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"yawaki",
+				"o have",
+				"| SUBJ:",
+				"ere rig",
+				"<devil_",
+				"handari ",
+				"awaki er"
+			],
+			"hits": [
+				{
+					"document": "Prisoners",
+					"frags": [
+						"yawaki",
+						"o have",
+						"| SUBJ:",
+						"ere rig",
+						"<devil_",
+						"handari ",
+						"awaki er"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 32204,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"yawaki",
+				"o have",
+				"| SUBJ:",
+				"ere rig",
+				"<devil_",
+				"handari ",
+				"awaki er"
+			],
+			"hits": [
+				{
+					"document": "Prisoners",
+					"frags": [
+						"yawaki",
+						"o have",
+						"| SUBJ:",
+						"ere rig",
+						"<devil_",
+						"handari ",
+						"awaki er"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "Prisoners",
+			"frags": [
+				"yawaki",
+				"o have",
+				"| SUBJ:",
+				"ere rig",
+				"<devil_",
+				"handari ",
+				"awaki er"
+			]
+		}
+	],
+	"updt": 1588005540489,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
