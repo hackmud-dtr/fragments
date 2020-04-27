@@ -1,16 +1,77 @@
 {
 	"_id": "derelict_ujgmka.flood",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "timeout",
 	"script": "derelict_ujgmka.flood",
 	"sector": "SPC_9399",
 	"sec_level": 4,
 	"date_added": 1587963596537,
-	"last_scraped": 0,
+	"last_scraped": 1587963650341,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1587963596537
+		}
+	],
+	"updt": 1587963615915,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1588046294328,
+	"category": "risk_factor",
+	"last_update": 1587963650341,
+	"output": [
+		{
+			"args": {},
+			"calls": 1940,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"at th",
+				"s what",
+				" They ",
+				"with av",
+				"rial, i",
+				"ould. T",
+				"ith ava",
+				", it's ",
+				" what t",
+				" build ",
+				"t they d",
+				"h availa",
+				"ey do. S",
+				"aterial,",
+				"able mat",
+				" materia"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 159,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"at th",
+				"s what",
+				" They ",
+				"with av",
+				"rial, i",
+				"ould. T",
+				"ith ava",
+				", it's ",
+				" what t",
+				" build ",
+				"t they d",
+				"h availa",
+				"ey do. S",
+				"aterial,",
+				"able mat",
+				" materia"
+			]
 		}
 	]
 }
