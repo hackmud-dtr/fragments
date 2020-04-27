@@ -1,19 +1,23 @@
 {
 	"_id": "anonymous_dwii9m.equip",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_dwii9m.equip",
 	"sector": "VNP_2718",
 	"sec_level": 4,
 	"date_added": 1587628130796,
-	"last_scraped": 1587943245760,
+	"last_scraped": 1587947355800,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1587628130796
+		},
+		{
+			"type": "died",
+			"when": 1587947355800
 		}
 	],
-	"next_scrape": 1587988894850,
+	"next_scrape": 1588035539388,
 	"category": "plant_sim",
 	"last_update": 1587943245760,
 	"output": [
@@ -114,6 +118,7 @@
 			]
 		}
 	],
-	"updt": 1587939492779,
-	"edit": 75
+	"updt": 1587943325287,
+	"edit": 76,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_dwii9m.equip: script doesn't exist\"}"
 }
