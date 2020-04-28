@@ -1,45 +1,66 @@
 {
 	"_id": "anon_00gao4.wl",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anon_00gao4.wl",
 	"sector": "NGC_7640",
 	"sec_level": 4,
 	"date_added": 1588086964440,
-	"last_scraped": 1588087326125,
+	"last_scraped": 1588088268038,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1588086964440
 		}
 	],
-	"scrape_ct": 15,
-	"next_scrape": 1588087386125,
+	"next_scrape": 1588134857208,
 	"category": "fishie_tank",
-	"last_update": 1588087326125,
+	"last_update": 1588088268038,
 	"output": [
 		{
 			"args": {},
-			"calls": 41247,
+			"calls": 116819,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"ttack",
-				"stren",
-				"but d",
-				"REAKs ",
+				"ker wi",
 				"15D bu",
-				"rength ",
+				"ngth to",
 				"et defe",
 				"er wins",
 				"age is ",
-				"\\n215D ",
-				"EAKs se",
+				"acker w",
 				" set de",
 				"ut damag",
+				"ttacker ",
+				"trength ",
+				"th to 0 ",
+				"t defend",
 				"t damage",
+				"strength",
 				"o 0 if a",
+				"if attac",
+				"h to 0 i",
+				"gth to 0",
 				"damage i",
-				"ins,\\n215"
+				"attacker",
+				"\\n215D b",
+				"REAKs se",
+				"D but da",
+				"C streng",
+				"BREAKs s",
+				"5C stren",
+				"215C str",
+				"0 if att",
+				" if atta",
+				" attacke",
+				"wins,\\n21",
+				"r wins,\\n",
+				"nder\\n215",
+				"ins,\\n215",
+				"fender\\n2",
+				"er\\n215C ",
+				"efender\\n",
+				"\\n215C st"
 			],
 			"hits": [
 				{
@@ -70,7 +91,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7282,
+			"calls": 16318,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -78,29 +99,45 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"stren",
-				"REAKs ",
+				"ker wi",
 				"15D bu",
-				"t defen",
-				"rength ",
+				"ngth to",
 				"et defe",
 				"er wins",
 				"age is ",
-				"EAKs se",
+				"acker w",
 				" set de",
-				" but da",
 				"ut damag",
+				"ttacker ",
+				"trength ",
+				"th to 0 ",
+				"t defend",
 				"t damage",
+				"strength",
 				"o 0 if a",
+				"if attac",
+				"h to 0 i",
 				"gth to 0",
 				"damage i",
+				"attacker",
 				"\\n215D b",
+				"REAKs se",
+				"D but da",
+				"C streng",
+				"BREAKs s",
+				"5C stren",
 				"215C str",
+				"0 if att",
 				" if atta",
 				" attacke",
+				"wins,\\n21",
+				"r wins,\\n",
+				"nder\\n215",
 				"ins,\\n215",
 				"fender\\n2",
-				"er\\n215C "
+				"er\\n215C ",
+				"efender\\n",
+				"\\n215C st"
 			],
 			"hits": [
 				{
@@ -131,32 +168,48 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 41909,
+			"calls": 125194,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"stren",
-				"REAKs ",
+				"ker wi",
 				"15D bu",
-				"t defen",
-				"rength ",
+				"ngth to",
 				"et defe",
 				"er wins",
 				"age is ",
-				"EAKs se",
+				"acker w",
 				" set de",
-				" but da",
 				"ut damag",
+				"ttacker ",
+				"trength ",
+				"th to 0 ",
+				"t defend",
 				"t damage",
+				"strength",
 				"o 0 if a",
+				"if attac",
+				"h to 0 i",
 				"gth to 0",
 				"damage i",
+				"attacker",
 				"\\n215D b",
+				"REAKs se",
+				"D but da",
+				"C streng",
+				"BREAKs s",
+				"5C stren",
 				"215C str",
+				"0 if att",
 				" if atta",
 				" attacke",
+				"wins,\\n21",
+				"r wins,\\n",
+				"nder\\n215",
 				"ins,\\n215",
 				"fender\\n2",
-				"er\\n215C "
+				"er\\n215C ",
+				"efender\\n",
+				"\\n215C st"
 			],
 			"hits": [
 				{
@@ -208,6 +261,14 @@
 			]
 		}
 	],
-	"updt": 1588087149893,
-	"edit": 1
+	"updt": 1588088050387,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
