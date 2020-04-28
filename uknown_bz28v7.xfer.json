@@ -1,20 +1,32 @@
 {
 	"_id": "uknown_bz28v7.xfer",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "uknown_bz28v7.xfer",
-	"sector": "HJG_7415",
+	"sector": "K_2782",
 	"sec_level": 0,
 	"date_added": 1583514371369,
-	"last_scraped": 1584790749951,
+	"last_scraped": 1588099099225,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1583514371369
-		}
+		},
+		{
+			"type": "died",
+			"when": 1588098776651
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1588099080713,
+				"from": "K_2782",
+				"to": "HJG_7415"
+			}
+		]
 	],
-	"updt": 1584796420834,
-	"edit": 30,
+	"updt": 1584796647110,
+	"edit": 31,
 	"pl_output": "{\"ok\":false,\"msg\":\"You must transfer an amount as a GC string or a whole number. Examples: \\\"1KGC\\\" or 1000\"}",
-	"next_scrape": 1584879901262
+	"next_scrape": 1588189187984
 }
