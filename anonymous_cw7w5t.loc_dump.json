@@ -1,19 +1,23 @@
 {
 	"_id": "anonymous_cw7w5t.loc_dump",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_cw7w5t.loc_dump",
 	"sector": "HJG_6753",
 	"sec_level": 4,
 	"date_added": 1587917765180,
-	"last_scraped": 1588151359969,
+	"last_scraped": 1588154546028,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1587917765180
+		},
+		{
+			"type": "died",
+			"when": 1588154546028
 		}
 	],
-	"next_scrape": 1588194643918,
+	"next_scrape": 1588236723105,
 	"category": "plant_sim",
 	"last_update": 1588151359969,
 	"output": [
@@ -95,6 +99,7 @@
 			]
 		}
 	],
-	"updt": 1588147343848,
-	"edit": 61
+	"updt": 1588151403838,
+	"edit": 62,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_cw7w5t.loc_dump: script doesn't exist\"}"
 }
