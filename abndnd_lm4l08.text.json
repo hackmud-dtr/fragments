@@ -1,38 +1,41 @@
 {
 	"_id": "abndnd_lm4l08.text",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abndnd_lm4l08.text",
 	"sector": "NGC_1344",
 	"sec_level": 4,
 	"date_added": 1588127713737,
-	"last_scraped": 1588148743357,
+	"last_scraped": 1588152482558,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1588127713737
+		},
+		{
+			"type": "died",
+			"when": 1588152538355
 		}
 	],
-	"next_scrape": 1588190767077,
+	"next_scrape": 1588195853872,
 	"category": "dice_roller",
-	"last_update": 1588148743357,
+	"last_update": 1588152482558,
 	"output": [
 		{
 			"args": {},
-			"calls": 297440,
+			"calls": 310437,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
-				"LE0X2B",
 				"60 TRA",
 				"2160 T",
 				"0 TRAP",
+				"XBF_CLS",
 				"T0XBF_C",
 				"ST0X7A_",
 				"F_CLST0",
 				"F227_FI",
 				"E0X2BC7",
 				"BF_CLST",
-				"17A\\nAD",
 				"0XBF_CL",
 				"0X2BC7D",
 				"_SECT0XF",
@@ -40,9 +43,10 @@
 				"\\nAD0321",
 				"T0XF227_",
 				"MFT0XBF_",
+				"ILE0X2BC",
 				"ECT0XF22",
+				"D17A\\nAD",
 				"D032160 ",
-				"A\\nAD032",
 				"AD032160",
 				"7D17A\\nA",
 				"7A_SECT0",
@@ -52,7 +56,8 @@
 				"0XF227_F",
 				"0X7A_SEC",
 				" TRAP is",
-				"BC7D17A\\n"
+				"BC7D17A\\n",
+				"7A\\nAD032"
 			],
 			"hits": [
 				{
@@ -96,6 +101,6 @@
 			]
 		}
 	],
-	"updt": 1588145317453,
-	"edit": 9
+	"updt": 1588152530567,
+	"edit": 11
 }
