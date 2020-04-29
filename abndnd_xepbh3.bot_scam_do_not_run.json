@@ -1,0 +1,73 @@
+{
+	"_id": "abndnd_xepbh3.bot_scam_do_not_run",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abndnd_xepbh3.bot_scam_do_not_run",
+	"sector": "NGC_1344",
+	"sec_level": 4,
+	"date_added": 1588191257164,
+	"last_scraped": 1588191347639,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1588191257164
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1588191407639,
+	"category": "fishie_tank",
+	"last_update": 1588191347639,
+	"output": [
+		{
+			"args": {},
+			"calls": 10286,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"se it",
+				"ld or",
+				"becau",
+				"use th",
+				" heat,",
+				" me, th",
+				"hat ther"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1404,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"se it",
+				"ld or",
+				"becau",
+				"use th",
+				" heat,",
+				" me, th",
+				"hat ther"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 26828,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"se it",
+				"ld or",
+				"becau",
+				"use th",
+				" heat,",
+				" me, th",
+				"hat ther"
+			]
+		}
+	]
+}
