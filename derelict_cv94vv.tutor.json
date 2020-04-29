@@ -1,25 +1,26 @@
 {
 	"_id": "derelict_cv94vv.tutor",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "derelict_cv94vv.tutor",
 	"sector": "NGC_1344",
 	"sec_level": 4,
 	"date_added": 1588187308601,
-	"last_scraped": 1588192308817,
+	"last_scraped": 1588188124044,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1588187308601
 		}
 	],
-	"next_scrape": 1588234195225,
+	"scrape_ct": 0,
+	"next_scrape": 1588188184044,
 	"category": "clicker",
-	"last_update": 1588192308817,
+	"last_update": 1588188124044,
 	"output": [
 		{
 			"args": {},
-			"calls": 90929,
+			"calls": 72351,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"ble A",
@@ -176,7 +177,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 88784,
+			"calls": 81500,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"ble A",
@@ -333,7 +334,7 @@
 			"args": {
 				"CLICK": true
 			},
-			"calls": 21907,
+			"calls": 14940,
 			"base": "`LCLICK SECURED`",
 			"fragments": [
 				"ble A",
@@ -627,6 +628,11 @@
 			]
 		}
 	],
-	"updt": 1588188367314,
-	"edit": 5
+	"updt": 1588187917255,
+	"edit": 3,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
