@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_h7jgy8.i",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "unknown_h7jgy8.i",
 	"sector": "K_9653",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1581627528633
+		},
+		{
+			"type": "died",
+			"when": 1588264477756
 		}
 	],
 	"scrape_ct": 18,
@@ -29,6 +33,19 @@
 				"0D6 Ab",
 				"0D5 Did",
 				"ath\\n20C"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"id yo",
+						"he de",
+						"20CC ",
+						"0D6 Ab",
+						"0D5 Did",
+						"ath\\n20C"
+					]
+				}
 			]
 		},
 		{
@@ -52,15 +69,57 @@
 				".\\n20D5",
 				"ath\\n20C",
 				"D6 Absol"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"id yo",
+						"his l",
+						"he de",
+						"bsolu",
+						"Did y",
+						"20D6 ",
+						"20CC ",
+						" this",
+						"0D6 Ab",
+						"\\n20D5 ",
+						"0D5 Did",
+						".\\n20D5",
+						"ath\\n20C",
+						"D6 Absol"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1584522559435,
-	"edit": 2,
+	"updt": 1584609121688,
+	"edit": 3,
 	"retry_args": [
 		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"id yo",
+				"his l",
+				"he de",
+				"bsolu",
+				"Did y",
+				"20D6 ",
+				"20CC ",
+				" this",
+				"0D6 Ab",
+				"\\n20D5 ",
+				"0D5 Did",
+				".\\n20D5",
+				"ath\\n20C",
+				"D6 Absol"
+			]
+		}
+	]
 }
