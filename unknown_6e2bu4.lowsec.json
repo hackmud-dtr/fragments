@@ -1,0 +1,143 @@
+{
+	"_id": "unknown_6e2bu4.lowsec",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unknown_6e2bu4.lowsec",
+	"sector": "K_1370",
+	"sec_level": 4,
+	"date_added": 1588234595808,
+	"last_scraped": 1588235474623,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1588234595808
+		}
+	],
+	"scrape_ct": 6,
+	"next_scrape": 1588235534623,
+	"category": "fishie_tank",
+	"last_update": 1588235492201,
+	"output": [
+		{
+			"args": {},
+			"calls": 76540,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ut th",
+				" I'm a",
+				"nd we c",
+				"almost ",
+				"You know",
+				"9 and we",
+				"d\\n21F3 B",
+				" can.\\n21"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ut th",
+						" I'm a",
+						"nd we c",
+						"almost ",
+						"You know",
+						"9 and we",
+						"d\\n21F3 B",
+						" can.\\n21"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 9241,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ut th",
+				" I'm a",
+				"nd we c",
+				"almost ",
+				"You know",
+				"9 and we",
+				"d\\n21F3 B",
+				" can.\\n21"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ut th",
+						" I'm a",
+						"nd we c",
+						"almost ",
+						"You know",
+						"9 and we",
+						"d\\n21F3 B",
+						" can.\\n21"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 86254,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ut th",
+				" I'm a",
+				"nd we c",
+				"almost ",
+				"You know",
+				"9 and we",
+				"d\\n21F3 B",
+				" can.\\n21"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ut th",
+						" I'm a",
+						"nd we c",
+						"almost ",
+						"You know",
+						"9 and we",
+						"d\\n21F3 B",
+						" can.\\n21"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"ut th",
+				" I'm a",
+				"nd we c",
+				"almost ",
+				"You know",
+				"9 and we",
+				"d\\n21F3 B",
+				" can.\\n21"
+			]
+		}
+	],
+	"updt": 1588235271391,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
