@@ -1,16 +1,28 @@
 {
 	"_id": "derelict_yzjqif.unloader",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "player",
 	"script": "derelict_yzjqif.unloader",
-	"sector": "HJG_4355",
+	"sector": "HJG_5200",
 	"sec_level": 2,
 	"date_added": 1582765926843,
-	"last_scraped": 0,
+	"last_scraped": 1588252766596,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1582765926843
-		}
-	]
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1588252748178,
+				"from": "HJG_5200",
+				"to": "HJG_4355"
+			}
+		]
+	],
+	"updt": 1582765955659,
+	"edit": 1,
+	"pl_output": "Unexpected token u in JSON at position 0",
+	"next_scrape": 1588338152172
 }
