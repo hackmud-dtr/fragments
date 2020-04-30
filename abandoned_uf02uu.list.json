@@ -1,25 +1,26 @@
 {
 	"_id": "abandoned_uf02uu.list",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "abandoned_uf02uu.list",
 	"sector": "K_1370",
 	"sec_level": 4,
 	"date_added": 1588205089765,
-	"last_scraped": 1588210757641,
+	"last_scraped": 1588205269725,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1588205089765
 		}
 	],
-	"next_scrape": 1588256767502,
+	"scrape_ct": 16,
+	"next_scrape": 1588205329725,
 	"category": "clicker",
-	"last_update": 1588210757641,
+	"last_update": 1588205269725,
 	"output": [
 		{
 			"args": {},
-			"calls": 93921,
+			"calls": 23368,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"le be",
@@ -51,7 +52,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 95779,
+			"calls": 22827,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"le be",
@@ -83,7 +84,7 @@
 			"args": {
 				"CLICK": true
 			},
-			"calls": 21225,
+			"calls": 2133,
 			"base": "`LCLICK SECURED`",
 			"fragments": [
 				"le be",
@@ -127,6 +128,9 @@
 			]
 		}
 	],
-	"updt": 1588206183959,
-	"edit": 3
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
