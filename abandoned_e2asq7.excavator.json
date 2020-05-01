@@ -1,20 +1,28 @@
 {
 	"_id": "abandoned_e2asq7.excavator",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abandoned_e2asq7.excavator",
 	"sector": "K_1370",
 	"sec_level": 4,
 	"date_added": 1588290522752,
-	"last_scraped": 1588291482941,
+	"last_scraped": 1588293150530,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1588290522752
+		},
+		{
+			"type": "died",
+			"when": 1588293150530
+		},
+		{
+			"type": "died",
+			"when": 1588293151603
 		}
 	],
 	"scrape_ct": 7,
-	"next_scrape": 1588291542941,
+	"next_scrape": 1588380105457,
 	"category": "dice_roller",
 	"last_update": 1588291482941,
 	"output": [
@@ -92,6 +100,7 @@
 			]
 		}
 	],
-	"updt": 1588291411085,
-	"edit": 3
+	"updt": 1588291637838,
+	"edit": 4,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_e2asq7.excavator: script doesn't exist\"}"
 }
