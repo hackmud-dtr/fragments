@@ -6,14 +6,14 @@
 	"sector": "K_1370",
 	"sec_level": 4,
 	"date_added": 1588271240005,
-	"last_scraped": 1588289254172,
+	"last_scraped": 1588295918080,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1588271240005
 		}
 	],
-	"next_scrape": 1588329648861,
+	"next_scrape": 1588336093828,
 	"category": "fishie_tank",
 	"last_update": 1588289254172,
 	"output": [
@@ -118,6 +118,14 @@
 			]
 		}
 	],
-	"updt": 1588284653195,
-	"edit": 9
+	"updt": 1588289610437,
+	"edit": 10,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
