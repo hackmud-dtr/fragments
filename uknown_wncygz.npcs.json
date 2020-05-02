@@ -1,37 +1,51 @@
 {
 	"_id": "uknown_wncygz.npcs",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "uknown_wncygz.npcs",
 	"sector": "VNP_5921",
 	"sec_level": 4,
 	"date_added": 1588412995166,
-	"last_scraped": 1588413835910,
+	"last_scraped": 1588414307680,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1588412995166
+		},
+		{
+			"type": "died",
+			"when": 1588414307680
+		},
+		{
+			"type": "died",
+			"when": 1588414308138
 		}
 	],
-	"scrape_ct": 10,
-	"next_scrape": 1588413895910,
+	"scrape_ct": 4,
+	"next_scrape": 1588501877228,
 	"category": "plant_sim",
-	"last_update": 1588413835910,
+	"last_update": 1588414198502,
 	"output": [
 		{
 			"args": {},
-			"calls": 13983,
+			"calls": 20597,
 			"base": "c:\"m40jcd\" d:\"<f l n s w>\"\n\n\n\n\n\n                 \n                 .\n                 ",
 			"fragments": [
 				"0001 ",
 				"01 0100",
-				"000\\n00",
 				"00 0100",
-				"0 0000 ",
-				" 0100 0",
 				"100 0000",
+				"0100 000",
+				"0000 010",
 				"000 0000",
-				" 0000 00"
+				"0 0100 0",
+				"0 0000 0",
+				" 0000 01",
+				" 0000 00",
+				"\\n0000 00",
+				"000\\n0000",
+				"0 0000\\n0",
+				" 0000\\n00"
 			],
 			"hits": [
 				{
@@ -59,6 +73,7 @@
 			]
 		}
 	],
-	"updt": 1588413618620,
-	"edit": 1
+	"updt": 1588414294832,
+	"edit": 4,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_wncygz.npcs: script doesn't exist\"}"
 }
