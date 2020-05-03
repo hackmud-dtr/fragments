@@ -1,0 +1,153 @@
+{
+	"_id": "unknown_0eamtf.donate",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unknown_0eamtf.donate",
+	"sector": "NGC_1379",
+	"sec_level": 4,
+	"date_added": 1588504440584,
+	"last_scraped": 1588504721015,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1588504440584
+		}
+	],
+	"updt": 1588504509846,
+	"edit": 1,
+	"scrape_ct": 17,
+	"next_scrape": 1588504781015,
+	"category": "fishie_tank",
+	"last_update": 1588504721015,
+	"output": [
+		{
+			"args": {},
+			"calls": 32187,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"s. I ",
+				"out o",
+				"don't ",
+				"ad abo",
+				"a disc",
+				"re's a ",
+				"on to b",
+				"efiniti",
+				"r defini"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"s. I ",
+						"out o",
+						"don't ",
+						"ad abo",
+						"a disc",
+						"re's a ",
+						"on to b",
+						"efiniti",
+						"r defini"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1342,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"s. I ",
+				"out o",
+				"don't ",
+				"ad abo",
+				"a disc",
+				"re's a ",
+				"on to b",
+				"efiniti",
+				"r defini"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"s. I ",
+						"out o",
+						"don't ",
+						"ad abo",
+						"a disc",
+						"re's a ",
+						"on to b",
+						"efiniti",
+						"r defini"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 7909,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"s. I ",
+				"out o",
+				"don't ",
+				"ad abo",
+				"a disc",
+				"re's a ",
+				"on to b",
+				"efiniti",
+				"r defini"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"s. I ",
+						"out o",
+						"don't ",
+						"ad abo",
+						"a disc",
+						"re's a ",
+						"on to b",
+						"efiniti",
+						"r defini"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+			"frags": [
+				"s. I ",
+				"out o",
+				"don't ",
+				"ad abo",
+				"a disc",
+				"re's a ",
+				"on to b",
+				"efiniti",
+				"r defini"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
