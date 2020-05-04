@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_78fhw1.transfer",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abndnd_78fhw1.transfer",
 	"sector": "NGC_4016",
 	"sec_level": 2,
 	"date_added": 1576779504758,
-	"last_scraped": 1588560266802,
+	"last_scraped": 1588564076213,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,10 +19,14 @@
 				"from": "NGC_4016",
 				"to": "K_3821"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1588564429580
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"No account in that name, account{create:true}\"}",
-	"next_scrape": 1588646537129,
-	"updt": 1588554781867,
-	"edit": 6960
+	"next_scrape": 1588656430636,
+	"updt": 1588560643867,
+	"edit": 6961
 }

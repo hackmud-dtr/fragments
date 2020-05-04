@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_78fhw1.account",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abndnd_78fhw1.account",
 	"sector": "HJG_9679",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "HJG_9679",
 				"to": "HJG_8698"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1588564505633
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"You do not currently have an account, create:true\"}",
 	"next_scrape": 1588643176575,
-	"updt": 1588559067095,
-	"edit": 4463
+	"updt": 1588563570204,
+	"edit": 4464
 }

@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_78fhw1.upgrades",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abndnd_78fhw1.upgrades",
 	"sector": "K_6511",
 	"sec_level": 1,
@@ -19,10 +19,14 @@
 				"from": "K_6511",
 				"to": "VNP_7212"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1588564738969
+		}
 	],
 	"pl_output": "{\"ok\":true,\"msg\":\"All upgrades transfered\"}",
 	"next_scrape": 1587607232598,
-	"updt": 1587520019851,
-	"edit": 4410
+	"updt": 1587523400233,
+	"edit": 4411
 }
