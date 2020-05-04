@@ -1,0 +1,146 @@
+{
+	"_id": "anonymous_6w7ebw.db",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anonymous_6w7ebw.db",
+	"sector": "NGC_6968",
+	"sec_level": 4,
+	"date_added": 1588566328118,
+	"last_scraped": 1588566942476,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1588566328118
+		}
+	],
+	"scrape_ct": 11,
+	"next_scrape": 1588567002476,
+	"category": "fishie_tank",
+	"last_update": 1588566942476,
+	"output": [
+		{
+			"args": {},
+			"calls": 54642,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"want ",
+				"ure r",
+				"wn the",
+				"t to g",
+				"he low",
+				"e road",
+				"ad agai",
+				" road ag"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"want ",
+						"ure r",
+						"wn the",
+						"t to g",
+						"he low",
+						"e road",
+						"ad agai",
+						" road ag"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 6654,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"want ",
+				"ure r",
+				"wn the",
+				"t to g",
+				"he low",
+				"e road",
+				"ad agai",
+				" road ag"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"want ",
+						"ure r",
+						"wn the",
+						"t to g",
+						"he low",
+						"e road",
+						"ad agai",
+						" road ag"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 44904,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"want ",
+				"ure r",
+				"wn the",
+				"t to g",
+				"he low",
+				"e road",
+				"ad agai",
+				" road ag"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"want ",
+						"ure r",
+						"wn the",
+						"t to g",
+						"he low",
+						"e road",
+						"ad agai",
+						" road ag"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+			"frags": [
+				"want ",
+				"ure r",
+				"wn the",
+				"t to g",
+				"he low",
+				"e road",
+				"ad agai",
+				" road ag"
+			]
+		}
+	],
+	"updt": 1588566727259,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
