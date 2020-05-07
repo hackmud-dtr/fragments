@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_qyh869.scripts",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "fresh",
 	"script": "abandoned_qyh869.scripts",
-	"sector": "NGC_6008",
+	"sector": "NGC_0741",
 	"sec_level": 4,
 	"date_added": 1585871445052,
-	"last_scraped": 1588850910703,
+	"last_scraped": 1588855984540,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,65 @@
 		{
 			"type": "died",
 			"when": 1588853488576
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1588855442440,
+				"from": "NGC_0741",
+				"to": "NGC_6008"
+			}
+		]
 	],
 	"pl_output": " ________________________________________________\n/ Name     | Fee per run | Description           \\\n+----------------------------------------------------+\n+----------------------------------------------------+\n| breakcon |    10KGC    | Breaks CON_SPEC locks     |\n+----------------------------------------------------+\n| sysinfo  |    500GC    | Displays only useful      |\n|          |             | system information        |\n+----------+-------------+---------------------------|\n| bulkbuy  |  x * 10KGC  | Autobuys programs in bulk |\n+----------+-------------+---------------------------+\n\\__________|_____________|___________________________/",
-	"next_scrape": 1588942842310,
-	"updt": 1588851044294,
-	"edit": 752
+	"next_scrape": 1588856044540,
+	"updt": 1588855780656,
+	"edit": 755,
+	"scrape_ct": 18,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1588855984540,
+	"output": [
+		{
+			"args": {},
+			"calls": 155903,
+			"base": " ________________________________________________\n/ Name     | Fee per run | Description           \\\n+----------------------------------------------------+\n+----------------------------------------------------+\n| breakcon |    10KGC    | Breaks CON_SPEC locks     |\n+----------------------------------------------------+\n| sysinfo  |    500GC    | Displays only useful      |\n|          |             | system information        |\n+----------+-------------+---------------------------|\n| bulkbuy  |  x * 10KGC  | Autobuys programs in bulk |\n+----------+-------------+---------------------------+\n\\__________|_____________|___________________________/",
+			"fragments": [
+				"ards.",
+				"y\\n203",
+				"tor di",
+				"ourse,",
+				" cards",
+				"or distr",
+				" sorry\\n2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ards.",
+						"y\\n203",
+						"tor di",
+						"ourse,",
+						" cards",
+						"or distr",
+						" sorry\\n2"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"ards.",
+				"y\\n203",
+				"tor di",
+				"ourse,",
+				" cards",
+				"or distr",
+				" sorry\\n2"
+			]
+		}
+	]
 }

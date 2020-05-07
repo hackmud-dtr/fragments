@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_qyh869.email",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "fresh",
 	"script": "abandoned_qyh869.email",
-	"sector": "NGC_6008",
+	"sector": "NGC_0741",
 	"sec_level": 4,
 	"date_added": 1585871445052,
-	"last_scraped": 1588850893650,
+	"last_scraped": 1588855948094,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,71 @@
 		{
 			"type": "died",
 			"when": 1588853488576
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1588855442440,
+				"from": "NGC_0741",
+				"to": "NGC_6008"
+			}
+		]
 	],
 	"pl_output": "Sorry. You do not have an account with us.\n\nWelcome to the `DEmbers` mailing system. To continue, please provide\nlogin:true. Doing so means your username be tracked so that\nwe can record your access, as well as to store your emails and\nobjects.",
-	"next_scrape": 1588937632319,
-	"updt": 1588851044294,
-	"edit": 752
+	"next_scrape": 1588856008094,
+	"updt": 1588855780656,
+	"edit": 755,
+	"scrape_ct": 17,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1588855948094,
+	"output": [
+		{
+			"args": {},
+			"calls": 10828,
+			"base": "Sorry. You do not have an account with us.\n\nWelcome to the `DEmbers` mailing system. To continue, please provide\nlogin:true. Doing so means your username be tracked so that\nwe can record your access, as well as to store your emails and\nobjects.",
+			"fragments": [
+				"ture'",
+				"on. '",
+				"heard",
+				"pictur",
+				"ody ha",
+				"play me",
+				"ow many",
+				"miling ",
+				", comes "
+			],
+			"hits": [
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						"ture'",
+						"on. '",
+						"heard",
+						"pictur",
+						"ody ha",
+						"play me",
+						"ow many",
+						"miling ",
+						", comes "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+			"frags": [
+				"ture'",
+				"on. '",
+				"heard",
+				"pictur",
+				"ody ha",
+				"play me",
+				"ow many",
+				"miling ",
+				", comes "
+			]
+		}
+	]
 }

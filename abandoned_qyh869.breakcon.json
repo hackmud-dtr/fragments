@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_qyh869.breakcon",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "abandoned_qyh869.breakcon",
-	"sector": "K_9706",
+	"sector": "VNP_5977",
 	"sec_level": 2,
 	"date_added": 1585871544837,
-	"last_scraped": 1586219389170,
+	"last_scraped": 1588855604581,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1588854612478
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1588855442440,
+				"from": "VNP_5977",
+				"to": "K_9706"
+			}
+		]
 	],
-	"updt": 1586219586673,
-	"edit": 106,
+	"updt": 1588855556022,
+	"edit": 108,
 	"pl_output": "lxfer is not defined",
-	"next_scrape": 1586312987712
+	"next_scrape": 1588938527023
 }

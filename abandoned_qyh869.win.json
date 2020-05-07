@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_qyh869.win",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "fresh",
 	"script": "abandoned_qyh869.win",
-	"sector": "K_9706",
+	"sector": "VNP_5977",
 	"sec_level": 2,
 	"date_added": 1585871544837,
-	"last_scraped": 1588853724585,
+	"last_scraped": 1588855768619,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,18 +15,26 @@
 		{
 			"type": "died",
 			"when": 1588854612478
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1588855442440,
+				"from": "VNP_5977",
+				"to": "K_9706"
+			}
+		]
 	],
-	"updt": 1588853750383,
-	"edit": 754,
+	"updt": 1588855556022,
+	"edit": 756,
 	"pl_output": "\n`D█████████████████████``J███████████████████████████████████████`\n`D█                   █``J█                                     █`\n`D█ HARDLINE REQUIRED █``J█ EXECUTE kernel.hardline TO CONTINUE █`\n`D█                   █``J█                                     █`\n`D█████████████████████``J███████████████████████████████████████`\n`D█ █ █ █    █ █ █ █ █``J █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ ███`",
-	"next_scrape": 1588894061817,
+	"next_scrape": 1588855828619,
 	"category": "UNKNOWN CATEGORY",
-	"last_update": 1588853724585,
+	"last_update": 1588855768619,
 	"output": [
 		{
 			"args": {},
-			"calls": 1726,
+			"calls": 2279,
 			"base": "\n`D█████████████████████``J███████████████████████████████████████`\n`D█                   █``J█                                     █`\n`D█ HARDLINE REQUIRED █``J█ EXECUTE kernel.hardline TO CONTINUE █`\n`D█                   █``J█                                     █`\n`D█████████████████████``J███████████████████████████████████████`\n`D█ █ █ █    █ █ █ █ █``J █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ █ ███`",
 			"fragments": [
 				"d rem",
@@ -63,5 +71,6 @@
 				"## In th"
 			]
 		}
-	]
+	],
+	"scrape_ct": 20
 }

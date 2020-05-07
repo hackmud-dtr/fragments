@@ -1,9 +1,9 @@
 {
 	"_id": "abandoned_qyh869.sysload",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "skip",
 	"script": "abandoned_qyh869.sysload",
-	"sector": "K_9706",
+	"sector": "VNP_5977",
 	"sec_level": 2,
 	"date_added": 1585871544837,
 	"last_scraped": 0,
@@ -15,8 +15,16 @@
 		{
 			"type": "died",
 			"when": 1588854612478
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1588855442440,
+				"from": "VNP_5977",
+				"to": "K_9706"
+			}
+		]
 	],
-	"updt": 1585872041315,
-	"edit": 2
+	"updt": 1588855556022,
+	"edit": 4
 }

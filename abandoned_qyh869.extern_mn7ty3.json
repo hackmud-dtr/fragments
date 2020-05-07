@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_qyh869.extern_mn7ty3",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "fresh",
 	"script": "abandoned_qyh869.extern_mn7ty3",
-	"sector": "K_9706",
+	"sector": "VNP_5977",
 	"sec_level": 2,
 	"date_added": 1585871544837,
-	"last_scraped": 1588853651806,
+	"last_scraped": 1588856003668,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,18 +15,26 @@
 		{
 			"type": "died",
 			"when": 1588854612478
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1588855442440,
+				"from": "VNP_5977",
+				"to": "K_9706"
+			}
+		]
 	],
-	"updt": 1588853750383,
-	"edit": 754,
+	"updt": 1588855780656,
+	"edit": 757,
 	"pl_output": ":::TRUST COMMUNICATION::: hardline required - activate with kernel.hardline",
-	"next_scrape": 1588895954591,
+	"next_scrape": 1588856063668,
 	"category": "UNKNOWN CATEGORY",
-	"last_update": 1588853651806,
+	"last_update": 1588855640948,
 	"output": [
 		{
 			"args": {},
-			"calls": 2078,
+			"calls": 2967,
 			"base": ":::TRUST COMMUNICATION::: hardline required - activate with kernel.hardline",
 			"fragments": [
 				"futur",
@@ -106,5 +114,6 @@
 				" free of"
 			]
 		}
-	]
+	],
+	"scrape_ct": 18
 }
