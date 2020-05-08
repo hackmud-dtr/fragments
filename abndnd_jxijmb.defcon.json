@@ -1,20 +1,32 @@
 {
 	"_id": "abndnd_jxijmb.defcon",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "abndnd_jxijmb.defcon",
-	"sector": "VNP_5195",
+	"sector": "SPC_5773",
 	"sec_level": 4,
 	"date_added": 1584884307162,
-	"last_scraped": 1585072261971,
+	"last_scraped": 1588954528578,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1584884307162
-		}
+		},
+		{
+			"type": "died",
+			"when": 1588953884781
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1588954509911,
+				"from": "SPC_5773",
+				"to": "VNP_5195"
+			}
+		]
 	],
-	"pl_output": "You're not on the `Lvirlist`, farmer_john",
-	"next_scrape": 1585160276495,
-	"updt": 1585069662117,
-	"edit": 61
+	"pl_output": "lib.virlist is not a function",
+	"next_scrape": 1589038241655,
+	"updt": 1588954524190,
+	"edit": 64
 }

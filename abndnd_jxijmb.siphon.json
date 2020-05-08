@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "abndnd_jxijmb.siphon",
-	"sector": "VNP_5195",
+	"sector": "SPC_5773",
 	"sec_level": 4,
 	"date_added": 1584884307162,
-	"last_scraped": 1585968887901,
+	"last_scraped": 1588954564322,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1584884307162
-		}
+		},
+		{
+			"type": "died",
+			"when": 1588953884781
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1588954509911,
+				"from": "SPC_5773",
+				"to": "VNP_5195"
+			}
+		]
 	],
-	"updt": 1585964238592,
-	"edit": 354,
-	"pl_output": "You're not on the `Lvirlist`, farmer_john",
-	"next_scrape": 1586054061837
+	"updt": 1588954524190,
+	"edit": 357,
+	"pl_output": "lib.virlist is not a function",
+	"next_scrape": 1589040685014
 }
