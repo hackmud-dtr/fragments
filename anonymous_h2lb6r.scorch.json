@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "anonymous_h2lb6r.scorch",
-	"sector": "K_9904",
+	"sector": "VNP_2068",
 	"sec_level": 4,
 	"date_added": 1586221551409,
-	"last_scraped": 1589044090336,
+	"last_scraped": 1589045337652,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1586221551409
-		}
+		},
+		{
+			"type": "died",
+			"when": 1589044759967
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1589045319619,
+				"from": "VNP_2068",
+				"to": "K_9904"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"This script did not receive a target. Please use `Nt`: `V#s.<user>.<loc>`\"}",
-	"next_scrape": 1589133883032,
-	"updt": 1589041481209,
-	"edit": 708
+	"next_scrape": 1589127343342,
+	"updt": 1589044866131,
+	"edit": 710
 }
