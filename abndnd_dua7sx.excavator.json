@@ -1,21 +1,25 @@
 {
 	"_id": "abndnd_dua7sx.excavator",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abndnd_dua7sx.excavator",
 	"sector": "NGC_1343",
 	"sec_level": 4,
 	"date_added": 1589087909422,
-	"last_scraped": 1589108056869,
+	"last_scraped": 1589112546156,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1589087909422
+		},
+		{
+			"type": "died",
+			"when": 1589112546156
 		}
 	],
-	"updt": 1589104151365,
-	"edit": 11,
-	"next_scrape": 1589148656518,
+	"updt": 1589108209824,
+	"edit": 12,
+	"next_scrape": 1589194991585,
 	"category": "dice_roller",
 	"last_update": 1589108056869,
 	"output": [
@@ -105,5 +109,6 @@
 				"g] drink"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_dua7sx.excavator: script doesn't exist\"}"
 }

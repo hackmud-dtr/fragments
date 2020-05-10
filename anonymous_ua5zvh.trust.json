@@ -1,26 +1,30 @@
 {
 	"_id": "anonymous_ua5zvh.trust",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "anonymous_ua5zvh.trust",
 	"sector": "HJG_2949",
 	"sec_level": 4,
 	"date_added": 1586264297511,
-	"last_scraped": 1586264405226,
+	"last_scraped": 1586264658806,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1586264297511
+		},
+		{
+			"type": "died",
+			"when": 1589112618574
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1586264465226,
+	"scrape_ct": 13,
+	"next_scrape": 1586264718806,
 	"category": "dice_roller",
-	"last_update": 1586264405226,
+	"last_update": 1586264658806,
 	"output": [
 		{
 			"args": {},
-			"calls": 19242,
+			"calls": 66293,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
 				"_CLST0X",
@@ -63,5 +67,7 @@
 				"88122E\\nS"
 			]
 		}
-	]
+	],
+	"updt": 1586264669690,
+	"edit": 2
 }
