@@ -6,31 +6,32 @@
 	"sector": "VNP_2068",
 	"sec_level": 4,
 	"date_added": 1589047954162,
-	"last_scraped": 1589234394604,
+	"last_scraped": 1589238921175,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1589047954162
 		}
 	],
-	"next_scrape": 1589275987096,
+	"next_scrape": 1589284014576,
 	"category": "fishie_tank",
-	"last_update": 1589234394604,
+	"last_update": 1589238939270,
 	"output": [
 		{
 			"args": {},
-			"calls": 631343,
+			"calls": 644259,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"0 You",
 				" sing",
 				"ngular",
 				"gular.",
 				"2140 Y",
 				"142 :)",
+				"140 Yo",
 				"rin R, ",
-				"one per",
+				"re one ",
 				"n R, si",
+				"0 You a",
 				" are on",
 				" You ar",
 				" User E",
@@ -43,9 +44,11 @@
 				"r Erin R",
 				"ou can't",
 				"ou are o",
+				"one pers",
 				"on.\\n214",
 				"ne perso",
 				"e one pe",
+				"41 User ",
 				"141 User",
 				" Erin R,",
 				"n't\\n2140",
@@ -73,7 +76,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 73362,
+			"calls": 74813,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -81,15 +84,16 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"0 You",
 				" sing",
 				"ngular",
 				"gular.",
 				"2140 Y",
 				"142 :)",
+				"140 Yo",
 				"rin R, ",
-				"one per",
+				"re one ",
 				"n R, si",
+				"0 You a",
 				" are on",
 				" You ar",
 				" User E",
@@ -102,9 +106,11 @@
 				"r Erin R",
 				"ou can't",
 				"ou are o",
+				"one pers",
 				"on.\\n214",
 				"ne perso",
 				"e one pe",
+				"41 User ",
 				"141 User",
 				" Erin R,",
 				"n't\\n2140",
@@ -183,8 +189,8 @@
 			]
 		}
 	],
-	"updt": 1589230840958,
-	"edit": 57,
+	"updt": 1589234448063,
+	"edit": 58,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -196,6 +202,11 @@
 				" You ar",
 				"rson.\\n2"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
