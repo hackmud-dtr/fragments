@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_v2t5ex.authorize",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unidentified_v2t5ex.authorize",
 	"sector": "NGC_9995",
 	"sec_level": 4,
@@ -15,6 +15,10 @@
 		{
 			"type": "died",
 			"when": 1589210446459
+		},
+		{
+			"type": "died",
+			"when": 1589212491889
 		}
 	],
 	"scrape_ct": 20,
@@ -92,5 +96,7 @@
 			]
 		}
 	],
-	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_v2t5ex.authorize: script doesn't exist\"}"
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_v2t5ex.authorize: script doesn't exist\"}",
+	"updt": 1589210549019,
+	"edit": 1
 }
