@@ -1,25 +1,25 @@
 {
 	"_id": "abandoned_piffuf.lib",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_piffuf.lib",
 	"sector": "HJG_4134",
 	"sec_level": 4,
 	"date_added": 1589240331785,
-	"last_scraped": 1589256261381,
+	"last_scraped": 1589259763624,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1589240331785
 		}
 	],
-	"next_scrape": 1589302663847,
+	"next_scrape": 1589301604174,
 	"category": "clicker",
-	"last_update": 1589256261381,
+	"last_update": 1589259763624,
 	"output": [
 		{
 			"args": {},
-			"calls": 122919,
+			"calls": 150798,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"ss. H",
@@ -70,7 +70,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 115110,
+			"calls": 127904,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"ss. H",
@@ -205,6 +205,11 @@
 			]
 		}
 	],
-	"updt": 1589250448822,
-	"edit": 6
+	"updt": 1589256308767,
+	"edit": 7,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
