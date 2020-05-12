@@ -1,27 +1,27 @@
 {
 	"_id": "derelict_icvc1x.t3_check",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_icvc1x.t3_check",
 	"sector": "HJG_1348",
 	"sec_level": 4,
 	"date_added": 1589247961230,
-	"last_scraped": 1589248883349,
+	"last_scraped": 1589254919259,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1589247961230
 		}
 	],
-	"updt": 1589248871376,
-	"edit": 5,
-	"next_scrape": 1589292759703,
+	"updt": 1589249097170,
+	"edit": 6,
+	"next_scrape": 1589296845097,
 	"category": "clicker",
-	"last_update": 1589248883349,
+	"last_update": 1589254919259,
 	"output": [
 		{
 			"args": {},
-			"calls": 72914,
+			"calls": 131957,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"intere",
@@ -141,6 +141,14 @@
 				" take th",
 				" are in "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
 		}
 	]
 }

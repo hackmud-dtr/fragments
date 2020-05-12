@@ -1,28 +1,28 @@
 {
 	"_id": "unknown_zkot41.corpies",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unknown_zkot41.corpies",
 	"sector": "HJG_1348",
 	"sec_level": 4,
 	"date_added": 1589254042338,
-	"last_scraped": 1589254177445,
+	"last_scraped": 1589254811645,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1589254042338
 		}
 	],
-	"updt": 1589254055998,
-	"edit": 1,
-	"scrape_ct": 18,
-	"next_scrape": 1589254237445,
+	"updt": 1589254731429,
+	"edit": 4,
+	"scrape_ct": 6,
+	"next_scrape": 1589254871645,
 	"category": "fishie_tank",
-	"last_update": 1589254177445,
+	"last_update": 1589254811645,
 	"output": [
 		{
 			"args": {},
-			"calls": 18718,
+			"calls": 95681,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"35_SE",
@@ -54,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1091,
+			"calls": 4487,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -91,7 +91,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 7489,
+			"calls": 61202,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"35_SE",
@@ -133,6 +133,14 @@
 				"ETW ERRO",
 				"6B85\\nSY"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
