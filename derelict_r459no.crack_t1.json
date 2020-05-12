@@ -1,19 +1,23 @@
 {
 	"_id": "derelict_r459no.crack_t1",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "derelict_r459no.crack_t1",
 	"sector": "HJG_4134",
 	"sec_level": 4,
 	"date_added": 1589237472195,
-	"last_scraped": 1589258695968,
+	"last_scraped": 1589262214977,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1589237472195
+		},
+		{
+			"type": "died",
+			"when": 1589262214977
 		}
 	],
-	"next_scrape": 1589299542188,
+	"next_scrape": 1589343053269,
 	"category": "coin_flipper",
 	"last_update": 1589258695968,
 	"output": [
@@ -219,6 +223,7 @@
 			]
 		}
 	],
-	"updt": 1589255183857,
-	"edit": 9
+	"updt": 1589258788039,
+	"edit": 10,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_r459no.crack_t1: script doesn't exist\"}"
 }
