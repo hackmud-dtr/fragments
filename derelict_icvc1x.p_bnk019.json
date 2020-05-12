@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_icvc1x.p_bnk019",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_icvc1x.p_bnk019",
 	"sector": "HJG_7659",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "HJG_7659",
 				"to": "VNP_7903"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1589269574650
+		}
 	],
-	"updt": 1589263526936,
-	"edit": 4016,
+	"updt": 1589268034977,
+	"edit": 4017,
 	"pl_output": "{\"msg\":\"You are not an approved user of this script\"}",
 	"next_scrape": 1589356590455
 }
