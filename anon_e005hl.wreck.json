@@ -1,0 +1,52 @@
+{
+	"_id": "anon_e005hl.wreck",
+	"type": "fragment",
+	"mode": "player",
+	"script": "anon_e005hl.wreck",
+	"sector": "HJG_1348",
+	"sec_level": 4,
+	"date_added": 1589252755941,
+	"last_scraped": 1589252846476,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1589252755941
+		},
+		{
+			"type": "died",
+			"when": 1589252846476
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1589336862069,
+	"category": "fishie_tank",
+	"last_update": 1589252828263,
+	"output": [
+		{
+			"args": {},
+			"calls": 39392,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"y con",
+				"ink y",
+				"ata te",
+				"nk you ",
+				"he data ",
+				"g the da",
+				"g ## I t",
+				"## I thi",
+				" conside",
+				" ## I th"
+			]
+		}
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_e005hl.wreck: script doesn't exist\"}"
+}
