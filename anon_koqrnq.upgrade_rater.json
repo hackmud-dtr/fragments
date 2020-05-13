@@ -1,7 +1,7 @@
 {
 	"_id": "anon_koqrnq.upgrade_rater",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anon_koqrnq.upgrade_rater",
 	"sector": "HJG_1348",
 	"sec_level": 4,
@@ -16,7 +16,7 @@
 	"scrape_ct": 18,
 	"next_scrape": 1589342918355,
 	"category": "fishie_tank",
-	"last_update": 1589342858355,
+	"last_update": 1589342949183,
 	"output": [
 		{
 			"args": {},
@@ -46,7 +46,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1176,
+			"calls": 7359,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -114,10 +114,9 @@
 	],
 	"retry_args": [
 		{
-			"do": "feed"
-		},
-		{
 			"do": "clean"
 		}
-	]
+	],
+	"updt": 1589342873885,
+	"edit": 1
 }
