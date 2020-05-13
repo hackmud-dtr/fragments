@@ -1,0 +1,123 @@
+{
+	"_id": "anon_koqrnq.upgrade_rater",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anon_koqrnq.upgrade_rater",
+	"sector": "HJG_1348",
+	"sec_level": 4,
+	"date_added": 1589342713372,
+	"last_scraped": 1589342858355,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1589342713372
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1589342918355,
+	"category": "fishie_tank",
+	"last_update": 1589342858355,
+	"output": [
+		{
+			"args": {},
+			"calls": 21731,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ace u",
+				"of 13,",
+				"cks of",
+				" up.\\n2",
+				"ks of 13"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ace u",
+						"of 13,",
+						"cks of",
+						" up.\\n2",
+						"ks of 13"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1176,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ace u",
+				"of 13,",
+				"cks of",
+				" up.\\n2",
+				"ks of 13"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ace u",
+						"of 13,",
+						"cks of",
+						" up.\\n2",
+						"ks of 13"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 14468,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ace u",
+				"of 13,",
+				"cks of",
+				" up.\\n2",
+				"ks of 13"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ace u",
+						"of 13,",
+						"cks of",
+						" up.\\n2",
+						"ks of 13"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"ace u",
+				"of 13,",
+				"cks of",
+				" up.\\n2",
+				"ks of 13"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
