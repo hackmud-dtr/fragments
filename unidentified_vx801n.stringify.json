@@ -6,29 +6,21 @@
 	"sector": "HJG_8851",
 	"sec_level": 4,
 	"date_added": 1589361784724,
-	"last_scraped": 1589361803031,
+	"last_scraped": 1589362471254,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1589361784724
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1589361863031,
+	"scrape_ct": 10,
+	"next_scrape": 1589362531254,
 	"category": "fishie_tank",
-	"last_update": 1589361803031,
+	"last_update": 1589362471254,
 	"output": [
 		{
 			"args": {},
-			"calls": 8287,
+			"calls": 67423,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" do a",
@@ -39,7 +31,248 @@
 				"n shes o",
 				" shes ou",
 				" Iona, t"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"o anyt",
+						"n shes o",
+						" shes ou"
+					]
+				},
+				{
+					"document": "Prisoners",
+					"frags": [
+						"they're",
+						"na, they",
+						" Iona, t"
+					]
+				},
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						" do a"
+					]
+				},
+				{
+					"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
+					"frags": [
+						"they're"
+					]
+				},
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						"they're"
+					]
+				},
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"on't thi"
+					]
+				},
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						"on't thi"
+					]
+				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 7587,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" do a",
+				"o anyt",
+				"they're",
+				"on't thi",
+				"na, they",
+				"n shes o",
+				" shes ou",
+				" Iona, t"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"o anyt",
+						"n shes o",
+						" shes ou"
+					]
+				},
+				{
+					"document": "Prisoners",
+					"frags": [
+						"they're",
+						"na, they",
+						" Iona, t"
+					]
+				},
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						" do a"
+					]
+				},
+				{
+					"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
+					"frags": [
+						"they're"
+					]
+				},
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						"they're"
+					]
+				},
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"on't thi"
+					]
+				},
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						"on't thi"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 55208,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" do a",
+				"o anyt",
+				"they're",
+				"on't thi",
+				"na, they",
+				"n shes o",
+				" shes ou",
+				" Iona, t"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"o anyt",
+						"n shes o",
+						" shes ou"
+					]
+				},
+				{
+					"document": "Prisoners",
+					"frags": [
+						"they're",
+						"na, they",
+						" Iona, t"
+					]
+				},
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						" do a"
+					]
+				},
+				{
+					"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
+					"frags": [
+						"they're"
+					]
+				},
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						"they're"
+					]
+				},
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"on't thi"
+					]
+				},
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						"on't thi"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1589362265082,
+	"edit": 3,
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"o anyt",
+				"n shes o",
+				" shes ou"
+			]
+		},
+		{
+			"document": "Prisoners",
+			"frags": [
+				"they're",
+				"na, they",
+				" Iona, t"
+			]
+		},
+		{
+			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+			"frags": [
+				" do a"
+			]
+		},
+		{
+			"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
+			"frags": [
+				"they're"
+			]
+		},
+		{
+			"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+			"frags": [
+				"they're"
+			]
+		},
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"on't thi"
+			]
+		},
+		{
+			"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+			"frags": [
+				"on't thi"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
