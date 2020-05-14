@@ -1,0 +1,70 @@
+{
+	"_id": "derelict_trd25s.lights",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "derelict_trd25s.lights",
+	"sector": "HJG_8851",
+	"sec_level": 4,
+	"date_added": 1589446503418,
+	"last_scraped": 1589446575037,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1589446503418
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1589446635037,
+	"category": "fishie_tank",
+	"last_update": 1589446575037,
+	"output": [
+		{
+			"args": {},
+			"calls": 12127,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"stand",
+				"0th ce",
+				" for t",
+				" proper",
+				"y-manage",
+				"myopia, "
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 946,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"stand",
+				"0th ce",
+				" for t",
+				" proper",
+				"y-manage",
+				"myopia, "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 21565,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"stand",
+				"0th ce",
+				" for t",
+				" proper",
+				"y-manage",
+				"myopia, "
+			]
+		}
+	]
+}
