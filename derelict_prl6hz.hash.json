@@ -1,0 +1,60 @@
+{
+	"_id": "derelict_prl6hz.hash",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "derelict_prl6hz.hash",
+	"sector": "VNP_6103",
+	"sec_level": 4,
+	"date_added": 1589535570165,
+	"last_scraped": 1589535606505,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1589535570165
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1589535666505,
+	"category": "fishie_tank",
+	"last_update": 1589535626205,
+	"output": [
+		{
+			"args": {},
+			"calls": 13801,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"s why",
+				"m here",
+				"lleagu",
+				"he imp",
+				"ot ever",
+				"dy know"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1675,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"s why",
+				"m here",
+				"lleagu",
+				"he imp",
+				"ot ever",
+				"dy know"
+			]
+		}
+	]
+}
