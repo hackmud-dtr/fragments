@@ -1,31 +1,26 @@
 {
 	"_id": "derelict_prl6hz.hash",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "derelict_prl6hz.hash",
 	"sector": "VNP_6103",
 	"sec_level": 4,
 	"date_added": 1589535570165,
-	"last_scraped": 1589535606505,
+	"last_scraped": 1589535823760,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1589535570165
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 19,
-	"next_scrape": 1589535666505,
+	"scrape_ct": 16,
+	"next_scrape": 1589535883760,
 	"category": "fishie_tank",
-	"last_update": 1589535626205,
+	"last_update": 1589535823760,
 	"output": [
 		{
 			"args": {},
-			"calls": 13801,
+			"calls": 25455,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"s why",
@@ -34,13 +29,26 @@
 				"he imp",
 				"ot ever",
 				"dy know"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						"s why",
+						"m here",
+						"lleagu",
+						"he imp",
+						"ot ever",
+						"dy know"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1675,
+			"calls": 5236,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -48,6 +56,62 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"s why",
+				"m here",
+				"lleagu",
+				"he imp",
+				"ot ever",
+				"dy know"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						"s why",
+						"m here",
+						"lleagu",
+						"he imp",
+						"ot ever",
+						"dy know"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 20415,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"s why",
+				"m here",
+				"lleagu",
+				"he imp",
+				"ot ever",
+				"dy know"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						"s why",
+						"m here",
+						"lleagu",
+						"he imp",
+						"ot ever",
+						"dy know"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1589535638433,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+			"frags": [
 				"s why",
 				"m here",
 				"lleagu",
