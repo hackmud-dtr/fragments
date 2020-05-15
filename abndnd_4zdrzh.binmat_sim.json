@@ -1,25 +1,25 @@
 {
 	"_id": "abndnd_4zdrzh.binmat_sim",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_4zdrzh.binmat_sim",
 	"sector": "VNP_9265",
 	"sec_level": 4,
 	"date_added": 1589521345755,
-	"last_scraped": 1589537093080,
+	"last_scraped": 1589539482328,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1589521345755
 		}
 	],
-	"next_scrape": 1589582391002,
+	"next_scrape": 1589586180672,
 	"category": "fishie_tank",
-	"last_update": 1589537093080,
+	"last_update": 1589539554545,
 	"output": [
 		{
 			"args": {},
-			"calls": 206874,
+			"calls": 217251,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"my fai",
@@ -47,7 +47,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 22959,
+			"calls": 26855,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -118,6 +118,11 @@
 			]
 		}
 	],
-	"updt": 1589534063074,
-	"edit": 11
+	"updt": 1589537217993,
+	"edit": 12,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
