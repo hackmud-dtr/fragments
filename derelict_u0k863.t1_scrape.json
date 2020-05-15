@@ -1,20 +1,32 @@
 {
 	"_id": "derelict_u0k863.t1_scrape",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "new",
 	"script": "derelict_u0k863.t1_scrape",
-	"sector": "VNP_7541",
+	"sector": "VNP_6103",
 	"sec_level": 4,
 	"date_added": 1583631477364,
-	"last_scraped": 1589574572996,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1583631477364
-		}
+		},
+		{
+			"type": "died",
+			"when": 1589576551548
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1589577073098,
+				"from": "VNP_6103",
+				"to": "VNP_7541"
+			}
+		]
 	],
-	"updt": 1589572389871,
-	"edit": 1458,
+	"updt": 1589576676611,
+	"edit": 1460,
 	"pl_output": "Cannot read property 'name' of undefined",
 	"next_scrape": 1589662081849
 }
