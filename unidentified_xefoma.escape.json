@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_xefoma.escape",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "fresh",
 	"script": "unidentified_xefoma.escape",
-	"sector": "K_0086",
+	"sector": "HJG_3667",
 	"sec_level": 3,
 	"date_added": 1586221533180,
-	"last_scraped": 1589644894477,
+	"last_scraped": 1589646550811,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,65 @@
 		{
 			"type": "died",
 			"when": 1589645347708
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1589645899520,
+				"from": "HJG_3667",
+				"to": "K_0086"
+			}
+		]
 	],
 	"pl_output": "This won't work unless called from the CLI",
-	"next_scrape": 1589724644032,
-	"updt": 1589644999172,
-	"edit": 904
+	"next_scrape": 1589646610811,
+	"updt": 1589646350665,
+	"edit": 907,
+	"scrape_ct": 11,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1589646550811,
+	"output": [
+		{
+			"args": {},
+			"calls": 3080462,
+			"base": "This won't work unless called from the CLI",
+			"fragments": [
+				"ECT0X",
+				"ROR | P",
+				"E0X14AF",
+				"R | USER",
+				"R | TIME",
+				"ERROR | ",
+				"F93F\\nSYS"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"ECT0X",
+						"ROR | P",
+						"E0X14AF",
+						"R | USER",
+						"R | TIME",
+						"ERROR | ",
+						"F93F\\nSYS"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+			"frags": [
+				"ECT0X",
+				"ROR | P",
+				"E0X14AF",
+				"R | USER",
+				"R | TIME",
+				"ERROR | ",
+				"F93F\\nSYS"
+			]
+		}
+	]
 }
