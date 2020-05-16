@@ -3,18 +3,26 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "unidentified_xefoma.saltine",
-	"sector": "K_9904",
+	"sector": "HJG_0554",
 	"sec_level": 4,
 	"date_added": 1586221551409,
-	"last_scraped": 1589642465294,
+	"last_scraped": 1589645401776,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1586221551409
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1589645275808,
+				"from": "HJG_0554",
+				"to": "K_9904"
+			}
+		]
 	],
-	"updt": 1589639811425,
-	"edit": 903,
+	"updt": 1589645224080,
+	"edit": 905,
 	"pl_output": "{\"ok\":false,\"msg\":\"Alert: incorrect usage.\\n\\nPlease run as fr33z3rbrrn.saltine{t:#s.<user.loc>}\\nwhere <user.loc> is the loc of the target npc or user\"}",
-	"next_scrape": 1589732025105
+	"next_scrape": 1589731529520
 }
