@@ -1,20 +1,28 @@
 {
 	"_id": "unknown_qm01gz.corp",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "unknown_qm01gz.corp",
-	"sector": "NGC_3094",
+	"sector": "K_1031",
 	"sec_level": 4,
 	"date_added": 1584231570752,
-	"last_scraped": 1586189803122,
+	"last_scraped": 1589729284193,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1584231570752
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1589729230336,
+				"from": "K_1031",
+				"to": "NGC_3094"
+			}
+		]
 	],
-	"updt": 1586174272353,
-	"edit": 688,
-	"pl_output": "{\"ok\":false,\"msg\":\"                                                            \\n  `D██        ████████  ████████  ████████  ████████  ██    ██ `                          \\n  `D██        ██        ██           ██     ██    ██  ███   ██`                           \\n  `D██        ██████    ██   ███     ██     ██    ██  ██ ██ ██`                           \\n  `D██        ██        ██    ██     ██     ██    ██  ██   ███`                           \\n  `D████████  ████████  ████████  ████████  ████████  ██    ██  ██ `                      \\n                                                                                            \\n  `b████████  ████████  ████████  ████████                                          `     \\n  `b██        ██    ██  ██    ██  ██    ██      ``Dhiring freeze                  `      \\n  `b██        ██    ██  ███████   ████████   ``Duntil further notice                 ` \\n  `b██        ██    ██  ██   ██   ██                                                ` \\n  `b████████  ████████  ██    ██  ██   `\"}",
-	"next_scrape": 1586279765744
+	"updt": 1586189824089,
+	"edit": 689,
+	"pl_output": "Unexpected token u in JSON at position 0",
+	"next_scrape": 1589816894345
 }
