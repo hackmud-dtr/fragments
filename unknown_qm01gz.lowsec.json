@@ -1,9 +1,9 @@
 {
 	"_id": "unknown_qm01gz.lowsec",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "skip",
 	"script": "unknown_qm01gz.lowsec",
-	"sector": "SPC_5053",
+	"sector": "VNP_7119",
 	"sec_level": 1,
 	"date_added": 1584231570752,
 	"last_scraped": 0,
@@ -15,8 +15,16 @@
 		{
 			"type": "died",
 			"when": 1589729139963
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1589730606029,
+				"from": "VNP_7119",
+				"to": "SPC_5053"
+			}
+		]
 	],
-	"updt": 1584536084803,
-	"edit": 4
+	"updt": 1589730653344,
+	"edit": 6
 }
