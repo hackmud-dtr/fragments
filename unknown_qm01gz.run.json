@@ -1,9 +1,9 @@
 {
 	"_id": "unknown_qm01gz.run",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "skip",
 	"script": "unknown_qm01gz.run",
-	"sector": "HJG_7415",
+	"sector": "SPC_0745",
 	"sec_level": 0,
 	"date_added": 1584231425536,
 	"last_scraped": 0,
@@ -15,8 +15,16 @@
 		{
 			"type": "died",
 			"when": 1589729235040
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1589729862178,
+				"from": "SPC_0745",
+				"to": "HJG_7415"
+			}
+		]
 	],
-	"updt": 1584536084803,
-	"edit": 4
+	"updt": 1589729975171,
+	"edit": 6
 }

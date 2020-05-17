@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_qm01gz.t1_npc_dump",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "fresh",
 	"script": "unknown_qm01gz.t1_npc_dump",
-	"sector": "HJG_7415",
+	"sector": "SPC_0745",
 	"sec_level": 0,
 	"date_added": 1584231425536,
-	"last_scraped": 1589728596394,
+	"last_scraped": 1589730133829,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,59 @@
 		{
 			"type": "died",
 			"when": 1589729235040
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1589729862178,
+				"from": "SPC_0745",
+				"to": "HJG_7415"
+			}
+		]
+	],
+	"updt": 1589729975171,
+	"edit": 1632,
+	"pl_output": "\n\n`c[USER NOT AUTHORIZED]`\n",
+	"next_scrape": 1589730193829,
+	"scrape_ct": 19,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1589730133829,
+	"output": [
+		{
+			"args": {},
+			"calls": 6034,
+			"base": "\n\n`c[USER NOT AUTHORIZED]`\n",
+			"fragments": [
+				"320E3 ",
+				"E7 when",
+				"20E7 wh",
+				"What hap",
+				"7D177\\nA"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"320E3 ",
+						"E7 when",
+						"20E7 wh",
+						"What hap",
+						"7D177\\nA"
+					]
+				}
+			]
 		}
 	],
-	"updt": 1589728623683,
-	"edit": 1630,
-	"pl_output": "\n\n`c[USER NOT AUTHORIZED]`\n",
-	"next_scrape": 1589812636626
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"320E3 ",
+				"E7 when",
+				"20E7 wh",
+				"What hap",
+				"7D177\\nA"
+			]
+		}
+	]
 }

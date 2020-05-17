@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_qm01gz.breach",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "fresh",
 	"script": "unknown_qm01gz.breach",
-	"sector": "HJG_7415",
+	"sector": "SPC_0745",
 	"sec_level": 0,
 	"date_added": 1584231425536,
-	"last_scraped": 1587293942256,
+	"last_scraped": 1589730187785,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,71 @@
 		{
 			"type": "died",
 			"when": 1589729235040
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1589729862178,
+				"from": "SPC_0745",
+				"to": "HJG_7415"
+			}
+		]
 	],
 	"pl_output": "\n\n`c[USER NOT AUTHORIZED]`\n",
-	"next_scrape": 1587378494789,
-	"updt": 1587293980306,
-	"edit": 801
+	"next_scrape": 1589730247785,
+	"updt": 1589729975171,
+	"edit": 803,
+	"scrape_ct": 18,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1589730187785,
+	"output": [
+		{
+			"args": {},
+			"calls": 9884,
+			"base": "\n\n`c[USER NOT AUTHORIZED]`\n",
+			"fragments": [
+				"in th",
+				"e att",
+				"ards ",
+				"ne dec",
+				"s\\n2103",
+				"1 the l",
+				"k\\n2104 ",
+				"e deck\\n",
+				"03 cards"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"in th",
+						"e att",
+						"ards ",
+						"ne dec",
+						"s\\n2103",
+						"1 the l",
+						"k\\n2104 ",
+						"e deck\\n",
+						"03 cards"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"in th",
+				"e att",
+				"ards ",
+				"ne dec",
+				"s\\n2103",
+				"1 the l",
+				"k\\n2104 ",
+				"e deck\\n",
+				"03 cards"
+			]
+		}
+	]
 }
