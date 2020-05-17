@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_dyn20z.animals",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "unknown_dyn20z.animals",
-	"sector": "K_9904",
+	"sector": "HJG_0554",
 	"sec_level": 4,
 	"date_added": 1586221551409,
-	"last_scraped": 1589672517173,
+	"last_scraped": 1589677527149,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1589673769000
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1589677509250,
+				"from": "HJG_0554",
+				"to": "K_9904"
+			}
+		]
 	],
-	"updt": 1589672715460,
-	"edit": 914,
+	"updt": 1589673842592,
+	"edit": 915,
 	"pl_output": "{\"ok\":false,\"msg\":\"\\nError: Missing arguments.\\n\\nPossible arguments:\\n`Nchoice`\\n`Nread`\"}",
-	"next_scrape": 1589765908297
+	"next_scrape": 1589762496313
 }
