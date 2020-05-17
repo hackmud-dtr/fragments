@@ -1,7 +1,7 @@
 {
 	"_id": "anon_l0jvw6.christmas",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_l0jvw6.christmas",
 	"sector": "VNP_2114",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1586486659055
+		},
+		{
+			"type": "died",
+			"when": 1589706062944
 		}
 	],
 	"scrape_ct": 17,
@@ -33,6 +37,23 @@
 				"9 We ta",
 				"LST0X7A_",
 				" We take"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"turns",
+						"D03208",
+						"C7D175",
+						"89 We ",
+						"208A 5",
+						"ake tur",
+						"SECT0XF",
+						"9 We ta",
+						"LST0X7A_",
+						" We take"
+					]
+				}
 			]
 		},
 		{
@@ -52,15 +73,49 @@
 				"9 We ta",
 				"LST0X7A_",
 				" We take"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"turns",
+						"D03208",
+						"C7D175",
+						"89 We ",
+						"208A 5",
+						"ake tur",
+						"SECT0XF",
+						"9 We ta",
+						"LST0X7A_",
+						" We take"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1586486948861,
-	"edit": 2,
+	"updt": 1586491006017,
+	"edit": 3,
 	"retry_args": [
 		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"turns",
+				"D03208",
+				"C7D175",
+				"89 We ",
+				"208A 5",
+				"ake tur",
+				"SECT0XF",
+				"9 We ta",
+				"LST0X7A_",
+				" We take"
+			]
+		}
+	]
 }
