@@ -1,26 +1,26 @@
 {
 	"_id": "abandoned_guu8rt.probe",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abandoned_guu8rt.probe",
 	"sector": "K_1031",
 	"sec_level": 4,
 	"date_added": 1589812106848,
-	"last_scraped": 1589812685521,
+	"last_scraped": 1589812994743,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1589812106848
 		}
 	],
-	"scrape_ct": 11,
-	"next_scrape": 1589812745521,
+	"scrape_ct": 6,
+	"next_scrape": 1589813054743,
 	"category": "fishie_tank",
-	"last_update": 1589812685521,
+	"last_update": 1589812994743,
 	"output": [
 		{
 			"args": {},
-			"calls": 51469,
+			"calls": 77136,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" to m",
@@ -68,7 +68,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5850,
+			"calls": 9167,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -76,15 +76,22 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"sk to",
+				" word",
 				" to m",
 				"word I",
+				"risk t",
+				"me ## ",
 				"Risk i",
 				"# Risk",
+				" risk ",
+				" ## Ri",
 				"sk is e",
-				"eems li",
 				"ctly th",
+				" I'd us",
 				"utions. ",
 				"to me ##",
+				"seems li",
 				"s. ## se",
 				"ons. ## ",
 				"k is exa",
@@ -94,7 +101,8 @@
 				"I'd use.",
 				"## seems",
 				"# seems ",
-				" seems l"
+				" seems l",
+				" exactly"
 			],
 			"hits": [
 				{
@@ -121,18 +129,25 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 59439,
+			"calls": 85163,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"sk to",
+				" word",
 				" to m",
 				"word I",
+				"risk t",
+				"me ## ",
 				"Risk i",
 				"# Risk",
+				" risk ",
+				" ## Ri",
 				"sk is e",
-				"eems li",
 				"ctly th",
+				" I'd us",
 				"utions. ",
 				"to me ##",
+				"seems li",
 				"s. ## se",
 				"ons. ## ",
 				"k is exa",
@@ -142,7 +157,8 @@
 				"I'd use.",
 				"## seems",
 				"# seems ",
-				" seems l"
+				" seems l",
+				" exactly"
 			],
 			"hits": [
 				{
@@ -186,6 +202,6 @@
 			]
 		}
 	],
-	"updt": 1589812505888,
-	"edit": 1
+	"updt": 1589812957049,
+	"edit": 3
 }
