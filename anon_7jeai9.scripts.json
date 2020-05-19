@@ -1,20 +1,75 @@
 {
 	"_id": "anon_7jeai9.scripts",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "anon_7jeai9.scripts",
-	"sector": "K_9706",
+	"sector": "NGC_1737",
 	"sec_level": 2,
 	"date_added": 1586850216940,
-	"last_scraped": 1589926524950,
+	"last_scraped": 1589927772289,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1586850216940
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1589927358074,
+				"from": "NGC_1737",
+				"to": "K_9706"
+			}
+		]
 	],
 	"pl_output": "{`Nscript`:`V\"name\"`, `Nargs`:`V{args}`}",
-	"next_scrape": 1590018903093,
-	"updt": 1589924546175,
-	"edit": 840
+	"next_scrape": 1589927832289,
+	"updt": 1589927479817,
+	"edit": 842,
+	"scrape_ct": 11,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1589927772289,
+	"output": [
+		{
+			"args": {},
+			"calls": 2588075,
+			"base": "{`Nscript`:`V\"name\"`, `Nargs`:`V{args}`}",
+			"fragments": [
+				"8 Oka",
+				"have 7",
+				"e 7 an",
+				"?\\n20C",
+				"th of 3",
+				"ngth of",
+				"16. 4?\\n2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"8 Oka",
+						"have 7",
+						"e 7 an",
+						"?\\n20C",
+						"th of 3",
+						"ngth of",
+						"16. 4?\\n2"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"8 Oka",
+				"have 7",
+				"e 7 an",
+				"?\\n20C",
+				"th of 3",
+				"ngth of",
+				"16. 4?\\n2"
+			]
+		}
+	]
 }
