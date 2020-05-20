@@ -1,19 +1,23 @@
 {
 	"_id": "anonymous_wrzumc.splurge",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_wrzumc.splurge",
 	"sector": "K_1031",
 	"sec_level": 4,
 	"date_added": 1589946542311,
-	"last_scraped": 1589947793150,
+	"last_scraped": 1589949785676,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1589946542311
+		},
+		{
+			"type": "died",
+			"when": 1589949785676
 		}
 	],
-	"next_scrape": 1589990228940,
+	"next_scrape": 1590043271950,
 	"category": "coin_flipper",
 	"last_update": 1589947793150,
 	"output": [
@@ -206,6 +210,7 @@
 			]
 		}
 	],
-	"updt": 1589947763269,
-	"edit": 6
+	"updt": 1589947988402,
+	"edit": 7,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_wrzumc.splurge: script doesn't exist\"}"
 }
