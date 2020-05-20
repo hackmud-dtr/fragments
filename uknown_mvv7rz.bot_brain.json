@@ -6,26 +6,21 @@
 	"sector": "K_1365",
 	"sec_level": 4,
 	"date_added": 1589982865444,
-	"last_scraped": 1589982901226,
+	"last_scraped": 1589983372463,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1589982865444
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 19,
-	"next_scrape": 1589982961226,
+	"scrape_ct": 9,
+	"next_scrape": 1589983432463,
 	"category": "fishie_tank",
-	"last_update": 1589982919622,
+	"last_update": 1589983372463,
 	"output": [
 		{
 			"args": {},
-			"calls": 13252,
+			"calls": 60261,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"stren",
@@ -35,13 +30,32 @@
 				"s go to",
 				"ro,\\n217",
 				",\\n2173 a"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"stren",
+						"cker ",
+						"tacker",
+						"73 att",
+						"s go to"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ro,\\n217",
+						",\\n2173 a"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1162,
+			"calls": 4477,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -54,6 +68,81 @@
 				"tacker",
 				"73 att",
 				"s go to",
+				"ro,\\n217",
+				",\\n2173 a"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"stren",
+						"cker ",
+						"tacker",
+						"73 att",
+						"s go to"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ro,\\n217",
+						",\\n2173 a"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 61249,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"stren",
+				"cker ",
+				"tacker",
+				"73 att",
+				"s go to",
+				"ro,\\n217",
+				",\\n2173 a"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"stren",
+						"cker ",
+						"tacker",
+						"73 att",
+						"s go to"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ro,\\n217",
+						",\\n2173 a"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1589983155523,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"stren",
+				"cker ",
+				"tacker",
+				"73 att",
+				"s go to"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
 				"ro,\\n217",
 				",\\n2173 a"
 			]
