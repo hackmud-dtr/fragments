@@ -1,12 +1,12 @@
 {
 	"_id": "anon_j6l4lv.funds",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "anon_j6l4lv.funds",
-	"sector": "SPC_7745",
+	"sector": "K_6346",
 	"sec_level": 4,
 	"date_added": 1586815050235,
-	"last_scraped": 0,
+	"last_scraped": 1590176894930,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,8 +15,18 @@
 		{
 			"type": "died",
 			"when": 1590176328892
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1590176875605,
+				"from": "K_6346",
+				"to": "SPC_7745"
+			}
+		]
 	],
-	"updt": 1586815223137,
-	"edit": 1
+	"updt": 1590176341804,
+	"edit": 2,
+	"pl_output": "Unexpected token u in JSON at position 0",
+	"next_scrape": 1590263409317
 }
