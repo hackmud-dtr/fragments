@@ -1,12 +1,12 @@
 {
 	"_id": "anon_tormpb.u",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "anon_tormpb.u",
-	"sector": "NGC_9177",
+	"sector": "K_6346",
 	"sec_level": 4,
 	"date_added": 1584328605187,
-	"last_scraped": 1589423297392,
+	"last_scraped": 1590250599647,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1590249006766
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1590250581948,
+				"from": "K_6346",
+				"to": "NGC_9177"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false}",
-	"next_scrape": 1589506759889,
-	"updt": 1589423360727,
-	"edit": 1421
+	"next_scrape": 1590333784388,
+	"updt": 1590249154331,
+	"edit": 1422
 }
