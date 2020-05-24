@@ -1,9 +1,9 @@
 {
 	"_id": "anon_lv94iz.gcdump",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "skip",
 	"script": "anon_lv94iz.gcdump",
-	"sector": "SPC_5053",
+	"sector": "VNP_7119",
 	"sec_level": 1,
 	"date_added": 1584329564456,
 	"last_scraped": 0,
@@ -15,8 +15,16 @@
 		{
 			"type": "died",
 			"when": 1590313537300
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1590316244784,
+				"from": "VNP_7119",
+				"to": "SPC_5053"
+			}
+		]
 	],
-	"updt": 1584536986942,
-	"edit": 3
+	"updt": 1590316322431,
+	"edit": 5
 }
