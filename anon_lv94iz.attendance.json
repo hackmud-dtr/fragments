@@ -1,9 +1,9 @@
 {
 	"_id": "anon_lv94iz.attendance",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "anon_lv94iz.attendance",
-	"sector": "K_6480",
+	"sector": "VNP_2287",
 	"sec_level": 0,
 	"date_added": 1584329075482,
 	"last_scraped": 0,
@@ -11,8 +11,16 @@
 		{
 			"type": "added",
 			"when": 1584329075482
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1590313572953,
+				"from": "VNP_2287",
+				"to": "K_6480"
+			}
+		]
 	],
-	"updt": 1584329380756,
-	"edit": 1
+	"updt": 1584536084803,
+	"edit": 2
 }

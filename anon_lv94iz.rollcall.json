@@ -1,20 +1,32 @@
 {
 	"_id": "anon_lv94iz.rollcall",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "new",
 	"script": "anon_lv94iz.rollcall",
-	"sector": "VNP_3908",
+	"sector": "K_6346",
 	"sec_level": 4,
 	"date_added": 1584329203494,
-	"last_scraped": 1589017840116,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1584329203494
-		}
+		},
+		{
+			"type": "died",
+			"when": 1590313521072
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1590313592125,
+				"from": "K_6346",
+				"to": "VNP_3908"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"LOCK_ERROR\"}",
 	"next_scrape": 1589097810364,
-	"updt": 1589014492137,
-	"edit": 1308
+	"updt": 1589017875063,
+	"edit": 1309
 }
