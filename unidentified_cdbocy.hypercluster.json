@@ -1,28 +1,28 @@
 {
 	"_id": "unidentified_cdbocy.hypercluster",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unidentified_cdbocy.hypercluster",
 	"sector": "K_8651",
 	"sec_level": 4,
 	"date_added": 1590487990708,
-	"last_scraped": 1590488291888,
+	"last_scraped": 1590488597322,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1590487990708
 		}
 	],
-	"updt": 1590488069955,
-	"edit": 1,
-	"scrape_ct": 14,
-	"next_scrape": 1590488351888,
+	"updt": 1590488520743,
+	"edit": 2,
+	"scrape_ct": 8,
+	"next_scrape": 1590488657322,
 	"category": "fishie_tank",
-	"last_update": 1590488272436,
+	"last_update": 1590488597322,
 	"output": [
 		{
 			"args": {},
-			"calls": 29752,
+			"calls": 71278,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"uatio",
@@ -76,7 +76,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2391,
+			"calls": 4935,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -135,7 +135,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 26013,
+			"calls": 56114,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"uatio",
