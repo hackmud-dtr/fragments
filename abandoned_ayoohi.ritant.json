@@ -1,19 +1,27 @@
 {
 	"_id": "abandoned_ayoohi.ritant",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abandoned_ayoohi.ritant",
 	"sector": "K_8651",
 	"sec_level": 4,
 	"date_added": 1590464028151,
-	"last_scraped": 1590465006851,
+	"last_scraped": 1590466546437,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1590464028151
+		},
+		{
+			"type": "died",
+			"when": 1590466546437
+		},
+		{
+			"type": "died",
+			"when": 1590466657014
 		}
 	],
-	"next_scrape": 1590508828638,
+	"next_scrape": 1590549275966,
 	"category": "dice_roller",
 	"last_update": 1590465006851,
 	"output": [
@@ -81,6 +89,7 @@
 			]
 		}
 	],
-	"updt": 1590464629591,
-	"edit": 3
+	"updt": 1590466656640,
+	"edit": 5,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_ayoohi.ritant: script doesn't exist\"}"
 }
