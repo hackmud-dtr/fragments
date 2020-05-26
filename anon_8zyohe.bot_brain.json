@@ -1,25 +1,25 @@
 {
 	"_id": "anon_8zyohe.bot_brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_8zyohe.bot_brain",
 	"sector": "K_8651",
 	"sec_level": 4,
 	"date_added": 1590489321521,
-	"last_scraped": 1590493591358,
+	"last_scraped": 1590495328301,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1590489321521
 		}
 	],
-	"next_scrape": 1590534674056,
+	"next_scrape": 1590536106973,
 	"category": "clicker",
-	"last_update": 1590493591358,
+	"last_update": 1590495328301,
 	"output": [
 		{
 			"args": {},
-			"calls": 95614,
+			"calls": 107151,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"wish ",
@@ -59,7 +59,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 96786,
+			"calls": 124076,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"wish ",
@@ -155,6 +155,11 @@
 			]
 		}
 	],
-	"updt": 1590491906058,
-	"edit": 6
+	"updt": 1590495286361,
+	"edit": 8,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
