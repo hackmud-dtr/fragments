@@ -1,34 +1,26 @@
 {
 	"_id": "unknown_sfmvqj.irs",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "unknown_sfmvqj.irs",
 	"sector": "K_8651",
 	"sec_level": 4,
 	"date_added": 1590581062052,
-	"last_scraped": 1590581189476,
+	"last_scraped": 1590581262602,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1590581062052
 		}
 	],
-	"retry_args": [
-		{
-			"do": "win"
-		},
-		{
-			"do": "LOSE"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1590581249476,
+	"scrape_ct": 18,
+	"next_scrape": 1590663378515,
 	"category": "risk_factor",
-	"last_update": 1590581189476,
+	"last_update": 1590581243909,
 	"output": [
 		{
 			"args": {},
-			"calls": 1431,
+			"calls": 3440,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"rage ",
@@ -41,6 +33,35 @@
 				"oom for ",
 				"derstand"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 141,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"rage ",
+				"onside",
+				". ## E",
+				" on an",
+				"will. D",
+				"t quest",
+				" one of",
+				"oom for ",
+				"derstand"
+			]
 		}
-	]
+	],
+	"updt": 1590581197435,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
