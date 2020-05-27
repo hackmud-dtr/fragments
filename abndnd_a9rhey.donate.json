@@ -1,16 +1,32 @@
 {
 	"_id": "abndnd_a9rhey.donate",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "player",
 	"script": "abndnd_a9rhey.donate",
-	"sector": "HJG_7565",
+	"sector": "SPC_8138",
 	"sec_level": 2,
 	"date_added": 1584653682530,
-	"last_scraped": 0,
+	"last_scraped": 1590552762388,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1584653682530
-		}
-	]
+		},
+		{
+			"type": "died",
+			"when": 1590552527164
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1590552743680,
+				"from": "SPC_8138",
+				"to": "HJG_7565"
+			}
+		]
+	],
+	"updt": 1590552561792,
+	"edit": 2,
+	"pl_output": "Unexpected token u in JSON at position 0",
+	"next_scrape": 1590633434303
 }
