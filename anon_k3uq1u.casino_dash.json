@@ -1,12 +1,12 @@
 {
 	"_id": "anon_k3uq1u.casino_dash",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "fresh",
 	"script": "anon_k3uq1u.casino_dash",
-	"sector": "HJG_9272",
+	"sector": "SPC_8138",
 	"sec_level": 2,
 	"date_added": 1587130463594,
-	"last_scraped": 1589218791848,
+	"last_scraped": 1590581136132,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,65 @@
 		{
 			"type": "died",
 			"when": 1590580213666
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1590581062052,
+				"from": "SPC_8138",
+				"to": "HJG_9272"
+			}
+		]
 	],
 	"pl_output": "YOU ARE A BAD             PERSON.",
-	"next_scrape": 1589306640892,
-	"updt": 1589218888518,
-	"edit": 517
+	"next_scrape": 1590581196132,
+	"updt": 1590580295377,
+	"edit": 518,
+	"scrape_ct": 20,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1590581136132,
+	"output": [
+		{
+			"args": {},
+			"calls": 290719,
+			"base": "YOU ARE A BAD             PERSON.",
+			"fragments": [
+				"rajbh",
+				"ookin",
+				"ROR |",
+				"ssage y",
+				"2\\nSYST",
+				"hat pass",
+				"g for is"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"rajbh",
+						"ookin",
+						"ROR |",
+						"ssage y",
+						"2\\nSYST",
+						"hat pass",
+						"g for is"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
+				"rajbh",
+				"ookin",
+				"ROR |",
+				"ssage y",
+				"2\\nSYST",
+				"hat pass",
+				"g for is"
+			]
+		}
+	]
 }

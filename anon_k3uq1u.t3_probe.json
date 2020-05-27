@@ -1,12 +1,12 @@
 {
 	"_id": "anon_k3uq1u.t3_probe",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "anon_k3uq1u.t3_probe",
-	"sector": "HJG_9272",
+	"sector": "SPC_8138",
 	"sec_level": 2,
 	"date_added": 1587130463594,
-	"last_scraped": 1590579776824,
+	"last_scraped": 1590581152985,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1590580213666
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1590581062052,
+				"from": "SPC_8138",
+				"to": "HJG_9272"
+			}
+		]
 	],
 	"pl_output": "Cannot read property 'call' of undefined",
-	"next_scrape": 1590670465806,
-	"updt": 1590579844976,
-	"edit": 1079
+	"next_scrape": 1590665824322,
+	"updt": 1590580295377,
+	"edit": 1080
 }

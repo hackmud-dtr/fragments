@@ -1,12 +1,12 @@
 {
 	"_id": "anon_k3uq1u.t3brute",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "anon_k3uq1u.t3brute",
-	"sector": "K_9063",
+	"sector": "K_8651",
 	"sec_level": 4,
 	"date_added": 1587129830987,
-	"last_scraped": 1590579486995,
+	"last_scraped": 1590581118119,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1590579889065
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1590581062052,
+				"from": "K_8651",
+				"to": "K_9063"
+			}
+		]
 	],
-	"updt": 1590579619021,
-	"edit": 1080,
+	"updt": 1590580295377,
+	"edit": 1081,
 	"pl_output": "{\"ok\":false,\"msg\":\"Expected { t: #s.<corp>.<lowsec_script>, username: \\\"<username>\\\"}\"}",
-	"next_scrape": 1590672501500
+	"next_scrape": 1590661119779
 }
