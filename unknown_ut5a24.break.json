@@ -1,30 +1,22 @@
 {
 	"_id": "unknown_ut5a24.break",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "unknown_ut5a24.break",
 	"sector": "SPC_0300",
 	"sec_level": 4,
 	"date_added": 1590654604717,
-	"last_scraped": 1590654675991,
+	"last_scraped": 1590654712411,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1590654604717
 		}
 	],
-	"retry_args": [
-		{
-			"do": "win"
-		},
-		{
-			"do": "LOSE"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1590654735991,
+	"scrape_ct": 19,
+	"next_scrape": 1590740784315,
 	"category": "risk_factor",
-	"last_update": 1590654675991,
+	"last_update": 1590654693766,
 	"output": [
 		{
 			"args": {},
@@ -39,6 +31,33 @@
 				"lossom,",
 				" blossom"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 167,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"l rea",
+				" allo",
+				"ously ",
+				"y to bl",
+				"revices",
+				"lossom,",
+				" blossom"
+			]
 		}
-	]
+	],
+	"updt": 1590654692317,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
