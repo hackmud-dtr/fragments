@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_nmovpb.decorrupter",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unknown_nmovpb.decorrupter",
 	"sector": "K_5175",
 	"sec_level": 4,
@@ -19,12 +19,16 @@
 				"from": "K_5175",
 				"to": "K_0399"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1590776101814
+		}
 	],
 	"pl_output": "swankington.decorrupter{target:#s.cyberdine.public,args:\"arg1:value1,arg2:value2,arg3:value3,etc:etcetera\"}\n\nArguments are optional. All values will be converted to strings\n\nmacro:swankington.decorrupter {{ target:#s.{0}, args:{1} }}",
 	"next_scrape": 1584770947355,
-	"updt": 1584726789354,
-	"edit": 2837,
+	"updt": 1584727013485,
+	"edit": 2838,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1584726860822,
 	"output": [
