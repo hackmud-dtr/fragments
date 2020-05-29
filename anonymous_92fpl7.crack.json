@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_92fpl7.crack",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anonymous_92fpl7.crack",
 	"sector": "K_7763",
 	"sec_level": 4,
 	"date_added": 1579009911068,
-	"last_scraped": 1590793464329,
+	"last_scraped": 1590795402235,
 	"script_log": [
 		{
 			"type": "added",
@@ -23,10 +23,18 @@
 				"from": "K_7763",
 				"to": "K_0399"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1590795402235
+		},
+		{
+			"type": "died",
+			"when": 1590795402610
+		}
 	],
-	"pl_output": "no",
-	"next_scrape": 1590883353267,
-	"updt": 1590791755752,
-	"edit": 8323
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_92fpl7.crack: script doesn't exist\"}",
+	"next_scrape": 1590886340148,
+	"updt": 1590793557468,
+	"edit": 8324
 }
