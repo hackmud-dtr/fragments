@@ -1,0 +1,55 @@
+{
+	"_id": "uknown_ziq5v0.decorrupt",
+	"type": "fragment",
+	"mode": "timeout",
+	"script": "uknown_ziq5v0.decorrupt",
+	"sector": "HJG_9390",
+	"sec_level": 4,
+	"date_added": 1590865437929,
+	"last_scraped": 1590865491536,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1590865437929
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1590953375097,
+	"category": "risk_factor",
+	"last_update": 1590865491536,
+	"output": [
+		{
+			"args": {},
+			"calls": 2182,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"01 00",
+				"0 010",
+				"0100 00",
+				"0000 00",
+				" 0100 0",
+				" 0001 0"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 162,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"01 00",
+				"0 010",
+				"0100 00",
+				"0000 00",
+				" 0100 0",
+				" 0001 0"
+			]
+		}
+	]
+}
