@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_534eot.convert",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_534eot.convert",
 	"sector": "HJG_0110",
 	"sec_level": 4,
 	"date_added": 1579217626004,
-	"last_scraped": 1590704103923,
+	"last_scraped": 1590705877756,
 	"script_log": [
 		{
 			"type": "added",
@@ -23,10 +23,14 @@
 				"from": "HJG_0110",
 				"to": "SPC_9621"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1591003292370
+		}
 	],
 	"pl_output": "Cannot read property '0' of undefined",
-	"next_scrape": 1590791160537,
-	"updt": 1590702489815,
-	"edit": 8093
+	"next_scrape": 1590789561644,
+	"updt": 1590706095706,
+	"edit": 8095
 }
