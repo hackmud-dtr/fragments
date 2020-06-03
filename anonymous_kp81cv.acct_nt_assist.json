@@ -1,22 +1,22 @@
 {
 	"_id": "anonymous_kp81cv.acct_nt_assist",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "anonymous_kp81cv.acct_nt_assist",
 	"sector": "HJG_2207",
 	"sec_level": 4,
 	"date_added": 1591198250648,
-	"last_scraped": 1591198321800,
+	"last_scraped": 1591200041538,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1591198250648
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1591282093447,
+	"scrape_ct": 15,
+	"next_scrape": 1591200101538,
 	"category": "risk_factor",
-	"last_update": 1591198303089,
+	"last_update": 1591200041538,
 	"output": [
 		{
 			"args": {},
@@ -35,9 +35,10 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 180,
+			"calls": 915,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
+				"4",
 				"ive d",
 				"First",
 				" theo",
@@ -49,11 +50,10 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1591200022988,
+	"edit": 2
 }
