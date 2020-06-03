@@ -1,22 +1,22 @@
 {
 	"_id": "abandoned_9n8qd5.extern_3t1ry4",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "abandoned_9n8qd5.extern_3t1ry4",
 	"sector": "HJG_2207",
 	"sec_level": 4,
 	"date_added": 1591200095968,
-	"last_scraped": 1591200168866,
+	"last_scraped": 1591201978939,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1591200095968
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1591292449770,
+	"scrape_ct": 15,
+	"next_scrape": 1591202038939,
 	"category": "risk_factor",
-	"last_update": 1591200132603,
+	"last_update": 1591201978939,
 	"output": [
 		{
 			"args": {},
@@ -37,9 +37,10 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 190,
+			"calls": 1201,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
+				"3",
 				"Wait,",
 				"E90 B",
 				"E81 W",
@@ -53,11 +54,10 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1591200247376,
+	"edit": 1
 }
