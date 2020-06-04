@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_yzjqif.l",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "derelict_yzjqif.l",
 	"sector": "K_4057",
 	"sec_level": 4,
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "feed"
-		},
-		{
 			"do": "clean"
 		}
 	],
 	"scrape_ct": 18,
 	"next_scrape": 1591243802045,
 	"category": "fishie_tank",
-	"last_update": 1591243742045,
+	"last_update": 1591243778132,
 	"output": [
 		{
 			"args": {},
@@ -38,6 +35,28 @@
 				"get a ch",
 				"## Quite"
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2349,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" to f",
+				"your th",
+				"uite. E",
+				"ur thesi",
+				"get a ch",
+				"## Quite"
+			]
 		}
-	]
+	],
+	"updt": 1591243759948,
+	"edit": 1
 }
