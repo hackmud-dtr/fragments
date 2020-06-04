@@ -1,0 +1,101 @@
+{
+	"_id": "anon_l1pdmr.restock",
+	"type": "fragment",
+	"mode": "dead",
+	"script": "anon_l1pdmr.restock",
+	"sector": "K_4057",
+	"sec_level": 4,
+	"date_added": 1591256599513,
+	"last_scraped": 1591256652339,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1591256599513
+		},
+		{
+			"type": "died",
+			"when": 1591256652339
+		},
+		{
+			"type": "died",
+			"when": 1591256870820
+		}
+	],
+	"updt": 1591256836305,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1591346764927,
+	"category": "fishie_tank",
+	"last_update": 1591256634096,
+	"output": [
+		{
+			"args": {},
+			"calls": 18094,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"| NET",
+				"_FILE",
+				"RROR |",
+				"56_FIL",
+				"YST ERR",
+				"TW ERRO",
+				"MFT0X71",
+				"FILE0X1",
+				"7356_FI",
+				"R mholli",
+				"LST0X8A_",
+				"ILE0X14A",
+				"F\\nSYST E"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"| NET",
+						"_FILE",
+						"RROR |",
+						"56_FIL",
+						"YST ERR",
+						"TW ERRO",
+						"MFT0X71",
+						"FILE0X1",
+						"7356_FI",
+						"R mholli",
+						"LST0X8A_",
+						"ILE0X14A",
+						"F\\nSYST E"
+					]
+				}
+			]
+		}
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_l1pdmr.restock: script doesn't exist\"}",
+	"identified": [
+		{
+			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+			"frags": [
+				"| NET",
+				"_FILE",
+				"RROR |",
+				"56_FIL",
+				"YST ERR",
+				"TW ERRO",
+				"MFT0X71",
+				"FILE0X1",
+				"7356_FI",
+				"R mholli",
+				"LST0X8A_",
+				"ILE0X14A",
+				"F\\nSYST E"
+			]
+		}
+	]
+}
