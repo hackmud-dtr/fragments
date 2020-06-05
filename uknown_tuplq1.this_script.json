@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_tuplq1.this_script",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "uknown_tuplq1.this_script",
 	"sector": "K_7692",
 	"sec_level": 4,
 	"date_added": 1591341773014,
-	"last_scraped": 1591341809116,
+	"last_scraped": 1591341880816,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,20 +15,17 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"scrape_ct": 20,
-	"next_scrape": 1591341869116,
+	"scrape_ct": 16,
+	"next_scrape": 1591341940816,
 	"category": "risk_factor",
-	"last_update": 1591341809116,
+	"last_update": 1591341880816,
 	"output": [
 		{
 			"args": {},
-			"calls": 1379,
+			"calls": 3797,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"ould ",
@@ -39,6 +36,24 @@
 				"l when ",
 				" dumplin"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 444,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"ould ",
+				". It ",
+				"'save",
+				" can m",
+				"y push ",
+				"l when ",
+				" dumplin"
+			]
 		}
-	]
+	],
+	"updt": 1591341819389,
+	"edit": 1
 }
