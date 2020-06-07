@@ -1,22 +1,22 @@
 {
 	"_id": "anonymous_cmr9ln.quit",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "fresh",
 	"script": "anonymous_cmr9ln.quit",
 	"sector": "HJG_3115",
 	"sec_level": 4,
 	"date_added": 1591537212465,
-	"last_scraped": 1591537304088,
+	"last_scraped": 1591537267605,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1591537212465
 		}
 	],
-	"scrape_ct": 17,
-	"next_scrape": 1591537364088,
+	"scrape_ct": 18,
+	"next_scrape": 1591537327605,
 	"category": "risk_factor",
-	"last_update": 1591537304088,
+	"last_update": 1591537267605,
 	"output": [
 		{
 			"args": {},
@@ -36,7 +36,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 423,
+			"calls": 232,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"face ",
@@ -454,9 +454,10 @@
 	],
 	"retry_args": [
 		{
+			"do": "win"
+		},
+		{
 			"do": "LOSE"
 		}
-	],
-	"updt": 1591537285160,
-	"edit": 1
+	]
 }
