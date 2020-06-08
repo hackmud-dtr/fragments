@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "unknown_lwenju.order",
-	"sector": "NGC_4276",
+	"sector": "HJG_9788",
 	"sec_level": 4,
 	"date_added": 1586222076391,
-	"last_scraped": 1587586910109,
+	"last_scraped": 1591595844396,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1586222076391
-		}
+		},
+		{
+			"type": "died",
+			"when": 1591595631009
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1591595790450,
+				"from": "HJG_9788",
+				"to": "NGC_4276"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"User farmer_john not authorized to use unknown_lwenju.order.\"}",
-	"next_scrape": 1587673697636,
-	"updt": 1587583517521,
-	"edit": 360
+	"next_scrape": 1591681741027,
+	"updt": 1591595670595,
+	"edit": 362
 }
