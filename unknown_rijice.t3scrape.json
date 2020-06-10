@@ -1,0 +1,130 @@
+{
+	"_id": "unknown_rijice.t3scrape",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unknown_rijice.t3scrape",
+	"sector": "HJG_7605",
+	"sec_level": 4,
+	"date_added": 1591772408086,
+	"last_scraped": 1591772553869,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1591772408086
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1591772613869,
+	"category": "fishie_tank",
+	"last_update": 1591772553869,
+	"output": [
+		{
+			"args": {},
+			"calls": 25521,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ME ER",
+				"T ERRO",
+				"| NETW ",
+				" | TIME",
+				"ETW ERRO",
+				" | PROG "
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"ME ER",
+						"T ERRO",
+						"| NETW ",
+						" | TIME",
+						"ETW ERRO",
+						" | PROG "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1394,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ME ER",
+				"T ERRO",
+				"| NETW ",
+				" | TIME",
+				"ETW ERRO",
+				" | PROG "
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"ME ER",
+						"T ERRO",
+						"| NETW ",
+						" | TIME",
+						"ETW ERRO",
+						" | PROG "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 16273,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ME ER",
+				"T ERRO",
+				"| NETW ",
+				" | TIME",
+				"ETW ERRO",
+				" | PROG "
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"ME ER",
+						"T ERRO",
+						"| NETW ",
+						" | TIME",
+						"ETW ERRO",
+						" | PROG "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"ME ER",
+				"T ERRO",
+				"| NETW ",
+				" | TIME",
+				"ETW ERRO",
+				" | PROG "
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
