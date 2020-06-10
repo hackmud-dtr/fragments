@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_ftomk1.render",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "derelict_ftomk1.render",
-	"sector": "K_6888",
+	"sector": "VNP_7332",
 	"sec_level": 4,
 	"date_added": 1587188871776,
-	"last_scraped": 1591788699149,
+	"last_scraped": 1591791423023,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1591790129123
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1591791367913,
+				"from": "VNP_7332",
+				"to": "K_6888"
+			}
+		]
 	],
 	"pl_output": "Cannot read property 'format' of null",
-	"next_scrape": 1591872230154,
-	"updt": 1591788801352,
-	"edit": 1633
+	"next_scrape": 1591876457915,
+	"updt": 1591790153437,
+	"edit": 1634
 }

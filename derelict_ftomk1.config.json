@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_ftomk1.config",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "derelict_ftomk1.config",
-	"sector": "HJG_9272",
+	"sector": "K_1231",
 	"sec_level": 2,
 	"date_added": 1587187132992,
-	"last_scraped": 1591789277799,
+	"last_scraped": 1591791385982,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1591789585355
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1591791367913,
+				"from": "K_1231",
+				"to": "HJG_9272"
+			}
+		]
 	],
-	"updt": 1591789480149,
-	"edit": 1635,
+	"updt": 1591789705165,
+	"edit": 1636,
 	"pl_output": "tbal is not defined",
-	"next_scrape": 1591881247978
+	"next_scrape": 1591878785106
 }

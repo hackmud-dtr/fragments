@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_ftomk1.get",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "derelict_ftomk1.get",
-	"sector": "HJG_9272",
+	"sector": "K_1231",
 	"sec_level": 2,
 	"date_added": 1587187132992,
-	"last_scraped": 1587203416092,
+	"last_scraped": 1591791406408,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1591789585355
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1591791367913,
+				"from": "K_1231",
+				"to": "HJG_9272"
+			}
+		]
 	],
-	"updt": 1587203618889,
-	"edit": 8,
+	"updt": 1591789705165,
+	"edit": 9,
 	"pl_output": "{\"ok\":false,\"msg\":\"Your account balance of 0GC is too low to send 1K632GC.\"}",
-	"next_scrape": 1587294861189
+	"next_scrape": 1591883169196
 }
