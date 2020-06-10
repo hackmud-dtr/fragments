@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "derelict_jp3c22.hello_world",
-	"sector": "K_9706",
+	"sector": "K_1231",
 	"sec_level": 2,
 	"date_added": 1586928187634,
-	"last_scraped": 1591753454600,
+	"last_scraped": 1591755066114,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1586928187634
-		}
+		},
+		{
+			"type": "died",
+			"when": 1591754704309
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1591755047804,
+				"from": "K_1231",
+				"to": "K_9706"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":true}",
-	"next_scrape": 1591833513777,
-	"updt": 1591751381969,
-	"edit": 1709
+	"next_scrape": 1591841994666,
+	"updt": 1591754763579,
+	"edit": 1711
 }
