@@ -1,26 +1,29 @@
 {
 	"_id": "abandoned_rslqm1.play",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abandoned_rslqm1.play",
 	"sector": "NGC_9052",
 	"sec_level": 4,
 	"date_added": 1589109561030,
-	"last_scraped": 1589109958209,
+	"last_scraped": 1589111025058,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1589109561030
+		},
+		{
+			"type": "died",
+			"when": 1591949075931
 		}
 	],
-	"scrape_ct": 14,
-	"next_scrape": 1589110018209,
+	"next_scrape": 1589156451474,
 	"category": "coin_flipper",
-	"last_update": 1589109958209,
+	"last_update": 1589111025058,
 	"output": [
 		{
 			"args": {},
-			"calls": 90017,
+			"calls": 301714,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"uch t",
@@ -126,6 +129,6 @@
 			]
 		}
 	],
-	"updt": 1589109786793,
-	"edit": 1
+	"updt": 1589111137955,
+	"edit": 7
 }
