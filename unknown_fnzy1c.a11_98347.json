@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_fnzy1c.a11_98347",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "unknown_fnzy1c.a11_98347",
-	"sector": "VNP_2841",
+	"sector": "NGC_4812",
 	"sec_level": 4,
 	"date_added": 1586041961613,
-	"last_scraped": 1592012291104,
+	"last_scraped": 1592014590490,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1592013820178
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1592014573205,
+				"from": "NGC_4812",
+				"to": "VNP_2841"
+			}
+		]
 	],
 	"pl_output": "Cannot read property 'call' of undefined",
-	"next_scrape": 1592094087039,
-	"updt": 1592012373955,
-	"edit": 2008
+	"next_scrape": 1592105904991,
+	"updt": 1592013953551,
+	"edit": 2009
 }
