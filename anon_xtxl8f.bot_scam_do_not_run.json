@@ -1,0 +1,146 @@
+{
+	"_id": "anon_xtxl8f.bot_scam_do_not_run",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anon_xtxl8f.bot_scam_do_not_run",
+	"sector": "K_7716",
+	"sec_level": 4,
+	"date_added": 1592105418742,
+	"last_scraped": 1592105707067,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1592105418742
+		}
+	],
+	"scrape_ct": 15,
+	"next_scrape": 1592105767067,
+	"category": "fishie_tank",
+	"last_update": 1592105707067,
+	"output": [
+		{
+			"args": {},
+			"calls": 35902,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ILE0XB",
+				"A_FILE",
+				"756A_F",
+				"SYST ER",
+				"TW ERROR",
+				"FC\\nSYST",
+				"ECT0X756",
+				"E270FC\\nS"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"ILE0XB",
+						"A_FILE",
+						"756A_F",
+						"SYST ER",
+						"TW ERROR",
+						"FC\\nSYST",
+						"ECT0X756",
+						"E270FC\\nS"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2495,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ILE0XB",
+				"A_FILE",
+				"756A_F",
+				"SYST ER",
+				"TW ERROR",
+				"FC\\nSYST",
+				"ECT0X756",
+				"E270FC\\nS"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"ILE0XB",
+						"A_FILE",
+						"756A_F",
+						"SYST ER",
+						"TW ERROR",
+						"FC\\nSYST",
+						"ECT0X756",
+						"E270FC\\nS"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 23882,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ILE0XB",
+				"A_FILE",
+				"756A_F",
+				"SYST ER",
+				"TW ERROR",
+				"FC\\nSYST",
+				"ECT0X756",
+				"E270FC\\nS"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"ILE0XB",
+						"A_FILE",
+						"756A_F",
+						"SYST ER",
+						"TW ERROR",
+						"FC\\nSYST",
+						"ECT0X756",
+						"E270FC\\nS"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1592105498836,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				"ILE0XB",
+				"A_FILE",
+				"756A_F",
+				"SYST ER",
+				"TW ERROR",
+				"FC\\nSYST",
+				"ECT0X756",
+				"E270FC\\nS"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
