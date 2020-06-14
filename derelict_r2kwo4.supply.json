@@ -1,25 +1,25 @@
 {
 	"_id": "derelict_r2kwo4.supply",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_r2kwo4.supply",
 	"sector": "K_7716",
 	"sec_level": 4,
 	"date_added": 1592129908553,
-	"last_scraped": 1592152665490,
+	"last_scraped": 1592156352670,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1592129908553
 		}
 	],
-	"next_scrape": 1592197808999,
+	"next_scrape": 1592201415270,
 	"category": "clicker",
-	"last_update": 1592152665490,
+	"last_update": 1592156352670,
 	"output": [
 		{
 			"args": {},
-			"calls": 164369,
+			"calls": 179435,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"RROR ",
@@ -56,7 +56,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 171762,
+			"calls": 199282,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"RROR ",
@@ -147,6 +147,11 @@
 			]
 		}
 	],
-	"updt": 1592150353239,
-	"edit": 10
+	"updt": 1592152832869,
+	"edit": 11,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
