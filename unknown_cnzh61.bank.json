@@ -1,19 +1,27 @@
 {
 	"_id": "unknown_cnzh61.bank",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unknown_cnzh61.bank",
 	"sector": "VNP_1342",
 	"sec_level": 4,
 	"date_added": 1592238055786,
-	"last_scraped": 1592258155308,
+	"last_scraped": 1592260622423,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1592238055786
+		},
+		{
+			"type": "died",
+			"when": 1592260622423
+		},
+		{
+			"type": "died",
+			"when": 1592260839294
 		}
 	],
-	"next_scrape": 1592298858780,
+	"next_scrape": 1592341882960,
 	"category": "plant_sim",
 	"last_update": 1592258155308,
 	"output": [
@@ -68,6 +76,8 @@
 			]
 		}
 	],
-	"updt": 1592255420158,
-	"edit": 15
+	"updt": 1592260831790,
+	"edit": 17,
+	"dead_plant_sim": true,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_cnzh61.bank: script doesn't exist\"}"
 }
