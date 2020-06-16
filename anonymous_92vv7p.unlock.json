@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_92vv7p.unlock",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "anonymous_92vv7p.unlock",
 	"sector": "K_6210",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1592301673483
+		},
+		{
+			"type": "died",
+			"when": 1592323549854
 		}
 	],
 	"next_scrape": 1592362592254,
@@ -122,6 +126,7 @@
 			]
 		}
 	],
-	"updt": 1592318309764,
-	"edit": 12
+	"updt": 1592320564489,
+	"edit": 13,
+	"dead_plant_sim": true
 }
