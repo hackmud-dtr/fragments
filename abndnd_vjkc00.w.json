@@ -1,26 +1,30 @@
 {
 	"_id": "abndnd_vjkc00.w",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abndnd_vjkc00.w",
 	"sector": "K_1031",
 	"sec_level": 4,
 	"date_added": 1589897524391,
-	"last_scraped": 1589897705093,
+	"last_scraped": 1589897868531,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1589897524391
+		},
+		{
+			"type": "died",
+			"when": 1592287006789
 		}
 	],
-	"scrape_ct": 15,
-	"next_scrape": 1589897765093,
+	"scrape_ct": 10,
+	"next_scrape": 1589897928531,
 	"category": "coin_flipper",
-	"last_update": 1589897705093,
+	"last_update": 1589897868531,
 	"output": [
 		{
 			"args": {},
-			"calls": 62008,
+			"calls": 110238,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"s ans",
@@ -69,5 +73,7 @@
 				"engineer"
 			]
 		}
-	]
+	],
+	"updt": 1589897943738,
+	"edit": 2
 }
