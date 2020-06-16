@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_s668ij.attendance",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abandoned_s668ij.attendance",
 	"sector": "K_1506",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1583477540761
+		},
+		{
+			"type": "died",
+			"when": 1592346884226
 		}
 	],
 	"next_scrape": 1584698384589,
@@ -59,8 +63,8 @@
 			]
 		}
 	],
-	"updt": 1584655118284,
-	"edit": 60,
+	"updt": 1584655342569,
+	"edit": 61,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -77,5 +81,6 @@
 				",\"msg"
 			]
 		}
-	]
+	],
+	"dead_plant_sim": true
 }
