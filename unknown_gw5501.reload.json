@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_gw5501.reload",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unknown_gw5501.reload",
 	"sector": "SPC_2513",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1585795002730
+		},
+		{
+			"type": "died",
+			"when": 1592390096261
 		}
 	],
 	"retry_args": [
@@ -35,6 +39,20 @@
 				"in R?\\n1",
 				"1E4D Exc",
 				"! Sabote"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"xciti",
+						"ur? Sp",
+						"\\n1E4C ",
+						"ODE, us",
+						"in R?\\n1",
+						"1E4D Exc",
+						"! Sabote"
+					]
+				}
 			]
 		},
 		{
@@ -44,6 +62,36 @@
 			"calls": 154,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
+				"xciti",
+				"ur? Sp",
+				"\\n1E4C ",
+				"ODE, us",
+				"in R?\\n1",
+				"1E4D Exc",
+				"! Sabote"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"xciti",
+						"ur? Sp",
+						"\\n1E4C ",
+						"ODE, us",
+						"in R?\\n1",
+						"1E4D Exc",
+						"! Sabote"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1585795431818,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"xciti",
 				"ur? Sp",
 				"\\n1E4C ",
