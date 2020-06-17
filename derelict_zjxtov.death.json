@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_zjxtov.death",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "derelict_zjxtov.death",
 	"sector": "HJG_9830",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1584209118563
+		},
+		{
+			"type": "died",
+			"when": 1592404419958
 		}
 	],
 	"scrape_ct": 16,
@@ -1403,8 +1407,8 @@
 			]
 		}
 	],
-	"updt": 1584209385776,
-	"edit": 2,
+	"updt": 1584536084803,
+	"edit": 3,
 	"retry_args": [
 		{
 			"do": "LOSE"
