@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_b3udew.mpet",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_b3udew.mpet",
 	"sector": "NGC_1036",
 	"sec_level": 4,
 	"date_added": 1580707585739,
-	"last_scraped": 1592489736607,
+	"last_scraped": 1592492298846,
 	"script_log": [
 		{
 			"type": "added",
@@ -23,10 +23,18 @@
 				"from": "NGC_1036",
 				"to": "K_7655"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1592492298846
+		},
+		{
+			"type": "died",
+			"when": 1592492354850
+		}
 	],
-	"pl_output": "{\"ok\":false,\"msg\":\"please provide api:\\\"\\\".\"}",
-	"next_scrape": 1592579884351,
-	"updt": 1592487306216,
-	"edit": 7772
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_b3udew.mpet: script doesn't exist\"}",
+	"next_scrape": 1592579157046,
+	"updt": 1592490011723,
+	"edit": 7773
 }
