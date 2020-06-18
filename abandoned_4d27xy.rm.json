@@ -1,26 +1,30 @@
 {
 	"_id": "abandoned_4d27xy.rm",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abandoned_4d27xy.rm",
 	"sector": "HJG_8400",
 	"sec_level": 4,
 	"date_added": 1585525772036,
-	"last_scraped": 1585526134247,
+	"last_scraped": 1585526407588,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1585525772036
+		},
+		{
+			"type": "died",
+			"when": 1592476367250
 		}
 	],
-	"scrape_ct": 14,
-	"next_scrape": 1585526194247,
+	"scrape_ct": 7,
+	"next_scrape": 1585526467588,
 	"category": "coin_flipper",
-	"last_update": 1585526134247,
+	"last_update": 1585526407588,
 	"output": [
 		{
 			"args": {},
-			"calls": 38082,
+			"calls": 64180,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"way s",
@@ -64,6 +68,6 @@
 			]
 		}
 	],
-	"updt": 1585525942942,
-	"edit": 1
+	"updt": 1585526618022,
+	"edit": 3
 }
