@@ -1,0 +1,81 @@
+{
+	"_id": "uknown_uc4osb.payout",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "uknown_uc4osb.payout",
+	"sector": "K_1760",
+	"sec_level": 4,
+	"date_added": 1592444991495,
+	"last_scraped": 1592445226688,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1592444991495
+		}
+	],
+	"updt": 1592445135380,
+	"edit": 1,
+	"scrape_ct": 19,
+	"next_scrape": 1592445286688,
+	"category": "fishie_tank",
+	"last_update": 1592445226688,
+	"output": [
+		{
+			"args": {},
+			"calls": 9976,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"becau",
+				"se it'",
+				"ause t",
+				". Not ",
+				" who a",
+				"to make",
+				"they're",
+				"'s been",
+				"ets to m"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3315,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"becau",
+				"se it'",
+				"ause t",
+				". Not ",
+				" who a",
+				"to make",
+				"they're",
+				"'s been",
+				"ets to m"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 6069,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"becau",
+				"se it'",
+				"ause t",
+				". Not ",
+				" who a",
+				"to make",
+				"they're",
+				"'s been",
+				"ets to m"
+			]
+		}
+	]
+}
