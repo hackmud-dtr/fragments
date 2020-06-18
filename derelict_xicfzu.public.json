@@ -1,19 +1,27 @@
 {
 	"_id": "derelict_xicfzu.public",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "derelict_xicfzu.public",
 	"sector": "K_1760",
 	"sec_level": 4,
 	"date_added": 1592487439240,
-	"last_scraped": 1592509708336,
+	"last_scraped": 1592515320972,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1592487439240
+		},
+		{
+			"type": "died",
+			"when": 1592515320972
+		},
+		{
+			"type": "died",
+			"when": 1592515867190
 		}
 	],
-	"next_scrape": 1592553188817,
+	"next_scrape": 1592602995519,
 	"category": "coin_flipper",
 	"last_update": 1592509708336,
 	"output": [
@@ -95,6 +103,7 @@
 			]
 		}
 	],
-	"updt": 1592507830756,
-	"edit": 13
+	"updt": 1592515726105,
+	"edit": 15,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_xicfzu.public: script doesn't exist\"}"
 }
