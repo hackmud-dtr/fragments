@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_foxa9n.backend_lzw",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "unknown_foxa9n.backend_lzw",
 	"sector": "HJG_8400",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1585520259062
+		},
+		{
+			"type": "died",
+			"when": 1592709776247
 		}
 	],
 	"retry_args": [
@@ -34,6 +38,19 @@
 				"those l",
 				"lead to",
 				"functio"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"or fu",
+						"some o",
+						"to prac",
+						"those l",
+						"lead to",
+						"functio"
+					]
+				}
 			]
 		},
 		{
@@ -49,9 +66,35 @@
 				"those l",
 				"lead to",
 				"functio"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"or fu",
+						"some o",
+						"to prac",
+						"those l",
+						"lead to",
+						"functio"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1585520306299,
-	"edit": 1
+	"updt": 1585520532652,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				"or fu",
+				"some o",
+				"to prac",
+				"those l",
+				"lead to",
+				"functio"
+			]
+		}
+	]
 }
