@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_4tnt83.check",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unidentified_4tnt83.check",
 	"sector": "NGC_9840",
 	"sec_level": 4,
 	"date_added": 1581030373018,
-	"last_scraped": 1592812778498,
+	"last_scraped": 1592815301540,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,10 +19,14 @@
 				"from": "NGC_9840",
 				"to": "K_3841"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1592815855264
+		}
 	],
 	"pl_output": "Cannot read property 'name' of undefined",
-	"next_scrape": 1592892158772,
-	"updt": 1592810402507,
-	"edit": 5511
+	"next_scrape": 1592900171167,
+	"updt": 1592815364233,
+	"edit": 5513
 }
