@@ -3,18 +3,26 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "unknown_qm01gz.cleanse",
-	"sector": "HJG_3307",
+	"sector": "HJG_0166",
 	"sec_level": 4,
 	"date_added": 1584231570752,
-	"last_scraped": 1589017640244,
+	"last_scraped": 1592844177475,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1584231570752
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1592843892821,
+				"from": "HJG_0166",
+				"to": "HJG_3307"
+			}
+		]
 	],
-	"updt": 1589014492137,
-	"edit": 1397,
-	"pl_output": "\n\n/**\n     * Cleanse\n     *\n     * @function             legion.cleanse\n     * @param                input {string} - Colorized string\n     * @return               {string}       - Cleansed string\n     * @example\n     *\n     *     legion.cleanse{input:\"`Dcolorized_string`\"}\n     */",
-	"next_scrape": 1589110716199
+	"updt": 1592844002759,
+	"edit": 1399,
+	"pl_output": "Unexpected token u in JSON at position 0",
+	"next_scrape": 1592937184005
 }
