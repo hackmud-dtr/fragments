@@ -1,33 +1,42 @@
 {
 	"_id": "derelict_vdyty7.hack_me",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_vdyty7.hack_me",
 	"sector": "K_9773",
 	"sec_level": 4,
 	"date_added": 1592923082654,
-	"last_scraped": 1592936815570,
+	"last_scraped": 1592939641197,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1592923082654
 		}
 	],
-	"next_scrape": 1592979097748,
+	"next_scrape": 1592980295267,
 	"category": "fishie_tank",
-	"last_update": 1592936815570,
+	"last_update": 1592939715655,
 	"output": [
 		{
 			"args": {},
-			"calls": 179614,
+			"calls": 195825,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"happy",
-				"eceive",
+				" there",
+				"y to re",
 				"st!\\n1E",
-				"\\n1E2A ",
+				"6 Is th",
+				" your r",
 				" to rec",
-				"ve\\n1E2B "
+				" receiv",
+				"happy to",
+				"am happy",
+				"1E36 Is ",
+				"1E2B you",
+				" I am ha",
+				"ve\\n1E2B ",
+				"receive\\n",
+				",\\n1E2A I"
 			],
 			"hits": [
 				{
@@ -47,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 21016,
+			"calls": 24653,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -55,12 +64,21 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"happy",
-				"eceive",
+				" there",
+				"y to re",
 				"st!\\n1E",
-				"\\n1E2A ",
+				"6 Is th",
+				" your r",
 				" to rec",
-				"ve\\n1E2B "
+				" receiv",
+				"happy to",
+				"am happy",
+				"1E36 Is ",
+				"1E2B you",
+				" I am ha",
+				"ve\\n1E2B ",
+				"receive\\n",
+				",\\n1E2A I"
 			],
 			"hits": [
 				{
@@ -118,6 +136,11 @@
 			]
 		}
 	],
-	"updt": 1592934004743,
-	"edit": 11
+	"updt": 1592936933529,
+	"edit": 12,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
