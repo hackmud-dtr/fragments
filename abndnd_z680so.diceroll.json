@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_z680so.diceroll",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abndnd_z680so.diceroll",
 	"sector": "SPC_5053",
 	"sec_level": 1,
@@ -19,10 +19,14 @@
 				"from": "SPC_5053",
 				"to": "VNP_1844"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1593000941161
+		}
 	],
-	"updt": 1592997133337,
-	"edit": 2767,
+	"updt": 1592999387793,
+	"edit": 2768,
 	"pl_output": "Unexpected token u in JSON at position 0",
 	"next_scrape": 1593090356210
 }

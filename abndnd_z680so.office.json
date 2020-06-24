@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_z680so.office",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abndnd_z680so.office",
 	"sector": "NGC_0746",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "NGC_0746",
 				"to": "K_1590"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1593000758346
+		}
 	],
-	"updt": 1584808594951,
-	"edit": 3989,
+	"updt": 1584813103025,
+	"edit": 3990,
 	"pl_output": "welcome to my office. Use the token 'case' to write out a case submission. Make sure to include your username on discord so I can contact you. If you are not on discord then simply say so and I will contact you in-game.",
 	"next_scrape": 1584858093971,
 	"category": "UNKNOWN CATEGORY",
