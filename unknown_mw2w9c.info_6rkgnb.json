@@ -1,26 +1,26 @@
 {
 	"_id": "unknown_mw2w9c.info_6rkgnb",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unknown_mw2w9c.info_6rkgnb",
 	"sector": "VNP_1173",
 	"sec_level": 4,
 	"date_added": 1593035348056,
-	"last_scraped": 1593035439279,
+	"last_scraped": 1593036317095,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1593035348056
 		}
 	],
-	"scrape_ct": 17,
-	"next_scrape": 1593035499279,
+	"scrape_ct": 0,
+	"next_scrape": 1593036377095,
 	"category": "fishie_tank",
-	"last_update": 1593035439279,
+	"last_update": 1593036317095,
 	"output": [
 		{
 			"args": {},
-			"calls": 7086,
+			"calls": 82991,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"t sig",
@@ -31,13 +31,28 @@
 				"ons and ",
 				"on. Advi",
 				"om crimi"
+			],
+			"hits": [
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"t sig",
+						"ise ap",
+						"crimin",
+						"area on",
+						" and re",
+						"ons and ",
+						"on. Advi",
+						"om crimi"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1174,
+			"calls": 10302,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -53,15 +68,62 @@
 				"ons and ",
 				"on. Advi",
 				"om crimi"
+			],
+			"hits": [
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"t sig",
+						"ise ap",
+						"crimin",
+						"area on",
+						" and re",
+						"ons and ",
+						"on. Advi",
+						"om crimi"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 33748,
+			"calls": 137347,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"t sig",
+				"ise ap",
+				"crimin",
+				"area on",
+				" and re",
+				"ons and ",
+				"on. Advi",
+				"om crimi"
+			],
+			"hits": [
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"t sig",
+						"ise ap",
+						"crimin",
+						"area on",
+						" and re",
+						"ons and ",
+						"on. Advi",
+						"om crimi"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1593036128520,
+	"edit": 3,
+	"identified": [
+		{
+			"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+			"frags": [
 				"t sig",
 				"ise ap",
 				"crimin",
