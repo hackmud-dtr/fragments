@@ -6,26 +6,21 @@
 	"sector": "VNP_1173",
 	"sec_level": 4,
 	"date_added": 1593110463432,
-	"last_scraped": 1593110481019,
+	"last_scraped": 1593111368430,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1593110463432
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1593110541019,
+	"scrape_ct": 5,
+	"next_scrape": 1593111428430,
 	"category": "fishie_tank",
-	"last_update": 1593110517906,
+	"last_update": 1593111368430,
 	"output": [
 		{
 			"args": {},
-			"calls": 11036,
+			"calls": 61156,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ssence",
@@ -34,13 +29,59 @@
 				"SECT0X2",
 				" | USER",
 				" have a "
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						"ssence",
+						"smirza",
+						" | USER"
+					]
+				},
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"smirza",
+						"SECT0X2",
+						" | USER"
+					]
+				},
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						"smirza",
+						" | USER",
+						" have a "
+					]
+				},
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						" | USER",
+						" have a "
+					]
+				},
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						" | USER",
+						" have a "
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"on - I"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1953,
+			"calls": 11213,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -54,6 +95,161 @@
 				"SECT0X2",
 				" | USER",
 				" have a "
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						"ssence",
+						"smirza",
+						" | USER"
+					]
+				},
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"smirza",
+						"SECT0X2",
+						" | USER"
+					]
+				},
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						"smirza",
+						" | USER",
+						" have a "
+					]
+				},
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						" | USER",
+						" have a "
+					]
+				},
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						" | USER",
+						" have a "
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"on - I"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 100315,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ssence",
+				"smirza",
+				"on - I",
+				"SECT0X2",
+				" | USER",
+				" have a "
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						"ssence",
+						"smirza",
+						" | USER"
+					]
+				},
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						"smirza",
+						"SECT0X2",
+						" | USER"
+					]
+				},
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						"smirza",
+						" | USER",
+						" have a "
+					]
+				},
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						" | USER",
+						" have a "
+					]
+				},
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						" | USER",
+						" have a "
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"on - I"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1593111210855,
+	"edit": 3,
+	"identified": [
+		{
+			"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+			"frags": [
+				"ssence",
+				"smirza",
+				" | USER"
+			]
+		},
+		{
+			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+			"frags": [
+				"smirza",
+				"SECT0X2",
+				" | USER"
+			]
+		},
+		{
+			"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+			"frags": [
+				"smirza",
+				" | USER",
+				" have a "
+			]
+		},
+		{
+			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+			"frags": [
+				" | USER",
+				" have a "
+			]
+		},
+		{
+			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+			"frags": [
+				" | USER",
+				" have a "
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"on - I"
 			]
 		}
 	]
