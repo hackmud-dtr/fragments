@@ -1,25 +1,25 @@
 {
 	"_id": "uknown_cjcu61.nfo",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_cjcu61.nfo",
 	"sector": "SPC_6441",
 	"sec_level": 4,
 	"date_added": 1593032975504,
-	"last_scraped": 1593056815609,
+	"last_scraped": 1593059203808,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1593032975504
 		}
 	],
-	"next_scrape": 1593103052475,
+	"next_scrape": 1593103566572,
 	"category": "clicker",
-	"last_update": 1593056815609,
+	"last_update": 1593059203808,
 	"output": [
 		{
 			"args": {},
-			"calls": 191969,
+			"calls": 209680,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"where",
@@ -55,7 +55,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 198620,
+			"calls": 219387,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"where",
@@ -141,6 +141,11 @@
 			]
 		}
 	],
-	"updt": 1593054614473,
-	"edit": 15
+	"updt": 1593056871647,
+	"edit": 16,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
