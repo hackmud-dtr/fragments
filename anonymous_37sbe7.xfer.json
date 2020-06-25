@@ -1,0 +1,124 @@
+{
+	"_id": "anonymous_37sbe7.xfer",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anonymous_37sbe7.xfer",
+	"sector": "VNP_1173",
+	"sec_level": 4,
+	"date_added": 1593061185709,
+	"last_scraped": 1593061997985,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1593061185709
+		}
+	],
+	"scrape_ct": 5,
+	"next_scrape": 1593062057985,
+	"category": "fishie_tank",
+	"last_update": 1593061997985,
+	"output": [
+		{
+			"args": {},
+			"calls": 80940,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"100 00",
+				"000 00",
+				"101 000",
+				"00 0000",
+				"0 0001 ",
+				" 0000 0"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"100 00",
+						"000 00",
+						"101 000",
+						"00 0000",
+						"0 0001 ",
+						" 0000 0"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 10601,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"100 00",
+				"000 00",
+				"101 000",
+				"00 0000",
+				"0 0001 ",
+				" 0000 0"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"100 00",
+						"000 00",
+						"101 000",
+						"00 0000",
+						"0 0001 ",
+						" 0000 0"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 87185,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"100 00",
+				"000 00",
+				"101 000",
+				"00 0000",
+				"0 0001 ",
+				" 0000 0"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"100 00",
+						"000 00",
+						"101 000",
+						"00 0000",
+						"0 0001 ",
+						" 0000 0"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"100 00",
+				"000 00",
+				"101 000",
+				"00 0000",
+				"0 0001 ",
+				" 0000 0"
+			]
+		}
+	],
+	"updt": 1593061827012,
+	"edit": 3
+}
