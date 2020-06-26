@@ -1,25 +1,25 @@
 {
 	"_id": "unidentified_m430k8.t3pass",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_m430k8.t3pass",
 	"sector": "VNP_1173",
 	"sec_level": 4,
 	"date_added": 1593101574732,
-	"last_scraped": 1593170789728,
+	"last_scraped": 1593173303075,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1593101574732
 		}
 	],
-	"next_scrape": 1593212333943,
+	"next_scrape": 1593218225775,
 	"category": "clicker",
-	"last_update": 1593170789728,
+	"last_update": 1593173303075,
 	"output": [
 		{
 			"args": {},
-			"calls": 414775,
+			"calls": 440724,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				" techn",
@@ -43,7 +43,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 374281,
+			"calls": 390789,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				" techn",
@@ -291,6 +291,11 @@
 			]
 		}
 	],
-	"updt": 1593168455143,
-	"edit": 27
+	"updt": 1593170936808,
+	"edit": 28,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
