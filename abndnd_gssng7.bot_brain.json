@@ -1,26 +1,30 @@
 {
 	"_id": "abndnd_gssng7.bot_brain",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abndnd_gssng7.bot_brain",
 	"sector": "K_8651",
 	"sec_level": 4,
 	"date_added": 1590581062052,
-	"last_scraped": 1590581642930,
+	"last_scraped": 1590581824052,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1590581062052
+		},
+		{
+			"type": "died",
+			"when": 1593250856755
 		}
 	],
-	"scrape_ct": 11,
-	"next_scrape": 1590581702930,
+	"scrape_ct": 5,
+	"next_scrape": 1590581884052,
 	"category": "coin_flipper",
-	"last_update": 1590581642930,
+	"last_update": 1590581824052,
 	"output": [
 		{
 			"args": {},
-			"calls": 100150,
+			"calls": 149164,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"ction",
@@ -73,6 +77,6 @@
 			]
 		}
 	],
-	"updt": 1590581197435,
-	"edit": 1
+	"updt": 1590581873904,
+	"edit": 3
 }
