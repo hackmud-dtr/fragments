@@ -1,19 +1,23 @@
 {
 	"_id": "anonymous_9iqi4p.a",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_9iqi4p.a",
 	"sector": "K_0336",
 	"sec_level": 4,
 	"date_added": 1593199235796,
-	"last_scraped": 1593225060994,
+	"last_scraped": 1593228390927,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1593199235796
+		},
+		{
+			"type": "died",
+			"when": 1593228390927
 		}
 	],
-	"next_scrape": 1593265036808,
+	"next_scrape": 1593318876432,
 	"category": "dice_roller",
 	"last_update": 1593225060994,
 	"output": [
@@ -84,6 +88,7 @@
 			]
 		}
 	],
-	"updt": 1593225055165,
-	"edit": 15
+	"updt": 1593225282116,
+	"edit": 16,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_9iqi4p.a: script doesn't exist\"}"
 }
