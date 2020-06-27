@@ -1,26 +1,30 @@
 {
 	"_id": "unidentified_7mmou9.gcgenerator",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unidentified_7mmou9.gcgenerator",
 	"sector": "HJG_9437",
 	"sec_level": 4,
 	"date_added": 1585347832814,
-	"last_scraped": 1585347996246,
+	"last_scraped": 1585348433622,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1585347832814
+		},
+		{
+			"type": "died",
+			"when": 1593233037960
 		}
 	],
-	"scrape_ct": 16,
-	"next_scrape": 1585348056246,
+	"scrape_ct": 5,
+	"next_scrape": 1585348493622,
 	"category": "coin_flipper",
-	"last_update": 1585347996246,
+	"last_update": 1585348433622,
 	"output": [
 		{
 			"args": {},
-			"calls": 20780,
+			"calls": 83931,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"t rea",
@@ -63,5 +67,7 @@
 				"d get r"
 			]
 		}
-	]
+	],
+	"updt": 1585348466209,
+	"edit": 3
 }
