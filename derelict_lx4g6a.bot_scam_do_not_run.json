@@ -1,25 +1,29 @@
 {
 	"_id": "derelict_lx4g6a.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "derelict_lx4g6a.bot_scam_do_not_run",
 	"sector": "NGC_8201",
 	"sec_level": 4,
 	"date_added": 1587413826080,
-	"last_scraped": 1587433946750,
+	"last_scraped": 1587437713205,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1587413826080
+		},
+		{
+			"type": "died",
+			"when": 1593326542769
 		}
 	],
-	"next_scrape": 1587474471156,
+	"next_scrape": 1587478910406,
 	"category": "clicker",
-	"last_update": 1587433946750,
+	"last_update": 1587437713205,
 	"output": [
 		{
 			"args": {},
-			"calls": 161653,
+			"calls": 204102,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"quest",
@@ -100,8 +104,8 @@
 			]
 		}
 	],
-	"updt": 1587433916636,
-	"edit": 11,
+	"updt": 1587437745235,
+	"edit": 13,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -113,6 +117,14 @@
 				" Mallor",
 				"\\n1E45 a "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
 		}
 	]
 }
