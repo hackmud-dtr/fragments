@@ -1,26 +1,30 @@
 {
 	"_id": "unidentified_3jnxbh.calling_script",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unidentified_3jnxbh.calling_script",
 	"sector": "NGC_8888",
 	"sec_level": 4,
 	"date_added": 1590735489393,
-	"last_scraped": 1590735845266,
+	"last_scraped": 1590735861390,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1590735489393
+		},
+		{
+			"type": "died",
+			"when": 1593652349385
 		}
 	],
-	"scrape_ct": 11,
-	"next_scrape": 1590735905266,
+	"scrape_ct": 10,
+	"next_scrape": 1590735921390,
 	"category": "coin_flipper",
-	"last_update": 1590735845266,
+	"last_update": 1590735861390,
 	"output": [
 		{
 			"args": {},
-			"calls": 105370,
+			"calls": 111701,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"y help",
@@ -58,6 +62,6 @@
 			]
 		}
 	],
-	"updt": 1590735625527,
-	"edit": 1
+	"updt": 1590736077718,
+	"edit": 3
 }
