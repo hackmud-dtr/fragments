@@ -3,10 +3,10 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "abandoned_tu5zva.dist",
-	"sector": "K_2226",
+	"sector": "CHOICE_THETA_8",
 	"sec_level": 4,
 	"date_added": 1585351139446,
-	"last_scraped": 1593753620301,
+	"last_scraped": 1593754723420,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,10 +19,18 @@
 				"from": "K_2226",
 				"to": "DATA_THETA_6"
 			}
+		],
+		[
+			{
+				"type": "sector change",
+				"when": 1593754705135,
+				"from": "CHOICE_THETA_8",
+				"to": "K_2226"
+			}
 		]
 	],
-	"pl_output": "`D403`",
-	"next_scrape": 1593836709044,
-	"updt": 1593752169520,
-	"edit": 2921
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_tu5zva.dist: Shift operation is currently in progress. 848s remain\"}",
+	"next_scrape": 1593842565928,
+	"updt": 1593753750750,
+	"edit": 2922
 }
