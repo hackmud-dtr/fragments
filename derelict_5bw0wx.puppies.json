@@ -1,26 +1,26 @@
 {
 	"_id": "derelict_5bw0wx.puppies",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "derelict_5bw0wx.puppies",
 	"sector": "HJG_5994",
 	"sec_level": 4,
 	"date_added": 1593771501239,
-	"last_scraped": 1593771699921,
+	"last_scraped": 1593771953467,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1593771501239
 		}
 	],
-	"scrape_ct": 16,
-	"next_scrape": 1593771759921,
+	"scrape_ct": 11,
+	"next_scrape": 1593772013467,
 	"category": "fishie_tank",
-	"last_update": 1593771699921,
+	"last_update": 1593771990842,
 	"output": [
 		{
 			"args": {},
-			"calls": 32032,
+			"calls": 61038,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"imiya",
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3075,
+			"calls": 6393,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -89,7 +89,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 22688,
+			"calls": 32266,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"imiya",
@@ -131,6 +131,13 @@
 				"UBJ: Pri",
 				"BJ: Prio"
 			]
+		}
+	],
+	"updt": 1593771783326,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
