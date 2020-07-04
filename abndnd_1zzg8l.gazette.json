@@ -1,0 +1,139 @@
+{
+	"_id": "abndnd_1zzg8l.gazette",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abndnd_1zzg8l.gazette",
+	"sector": "K_0025",
+	"sec_level": 4,
+	"date_added": 1593837440422,
+	"last_scraped": 1593838291820,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1593837440422
+		}
+	],
+	"scrape_ct": 6,
+	"next_scrape": 1593838351820,
+	"category": "fishie_tank",
+	"last_update": 1593838291820,
+	"output": [
+		{
+			"args": {},
+			"calls": 94316,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"nauth",
+				"ity: ",
+				" Natio",
+				"eptembe",
+				": ComCO",
+				"865E. S",
+				"d approp"
+			],
+			"hits": [
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"nauth",
+						"ity: ",
+						" Natio",
+						"eptembe",
+						": ComCO",
+						"865E. S",
+						"d approp"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 7994,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"nauth",
+				"ity: ",
+				" Natio",
+				"eptembe",
+				": ComCO",
+				"865E. S",
+				"d approp"
+			],
+			"hits": [
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"nauth",
+						"ity: ",
+						" Natio",
+						"eptembe",
+						": ComCO",
+						"865E. S",
+						"d approp"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 96108,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"nauth",
+				"ity: ",
+				" Natio",
+				"eptembe",
+				": ComCO",
+				"865E. S",
+				"d approp"
+			],
+			"hits": [
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"nauth",
+						"ity: ",
+						" Natio",
+						"eptembe",
+						": ComCO",
+						"865E. S",
+						"d approp"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+			"frags": [
+				"nauth",
+				"ity: ",
+				" Natio",
+				"eptembe",
+				": ComCO",
+				"865E. S",
+				"d approp"
+			]
+		}
+	],
+	"updt": 1593838081734,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
