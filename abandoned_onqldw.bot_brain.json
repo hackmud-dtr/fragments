@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_onqldw.bot_brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abandoned_onqldw.bot_brain",
 	"sector": "K_0025",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1593867481271
+		},
+		{
+			"type": "died",
+			"when": 1593869061479
 		}
 	],
 	"next_scrape": 1593913200448,
@@ -83,6 +87,7 @@
 			]
 		}
 	],
-	"updt": 1593868744627,
-	"edit": 6
+	"updt": 1593868969974,
+	"edit": 7,
+	"dead_plant_sim": true
 }
