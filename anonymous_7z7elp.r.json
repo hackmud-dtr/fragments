@@ -1,27 +1,22 @@
 {
 	"_id": "anonymous_7z7elp.r",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "anonymous_7z7elp.r",
 	"sector": "K_0025",
 	"sec_level": 4,
 	"date_added": 1593966208017,
-	"last_scraped": 1593966244597,
+	"last_scraped": 1593966299217,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1593966208017
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
-	"scrape_ct": 19,
-	"next_scrape": 1593966304597,
+	"scrape_ct": 17,
+	"next_scrape": 1594051629142,
 	"category": "risk_factor",
-	"last_update": 1593966244597,
+	"last_update": 1593966281366,
 	"output": [
 		{
 			"args": {},
@@ -40,7 +35,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 122,
+			"calls": 396,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"0X77A",
@@ -51,5 +46,16 @@
 				"ROR | NE"
 			]
 		}
-	]
+	],
+	"updt": 1593966256385,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
