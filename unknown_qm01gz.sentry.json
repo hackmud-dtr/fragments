@@ -6,7 +6,7 @@
 	"sector": "K_0025",
 	"sec_level": 4,
 	"date_added": 1584231570752,
-	"last_scraped": 1593974133703,
+	"last_scraped": 1593975255422,
 	"script_log": [
 		{
 			"type": "added",
@@ -25,17 +25,17 @@
 			}
 		]
 	],
-	"updt": 1593973464315,
-	"edit": 740,
+	"updt": 1593974816582,
+	"edit": 744,
 	"pl_output": "\nlegion.sentry{f:\"verify\"}\nlegion.sentry{f:\"md5\", value:\"123\"}\nlegion.sentry{f:\"sha256\", value:\"123\"}\nlegion.sentry{f:\"rot13\", value:\"abc\"}\nlegion.sentry{f:\"hackmud_id\"}\nlegion.sentry{f:\"uuid_v4\"}\nlegion.sentry{f:\"uuid_v4_underscored\"}\nlegion.sentry{f:\"uuid_v4_compact\"}\n",
-	"next_scrape": 1593974193703,
-	"scrape_ct": 20,
+	"next_scrape": 1593975315422,
+	"scrape_ct": 4,
 	"category": "UNKNOWN CATEGORY",
-	"last_update": 1593974133703,
+	"last_update": 1593975255422,
 	"output": [
 		{
 			"args": {},
-			"calls": 64768,
+			"calls": 1209616,
 			"base": "\nlegion.sentry{f:\"verify\"}\nlegion.sentry{f:\"md5\", value:\"123\"}\nlegion.sentry{f:\"sha256\", value:\"123\"}\nlegion.sentry{f:\"rot13\", value:\"abc\"}\nlegion.sentry{f:\"hackmud_id\"}\nlegion.sentry{f:\"uuid_v4\"}\nlegion.sentry{f:\"uuid_v4_underscored\"}\nlegion.sentry{f:\"uuid_v4_compact\"}\n",
 			"fragments": [
 				"ker c",
@@ -44,6 +44,42 @@
 				"ttacker",
 				",\\n2173 ",
 				" strengt"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ker c",
+						"utual ",
+						"ttacker",
+						" strengt"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"zero,\\n",
+						",\\n2173 "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"ker c",
+				"utual ",
+				"ttacker",
+				" strengt"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"zero,\\n",
+				",\\n2173 "
 			]
 		}
 	]
