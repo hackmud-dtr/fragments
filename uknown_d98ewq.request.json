@@ -1,0 +1,151 @@
+{
+	"_id": "uknown_d98ewq.request",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "uknown_d98ewq.request",
+	"sector": "K_0025",
+	"sec_level": 4,
+	"date_added": 1593946002213,
+	"last_scraped": 1593946238703,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1593946002213
+		}
+	],
+	"scrape_ct": 15,
+	"next_scrape": 1593946298703,
+	"category": "fishie_tank",
+	"last_update": 1593946238703,
+	"output": [
+		{
+			"args": {},
+			"calls": 16781,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"MFT0X",
+				" ERRO",
+				"ERROR ",
+				"3E_FIL",
+				" | PRO",
+				"X5282A91",
+				"ROR | NE"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"MFT0X",
+						" ERRO",
+						"ERROR ",
+						" | PRO",
+						"ROR | NE"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"3E_FIL",
+						"X5282A91"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2558,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"MFT0X",
+				" ERRO",
+				"ERROR ",
+				"3E_FIL",
+				" | PRO",
+				"X5282A91",
+				"ROR | NE"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"MFT0X",
+						" ERRO",
+						"ERROR ",
+						" | PRO",
+						"ROR | NE"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"3E_FIL",
+						"X5282A91"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 34139,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"MFT0X",
+				" ERRO",
+				"ERROR ",
+				"3E_FIL",
+				" | PRO",
+				"X5282A91",
+				"ROR | NE"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"MFT0X",
+						" ERRO",
+						"ERROR ",
+						" | PRO",
+						"ROR | NE"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"3E_FIL",
+						"X5282A91"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"MFT0X",
+				" ERRO",
+				"ERROR ",
+				" | PRO",
+				"ROR | NE"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"3E_FIL",
+				"X5282A91"
+			]
+		}
+	],
+	"updt": 1593946197193,
+	"edit": 1
+}
