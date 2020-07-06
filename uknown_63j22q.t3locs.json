@@ -1,0 +1,130 @@
+{
+	"_id": "uknown_63j22q.t3locs",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "uknown_63j22q.t3locs",
+	"sector": "VNP_2433",
+	"sec_level": 4,
+	"date_added": 1593993327131,
+	"last_scraped": 1593993508657,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1593993327131
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1593993568657,
+	"category": "fishie_tank",
+	"last_update": 1593993508657,
+	"output": [
+		{
+			"args": {},
+			"calls": 20300,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"k you",
+				"e bee",
+				" help",
+				"y\\n21A",
+				" you, M",
+				"Mallory\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"k you",
+						"e bee",
+						" help",
+						"y\\n21A",
+						" you, M",
+						"Mallory\\n"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1443,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"k you",
+				"e bee",
+				" help",
+				"y\\n21A",
+				" you, M",
+				"Mallory\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"k you",
+						"e bee",
+						" help",
+						"y\\n21A",
+						" you, M",
+						"Mallory\\n"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 21041,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"k you",
+				"e bee",
+				" help",
+				"y\\n21A",
+				" you, M",
+				"Mallory\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"k you",
+						"e bee",
+						" help",
+						"y\\n21A",
+						" you, M",
+						"Mallory\\n"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"k you",
+				"e bee",
+				" help",
+				"y\\n21A",
+				" you, M",
+				"Mallory\\n"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
