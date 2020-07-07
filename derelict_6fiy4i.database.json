@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_6fiy4i.database",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "derelict_6fiy4i.database",
 	"sector": "NGC_8329",
 	"sec_level": 4,
 	"date_added": 1594127226446,
-	"last_scraped": 1594128910210,
+	"last_scraped": 1594130667341,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1594211238426,
+	"next_scrape": 1594220108033,
 	"category": "risk_factor",
-	"last_update": 1594128891752,
+	"last_update": 1594130667341,
 	"output": [
 		{
 			"args": {},
@@ -38,7 +38,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 699,
+			"calls": 1177,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"will ",
@@ -54,12 +54,9 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1594127436368,
-	"edit": 1,
+	"updt": 1594129015145,
+	"edit": 2,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
