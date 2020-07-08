@@ -1,26 +1,25 @@
 {
 	"_id": "derelict_uukv5o.sorted",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "derelict_uukv5o.sorted",
 	"sector": "HJG_4651",
 	"sec_level": 4,
 	"date_added": 1594237779353,
-	"last_scraped": 1594239210683,
+	"last_scraped": 1594239393078,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1594237779353
 		}
 	],
-	"scrape_ct": 2,
-	"next_scrape": 1594239270683,
+	"next_scrape": 1594283629114,
 	"category": "fishie_tank",
-	"last_update": 1594239228797,
+	"last_update": 1594239393078,
 	"output": [
 		{
 			"args": {},
-			"calls": 103747,
+			"calls": 118843,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ROG E",
@@ -50,7 +49,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 13239,
+			"calls": 15018,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -85,7 +84,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 128091,
+			"calls": 157382,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ROG E",
@@ -112,8 +111,8 @@
 			]
 		}
 	],
-	"updt": 1594239024265,
-	"edit": 5,
+	"updt": 1594239248640,
+	"edit": 6,
 	"identified": [
 		{
 			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
@@ -126,11 +125,6 @@
 				"imiyawa",
 				"ST ERROR"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
