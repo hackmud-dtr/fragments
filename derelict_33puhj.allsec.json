@@ -1,26 +1,30 @@
 {
 	"_id": "derelict_33puhj.allsec",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "derelict_33puhj.allsec",
 	"sector": "K_1556",
 	"sec_level": 4,
 	"date_added": 1594288237015,
-	"last_scraped": 1594288326521,
+	"last_scraped": 1594289432791,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1594288237015
+		},
+		{
+			"type": "died",
+			"when": 1594312746256
 		}
 	],
-	"scrape_ct": 17,
-	"next_scrape": 1594288386521,
+	"scrape_ct": 0,
+	"next_scrape": 1594289492791,
 	"category": "fishie_tank",
-	"last_update": 1594288326521,
+	"last_update": 1594289432791,
 	"output": [
 		{
 			"args": {},
-			"calls": 7460,
+			"calls": 105734,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"y, al",
@@ -144,7 +148,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1357,
+			"calls": 12377,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -273,7 +277,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 35024,
+			"calls": 122918,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"y, al",
@@ -497,5 +501,7 @@
 				" surpri"
 			]
 		}
-	]
+	],
+	"updt": 1594289522395,
+	"edit": 5
 }
