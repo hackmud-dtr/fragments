@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "uknown_mjdfdr.lockpick",
-	"sector": "VNP_9072",
+	"sector": "K_1556",
 	"sec_level": 4,
 	"date_added": 1591873952594,
-	"last_scraped": 1594416238808,
+	"last_scraped": 1594418975889,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1591873952594
-		}
+		},
+		{
+			"type": "died",
+			"when": 1594418508542
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1594418957984,
+				"from": "K_1556",
+				"to": "VNP_9072"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"who dis\"}",
-	"next_scrape": 1594506941960,
-	"updt": 1594414642100,
-	"edit": 1085
+	"next_scrape": 1594508667867,
+	"updt": 1594418701982,
+	"edit": 1088
 }
