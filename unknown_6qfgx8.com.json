@@ -1,19 +1,27 @@
 {
 	"_id": "unknown_6qfgx8.com",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unknown_6qfgx8.com",
 	"sector": "K_1556",
 	"sec_level": 4,
 	"date_added": 1594433944783,
-	"last_scraped": 1594451090302,
+	"last_scraped": 1594452701955,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1594433944783
+		},
+		{
+			"type": "died",
+			"when": 1594452701955
+		},
+		{
+			"type": "died",
+			"when": 1594452922923
 		}
 	],
-	"next_scrape": 1594495680587,
+	"next_scrape": 1594532490376,
 	"category": "coin_flipper",
 	"last_update": 1594451090302,
 	"output": [
@@ -254,6 +262,7 @@
 			]
 		}
 	],
-	"updt": 1594449824993,
-	"edit": 14
+	"updt": 1594452757296,
+	"edit": 16,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_6qfgx8.com: script doesn't exist\"}"
 }
