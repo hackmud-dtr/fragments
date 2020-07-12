@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_yzjqif.unloader",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_yzjqif.unloader",
 	"sector": "HJG_5200",
 	"sec_level": 2,
@@ -19,10 +19,14 @@
 				"from": "HJG_5200",
 				"to": "HJG_4355"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1594551131934
+		}
 	],
-	"updt": 1593099934309,
-	"edit": 1856,
+	"updt": 1593102862894,
+	"edit": 1857,
 	"pl_output": "Unexpected token u in JSON at position 0",
 	"next_scrape": 1593187017952
 }
