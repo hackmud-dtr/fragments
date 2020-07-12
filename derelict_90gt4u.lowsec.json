@@ -1,0 +1,55 @@
+{
+	"_id": "derelict_90gt4u.lowsec",
+	"type": "fragment",
+	"mode": "player",
+	"script": "derelict_90gt4u.lowsec",
+	"sector": "K_2533",
+	"sec_level": 4,
+	"date_added": 1594518564740,
+	"last_scraped": 1594518621301,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1594518564740
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1594600597020,
+	"category": "risk_factor",
+	"last_update": 1594518600661,
+	"output": [
+		{
+			"args": {},
+			"calls": 1565,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"passphr",
+				"ssphrase",
+				"ses are ",
+				" are ann"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 300,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"passphr",
+				"ssphrase",
+				"ses are ",
+				" are ann"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+}
