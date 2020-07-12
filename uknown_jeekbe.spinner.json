@@ -1,25 +1,25 @@
 {
 	"_id": "uknown_jeekbe.spinner",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_jeekbe.spinner",
 	"sector": "K_2533",
 	"sec_level": 4,
 	"date_added": 1594502521898,
-	"last_scraped": 1594513307416,
+	"last_scraped": 1594515155641,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1594502521898
 		}
 	],
-	"next_scrape": 1594560004872,
+	"next_scrape": 1594558130764,
 	"category": "fishie_tank",
-	"last_update": 1594513307416,
+	"last_update": 1594515210118,
 	"output": [
 		{
 			"args": {},
-			"calls": 131809,
+			"calls": 154690,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"C\\nSYS",
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 19577,
+			"calls": 23252,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -120,8 +120,8 @@
 			]
 		}
 	],
-	"updt": 1594511369121,
-	"edit": 9,
+	"updt": 1594515202224,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
@@ -138,6 +138,11 @@
 			"frags": [
 				"E23E_FIL"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
