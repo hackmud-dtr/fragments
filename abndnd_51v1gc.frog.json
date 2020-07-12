@@ -1,19 +1,23 @@
 {
 	"_id": "abndnd_51v1gc.frog",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abndnd_51v1gc.frog",
 	"sector": "K_2533",
 	"sec_level": 4,
 	"date_added": 1594551127536,
-	"last_scraped": 1594575453752,
+	"last_scraped": 1594577933046,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1594551127536
+		},
+		{
+			"type": "died",
+			"when": 1594577933046
 		}
 	],
-	"next_scrape": 1594619231974,
+	"next_scrape": 1594669167204,
 	"category": "coin_flipper",
 	"last_update": 1594575453752,
 	"output": [
@@ -67,6 +71,7 @@
 			]
 		}
 	],
-	"updt": 1594573608470,
-	"edit": 15
+	"updt": 1594575637247,
+	"edit": 16,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_51v1gc.frog: script doesn't exist\"}"
 }
