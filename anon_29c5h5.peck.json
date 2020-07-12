@@ -1,21 +1,29 @@
 {
 	"_id": "anon_29c5h5.peck",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "anon_29c5h5.peck",
 	"sector": "K_2533",
 	"sec_level": 4,
 	"date_added": 1594532562970,
-	"last_scraped": 1594548395952,
+	"last_scraped": 1594551398896,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1594532562970
+		},
+		{
+			"type": "died",
+			"when": 1594551398896
+		},
+		{
+			"type": "died",
+			"when": 1594551892415
 		}
 	],
-	"updt": 1594546557266,
-	"edit": 13,
-	"next_scrape": 1594589687590,
+	"updt": 1594548586110,
+	"edit": 14,
+	"next_scrape": 1594634258217,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1594548395952,
 	"output": [
@@ -128,5 +136,6 @@
 				"wing th"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_29c5h5.peck: script doesn't exist\"}"
 }
