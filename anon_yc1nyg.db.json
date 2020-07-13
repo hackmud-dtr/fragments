@@ -1,25 +1,25 @@
 {
 	"_id": "anon_yc1nyg.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_yc1nyg.db",
 	"sector": "NGC_5588",
 	"sec_level": 4,
 	"date_added": 1594608933058,
-	"last_scraped": 1594610408321,
+	"last_scraped": 1594613070615,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1594608933058
 		}
 	],
-	"next_scrape": 1594650222473,
+	"next_scrape": 1594659246342,
 	"category": "fishie_tank",
-	"last_update": 1594610408321,
+	"last_update": 1594613070615,
 	"output": [
 		{
 			"args": {},
-			"calls": 115537,
+			"calls": 141787,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ecifi",
@@ -57,7 +57,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 16211,
+			"calls": 17312,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -100,7 +100,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 141540,
+			"calls": 156299,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ecifi",
@@ -135,8 +135,8 @@
 			]
 		}
 	],
-	"updt": 1594610360430,
-	"edit": 7,
+	"updt": 1594613062146,
+	"edit": 9,
 	"identified": [
 		{
 			"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
