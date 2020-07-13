@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_of02p2.boomer",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anonymous_of02p2.boomer",
 	"sector": "VNP_2841",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "VNP_2841",
 				"to": "VNP_2199"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1594616498011
+		}
 	],
-	"updt": 1589017649338,
-	"edit": 742,
+	"updt": 1589027791822,
+	"edit": 743,
 	"pl_output": "Unexpected token u in JSON at position 0",
 	"next_scrape": 1589097840263
 }
