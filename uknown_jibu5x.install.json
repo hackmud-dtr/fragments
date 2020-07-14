@@ -1,0 +1,158 @@
+{
+	"_id": "uknown_jibu5x.install",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "uknown_jibu5x.install",
+	"sector": "VNP_0838",
+	"sec_level": 4,
+	"date_added": 1594711152160,
+	"last_scraped": 1594711569726,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1594711152160
+		}
+	],
+	"scrape_ct": 14,
+	"next_scrape": 1594711629726,
+	"category": "fishie_tank",
+	"last_update": 1594711569726,
+	"output": [
+		{
+			"args": {},
+			"calls": 45256,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"FT0XD",
+				"0XF7_S",
+				"T0XD7_C",
+				"mhollist",
+				"XF7_SECT",
+				"LST0XF7_",
+				"ILE0X3A8",
+				"F_FILE0X",
+				"07\\nSYST",
+				"\\nSYST ER"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"FT0XD",
+						"0XF7_S",
+						"T0XD7_C",
+						"mhollist",
+						"XF7_SECT",
+						"LST0XF7_",
+						"ILE0X3A8",
+						"F_FILE0X",
+						"07\\nSYST",
+						"\\nSYST ER"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4140,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"FT0XD",
+				"0XF7_S",
+				"T0XD7_C",
+				"mhollist",
+				"XF7_SECT",
+				"LST0XF7_",
+				"ILE0X3A8",
+				"F_FILE0X",
+				"07\\nSYST",
+				"\\nSYST ER"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"FT0XD",
+						"0XF7_S",
+						"T0XD7_C",
+						"mhollist",
+						"XF7_SECT",
+						"LST0XF7_",
+						"ILE0X3A8",
+						"F_FILE0X",
+						"07\\nSYST",
+						"\\nSYST ER"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 46420,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"FT0XD",
+				"0XF7_S",
+				"T0XD7_C",
+				"mhollist",
+				"XF7_SECT",
+				"LST0XF7_",
+				"ILE0X3A8",
+				"F_FILE0X",
+				"07\\nSYST",
+				"\\nSYST ER"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"FT0XD",
+						"0XF7_S",
+						"T0XD7_C",
+						"mhollist",
+						"XF7_SECT",
+						"LST0XF7_",
+						"ILE0X3A8",
+						"F_FILE0X",
+						"07\\nSYST",
+						"\\nSYST ER"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+			"frags": [
+				"FT0XD",
+				"0XF7_S",
+				"T0XD7_C",
+				"mhollist",
+				"XF7_SECT",
+				"LST0XF7_",
+				"ILE0X3A8",
+				"F_FILE0X",
+				"07\\nSYST",
+				"\\nSYST ER"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
