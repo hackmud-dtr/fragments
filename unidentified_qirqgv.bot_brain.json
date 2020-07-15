@@ -1,0 +1,125 @@
+{
+	"_id": "unidentified_qirqgv.bot_brain",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unidentified_qirqgv.bot_brain",
+	"sector": "NGC_8928",
+	"sec_level": 4,
+	"date_added": 1594852288004,
+	"last_scraped": 1594852850158,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1594852288004
+		}
+	],
+	"scrape_ct": 10,
+	"next_scrape": 1594852910158,
+	"category": "fishie_tank",
+	"last_update": 1594852850158,
+	"output": [
+		{
+			"args": {},
+			"calls": 60472,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"93_CLST",
+				"T0XB1F1_",
+				"CT0XB1F1",
+				"B1F1_FIL",
+				"1_FILE0X"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"93_CLST",
+						"T0XB1F1_",
+						"CT0XB1F1",
+						"B1F1_FIL",
+						"1_FILE0X"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3762,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"93_CLST",
+				"T0XB1F1_",
+				"CT0XB1F1",
+				"B1F1_FIL",
+				"1_FILE0X"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"93_CLST",
+						"T0XB1F1_",
+						"CT0XB1F1",
+						"B1F1_FIL",
+						"1_FILE0X"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 50362,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"93_CLST",
+				"T0XB1F1_",
+				"CT0XB1F1",
+				"B1F1_FIL",
+				"1_FILE0X"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"93_CLST",
+						"T0XB1F1_",
+						"CT0XB1F1",
+						"B1F1_FIL",
+						"1_FILE0X"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+			"frags": [
+				"93_CLST",
+				"T0XB1F1_",
+				"CT0XB1F1",
+				"B1F1_FIL",
+				"1_FILE0X"
+			]
+		}
+	],
+	"updt": 1594852636245,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
