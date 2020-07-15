@@ -1,26 +1,30 @@
 {
 	"_id": "derelict_fc7854.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "derelict_fc7854.db",
 	"sector": "SPC_4143",
 	"sec_level": 4,
 	"date_added": 1594784750880,
-	"last_scraped": 1594784895362,
+	"last_scraped": 1594785257456,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1594784750880
+		},
+		{
+			"type": "died",
+			"when": 1594811644444
 		}
 	],
-	"scrape_ct": 18,
-	"next_scrape": 1594784955362,
+	"scrape_ct": 9,
+	"next_scrape": 1594785317456,
 	"category": "fishie_tank",
-	"last_update": 1594784895362,
+	"last_update": 1594785257456,
 	"output": [
 		{
 			"args": {},
-			"calls": 25681,
+			"calls": 57683,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"e dam",
@@ -68,7 +72,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1430,
+			"calls": 5371,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -121,7 +125,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 12400,
+			"calls": 66338,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"e dam",
@@ -194,9 +198,6 @@
 			]
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1594785366788,
+	"edit": 2
 }
