@@ -1,21 +1,22 @@
 {
 	"_id": "uknown_jfdtx8.pull",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "fresh",
 	"script": "uknown_jfdtx8.pull",
 	"sector": "NGC_8928",
 	"sec_level": 4,
 	"date_added": 1594882059316,
-	"last_scraped": 1594882856728,
+	"last_scraped": 1594882838704,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1594882059316
 		}
 	],
-	"next_scrape": 1594926124966,
+	"scrape_ct": 0,
+	"next_scrape": 1594882898704,
 	"category": "clicker",
-	"last_update": 1594882856728,
+	"last_update": 1594882838704,
 	"output": [
 		{
 			"args": {},
@@ -111,7 +112,7 @@
 			"args": {
 				"CLICK": true
 			},
-			"calls": 19842,
+			"calls": 16766,
 			"base": "`LCLICK SECURED`",
 			"fragments": [
 				"us th",
@@ -176,6 +177,11 @@
 			]
 		}
 	],
-	"updt": 1594882845856,
-	"edit": 4
+	"updt": 1594882619511,
+	"edit": 3,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
