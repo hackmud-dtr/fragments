@@ -1,25 +1,29 @@
 {
 	"_id": "anonymous_8bu423.brain_check",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "anonymous_8bu423.brain_check",
 	"sector": "NGC_5588",
 	"sec_level": 4,
 	"date_added": 1594608933058,
-	"last_scraped": 1594625144291,
+	"last_scraped": 1594631930315,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1594608933058
+		},
+		{
+			"type": "died",
+			"when": 1594867866557
 		}
 	],
-	"next_scrape": 1594669225289,
+	"next_scrape": 1594672425170,
 	"category": "clicker",
-	"last_update": 1594625144291,
+	"last_update": 1594631930315,
 	"output": [
 		{
 			"args": {},
-			"calls": 163769,
+			"calls": 230457,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"he defe",
@@ -51,7 +55,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 157935,
+			"calls": 189065,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"he defe",
@@ -124,7 +128,7 @@
 			"args": {
 				"CLICK": true
 			},
-			"calls": 7965,
+			"calls": 10245,
 			"base": "`LCLICn nECURED`",
 			"fragments": [
 				"he defeS",
@@ -254,7 +258,7 @@
 			"args": {
 				"CLICK": true
 			},
-			"calls": 6627,
+			"calls": 8912,
 			"base": "`LCLICnnnECURED`",
 			"fragments": [
 				"he defeS",
@@ -347,6 +351,26 @@
 				"\\n208C  SE",
 				"0 turns\\nE"
 			]
+		},
+		{
+			"args": {
+				"CLICK": true
+			},
+			"calls": 1370,
+			"base": "`LCLICK nECURED`",
+			"fragments": [
+				"he defeS",
+				"\\n208C S",
+				"110 turS",
+				" 110 tur",
+				"seconds S",
+				"rn\\n208BS",
+				"per turnS",
+				"ins.\\n209",
+				"he defe S",
+				"\\n208C  S",
+				"0 turns\\n"
+			]
 		}
 	],
 	"identified": [
@@ -377,6 +401,11 @@
 			]
 		}
 	],
-	"updt": 1594622756602,
-	"edit": 11
+	"updt": 1594631998460,
+	"edit": 15,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
