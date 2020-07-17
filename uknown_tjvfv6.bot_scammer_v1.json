@@ -1,20 +1,85 @@
 {
 	"_id": "uknown_tjvfv6.bot_scammer_v1",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "fresh",
 	"script": "uknown_tjvfv6.bot_scammer_v1",
-	"sector": "SPC_8138",
+	"sector": "VNP_4313",
 	"sec_level": 2,
 	"date_added": 1590435868510,
-	"last_scraped": 1590964054924,
+	"last_scraped": 1594956347313,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1590435868510
-		}
+		},
+		{
+			"type": "died",
+			"when": 1594955351474
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1594955549257,
+				"from": "VNP_4313",
+				"to": "SPC_8138"
+			}
+		]
 	],
 	"pl_output": "Your system has been scammed!",
-	"next_scrape": 1591052234635,
-	"updt": 1590963989202,
-	"edit": 274
+	"next_scrape": 1594956407313,
+	"updt": 1594956131613,
+	"edit": 278,
+	"scrape_ct": 10,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1594956347313,
+	"output": [
+		{
+			"args": {},
+			"calls": 1937,
+			"base": "Your system has been scammed!",
+			"fragments": [
+				"uld. ",
+				"ilabl",
+				", it'",
+				"with a",
+				"lable ",
+				" mater",
+				"what th",
+				"ld. They",
+				"able mat"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"uld. ",
+						"ilabl",
+						", it'",
+						"with a",
+						"lable ",
+						" mater",
+						"what th",
+						"ld. They",
+						"able mat"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+			"frags": [
+				"uld. ",
+				"ilabl",
+				", it'",
+				"with a",
+				"lable ",
+				" mater",
+				"what th",
+				"ld. They",
+				"able mat"
+			]
+		}
+	]
 }
