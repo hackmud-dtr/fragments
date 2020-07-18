@@ -1,0 +1,160 @@
+{
+	"_id": "anon_e6lk1f.t1scraper",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anon_e6lk1f.t1scraper",
+	"sector": "SPC_9782",
+	"sec_level": 4,
+	"date_added": 1595090180778,
+	"last_scraped": 1595090834801,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1595090180778
+		}
+	],
+	"scrape_ct": 9,
+	"next_scrape": 1595090894801,
+	"category": "fishie_tank",
+	"last_update": 1595090834801,
+	"output": [
+		{
+			"args": {},
+			"calls": 64318,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" | USE",
+				"TIME ER",
+				"SER era",
+				"ERROR |",
+				" | TIME",
+				"| PROG E",
+				"andari i",
+				"R | PROG",
+				" USER er",
+				" PROG ER"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						" | USE",
+						"TIME ER",
+						"SER era",
+						"ERROR |",
+						" | TIME",
+						"| PROG E",
+						"andari i",
+						"R | PROG",
+						" USER er",
+						" PROG ER"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 8161,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" | USE",
+				"TIME ER",
+				"SER era",
+				"ERROR |",
+				" | TIME",
+				"| PROG E",
+				"andari i",
+				"R | PROG",
+				" USER er",
+				" PROG ER"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						" | USE",
+						"TIME ER",
+						"SER era",
+						"ERROR |",
+						" | TIME",
+						"| PROG E",
+						"andari i",
+						"R | PROG",
+						" USER er",
+						" PROG ER"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 72500,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" | USE",
+				"TIME ER",
+				"SER era",
+				"ERROR |",
+				" | TIME",
+				"| PROG E",
+				"andari i",
+				"R | PROG",
+				" USER er",
+				" PROG ER"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						" | USE",
+						"TIME ER",
+						"SER era",
+						"ERROR |",
+						" | TIME",
+						"| PROG E",
+						"andari i",
+						"R | PROG",
+						" USER er",
+						" PROG ER"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+			"frags": [
+				" | USE",
+				"TIME ER",
+				"SER era",
+				"ERROR |",
+				" | TIME",
+				"| PROG E",
+				"andari i",
+				"R | PROG",
+				" USER er",
+				" PROG ER"
+			]
+		}
+	],
+	"updt": 1595090647694,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
