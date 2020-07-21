@@ -1,9 +1,9 @@
 {
 	"_id": "derelict_i8e5qi.tally",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "derelict_i8e5qi.tally",
-	"sector": "NGC_8888",
+	"sector": "NGC_8336",
 	"sec_level": 4,
 	"date_added": 1590746327447,
 	"last_scraped": 0,
@@ -11,6 +11,16 @@
 		{
 			"type": "added",
 			"when": 1590746327447
-		}
-	]
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1595317245053,
+				"from": "NGC_8336",
+				"to": "NGC_8888"
+			}
+		]
+	],
+	"updt": 1590746447400,
+	"edit": 1
 }
