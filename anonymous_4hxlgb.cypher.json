@@ -1,19 +1,23 @@
 {
 	"_id": "anonymous_4hxlgb.cypher",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anonymous_4hxlgb.cypher",
 	"sector": "NGC_8336",
 	"sec_level": 4,
 	"date_added": 1595304932508,
-	"last_scraped": 1595305892559,
+	"last_scraped": 1595307903230,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1595304932508
+		},
+		{
+			"type": "died",
+			"when": 1595307903230
 		}
 	],
-	"next_scrape": 1595345639189,
+	"next_scrape": 1595401435894,
 	"category": "dice_roller",
 	"last_update": 1595305892559,
 	"output": [
@@ -95,6 +99,7 @@
 			]
 		}
 	],
-	"updt": 1595305691835,
-	"edit": 4
+	"updt": 1595305916783,
+	"edit": 5,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_4hxlgb.cypher: script doesn't exist\"}"
 }
