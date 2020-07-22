@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_u0k863.t1_scrape",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_u0k863.t1_scrape",
 	"sector": "VNP_6103",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "VNP_6103",
 				"to": "VNP_7541"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1595427528948
+		}
 	],
-	"updt": 1593247377939,
-	"edit": 3000,
+	"updt": 1593249635537,
+	"edit": 3001,
 	"pl_output": "Cannot read property 'name' of undefined",
 	"next_scrape": 1593335103487
 }
