@@ -1,16 +1,46 @@
 {
 	"_id": "uknown_r3wqtd.alchemist",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "uknown_r3wqtd.alchemist",
 	"sector": "VNP_8870",
 	"sec_level": 4,
 	"date_added": 1595591884354,
-	"last_scraped": 1595591955953,
+	"last_scraped": 1595591992298,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1595591884354
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1595685247709,
+	"category": "risk_factor",
+	"last_update": 1595591975000,
+	"output": [
+		{
+			"args": {},
+			"calls": 4766,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"m time:",
+				"lephant",
+				"in-the-",
+				" what ar"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 233,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"m time:",
+				"lephant",
+				"in-the-",
+				" what ar"
+			]
 		}
 	],
 	"retry_args": [
@@ -21,21 +51,5 @@
 			"do": "LOSE"
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1595592015953,
-	"category": "risk_factor",
-	"last_update": 1595591939283,
-	"output": [
-		{
-			"args": {},
-			"calls": 1737,
-			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-			"fragments": [
-				"m time:",
-				"lephant",
-				"in-the-",
-				" what ar"
-			]
-		}
-	]
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
