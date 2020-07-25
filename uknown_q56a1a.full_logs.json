@@ -1,0 +1,122 @@
+{
+	"_id": "uknown_q56a1a.full_logs",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "uknown_q56a1a.full_logs",
+	"sector": "K_1727",
+	"sec_level": 4,
+	"date_added": 1595686697953,
+	"last_scraped": 1595687294966,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1595686697953
+		}
+	],
+	"scrape_ct": 9,
+	"next_scrape": 1595687354966,
+	"category": "fishie_tank",
+	"last_update": 1595687313537,
+	"output": [
+		{
+			"args": {},
+			"calls": 52543,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"0\\n000",
+				"0000 0",
+				"000 01",
+				"00 0100 ",
+				"00 0000 "
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"0\\n000",
+						"0000 0",
+						"000 01",
+						"00 0100 ",
+						"00 0000 "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 6707,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"0\\n000",
+				"0000 0",
+				"000 01",
+				"00 0100 ",
+				"00 0000 "
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"0\\n000",
+						"0000 0",
+						"000 01",
+						"00 0100 ",
+						"00 0000 "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 75964,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"0\\n000",
+				"0000 0",
+				"000 01",
+				"00 0100 ",
+				"00 0000 "
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"0\\n000",
+						"0000 0",
+						"000 01",
+						"00 0100 ",
+						"00 0000 "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"0\\n000",
+				"0000 0",
+				"000 01",
+				"00 0100 ",
+				"00 0000 "
+			]
+		}
+	],
+	"updt": 1595687096549,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
