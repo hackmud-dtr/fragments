@@ -6,21 +6,21 @@
 	"sector": "SPC_3551",
 	"sec_level": 4,
 	"date_added": 1595683866176,
-	"last_scraped": 1595683920743,
+	"last_scraped": 1595686318335,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1595683866176
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1595770984406,
+	"scrape_ct": 18,
+	"next_scrape": 1595767044963,
 	"category": "risk_factor",
-	"last_update": 1595683902609,
+	"last_update": 1595686299812,
 	"output": [
 		{
 			"args": {},
-			"calls": 3028,
+			"calls": 5248,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"SOUNDT",
@@ -34,7 +34,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 203,
+			"calls": 343,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"SOUNDT",
@@ -45,5 +45,15 @@
 			]
 		}
 	],
-	"pl_output": "YOU COULD WIN 1GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1595683942508,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
