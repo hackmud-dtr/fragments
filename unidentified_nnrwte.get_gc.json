@@ -1,20 +1,32 @@
 {
 	"_id": "unidentified_nnrwte.get_gc",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "unidentified_nnrwte.get_gc",
-	"sector": "HJG_3744",
+	"sector": "K_7911",
 	"sec_level": 0,
 	"date_added": 1591339980149,
-	"last_scraped": 1594159892828,
+	"last_scraped": 1595790031614,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1591339980149
-		}
+		},
+		{
+			"type": "died",
+			"when": 1595789361836
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1595789814361,
+				"from": "K_7911",
+				"to": "HJG_3744"
+			}
+		]
 	],
-	"updt": 1594158321299,
-	"edit": 1169,
+	"updt": 1595789867559,
+	"edit": 1172,
 	"pl_output": "Cannot read property 'includes' of undefined",
-	"next_scrape": 1594241304958
+	"next_scrape": 1595870612524
 }

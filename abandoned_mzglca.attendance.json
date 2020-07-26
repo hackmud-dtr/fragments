@@ -1,25 +1,25 @@
 {
 	"_id": "abandoned_mzglca.attendance",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_mzglca.attendance",
 	"sector": "K_5494",
 	"sec_level": 4,
 	"date_added": 1595779428282,
-	"last_scraped": 1595786384426,
+	"last_scraped": 1595789797270,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1595779428282
 		}
 	],
-	"next_scrape": 1595831475757,
+	"next_scrape": 1595835183229,
 	"category": "fishie_tank",
-	"last_update": 1595786384426,
+	"last_update": 1595789797270,
 	"output": [
 		{
 			"args": {},
-			"calls": 141597,
+			"calls": 192051,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"t jus",
@@ -111,8 +111,8 @@
 			]
 		}
 	],
-	"updt": 1595784007163,
-	"edit": 8,
+	"updt": 1595786486338,
+	"edit": 9,
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
@@ -125,6 +125,14 @@
 				"knowing",
 				"ust beca"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
