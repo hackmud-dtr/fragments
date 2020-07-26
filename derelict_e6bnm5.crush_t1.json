@@ -1,31 +1,26 @@
 {
 	"_id": "derelict_e6bnm5.crush_t1",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "derelict_e6bnm5.crush_t1",
 	"sector": "K_5494",
 	"sec_level": 4,
 	"date_added": 1595729640148,
-	"last_scraped": 1595729658120,
+	"last_scraped": 1595730148350,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1595729640148
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1595729718120,
+	"scrape_ct": 10,
+	"next_scrape": 1595730208350,
 	"category": "fishie_tank",
-	"last_update": 1595729677437,
+	"last_update": 1595730148350,
 	"output": [
 		{
 			"args": {},
-			"calls": 9635,
+			"calls": 46869,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"aleem",
@@ -33,13 +28,25 @@
 				"time fo",
 				"UBJ: Er",
 				"in + Sal"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						"aleem",
+						"me, Er",
+						"time fo",
+						"UBJ: Er",
+						"in + Sal"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1035,
+			"calls": 4858,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -47,6 +54,58 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"aleem",
+				"me, Er",
+				"time fo",
+				"UBJ: Er",
+				"in + Sal"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						"aleem",
+						"me, Er",
+						"time fo",
+						"UBJ: Er",
+						"in + Sal"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 77293,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"aleem",
+				"me, Er",
+				"time fo",
+				"UBJ: Er",
+				"in + Sal"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+					"frags": [
+						"aleem",
+						"me, Er",
+						"time fo",
+						"UBJ: Er",
+						"in + Sal"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1595730135398,
+	"edit": 3,
+	"identified": [
+		{
+			"document": "MFT0XCF_CLST0X84_SECT0X6B58_FILE0X7A81819D",
+			"frags": [
 				"aleem",
 				"me, Er",
 				"time fo",
