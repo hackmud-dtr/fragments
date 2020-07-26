@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_nnrwte.restock",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "unidentified_nnrwte.restock",
-	"sector": "SPC_0870",
+	"sector": "HJG_3101",
 	"sec_level": 1,
 	"date_added": 1591340178702,
-	"last_scraped": 1595786656298,
+	"last_scraped": 1595793628159,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1595789361836
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1595789814361,
+				"from": "HJG_3101",
+				"to": "SPC_0870"
+			}
+		]
 	],
-	"updt": 1595786711442,
-	"edit": 1967,
+	"updt": 1595790768069,
+	"edit": 1970,
 	"pl_output": "`Dgrr`",
-	"next_scrape": 1595870912763
+	"next_scrape": 1595876399482
 }

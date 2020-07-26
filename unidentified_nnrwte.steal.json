@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_nnrwte.steal",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "unidentified_nnrwte.steal",
-	"sector": "SPC_0870",
+	"sector": "HJG_3101",
 	"sec_level": 1,
 	"date_added": 1591340178702,
-	"last_scraped": 1595786674039,
+	"last_scraped": 1595793645915,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1595789361836
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1595789814361,
+				"from": "HJG_3101",
+				"to": "SPC_0870"
+			}
+		]
 	],
-	"updt": 1595786711442,
-	"edit": 1967,
+	"updt": 1595790768069,
+	"edit": 1970,
 	"pl_output": "Cannot read property 'loaded' of undefined",
-	"next_scrape": 1595867534826
+	"next_scrape": 1595874916343
 }
