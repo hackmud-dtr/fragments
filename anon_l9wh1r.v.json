@@ -6,26 +6,21 @@
 	"sector": "SPC_5470",
 	"sec_level": 4,
 	"date_added": 1595818680751,
-	"last_scraped": 1595818699745,
+	"last_scraped": 1595819622385,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1595818680751
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1595818759745,
+	"scrape_ct": 3,
+	"next_scrape": 1595819682385,
 	"category": "fishie_tank",
-	"last_update": 1595818716691,
+	"last_update": 1595819622385,
 	"output": [
 		{
 			"args": {},
-			"calls": 12670,
+			"calls": 79696,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"t giv",
@@ -34,13 +29,26 @@
 				"do. ##",
 				"# That'",
 				" If thin"
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"t giv",
+						"It's ",
+						"ll: th",
+						"do. ##",
+						"# That'",
+						" If thin"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1089,
+			"calls": 10721,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -48,6 +56,62 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"t giv",
+				"It's ",
+				"ll: th",
+				"do. ##",
+				"# That'",
+				" If thin"
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"t giv",
+						"It's ",
+						"ll: th",
+						"do. ##",
+						"# That'",
+						" If thin"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 116106,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"t giv",
+				"It's ",
+				"ll: th",
+				"do. ##",
+				"# That'",
+				" If thin"
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"t giv",
+						"It's ",
+						"ll: th",
+						"do. ##",
+						"# That'",
+						" If thin"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1595819413528,
+	"edit": 4,
+	"identified": [
+		{
+			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+			"frags": [
 				"t giv",
 				"It's ",
 				"ll: th",
