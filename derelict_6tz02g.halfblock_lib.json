@@ -1,0 +1,63 @@
+{
+	"_id": "derelict_6tz02g.halfblock_lib",
+	"type": "fragment",
+	"mode": "player",
+	"script": "derelict_6tz02g.halfblock_lib",
+	"sector": "HJG_4627",
+	"sec_level": 4,
+	"date_added": 1595972352511,
+	"last_scraped": 1595972442064,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1595972352511
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1596061143983,
+	"category": "risk_factor",
+	"last_update": 1595972424574,
+	"output": [
+		{
+			"args": {},
+			"calls": 2071,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"ds pl",
+				"0F2 i",
+				"rd pil",
+				"scard p",
+				"er's\\n2",
+				"F2 in t",
+				"0F4 alo",
+				"r's\\n20F"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 148,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"ds pl",
+				"0F2 i",
+				"rd pil",
+				"scard p",
+				"er's\\n2",
+				"F2 in t",
+				"0F4 alo",
+				"r's\\n20F"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+}
