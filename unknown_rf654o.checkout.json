@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "unknown_rf654o.checkout",
-	"sector": "K_0859",
+	"sector": "K_6707",
 	"sec_level": 2,
 	"date_added": 1591234201017,
-	"last_scraped": 1594714002485,
+	"last_scraped": 1596023613311,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1591234201017
-		}
+		},
+		{
+			"type": "died",
+			"when": 1596023469666
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1596023594699,
+				"from": "K_6707",
+				"to": "K_0859"
+			}
+		]
 	],
-	"updt": 1594710902726,
-	"edit": 1497,
+	"updt": 1594714062547,
+	"edit": 1498,
 	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR g4tekeeper.api: script doesn't exist\"}",
-	"next_scrape": 1594796363888
+	"next_scrape": 1596107412532
 }

@@ -3,18 +3,26 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "unknown_rf654o.crush_t1",
-	"sector": "K_4057",
+	"sector": "SPC_8291",
 	"sec_level": 4,
 	"date_added": 1591234201017,
-	"last_scraped": 1596021586297,
+	"last_scraped": 1596023919293,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1591234201017
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1596023903430,
+				"from": "SPC_8291",
+				"to": "K_4057"
+			}
+		]
 	],
-	"updt": 1596020067500,
-	"edit": 2120,
+	"updt": 1596023451540,
+	"edit": 2122,
 	"pl_output": "{\"ok\":false,\"msg\":\"Usage k3ymaster.crush_t1 { t:#s.usr.tgt, verbose:<optional> }\"}",
-	"next_scrape": 1596111970320
+	"next_scrape": 1596107348395
 }
