@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_qm01gz.upload_locs",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unknown_qm01gz.upload_locs",
 	"sector": "SPC_8944",
 	"sec_level": 0,
@@ -19,10 +19,14 @@
 				"from": "SPC_8944",
 				"to": "HJG_7415"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1596016662940
+		}
 	],
-	"updt": 1592844002759,
-	"edit": 2849,
+	"updt": 1596016686014,
+	"edit": 2851,
 	"pl_output": "\n\n`c[USER NOT AUTHORIZED]`\n",
 	"next_scrape": 1592844199958,
 	"scrape_ct": 17,
@@ -34,6 +38,40 @@
 			"calls": 10444,
 			"base": "\n\n`c[USER NOT AUTHORIZED]`\n",
 			"fragments": [
+				"ally ",
+				"y well",
+				"y some",
+				"? okay",
+				" such,",
+				"too, ye",
+				"s as su",
+				"ly like",
+				"just re",
+				"ll i don"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"ally ",
+						"y well",
+						"y some",
+						"? okay",
+						" such,",
+						"too, ye",
+						"s as su",
+						"ly like",
+						"just re",
+						"ll i don"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+			"frags": [
 				"ally ",
 				"y well",
 				"y some",

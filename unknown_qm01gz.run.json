@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_qm01gz.run",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unknown_qm01gz.run",
 	"sector": "SPC_0745",
 	"sec_level": 0,
@@ -23,8 +23,12 @@
 				"from": "SPC_0745",
 				"to": "HJG_7415"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1596016775209
+		}
 	],
-	"updt": 1589729975171,
-	"edit": 6
+	"updt": 1589730202369,
+	"edit": 7
 }
