@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "derelict_rj2338.lockpick2",
-	"sector": "VNP_7904",
+	"sector": "HJG_2827",
 	"sec_level": 4,
 	"date_added": 1590951727425,
-	"last_scraped": 1593471315903,
+	"last_scraped": 1596025767388,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1590951727425
-		}
+		},
+		{
+			"type": "died",
+			"when": 1596025699006
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1596025749053,
+				"from": "HJG_2827",
+				"to": "VNP_7904"
+			}
+		]
 	],
-	"updt": 1593469229287,
-	"edit": 1008,
+	"updt": 1596025708428,
+	"edit": 1010,
 	"pl_output": "Cannot read property 'call' of undefined",
-	"next_scrape": 1593555319946
+	"next_scrape": 1596114654412
 }
