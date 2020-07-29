@@ -1,26 +1,30 @@
 {
 	"_id": "abndnd_ie4590.l0ck_breaker",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abndnd_ie4590.l0ck_breaker",
 	"sector": "K_5511",
 	"sec_level": 4,
 	"date_added": 1588005089005,
-	"last_scraped": 1588005307493,
+	"last_scraped": 1588005650333,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1588005089005
+		},
+		{
+			"type": "died",
+			"when": 1596015938892
 		}
 	],
-	"scrape_ct": 17,
-	"next_scrape": 1588005367493,
+	"scrape_ct": 15,
+	"next_scrape": 1588094209888,
 	"category": "fishie_tank",
-	"last_update": 1588005307493,
+	"last_update": 1588005650333,
 	"output": [
 		{
 			"args": {},
-			"calls": 17843,
+			"calls": 47418,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"yawaki",
@@ -50,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2788,
+			"calls": 4067,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -85,7 +89,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 19036,
+			"calls": 32204,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"yawaki",
@@ -124,6 +128,16 @@
 				"handari ",
 				"awaki er"
 			]
+		}
+	],
+	"updt": 1588005766027,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

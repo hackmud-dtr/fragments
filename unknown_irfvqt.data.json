@@ -1,20 +1,16 @@
 {
 	"_id": "unknown_irfvqt.data",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "fresh",
 	"script": "unknown_irfvqt.data",
 	"sector": "VNP_3108",
 	"sec_level": 4,
 	"date_added": 1596015991603,
-	"last_scraped": 1596016082166,
+	"last_scraped": 1596016009701,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1596015991603
-		},
-		{
-			"type": "died",
-			"when": 1596018093513
 		}
 	],
 	"retry_args": [
@@ -25,84 +21,6 @@
 			"do": "clean"
 		}
 	],
-	"scrape_ct": 16,
-	"next_scrape": 1596016142166,
-	"category": "fishie_tank",
-	"last_update": 1596016082166,
-	"output": [
-		{
-			"args": {},
-			"calls": 63032,
-			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
-			"fragments": [
-				"858BD",
-				"3_CLS",
-				"T0XB1F",
-				"LST0X0",
-				"ECT0XB",
-				"E0X178",
-				"CLST0X",
-				"T0X93_C",
-				"D3\\nSYS",
-				"B1F1_FI",
-				"58BD3\\n",
-				"FILE0X17",
-				"B_SECT0X",
-				"1F1_FILE",
-				"0XB1F1_F",
-				"0X0B_SEC",
-				"3\\nSYST E"
-			],
-			"hits": [
-				{
-					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
-					"frags": [
-						"858BD",
-						"3_CLS",
-						"T0XB1F",
-						"LST0X0",
-						"ECT0XB",
-						"E0X178",
-						"CLST0X",
-						"T0X93_C",
-						"D3\\nSYS",
-						"B1F1_FI",
-						"58BD3\\n",
-						"FILE0X17",
-						"B_SECT0X",
-						"1F1_FILE",
-						"0XB1F1_F",
-						"0X0B_SEC",
-						"3\\nSYST E"
-					]
-				}
-			]
-		}
-	],
-	"updt": 1596016235788,
-	"edit": 1,
-	"identified": [
-		{
-			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
-			"frags": [
-				"858BD",
-				"3_CLS",
-				"T0XB1F",
-				"LST0X0",
-				"ECT0XB",
-				"E0X178",
-				"CLST0X",
-				"T0X93_C",
-				"D3\\nSYS",
-				"B1F1_FI",
-				"58BD3\\n",
-				"FILE0X17",
-				"B_SECT0X",
-				"1F1_FILE",
-				"0XB1F1_F",
-				"0X0B_SEC",
-				"3\\nSYST E"
-			]
-		}
-	]
+	"scrape_ct": 20,
+	"next_scrape": 1596016069701
 }
