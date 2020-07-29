@@ -1,26 +1,30 @@
 {
 	"_id": "uknown_5sdxkb.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "uknown_5sdxkb.bot_scam_do_not_run",
 	"sector": "VNP_3108",
 	"sec_level": 4,
 	"date_added": 1596017313879,
-	"last_scraped": 1596017531555,
+	"last_scraped": 1596017693339,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1596017313879
+		},
+		{
+			"type": "died",
+			"when": 1596019142995
 		}
 	],
-	"scrape_ct": 17,
-	"next_scrape": 1596017591555,
+	"scrape_ct": 12,
+	"next_scrape": 1596017753339,
 	"category": "fishie_tank",
-	"last_update": 1596017531555,
+	"last_update": 1596017693339,
 	"output": [
 		{
 			"args": {},
-			"calls": 25437,
+			"calls": 86279,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"the. ",
@@ -511,8 +515,8 @@
 			]
 		}
 	],
-	"updt": 1596017360631,
-	"edit": 1,
+	"updt": 1596017812612,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "Cycle/Don Quixote",
@@ -641,6 +645,14 @@
 			"frags": [
 				"g someon"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
