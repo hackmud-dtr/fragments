@@ -1,7 +1,7 @@
 {
 	"_id": "anon_lv94iz.rollcall",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anon_lv94iz.rollcall",
 	"sector": "K_6346",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "K_6346",
 				"to": "VNP_3908"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1596127067605
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"LOCK_ERROR\"}",
 	"next_scrape": 1596202823430,
-	"updt": 1596107997497,
-	"edit": 3954
+	"updt": 1596110026236,
+	"edit": 3955
 }

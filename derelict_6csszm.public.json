@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_6csszm.public",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_6csszm.public",
 	"sector": "NGC_9840",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "NGC_9840",
 				"to": "NGC_9177"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1596127067605
+		}
 	],
-	"updt": 1590110061070,
-	"edit": 1695,
+	"updt": 1590111866767,
+	"edit": 1696,
 	"pl_output": "{\"ok\":false,\"msg\":\"Not Implemented.\"}",
 	"next_scrape": 1590203161165
 }

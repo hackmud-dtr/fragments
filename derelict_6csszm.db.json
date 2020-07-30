@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_6csszm.db",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_6csszm.db",
 	"sector": "K_2782",
 	"sec_level": 0,
@@ -19,10 +19,14 @@
 				"from": "K_2782",
 				"to": "K_6480"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1596127067605
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"ACCESS DENIED.\\nPARAMS MISSING.\"}",
 	"next_scrape": 1596196013329,
-	"updt": 1596107547045,
-	"edit": 4421
+	"updt": 1596109575226,
+	"edit": 4422
 }
