@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "unknown_k7jzzp.biblio",
-	"sector": "K_4057",
+	"sector": "VNP_2373",
 	"sec_level": 4,
 	"date_added": 1591234201017,
-	"last_scraped": 1596184116891,
+	"last_scraped": 1596185665142,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1591234201017
-		}
+		},
+		{
+			"type": "died",
+			"when": 1596185575085
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1596185610682,
+				"from": "VNP_2373",
+				"to": "K_4057"
+			}
+		]
 	],
-	"updt": 1596182630066,
-	"edit": 2204,
+	"updt": 1596184206793,
+	"edit": 2205,
 	"pl_output": "{\"ok\":false,\"msg\":[\"          ___   _       _\\n    __ _ /   | | |_ ___| | _____  ___ _ __   ___ _ _\\n   / _« / /| |_| __/ _ \\\\ |/ / _ \\\\/ _ \\\\ '_ \\\\ / _ \\\\ '_|\\n `FERROR ERROR ERROR ERROR ERROR ERROR ERROR ERROR ERROR`\\n   \\\\__, |  |_|  \\\\__\\\\___|_|\\\\_\\\\___|\\\\___| .__/ \\\\___|_|\\n   |___/      g4tekeeper.public      |_|\\n \",\"Usage g4tekeeper.biblio { <cmd>:#s.target.script, args: { <optional> } }\\nAvailable cmds: decipher | decode | decorrupt\"]}",
-	"next_scrape": 1596267004725
+	"next_scrape": 1596268214228
 }

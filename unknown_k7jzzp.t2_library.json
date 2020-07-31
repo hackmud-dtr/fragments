@@ -1,9 +1,9 @@
 {
 	"_id": "unknown_k7jzzp.t2_library",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "skip",
 	"script": "unknown_k7jzzp.t2_library",
-	"sector": "K_0859",
+	"sector": "K_6707",
 	"sec_level": 2,
 	"date_added": 1591234201017,
 	"last_scraped": 0,
@@ -11,8 +11,20 @@
 		{
 			"type": "added",
 			"when": 1591234201017
-		}
+		},
+		{
+			"type": "died",
+			"when": 1596185464902
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1596185628296,
+				"from": "K_6707",
+				"to": "K_0859"
+			}
+		]
 	],
-	"updt": 1591234291597,
-	"edit": 1
+	"updt": 1596185782348,
+	"edit": 4
 }
