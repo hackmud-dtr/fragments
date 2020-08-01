@@ -1,22 +1,30 @@
 {
 	"_id": "unidentified_bnfmix.wave",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unidentified_bnfmix.wave",
 	"sector": "VNP_0649",
 	"sec_level": 4,
 	"date_added": 1596278379272,
-	"last_scraped": 1596278433107,
+	"last_scraped": 1596278540069,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1596278379272
+		},
+		{
+			"type": "died",
+			"when": 1596278540069
+		},
+		{
+			"type": "died",
+			"when": 1596278635370
 		}
 	],
-	"scrape_ct": 18,
-	"next_scrape": 1596278493107,
+	"scrape_ct": 17,
+	"next_scrape": 1596359598853,
 	"category": "clicker",
-	"last_update": 1596278433107,
+	"last_update": 1596278449500,
 	"output": [
 		{
 			"args": {},
@@ -37,6 +45,27 @@
 				"y to you",
 				"1B5 And ",
 				"design\\n2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"n\\n21B",
+						"It is ",
+						"trary t",
+						"s contr",
+						"ry to y",
+						"rary to",
+						"our des",
+						"ontrary",
+						"o your ",
+						"is cont",
+						" design",
+						"y to you",
+						"1B5 And ",
+						"design\\n2"
+					]
+				}
 			]
 		},
 		{
@@ -51,13 +80,25 @@
 				" to yo",
 				"to your ",
 				"n\\n21B5 A"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"y to ",
+						"esign",
+						" to yo",
+						"to your ",
+						"n\\n21B5 A"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"CLICK": true
 			},
-			"calls": 1900,
+			"calls": 4987,
 			"base": "`LCLICK SECURED`",
 			"fragments": [
 				"y to ",
@@ -65,7 +106,43 @@
 				" to yo",
 				"to your ",
 				"n\\n21B5 A"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"y to ",
+						"esign",
+						" to yo",
+						"to your ",
+						"n\\n21B5 A"
+					]
+				}
 			]
 		}
-	]
+	],
+	"updt": 1596278439093,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"It is ",
+				"trary t",
+				"s contr",
+				"ry to y",
+				"rary to",
+				"our des",
+				"ontrary",
+				"is cont",
+				" design",
+				"y to you",
+				"to your ",
+				"1B5 And ",
+				"n\\n21B5 A",
+				"design\\n2"
+			]
+		}
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_bnfmix.wave: script doesn't exist\"}"
 }
