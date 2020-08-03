@@ -6,26 +6,21 @@
 	"sector": "HJG_2155",
 	"sec_level": 4,
 	"date_added": 1596485794378,
-	"last_scraped": 1596485813941,
+	"last_scraped": 1596486952707,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1596485794378
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1596485873941,
+	"scrape_ct": 0,
+	"next_scrape": 1596487012707,
 	"category": "fishie_tank",
-	"last_update": 1596485831245,
+	"last_update": 1596486952707,
 	"output": [
 		{
 			"args": {},
-			"calls": 6603,
+			"calls": 99045,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"T0X7B_",
@@ -41,13 +36,33 @@
 				"FT0XE7_C",
 				"CLST0X7B",
 				"8CA8_FIL"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"T0X7B_",
+						"ROR | ",
+						"NETW E",
+						"_SECT0X",
+						"X8CA8_F",
+						"7B_SECT",
+						" | NETW",
+						"_FILE0X5",
+						"YST ERRO",
+						"LE0X5C87",
+						"FT0XE7_C",
+						"CLST0X7B",
+						"8CA8_FIL"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 945,
+			"calls": 12317,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -55,6 +70,90 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"T0X7B_",
+				"ROR | ",
+				"NETW E",
+				"_SECT0X",
+				"X8CA8_F",
+				"7B_SECT",
+				" | NETW",
+				"_FILE0X5",
+				"YST ERRO",
+				"LE0X5C87",
+				"FT0XE7_C",
+				"CLST0X7B",
+				"8CA8_FIL"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"T0X7B_",
+						"ROR | ",
+						"NETW E",
+						"_SECT0X",
+						"X8CA8_F",
+						"7B_SECT",
+						" | NETW",
+						"_FILE0X5",
+						"YST ERRO",
+						"LE0X5C87",
+						"FT0XE7_C",
+						"CLST0X7B",
+						"8CA8_FIL"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 130392,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"T0X7B_",
+				"ROR | ",
+				"NETW E",
+				"_SECT0X",
+				"X8CA8_F",
+				"7B_SECT",
+				" | NETW",
+				"_FILE0X5",
+				"YST ERRO",
+				"LE0X5C87",
+				"FT0XE7_C",
+				"CLST0X7B",
+				"8CA8_FIL"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"T0X7B_",
+						"ROR | ",
+						"NETW E",
+						"_SECT0X",
+						"X8CA8_F",
+						"7B_SECT",
+						" | NETW",
+						"_FILE0X5",
+						"YST ERRO",
+						"LE0X5C87",
+						"FT0XE7_C",
+						"CLST0X7B",
+						"8CA8_FIL"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1596486748377,
+	"edit": 4,
+	"identified": [
+		{
+			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+			"frags": [
 				"T0X7B_",
 				"ROR | ",
 				"NETW E",
