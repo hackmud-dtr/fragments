@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_z4tdeg.blib",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "player",
 	"script": "abndnd_z4tdeg.blib",
 	"sector": "HJG_2155",
 	"sec_level": 4,
 	"date_added": 1596471730986,
-	"last_scraped": 1596475336435,
+	"last_scraped": 1596473598783,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 14,
-	"next_scrape": 1596559166736,
+	"next_scrape": 1596562605854,
 	"category": "risk_factor",
-	"last_update": 1596475317943,
+	"last_update": 1596473578176,
 	"output": [
 		{
 			"args": {},
@@ -37,10 +37,9 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 1052,
+			"calls": 919,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
-				"6",
 				"FT0XB",
 				"XF227_",
 				"ECT0XF",
@@ -540,9 +539,12 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1596475463378,
-	"edit": 3,
+	"updt": 1596471856153,
+	"edit": 1,
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}
