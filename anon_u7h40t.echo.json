@@ -1,19 +1,23 @@
 {
 	"_id": "anon_u7h40t.echo",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_u7h40t.echo",
 	"sector": "HJG_2155",
 	"sec_level": 4,
 	"date_added": 1596401987902,
-	"last_scraped": 1596426859865,
+	"last_scraped": 1596428844614,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1596401987902
+		},
+		{
+			"type": "died",
+			"when": 1596428844614
 		}
 	],
-	"next_scrape": 1596471029040,
+	"next_scrape": 1596518248562,
 	"category": "plant_sim",
 	"last_update": 1596426859865,
 	"output": [
@@ -357,6 +361,8 @@
 			]
 		}
 	],
-	"updt": 1596425206003,
-	"edit": 20
+	"updt": 1596427008460,
+	"edit": 21,
+	"dead_plant_sim": true,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_u7h40t.echo: script doesn't exist\"}"
 }
