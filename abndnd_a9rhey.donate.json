@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_a9rhey.donate",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "abndnd_a9rhey.donate",
 	"sector": "SPC_8138",
 	"sec_level": 2,
@@ -23,10 +23,14 @@
 				"from": "SPC_8138",
 				"to": "HJG_7565"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1596438944038
+		}
 	],
-	"updt": 1593471708576,
-	"edit": 1217,
+	"updt": 1593480949105,
+	"edit": 1218,
 	"pl_output": "Unexpected token u in JSON at position 0",
 	"next_scrape": 1593559899498
 }
