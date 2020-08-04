@@ -1,22 +1,30 @@
 {
 	"_id": "derelict_6tegg3.nullsec",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "derelict_6tegg3.nullsec",
 	"sector": "HJG_6490",
 	"sec_level": 4,
 	"date_added": 1596528365530,
-	"last_scraped": 1596529777997,
+	"last_scraped": 1596529870408,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1596528365530
+		},
+		{
+			"type": "died",
+			"when": 1596529870408
+		},
+		{
+			"type": "died",
+			"when": 1596530472028
 		}
 	],
-	"updt": 1596529606131,
-	"edit": 6,
+	"updt": 1596530057109,
+	"edit": 8,
 	"scrape_ct": 2,
-	"next_scrape": 1596529837997,
+	"next_scrape": 1596616250710,
 	"category": "plant_sim",
 	"last_update": 1596529777997,
 	"output": [
@@ -87,5 +95,7 @@
 				"\\n2037 S"
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_6tegg3.nullsec: script doesn't exist\"}",
+	"dead_plant_sim": true
 }
