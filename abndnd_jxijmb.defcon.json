@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_jxijmb.defcon",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abndnd_jxijmb.defcon",
 	"sector": "SPC_5773",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "SPC_5773",
 				"to": "VNP_5195"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1596669545423
+		}
 	],
 	"pl_output": "lib.virlist is not a function",
 	"next_scrape": 1596750788257,
-	"updt": 1596665143590,
-	"edit": 3493
+	"updt": 1596667396191,
+	"edit": 3494
 }
