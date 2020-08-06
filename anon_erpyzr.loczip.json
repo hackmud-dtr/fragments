@@ -1,0 +1,82 @@
+{
+	"_id": "anon_erpyzr.loczip",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anon_erpyzr.loczip",
+	"sector": "VNP_4787",
+	"sec_level": 4,
+	"date_added": 1596716142028,
+	"last_scraped": 1596716233173,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1596716142028
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1596716293173,
+	"category": "fishie_tank",
+	"last_update": 1596716233173,
+	"output": [
+		{
+			"args": {},
+			"calls": 18507,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ls fr",
+				"ffici",
+				"ions v",
+				"cials ",
+				"n weeks",
+				"hours, ",
+				"s via dr",
+				"ours, an",
+				"nd imple",
+				"ent solu"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1281,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ls fr",
+				"ffici",
+				"ions v",
+				"cials ",
+				"n weeks",
+				"hours, ",
+				"s via dr",
+				"ours, an",
+				"nd imple",
+				"ent solu"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 13516,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ls fr",
+				"ffici",
+				"ions v",
+				"cials ",
+				"n weeks",
+				"hours, ",
+				"s via dr",
+				"ours, an",
+				"nd imple",
+				"ent solu"
+			]
+		}
+	]
+}
