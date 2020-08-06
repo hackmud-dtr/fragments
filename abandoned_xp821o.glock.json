@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_xp821o.glock",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "abandoned_xp821o.glock",
-	"sector": "NGC_9629",
+	"sector": "K_1158",
 	"sec_level": 2,
 	"date_added": 1594080135740,
-	"last_scraped": 1596719635091,
+	"last_scraped": 1596722523287,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1596721243021
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1596722468088,
+				"from": "K_1158",
+				"to": "NGC_9629"
+			}
+		]
 	],
 	"pl_output": "{\"msg\":\"no args\",\"ok\":false}",
-	"next_scrape": 1596809849793,
-	"updt": 1596719927936,
-	"edit": 1312
+	"next_scrape": 1596814364413,
+	"updt": 1596721505643,
+	"edit": 1313
 }

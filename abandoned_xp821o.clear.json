@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_xp821o.clear",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "fresh",
 	"script": "abandoned_xp821o.clear",
-	"sector": "VNP_2433",
+	"sector": "VNP_4787",
 	"sec_level": 4,
 	"date_added": 1594080029439,
-	"last_scraped": 1596721943387,
+	"last_scraped": 1596722777163,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,18 +15,26 @@
 		{
 			"type": "died",
 			"when": 1596722093013
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1596722468088,
+				"from": "VNP_4787",
+				"to": "VNP_2433"
+			}
+		]
 	],
 	"pl_output": "This is a decorruption script.\nUsage: yuumita.clear {`Nt`:`V#s.``0<the script name>`, a:{`0<the parameters of the script>``V}`}",
-	"next_scrape": 1596802407816,
-	"updt": 1596721956172,
-	"edit": 1313,
+	"next_scrape": 1596722837163,
+	"updt": 1596722635600,
+	"edit": 1315,
 	"category": "UNKNOWN CATEGORY",
-	"last_update": 1596721943387,
+	"last_update": 1596722777163,
 	"output": [
 		{
 			"args": {},
-			"calls": 198414,
+			"calls": 1407253,
 			"base": "This is a decorruption script.\nUsage: yuumita.clear {`Nt`:`V#s.``0<the script name>`, a:{`0<the parameters of the script>``V}`}",
 			"fragments": [
 				"EE Re",
@@ -63,5 +71,6 @@
 				"ck\\n20F1 "
 			]
 		}
-	]
+	],
+	"scrape_ct": 14
 }
