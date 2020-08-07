@@ -1,19 +1,23 @@
 {
 	"_id": "unknown_bqjiv2.bank",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "unknown_bqjiv2.bank",
 	"sector": "NGC_0245",
 	"sec_level": 4,
 	"date_added": 1596772522244,
-	"last_scraped": 1596796423559,
+	"last_scraped": 1596798760343,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1596772522244
+		},
+		{
+			"type": "died",
+			"when": 1596798760343
 		}
 	],
-	"next_scrape": 1596840989479,
+	"next_scrape": 1596885953650,
 	"category": "coin_flipper",
 	"last_update": 1596796423559,
 	"output": [
@@ -91,6 +95,7 @@
 			]
 		}
 	],
-	"updt": 1596794557798,
-	"edit": 17
+	"updt": 1596796587772,
+	"edit": 18,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_bqjiv2.bank: script doesn't exist\"}"
 }
