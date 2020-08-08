@@ -1,26 +1,25 @@
 {
 	"_id": "unknown_2ts6z1.t2_suborbital_airlines",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "unknown_2ts6z1.t2_suborbital_airlines",
 	"sector": "SPC_6151",
 	"sec_level": 4,
 	"date_added": 1596923673266,
-	"last_scraped": 1596924199260,
+	"last_scraped": 1596924964673,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1596923673266
 		}
 	],
-	"scrape_ct": 12,
-	"next_scrape": 1596924259260,
+	"next_scrape": 1596966000581,
 	"category": "fishie_tank",
-	"last_update": 1596924199260,
+	"last_update": 1596924964673,
 	"output": [
 		{
 			"args": {},
-			"calls": 58326,
+			"calls": 116796,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"F227_",
@@ -62,7 +61,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5211,
+			"calls": 13674,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -109,7 +108,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 44209,
+			"calls": 137643,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"F227_",
@@ -168,14 +167,6 @@
 			]
 		}
 	],
-	"updt": 1596923987231,
-	"edit": 2,
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1596924893974,
+	"edit": 6
 }
