@@ -1,31 +1,26 @@
 {
 	"_id": "anonymous_qpxml8.bootup",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anonymous_qpxml8.bootup",
 	"sector": "HJG_5811",
 	"sec_level": 4,
 	"date_added": 1596857870815,
-	"last_scraped": 1596857888714,
+	"last_scraped": 1596858089484,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1596857870815
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1596857948714,
+	"scrape_ct": 17,
+	"next_scrape": 1596858149484,
 	"category": "fishie_tank",
-	"last_update": 1596857906266,
+	"last_update": 1596858089484,
 	"output": [
 		{
 			"args": {},
-			"calls": 9005,
+			"calls": 15667,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ere th",
@@ -35,13 +30,27 @@
 				"ittle s",
 				"t of who",
 				"derstand"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"ere th",
+						" they ",
+						" - whe",
+						"tand. I",
+						"ittle s",
+						"t of who",
+						"derstand"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1624,
+			"calls": 4735,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -49,6 +58,66 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"ere th",
+				" they ",
+				" - whe",
+				"tand. I",
+				"ittle s",
+				"t of who",
+				"derstand"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"ere th",
+						" they ",
+						" - whe",
+						"tand. I",
+						"ittle s",
+						"t of who",
+						"derstand"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 20582,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ere th",
+				" they ",
+				" - whe",
+				"tand. I",
+				"ittle s",
+				"t of who",
+				"derstand"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"ere th",
+						" they ",
+						" - whe",
+						"tand. I",
+						"ittle s",
+						"t of who",
+						"derstand"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1596857918565,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+			"frags": [
 				"ere th",
 				" they ",
 				" - whe",
