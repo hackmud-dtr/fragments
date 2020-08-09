@@ -1,26 +1,26 @@
 {
 	"_id": "unidentified_fvpisc.magnara",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unidentified_fvpisc.magnara",
 	"sector": "NGC_7525",
 	"sec_level": 4,
 	"date_added": 1596997944193,
-	"last_scraped": 1596998469991,
+	"last_scraped": 1596998632687,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1596997944193
 		}
 	],
-	"scrape_ct": 6,
-	"next_scrape": 1596998529991,
+	"scrape_ct": 1,
+	"next_scrape": 1596998692687,
 	"category": "clicker",
-	"last_update": 1596998469991,
+	"last_update": 1596998632687,
 	"output": [
 		{
 			"args": {},
-			"calls": 53033,
+			"calls": 82216,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"_SECT",
@@ -54,7 +54,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 47026,
+			"calls": 68301,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"_SECT",
@@ -135,6 +135,11 @@
 			]
 		}
 	],
-	"updt": 1596998336716,
-	"edit": 1
+	"updt": 1596998560411,
+	"edit": 2,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
