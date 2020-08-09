@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_a20kmh.corp_fund",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "uknown_a20kmh.corp_fund",
 	"sector": "SPC_8925",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1591063696183
+		},
+		{
+			"type": "died",
+			"when": 1596988051764
 		}
 	],
 	"scrape_ct": 12,
@@ -80,8 +84,8 @@
 			]
 		}
 	],
-	"updt": 1591063858077,
-	"edit": 1,
+	"updt": 1591064082929,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -126,5 +130,6 @@
 				"at the "
 			]
 		}
-	]
+	],
+	"dead_plant_sim": true
 }
