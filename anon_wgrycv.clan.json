@@ -1,7 +1,7 @@
 {
 	"_id": "anon_wgrycv.clan",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anon_wgrycv.clan",
 	"sector": "NGC_7525",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1597023548670
+		},
+		{
+			"type": "died",
+			"when": 1597025660708
 		}
 	],
 	"scrape_ct": 19,
@@ -37,6 +41,27 @@
 				"he word ",
 				" a risk ",
 				" Risk is"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"ution",
+						"ions.",
+						"I'd u",
+						"# see",
+						"xactly",
+						"d use.",
+						"sk is e",
+						"s exact",
+						"eems li",
+						"word I'd",
+						"risk to ",
+						"he word ",
+						" a risk ",
+						" Risk is"
+					]
+				}
 			]
 		},
 		{
@@ -72,18 +97,84 @@
 				" me ## R",
 				" a risk ",
 				" Risk is"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"ution",
+						"ions.",
+						"I'd u",
+						"# see",
+						"the wo",
+						"o me #",
+						"d use.",
+						"'d use",
+						"# Risk",
+						"y the w",
+						"tly the",
+						"s like ",
+						"s exact",
+						"like a ",
+						"xactly t",
+						"word I'd",
+						"sk is ex",
+						"risk to ",
+						"ns. ## s",
+						"ke a ris",
+						"he word ",
+						"eems lik",
+						"Risk is ",
+						" me ## R",
+						" a risk ",
+						" Risk is"
+					]
+				}
 			]
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1597023823971,
-	"edit": 1,
+	"updt": 1597025404328,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "win"
 		},
 		{
 			"do": "LOSE"
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				"ution",
+				"ions.",
+				"I'd u",
+				"# see",
+				"the wo",
+				"o me #",
+				"d use.",
+				"'d use",
+				"# Risk",
+				"y the w",
+				"tly the",
+				"s like ",
+				"s exact",
+				"like a ",
+				"xactly t",
+				"word I'd",
+				"sk is ex",
+				"risk to ",
+				"ns. ## s",
+				"ke a ris",
+				"he word ",
+				"eems lik",
+				"Risk is ",
+				" me ## R",
+				" a risk ",
+				" Risk is"
+			]
 		}
 	]
 }
