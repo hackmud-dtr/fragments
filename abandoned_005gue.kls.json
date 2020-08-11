@@ -1,25 +1,29 @@
 {
 	"_id": "abandoned_005gue.kls",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abandoned_005gue.kls",
 	"sector": "SPC_1702",
 	"sec_level": 4,
 	"date_added": 1593633167319,
-	"last_scraped": 1593713051089,
+	"last_scraped": 1593714680059,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1593633167319
+		},
+		{
+			"type": "died",
+			"when": 1597145295477
 		}
 	],
-	"next_scrape": 1593753929290,
+	"next_scrape": 1593760825234,
 	"category": "coin_flipper",
-	"last_update": 1593713051089,
+	"last_update": 1593714680059,
 	"output": [
 		{
 			"args": {},
-			"calls": 946806,
+			"calls": 978022,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"inder",
@@ -57,6 +61,6 @@
 			]
 		}
 	],
-	"updt": 1593711356545,
-	"edit": 47
+	"updt": 1593714739904,
+	"edit": 49
 }
