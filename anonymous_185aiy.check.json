@@ -1,0 +1,165 @@
+{
+	"_id": "anonymous_185aiy.check",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anonymous_185aiy.check",
+	"sector": "NGC_4125",
+	"sec_level": 4,
+	"date_added": 1597149693528,
+	"last_scraped": 1597149876510,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1597149693528
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1597149936510,
+	"category": "fishie_tank",
+	"last_update": 1597149876510,
+	"output": [
+		{
+			"args": {},
+			"calls": 26780,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"| NET",
+				"E7_CL",
+				" ERRO",
+				"X5C879",
+				"ETW ER",
+				"CT0X8C",
+				"CLST0X",
+				"0XE7_C",
+				"_SECT0X8",
+				"9\\nSYST ",
+				"8CA8_FIL"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"| NET",
+						"E7_CL",
+						" ERRO",
+						"X5C879",
+						"ETW ER",
+						"CT0X8C",
+						"CLST0X",
+						"0XE7_C",
+						"_SECT0X8",
+						"9\\nSYST ",
+						"8CA8_FIL"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1645,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"| NET",
+				"E7_CL",
+				" ERRO",
+				"X5C879",
+				"ETW ER",
+				"CT0X8C",
+				"CLST0X",
+				"0XE7_C",
+				"_SECT0X8",
+				"9\\nSYST ",
+				"8CA8_FIL"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"| NET",
+						"E7_CL",
+						" ERRO",
+						"X5C879",
+						"ETW ER",
+						"CT0X8C",
+						"CLST0X",
+						"0XE7_C",
+						"_SECT0X8",
+						"9\\nSYST ",
+						"8CA8_FIL"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 13315,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"| NET",
+				"E7_CL",
+				" ERRO",
+				"X5C879",
+				"ETW ER",
+				"CT0X8C",
+				"CLST0X",
+				"0XE7_C",
+				"_SECT0X8",
+				"9\\nSYST ",
+				"8CA8_FIL"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"| NET",
+						"E7_CL",
+						" ERRO",
+						"X5C879",
+						"ETW ER",
+						"CT0X8C",
+						"CLST0X",
+						"0XE7_C",
+						"_SECT0X8",
+						"9\\nSYST ",
+						"8CA8_FIL"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+			"frags": [
+				"| NET",
+				"E7_CL",
+				" ERRO",
+				"X5C879",
+				"ETW ER",
+				"CT0X8C",
+				"CLST0X",
+				"0XE7_C",
+				"_SECT0X8",
+				"9\\nSYST ",
+				"8CA8_FIL"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
