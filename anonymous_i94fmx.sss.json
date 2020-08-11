@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_i94fmx.sss",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "anonymous_i94fmx.sss",
-	"sector": "NGC_9277",
+	"sector": "K_7911",
 	"sec_level": 0,
 	"date_added": 1593931816238,
-	"last_scraped": 0,
+	"last_scraped": 1597171471695,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,8 +15,18 @@
 		{
 			"type": "died",
 			"when": 1597171060109
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1597171453004,
+				"from": "K_7911",
+				"to": "NGC_9277"
+			}
+		]
 	],
-	"updt": 1593931996248,
-	"edit": 1
+	"updt": 1597171068787,
+	"edit": 2,
+	"pl_output": "Unexpected token u in JSON at position 0",
+	"next_scrape": 1597260285964
 }
