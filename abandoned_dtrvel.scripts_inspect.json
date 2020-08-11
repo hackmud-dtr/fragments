@@ -1,19 +1,23 @@
 {
 	"_id": "abandoned_dtrvel.scripts_inspect",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abandoned_dtrvel.scripts_inspect",
 	"sector": "VNP_3235",
 	"sec_level": 4,
 	"date_added": 1597115736944,
-	"last_scraped": 1597134845267,
+	"last_scraped": 1597136608955,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1597115736944
+		},
+		{
+			"type": "died",
+			"when": 1597136608955
 		}
 	],
-	"next_scrape": 1597179115282,
+	"next_scrape": 1597225109701,
 	"category": "coin_flipper",
 	"last_update": 1597134845267,
 	"output": [
@@ -102,6 +106,7 @@
 			]
 		}
 	],
-	"updt": 1597133196398,
-	"edit": 15
+	"updt": 1597135000922,
+	"edit": 16,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_dtrvel.scripts_inspect: script doesn't exist\"}"
 }
