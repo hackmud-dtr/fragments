@@ -1,28 +1,32 @@
 {
 	"_id": "abandoned_o2smu7.scripts",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abandoned_o2smu7.scripts",
 	"sector": "VNP_3235",
 	"sec_level": 4,
 	"date_added": 1597095983838,
-	"last_scraped": 1597096635920,
+	"last_scraped": 1597097310709,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1597095983838
+		},
+		{
+			"type": "died",
+			"when": 1597350929674
 		}
 	],
-	"updt": 1597096436969,
-	"edit": 3,
-	"scrape_ct": 13,
-	"next_scrape": 1597096695920,
+	"updt": 1597097338851,
+	"edit": 7,
+	"scrape_ct": 0,
+	"next_scrape": 1597097370709,
 	"category": "plant_sim",
-	"last_update": 1597096635920,
+	"last_update": 1597097310709,
 	"output": [
 		{
 			"args": {},
-			"calls": 10898,
+			"calls": 26896,
 			"base": "c:\"lvpwjh\" d:\"<f l n s w>\"\n\n\n\n\n\n                 \n                 .\n                 ",
 			"fragments": [
 				"r, Sa",
@@ -80,5 +84,6 @@
 				" party p"
 			]
 		}
-	]
+	],
+	"dead_plant_sim": true
 }
