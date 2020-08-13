@@ -1,21 +1,25 @@
 {
 	"_id": "anonymous_d3rx4v.validate",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "anonymous_d3rx4v.validate",
 	"sector": "NGC_8329",
 	"sec_level": 4,
 	"date_added": 1594199673543,
-	"last_scraped": 1594226151430,
+	"last_scraped": 1594226170634,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1594199673543
+		},
+		{
+			"type": "died",
+			"when": 1597328558007
 		}
 	],
-	"next_scrape": 1594272566453,
+	"next_scrape": 1594267183813,
 	"category": "fishie_tank",
-	"last_update": 1594226151430,
+	"last_update": 1594226170634,
 	"output": [
 		{
 			"args": {},
@@ -96,7 +100,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 326418,
+			"calls": 332013,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"n. So",
@@ -146,6 +150,6 @@
 			]
 		}
 	],
-	"updt": 1594224139830,
-	"edit": 22
+	"updt": 1594226396912,
+	"edit": 24
 }
