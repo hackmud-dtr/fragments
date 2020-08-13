@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_927bxh.utils",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "uknown_927bxh.utils",
 	"sector": "K_5413",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1597312228383
+		},
+		{
+			"type": "died",
+			"when": 1597335065502
 		}
 	],
 	"retry_args": [
@@ -41,9 +45,53 @@
 				"0X8926_F",
 				"0X08_CLS",
 				"08_CLST0"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"CT0X892",
+						"8926_FI",
+						"T0X8926_",
+						"T0X08_CL",
+						"0X8926_F",
+						"0X08_CLS",
+						"08_CLST0"
+					]
+				},
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"ST0XC4",
+						"C4_SEC",
+						"T0XC4_SE"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1597312290180,
-	"edit": 1
+	"updt": 1597312486485,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"CT0X892",
+				"8926_FI",
+				"T0X8926_",
+				"T0X08_CL",
+				"0X8926_F",
+				"0X08_CLS",
+				"08_CLST0"
+			]
+		},
+		{
+			"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+			"frags": [
+				"ST0XC4",
+				"C4_SEC",
+				"T0XC4_SE"
+			]
+		}
+	]
 }
