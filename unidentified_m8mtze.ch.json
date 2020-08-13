@@ -1,16 +1,49 @@
 {
 	"_id": "unidentified_m8mtze.ch",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "fresh",
 	"script": "unidentified_m8mtze.ch",
 	"sector": "K_6517",
 	"sec_level": 4,
 	"date_added": 1597355945639,
-	"last_scraped": 0,
+	"last_scraped": 1597356251959,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1597355945639
+		}
+	],
+	"updt": 1597356064820,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1597356311959,
+	"category": "fishie_tank",
+	"last_update": 1597356251959,
+	"output": [
+		{
+			"args": {},
+			"calls": 39252,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"stack",
+				"09D p",
+				"o a st",
+				" a stac",
+				"u may:\\n",
+				"may:\\n20",
+				"k, or\\n2",
+				"a deck, ",
+				"a card t",
+				" play a "
+			]
 		}
 	]
 }
