@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_7z7elp.r",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "dead",
 	"script": "anonymous_7z7elp.r",
 	"sector": "K_0025",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1593966208017
+		},
+		{
+			"type": "died",
+			"when": 1597286412557
 		}
 	],
 	"scrape_ct": 17,
@@ -29,6 +33,19 @@
 				"D0C_FIL",
 				" ERROR ",
 				"ROR | NE"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"0X77A",
+						"NETW E",
+						"XCE_CLS",
+						"D0C_FIL",
+						" ERROR ",
+						"ROR | NE"
+					]
+				}
 			]
 		},
 		{
@@ -44,15 +61,41 @@
 				"D0C_FIL",
 				" ERROR ",
 				"ROR | NE"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"0X77A",
+						"NETW E",
+						"XCE_CLS",
+						"D0C_FIL",
+						" ERROR ",
+						"ROR | NE"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1593966484032,
-	"edit": 2,
+	"updt": 1593967834818,
+	"edit": 3,
 	"retry_args": [
 		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"identified": [
+		{
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
+				"0X77A",
+				"NETW E",
+				"XCE_CLS",
+				"D0C_FIL",
+				" ERROR ",
+				"ROR | NE"
+			]
+		}
+	]
 }
