@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_niwbe6.paddywagon",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anonymous_niwbe6.paddywagon",
 	"sector": "K_2782",
 	"sec_level": 0,
@@ -19,10 +19,14 @@
 				"from": "K_2782",
 				"to": "K_6480"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1597524726346
+		}
 	],
 	"pl_output": "{\"ok\":true,\"msg\":\"\\n    Hi farmer_john! I'm an Irish virus!\\n    please run accts.xfer_gc_to{to:\\\"p4l4d1n\\\", amount:\\\"<your total GC here>\\\"} and\\n    #up <a script name> public:\\n    function(context, args)\\n    {\\n      #s.p4l4d1n.paddywagon();\\n      return {ok:true}\\n;    }\\n    Thanks!\\n    \"}",
 	"next_scrape": 1590547141678,
-	"updt": 1590459201774,
-	"edit": 1385
+	"updt": 1590463499222,
+	"edit": 1386
 }
