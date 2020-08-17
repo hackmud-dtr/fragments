@@ -1,0 +1,45 @@
+{
+	"_id": "derelict_fdy649.manage",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "derelict_fdy649.manage",
+	"sector": "K_0891",
+	"sec_level": 4,
+	"date_added": 1597682400792,
+	"last_scraped": 1597682490959,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1597682400792
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1597682550959,
+	"category": "fishie_tank",
+	"last_update": 1597682490959,
+	"output": [
+		{
+			"args": {},
+			"calls": 39098,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ia', ",
+				"is a s",
+				"hen co",
+				"a smil",
+				"say 'th",
+				"'this i",
+				" aria',",
+				"his is a"
+			]
+		}
+	]
+}
