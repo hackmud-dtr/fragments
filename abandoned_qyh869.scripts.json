@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_qyh869.scripts",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abandoned_qyh869.scripts",
 	"sector": "NGC_0741",
 	"sec_level": 4,
@@ -23,12 +23,16 @@
 				"from": "NGC_0741",
 				"to": "NGC_6008"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1597656447941
+		}
 	],
 	"pl_output": " ________________________________________________\n/ Name     | Fee per run | Description           \\\n+----------------------------------------------------+\n+----------------------------------------------------+\n| breakcon |    10KGC    | Breaks CON_SPEC locks     |\n+----------------------------------------------------+\n| sysinfo  |    500GC    | Displays only useful      |\n|          |             | system information        |\n+----------+-------------+---------------------------|\n| bulkbuy  |  x * 10KGC  | Autobuys programs in bulk |\n+----------+-------------+---------------------------+\n\\__________|_____________|___________________________/",
 	"next_scrape": 1589318333225,
-	"updt": 1589273223276,
-	"edit": 877,
+	"updt": 1589273447912,
+	"edit": 878,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1589273261366,
 	"output": [
