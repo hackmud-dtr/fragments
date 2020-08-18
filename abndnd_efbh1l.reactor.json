@@ -1,0 +1,57 @@
+{
+	"_id": "abndnd_efbh1l.reactor",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abndnd_efbh1l.reactor",
+	"sector": "SPC_0127",
+	"sec_level": 4,
+	"date_added": 1597736325842,
+	"last_scraped": 1597736399330,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1597736325842
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1597822724332,
+	"category": "risk_factor",
+	"last_update": 1597736399330,
+	"output": [
+		{
+			"args": {},
+			"calls": 3406,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"icall",
+				"ase s",
+				" ther",
+				"raid w",
+				"Yes. Sp",
+				" I'm af",
+				"cally: I"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 103,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"icall",
+				"ase s",
+				" ther",
+				"raid w",
+				"Yes. Sp",
+				" I'm af",
+				"cally: I"
+			]
+		}
+	]
+}
