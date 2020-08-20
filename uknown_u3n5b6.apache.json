@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_u3n5b6.apache",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "uknown_u3n5b6.apache",
 	"sector": "SPC_0127",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1597720522163
+		},
+		{
+			"type": "died",
+			"when": 1597946557830
 		}
 	],
 	"scrape_ct": 16,
@@ -23,6 +27,38 @@
 			"calls": 51065,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
+				"0100 0",
+				"0 1001",
+				"\\n0000 ",
+				"100 000",
+				"0\\n0000",
+				"0 0000 ",
+				"0000 010",
+				" 0000 00"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"0100 0",
+						"0 1001",
+						"\\n0000 ",
+						"100 000",
+						"0\\n0000",
+						"0 0000 ",
+						"0000 010",
+						" 0000 00"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1597720708352,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
 				"0100 0",
 				"0 1001",
 				"\\n0000 ",
