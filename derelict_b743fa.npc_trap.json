@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_b743fa.npc_trap",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "derelict_b743fa.npc_trap",
 	"sector": "VNP_9416",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1592249387660
+		},
+		{
+			"type": "died",
+			"when": 1598047506141
 		}
 	],
 	"scrape_ct": 13,
@@ -119,8 +123,8 @@
 			]
 		}
 	],
-	"updt": 1592249560427,
-	"edit": 1,
+	"updt": 1592249786711,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "clean"
