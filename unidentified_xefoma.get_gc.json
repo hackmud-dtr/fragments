@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_xefoma.get_gc",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unidentified_xefoma.get_gc",
 	"sector": "HJG_0554",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "HJG_0554",
 				"to": "K_9904"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1598007258059
+		}
 	],
-	"updt": 1597357235782,
-	"edit": 4479,
+	"updt": 1597357430941,
+	"edit": 4480,
 	"pl_output": "{\"msg\":\"Hey. farmer_john. You aren't allowed to call this script. Don't `Nforce` your luck.\",\"ok\":false}",
 	"next_scrape": 1597440665001
 }

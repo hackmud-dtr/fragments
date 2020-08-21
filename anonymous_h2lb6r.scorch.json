@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_h2lb6r.scorch",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anonymous_h2lb6r.scorch",
 	"sector": "VNP_2068",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "VNP_2068",
 				"to": "K_9904"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1598007310533
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"This script did not receive a target. Please use `Nt`: `V#s.<user>.<loc>`\"}",
 	"next_scrape": 1591413109018,
-	"updt": 1591330554812,
-	"edit": 1701
+	"updt": 1591332583975,
+	"edit": 1702
 }

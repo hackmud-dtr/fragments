@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_xefoma.saltine",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "unidentified_xefoma.saltine",
 	"sector": "HJG_0554",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "HJG_0554",
 				"to": "K_9904"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1598007258059
+		}
 	],
-	"updt": 1594465159745,
-	"edit": 3036,
+	"updt": 1594467186969,
+	"edit": 3037,
 	"pl_output": "{\"ok\":false,\"msg\":\"Alert: incorrect usage.\\n\\nPlease run as fr33z3rbrrn.saltine{t:#s.<user.loc>}\\nwhere <user.loc> is the loc of the target npc or user\"}",
 	"next_scrape": 1594555538758
 }

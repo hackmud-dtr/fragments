@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_xefoma.ensure_sec",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unidentified_xefoma.ensure_sec",
 	"sector": "HJG_0554",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "HJG_0554",
 				"to": "K_9904"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1598007258059
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"Usage:\\nfr33z3rbrrn.ensure_sec{exec:#s.player.script, sec:4}\\nThis script will run the scriptor passed to it only if the SEC level is at least the value specified.\\n4\\tFULLSEC\\n3\\tHIGHSEC\\n2\\tMIDSEC\\n1\\tLOWSEC\\n0\\tNULLSEC\"}",
 	"next_scrape": 1590301723424,
-	"updt": 1590207000033,
-	"edit": 1123
+	"updt": 1590212183833,
+	"edit": 1124
 }

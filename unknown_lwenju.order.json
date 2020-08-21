@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_lwenju.order",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unknown_lwenju.order",
 	"sector": "HJG_9788",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "HJG_9788",
 				"to": "NGC_4276"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1598006910980
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"User farmer_john not authorized to use unknown_lwenju.order.\"}",
 	"next_scrape": 1598088984160,
-	"updt": 1598006030702,
-	"edit": 3670
+	"updt": 1598006810627,
+	"edit": 3671
 }

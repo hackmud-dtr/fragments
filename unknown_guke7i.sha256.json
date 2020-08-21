@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_guke7i.sha256",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unknown_guke7i.sha256",
 	"sector": "VNP_5480",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "VNP_5480",
 				"to": "K_9904"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1598006821029
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"You didn't give me any plaintext. Please pass txt:\\\"textToHash\\\"\"}",
 	"next_scrape": 1586935820247,
-	"updt": 1588786340061,
-	"edit": 164
+	"updt": 1588786565066,
+	"edit": 165
 }
