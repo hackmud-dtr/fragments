@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_i98ar5.access",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "anonymous_i98ar5.access",
-	"sector": "SPC_7558",
+	"sector": "HJG_6737",
 	"sec_level": 4,
 	"date_added": 1595320929799,
-	"last_scraped": 0,
+	"last_scraped": 1598099149742,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,8 +15,18 @@
 		{
 			"type": "died",
 			"when": 1598098841424
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1598099132630,
+				"from": "HJG_6737",
+				"to": "SPC_7558"
+			}
+		]
 	],
-	"updt": 1595321021235,
-	"edit": 1
+	"updt": 1598098863370,
+	"edit": 2,
+	"pl_output": "Unexpected token u in JSON at position 0",
+	"next_scrape": 1598189802777
 }

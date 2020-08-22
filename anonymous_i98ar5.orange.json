@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_i98ar5.orange",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "anonymous_i98ar5.orange",
-	"sector": "SPC_7558",
+	"sector": "HJG_6737",
 	"sec_level": 4,
 	"date_added": 1595320929799,
-	"last_scraped": 1597353948873,
+	"last_scraped": 1598099185362,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1598098841424
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1598099132630,
+				"from": "HJG_6737",
+				"to": "SPC_7558"
+			}
+		]
 	],
-	"updt": 1597354111356,
-	"edit": 1030,
+	"updt": 1598098863370,
+	"edit": 1031,
 	"pl_output": "a.data is not iterable",
-	"next_scrape": 1597445692317
+	"next_scrape": 1598186759853
 }

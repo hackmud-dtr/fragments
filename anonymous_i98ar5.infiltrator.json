@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_i98ar5.infiltrator",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "anonymous_i98ar5.infiltrator",
-	"sector": "NGC_7025",
+	"sector": "K_7911",
 	"sec_level": 0,
 	"date_added": 1595320712636,
-	"last_scraped": 1598098351761,
+	"last_scraped": 1598099166976,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1598098862669
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1598099149742,
+				"from": "K_7911",
+				"to": "NGC_7025"
+			}
+		]
 	],
 	"pl_output": "nope",
-	"next_scrape": 1598186297862,
-	"updt": 1598098473224,
-	"edit": 1769
+	"next_scrape": 1598185580320,
+	"updt": 1598098863370,
+	"edit": 1770
 }
