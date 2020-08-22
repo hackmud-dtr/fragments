@@ -1,26 +1,29 @@
 {
 	"_id": "abandoned_ort91j.storage",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abandoned_ort91j.storage",
 	"sector": "HJG_1348",
 	"sec_level": 4,
 	"date_added": 1589343238333,
-	"last_scraped": 1589343472771,
+	"last_scraped": 1589344612687,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1589343238333
+		},
+		{
+			"type": "died",
+			"when": 1598076869288
 		}
 	],
-	"scrape_ct": 17,
-	"next_scrape": 1589343532771,
+	"next_scrape": 1589391111676,
 	"category": "dice_roller",
-	"last_update": 1589343472771,
+	"last_update": 1589344612687,
 	"output": [
 		{
 			"args": {},
-			"calls": 45382,
+			"calls": 274558,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
 				"monum",
@@ -58,6 +61,6 @@
 			]
 		}
 	],
-	"updt": 1589343324375,
-	"edit": 1
+	"updt": 1589344676267,
+	"edit": 7
 }
