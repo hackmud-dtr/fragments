@@ -1,31 +1,26 @@
 {
 	"_id": "abndnd_a7jvjj.t1c",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abndnd_a7jvjj.t1c",
 	"sector": "HJG_7046",
 	"sec_level": 4,
 	"date_added": 1598232884324,
-	"last_scraped": 1598232902775,
+	"last_scraped": 1598233264554,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1598232884324
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1598232962775,
+	"scrape_ct": 12,
+	"next_scrape": 1598233324554,
 	"category": "fishie_tank",
-	"last_update": 1598232920345,
+	"last_update": 1598233264554,
 	"output": [
 		{
 			"args": {},
-			"calls": 10350,
+			"calls": 28345,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"w a c",
@@ -39,13 +34,31 @@
 				" from a ",
 				" a stack",
 				":\\n209C d"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"w a c",
+						" draw",
+						" play ",
+						" or\\n2",
+						"\\n209D ",
+						"209D pl",
+						"209C dr",
+						"y a card",
+						" from a ",
+						" a stack",
+						":\\n209C d"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1283,
+			"calls": 3272,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -53,6 +66,82 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"w a c",
+				" draw",
+				" play ",
+				" or\\n2",
+				"\\n209D ",
+				"209D pl",
+				"209C dr",
+				"y a card",
+				" from a ",
+				" a stack",
+				":\\n209C d"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"w a c",
+						" draw",
+						" play ",
+						" or\\n2",
+						"\\n209D ",
+						"209D pl",
+						"209C dr",
+						"y a card",
+						" from a ",
+						" a stack",
+						":\\n209C d"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 66260,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"w a c",
+				" draw",
+				" play ",
+				" or\\n2",
+				"\\n209D ",
+				"209D pl",
+				"209C dr",
+				"y a card",
+				" from a ",
+				" a stack",
+				":\\n209C d"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"w a c",
+						" draw",
+						" play ",
+						" or\\n2",
+						"\\n209D ",
+						"209D pl",
+						"209C dr",
+						"y a card",
+						" from a ",
+						" a stack",
+						":\\n209C d"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1598233134582,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"w a c",
 				" draw",
 				" play ",
