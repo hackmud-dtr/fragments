@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_369php.build_a_puzzle",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "uknown_369php.build_a_puzzle",
-	"sector": "HJG_3667",
+	"sector": "VNP_4988",
 	"sec_level": 3,
 	"date_added": 1590793827107,
-	"last_scraped": 1598308859516,
+	"last_scraped": 1598309879724,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1598309009134
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1598309842929,
+				"from": "VNP_4988",
+				"to": "HJG_3667"
+			}
+		]
 	],
 	"pl_output": "Cannot read property 'strings' of undefined",
-	"next_scrape": 1598390769526,
-	"updt": 1598308969716,
-	"edit": 4022
+	"next_scrape": 1598401905866,
+	"updt": 1598309166333,
+	"edit": 4023
 }
