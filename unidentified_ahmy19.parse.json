@@ -1,16 +1,62 @@
 {
 	"_id": "unidentified_ahmy19.parse",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "skip",
 	"script": "unidentified_ahmy19.parse",
 	"sector": "NGC_4509",
 	"sec_level": 4,
 	"date_added": 1598348430778,
-	"last_scraped": 0,
+	"last_scraped": 1598348612924,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1598348430778
+		}
+	],
+	"updt": 1598348468107,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1598348672924,
+	"category": "fishie_tank",
+	"last_update": 1598348631450,
+	"output": [
+		{
+			"args": {},
+			"calls": 39106,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"lil #",
+				"l ## p",
+				"bmakil",
+				"makilaa",
+				"S | bma",
+				"ELETE T"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 592,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"lil #",
+				"l ## p",
+				"bmakil",
+				"makilaa",
+				"S | bma",
+				"ELETE T"
+			]
 		}
 	]
 }
