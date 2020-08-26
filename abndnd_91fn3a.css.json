@@ -1,0 +1,73 @@
+{
+	"_id": "abndnd_91fn3a.css",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abndnd_91fn3a.css",
+	"sector": "K_9557",
+	"sec_level": 4,
+	"date_added": 1598467720789,
+	"last_scraped": 1598467811605,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1598467720789
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1598467871605,
+	"category": "fishie_tank",
+	"last_update": 1598467811605,
+	"output": [
+		{
+			"args": {},
+			"calls": 20647,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"selve",
+				"ental",
+				" They",
+				"procra",
+				" don't",
+				"e preva",
+				" done t"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1272,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"selve",
+				"ental",
+				" They",
+				"procra",
+				" don't",
+				"e preva",
+				" done t"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 21995,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"selve",
+				"ental",
+				" They",
+				"procra",
+				" don't",
+				"e preva",
+				" done t"
+			]
+		}
+	]
+}
