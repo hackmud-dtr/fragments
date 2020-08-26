@@ -1,26 +1,26 @@
 {
 	"_id": "anonymous_nylv4g.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anonymous_nylv4g.db",
 	"sector": "K_9557",
 	"sec_level": 4,
 	"date_added": 1598416714204,
-	"last_scraped": 1598416767212,
+	"last_scraped": 1598416969308,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1598416714204
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1598416827212,
+	"scrape_ct": 14,
+	"next_scrape": 1598417029308,
 	"category": "fishie_tank",
-	"last_update": 1598416767212,
+	"last_update": 1598416969308,
 	"output": [
 		{
 			"args": {},
-			"calls": 11047,
+			"calls": 54475,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" poss",
@@ -124,6 +124,16 @@
 				"sed to s",
 				"ats the "
 			]
+		}
+	],
+	"updt": 1598416892667,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
