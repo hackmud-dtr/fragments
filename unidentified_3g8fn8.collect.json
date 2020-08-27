@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_3g8fn8.collect",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unidentified_3g8fn8.collect",
 	"sector": "K_4057",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1591240001697
+		},
+		{
+			"type": "died",
+			"when": 1598488309204
 		}
 	],
 	"retry_args": [
@@ -34,6 +38,19 @@
 				"\\nSYST ",
 				"X93_CLS",
 				"CLST0X0"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"YST ER",
+						"F1_FIL",
+						"0X93_C",
+						"\\nSYST ",
+						"X93_CLS",
+						"CLST0X0"
+					]
+				}
 			]
 		},
 		{
@@ -48,6 +65,34 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"YST ER",
+				"F1_FIL",
+				"0X93_C",
+				"\\nSYST ",
+				"X93_CLS",
+				"CLST0X0"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"YST ER",
+						"F1_FIL",
+						"0X93_C",
+						"\\nSYST ",
+						"X93_CLS",
+						"CLST0X0"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1591240153431,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+			"frags": [
 				"YST ER",
 				"F1_FIL",
 				"0X93_C",
