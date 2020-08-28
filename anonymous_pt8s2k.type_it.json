@@ -1,0 +1,67 @@
+{
+	"_id": "anonymous_pt8s2k.type_it",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anonymous_pt8s2k.type_it",
+	"sector": "K_0724",
+	"sec_level": 4,
+	"date_added": 1598649080552,
+	"last_scraped": 1598649171375,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1598649080552
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1598649231375,
+	"category": "fishie_tank",
+	"last_update": 1598649171375,
+	"output": [
+		{
+			"args": {},
+			"calls": 12052,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"PROG ",
+				"ER er",
+				"ndari ",
+				"i imiy",
+				"jbhandar"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 856,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"PROG ",
+				"ER er",
+				"ndari ",
+				"i imiy",
+				"jbhandar"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 35800,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"PROG ",
+				"ER er",
+				"ndari ",
+				"i imiy",
+				"jbhandar"
+			]
+		}
+	]
+}
