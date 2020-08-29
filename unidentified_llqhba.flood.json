@@ -1,31 +1,36 @@
 {
 	"_id": "unidentified_llqhba.flood",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unidentified_llqhba.flood",
 	"sector": "K_0724",
 	"sec_level": 4,
 	"date_added": 1598647771989,
-	"last_scraped": 1598666656967,
+	"last_scraped": 1598667509822,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1598647771989
+		},
+		{
+			"type": "died",
+			"when": 1598667782632
 		}
 	],
-	"next_scrape": 1598709357155,
+	"next_scrape": 1598708630428,
 	"category": "plant_sim",
-	"last_update": 1598666656967,
+	"last_update": 1598667509822,
 	"output": [
 		{
 			"args": {},
-			"calls": 62944,
+			"calls": 64808,
 			"base": "c:\"sr6vc0\" d:\"<f l n s w>\"\n\n\n\n\n\n\n\n          ~~~~~~~~~~~~~~",
 			"fragments": [
 				"0011 01",
 				" 0011 0",
 				"100 0011",
 				"0100 001",
+				"00\\n0000",
 				"000\\n000",
 				"0000 010",
 				"0000 000",
@@ -34,7 +39,9 @@
 				"00 0100 ",
 				"00 0011 ",
 				"00 0000 ",
+				"0 0100 0",
 				"0 0000 0",
+				" 0000 01",
 				" 0000 00",
 				"\\n0000 00",
 				"0\\n0000 0",
@@ -68,6 +75,7 @@
 			]
 		}
 	],
-	"updt": 1598666089045,
-	"edit": 26
+	"updt": 1598667652059,
+	"edit": 28,
+	"dead_plant_sim": true
 }
