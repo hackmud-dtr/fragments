@@ -1,22 +1,22 @@
 {
 	"_id": "anonymous_ciu80t.scripts_lib",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anonymous_ciu80t.scripts_lib",
 	"sector": "VNP_1540",
 	"sec_level": 4,
 	"date_added": 1598672258231,
-	"last_scraped": 1598672729356,
+	"last_scraped": 1598672800321,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1598672258231
 		}
 	],
-	"scrape_ct": 11,
-	"next_scrape": 1598672789356,
+	"scrape_ct": 10,
+	"next_scrape": 1598672860321,
 	"category": "fishie_tank",
-	"last_update": 1598672729356,
+	"last_update": 1598672800321,
 	"output": [
 		{
 			"args": {},
@@ -54,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4605,
+			"calls": 7503,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -93,7 +93,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 68443,
+			"calls": 77646,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"e my ",
@@ -124,8 +124,8 @@
 			]
 		}
 	],
-	"updt": 1598672343436,
-	"edit": 1,
+	"updt": 1598672735964,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -140,14 +140,6 @@
 				"CB in a",
 				"ails.\\n2"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
