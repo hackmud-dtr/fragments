@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_jp3c22.hello_world",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "derelict_jp3c22.hello_world",
 	"sector": "K_1231",
 	"sec_level": 2,
@@ -23,10 +23,14 @@
 				"from": "K_1231",
 				"to": "K_9706"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1598713295819
+		}
 	],
 	"pl_output": "{\"ok\":true}",
 	"next_scrape": 1594252723714,
-	"updt": 1594163732394,
-	"edit": 2719
+	"updt": 1594165538816,
+	"edit": 2720
 }
