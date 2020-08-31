@@ -1,7 +1,7 @@
 {
 	"_id": "anon_k3uq1u.t3brute",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anon_k3uq1u.t3brute",
 	"sector": "K_8651",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "K_8651",
 				"to": "K_9063"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1598914877231
+		}
 	],
-	"updt": 1591137582010,
-	"edit": 1362,
+	"updt": 1591139158606,
+	"edit": 1363,
 	"pl_output": "{\"ok\":false,\"msg\":\"Expected { t: #s.<corp>.<lowsec_script>, username: \\\"<username>\\\"}\"}",
 	"next_scrape": 1591222694726
 }
