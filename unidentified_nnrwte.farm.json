@@ -1,20 +1,32 @@
 {
 	"_id": "unidentified_nnrwte.farm",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "unidentified_nnrwte.farm",
-	"sector": "SPC_0870",
+	"sector": "HJG_3101",
 	"sec_level": 1,
 	"date_added": 1591340178702,
-	"last_scraped": 1597806029154,
+	"last_scraped": 1598917379910,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1591340178702
-		}
+		},
+		{
+			"type": "died",
+			"when": 1598917325131
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1598917343274,
+				"from": "HJG_3101",
+				"to": "SPC_0870"
+			}
+		]
 	],
-	"updt": 1597805164627,
-	"edit": 3238,
+	"updt": 1597806144596,
+	"edit": 3239,
 	"pl_output": "grr",
-	"next_scrape": 1597885795118
+	"next_scrape": 1599000390846
 }
