@@ -1,19 +1,27 @@
 {
 	"_id": "unknown_oiav6b.accts_balance",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unknown_oiav6b.accts_balance",
 	"sector": "HJG_9003",
 	"sec_level": 4,
 	"date_added": 1598968710580,
-	"last_scraped": 1598969687533,
+	"last_scraped": 1598970483140,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1598968710580
+		},
+		{
+			"type": "died",
+			"when": 1598970483140
+		},
+		{
+			"type": "died",
+			"when": 1598970556740
 		}
 	],
-	"next_scrape": 1599012569376,
+	"next_scrape": 1599052882769,
 	"category": "dice_roller",
 	"last_update": 1598969687533,
 	"output": [
@@ -133,6 +141,7 @@
 			]
 		}
 	],
-	"updt": 1598969435405,
-	"edit": 4
+	"updt": 1598969824999,
+	"edit": 5,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_oiav6b.accts_balance: script doesn't exist\"}"
 }
