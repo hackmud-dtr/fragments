@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_ftomk1.config",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_ftomk1.config",
 	"sector": "K_1231",
 	"sec_level": 2,
@@ -23,10 +23,14 @@
 				"from": "K_1231",
 				"to": "HJG_9272"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1598972450477
+		}
 	],
-	"updt": 1592780861732,
-	"edit": 2007,
+	"updt": 1592783345442,
+	"edit": 2008,
 	"pl_output": "tbal is not defined",
 	"next_scrape": 1592871129217
 }

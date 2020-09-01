@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_ftomk1.render",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_ftomk1.render",
 	"sector": "VNP_7332",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "VNP_7332",
 				"to": "K_6888"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1598972250695
+		}
 	],
 	"pl_output": "Cannot read property 'format' of null",
 	"next_scrape": 1598245576671,
-	"updt": 1598160625868,
-	"edit": 5030
+	"updt": 1598161601941,
+	"edit": 5031
 }
