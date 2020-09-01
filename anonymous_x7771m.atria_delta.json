@@ -1,0 +1,64 @@
+{
+	"_id": "anonymous_x7771m.atria_delta",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anonymous_x7771m.atria_delta",
+	"sector": "HJG_0210",
+	"sec_level": 4,
+	"date_added": 1598926478948,
+	"last_scraped": 1598926515099,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1598926478948
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1598926575099,
+	"category": "fishie_tank",
+	"last_update": 1598926569221,
+	"output": [
+		{
+			"args": {},
+			"calls": 19290,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"efens",
+				" or of",
+				"ons\\n21",
+				"e defen",
+				"ke multi",
+				"e\\n213A ",
+				"213C wit",
+				"ive\\n213A"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2632,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"efens",
+				" or of",
+				"ons\\n21",
+				"e defen",
+				"ke multi",
+				"e\\n213A ",
+				"213C wit",
+				"ive\\n213A"
+			]
+		}
+	]
+}
