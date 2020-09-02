@@ -1,27 +1,22 @@
 {
 	"_id": "uknown_xcns2s.bot_brain",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "uknown_xcns2s.bot_brain",
 	"sector": "NGC_3998",
 	"sec_level": 4,
 	"date_added": 1599052039061,
-	"last_scraped": 1599052091125,
+	"last_scraped": 1599052832571,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1599052039061
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 18,
-	"next_scrape": 1599052151125,
+	"next_scrape": 1599134848954,
 	"category": "risk_factor",
-	"last_update": 1599052091125,
+	"last_update": 1599052815540,
 	"output": [
 		{
 			"args": {},
@@ -41,9 +36,10 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 264,
+			"calls": 396,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
+				"4",
 				"s to ",
 				"sons t",
 				"how th",
@@ -52,6 +48,17 @@
 				"e helpfu",
 				"bout how"
 			]
+		}
+	],
+	"updt": 1599052293813,
+	"edit": 2,
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
 		}
 	]
 }
