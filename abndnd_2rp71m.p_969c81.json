@@ -1,22 +1,22 @@
 {
 	"_id": "abndnd_2rp71m.p_969c81",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abndnd_2rp71m.p_969c81",
 	"sector": "SPC_7632",
 	"sec_level": 4,
 	"date_added": 1599011467488,
-	"last_scraped": 1599011648785,
+	"last_scraped": 1599011722094,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1599011467488
 		}
 	],
-	"scrape_ct": 18,
-	"next_scrape": 1599011708785,
+	"scrape_ct": 16,
+	"next_scrape": 1599011782094,
 	"category": "fishie_tank",
-	"last_update": 1599011648785,
+	"last_update": 1599011722094,
 	"output": [
 		{
 			"args": {},
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 913,
+			"calls": 2795,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -89,7 +89,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 10083,
+			"calls": 29168,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"st. Pl",
@@ -133,12 +133,6 @@
 			]
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1599011654601,
+	"edit": 1
 }
