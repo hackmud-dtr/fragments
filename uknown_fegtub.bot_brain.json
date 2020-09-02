@@ -1,16 +1,81 @@
 {
 	"_id": "uknown_fegtub.bot_brain",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "skip",
 	"script": "uknown_fegtub.bot_brain",
 	"sector": "NGC_3998",
 	"sec_level": 4,
 	"date_added": 1599086294750,
-	"last_scraped": 0,
+	"last_scraped": 1599086384840,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1599086294750
+		}
+	],
+	"updt": 1599086306627,
+	"edit": 1,
+	"scrape_ct": 17,
+	"next_scrape": 1599086444840,
+	"category": "fishie_tank",
+	"last_update": 1599086384840,
+	"output": [
+		{
+			"args": {},
+			"calls": 11741,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" natio",
+				"t a sig",
+				"profess",
+				"n of th",
+				"hic att",
+				"ant por",
+				" sugges",
+				"chment v",
+				" vectors"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1230,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" natio",
+				"t a sig",
+				"profess",
+				"n of th",
+				"hic att",
+				"ant por",
+				" sugges",
+				"chment v",
+				" vectors"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 24915,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" natio",
+				"t a sig",
+				"profess",
+				"n of th",
+				"hic att",
+				"ant por",
+				" sugges",
+				"chment v",
+				" vectors"
+			]
 		}
 	]
 }
