@@ -1,22 +1,22 @@
 {
 	"_id": "uknown_323il8.random",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "uknown_323il8.random",
 	"sector": "HJG_0438",
 	"sec_level": 4,
 	"date_added": 1599106870675,
-	"last_scraped": 1599107796738,
+	"last_scraped": 1599107851662,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1599106870675
 		}
 	],
-	"scrape_ct": 17,
-	"next_scrape": 1599107856738,
+	"scrape_ct": 15,
+	"next_scrape": 1599189513753,
 	"category": "risk_factor",
-	"last_update": 1599107796738,
+	"last_update": 1599107833242,
 	"output": [
 		{
 			"args": {},
@@ -48,7 +48,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 388,
+			"calls": 641,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"3",
@@ -91,12 +91,15 @@
 			]
 		}
 	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1599107810162,
+	"edit": 2,
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}
-	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1599107029870,
-	"edit": 1
+	]
 }
