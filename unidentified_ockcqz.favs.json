@@ -1,26 +1,30 @@
 {
 	"_id": "unidentified_ockcqz.favs",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unidentified_ockcqz.favs",
 	"sector": "K_6346",
 	"sec_level": 4,
 	"date_added": 1590219098147,
-	"last_scraped": 1590219169814,
+	"last_scraped": 1590219586768,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1590219098147
+		},
+		{
+			"type": "died",
+			"when": 1599420392226
 		}
 	],
-	"scrape_ct": 18,
-	"next_scrape": 1590219229814,
+	"scrape_ct": 10,
+	"next_scrape": 1590219646768,
 	"category": "fishie_tank",
-	"last_update": 1590219152259,
+	"last_update": 1590219586768,
 	"output": [
 		{
 			"args": {},
-			"calls": 10948,
+			"calls": 41511,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ttee ",
@@ -32,13 +36,39 @@
 				"erator ",
 				" service",
 				" committ"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ttee ",
+						"cutiv",
+						"ain of",
+						"NGAPOR",
+						"line fo",
+						" service",
+						" committ"
+					]
+				},
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"ecuti"
+					]
+				},
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"erator "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1244,
+			"calls": 4986,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -55,13 +85,39 @@
 				"erator ",
 				" service",
 				" committ"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ttee ",
+						"cutiv",
+						"ain of",
+						"NGAPOR",
+						"line fo",
+						" service",
+						" committ"
+					]
+				},
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"ecuti"
+					]
+				},
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"erator "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 6965,
+			"calls": 77199,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ttee ",
@@ -73,7 +129,61 @@
 				"erator ",
 				" service",
 				" committ"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ttee ",
+						"cutiv",
+						"ain of",
+						"NGAPOR",
+						"line fo",
+						" service",
+						" committ"
+					]
+				},
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"ecuti"
+					]
+				},
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"erator "
+					]
+				}
 			]
 		}
-	]
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"ttee ",
+				"cutiv",
+				"ain of",
+				"NGAPOR",
+				"line fo",
+				" service",
+				" committ"
+			]
+		},
+		{
+			"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+			"frags": [
+				"ecuti"
+			]
+		},
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				"erator "
+			]
+		}
+	],
+	"updt": 1590219620026,
+	"edit": 2
 }
