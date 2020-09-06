@@ -1,20 +1,75 @@
 {
 	"_id": "abndnd_urn96h.api",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "fresh",
 	"script": "abndnd_urn96h.api",
-	"sector": "SPC_0413",
+	"sector": "HJG_1673",
 	"sec_level": 4,
 	"date_added": 1594689271464,
-	"last_scraped": 1597354275819,
+	"last_scraped": 1599368717463,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1594689271464
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1599368157079,
+				"from": "HJG_1673",
+				"to": "SPC_0413"
+			}
+		]
 	],
 	"pl_output": "`UThis script is designed to house constants and huge strings of text for` `TCosmos``U.  You're more than welcome to use it to try and datamine by means of hunting and pecking, but you're probably not going to have nearly as much fun as you would by simply playing` `TCosmos` `Uinstead.  In any case, I admire your curiosity!  Best wishes` `T<3`",
-	"next_scrape": 1597434442781,
-	"updt": 1597351569950,
-	"edit": 1339
+	"next_scrape": 1599368777463,
+	"updt": 1599368529571,
+	"edit": 1342,
+	"scrape_ct": 8,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1599368717463,
+	"output": [
+		{
+			"args": {},
+			"calls": 1041575,
+			"base": "`UThis script is designed to house constants and huge strings of text for` `TCosmos``U.  You're more than welcome to use it to try and datamine by means of hunting and pecking, but you're probably not going to have nearly as much fun as you would by simply playing` `TCosmos` `Uinstead.  In any case, I admire your curiosity!  Best wishes` `T<3`",
+			"fragments": [
+				"rocess",
+				"ndex p",
+				"i | SU",
+				"handar",
+				"andari",
+				"J: Inde",
+				" proces"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"rocess",
+						"ndex p",
+						"i | SU",
+						"handar",
+						"andari",
+						"J: Inde",
+						" proces"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "Passphrase",
+			"frags": [
+				"rocess",
+				"ndex p",
+				"i | SU",
+				"handar",
+				"andari",
+				"J: Inde",
+				" proces"
+			]
+		}
+	]
 }
