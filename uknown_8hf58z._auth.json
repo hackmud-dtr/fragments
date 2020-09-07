@@ -1,16 +1,87 @@
 {
 	"_id": "uknown_8hf58z._auth",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "skip",
 	"script": "uknown_8hf58z._auth",
 	"sector": "VNP_5719",
 	"sec_level": 4,
 	"date_added": 1599437674101,
-	"last_scraped": 0,
+	"last_scraped": 1599437800216,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1599437674101
+		}
+	],
+	"updt": 1599437687338,
+	"edit": 1,
+	"scrape_ct": 17,
+	"next_scrape": 1599437860216,
+	"category": "fishie_tank",
+	"last_update": 1599437800216,
+	"output": [
+		{
+			"args": {},
+			"calls": 43350,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"l dri",
+				"e. ##",
+				"s. It'",
+				"kay, o",
+				"in my p",
+				"he team",
+				"It's in",
+				", okay.",
+				" i'll t",
+				"# okay, ",
+				" persona"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1422,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"l dri",
+				"e. ##",
+				"s. It'",
+				"kay, o",
+				"in my p",
+				"he team",
+				"It's in",
+				", okay.",
+				" i'll t",
+				"# okay, ",
+				" persona"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 7507,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"l dri",
+				"e. ##",
+				"s. It'",
+				"kay, o",
+				"in my p",
+				"he team",
+				"It's in",
+				", okay.",
+				" i'll t",
+				"# okay, ",
+				" persona"
+			]
 		}
 	]
 }

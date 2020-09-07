@@ -1,33 +1,28 @@
 {
 	"_id": "uknown_ibycj6.wahrthata",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "uknown_ibycj6.wahrthata",
 	"sector": "VNP_5719",
 	"sec_level": 4,
 	"date_added": 1599437435035,
-	"last_scraped": 1599437637325,
+	"last_scraped": 1599437909995,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1599437435035
 		}
 	],
-	"updt": 1599437492033,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1599437697325,
+	"updt": 1599437883259,
+	"edit": 3,
+	"scrape_ct": 15,
+	"next_scrape": 1599437969995,
 	"category": "fishie_tank",
-	"last_update": 1599437674101,
+	"last_update": 1599437909995,
 	"output": [
 		{
 			"args": {},
-			"calls": 9532,
+			"calls": 43635,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" | SU",
@@ -37,13 +32,27 @@
 				"ies mas",
 				"DY I th",
 				"er threa"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						" | SU",
+						" BODY",
+						"nk the",
+						" Prior",
+						"ies mas",
+						"DY I th",
+						"er threa"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2034,
+			"calls": 4497,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -51,6 +60,64 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				" | SU",
+				" BODY",
+				"nk the",
+				" Prior",
+				"ies mas",
+				"DY I th",
+				"er threa"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						" | SU",
+						" BODY",
+						"nk the",
+						" Prior",
+						"ies mas",
+						"DY I th",
+						"er threa"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 38004,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" | SU",
+				" BODY",
+				"nk the",
+				" Prior",
+				"ies mas",
+				"DY I th",
+				"er threa"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						" | SU",
+						" BODY",
+						"nk the",
+						" Prior",
+						"ies mas",
+						"DY I th",
+						"er threa"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+			"frags": [
 				" | SU",
 				" BODY",
 				"nk the",
