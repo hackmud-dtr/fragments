@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_38ibpy.xfer",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "abandoned_38ibpy.xfer",
-	"sector": "VNP_8870",
+	"sector": "K_9472",
 	"sec_level": 4,
 	"date_added": 1595658582996,
-	"last_scraped": 1599686880213,
+	"last_scraped": 1599688530349,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1599686988845
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1599687713898,
+				"from": "K_9472",
+				"to": "VNP_8870"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false}",
-	"next_scrape": 1599766485232,
-	"updt": 1599686445794,
-	"edit": 3558
+	"next_scrape": 1599774501013,
+	"updt": 1599687809860,
+	"edit": 3560
 }
