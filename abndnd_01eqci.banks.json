@@ -1,26 +1,29 @@
 {
 	"_id": "abndnd_01eqci.banks",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abndnd_01eqci.banks",
 	"sector": "NGC_8888",
 	"sec_level": 4,
 	"date_added": 1590755304302,
-	"last_scraped": 1590755449634,
+	"last_scraped": 1590758562997,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1590755304302
+		},
+		{
+			"type": "died",
+			"when": 1599645817881
 		}
 	],
-	"scrape_ct": 17,
-	"next_scrape": 1590755509634,
+	"next_scrape": 1590798409317,
 	"category": "dice_roller",
-	"last_update": 1590755449634,
+	"last_update": 1590758562997,
 	"output": [
 		{
 			"args": {},
-			"calls": 40708,
+			"calls": 289347,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
 				"nd to",
@@ -60,5 +63,7 @@
 				"CODE fol"
 			]
 		}
-	]
+	],
+	"updt": 1590758619569,
+	"edit": 7
 }
