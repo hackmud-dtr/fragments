@@ -1,0 +1,76 @@
+{
+	"_id": "unidentified_0w4dis.restock",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unidentified_0w4dis.restock",
+	"sector": "K_9472",
+	"sec_level": 4,
+	"date_added": 1599682437907,
+	"last_scraped": 1599682529484,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1599682437907
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1599682589484,
+	"category": "fishie_tank",
+	"last_update": 1599682529484,
+	"output": [
+		{
+			"args": {},
+			"calls": 17355,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"s our",
+				"n she",
+				" Iona,",
+				"our pri",
+				"hey're ",
+				" prison",
+				"ere else",
+				" don't t"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1010,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"s our",
+				"n she",
+				" Iona,",
+				"our pri",
+				"hey're ",
+				" prison",
+				"ere else",
+				" don't t"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 27540,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"s our",
+				"n she",
+				" Iona,",
+				"our pri",
+				"hey're ",
+				" prison",
+				"ere else",
+				" don't t"
+			]
+		}
+	]
+}
