@@ -1,9 +1,9 @@
 {
 	"_id": "derelict_3nutb4.t1_cracker",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "skip",
 	"script": "derelict_3nutb4.t1_cracker",
-	"sector": "HJG_3101",
+	"sector": "K_3346",
 	"sec_level": 1,
 	"date_added": 1596485685414,
 	"last_scraped": 0,
@@ -15,8 +15,16 @@
 		{
 			"type": "died",
 			"when": 1599779013063
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1599779682517,
+				"from": "K_3346",
+				"to": "HJG_3101"
+			}
+		]
 	],
-	"updt": 1596485846151,
-	"edit": 1
+	"updt": 1599779062931,
+	"edit": 2
 }
