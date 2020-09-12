@@ -1,19 +1,27 @@
 {
 	"_id": "abndnd_12awh2.snaxfer",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abndnd_12awh2.snaxfer",
 	"sector": "K_4497",
 	"sec_level": 4,
 	"date_added": 1599893649816,
-	"last_scraped": 1599894606964,
+	"last_scraped": 1599895389170,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1599893649816
+		},
+		{
+			"type": "died",
+			"when": 1599895389170
+		},
+		{
+			"type": "died",
+			"when": 1599895715391
 		}
 	],
-	"next_scrape": 1599936528423,
+	"next_scrape": 1599976680325,
 	"category": "dice_roller",
 	"last_update": 1599894606964,
 	"output": [
@@ -91,6 +99,7 @@
 			]
 		}
 	],
-	"updt": 1599894359887,
-	"edit": 4
+	"updt": 1599895532725,
+	"edit": 6,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_12awh2.snaxfer: script doesn't exist\"}"
 }
