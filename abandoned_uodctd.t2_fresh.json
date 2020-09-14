@@ -1,0 +1,82 @@
+{
+	"_id": "abandoned_uodctd.t2_fresh",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abandoned_uodctd.t2_fresh",
+	"sector": "HJG_7602",
+	"sec_level": 4,
+	"date_added": 1600081350375,
+	"last_scraped": 1600081458332,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1600081350375
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1600081518332,
+	"category": "fishie_tank",
+	"last_update": 1600081458332,
+	"output": [
+		{
+			"args": {},
+			"calls": 10410,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"st of",
+				"ocati",
+				"most ",
+				" cost ",
+				"st New ",
+				"ustonite",
+				"nites th",
+				"ation. T",
+				" years o",
+				" New Hou"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1212,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"st of",
+				"ocati",
+				"most ",
+				" cost ",
+				"st New ",
+				"ustonite",
+				"nites th",
+				"ation. T",
+				" years o",
+				" New Hou"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 29384,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"st of",
+				"ocati",
+				"most ",
+				" cost ",
+				"st New ",
+				"ustonite",
+				"nites th",
+				"ation. T",
+				" years o",
+				" New Hou"
+			]
+		}
+	]
+}
