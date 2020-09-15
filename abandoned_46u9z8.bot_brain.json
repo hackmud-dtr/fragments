@@ -1,0 +1,70 @@
+{
+	"_id": "abandoned_46u9z8.bot_brain",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abandoned_46u9z8.bot_brain",
+	"sector": "K_6981",
+	"sec_level": 4,
+	"date_added": 1600194915181,
+	"last_scraped": 1600195006048,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1600194915181
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1600195066048,
+	"category": "fishie_tank",
+	"last_update": 1600195006048,
+	"output": [
+		{
+			"args": {},
+			"calls": 10758,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"OUNCE ",
+				"ter com",
+				"ender B",
+				"nder BOU",
+				"at\\n2178",
+				"t\\n2178 D"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1551,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"OUNCE ",
+				"ter com",
+				"ender B",
+				"nder BOU",
+				"at\\n2178",
+				"t\\n2178 D"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 23799,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"OUNCE ",
+				"ter com",
+				"ender B",
+				"nder BOU",
+				"at\\n2178",
+				"t\\n2178 D"
+			]
+		}
+	]
+}
