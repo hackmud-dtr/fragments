@@ -1,26 +1,26 @@
 {
 	"_id": "anon_sk78mn.value",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anon_sk78mn.value",
 	"sector": "K_6981",
 	"sec_level": 4,
 	"date_added": 1600273414903,
-	"last_scraped": 1600273488931,
+	"last_scraped": 1600273704364,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1600273414903
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1600273548931,
+	"scrape_ct": 14,
+	"next_scrape": 1600273764364,
 	"category": "fishie_tank",
-	"last_update": 1600273488931,
+	"last_update": 1600273704364,
 	"output": [
 		{
 			"args": {},
-			"calls": 15291,
+			"calls": 55767,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"dogs_",
@@ -124,6 +124,16 @@
 				" like c",
 				"have a c"
 			]
+		}
+	],
+	"updt": 1600273586731,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
