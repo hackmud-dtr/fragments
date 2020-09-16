@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_v3helg.test3",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unknown_v3helg.test3",
 	"sector": "K_6981",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1600230206915
+		},
+		{
+			"type": "died",
+			"when": 1600233106335
 		}
 	],
-	"updt": 1600231395092,
-	"edit": 6,
+	"updt": 1600231591226,
+	"edit": 7,
 	"next_scrape": 1600277733395,
 	"category": "plant_sim",
 	"last_update": 1600231548182,
@@ -81,5 +85,6 @@
 				" PROG ER"
 			]
 		}
-	]
+	],
+	"dead_plant_sim": true
 }
