@@ -1,26 +1,29 @@
 {
 	"_id": "unidentified_sxbvfx.deposit",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unidentified_sxbvfx.deposit",
 	"sector": "K_6981",
 	"sec_level": 4,
 	"date_added": 1600322674346,
-	"last_scraped": 1600323198456,
+	"last_scraped": 1600323361613,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1600322674346
+		},
+		{
+			"type": "died",
+			"when": 1600323995614
 		}
 	],
-	"scrape_ct": 4,
-	"next_scrape": 1600323258456,
+	"next_scrape": 1600365925940,
 	"category": "clicker",
-	"last_update": 1600323198456,
+	"last_update": 1600323361613,
 	"output": [
 		{
 			"args": {},
-			"calls": 68229,
+			"calls": 81775,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"orld ",
@@ -128,7 +131,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 63399,
+			"calls": 90825,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"orld ",
@@ -422,6 +425,11 @@
 			]
 		}
 	],
-	"updt": 1600323029965,
-	"edit": 2
+	"updt": 1600323420357,
+	"edit": 4,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
