@@ -1,19 +1,23 @@
 {
 	"_id": "anon_beoeji.t2_cyberdine",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "anon_beoeji.t2_cyberdine",
 	"sector": "K_6981",
 	"sec_level": 4,
 	"date_added": 1600349836745,
-	"last_scraped": 1600350989520,
+	"last_scraped": 1600351497527,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1600349836745
+		},
+		{
+			"type": "died",
+			"when": 1600351497527
 		}
 	],
-	"next_scrape": 1600396370355,
+	"next_scrape": 1600440374578,
 	"category": "plant_sim",
 	"last_update": 1600350989520,
 	"output": [
@@ -94,6 +98,8 @@
 			]
 		}
 	],
-	"updt": 1600350779673,
-	"edit": 5
+	"updt": 1600351171293,
+	"edit": 6,
+	"dead_plant_sim": true,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_beoeji.t2_cyberdine: script doesn't exist\"}"
 }
