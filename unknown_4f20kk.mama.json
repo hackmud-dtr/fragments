@@ -1,16 +1,32 @@
 {
 	"_id": "unknown_4f20kk.mama",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "unknown_4f20kk.mama",
-	"sector": "NGC_7025",
+	"sector": "K_7911",
 	"sec_level": 0,
 	"date_added": 1595320460994,
-	"last_scraped": 0,
+	"last_scraped": 1600357825767,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1595320460994
-		}
-	]
+		},
+		{
+			"type": "died",
+			"when": 1600357586445
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1600357806487,
+				"from": "K_7911",
+				"to": "NGC_7025"
+			}
+		]
+	],
+	"updt": 1600357614231,
+	"edit": 2,
+	"pl_output": "Unexpected token u in JSON at position 0",
+	"next_scrape": 1600448909526
 }
