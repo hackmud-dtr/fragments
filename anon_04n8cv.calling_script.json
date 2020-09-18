@@ -1,7 +1,7 @@
 {
 	"_id": "anon_04n8cv.calling_script",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_04n8cv.calling_script",
 	"sector": "HJG_7602",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1600081350375
+		},
+		{
+			"type": "died",
+			"when": 1600400273406
 		}
 	],
 	"retry_args": [
@@ -33,6 +37,18 @@
 				"erhaps ",
 				" - intr",
 				" have br"
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"uld 'wa",
+						"ey don'",
+						"erhaps ",
+						" - intr",
+						" have br"
+					]
+				}
 			]
 		},
 		{
@@ -47,9 +63,33 @@
 				"erhaps ",
 				" - intr",
 				" have br"
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"uld 'wa",
+						"ey don'",
+						"erhaps ",
+						" - intr",
+						" have br"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1600081515488,
-	"edit": 1
+	"updt": 1600081711291,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+			"frags": [
+				"uld 'wa",
+				"ey don'",
+				"erhaps ",
+				" - intr",
+				" have br"
+			]
+		}
+	]
 }
