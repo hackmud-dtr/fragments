@@ -1,0 +1,150 @@
+{
+	"_id": "abndnd_35s9eo.t2_scrape",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abndnd_35s9eo.t2_scrape",
+	"sector": "K_6981",
+	"sec_level": 4,
+	"date_added": 1600417877806,
+	"last_scraped": 1600418056669,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1600417877806
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1600418116669,
+	"category": "fishie_tank",
+	"last_update": 1600418111960,
+	"output": [
+		{
+			"args": {},
+			"calls": 37821,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"SYST ",
+				"ST0X3",
+				"R | U",
+				"43B_F",
+				"E ERRO",
+				"OR | NE",
+				"44_CLST",
+				" fbreto",
+				"B_FILE0X"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"SYST ",
+						"ST0X3",
+						"R | U",
+						"43B_F",
+						"E ERRO",
+						"OR | NE",
+						"44_CLST",
+						" fbreto",
+						"B_FILE0X"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4818,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"SYST ",
+				"ST0X3",
+				"R | U",
+				"43B_F",
+				"E ERRO",
+				"OR | NE",
+				"44_CLST",
+				" fbreto",
+				"B_FILE0X"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"SYST ",
+						"ST0X3",
+						"R | U",
+						"43B_F",
+						"E ERRO",
+						"OR | NE",
+						"44_CLST",
+						" fbreto",
+						"B_FILE0X"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 17217,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"SYST ",
+				"ST0X3",
+				"R | U",
+				"43B_F",
+				"E ERRO",
+				"OR | NE",
+				"44_CLST",
+				" fbreto",
+				"B_FILE0X"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"SYST ",
+						"ST0X3",
+						"R | U",
+						"43B_F",
+						"E ERRO",
+						"OR | NE",
+						"44_CLST",
+						" fbreto",
+						"B_FILE0X"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"SYST ",
+				"ST0X3",
+				"R | U",
+				"43B_F",
+				"E ERRO",
+				"OR | NE",
+				"44_CLST",
+				" fbreto",
+				"B_FILE0X"
+			]
+		}
+	],
+	"updt": 1600417984477,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
