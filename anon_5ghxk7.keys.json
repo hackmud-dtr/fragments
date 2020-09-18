@@ -1,26 +1,26 @@
 {
 	"_id": "anon_5ghxk7.keys",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anon_5ghxk7.keys",
 	"sector": "K_6981",
 	"sec_level": 4,
 	"date_added": 1600399347660,
-	"last_scraped": 1600399419922,
+	"last_scraped": 1600399658152,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1600399347660
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1600399479922,
+	"scrape_ct": 13,
+	"next_scrape": 1600399718152,
 	"category": "fishie_tank",
-	"last_update": 1600399419922,
+	"last_update": 1600399658152,
 	"output": [
 		{
 			"args": {},
-			"calls": 16983,
+			"calls": 51612,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"stren",
@@ -29,6 +29,19 @@
 				"this va",
 				"e damag",
 				"0ED valu"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"stren",
+						"20EB ",
+						"his is",
+						"this va",
+						"e damag",
+						"0ED valu"
+					]
+				}
 			]
 		},
 		{
@@ -49,13 +62,26 @@
 				"this va",
 				"e damag",
 				"0ED valu"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"stren",
+						"20EB ",
+						"his is",
+						"this va",
+						"e damag",
+						"0ED valu"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 14802,
+			"calls": 29810,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"stren",
@@ -64,7 +90,43 @@
 				"this va",
 				"e damag",
 				"0ED valu"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"stren",
+						"20EB ",
+						"his is",
+						"this va",
+						"e damag",
+						"0ED valu"
+					]
+				}
 			]
+		}
+	],
+	"updt": 1600399622354,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"stren",
+				"20EB ",
+				"his is",
+				"this va",
+				"e damag",
+				"0ED valu"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
