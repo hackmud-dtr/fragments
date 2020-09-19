@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_61ncu4.library",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "fresh",
 	"script": "uknown_61ncu4.library",
-	"sector": "HJG_5811",
+	"sector": "K_6981",
 	"sec_level": 4,
 	"date_added": 1596886606928,
-	"last_scraped": 1600487563428,
+	"last_scraped": 1600489483579,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,90 @@
 		{
 			"type": "died",
 			"when": 1600487925856
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1600488721099,
+				"from": "K_6981",
+				"to": "HJG_5811"
+			}
+		]
 	],
 	"pl_output": "please specify the `Nname` of a script",
-	"next_scrape": 1600568252901,
-	"updt": 1600487741564,
-	"edit": 4313
+	"next_scrape": 1600489543579,
+	"updt": 1600489305328,
+	"edit": 4316,
+	"scrape_ct": 4,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1600489483579,
+	"output": [
+		{
+			"args": {},
+			"calls": 224273,
+			"base": "please specify the `Nname` of a script",
+			"fragments": [
+				"nce on",
+				" conse",
+				"their r",
+				"on Che-",
+				"nd proc",
+				"sequence",
+				"disrupti",
+				"as a con"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"nce on",
+						"their r",
+						"on Che-",
+						"nd proc",
+						"disrupti",
+						"as a con"
+					]
+				},
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						" conse",
+						"sequence"
+					]
+				},
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						" conse"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"nce on",
+				"their r",
+				"on Che-",
+				"nd proc",
+				"disrupti",
+				"as a con"
+			]
+		},
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
+				" conse",
+				"sequence"
+			]
+		},
+		{
+			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+			"frags": [
+				" conse"
+			]
+		}
+	]
 }
