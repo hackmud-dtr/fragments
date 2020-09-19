@@ -1,25 +1,29 @@
 {
 	"_id": "abndnd_jhgqo7.tn",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abndnd_jhgqo7.tn",
 	"sector": "VNP_1173",
 	"sec_level": 4,
 	"date_added": 1593064548859,
-	"last_scraped": 1593276209191,
+	"last_scraped": 1593281568354,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1593064548859
+		},
+		{
+			"type": "died",
+			"when": 1600473958515
 		}
 	],
-	"next_scrape": 1593318355646,
+	"next_scrape": 1593325367008,
 	"category": "coin_flipper",
-	"last_update": 1593276209191,
+	"last_update": 1593281568354,
 	"output": [
 		{
 			"args": {},
-			"calls": 1474021,
+			"calls": 1531628,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"ts 3.",
@@ -60,6 +64,6 @@
 			]
 		}
 	],
-	"updt": 1593273989322,
-	"edit": 82
+	"updt": 1593282110580,
+	"edit": 85
 }
