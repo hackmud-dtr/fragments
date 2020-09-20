@@ -1,31 +1,25 @@
 {
 	"_id": "anon_f1cji2.at",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anon_f1cji2.at",
 	"sector": "SPC_9704",
 	"sec_level": 4,
 	"date_added": 1600620941957,
-	"last_scraped": 1600620958762,
+	"last_scraped": 1600621901672,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1600620941957
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1600621018762,
+	"next_scrape": 1600666611567,
 	"category": "fishie_tank",
-	"last_update": 1600620994520,
+	"last_update": 1600621919657,
 	"output": [
 		{
 			"args": {},
-			"calls": 16610,
+			"calls": 129458,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ty pl",
@@ -40,13 +34,32 @@
 				"AI desi",
 				" like a",
 				"gy. ## I"
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"ty pl",
+						"I tha",
+						"design",
+						"thinks ",
+						"ough to",
+						"ology. ",
+						"ng an A",
+						"esigner",
+						"Imagine",
+						"AI desi",
+						" like a",
+						"gy. ## I"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2114,
+			"calls": 9442,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -66,7 +79,92 @@
 				"AI desi",
 				" like a",
 				"gy. ## I"
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"ty pl",
+						"I tha",
+						"design",
+						"thinks ",
+						"ough to",
+						"ology. ",
+						"ng an A",
+						"esigner",
+						"Imagine",
+						"AI desi",
+						" like a",
+						"gy. ## I"
+					]
+				}
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 139855,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ty pl",
+				"I tha",
+				"design",
+				"thinks ",
+				"ough to",
+				"ology. ",
+				"ng an A",
+				"esigner",
+				"Imagine",
+				"AI desi",
+				" like a",
+				"gy. ## I"
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"ty pl",
+						"I tha",
+						"design",
+						"thinks ",
+						"ough to",
+						"ology. ",
+						"ng an A",
+						"esigner",
+						"Imagine",
+						"AI desi",
+						" like a",
+						"gy. ## I"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1600621780646,
+	"edit": 4,
+	"identified": [
+		{
+			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+			"frags": [
+				"ty pl",
+				"I tha",
+				"design",
+				"thinks ",
+				"ough to",
+				"ology. ",
+				"ng an A",
+				"esigner",
+				"Imagine",
+				"AI desi",
+				" like a",
+				"gy. ## I"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
