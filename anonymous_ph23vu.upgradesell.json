@@ -1,20 +1,32 @@
 {
 	"_id": "anonymous_ph23vu.upgradesell",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anonymous_ph23vu.upgradesell",
-	"sector": "HJG_3101",
+	"sector": "K_3346",
 	"sec_level": 1,
 	"date_added": 1597706325696,
-	"last_scraped": 1597730014219,
+	"last_scraped": 1600601445784,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1597706325696
-		}
+		},
+		{
+			"type": "died",
+			"when": 1600601373597
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1600601408969,
+				"from": "K_3346",
+				"to": "HJG_3101"
+			}
+		]
 	],
-	"updt": 1597729310219,
-	"edit": 28,
+	"updt": 1597730092435,
+	"edit": 29,
 	"pl_output": "Cannot read property 'i' of undefined",
-	"next_scrape": 1597817798110
+	"next_scrape": 1600684301214
 }

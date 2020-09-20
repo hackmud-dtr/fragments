@@ -1,16 +1,32 @@
 {
 	"_id": "anonymous_ph23vu.upgradecull",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "player",
 	"script": "anonymous_ph23vu.upgradecull",
-	"sector": "HJG_3101",
+	"sector": "K_3346",
 	"sec_level": 1,
 	"date_added": 1597706325696,
-	"last_scraped": 0,
+	"last_scraped": 1600601426968,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1597706325696
-		}
-	]
+		},
+		{
+			"type": "died",
+			"when": 1600601373597
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1600601408969,
+				"from": "K_3346",
+				"to": "HJG_3101"
+			}
+		]
+	],
+	"updt": 1597706437712,
+	"edit": 1,
+	"pl_output": "Unexpected token u in JSON at position 0",
+	"next_scrape": 1600686525053
 }
