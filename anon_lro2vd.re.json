@@ -1,0 +1,51 @@
+{
+	"_id": "anon_lro2vd.re",
+	"type": "fragment",
+	"mode": "timeout",
+	"script": "anon_lro2vd.re",
+	"sector": "SPC_9704",
+	"sec_level": 4,
+	"date_added": 1600670723415,
+	"last_scraped": 1600670812982,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1600670723415
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1600758904398,
+	"category": "risk_factor",
+	"last_update": 1600670812982,
+	"output": [
+		{
+			"args": {},
+			"calls": 2589,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"W ERR",
+				"ETW ER",
+				" ERROR ",
+				" | NETW "
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 308,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"W ERR",
+				"ETW ER",
+				" ERROR ",
+				" | NETW "
+			]
+		}
+	]
+}
