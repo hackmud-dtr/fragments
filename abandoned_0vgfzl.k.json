@@ -1,0 +1,141 @@
+{
+	"_id": "abandoned_0vgfzl.k",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abandoned_0vgfzl.k",
+	"sector": "HJG_9960",
+	"sec_level": 4,
+	"date_added": 1600674945881,
+	"last_scraped": 1600675108021,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1600674945881
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1600675168021,
+	"category": "fishie_tank",
+	"last_update": 1600675125215,
+	"output": [
+		{
+			"args": {},
+			"calls": 27967,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"your ",
+				"ps an",
+				" to m",
+				" - th",
+				" ready",
+				" this l",
+				"nd get r",
+				"his lull"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"your ",
+						"ps an",
+						" to m",
+						" - th",
+						" ready",
+						" this l",
+						"nd get r",
+						"his lull"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3235,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"your ",
+				"ps an",
+				" to m",
+				" - th",
+				" ready",
+				" this l",
+				"nd get r",
+				"his lull"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"your ",
+						"ps an",
+						" to m",
+						" - th",
+						" ready",
+						" this l",
+						"nd get r",
+						"his lull"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 14110,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"your ",
+				"ps an",
+				" to m",
+				" - th",
+				" ready",
+				" this l",
+				"nd get r",
+				"his lull"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"your ",
+						"ps an",
+						" to m",
+						" - th",
+						" ready",
+						" this l",
+						"nd get r",
+						"his lull"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
+				"your ",
+				"ps an",
+				" to m",
+				" - th",
+				" ready",
+				" this l",
+				"nd get r",
+				"his lull"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
