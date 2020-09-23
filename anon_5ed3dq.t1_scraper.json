@@ -1,0 +1,186 @@
+{
+	"_id": "anon_5ed3dq.t1_scraper",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "anon_5ed3dq.t1_scraper",
+	"sector": "NGC_6877",
+	"sec_level": 4,
+	"date_added": 1600843005545,
+	"last_scraped": 1600843184900,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1600843005545
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1600843244900,
+	"category": "fishie_tank",
+	"last_update": 1600843184900,
+	"output": [
+		{
+			"args": {},
+			"calls": 45423,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"CT0XA",
+				"_SECT0",
+				"SER fb",
+				"R fbre",
+				"MFT0X4",
+				" USER ",
+				"_FILE0X",
+				"XDD1A6B",
+				"TIME ER",
+				"ROR | P",
+				"fbreton ",
+				"OR | USE",
+				"LE0XDD1A",
+				"1A6B85\\nS"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"CT0XA",
+						"_SECT0",
+						"SER fb",
+						"R fbre",
+						"MFT0X4",
+						" USER ",
+						"_FILE0X",
+						"XDD1A6B",
+						"TIME ER",
+						"ROR | P",
+						"fbreton ",
+						"OR | USE",
+						"LE0XDD1A",
+						"1A6B85\\nS"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1239,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"CT0XA",
+				"_SECT0",
+				"SER fb",
+				"R fbre",
+				"MFT0X4",
+				" USER ",
+				"_FILE0X",
+				"XDD1A6B",
+				"TIME ER",
+				"ROR | P",
+				"fbreton ",
+				"OR | USE",
+				"LE0XDD1A",
+				"1A6B85\\nS"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"CT0XA",
+						"_SECT0",
+						"SER fb",
+						"R fbre",
+						"MFT0X4",
+						" USER ",
+						"_FILE0X",
+						"XDD1A6B",
+						"TIME ER",
+						"ROR | P",
+						"fbreton ",
+						"OR | USE",
+						"LE0XDD1A",
+						"1A6B85\\nS"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8400,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"CT0XA",
+				"_SECT0",
+				"SER fb",
+				"R fbre",
+				"MFT0X4",
+				" USER ",
+				"_FILE0X",
+				"XDD1A6B",
+				"TIME ER",
+				"ROR | P",
+				"fbreton ",
+				"OR | USE",
+				"LE0XDD1A",
+				"1A6B85\\nS"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"CT0XA",
+						"_SECT0",
+						"SER fb",
+						"R fbre",
+						"MFT0X4",
+						" USER ",
+						"_FILE0X",
+						"XDD1A6B",
+						"TIME ER",
+						"ROR | P",
+						"fbreton ",
+						"OR | USE",
+						"LE0XDD1A",
+						"1A6B85\\nS"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"CT0XA",
+				"_SECT0",
+				"SER fb",
+				"R fbre",
+				"MFT0X4",
+				" USER ",
+				"_FILE0X",
+				"XDD1A6B",
+				"TIME ER",
+				"ROR | P",
+				"fbreton ",
+				"OR | USE",
+				"LE0XDD1A",
+				"1A6B85\\nS"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
