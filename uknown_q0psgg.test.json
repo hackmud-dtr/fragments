@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_q0psgg.test",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "uknown_q0psgg.test",
 	"sector": "K_7770",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1594979726648
+		},
+		{
+			"type": "died",
+			"when": 1600850140053
 		}
 	],
-	"updt": 1594979796359,
-	"edit": 1,
+	"updt": 1594980020466,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "feed"
@@ -33,6 +37,38 @@
 			"calls": 33520,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"we ar",
+				"shed ",
+				"s for",
+				"ng pa",
+				"ers f",
+				"2. we",
+				"chedule",
+				"e on sch",
+				": this w"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"we ar",
+						"shed ",
+						"s for",
+						"ng pa",
+						"ers f",
+						"2. we",
+						"chedule",
+						"e on sch",
+						": this w"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
 				"we ar",
 				"shed ",
 				"s for",
