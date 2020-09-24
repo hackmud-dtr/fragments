@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "unidentified_smhbvs.l0ck_breaker",
-	"sector": "SPC_8291",
+	"sector": "VNP_2775",
 	"sec_level": 4,
 	"date_added": 1596001522686,
-	"last_scraped": 1596109156264,
+	"last_scraped": 1600938117529,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1596001522686
-		}
+		},
+		{
+			"type": "died",
+			"when": 1600937957927
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1600938099861,
+				"from": "VNP_2775",
+				"to": "SPC_8291"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"Please select a `Ntarget`\"}",
-	"next_scrape": 1596202215763,
-	"updt": 1596107321555,
-	"edit": 58
+	"next_scrape": 1601030367539,
+	"updt": 1600937970321,
+	"edit": 60
 }
