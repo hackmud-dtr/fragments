@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_xgvtk5.util",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anonymous_xgvtk5.util",
 	"sector": "SPC_4214",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1593268931452
+		},
+		{
+			"type": "died",
+			"when": 1600936996146
 		}
 	],
-	"updt": 1593269026197,
-	"edit": 1,
+	"updt": 1593269475732,
+	"edit": 2,
 	"scrape_ct": 16,
 	"next_scrape": 1593269452870,
 	"category": "dice_roller",
@@ -25,6 +29,30 @@
 			"calls": 62749,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
+				"noying",
+				"re anno",
+				"s are an",
+				"ases are",
+				"# passph"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"noying",
+						"re anno",
+						"s are an",
+						"ases are",
+						"# passph"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "Passphrase",
+			"frags": [
 				"noying",
 				"re anno",
 				"s are an",
