@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_vdh5yj.panic",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anonymous_vdh5yj.panic",
 	"sector": "VNP_2775",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1600886730956
+		},
+		{
+			"type": "died",
+			"when": 1600906211551
 		}
 	],
 	"retry_args": [
@@ -37,6 +41,22 @@
 				"ROR | US",
 				"R fbreto",
 				"LE0XDD1A"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"43B_FI",
+						"_CLST0X",
+						"XA43B_F",
+						"ERROR |",
+						"0X35_SE",
+						"reton er",
+						"ROR | US",
+						"R fbreto",
+						"LE0XDD1A"
+					]
+				}
 			]
 		},
 		{
@@ -60,9 +80,41 @@
 				"ROR | US",
 				"R fbreto",
 				"LE0XDD1A"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"43B_FI",
+						"_CLST0X",
+						"XA43B_F",
+						"ERROR |",
+						"0X35_SE",
+						"reton er",
+						"ROR | US",
+						"R fbreto",
+						"LE0XDD1A"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1600886776642,
-	"edit": 1
+	"updt": 1600886971346,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"43B_FI",
+				"_CLST0X",
+				"XA43B_F",
+				"ERROR |",
+				"0X35_SE",
+				"reton er",
+				"ROR | US",
+				"R fbreto",
+				"LE0XDD1A"
+			]
+		}
+	]
 }
