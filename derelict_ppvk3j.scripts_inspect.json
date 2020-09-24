@@ -1,26 +1,26 @@
 {
 	"_id": "derelict_ppvk3j.scripts_inspect",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "derelict_ppvk3j.scripts_inspect",
 	"sector": "VNP_2775",
 	"sec_level": 4,
 	"date_added": 1600917018300,
-	"last_scraped": 1600917054534,
+	"last_scraped": 1600917725665,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1600917018300
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1600917114534,
+	"scrape_ct": 2,
+	"next_scrape": 1600917785665,
 	"category": "dice_roller",
-	"last_update": 1600917036205,
+	"last_update": 1600917725665,
 	"output": [
 		{
 			"args": {},
-			"calls": 7448,
+			"calls": 248606,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
 				"_CLST",
@@ -36,7 +36,49 @@
 				"SECT0X8",
 				"85F_FIL",
 				"F_FILE0X"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"_CLST",
+						"X69_S",
+						"ROR |",
+						"NETW ",
+						"9_SEC",
+						"T0X885",
+						"MFT0X8",
+						"82_CLS",
+						"0X82_C",
+						"_SECT0X",
+						"SECT0X8",
+						"85F_FIL",
+						"F_FILE0X"
+					]
+				}
 			]
 		}
-	]
+	],
+	"identified": [
+		{
+			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+			"frags": [
+				"_CLST",
+				"X69_S",
+				"ROR |",
+				"NETW ",
+				"9_SEC",
+				"T0X885",
+				"MFT0X8",
+				"82_CLS",
+				"0X82_C",
+				"_SECT0X",
+				"SECT0X8",
+				"85F_FIL",
+				"F_FILE0X"
+			]
+		}
+	],
+	"updt": 1600917644000,
+	"edit": 3
 }
