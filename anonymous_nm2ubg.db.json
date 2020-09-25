@@ -1,31 +1,26 @@
 {
 	"_id": "anonymous_nm2ubg.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anonymous_nm2ubg.db",
 	"sector": "VNP_8791",
 	"sec_level": 4,
 	"date_added": 1601066952015,
-	"last_scraped": 1601067115744,
+	"last_scraped": 1601067242298,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1601066952015
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1601067175744,
+	"scrape_ct": 18,
+	"next_scrape": 1601067302298,
 	"category": "fishie_tank",
-	"last_update": 1601067134087,
+	"last_update": 1601067315024,
 	"output": [
 		{
 			"args": {},
-			"calls": 10694,
+			"calls": 27880,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"yee's",
@@ -36,13 +31,28 @@
 				"s. Emplo",
 				"s acts a",
 				"h intent"
+			],
+			"hits": [
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"yee's",
+						"tent ",
+						"ohibi",
+						"abuse",
+						"s well ",
+						"s. Emplo",
+						"s acts a",
+						"h intent"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1209,
+			"calls": 5500,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -58,7 +68,76 @@
 				"s. Emplo",
 				"s acts a",
 				"h intent"
+			],
+			"hits": [
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"yee's",
+						"tent ",
+						"ohibi",
+						"abuse",
+						"s well ",
+						"s. Emplo",
+						"s acts a",
+						"h intent"
+					]
+				}
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 13828,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"yee's",
+				"tent ",
+				"ohibi",
+				"abuse",
+				"s well ",
+				"s. Emplo",
+				"s acts a",
+				"h intent"
+			],
+			"hits": [
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"yee's",
+						"tent ",
+						"ohibi",
+						"abuse",
+						"s well ",
+						"s. Emplo",
+						"s acts a",
+						"h intent"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1601067146768,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+			"frags": [
+				"yee's",
+				"tent ",
+				"ohibi",
+				"abuse",
+				"s well ",
+				"s. Emplo",
+				"s acts a",
+				"h intent"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
