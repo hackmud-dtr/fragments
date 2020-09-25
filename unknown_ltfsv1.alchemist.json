@@ -1,0 +1,79 @@
+{
+	"_id": "unknown_ltfsv1.alchemist",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "unknown_ltfsv1.alchemist",
+	"sector": "VNP_8791",
+	"sec_level": 4,
+	"date_added": 1601017152777,
+	"last_scraped": 1601017243267,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1601017152777
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1601017303267,
+	"category": "fishie_tank",
+	"last_update": 1601017243267,
+	"output": [
+		{
+			"args": {},
+			"calls": 14559,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"| It i",
+				"lised ",
+				"ed for",
+				"Or to ",
+				"themsel",
+				"t in mo",
+				"ess. | ",
+				"erms: t",
+				"ault tol"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1062,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"| It i",
+				"lised ",
+				"ed for",
+				"Or to ",
+				"themsel",
+				"t in mo",
+				"ess. | ",
+				"erms: t",
+				"ault tol"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 28003,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"| It i",
+				"lised ",
+				"ed for",
+				"Or to ",
+				"themsel",
+				"t in mo",
+				"ess. | ",
+				"erms: t",
+				"ault tol"
+			]
+		}
+	]
+}
