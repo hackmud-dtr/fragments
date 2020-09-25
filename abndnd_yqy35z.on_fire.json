@@ -1,20 +1,81 @@
 {
 	"_id": "abndnd_yqy35z.on_fire",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "abndnd_yqy35z.on_fire",
-	"sector": "VNP_0649",
+	"sector": "VNP_8791",
 	"sec_level": 4,
 	"date_added": 1596299716581,
-	"last_scraped": 1599415089552,
+	"last_scraped": 1601026570794,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1596299716581
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1601026371883,
+				"from": "VNP_8791",
+				"to": "VNP_0649"
+			}
+		]
 	],
 	"pl_output": "Can someone explain the last line from /var/log/messages?\n\n\nJun 25 12:20:43 pc1h kernel: parport0: PC-style at 0x378 (0x778) [SPP,ECP,ECPPS2]\nJun 25 12:20:43 pc1h kernel: parport0: detected irq 7; use procfs to enable interrupt-driven operation.\nJun 25 12:20:43 pc1h kernel: parport0: no IEEE-1284 device present.\nJun 25 12:20:43 pc1h kernel: lp0: using parport0 (polling).\nJun 25 12:20:47 pc1h kernel: lp0 on fire\n\n\nP.S.  My printer seems to be working fine, \n      and my smoke alarm hasn't went off yet.",
-	"next_scrape": 1599494382197,
-	"updt": 1599414638957,
-	"edit": 2862
+	"next_scrape": 1601026630794,
+	"updt": 1601026494283,
+	"edit": 2864,
+	"scrape_ct": 14,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1601026570794,
+	"output": [
+		{
+			"args": {},
+			"calls": 459963,
+			"base": "Can someone explain the last line from /var/log/messages?\n\n\nJun 25 12:20:43 pc1h kernel: parport0: PC-style at 0x378 (0x778) [SPP,ECP,ECPPS2]\nJun 25 12:20:43 pc1h kernel: parport0: detected irq 7; use procfs to enable interrupt-driven operation.\nJun 25 12:20:43 pc1h kernel: parport0: no IEEE-1284 device present.\nJun 25 12:20:43 pc1h kernel: lp0: using parport0 (polling).\nJun 25 12:20:47 pc1h kernel: lp0 on fire\n\n\nP.S.  My printer seems to be working fine, \n      and my smoke alarm hasn't went off yet.",
+			"fragments": [
+				"ty mu",
+				"onall",
+				"uch per",
+				"y, like ",
+				"oo much,",
+				"like inf",
+				"like a l",
+				"i am pre",
+				"ch perso"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"ty mu",
+						"onall",
+						"uch per",
+						"y, like ",
+						"oo much,",
+						"like inf",
+						"like a l",
+						"i am pre",
+						"ch perso"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+			"frags": [
+				"ty mu",
+				"onall",
+				"uch per",
+				"y, like ",
+				"oo much,",
+				"like inf",
+				"like a l",
+				"i am pre",
+				"ch perso"
+			]
+		}
+	]
 }
