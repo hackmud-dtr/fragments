@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_oxouus.trustgaming",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "derelict_oxouus.trustgaming",
 	"sector": "K_6561",
 	"sec_level": 4,
@@ -23,12 +23,16 @@
 				"from": "K_6561",
 				"to": "HJG_4134"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1601024071732
+		}
 	],
 	"pl_output": "`D:::TRUST COMMUNICATION:::` trust gaming\n\n`DSystem has been breached.`\n\n`DTransferred` 1MGC to `0trust` : gaming",
 	"next_scrape": 1591976959426,
-	"updt": 1591890939031,
-	"edit": 4,
+	"updt": 1591891164311,
+	"edit": 5,
 	"scrape_ct": 18,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1591890948062,
