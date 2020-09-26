@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_ugx9id.two_thirds",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unidentified_ugx9id.two_thirds",
 	"sector": "VNP_8451",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1597913905657
+		},
+		{
+			"type": "died",
+			"when": 1601125278421
 		}
 	],
-	"updt": 1597914162149,
-	"edit": 1,
+	"updt": 1597914357559,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "feed"
@@ -33,6 +37,36 @@
 			"calls": 74205,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"o not",
+				"eir t",
+				"t have",
+				"r time/",
+				"nergy i",
+				" ensuri",
+				"SOUNDTRA",
+				"IATELY '"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"o not",
+						"eir t",
+						"t have",
+						"r time/",
+						"nergy i",
+						" ensuri",
+						"SOUNDTRA",
+						"IATELY '"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+			"frags": [
 				"o not",
 				"eir t",
 				"t have",
