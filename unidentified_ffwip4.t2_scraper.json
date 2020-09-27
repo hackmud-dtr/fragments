@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_ffwip4.t2_scraper",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unidentified_ffwip4.t2_scraper",
 	"sector": "VNP_2775",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1600927558754
+		},
+		{
+			"type": "died",
+			"when": 1601200161123
 		}
 	],
-	"updt": 1600927613476,
-	"edit": 1,
+	"updt": 1600927809035,
+	"edit": 2,
 	"scrape_ct": 16,
 	"next_scrape": 1600927745821,
 	"category": "coin_flipper",
@@ -25,6 +29,38 @@
 			"calls": 50036,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
+				"000 0",
+				"0 000",
+				"100 00",
+				" 0000 ",
+				"00 0101",
+				"0 0101 ",
+				" 0100 0",
+				"01 0100 ",
+				" 0001 01"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"000 0",
+						"0 000",
+						"100 00",
+						" 0000 ",
+						"00 0101",
+						"0 0101 ",
+						" 0100 0",
+						"01 0100 ",
+						" 0001 01"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
 				"000 0",
 				"0 000",
 				"100 00",
