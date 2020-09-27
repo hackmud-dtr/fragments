@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_7r26o5.bot_brain",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "unknown_7r26o5.bot_brain",
-	"sector": "NGC_7025",
+	"sector": "K_7911",
 	"sec_level": 0,
 	"date_added": 1595320208174,
-	"last_scraped": 0,
+	"last_scraped": 1601188128845,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,8 +15,18 @@
 		{
 			"type": "died",
 			"when": 1601185918733
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1601188110268,
+				"from": "K_7911",
+				"to": "NGC_7025"
+			}
+		]
 	],
-	"updt": 1595320345786,
-	"edit": 1
+	"updt": 1601185960257,
+	"edit": 2,
+	"pl_output": "Unexpected token u in JSON at position 0",
+	"next_scrape": 1601272135348
 }
