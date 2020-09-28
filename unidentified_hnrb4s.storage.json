@@ -1,26 +1,26 @@
 {
 	"_id": "unidentified_hnrb4s.storage",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unidentified_hnrb4s.storage",
 	"sector": "HJG_2064",
 	"sec_level": 4,
 	"date_added": 1601303901109,
-	"last_scraped": 1601303974800,
+	"last_scraped": 1601304153727,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1601303901109
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1601304034800,
+	"scrape_ct": 15,
+	"next_scrape": 1601304213727,
 	"category": "fishie_tank",
-	"last_update": 1601303974800,
+	"last_update": 1601304153727,
 	"output": [
 		{
 			"args": {},
-			"calls": 16539,
+			"calls": 33198,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ppy to",
@@ -31,13 +31,28 @@
 				"ceive\\n1",
 				"\\n1E2A I",
 				",\\n1E2A "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ppy to",
+						" there",
+						"E36 Is ",
+						"E2A I a",
+						" I am h",
+						"ceive\\n1",
+						"\\n1E2A I",
+						",\\n1E2A "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1963,
+			"calls": 3127,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -53,15 +68,62 @@
 				"ceive\\n1",
 				"\\n1E2A I",
 				",\\n1E2A "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ppy to",
+						" there",
+						"E36 Is ",
+						"E2A I a",
+						" I am h",
+						"ceive\\n1",
+						"\\n1E2A I",
+						",\\n1E2A "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 9698,
+			"calls": 32592,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"ppy to",
+				" there",
+				"E36 Is ",
+				"E2A I a",
+				" I am h",
+				"ceive\\n1",
+				"\\n1E2A I",
+				",\\n1E2A "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ppy to",
+						" there",
+						"E36 Is ",
+						"E2A I a",
+						" I am h",
+						"ceive\\n1",
+						"\\n1E2A I",
+						",\\n1E2A "
+					]
+				}
+			]
+		}
+	],
+	"updt": 1601303990083,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"ppy to",
 				" there",
 				"E36 Is ",
