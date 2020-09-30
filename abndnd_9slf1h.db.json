@@ -1,27 +1,22 @@
 {
 	"_id": "abndnd_9slf1h.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abndnd_9slf1h.db",
 	"sector": "VNP_1486",
 	"sec_level": 4,
 	"date_added": 1601498374380,
-	"last_scraped": 1601498392709,
+	"last_scraped": 1601498464803,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1601498374380
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1601498452709,
+	"scrape_ct": 17,
+	"next_scrape": 1601498524803,
 	"category": "fishie_tank",
-	"last_update": 1601498410633,
+	"last_update": 1601498464803,
 	"output": [
 		{
 			"args": {},
@@ -59,6 +54,25 @@
 				"bies as ",
 				" me too,"
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 36185,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"l i d",
+				"ly lik",
+				"y well i",
+				"y someth",
+				"eally re",
+				"e hobbie",
+				"bies as ",
+				" me too,"
+			]
 		}
-	]
+	],
+	"updt": 1601498427401,
+	"edit": 1
 }
