@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_8r0m4g.donate",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abandoned_8r0m4g.donate",
 	"sector": "SPC_4214",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1593268931452
+		},
+		{
+			"type": "died",
+			"when": 1601500133133
 		}
 	],
 	"scrape_ct": 16,
@@ -29,9 +33,35 @@
 				"_CLST0X",
 				"ROR | PR",
 				"FT0X71_C"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"_FILE",
+						"RROR |",
+						"8A_SEC",
+						"_CLST0X",
+						"ROR | PR",
+						"FT0X71_C"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1593269026197,
-	"edit": 1
+	"updt": 1593269250191,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+			"frags": [
+				"_FILE",
+				"RROR |",
+				"8A_SEC",
+				"_CLST0X",
+				"ROR | PR",
+				"FT0X71_C"
+			]
+		}
+	]
 }
