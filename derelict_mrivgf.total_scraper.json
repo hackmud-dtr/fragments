@@ -1,16 +1,73 @@
 {
 	"_id": "derelict_mrivgf.total_scraper",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "skip",
 	"script": "derelict_mrivgf.total_scraper",
 	"sector": "VNP_9578",
 	"sec_level": 4,
 	"date_added": 1601608037371,
-	"last_scraped": 0,
+	"last_scraped": 1601608327326,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1601608037371
+		}
+	],
+	"updt": 1601608250350,
+	"edit": 2,
+	"scrape_ct": 13,
+	"next_scrape": 1601608387326,
+	"category": "dice_roller",
+	"last_update": 1601608327326,
+	"output": [
+		{
+			"args": {},
+			"calls": 89619,
+			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
+			"fragments": [
+				"heade",
+				"andbo",
+				"_type",
+				"f deca",
+				"movement",
+				"2\\n{\"data"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"heade",
+						"_type",
+						"f deca",
+						"movement",
+						"2\\n{\"data"
+					]
+				},
+				{
+					"document": "Prisoners",
+					"frags": [
+						"andbo"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"heade",
+				"_type",
+				"f deca",
+				"movement",
+				"2\\n{\"data"
+			]
+		},
+		{
+			"document": "Prisoners",
+			"frags": [
+				"andbo"
+			]
 		}
 	]
 }
