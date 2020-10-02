@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_mkgh6j.eek",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anonymous_mkgh6j.eek",
 	"sector": "VNP_3422",
 	"sec_level": 4,
 	"date_added": 1601666660273,
-	"last_scraped": 1601666678115,
+	"last_scraped": 1601666748997,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,20 +15,17 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"scrape_ct": 20,
-	"next_scrape": 1601666738115,
+	"scrape_ct": 16,
+	"next_scrape": 1601666808997,
 	"category": "risk_factor",
-	"last_update": 1601666678115,
+	"last_update": 1601666748997,
 	"output": [
 		{
 			"args": {},
-			"calls": 1067,
+			"calls": 3772,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"t gets ",
@@ -38,6 +35,23 @@
 				"o me, th",
 				"gets to "
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 464,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"t gets ",
+				"he heat",
+				"ey're o",
+				" to mak",
+				"o me, th",
+				"gets to "
+			]
 		}
-	]
+	],
+	"updt": 1601666691870,
+	"edit": 1
 }
