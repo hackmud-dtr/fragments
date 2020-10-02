@@ -1,12 +1,12 @@
 {
 	"_id": "anon_yiw5dy.df",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "anon_yiw5dy.df",
 	"sector": "VNP_3422",
 	"sec_level": 4,
 	"date_added": 1601656384943,
-	"last_scraped": 1601656438819,
+	"last_scraped": 1601657020533,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1601748739608,
+	"next_scrape": 1601743726152,
 	"category": "risk_factor",
-	"last_update": 1601656422469,
+	"last_update": 1601657020533,
 	"output": [
 		{
 			"args": {},
@@ -39,7 +39,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 151,
+			"calls": 696,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"best ",
@@ -57,11 +57,10 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1601656527567,
+	"edit": 1
 }
