@@ -1,26 +1,30 @@
 {
 	"_id": "abndnd_la3wvd.n",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abndnd_la3wvd.n",
 	"sector": "HJG_1376",
 	"sec_level": 4,
 	"date_added": 1592791400055,
-	"last_scraped": 1592791454535,
+	"last_scraped": 1592791952752,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1592791400055
+		},
+		{
+			"type": "died",
+			"when": 1601606332191
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1592791514535,
+	"scrape_ct": 16,
+	"next_scrape": 1592792012752,
 	"category": "fishie_tank",
-	"last_update": 1592791454535,
+	"last_update": 1592791952752,
 	"output": [
 		{
 			"args": {},
-			"calls": 13723,
+			"calls": 28203,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"terna",
@@ -48,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1303,
+			"calls": 2500,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -81,7 +85,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 13979,
+			"calls": 20818,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"terna",
@@ -106,8 +110,8 @@
 			]
 		}
 	],
-	"updt": 1592791462280,
-	"edit": 1,
+	"updt": 1592792140812,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
