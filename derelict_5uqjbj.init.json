@@ -1,0 +1,75 @@
+{
+	"_id": "derelict_5uqjbj.init",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "derelict_5uqjbj.init",
+	"sector": "VNP_3422",
+	"sec_level": 4,
+	"date_added": 1601764185514,
+	"last_scraped": 1601764275109,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1601764185514
+		}
+	],
+	"updt": 1601764193888,
+	"edit": 1,
+	"scrape_ct": 17,
+	"next_scrape": 1601764335109,
+	"category": "fishie_tank",
+	"last_update": 1601764275109,
+	"output": [
+		{
+			"args": {},
+			"calls": 29547,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ocess",
+				" us o",
+				"the cr",
+				"on pos",
+				"ill fu",
+				" funct",
+				"s will "
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1188,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ocess",
+				" us o",
+				"the cr",
+				"on pos",
+				"ill fu",
+				" funct",
+				"s will "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 13860,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ocess",
+				" us o",
+				"the cr",
+				"on pos",
+				"ill fu",
+				" funct",
+				"s will "
+			]
+		}
+	]
+}
