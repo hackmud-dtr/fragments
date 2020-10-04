@@ -1,26 +1,26 @@
 {
 	"_id": "abndnd_v5bmv4.decorrupt",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abndnd_v5bmv4.decorrupt",
 	"sector": "NGC_0729",
 	"sec_level": 4,
 	"date_added": 1601837434031,
-	"last_scraped": 1601837453025,
+	"last_scraped": 1601838105008,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1601837434031
 		}
 	],
-	"scrape_ct": 20,
-	"next_scrape": 1601837513025,
+	"scrape_ct": 8,
+	"next_scrape": 1601838165008,
 	"category": "dice_roller",
-	"last_update": 1601837453025,
+	"last_update": 1601838105008,
 	"output": [
 		{
 			"args": {},
-			"calls": 17413,
+			"calls": 163822,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
 				"YST ER",
@@ -28,6 +28,48 @@
 				"E0XEEF",
 				"_FILE0X",
 				"ERROR |",
+				"D6\\nSYS",
+				"6\\nSYST",
+				"F902D6\\nS"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"YST ER",
+						"ST ERR",
+						"_FILE0X",
+						"ERROR |"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"E0XEEF",
+						"D6\\nSYS",
+						"6\\nSYST",
+						"F902D6\\nS"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1601837855394,
+	"edit": 3,
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"YST ER",
+				"ST ERR",
+				"_FILE0X",
+				"ERROR |"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"E0XEEF",
 				"D6\\nSYS",
 				"6\\nSYST",
 				"F902D6\\nS"
