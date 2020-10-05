@@ -1,0 +1,51 @@
+{
+	"_id": "abndnd_ftb3rf.t2_scraper",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abndnd_ftb3rf.t2_scraper",
+	"sector": "K_9825",
+	"sec_level": 4,
+	"date_added": 1601923264934,
+	"last_scraped": 1601923356789,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1601923264934
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1602011753946,
+	"category": "risk_factor",
+	"last_update": 1601923356789,
+	"output": [
+		{
+			"args": {},
+			"calls": 2507,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"access",
+				"mask 'l",
+				"imestam",
+				" 'last a"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 410,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"access",
+				"mask 'l",
+				"imestam",
+				" 'last a"
+			]
+		}
+	]
+}
