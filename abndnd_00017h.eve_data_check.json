@@ -1,26 +1,30 @@
 {
 	"_id": "abndnd_00017h.eve_data_check",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abndnd_00017h.eve_data_check",
 	"sector": "VNP_8870",
 	"sec_level": 4,
 	"date_added": 1595630874741,
-	"last_scraped": 1595630926682,
+	"last_scraped": 1595631089556,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1595630874741
+		},
+		{
+			"type": "died",
+			"when": 1602007173057
 		}
 	],
-	"scrape_ct": 18,
-	"next_scrape": 1595630986682,
+	"scrape_ct": 13,
+	"next_scrape": 1595631149556,
 	"category": "clicker",
-	"last_update": 1595630926682,
+	"last_update": 1595631089556,
 	"output": [
 		{
 			"args": {},
-			"calls": 6578,
+			"calls": 23472,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"ee the",
@@ -48,7 +52,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 6685,
+			"calls": 38803,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"ee the",
@@ -112,6 +116,13 @@
 				". I can'",
 				" hundred"
 			]
+		}
+	],
+	"updt": 1595631190763,
+	"edit": 2,
+	"retry_args": [
+		{
+			"CLICK": true
 		}
 	]
 }
