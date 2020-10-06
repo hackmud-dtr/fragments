@@ -1,0 +1,70 @@
+{
+	"_id": "derelict_shlm1u.ouvre",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "derelict_shlm1u.ouvre",
+	"sector": "K_9825",
+	"sec_level": 4,
+	"date_added": 1602024964035,
+	"last_scraped": 1602025055137,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1602024964035
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1602025115137,
+	"category": "fishie_tank",
+	"last_update": 1602025055137,
+	"output": [
+		{
+			"args": {},
+			"calls": 33157,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"n pla",
+				" This ",
+				"we're n",
+				"evs any",
+				" more, e",
+				" ## Stan"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1244,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"n pla",
+				" This ",
+				"we're n",
+				"evs any",
+				" more, e",
+				" ## Stan"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 9120,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"n pla",
+				" This ",
+				"we're n",
+				"evs any",
+				" more, e",
+				" ## Stan"
+			]
+		}
+	]
+}
