@@ -1,0 +1,59 @@
+{
+	"_id": "abandoned_r8b5w0.bap_market",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abandoned_r8b5w0.bap_market",
+	"sector": "K_3278",
+	"sec_level": 4,
+	"date_added": 1602086258384,
+	"last_scraped": 1602086330300,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1602086258384
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1602086390300,
+	"category": "risk_factor",
+	"last_update": 1602086330300,
+	"output": [
+		{
+			"args": {},
+			"calls": 2190,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				" deck",
+				"you ma",
+				"r\\n209",
+				"play a",
+				" a card",
+				" may:\\n2",
+				"ou may:\\n",
+				" stack.\\n"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 396,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				" deck",
+				"you ma",
+				"r\\n209",
+				"play a",
+				" a card",
+				" may:\\n2",
+				"ou may:\\n",
+				" stack.\\n"
+			]
+		}
+	]
+}
