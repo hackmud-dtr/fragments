@@ -1,0 +1,64 @@
+{
+	"_id": "uknown_98dutq.send_stats",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "uknown_98dutq.send_stats",
+	"sector": "K_9825",
+	"sec_level": 4,
+	"date_added": 1602046544492,
+	"last_scraped": 1602046580452,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1602046544492
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1602046640452,
+	"category": "fishie_tank",
+	"last_update": 1602046634497,
+	"output": [
+		{
+			"args": {},
+			"calls": 23419,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"11 01",
+				"0000 00",
+				"000 010",
+				"000 000",
+				"00 0011",
+				"00 0000",
+				"00\\n0000 "
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3372,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"11 01",
+				"0000 00",
+				"000 010",
+				"000 000",
+				"00 0011",
+				"00 0000",
+				"00\\n0000 "
+			]
+		}
+	],
+	"updt": 1602046569889,
+	"edit": 1
+}
