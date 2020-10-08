@@ -1,0 +1,78 @@
+{
+	"_id": "derelict_ttjmq7.calling_script",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "derelict_ttjmq7.calling_script",
+	"sector": "K_3743",
+	"sec_level": 4,
+	"date_added": 1602143364531,
+	"last_scraped": 1602143545946,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1602143364531
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1602143605946,
+	"category": "fishie_tank",
+	"last_update": 1602143545946,
+	"output": [
+		{
+			"args": {},
+			"calls": 19765,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ove t",
+				"so, wh",
+				" so, w",
+				"r logs,",
+				"d socia",
+				"tc? If s",
+				"social, ",
+				", transa"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2284,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ove t",
+				"so, wh",
+				" so, w",
+				"r logs,",
+				"d socia",
+				"tc? If s",
+				"social, ",
+				", transa"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 12489,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ove t",
+				"so, wh",
+				" so, w",
+				"r logs,",
+				"d socia",
+				"tc? If s",
+				"social, ",
+				", transa"
+			]
+		}
+	],
+	"updt": 1602143481935,
+	"edit": 1
+}
