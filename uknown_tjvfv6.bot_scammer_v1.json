@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_tjvfv6.bot_scammer_v1",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "uknown_tjvfv6.bot_scammer_v1",
 	"sector": "VNP_4313",
 	"sec_level": 2,
@@ -23,12 +23,16 @@
 				"from": "VNP_4313",
 				"to": "SPC_8138"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1602219849753
+		}
 	],
 	"pl_output": "Your system has been scammed!",
 	"next_scrape": 1595044559253,
-	"updt": 1594956581035,
-	"edit": 280,
+	"updt": 1594956807652,
+	"edit": 281,
 	"scrape_ct": 6,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1594956673120,
