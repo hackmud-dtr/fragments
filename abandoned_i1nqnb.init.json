@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_i1nqnb.init",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abandoned_i1nqnb.init",
 	"sector": "K_3278",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1602132890628
+		},
+		{
+			"type": "died",
+			"when": 1602417104701
 		}
 	],
 	"scrape_ct": 16,
@@ -29,9 +33,67 @@
 				"d seas",
 				"efits o",
 				"en Angie"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"s itse",
+						"d seas",
+						"efits o",
+						"en Angie"
+					]
+				},
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"on is "
+					]
+				},
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"on is "
+					]
+				},
+				{
+					"document": "guest post",
+					"frags": [
+						"msg\":\""
+					]
+				}
 			]
 		}
 	],
-	"updt": 1602132933678,
-	"edit": 1
+	"updt": 1602133128603,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"s itse",
+				"d seas",
+				"efits o",
+				"en Angie"
+			]
+		},
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
+				"on is "
+			]
+		},
+		{
+			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+			"frags": [
+				"on is "
+			]
+		},
+		{
+			"document": "guest post",
+			"frags": [
+				"msg\":\""
+			]
+		}
+	]
 }
