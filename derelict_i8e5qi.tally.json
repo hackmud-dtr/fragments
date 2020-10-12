@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_i8e5qi.tally",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "derelict_i8e5qi.tally",
 	"sector": "NGC_8336",
 	"sec_level": 4,
@@ -19,8 +19,12 @@
 				"from": "NGC_8336",
 				"to": "NGC_8888"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1602531101663
+		}
 	],
-	"updt": 1590746447400,
-	"edit": 1
+	"updt": 1595317413625,
+	"edit": 2
 }

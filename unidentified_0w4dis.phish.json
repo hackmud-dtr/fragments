@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_0w4dis.phish",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "unidentified_0w4dis.phish",
 	"sector": "HJG_4651",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1594242058812
+		},
+		{
+			"type": "died",
+			"when": 1602531101663
 		}
 	],
 	"retry_args": [
@@ -30,6 +34,42 @@
 			"calls": 12333,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"rs. A",
+				"ra wa",
+				"it ge",
+				"ously ",
+				"ed? ##",
+				" recre",
+				"is wher",
+				"a. This",
+				"tted to ",
+				"I that s"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+					"frags": [
+						"rs. A",
+						"ra wa",
+						"it ge",
+						"ously ",
+						"ed? ##",
+						" recre",
+						"is wher",
+						"a. This",
+						"tted to ",
+						"I that s"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1594242177923,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
+			"frags": [
 				"rs. A",
 				"ra wa",
 				"it ge",
