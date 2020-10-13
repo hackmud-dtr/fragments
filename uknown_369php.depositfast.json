@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_369php.depositfast",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "uknown_369php.depositfast",
 	"sector": "NGC_9629",
 	"sec_level": 2,
 	"date_added": 1590794569956,
-	"last_scraped": 1597825311416,
+	"last_scraped": 1597826253517,
 	"script_log": [
 		{
 			"type": "added",
@@ -23,10 +23,14 @@
 				"from": "NGC_9629",
 				"to": "NGC_5682"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1602578118131
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"Welcome to the Alicebot DepositFast System. This service is for depositing GC into `TABC` quickly, skipping the escrow system.\\nIt is also script friendly, returning ok:true or ok:false.\\nalicebot.depositfast {amount:\\\"\\\"} with your desired !amount!, which should be a number from +0.0001+ up.\"}",
-	"next_scrape": 1597916682565,
-	"updt": 1597824526342,
-	"edit": 2939
+	"next_scrape": 1597915225367,
+	"updt": 1597826284897,
+	"edit": 2941
 }

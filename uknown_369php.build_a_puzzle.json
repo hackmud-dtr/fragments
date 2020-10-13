@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_369php.build_a_puzzle",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "uknown_369php.build_a_puzzle",
 	"sector": "VNP_4988",
 	"sec_level": 3,
@@ -23,10 +23,14 @@
 				"from": "VNP_4988",
 				"to": "HJG_3667"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1602578044464
+		}
 	],
 	"pl_output": "Cannot read property 'strings' of undefined",
 	"next_scrape": 1599088718690,
-	"updt": 1599000313405,
-	"edit": 4828
+	"updt": 1599001093087,
+	"edit": 4829
 }

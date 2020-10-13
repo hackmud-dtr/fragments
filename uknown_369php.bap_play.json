@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_369php.bap_play",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "uknown_369php.bap_play",
 	"sector": "VNP_4988",
 	"sec_level": 3,
 	"date_added": 1590793827107,
-	"last_scraped": 1602577589188,
+	"last_scraped": 1602578007656,
 	"script_log": [
 		{
 			"type": "added",
@@ -23,10 +23,18 @@
 				"from": "VNP_4988",
 				"to": "HJG_3667"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1602578007656
+		},
+		{
+			"type": "died",
+			"when": 1602578044464
+		}
 	],
-	"pl_output": "Cannot read property 'userfuncs' of undefined",
-	"next_scrape": 1602658319007,
-	"updt": 1602577296861,
-	"edit": 9726
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_369php.bap_play: script doesn't exist\"}",
+	"next_scrape": 1602657421051,
+	"updt": 1602577688172,
+	"edit": 9727
 }
