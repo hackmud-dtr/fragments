@@ -1,0 +1,79 @@
+{
+	"_id": "uknown_sip739.db",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "uknown_sip739.db",
+	"sector": "K_5860",
+	"sec_level": 4,
+	"date_added": 1602555524200,
+	"last_scraped": 1602555633318,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1602555524200
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1602555693318,
+	"category": "fishie_tank",
+	"last_update": 1602555633318,
+	"output": [
+		{
+			"args": {},
+			"calls": 13310,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" aria",
+				"st: 'ho",
+				"gs they",
+				" we sho",
+				" is an ",
+				"w them. ",
+				"mes the ",
+				"e' or 't",
+				" a smile"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1216,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" aria",
+				"st: 'ho",
+				"gs they",
+				" we sho",
+				" is an ",
+				"w them. ",
+				"mes the ",
+				"e' or 't",
+				" a smile"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 41308,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" aria",
+				"st: 'ho",
+				"gs they",
+				" we sho",
+				" is an ",
+				"w them. ",
+				"mes the ",
+				"e' or 't",
+				" a smile"
+			]
+		}
+	]
+}
