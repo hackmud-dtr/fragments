@@ -1,23 +1,27 @@
 {
 	"_id": "abandoned_skirwy.upload_locs",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abandoned_skirwy.upload_locs",
 	"sector": "K_2533",
 	"sec_level": 4,
 	"date_added": 1594583455476,
-	"last_scraped": 1595006189020,
+	"last_scraped": 1595009605754,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1594583455476
+		},
+		{
+			"type": "died",
+			"when": 1602593695052
 		}
 	],
-	"updt": 1595004590007,
-	"edit": 209,
-	"next_scrape": 1595047516197,
+	"updt": 1595009778845,
+	"edit": 212,
+	"next_scrape": 1595050194997,
 	"category": "plant_sim",
-	"last_update": 1595006189020,
+	"last_update": 1595009605754,
 	"output": [
 		{
 			"args": {},
@@ -73,7 +77,7 @@
 		},
 		{
 			"args": {},
-			"calls": 77675,
+			"calls": 84343,
 			"base": "c:\"127d68\" d:\"<f l n s w>\"\n\n\n\n\n\n\n\n          ~~~~~~~~~~~~~~",
 			"fragments": [
 				"you s",
@@ -97,5 +101,6 @@
 				" see th"
 			]
 		}
-	]
+	],
+	"dead_plant_sim": true
 }
