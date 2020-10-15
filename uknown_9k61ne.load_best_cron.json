@@ -1,0 +1,70 @@
+{
+	"_id": "uknown_9k61ne.load_best_cron",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "uknown_9k61ne.load_best_cron",
+	"sector": "K_9043",
+	"sec_level": 4,
+	"date_added": 1602728575465,
+	"last_scraped": 1602728592673,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1602728575465
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1602728652673,
+	"category": "fishie_tank",
+	"last_update": 1602728664775,
+	"output": [
+		{
+			"args": {},
+			"calls": 16742,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"that ",
+				" How ",
+				"ought ",
+				"ly 'no",
+				"answer",
+				"? One ",
+				"swer is",
+				"bably '",
+				"ably 'n",
+				"at make ",
+				" does th"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4411,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"that ",
+				" How ",
+				"ought ",
+				"ly 'no",
+				"answer",
+				"? One ",
+				"swer is",
+				"bably '",
+				"ably 'n",
+				"at make ",
+				" does th"
+			]
+		}
+	]
+}
