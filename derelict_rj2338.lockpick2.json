@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_rj2338.lockpick2",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "derelict_rj2338.lockpick2",
 	"sector": "HJG_2827",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "HJG_2827",
 				"to": "VNP_7904"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1602736713930
+		}
 	],
-	"updt": 1597351764639,
-	"edit": 1714,
+	"updt": 1597357235782,
+	"edit": 1715,
 	"pl_output": "Cannot read property 'call' of undefined",
 	"next_scrape": 1597438983755
 }
