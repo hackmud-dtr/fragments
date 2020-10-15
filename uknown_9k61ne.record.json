@@ -1,25 +1,29 @@
 {
 	"_id": "uknown_9k61ne.record",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "uknown_9k61ne.record",
 	"sector": "NGC_8329",
 	"sec_level": 4,
 	"date_added": 1594146481594,
-	"last_scraped": 1594162991997,
+	"last_scraped": 1594167680758,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1594146481594
+		},
+		{
+			"type": "died",
+			"when": 1602731293241
 		}
 	],
-	"next_scrape": 1594204548392,
+	"next_scrape": 1594208941991,
 	"category": "clicker",
-	"last_update": 1594162991997,
+	"last_update": 1594167680758,
 	"output": [
 		{
 			"args": {},
-			"calls": 194279,
+			"calls": 246369,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"mask ",
@@ -51,7 +55,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 197597,
+			"calls": 210095,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"mask ",
@@ -83,7 +87,7 @@
 			"args": {
 				"CLICK": true
 			},
-			"calls": 48490,
+			"calls": 51103,
 			"base": "`LCLICK SECURED`",
 			"fragments": [
 				"mask ",
@@ -127,6 +131,14 @@
 			]
 		}
 	],
-	"updt": 1594161478485,
-	"edit": 13
+	"updt": 1594168017147,
+	"edit": 16,
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
+		}
+	]
 }
