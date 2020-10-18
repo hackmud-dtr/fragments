@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_rf654o.crush_t1",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unknown_rf654o.crush_t1",
 	"sector": "SPC_8291",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "SPC_8291",
 				"to": "K_4057"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1603018471520
+		}
 	],
-	"updt": 1597529592398,
-	"edit": 3016,
+	"updt": 1597530568802,
+	"edit": 3017,
 	"pl_output": "{\"ok\":false,\"msg\":\"Usage k3ymaster.crush_t1 { t:#s.usr.tgt, verbose:<optional> }\"}",
 	"next_scrape": 1597613705341
 }
