@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_ak9bwo.conspec",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anonymous_ak9bwo.conspec",
 	"sector": "NGC_2052",
 	"sec_level": 4,
@@ -19,10 +19,18 @@
 				"from": "NGC_2052",
 				"to": "VNP_3449"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1588674925082
+		},
+		{
+			"type": "died",
+			"when": 1603129869622
+		}
 	],
 	"pl_output": "args.s is not iterable",
 	"next_scrape": 1588757560702,
-	"updt": 1588669318529,
-	"edit": 4517
+	"updt": 1588674952049,
+	"edit": 4519
 }
