@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_nnrwte.alchemy",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unidentified_nnrwte.alchemy",
 	"sector": "HJG_3101",
 	"sec_level": 1,
 	"date_added": 1591340178702,
-	"last_scraped": 1603123650679,
+	"last_scraped": 1603124047513,
 	"script_log": [
 		{
 			"type": "added",
@@ -23,10 +23,14 @@
 				"from": "HJG_3101",
 				"to": "SPC_0870"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1603124538845
+		}
 	],
-	"updt": 1603123452013,
-	"edit": 10021,
+	"updt": 1603124232271,
+	"edit": 10023,
 	"pl_output": "{\"ok\":false,\"msg\":\"`Ngood_index` is not a correct index\"}",
-	"next_scrape": 1603212898825
+	"next_scrape": 1603211964707
 }

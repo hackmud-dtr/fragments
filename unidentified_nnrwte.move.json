@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_nnrwte.move",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unidentified_nnrwte.move",
 	"sector": "HJG_7984",
 	"sec_level": 1,
 	"date_added": 1591340178702,
-	"last_scraped": 1595789415890,
+	"last_scraped": 1595789433982,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,10 +19,14 @@
 				"from": "HJG_7984",
 				"to": "SPC_0870"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1603124538845
+		}
 	],
-	"updt": 1593248507135,
-	"edit": 719,
+	"updt": 1595789641724,
+	"edit": 721,
 	"pl_output": "{\"ok\":false,\"msg\":\"provide `Nto`, `Nfrom` and `Nthrough`, that will xfer those upgrades to the user\"}",
-	"next_scrape": 1595869369299
+	"next_scrape": 1595870955551
 }

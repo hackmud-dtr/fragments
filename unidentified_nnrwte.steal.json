@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_nnrwte.steal",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unidentified_nnrwte.steal",
 	"sector": "HJG_3101",
 	"sec_level": 1,
@@ -23,10 +23,14 @@
 				"from": "HJG_3101",
 				"to": "SPC_0870"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1603124538845
+		}
 	],
-	"updt": 1596510212848,
-	"edit": 2339,
+	"updt": 1596513144377,
+	"edit": 2340,
 	"pl_output": "Cannot read property 'loaded' of undefined",
 	"next_scrape": 1596606306392
 }

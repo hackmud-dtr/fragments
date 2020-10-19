@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_nnrwte.restock",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unidentified_nnrwte.restock",
 	"sector": "HJG_3101",
 	"sec_level": 1,
@@ -23,10 +23,14 @@
 				"from": "HJG_3101",
 				"to": "SPC_0870"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1603124538845
+		}
 	],
-	"updt": 1597351569950,
-	"edit": 2775,
+	"updt": 1597354501320,
+	"edit": 2776,
 	"pl_output": "`Dgrr`",
 	"next_scrape": 1597440986187
 }

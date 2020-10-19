@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_nnrwte.gg",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unidentified_nnrwte.gg",
 	"sector": "HJG_3101",
 	"sec_level": 1,
@@ -23,10 +23,14 @@
 				"from": "HJG_3101",
 				"to": "SPC_0870"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1603124538845
+		}
 	],
-	"updt": 1595942293937,
-	"edit": 1338,
+	"updt": 1595945225726,
+	"edit": 1339,
 	"pl_output": "current loc: none, set with `Nset_loc` (`FWARNING`: no validation applied)\n\n`Nxgc` | `Nempty`\ntotal xfer power 0GC | ready 0GC\n\n`Nxu`\ntotal xfer power `A0` | ready `A0`\n\nyou can:\n - expose `A0`/`A0` `Na`ccess logs\n - write `A0`/`A0` `Nl`ogs\n - expose `A0`/`A0` `Nb`alances\n - expose `A0`/`A0` `Nt`ransactions\n - expose `A0`/`A0` `Nu`pgrades\n - expose `A0`/`A0` `Nu`pgrade `Nl`ogs",
 	"next_scrape": 1595986085482,
 	"category": "UNKNOWN CATEGORY",
