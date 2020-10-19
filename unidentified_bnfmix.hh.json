@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_bnfmix.hh",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unidentified_bnfmix.hh",
 	"sector": "K_4137",
 	"sec_level": 4,
 	"date_added": 1584493381451,
-	"last_scraped": 1596275482728,
+	"last_scraped": 1596278832323,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,10 +19,22 @@
 				"from": "K_4137",
 				"to": "VNP_6115"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1596278832323
+		},
+		{
+			"type": "died",
+			"when": 1596279139580
+		},
+		{
+			"type": "died",
+			"when": 1603129869622
+		}
 	],
-	"pl_output": "{\"ok\":false}",
-	"next_scrape": 1596368130528,
-	"updt": 1596274153153,
-	"edit": 4380
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_bnfmix.hh: script doesn't exist\"}",
+	"next_scrape": 1596366522021,
+	"updt": 1596279338096,
+	"edit": 4384
 }

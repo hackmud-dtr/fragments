@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_qm01gz.cleanse",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unknown_qm01gz.cleanse",
 	"sector": "HJG_0166",
 	"sec_level": 4,
@@ -19,10 +19,18 @@
 				"from": "HJG_0166",
 				"to": "HJG_3307"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1596016573409
+		},
+		{
+			"type": "died",
+			"when": 1603129869622
+		}
 	],
-	"updt": 1596012631206,
-	"edit": 2894,
+	"updt": 1596016686014,
+	"edit": 2896,
 	"pl_output": "Unexpected token u in JSON at position 0",
 	"next_scrape": 1596101310264
 }
