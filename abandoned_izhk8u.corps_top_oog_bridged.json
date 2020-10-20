@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_izhk8u.corps_top_oog_bridged",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_izhk8u.corps_top_oog_bridged",
 	"sector": "VNP_5719",
 	"sec_level": 4,
 	"date_added": 1599506689324,
-	"last_scraped": 1599506780830,
+	"last_scraped": 1603228752236,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,29 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1599506840830,
+	"next_scrape": 1603273610981,
 	"category": "fishie_tank",
-	"last_update": 1599506780830,
+	"last_update": 1603228752236,
 	"output": [
 		{
 			"args": {},
-			"calls": 15194,
+			"calls": 82753,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"heir ",
 				" TRAP",
+				"TRAP f",
 				"resolve",
 				"ing pla",
+				"esolves",
+				"2166 TR",
 				"rst.\\n21",
 				"lves the",
+				"itiating",
 				"initiati",
-				"es their"
+				"es their",
+				"P first.",
+				" player\\n"
 			],
 			"hits": [
 				{
@@ -112,8 +119,8 @@
 			]
 		}
 	],
-	"updt": 1599506855663,
-	"edit": 1,
+	"updt": 1603156091018,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -126,6 +133,14 @@
 				"initiati",
 				"es their"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
