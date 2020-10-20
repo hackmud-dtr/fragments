@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_fxma8e.one_six_six_three",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_fxma8e.one_six_six_three",
 	"sector": "HJG_0966",
 	"sec_level": 4,
 	"date_added": 1599592204634,
-	"last_scraped": 1599592295170,
+	"last_scraped": 1603229749166,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,19 +14,25 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1599592355170,
+	"next_scrape": 1603274522321,
 	"category": "fishie_tank",
-	"last_update": 1599592295170,
+	"last_update": 1603229749166,
 	"output": [
 		{
 			"args": {},
-			"calls": 10070,
+			"calls": 72225,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"conse",
 				"aria ",
+				"vidual",
+				"re nai",
 				"ns its",
 				"e thei",
+				" when ",
+				"dividua",
 				": your ",
+				"retains ",
 				" overrid"
 			],
 			"hits": [
@@ -100,8 +106,8 @@
 			]
 		}
 	],
-	"updt": 1599592446523,
-	"edit": 2,
+	"updt": 1603156091018,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
@@ -112,6 +118,14 @@
 				": your ",
 				" overrid"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
