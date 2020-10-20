@@ -1,32 +1,46 @@
 {
 	"_id": "derelict_1v6pn2.interesting",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "derelict_1v6pn2.interesting",
 	"sector": "NGC_9989",
 	"sec_level": 4,
 	"date_added": 1594368340989,
-	"last_scraped": 1594369082302,
+	"last_scraped": 1594370040766,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1594368340989
+		},
+		{
+			"type": "died",
+			"when": 1594370040766
+		},
+		{
+			"type": "died",
+			"when": 1594370512253
+		},
+		{
+			"type": "died",
+			"when": 1603129869622
 		}
 	],
-	"scrape_ct": 9,
-	"next_scrape": 1594369142302,
+	"scrape_ct": 0,
+	"next_scrape": 1594449262763,
 	"category": "dice_roller",
-	"last_update": 1594369082302,
+	"last_update": 1594369951775,
 	"output": [
 		{
 			"args": {},
-			"calls": 131602,
+			"calls": 246739,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
 				"acker",
 				"86 Yo",
-				"ttacke",
+				"m the ",
 				"he att",
+				"6 You ",
+				"u are t",
 				"ker\\n20",
 				"fender,",
 				" the at",
@@ -45,6 +59,7 @@
 				"87 I am ",
 				"087 I am",
 				" the def",
+				" attacke",
 				"r\\n2088 :",
 				"r,\\n2087 ",
 				"nder,\\n20",
@@ -84,6 +99,7 @@
 			]
 		}
 	],
-	"updt": 1594368884622,
-	"edit": 3
+	"updt": 1594370686152,
+	"edit": 10,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_1v6pn2.interesting: script doesn't exist\"}"
 }
