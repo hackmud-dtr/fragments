@@ -6,7 +6,7 @@
 	"sector": "K_9557",
 	"sec_level": 4,
 	"date_added": 1598407728010,
-	"last_scraped": 1598407818681,
+	"last_scraped": 1603218189926,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,20 +14,27 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1598407878681,
+	"next_scrape": 1603259734791,
 	"category": "fishie_tank",
-	"last_update": 1598407818681,
+	"last_update": 1603218189926,
 	"output": [
 		{
 			"args": {},
-			"calls": 23947,
+			"calls": 78782,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"## Pr",
+				" comp",
+				" a de",
 				" ## P",
 				"ite? s",
+				" she's",
 				"she's g",
-				" deal. "
+				"She kno",
+				" deal. ",
+				"posite? ",
+				"hers ## ",
+				" others "
 			]
 		},
 		{
@@ -62,6 +69,16 @@
 				"she's g",
 				" deal. "
 			]
+		}
+	],
+	"updt": 1598407901775,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
