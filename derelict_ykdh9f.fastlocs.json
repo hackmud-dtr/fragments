@@ -6,7 +6,7 @@
 	"sector": "SPC_1581",
 	"sec_level": 4,
 	"date_added": 1599634238341,
-	"last_scraped": 1599634328231,
+	"last_scraped": 1603137713418,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1599634388231,
+	"next_scrape": 1603180389147,
 	"category": "risk_factor",
-	"last_update": 1599634328231,
+	"last_update": 1603137713418,
 	"output": [
 		{
 			"args": {},
@@ -34,13 +34,14 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 480,
+			"calls": 1453,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"5",
 				"01 0100",
 				"0000 00",
 				"000 010",
+				"0 0100 ",
 				"0 0000 ",
 				"101 0001"
 			]
@@ -1059,12 +1060,9 @@
 			]
 		}
 	],
-	"updt": 1599634270333,
-	"edit": 1,
+	"updt": 1599634465665,
+	"edit": 2,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
