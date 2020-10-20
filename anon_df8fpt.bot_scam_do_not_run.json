@@ -1,12 +1,12 @@
 {
 	"_id": "anon_df8fpt.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anon_df8fpt.bot_scam_do_not_run",
 	"sector": "VNP_1805",
 	"sec_level": 4,
 	"date_added": 1598769538232,
-	"last_scraped": 1598769881728,
+	"last_scraped": 1603221306790,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,19 +14,26 @@
 		}
 	],
 	"scrape_ct": 13,
-	"next_scrape": 1598769941728,
+	"next_scrape": 1603262496637,
 	"category": "fishie_tank",
-	"last_update": 1598769881728,
+	"last_update": 1603221306790,
 	"output": [
 		{
 			"args": {},
-			"calls": 31151,
+			"calls": 95979,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"r car",
+				"rds st",
+				"ay in ",
+				"2174 d",
 				" stay ",
+				"nder ca",
 				"y in the",
 				"eir stac",
-				"175 Atta"
+				"Attacker",
+				"175 Atta",
+				"k\\n2175 A"
 			],
 			"hits": [
 				{
@@ -103,6 +110,16 @@
 				"eir stac",
 				"175 Atta"
 			]
+		}
+	],
+	"updt": 1598769898848,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
