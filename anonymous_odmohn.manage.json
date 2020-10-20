@@ -1,36 +1,45 @@
 {
 	"_id": "anonymous_odmohn.manage",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anonymous_odmohn.manage",
 	"sector": "K_9557",
 	"sec_level": 4,
 	"date_added": 1598507768588,
-	"last_scraped": 1598508148719,
+	"last_scraped": 1603219204726,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1598507768588
 		}
 	],
-	"updt": 1598507979490,
-	"edit": 2,
+	"updt": 1598508174881,
+	"edit": 3,
 	"scrape_ct": 11,
-	"next_scrape": 1598508208719,
+	"next_scrape": 1603264679928,
 	"category": "fishie_tank",
-	"last_update": 1598508148719,
+	"last_update": 1603219204726,
 	"output": [
 		{
 			"args": {},
-			"calls": 75680,
+			"calls": 139945,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"writi",
+				"ting ",
+				"ep wr",
+				"BF_CL",
 				" keep",
 				"riting",
 				"_CLST0",
+				"T0XBF_",
+				"_FILE0X",
 				"MFT0XBF",
-				"F227_FI"
+				"F227_FI",
+				"7D178\\n",
+				"7A_SECT",
+				"78\\nAD0",
+				"2114 Yo"
 			],
 			"hits": [
 				{
@@ -119,6 +128,14 @@
 				"MFT0XBF",
 				"F227_FI"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
