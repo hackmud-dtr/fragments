@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_op1ly0.cube",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unknown_op1ly0.cube",
 	"sector": "VNP_7342",
 	"sec_level": 4,
 	"date_added": 1598009059030,
-	"last_scraped": 1598009150657,
+	"last_scraped": 1603191075102,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,23 +14,32 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1598009210657,
+	"next_scrape": 1603234960142,
 	"category": "fishie_tank",
-	"last_update": 1598009150657,
+	"last_update": 1603191075102,
 	"output": [
 		{
 			"args": {},
-			"calls": 25508,
+			"calls": 92682,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"MFT0X",
+				"FILE0",
 				"1E46 ",
 				"F_CLST",
 				"F227_F",
 				"BF_CLS",
+				"0X7A_S",
 				"CLST0X7",
 				"7A_SECT",
-				"D172\\nAD"
+				"T0XF227_",
+				"T0XBF_CL",
+				"SECT0XF2",
+				"FT0XBF_C",
+				"D172\\nAD",
+				"72\\nAD03",
+				"227_FILE",
+				"\\nAD031E4"
 			]
 		},
 		{
@@ -71,6 +80,16 @@
 				"7A_SECT",
 				"D172\\nAD"
 			]
+		}
+	],
+	"updt": 1603191072544,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
