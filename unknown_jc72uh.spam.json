@@ -1,27 +1,22 @@
 {
 	"_id": "unknown_jc72uh.spam",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "unknown_jc72uh.spam",
 	"sector": "NGC_9079",
 	"sec_level": 4,
 	"date_added": 1597768203620,
-	"last_scraped": 1597768293682,
+	"last_scraped": 1603132839422,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1597768203620
 		}
 	],
-	"updt": 1597768206666,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
+	"updt": 1597768401907,
+	"edit": 2,
 	"scrape_ct": 16,
-	"next_scrape": 1597768353682,
+	"next_scrape": 1603213764457,
 	"category": "risk_factor",
 	"last_update": 1597768293682,
 	"output": [
@@ -55,5 +50,14 @@
 				"ad to pr"
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

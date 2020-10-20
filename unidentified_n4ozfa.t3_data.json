@@ -1,25 +1,20 @@
 {
 	"_id": "unidentified_n4ozfa.t3_data",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "unidentified_n4ozfa.t3_data",
 	"sector": "VNP_3235",
 	"sec_level": 4,
 	"date_added": 1597098101787,
-	"last_scraped": 1597098192764,
+	"last_scraped": 1603131079244,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1597098101787
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1597098252764,
+	"next_scrape": 1603223852618,
 	"category": "risk_factor",
 	"last_update": 1597098192764,
 	"output": [
@@ -51,5 +46,16 @@
 				"E follow"
 			]
 		}
-	]
+	],
+	"updt": 1597098239894,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
