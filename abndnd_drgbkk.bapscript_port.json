@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_drgbkk.bapscript_port",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_drgbkk.bapscript_port",
 	"sector": "HJG_0210",
 	"sec_level": 4,
 	"date_added": 1598885174799,
-	"last_scraped": 1598885265411,
+	"last_scraped": 1603222864041,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,27 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1598885325411,
+	"next_scrape": 1603268888114,
 	"category": "fishie_tank",
-	"last_update": 1598885265411,
+	"last_update": 1603222864041,
 	"output": [
 		{
 			"args": {},
-			"calls": 14124,
+			"calls": 86123,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"SYST ",
+				"_CLST",
 				"ROR |",
+				"MFT0X",
+				"0X8C8",
+				"ERROR ",
 				"9_SECT",
 				"82_CLS",
+				"2\\nSYS",
 				"0X885F",
+				"T0X69_S",
 				"X8C8517B",
+				"SYST ERR",
 				"LST0X69_",
 				"F_FILE0X",
 				"FILE0X8C"
@@ -124,8 +130,8 @@
 			]
 		}
 	],
-	"updt": 1598885401505,
-	"edit": 2,
+	"updt": 1603155895480,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
@@ -140,6 +146,14 @@
 				"F_FILE0X",
 				"FILE0X8C"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
