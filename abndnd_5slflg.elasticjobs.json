@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_5slflg.elasticjobs",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_5slflg.elasticjobs",
 	"sector": "HJG_5811",
 	"sec_level": 4,
 	"date_added": 1596909509657,
-	"last_scraped": 1596910969059,
+	"last_scraped": 1603182272255,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,31 @@
 		}
 	],
 	"scrape_ct": 0,
-	"next_scrape": 1596911029059,
+	"next_scrape": 1603224104380,
 	"category": "fishie_tank",
-	"last_update": 1596910969059,
+	"last_update": 1603182272255,
 	"output": [
 		{
 			"args": {},
-			"calls": 108223,
+			"calls": 152540,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ate t",
+				" exis",
+				"ocumen",
 				"formul",
+				"e evol",
 				"d, hyp",
 				" put i",
 				"ting in",
 				"e mothe",
-				"ving doc"
+				" they b",
+				"ving doc",
+				"o states",
+				"in two s",
+				"eded to ",
+				"' AI. He",
+				" 'same' "
 			],
 			"hits": [
 				{
@@ -112,8 +121,8 @@
 			]
 		}
 	],
-	"updt": 1596910455932,
-	"edit": 4,
+	"updt": 1596911133537,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
@@ -126,6 +135,14 @@
 				"e mothe",
 				"ving doc"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
