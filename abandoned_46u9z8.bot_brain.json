@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_46u9z8.bot_brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_46u9z8.bot_brain",
 	"sector": "K_6981",
 	"sec_level": 4,
 	"date_added": 1600194915181,
-	"last_scraped": 1600195006048,
+	"last_scraped": 1603237130490,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,25 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1600195066048,
+	"next_scrape": 1603280565484,
 	"category": "fishie_tank",
-	"last_update": 1600195006048,
+	"last_update": 1603237130490,
 	"output": [
 		{
 			"args": {},
-			"calls": 10758,
+			"calls": 68211,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"OUNCE ",
 				"ter com",
 				"ender B",
 				"nder BOU",
+				"lane aft",
+				"efender ",
 				"at\\n2178",
-				"t\\n2178 D"
+				"\\n2179 a",
+				"t\\n2178 D",
+				"mbat\\n217"
 			],
 			"hits": [
 				{
@@ -106,8 +110,8 @@
 			]
 		}
 	],
-	"updt": 1600195053317,
-	"edit": 1,
+	"updt": 1603156285350,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -119,6 +123,14 @@
 				"at\\n2178",
 				"t\\n2178 D"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
