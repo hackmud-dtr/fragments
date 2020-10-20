@@ -6,7 +6,7 @@
 	"sector": "SPC_7494",
 	"sec_level": 4,
 	"date_added": 1595356348811,
-	"last_scraped": 1595356438621,
+	"last_scraped": 1603175767375,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,28 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1595356498621,
+	"next_scrape": 1603221322957,
 	"category": "fishie_tank",
-	"last_update": 1595356438621,
+	"last_update": 1603175767375,
 	"output": [
 		{
 			"args": {},
-			"calls": 25615,
+			"calls": 84823,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"me fe",
+				"st an",
+				" - th",
+				"me fee",
+				" the b",
 				" I'm n",
+				"s' migh",
+				"eel lik",
 				"aduate ",
 				"Or phra",
 				"tterns. ",
-				"like an "
+				"stly, 'a",
+				"like an ",
+				"ight be "
 			]
 		},
 		{
@@ -65,6 +72,16 @@
 				"tterns. ",
 				"like an "
 			]
+		}
+	],
+	"updt": 1595356632052,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
