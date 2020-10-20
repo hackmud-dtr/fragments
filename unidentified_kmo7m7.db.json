@@ -1,27 +1,22 @@
 {
 	"_id": "unidentified_kmo7m7.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unidentified_kmo7m7.db",
 	"sector": "VNP_8791",
 	"sec_level": 4,
 	"date_added": 1601046665878,
-	"last_scraped": 1601046739218,
+	"last_scraped": 1603142152673,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1601046665878
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 18,
-	"next_scrape": 1601046799218,
+	"next_scrape": 1603183340849,
 	"category": "fishie_tank",
-	"last_update": 1601046775960,
+	"last_update": 1603142152673,
 	"output": [
 		{
 			"args": {},
@@ -55,6 +50,23 @@
 				"een high",
 				"e unders"
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 66457,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ves AI",
+				"ly ill",
+				"sn't it?",
+				"en highl",
+				"een high",
+				"e unders"
+			]
 		}
-	]
+	],
+	"updt": 1601046819540,
+	"edit": 1
 }

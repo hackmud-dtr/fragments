@@ -1,24 +1,24 @@
 {
 	"_id": "anon_uwpv35.find_npcs",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "skip",
 	"script": "anon_uwpv35.find_npcs",
 	"sector": "VNP_0996",
 	"sec_level": 4,
 	"date_added": 1601317072637,
-	"last_scraped": 1601317723053,
+	"last_scraped": 1603142912706,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1601317072637
 		}
 	],
-	"updt": 1601317278937,
-	"edit": 2,
+	"updt": 1601317866609,
+	"edit": 3,
 	"scrape_ct": 17,
-	"next_scrape": 1601317783053,
+	"next_scrape": 1603185186259,
 	"category": "risk_factor",
-	"last_update": 1601317723053,
+	"last_update": 1603142912706,
 	"output": [
 		{
 			"args": {},
@@ -39,7 +39,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 398,
+			"calls": 1155,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"th is",
@@ -722,10 +722,5 @@
 			]
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"retry_args": [
-		{
-			"do": "win"
-		}
-	]
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
