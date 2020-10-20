@@ -6,7 +6,7 @@
 	"sector": "HJG_0438",
 	"sec_level": 4,
 	"date_added": 1599126642529,
-	"last_scraped": 1599126732728,
+	"last_scraped": 1603225753324,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,23 +14,29 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1599126792728,
+	"next_scrape": 1603270994879,
 	"category": "fishie_tank",
-	"last_update": 1599126732728,
+	"last_update": 1603225753324,
 	"output": [
 		{
 			"args": {},
-			"calls": 19070,
+			"calls": 66206,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"t bus",
 				"l get",
-				"mainde",
+				"blish",
 				"have e",
+				"age 1.",
 				"will ge",
 				"usier w",
+				"ta have",
 				"r when ",
-				"establis"
+				"r of st",
+				". we wi",
+				"remainde",
+				"establis",
+				"ainder o"
 			]
 		},
 		{
@@ -71,6 +77,16 @@
 				"r when ",
 				"establis"
 			]
+		}
+	],
+	"updt": 1599126759203,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
