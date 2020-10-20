@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_uodctd.t2_fresh",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_uodctd.t2_fresh",
 	"sector": "HJG_7602",
 	"sec_level": 4,
 	"date_added": 1600081350375,
-	"last_scraped": 1600081458332,
+	"last_scraped": 1603235343277,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,24 +14,30 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1600081518332,
+	"next_scrape": 1603280839044,
 	"category": "fishie_tank",
-	"last_update": 1600081458332,
+	"last_update": 1603235343277,
 	"output": [
 		{
 			"args": {},
-			"calls": 10410,
+			"calls": 69319,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"st of",
-				"ocati",
 				"most ",
+				"at I ",
+				"that I",
+				" to ha",
 				" cost ",
 				"st New ",
 				"ustonite",
 				"nites th",
+				"ndle the",
+				"nal cost",
+				"location",
 				"ation. T",
 				" years o",
+				" Two yea",
 				" New Hou"
 			],
 			"hits": [
@@ -196,8 +202,8 @@
 			]
 		}
 	],
-	"updt": 1600081515488,
-	"edit": 1,
+	"updt": 1603156285350,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -235,6 +241,14 @@
 			"frags": [
 				"most "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
