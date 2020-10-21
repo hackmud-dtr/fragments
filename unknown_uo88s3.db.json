@@ -6,7 +6,7 @@
 	"sector": "K_6981",
 	"sec_level": 4,
 	"date_added": 1600381968457,
-	"last_scraped": 1600382059851,
+	"last_scraped": 1603238906577,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,29 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1600382119851,
+	"next_scrape": 1603280142256,
 	"category": "fishie_tank",
-	"last_update": 1600382059851,
+	"last_update": 1603238906577,
 	"output": [
 		{
 			"args": {},
-			"calls": 16990,
+			"calls": 69549,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"st be",
-				"P car",
+				"ds mu",
+				"t be\\n",
+				"AP car",
 				" comba",
+				" cards",
+				" be\\n2",
 				"when co",
+				"167 fac",
 				" begins",
-				"hen comb"
+				"hen comb",
+				" face do",
+				"ombat\\n21",
+				"mbat\\n216"
 			]
 		},
 		{
@@ -67,6 +75,14 @@
 			]
 		}
 	],
-	"updt": 1600382034410,
-	"edit": 1
+	"updt": 1600382231192,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
