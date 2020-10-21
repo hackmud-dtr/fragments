@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_07lxsx.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unidentified_07lxsx.db",
 	"sector": "K_5860",
 	"sec_level": 4,
@@ -13,12 +13,12 @@
 			"when": 1602504922020
 		}
 	],
-	"updt": 1602505766260,
-	"edit": 4,
+	"updt": 1603267302868,
+	"edit": 5,
 	"scrape_ct": 13,
 	"next_scrape": 1603307228062,
 	"category": "fishie_tank",
-	"last_update": 1603267238253,
+	"last_update": 1603317799527,
 	"output": [
 		{
 			"args": {},
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6066,
+			"calls": 6961,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -129,9 +129,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
