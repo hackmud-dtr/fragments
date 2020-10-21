@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_c5lehg.acct_nt_lib",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_c5lehg.acct_nt_lib",
 	"sector": "VNP_3430",
 	"sec_level": 4,
 	"date_added": 1601570895287,
-	"last_scraped": 1601570984866,
+	"last_scraped": 1603255828699,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,25 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1601571044866,
+	"next_scrape": 1603298389102,
 	"category": "fishie_tank",
-	"last_update": 1601570984866,
+	"last_update": 1603255828699,
 	"output": [
 		{
 			"args": {},
-			"calls": 26497,
+			"calls": 71359,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"100 0",
 				"101 010",
+				"100 010",
 				"1 0100 ",
 				"00 0000",
+				"0 0000 ",
+				" 0000 0",
 				"0000 010",
-				"0 0101 0"
+				"0 0101 0",
+				"0 0100 0",
+				" 0100 00"
 			],
 			"hits": [
 				{
@@ -106,8 +110,8 @@
 			]
 		}
 	],
-	"updt": 1601571119976,
-	"edit": 2,
+	"updt": 1603255771180,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -119,6 +123,14 @@
 				"0000 010",
 				"0 0101 0"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
