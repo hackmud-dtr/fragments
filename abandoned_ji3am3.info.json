@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_ji3am3.info",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_ji3am3.info",
 	"sector": "VNP_0996",
 	"sec_level": 4,
 	"date_added": 1601334243371,
-	"last_scraped": 1601334330740,
+	"last_scraped": 1603252947751,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,18 +14,21 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1601334390740,
+	"next_scrape": 1603298869321,
 	"category": "fishie_tank",
-	"last_update": 1601334330740,
+	"last_update": 1603252947751,
 	"output": [
 		{
 			"args": {},
-			"calls": 13613,
+			"calls": 79968,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"0100 0",
+				"0 0100 ",
 				"0 0000 ",
-				"0000 000"
+				" 0000 0",
+				"0000 000",
+				"000\\n0000"
 			],
 			"hits": [
 				{
@@ -88,8 +91,8 @@
 			]
 		}
 	],
-	"updt": 1601334478091,
-	"edit": 2,
+	"updt": 1603156677882,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -98,6 +101,14 @@
 				"0 0000 ",
 				"0000 000"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
