@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_0upb95.buyusnax",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_0upb95.buyusnax",
 	"sector": "VNP_3422",
 	"sec_level": 4,
 	"date_added": 1601715398321,
-	"last_scraped": 1601715651870,
+	"last_scraped": 1603257712149,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 14,
-	"next_scrape": 1601715711870,
+	"next_scrape": 1603298291562,
 	"category": "fishie_tank",
-	"last_update": 1601715651870,
+	"last_update": 1603257712149,
 	"output": [
 		{
 			"args": {},
-			"calls": 49000,
+			"calls": 109009,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"or sai",
@@ -140,6 +140,14 @@
 			]
 		}
 	],
-	"updt": 1601715534077,
-	"edit": 1
+	"updt": 1601715728782,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
