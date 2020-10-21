@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_5uqjbj.init",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_5uqjbj.init",
 	"sector": "VNP_3422",
 	"sec_level": 4,
@@ -13,12 +13,12 @@
 			"when": 1601764185514
 		}
 	],
-	"updt": 1601764389335,
-	"edit": 2,
+	"updt": 1603258702265,
+	"edit": 3,
 	"scrape_ct": 17,
 	"next_scrape": 1603304913842,
 	"category": "fishie_tank",
-	"last_update": 1603258489378,
+	"last_update": 1603315553974,
 	"output": [
 		{
 			"args": {},
@@ -46,7 +46,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1188,
+			"calls": 2383,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -54,13 +54,20 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"roces",
 				"ocess",
 				" us o",
+				"tion p",
 				"the cr",
 				"on pos",
 				"ill fu",
 				" funct",
-				"s will "
+				"s will ",
+				"ow the ",
+				"## for ",
+				" ## for",
+				"post sta",
+				"e creati"
 			]
 		},
 		{
@@ -81,9 +88,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}

@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_0upb95.buyusnax",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_0upb95.buyusnax",
 	"sector": "VNP_3422",
 	"sec_level": 4,
@@ -16,7 +16,7 @@
 	"scrape_ct": 14,
 	"next_scrape": 1603298291562,
 	"category": "fishie_tank",
-	"last_update": 1603257712149,
+	"last_update": 1603315300759,
 	"output": [
 		{
 			"args": {},
@@ -54,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2339,
+			"calls": 8005,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -140,12 +140,9 @@
 			]
 		}
 	],
-	"updt": 1601715728782,
-	"edit": 2,
+	"updt": 1603257726167,
+	"edit": 3,
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
