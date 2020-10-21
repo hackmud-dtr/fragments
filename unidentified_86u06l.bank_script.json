@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_86u06l.bank_script",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unidentified_86u06l.bank_script",
 	"sector": "VNP_4787",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "VNP_4787",
 				"to": "HJG_3115"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1603304125950
+		}
 	],
-	"updt": 1603259680616,
-	"edit": 6784,
+	"updt": 1603259874093,
+	"edit": 6785,
 	"pl_output": "Unexpected token u in JSON at position 0",
 	"next_scrape": 1603340054248
 }
