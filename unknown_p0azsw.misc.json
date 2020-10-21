@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_p0azsw.misc",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unknown_p0azsw.misc",
 	"sector": "NGC_0729",
 	"sec_level": 4,
 	"date_added": 1601856132640,
-	"last_scraped": 1601856221636,
+	"last_scraped": 1603259375963,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1601856281636,
+	"next_scrape": 1603299003465,
 	"category": "fishie_tank",
-	"last_update": 1601856221636,
+	"last_update": 1603259375963,
 	"output": [
 		{
 			"args": {},
-			"calls": 10657,
+			"calls": 76582,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" card",
@@ -71,6 +71,16 @@
 				" begins ",
 				" TRAP ca"
 			]
+		}
+	],
+	"updt": 1601856226993,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
