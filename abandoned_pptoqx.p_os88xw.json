@@ -3,18 +3,43 @@
 	"type": "fragment",
 	"mode": "skip",
 	"script": "abandoned_pptoqx.p_os88xw",
-	"sector": "SPC_9704",
+	"sector": "NGC_0022",
 	"sec_level": 4,
 	"date_added": 1600620668676,
-	"last_scraped": 1603244091174,
+	"last_scraped": 1603269936588,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1600620668676
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1603269663629,
+				"from": "NGC_0022",
+				"to": "SPC_9704"
+			}
+		]
 	],
 	"pl_output": "`UACCESS DENIED.`",
-	"next_scrape": 1603332888162,
-	"updt": 1603244037472,
-	"edit": 330
+	"next_scrape": 1603269996588,
+	"updt": 1603269846868,
+	"edit": 332,
+	"scrape_ct": 16,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1603269936588,
+	"output": [
+		{
+			"args": {},
+			"calls": 10577,
+			"base": "`UACCESS DENIED.`",
+			"fragments": [
+				"get h",
+				"for f",
+				"r a mo",
+				"moment.",
+				" necessa"
+			]
+		}
+	]
 }
