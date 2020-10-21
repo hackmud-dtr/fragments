@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_m4otor.override",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_m4otor.override",
 	"sector": "VNP_5602",
 	"sec_level": 4,
 	"date_added": 1602970945093,
-	"last_scraped": 1602971053232,
+	"last_scraped": 1603273140285,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1602971113232,
+	"next_scrape": 1603317302707,
 	"category": "fishie_tank",
-	"last_update": 1602971053232,
+	"last_update": 1603273140285,
 	"output": [
 		{
 			"args": {},
-			"calls": 11833,
+			"calls": 80753,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ure i",
@@ -106,8 +106,8 @@
 			]
 		}
 	],
-	"updt": 1602971240912,
-	"edit": 2,
+	"updt": 1603269846868,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
@@ -119,6 +119,14 @@
 				"gies' mi",
 				"atterns."
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
