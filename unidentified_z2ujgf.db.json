@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_z2ujgf.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unidentified_z2ujgf.db",
 	"sector": "VNP_0996",
 	"sec_level": 4,
 	"date_added": 1601319755483,
-	"last_scraped": 1601319845343,
+	"last_scraped": 1603252639809,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1601319905343,
+	"next_scrape": 1603293246744,
 	"category": "fishie_tank",
 	"last_update": 1601319845343,
 	"output": [
@@ -67,6 +67,14 @@
 			]
 		}
 	],
-	"updt": 1601319817890,
-	"edit": 1
+	"updt": 1601320015179,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
