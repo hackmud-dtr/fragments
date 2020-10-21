@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_hf09rr.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_hf09rr.db",
 	"sector": "VNP_8791",
 	"sec_level": 4,
 	"date_added": 1601044293523,
-	"last_scraped": 1601044383283,
+	"last_scraped": 1603247167977,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,29 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1601044443283,
+	"next_scrape": 1603286975534,
 	"category": "fishie_tank",
-	"last_update": 1601044383283,
+	"last_update": 1603247148967,
 	"output": [
 		{
 			"args": {},
-			"calls": 14254,
+			"calls": 57133,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ree? ",
 				"nd th",
+				"sed yo",
+				"e? I h",
+				"e, I r",
 				"attern",
+				"2FC4_F",
+				" sorry",
 				"fine. I",
 				"Hi Sale",
 				". I'll ",
-				"ribe art"
+				"running ",
+				"ribe art",
+				"ng. I'll"
 			]
 		},
 		{
@@ -68,6 +75,16 @@
 				". I'll ",
 				"ribe art"
 			]
+		}
+	],
+	"updt": 1601044475772,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
