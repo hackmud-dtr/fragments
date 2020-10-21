@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_vzv3gt.lounge",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unknown_vzv3gt.lounge",
 	"sector": "HJG_9960",
 	"sec_level": 4,
 	"date_added": 1600722879840,
-	"last_scraped": 1600723386835,
+	"last_scraped": 1603243077428,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,20 +14,25 @@
 		}
 	],
 	"scrape_ct": 11,
-	"next_scrape": 1600723446835,
+	"next_scrape": 1603282961962,
 	"category": "fishie_tank",
-	"last_update": 1600723386835,
+	"last_update": 1603243077428,
 	"output": [
 		{
 			"args": {},
-			"calls": 46970,
+			"calls": 86985,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"unamb",
+				"e mig",
 				"ht in ",
-				"biguou",
+				". Clea",
+				" commu",
 				"t we mi",
 				"ication",
+				"biguous",
 				" has al",
+				"issue. W",
 				"Clear un"
 			],
 			"hits": [
@@ -119,6 +124,14 @@
 			]
 		}
 	],
-	"updt": 1600723011795,
-	"edit": 1
+	"updt": 1600723401860,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }

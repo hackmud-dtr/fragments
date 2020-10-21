@@ -6,7 +6,7 @@
 	"sector": "HJG_9960",
 	"sec_level": 4,
 	"date_added": 1600738940893,
-	"last_scraped": 1600739321763,
+	"last_scraped": 1603243184591,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,24 @@
 		}
 	],
 	"scrape_ct": 9,
-	"next_scrape": 1600739381763,
+	"next_scrape": 1603289760880,
 	"category": "coin_flipper",
-	"last_update": 1600739321763,
+	"last_update": 1603243184591,
 	"output": [
 		{
 			"args": {},
-			"calls": 158340,
+			"calls": 222558,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"1 0100",
-				"0100 0",
 				"001 01",
-				"000 01",
+				"0000 00",
+				"000 010",
+				" 0100 0",
 				"101 0001",
-				"00 0001 "
+				"00 0100 ",
+				"00 0001 ",
+				"00 0000 "
 			],
 			"hits": [
 				{
@@ -58,6 +61,6 @@
 			]
 		}
 	],
-	"updt": 1600739228967,
-	"edit": 2
+	"updt": 1600739425732,
+	"edit": 3
 }
