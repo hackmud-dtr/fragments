@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_n5zdhq.check",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anonymous_n5zdhq.check",
 	"sector": "NGC_5884",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1600556418816
+		},
+		{
+			"type": "died",
+			"when": 1603312094771
 		}
 	],
 	"next_scrape": 1603281564212,
@@ -76,6 +80,7 @@
 			]
 		}
 	],
-	"updt": 1603241109600,
-	"edit": 20
+	"updt": 1603241304926,
+	"edit": 21,
+	"dead_plant_sim": true
 }

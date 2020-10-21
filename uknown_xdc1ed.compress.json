@@ -16,7 +16,7 @@
 	"scrape_ct": 17,
 	"next_scrape": 1603264236418,
 	"category": "fishie_tank",
-	"last_update": 1603222519900,
+	"last_update": 1603306192436,
 	"output": [
 		{
 			"args": {},
@@ -41,7 +41,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1131,
+			"calls": 7214,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -49,11 +49,16 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"0 010",
+				"0100 0",
 				"100 000",
-				"01 0100",
+				"0001 01",
 				"0000 00",
+				"00 0101",
+				"0 0101 ",
+				"01 0100 ",
+				"0000 010",
 				"00 0000 ",
+				"0 0000 0",
 				" 0101 01",
 				" 0000 01"
 			]
@@ -75,12 +80,9 @@
 			]
 		}
 	],
-	"updt": 1598884227745,
-	"edit": 2,
+	"updt": 1603222541571,
+	"edit": 3,
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
