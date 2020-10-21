@@ -13,12 +13,9 @@
 			"when": 1603215451424
 		}
 	],
-	"updt": 1603215502301,
-	"edit": 1,
+	"updt": 1603215697705,
+	"edit": 2,
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
@@ -26,12 +23,33 @@
 	"scrape_ct": 16,
 	"next_scrape": 1603215710955,
 	"category": "fishie_tank",
-	"last_update": 1603215650955,
+	"last_update": 1603303833888,
 	"output": [
 		{
 			"args": {},
 			"calls": 66198,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"o do ",
+				"ing t",
+				"going",
+				"do ab",
+				"about ",
+				" pornog",
+				"l of the"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 5131,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
 			"fragments": [
 				"o do ",
 				"ing t",

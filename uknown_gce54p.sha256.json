@@ -6,24 +6,19 @@
 	"sector": "VNP_3422",
 	"sec_level": 4,
 	"date_added": 1601761033634,
-	"last_scraped": 1601761378776,
+	"last_scraped": 1603285558002,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1601761033634
 		}
 	],
-	"updt": 1601761458372,
-	"edit": 2,
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
+	"updt": 1603156677882,
+	"edit": 3,
 	"scrape_ct": 16,
-	"next_scrape": 1601761438776,
+	"next_scrape": 1603332025594,
 	"category": "fishie_tank",
-	"last_update": 1603144818533,
+	"last_update": 1603285558002,
 	"output": [
 		{
 			"args": {},
@@ -53,6 +48,24 @@
 				"they are still hungry?",
 				"they don't look so good"
 			],
+			"fragments": [
+				"arene",
+				"ty to ",
+				"sition",
+				"an ide",
+				" to pu",
+				" abili",
+				"ly with",
+				"mselves ",
+				"generals"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 56210,
+			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"arene",
 				"ty to ",
