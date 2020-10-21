@@ -6,7 +6,7 @@
 	"sector": "NGC_7525",
 	"sec_level": 4,
 	"date_added": 1596950527485,
-	"last_scraped": 1603151046260,
+	"last_scraped": 1603298581382,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1603195737802,
+	"next_scrape": 1603381721719,
 	"category": "risk_factor",
 	"last_update": 1603151046260,
 	"output": [
@@ -2675,13 +2675,8 @@
 			]
 		}
 	],
-	"updt": 1596950818199,
-	"edit": 2,
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
+	"updt": 1603154916900,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -3989,5 +3984,11 @@
 				" play\\n2"
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
