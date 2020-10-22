@@ -6,7 +6,7 @@
 	"sector": "K_0891",
 	"sec_level": 4,
 	"date_added": 1597498734842,
-	"last_scraped": 1603153365120,
+	"last_scraped": 1603336046179,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,20 +14,23 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1603197035768,
+	"next_scrape": 1603379506357,
 	"category": "clicker",
-	"last_update": 1603153365120,
+	"last_update": 1603336046179,
 	"output": [
 		{
 			"args": {},
-			"calls": 57934,
+			"calls": 123784,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
+				"0100 0",
 				"0000 0",
-				" 0000 ",
 				"00 0101",
+				"00 0100",
+				"0 0000 ",
 				"100 0000",
 				"01 0100 ",
+				"001 0100",
 				"0 0001 0"
 			],
 			"hits": [
@@ -254,8 +257,8 @@
 			]
 		}
 	],
-	"updt": 1597498911173,
-	"edit": 1,
+	"updt": 1603155308709,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -267,6 +270,14 @@
 				"01 0100 ",
 				"0 0001 0"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
 		}
 	]
 }
