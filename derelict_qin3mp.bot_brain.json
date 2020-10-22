@@ -6,23 +6,23 @@
 	"sector": "HJG_9960",
 	"sec_level": 4,
 	"date_added": 1600710492789,
-	"last_scraped": 1603140485791,
+	"last_scraped": 1603333161561,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1600710492789
 		}
 	],
-	"updt": 1600710895626,
-	"edit": 3,
+	"updt": 1603156483346,
+	"edit": 4,
 	"scrape_ct": 14,
-	"next_scrape": 1603181454502,
+	"next_scrape": 1603378148055,
 	"category": "fishie_tank",
-	"last_update": 1603140485791,
+	"last_update": 1603333161561,
 	"output": [
 		{
 			"args": {},
-			"calls": 55332,
+			"calls": 123059,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"roces",
@@ -119,6 +119,14 @@
 				"he creat",
 				"age 5. #"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
