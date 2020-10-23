@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_2wtd2e.bot_brain",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_2wtd2e.bot_brain",
 	"sector": "K_2311",
 	"sec_level": 4,
 	"date_added": 1602260772455,
-	"last_scraped": 1603335050038,
+	"last_scraped": 1603487548434,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1603381703363,
+	"next_scrape": 1603530440746,
 	"category": "risk_factor",
-	"last_update": 1603335050038,
+	"last_update": 1603487548434,
 	"output": [
 		{
 			"args": {},
@@ -36,7 +36,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 890,
+			"calls": 1658,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"set o",
@@ -468,12 +468,9 @@
 			]
 		}
 	],
-	"updt": 1603156873474,
-	"edit": 2,
+	"updt": 1603335118526,
+	"edit": 3,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

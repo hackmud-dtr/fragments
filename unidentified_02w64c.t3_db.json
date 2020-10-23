@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_02w64c.t3_db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_02w64c.t3_db",
 	"sector": "HJG_9759",
 	"sec_level": 4,
 	"date_added": 1602661652768,
-	"last_scraped": 1603335503912,
+	"last_scraped": 1603487999746,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1603375208516,
+	"next_scrape": 1603532534048,
 	"category": "risk_factor",
-	"last_update": 1603335503912,
+	"last_update": 1603487999746,
 	"output": [
 		{
 			"args": {},
@@ -37,7 +37,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 678,
+			"calls": 1458,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"rols ",
@@ -511,12 +511,9 @@
 			]
 		}
 	],
-	"updt": 1603157068917,
-	"edit": 3,
+	"updt": 1603487956016,
+	"edit": 5,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
