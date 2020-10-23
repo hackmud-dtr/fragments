@@ -6,7 +6,7 @@
 	"sector": "K_0891",
 	"sec_level": 4,
 	"date_added": 1597498734842,
-	"last_scraped": 1603336046179,
+	"last_scraped": 1603488435401,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1603379506357,
+	"next_scrape": 1603534112537,
 	"category": "clicker",
-	"last_update": 1603336046179,
+	"last_update": 1603488435401,
 	"output": [
 		{
 			"args": {},
@@ -51,14 +51,16 @@
 			"args": {
 				"click": true
 			},
-			"calls": 16446,
+			"calls": 57462,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"0100 0",
-				"00 000",
+				"0000 01",
+				"0000 00",
 				"00 0100",
-				"0 0000 ",
-				"001 0100"
+				"01 0100 ",
+				"001 0100",
+				"00 0000 "
 			]
 		},
 		{
@@ -257,8 +259,8 @@
 			]
 		}
 	],
-	"updt": 1603155308709,
-	"edit": 2,
+	"updt": 1603336095787,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -273,9 +275,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"click": true
-		},
 		{
 			"CLICK": true
 		}
