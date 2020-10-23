@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_cqyftf.extern_60yb0d",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_cqyftf.extern_60yb0d",
 	"sector": "K_6517",
 	"sec_level": 4,
@@ -13,12 +13,12 @@
 			"when": 1597425199498
 		}
 	],
-	"updt": 1603311465627,
-	"edit": 4,
+	"updt": 1603417210369,
+	"edit": 5,
 	"scrape_ct": 16,
 	"next_scrape": 1603463542606,
 	"category": "fishie_tank",
-	"last_update": 1603417101584,
+	"last_update": 1603489900852,
 	"output": [
 		{
 			"args": {},
@@ -63,7 +63,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6031,
+			"calls": 12343,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -118,9 +118,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
