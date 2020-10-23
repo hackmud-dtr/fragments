@@ -6,33 +6,40 @@
 	"sector": "VNP_3422",
 	"sec_level": 4,
 	"date_added": 1601761033634,
-	"last_scraped": 1603285558002,
+	"last_scraped": 1603495679934,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1601761033634
 		}
 	],
-	"updt": 1603156677882,
-	"edit": 3,
+	"updt": 1603313224450,
+	"edit": 4,
 	"scrape_ct": 16,
-	"next_scrape": 1603332025594,
+	"next_scrape": 1603537581561,
 	"category": "fishie_tank",
-	"last_update": 1603285558002,
+	"last_update": 1603495679934,
 	"output": [
 		{
 			"args": {},
-			"calls": 44066,
+			"calls": 96125,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"| It ",
+				"s Byz",
+				"posit",
 				"ience",
+				"hemse",
 				"ators",
+				" exte",
+				"nce. O",
 				"human ",
+				"selves ",
 				"rance. ",
 				"an idea",
 				"als, an",
 				"o achiev",
+				"ion them",
 				"external",
 				"ability "
 			]
@@ -77,6 +84,14 @@
 				"mselves ",
 				"generals"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

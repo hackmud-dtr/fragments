@@ -6,7 +6,7 @@
 	"sector": "HJG_9828",
 	"sec_level": 4,
 	"date_added": 1597876610970,
-	"last_scraped": 1603285015579,
+	"last_scraped": 1603495135917,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,30 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1603324685162,
+	"next_scrape": 1603535840483,
 	"category": "fishie_tank",
-	"last_update": 1603285015579,
+	"last_update": 1603495135917,
 	"output": [
 		{
 			"args": {},
-			"calls": 54133,
+			"calls": 103870,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"y can",
 				"those",
-				"purpo",
-				"r all ",
+				"sed a ",
+				"of tho",
 				"ay. We",
+				"'s too",
 				" the no",
+				" hot to",
+				"repurpos",
+				"r all of",
 				"ors and ",
+				"lunch bu",
+				"ll of th",
+				"epurpose",
+				"e: it's ",
 				"d a bunc",
 				" all of "
 			],
@@ -90,8 +99,8 @@
 			]
 		}
 	],
-	"updt": 1603155504518,
-	"edit": 2,
+	"updt": 1603311856003,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
@@ -105,6 +114,14 @@
 				"d a bunc",
 				" all of "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
