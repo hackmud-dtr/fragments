@@ -1,7 +1,7 @@
 {
 	"_id": "anon_61t08p.free_vbucks",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "anon_61t08p.free_vbucks",
 	"sector": "K_2838",
 	"sec_level": 4,
@@ -13,12 +13,9 @@
 			"when": 1603312763911
 		}
 	],
-	"updt": 1603313616731,
-	"edit": 1,
+	"updt": 1603324365017,
+	"edit": 2,
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
@@ -26,12 +23,36 @@
 	"scrape_ct": 16,
 	"next_scrape": 1603324418638,
 	"category": "fishie_tank",
-	"last_update": 1603324358638,
+	"last_update": 1603482477388,
 	"output": [
 		{
 			"args": {},
 			"calls": 55431,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"E0X2B",
+				"0XF22",
+				"ECT0XF",
+				"7A_SEC",
+				"3 Fina",
+				".\\n214",
+				"D179\\nA",
+				"A_SECT0",
+				"2BC7D17",
+				"ers.\\n21"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4779,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
 			"fragments": [
 				"E0X2B",
 				"0XF22",

@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_alrez0.steak",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_alrez0.steak",
 	"sector": "NGC_0022",
 	"sec_level": 4,
@@ -13,12 +13,9 @@
 			"when": 1603302748426
 		}
 	],
-	"updt": 1603324171602,
-	"edit": 2,
+	"updt": 1603463136724,
+	"edit": 3,
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
@@ -26,7 +23,7 @@
 	"scrape_ct": 16,
 	"next_scrape": 1603324201465,
 	"category": "fishie_tank",
-	"last_update": 1603324141465,
+	"last_update": 1603482259402,
 	"output": [
 		{
 			"args": {},
@@ -60,6 +57,27 @@
 						" but it "
 					]
 				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 6318,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"n. Th",
+				"dvanc",
+				"cess.",
+				"asy t",
+				"behavi",
+				"cess at",
+				"but it s"
 			]
 		}
 	],
