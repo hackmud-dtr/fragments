@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_54lskn.selling",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abndnd_54lskn.selling",
 	"sector": "K_2838",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1603425197783
+		},
+		{
+			"type": "died",
+			"when": 1603447325593
 		}
 	],
 	"scrape_ct": 16,
@@ -29,9 +33,35 @@
 				"ERROR ",
 				" | PRO",
 				" ERROR"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"| NETW",
+						"RROR |",
+						"NETW E",
+						"ERROR ",
+						" | PRO",
+						" ERROR"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1603425229644,
-	"edit": 1
+	"updt": 1603425424019,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"| NETW",
+				"RROR |",
+				"NETW E",
+				"ERROR ",
+				" | PRO",
+				" ERROR"
+			]
+		}
+	]
 }
