@@ -1,35 +1,43 @@
 {
 	"_id": "abandoned_cqyftf.extern_60yb0d",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_cqyftf.extern_60yb0d",
 	"sector": "K_6517",
 	"sec_level": 4,
 	"date_added": 1597425199498,
-	"last_scraped": 1603284471713,
+	"last_scraped": 1603417101584,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1597425199498
 		}
 	],
-	"updt": 1603155112417,
-	"edit": 3,
+	"updt": 1603311465627,
+	"edit": 4,
 	"scrape_ct": 16,
-	"next_scrape": 1603329239594,
+	"next_scrape": 1603463542606,
 	"category": "fishie_tank",
-	"last_update": 1603284471713,
+	"last_update": 1603417101584,
 	"output": [
 		{
 			"args": {},
-			"calls": 48898,
+			"calls": 102559,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"t and",
 				"n, wh",
+				"in th",
 				"Well ",
 				" RIGH",
+				"GHT? W",
+				" that ",
+				"the mom",
 				"ho isn'",
+				"he bigg",
+				"st story",
+				"orld, RI",
+				"makes it",
 				"e world,"
 			],
 			"hits": [
@@ -107,6 +115,14 @@
 			"frags": [
 				" RIGH"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

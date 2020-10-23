@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_z2ujgf.best_items",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_z2ujgf.best_items",
 	"sector": "NGC_4125",
 	"sec_level": 4,
 	"date_added": 1597176551540,
-	"last_scraped": 1603284453586,
+	"last_scraped": 1603416993434,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,29 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1603325574801,
+	"next_scrape": 1603456717472,
 	"category": "fishie_tank",
-	"last_update": 1603284453586,
+	"last_update": 1603416993434,
 	"output": [
 		{
 			"args": {},
-			"calls": 42325,
+			"calls": 106544,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"ds, N",
-				" to r",
+				"gie-d",
 				" swat",
+				" seve",
+				"sign sw",
+				"icipal ",
 				"everal ",
+				"e to re",
+				"designe",
 				"ston's A",
 				"em was a",
-				"ed munic"
+				"ed munic",
+				"ds, New ",
+				"al opera",
+				"al neigh"
 			]
 		},
 		{
@@ -78,6 +85,14 @@
 			]
 		}
 	],
-	"updt": 1603155112417,
-	"edit": 2
+	"updt": 1603311465627,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }

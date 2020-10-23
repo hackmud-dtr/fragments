@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_ur7crr.mop",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_ur7crr.mop",
 	"sector": "VNP_3235",
 	"sec_level": 4,
 	"date_added": 1597083845663,
-	"last_scraped": 1603284344871,
+	"last_scraped": 1603416775572,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,27 @@
 		}
 	],
 	"scrape_ct": 0,
-	"next_scrape": 1603325925636,
+	"next_scrape": 1603463258737,
 	"category": "fishie_tank",
-	"last_update": 1603284344871,
+	"last_update": 1603416775572,
 	"output": [
 		{
 			"args": {},
-			"calls": 108286,
+			"calls": 181264,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"nclud",
+				"ifica",
+				"ere's",
 				"cific",
 				": I t",
 				"llory.",
 				"ing Mal",
 				"fraid w",
-				" case fo"
+				" set? #",
+				"## Yes. ",
+				" case fo",
+				" ## Yes."
 			],
 			"hits": [
 				{
@@ -136,6 +141,14 @@
 			]
 		}
 	],
-	"updt": 1603155112417,
-	"edit": 6
+	"updt": 1603311465627,
+	"edit": 7,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
