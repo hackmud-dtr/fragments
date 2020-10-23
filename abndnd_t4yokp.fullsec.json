@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_t4yokp.fullsec",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_t4yokp.fullsec",
 	"sector": "HJG_9828",
 	"sec_level": 4,
 	"date_added": 1597858680698,
-	"last_scraped": 1603284888075,
+	"last_scraped": 1603494971495,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,31 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1603328354213,
+	"next_scrape": 1603537299216,
 	"category": "fishie_tank",
-	"last_update": 1603284888075,
+	"last_update": 1603494971495,
 	"output": [
 		{
 			"args": {},
-			"calls": 40998,
+			"calls": 68934,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"that ",
-				" form",
+				"r pro",
+				"hen. ",
+				"e of ",
 				"ains e",
+				"# In t",
+				"t be fo",
 				"ey are ",
 				" contin",
+				"ulated. ",
+				"ormulate",
 				"oof migh",
-				"d. ## So"
+				"formulat",
+				"d. ## So",
+				"be formu",
+				"AI is ex"
 			]
 		},
 		{
@@ -76,6 +85,14 @@
 			]
 		}
 	],
-	"updt": 1603155504518,
-	"edit": 3
+	"updt": 1603311856003,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
