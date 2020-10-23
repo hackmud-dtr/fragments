@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_efbh1l.reactor",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_efbh1l.reactor",
 	"sector": "SPC_0127",
 	"sec_level": 4,
 	"date_added": 1597736325842,
-	"last_scraped": 1603286516257,
+	"last_scraped": 1603417427684,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,27 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1603329920107,
+	"next_scrape": 1603459219295,
 	"category": "risk_factor",
-	"last_update": 1603286516257,
+	"last_update": 1603417427684,
 	"output": [
 		{
 			"args": {},
-			"calls": 3406,
+			"calls": 13969,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"nclud",
 				"icall",
 				"ase s",
 				" ther",
+				" Yes.",
 				"raid w",
+				"e set? ",
 				"Yes. Sp",
 				" I'm af",
-				"cally: I"
+				"or inclu",
+				"cally: I",
+				"I'm afra"
 			],
 			"hits": [
 				{
@@ -1336,8 +1341,8 @@
 			]
 		}
 	],
-	"updt": 1603155308709,
-	"edit": 2,
+	"updt": 1603417406427,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -1974,6 +1979,14 @@
 				" I'm af",
 				"cally: I"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
 		}
 	]
 }
