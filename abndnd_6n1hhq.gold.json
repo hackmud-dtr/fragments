@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_6n1hhq.gold",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_6n1hhq.gold",
 	"sector": "K_9825",
 	"sec_level": 4,
 	"date_added": 1601959612052,
-	"last_scraped": 1603294648327,
+	"last_scraped": 1603502999129,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 14,
-	"next_scrape": 1603376356241,
+	"next_scrape": 1603545881154,
 	"category": "risk_factor",
 	"last_update": 1603294648327,
 	"output": [
@@ -2082,8 +2082,8 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1603156873474,
-	"edit": 3,
+	"updt": 1603313224450,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -3094,6 +3094,14 @@
 				"s the ch",
 				" running"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
 		}
 	]
 }
