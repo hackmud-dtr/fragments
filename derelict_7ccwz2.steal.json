@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_7ccwz2.steal",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_7ccwz2.steal",
 	"sector": "HJG_0966",
 	"sec_level": 4,
 	"date_added": 1599596484291,
-	"last_scraped": 1603289285881,
+	"last_scraped": 1603499466483,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1603329378965,
+	"next_scrape": 1603541775992,
 	"category": "risk_factor",
-	"last_update": 1603289285881,
+	"last_update": 1603499466483,
 	"output": [
 		{
 			"args": {},
-			"calls": 4114,
+			"calls": 8561,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"n eraj",
@@ -1266,6 +1266,14 @@
 			]
 		}
 	],
-	"updt": 1603156091018,
-	"edit": 3
+	"updt": 1603312441473,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
