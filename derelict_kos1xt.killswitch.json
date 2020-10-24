@@ -1,0 +1,49 @@
+{
+	"_id": "derelict_kos1xt.killswitch",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "derelict_kos1xt.killswitch",
+	"sector": "K_1427",
+	"sec_level": 4,
+	"date_added": 1603566056011,
+	"last_scraped": 1603566144352,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1603566056011
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1603566204352,
+	"category": "fishie_tank",
+	"last_update": 1603566144352,
+	"output": [
+		{
+			"args": {},
+			"calls": 71972,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"{\"dat",
+				"ater,",
+				"Final",
+				"E_SEC",
+				"e\":\"tr",
+				"Mallor",
+				"GE NEW",
+				"0X0E_S",
+				"\",\"hea",
+				"eader\":",
+				"E NEWS ",
+				", It Fin"
+			]
+		}
+	]
+}
