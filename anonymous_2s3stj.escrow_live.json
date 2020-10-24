@@ -6,7 +6,7 @@
 	"sector": "VNP_1486",
 	"sec_level": 4,
 	"date_added": 1601522871494,
-	"last_scraped": 1603293089577,
+	"last_scraped": 1603501912666,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1603338680108,
+	"next_scrape": 1603542825384,
 	"category": "risk_factor",
-	"last_update": 1603293089577,
+	"last_update": 1603501912666,
 	"output": [
 		{
 			"args": {},
-			"calls": 2403,
+			"calls": 11704,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"043 6",
@@ -587,7 +587,15 @@
 			]
 		}
 	],
-	"updt": 1603156677882,
-	"edit": 2,
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"updt": 1603313224450,
+	"edit": 3,
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
