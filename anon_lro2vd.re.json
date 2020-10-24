@@ -6,7 +6,7 @@
 	"sector": "SPC_9704",
 	"sec_level": 4,
 	"date_added": 1600670723415,
-	"last_scraped": 1603291078709,
+	"last_scraped": 1603500734017,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,19 +14,23 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1603380116344,
+	"next_scrape": 1603540717555,
 	"category": "risk_factor",
-	"last_update": 1603291078709,
+	"last_update": 1603500734017,
 	"output": [
 		{
 			"args": {},
-			"calls": 2589,
+			"calls": 12691,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"W ERR",
+				" | PR",
+				"| PROG",
 				"ETW ER",
-				" ERROR ",
-				" | NETW "
+				"PROG ERR",
+				" | NETW ",
+				" PROG ER",
+				" ERROR |"
 			]
 		},
 		{
@@ -1102,7 +1106,15 @@
 			]
 		}
 	],
-	"updt": 1603156483346,
-	"edit": 2,
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"updt": 1603312834245,
+	"edit": 3,
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }

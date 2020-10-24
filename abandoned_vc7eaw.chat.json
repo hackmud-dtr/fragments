@@ -6,7 +6,7 @@
 	"sector": "K_6981",
 	"sec_level": 4,
 	"date_added": 1600404086493,
-	"last_scraped": 1603290427816,
+	"last_scraped": 1603500188559,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1603381715432,
+	"next_scrape": 1603544687506,
 	"category": "risk_factor",
-	"last_update": 1603290427816,
+	"last_update": 1603500188559,
 	"output": [
 		{
 			"args": {},
-			"calls": 2135,
+			"calls": 12001,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"W ERR",
@@ -699,8 +699,8 @@
 			]
 		}
 	],
-	"updt": 1603156483346,
-	"edit": 4,
+	"updt": 1603312834245,
+	"edit": 5,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"identified": [
 		{
@@ -714,6 +714,14 @@
 				"MFT0XCF_",
 				"0X6B58_F"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
 		}
 	]
 }

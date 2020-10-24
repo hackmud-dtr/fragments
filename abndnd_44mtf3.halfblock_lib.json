@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_44mtf3.halfblock_lib",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_44mtf3.halfblock_lib",
 	"sector": "VNP_2775",
 	"sec_level": 4,
 	"date_added": 1600943623604,
-	"last_scraped": 1603292129251,
+	"last_scraped": 1603501221933,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,29 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1603373063826,
+	"next_scrape": 1603545404457,
 	"category": "risk_factor",
-	"last_update": 1603292129251,
+	"last_update": 1603501221933,
 	"output": [
 		{
 			"args": {},
-			"calls": 3564,
+			"calls": 6128,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
-				"e to ",
+				"to hi",
+				"o hit",
+				"t's ta",
 				"e it. ",
 				" runni",
+				" it. F",
 				"he grou",
+				"ce to h",
+				"s take i",
 				"ng so le",
-				"hit the "
+				"it the g",
+				"hit the ",
+				"'s take ",
+				" the cha"
 			],
 			"hits": [
 				{
@@ -1602,8 +1610,8 @@
 			]
 		}
 	],
-	"updt": 1603156483346,
-	"edit": 2,
+	"updt": 1603313028521,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -2128,5 +2136,13 @@
 			]
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
