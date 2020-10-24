@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_tu5zva.dist",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "skip",
 	"script": "abandoned_tu5zva.dist",
-	"sector": "CHOICE_THETA_8",
+	"sector": "SPC_7675",
 	"sec_level": 4,
 	"date_added": 1585351139446,
-	"last_scraped": 1603362805590,
+	"last_scraped": 1603509840613,
 	"script_log": [
 		{
 			"type": "added",
@@ -31,10 +31,18 @@
 		{
 			"type": "died",
 			"when": 1603508913053
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1603509691479,
+				"from": "SPC_7675",
+				"to": "CHOICE_THETA_8"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false}",
-	"next_scrape": 1603444437493,
-	"updt": 1603362882967,
-	"edit": 4743
+	"next_scrape": 1603590109155,
+	"updt": 1603509840256,
+	"edit": 4745
 }
