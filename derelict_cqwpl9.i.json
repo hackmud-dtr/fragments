@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_cqwpl9.i",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_cqwpl9.i",
 	"sector": "SPC_5976",
 	"sec_level": 4,
 	"date_added": 1603510183003,
-	"last_scraped": 1603510218710,
+	"last_scraped": 1603510273998,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,6 +15,22 @@
 		{
 			"type": "died",
 			"when": 1603510218710
+		},
+		{
+			"type": "died",
+			"when": 1603510237380
+		},
+		{
+			"type": "died",
+			"when": 1603510255007
+		},
+		{
+			"type": "died",
+			"when": 1603510273998
+		},
+		{
+			"type": "died",
+			"when": 1603510419169
 		}
 	],
 	"retry_args": [
@@ -26,7 +42,7 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1603594408993,
+	"next_scrape": 1603593333029,
 	"category": "risk_factor",
 	"last_update": 1603510202037,
 	"output": [
@@ -55,5 +71,7 @@
 			]
 		}
 	],
-	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_cqwpl9.i: script doesn't exist\"}"
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_cqwpl9.i: script doesn't exist\"}",
+	"updt": 1603510229388,
+	"edit": 1
 }
