@@ -1,12 +1,12 @@
 {
 	"_id": "anon_dy86o7.blib",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_dy86o7.blib",
 	"sector": "NGC_9642",
 	"sec_level": 4,
 	"date_added": 1598128640521,
-	"last_scraped": 1603287078048,
+	"last_scraped": 1603498305921,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,25 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1603380216559,
+	"next_scrape": 1603539421863,
 	"category": "risk_factor",
-	"last_update": 1603287078048,
+	"last_update": 1603498305921,
 	"output": [
 		{
 			"args": {},
-			"calls": 3490,
+			"calls": 15109,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"se, f",
 				"ock o",
 				" chan",
-				" and ",
 				"uickly",
-				" quick",
-				"ferable"
+				" and w",
+				"le to t",
+				"ferable",
+				" that t",
+				"d quickl",
+				", in any"
 			]
 		},
 		{
@@ -2114,6 +2117,14 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1603155504518,
-	"edit": 3
+	"updt": 1603311856003,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
