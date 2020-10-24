@@ -1,35 +1,38 @@
 {
 	"_id": "unknown_rylwck.backend_binmat_v2",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unknown_rylwck.backend_binmat_v2",
 	"sector": "NGC_5884",
 	"sec_level": 4,
 	"date_added": 1600558773693,
-	"last_scraped": 1603290753719,
+	"last_scraped": 1603500443043,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1600558773693
 		}
 	],
-	"updt": 1603156483346,
-	"edit": 4,
+	"updt": 1603312834245,
+	"edit": 5,
 	"scrape_ct": 19,
-	"next_scrape": 1603381997818,
+	"next_scrape": 1603542534122,
 	"category": "risk_factor",
-	"last_update": 1603290753719,
+	"last_update": 1603500443043,
 	"output": [
 		{
 			"args": {},
-			"calls": 1942,
+			"calls": 3562,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"e adj",
-				"atibi",
+				"y\\n20B0",
 				" human ",
 				"spatiali",
-				"adjusted"
+				"ot.\\n20A",
+				"mpatibil",
+				"adjusted",
+				"ality\\n20"
 			]
 		},
 		{
@@ -506,5 +509,13 @@
 			]
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }

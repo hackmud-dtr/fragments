@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_tjfvhs.casino",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_tjfvhs.casino",
 	"sector": "K_6981",
 	"sec_level": 4,
 	"date_added": 1600200168459,
-	"last_scraped": 1603290300425,
+	"last_scraped": 1603500063040,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,19 +14,23 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1603370603647,
+	"next_scrape": 1603539918291,
 	"category": "risk_factor",
-	"last_update": 1603290300425,
+	"last_update": 1603500044257,
 	"output": [
 		{
 			"args": {},
-			"calls": 4029,
+			"calls": 10290,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"e def",
 				"A 5 s",
 				"r turn",
+				"0 turn",
 				"after 1",
 				"er 110 t",
+				" seconds",
+				"urns\\n208",
 				"s\\n208C t"
 			],
 			"hits": [
@@ -1830,8 +1834,8 @@
 			]
 		}
 	],
-	"updt": 1603156285350,
-	"edit": 2,
+	"updt": 1603312638620,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -1844,5 +1848,13 @@
 			]
 		}
 	],
-	"pl_output": "YOU COULD WIN 1GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 1GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
