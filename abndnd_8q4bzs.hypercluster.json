@@ -6,7 +6,7 @@
 	"sector": "NGC_5142",
 	"sec_level": 4,
 	"date_added": 1600757635910,
-	"last_scraped": 1603441580920,
+	"last_scraped": 1603630763938,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,34 +14,43 @@
 		}
 	],
 	"scrape_ct": 11,
-	"next_scrape": 1603486929236,
+	"next_scrape": 1603677024720,
 	"category": "fishie_tank",
-	"last_update": 1603441580920,
+	"last_update": 1603630763938,
 	"output": [
 		{
 			"args": {},
-			"calls": 107843,
+			"calls": 144453,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"wer i",
 				"waste",
 				"the s",
+				"tem. ",
+				"r inc",
+				"le po",
 				"incre",
 				"dditi",
-				"se. I ",
 				"n on t",
 				"ain on",
-				"tle add",
 				"tional ",
+				"te of t",
+				"t think",
 				"system.",
+				"s is a ",
 				"ry litt",
 				"m. Negl",
 				"e of ti",
+				". I don",
+				" very l",
+				"tle addi",
 				"think th",
 				"nal stra",
 				"l strain",
 				"gligible",
-				"e system"
+				"ease. I ",
+				"e system",
+				"ase. I d"
 			],
 			"hits": [
 				{
@@ -170,6 +179,14 @@
 			]
 		}
 	],
-	"updt": 1603312834245,
-	"edit": 5
+	"updt": 1603462550511,
+	"edit": 6,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
