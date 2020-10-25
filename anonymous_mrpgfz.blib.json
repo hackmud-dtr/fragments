@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_mrpgfz.blib",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anonymous_mrpgfz.blib",
 	"sector": "VNP_8179",
 	"sec_level": 4,
 	"date_added": 1600028408869,
-	"last_scraped": 1603439912258,
+	"last_scraped": 1603629024460,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 8,
-	"next_scrape": 1603483938485,
+	"next_scrape": 1603672952802,
 	"category": "fishie_tank",
 	"last_update": 1603439912258,
 	"output": [
@@ -155,6 +155,14 @@
 			]
 		}
 	],
-	"updt": 1603312638620,
-	"edit": 6
+	"updt": 1603462159627,
+	"edit": 7,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
