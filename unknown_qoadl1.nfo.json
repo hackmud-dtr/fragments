@@ -6,24 +6,25 @@
 	"sector": "VNP_9886",
 	"sec_level": 4,
 	"date_added": 1596631514845,
-	"last_scraped": 1603435693185,
+	"last_scraped": 1603624660860,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1596631514845
 		}
 	],
-	"next_scrape": 1603476065607,
+	"next_scrape": 1603666493760,
 	"category": "fishie_tank",
-	"last_update": 1603435693185,
+	"last_update": 1603624660860,
 	"output": [
 		{
 			"args": {},
-			"calls": 330201,
+			"calls": 382495,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"two s",
 				"other",
+				"g, th",
 				"Or to",
 				" anot",
 				"volvin",
@@ -31,15 +32,23 @@
 				"isting",
 				"formul",
 				"d, hyp",
+				". ## S",
+				"rmulate",
+				"r analo",
 				"hetical",
 				"ay: pos",
 				" needed",
 				" existi",
 				"ypotheti",
+				"y: post-",
+				"y become",
 				"ved hard",
+				"o put it",
 				"ment, an",
 				"hey beco",
-				"I. Hence"
+				"I. Hence",
+				" a file ",
+				" Hence t"
 			],
 			"hits": [
 				{
@@ -158,6 +167,14 @@
 			]
 		}
 	],
-	"updt": 1603311270838,
-	"edit": 20
+	"updt": 1603460793473,
+	"edit": 21,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
