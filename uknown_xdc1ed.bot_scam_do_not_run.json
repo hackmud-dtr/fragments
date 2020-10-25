@@ -6,32 +6,40 @@
 	"sector": "K_7998",
 	"sec_level": 4,
 	"date_added": 1603215451424,
-	"last_scraped": 1603436580130,
+	"last_scraped": 1603625547619,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603215451424
 		}
 	],
-	"updt": 1603313616731,
-	"edit": 3,
+	"updt": 1603463136724,
+	"edit": 4,
 	"scrape_ct": 16,
-	"next_scrape": 1603476594741,
+	"next_scrape": 1603671856480,
 	"category": "fishie_tank",
-	"last_update": 1603436580130,
+	"last_update": 1603625547619,
 	"output": [
 		{
 			"args": {},
-			"calls": 65409,
+			"calls": 115028,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"lisat",
 				"here ",
 				"n_ico>",
-				"o be he",
+				"ill be",
+				"working",
+				"ona, my",
 				"k_sign_",
+				"fospace",
+				"on is in",
+				"o be her",
 				"l and il",
 				"ion is i",
 				"infospac",
+				"ce contr",
+				"a, my sp",
 				" special"
 			]
 		},
@@ -73,6 +81,14 @@
 				"infospac",
 				" special"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
