@@ -6,7 +6,7 @@
 	"sector": "VNP_2775",
 	"sec_level": 4,
 	"date_added": 1600904109882,
-	"last_scraped": 1603441815066,
+	"last_scraped": 1603630981863,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,34 +14,38 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1603486757988,
+	"next_scrape": 1603671718641,
 	"category": "fishie_tank",
-	"last_update": 1603441815066,
+	"last_update": 1603630981863,
 	"output": [
 		{
 			"args": {},
-			"calls": 81145,
+			"calls": 136758,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"r tha",
 				"der's",
 				"FD An",
-				"2101 ",
 				"0FD A",
-				"r's st",
 				"fender",
 				"efende",
 				"D And ",
-				" that ",
+				"2101 t",
+				" damag",
+				"r's sta",
 				"ed in\\n",
 				"ck.\\n20",
 				"al dama",
+				"And aft",
 				"20FF de",
+				".\\n20FD",
 				" stack.",
 				"stack.\\n",
 				"nd after",
+				"er that ",
 				"damage t",
+				"6 the de",
 				" to\\n210",
+				"to\\n2101 ",
 				"n\\n20F6 t",
 				" in\\n20F6"
 			]
@@ -112,6 +116,14 @@
 			]
 		}
 	],
-	"updt": 1603313028521,
-	"edit": 3
+	"updt": 1603630977765,
+	"edit": 5,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
