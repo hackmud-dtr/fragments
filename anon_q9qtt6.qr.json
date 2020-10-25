@@ -1,12 +1,12 @@
 {
 	"_id": "anon_q9qtt6.qr",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_q9qtt6.qr",
 	"sector": "K_6981",
 	"sec_level": 4,
 	"date_added": 1600433687639,
-	"last_scraped": 1603440673183,
+	"last_scraped": 1603629804552,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 12,
-	"next_scrape": 1603486876686,
+	"next_scrape": 1603673180507,
 	"category": "fishie_tank",
 	"last_update": 1603440673183,
 	"output": [
@@ -127,6 +127,14 @@
 			]
 		}
 	],
-	"updt": 1603312834245,
-	"edit": 6
+	"updt": 1603462355840,
+	"edit": 7,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
