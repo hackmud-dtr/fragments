@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_g8z39y.upg",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_g8z39y.upg",
 	"sector": "SPC_7494",
 	"sec_level": 4,
 	"date_added": 1595360042193,
-	"last_scraped": 1603435134417,
+	"last_scraped": 1603624316328,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,26 +14,33 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1603475774847,
+	"next_scrape": 1603667380642,
 	"category": "fishie_tank",
-	"last_update": 1603435134417,
+	"last_update": 1603624316328,
 	"output": [
 		{
 			"args": {},
-			"calls": 63496,
+			"calls": 102195,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				" after",
+				"r 110 ",
+				"er tur",
+				"B afte",
 				"seconds",
 				"nds per",
 				"defende",
 				"\\n208B ",
+				"208B af",
 				"110 tur",
+				"08C the",
+				" after ",
 				" 5 seco",
 				"the defe",
 				"s per tu",
+				"fter 110",
 				"e defend",
 				"der wins",
+				"8C the d",
 				"wins.\\n20",
 				"urns\\n208",
 				"urn\\n208B",
@@ -130,8 +137,8 @@
 			]
 		}
 	],
-	"updt": 1603310293537,
-	"edit": 5,
+	"updt": 1603460013885,
+	"edit": 6,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -142,6 +149,14 @@
 				"urns\\n208",
 				"urn\\n208B"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
