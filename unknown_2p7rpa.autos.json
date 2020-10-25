@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_2p7rpa.autos",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_2p7rpa.autos",
 	"sector": "K_7998",
 	"sec_level": 4,
 	"date_added": 1603169051849,
-	"last_scraped": 1603434631282,
+	"last_scraped": 1603596287508,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,28 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1603479854130,
+	"next_scrape": 1603641862485,
 	"category": "fishie_tank",
-	"last_update": 1603434631282,
+	"last_update": 1603596287508,
 	"output": [
 		{
 			"args": {},
-			"calls": 63339,
+			"calls": 118171,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"with ",
-				"s and",
+				"gives",
 				"get re",
+				"your as",
+				"rps and",
+				"our ass",
 				"move - ",
 				"d get r",
+				"and get",
 				" this l",
-				"s lull g"
+				" move -",
+				"s lull g",
+				"assigned"
 			]
 		},
 		{
@@ -73,6 +79,14 @@
 			]
 		}
 	],
-	"updt": 1603313616731,
-	"edit": 2
+	"updt": 1603463136724,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
