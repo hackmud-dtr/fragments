@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_p4n382.solve_bates",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_p4n382.solve_bates",
 	"sector": "K_5860",
 	"sec_level": 4,
 	"date_added": 1602486750473,
-	"last_scraped": 1603634295204,
+	"last_scraped": 1603634367590,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1603680141316,
+	"next_scrape": 1603677711639,
 	"category": "fishie_tank",
-	"last_update": 1603634295204,
+	"last_update": 1603634367590,
 	"output": [
 		{
 			"args": {},
-			"calls": 84843,
+			"calls": 123922,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"es as",
@@ -76,8 +76,8 @@
 			]
 		}
 	],
-	"updt": 1603462941673,
-	"edit": 5,
+	"updt": 1603634299585,
+	"edit": 6,
 	"retry_args": [
 		{
 			"do": "feed"

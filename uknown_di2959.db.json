@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_di2959.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_di2959.db",
 	"sector": "K_7998",
 	"sec_level": 4,
 	"date_added": 1603117145866,
-	"last_scraped": 1603446075876,
+	"last_scraped": 1603635274537,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1603488221976,
+	"next_scrape": 1603678258965,
 	"category": "fishie_tank",
-	"last_update": 1603446075876,
+	"last_update": 1603635255356,
 	"output": [
 		{
 			"args": {},
-			"calls": 68780,
+			"calls": 94853,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"adjust",
@@ -94,8 +94,8 @@
 			]
 		}
 	],
-	"updt": 1603321435305,
-	"edit": 4,
+	"updt": 1603463136724,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -105,6 +105,14 @@
 				"ave adj",
 				" I have "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
