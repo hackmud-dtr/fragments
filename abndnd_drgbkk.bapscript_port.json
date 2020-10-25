@@ -6,7 +6,7 @@
 	"sector": "HJG_0210",
 	"sec_level": 4,
 	"date_added": 1598885174799,
-	"last_scraped": 1603438358220,
+	"last_scraped": 1603627558385,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,30 +14,34 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1603483045239,
+	"next_scrape": 1603670562198,
 	"category": "fishie_tank",
-	"last_update": 1603438358220,
+	"last_update": 1603627558385,
 	"output": [
 		{
 			"args": {},
-			"calls": 86123,
+			"calls": 134768,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"_CLST",
 				"ROR |",
-				"MFT0X",
 				"0X8C8",
+				"X885F_",
 				"ERROR ",
 				"9_SECT",
-				"82_CLS",
-				"2\\nSYS",
 				"0X885F",
 				"T0X69_S",
+				"ST ERRO",
+				"MFT0X82",
+				"82_CLST",
+				"7B2\\nSY",
+				"0X69_SE",
 				"X8C8517B",
 				"SYST ERR",
 				"LST0X69_",
 				"F_FILE0X",
-				"FILE0X8C"
+				"FILE0X8C",
+				"517B2\\nS",
+				"B2\\nSYST "
 			],
 			"hits": [
 				{
@@ -142,8 +146,8 @@
 			]
 		}
 	],
-	"updt": 1603312245927,
-	"edit": 5,
+	"updt": 1603461769386,
+	"edit": 6,
 	"identified": [
 		{
 			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
@@ -158,6 +162,14 @@
 				"F_FILE0X",
 				"FILE0X8C"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
