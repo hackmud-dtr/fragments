@@ -6,7 +6,7 @@
 	"sector": "SPC_1581",
 	"sec_level": 4,
 	"date_added": 1599634238341,
-	"last_scraped": 1603447741107,
+	"last_scraped": 1603636162034,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,18 +14,19 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1603540087145,
+	"next_scrape": 1603675970967,
 	"category": "risk_factor",
-	"last_update": 1603447741107,
+	"last_update": 1603636162034,
 	"output": [
 		{
 			"args": {},
-			"calls": 2266,
+			"calls": 10770,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"01 0100",
 				"0000 00",
 				"000 010",
+				"0 0100 ",
 				"0 0000 ",
 				"101 0001"
 			]
@@ -2727,6 +2728,14 @@
 			]
 		}
 	],
-	"updt": 1603312441473,
-	"edit": 4
+	"updt": 1603462159627,
+	"edit": 5,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }

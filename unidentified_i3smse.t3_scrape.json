@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_i3smse.t3_scrape",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unidentified_i3smse.t3_scrape",
 	"sector": "K_9472",
 	"sec_level": 4,
 	"date_added": 1599694564085,
-	"last_scraped": 1603447852342,
+	"last_scraped": 1603636233521,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1603488286930,
+	"next_scrape": 1603678812760,
 	"category": "risk_factor",
-	"last_update": 1603447852342,
+	"last_update": 1603636233521,
 	"output": [
 		{
 			"args": {},
-			"calls": 2431,
+			"calls": 8740,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"in en",
@@ -1477,6 +1477,14 @@
 			]
 		}
 	],
-	"updt": 1603312441473,
-	"edit": 4
+	"updt": 1603462159627,
+	"edit": 5,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
