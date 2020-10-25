@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_mjdfdr.lockpick",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "uknown_mjdfdr.lockpick",
 	"sector": "K_1556",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "K_1556",
 				"to": "VNP_9072"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1603659140205
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"who dis\"}",
 	"next_scrape": 1603625213714,
-	"updt": 1603539136205,
-	"edit": 2847
+	"updt": 1603539331251,
+	"edit": 2848
 }
