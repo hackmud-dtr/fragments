@@ -1,0 +1,42 @@
+{
+	"_id": "anon_whrs0k.bot_brain",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anon_whrs0k.bot_brain",
+	"sector": "NGC_8306",
+	"sec_level": 4,
+	"date_added": 1603669739764,
+	"last_scraped": 1603669830865,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1603669739764
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1603669890865,
+	"category": "fishie_tank",
+	"last_update": 1603669830865,
+	"output": [
+		{
+			"args": {},
+			"calls": 66558,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"AD03217",
+				"here: we",
+				"\\n217C I",
+				"D17C\\nAD",
+				"B There:"
+			]
+		}
+	]
+}
