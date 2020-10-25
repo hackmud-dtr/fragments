@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_rm57cd.statistics",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_rm57cd.statistics",
 	"sector": "K_5860",
 	"sec_level": 4,
 	"date_added": 1602333605744,
-	"last_scraped": 1603503960010,
+	"last_scraped": 1603619599188,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1603549260839,
+	"next_scrape": 1603662170031,
 	"category": "risk_factor",
-	"last_update": 1603503960010,
+	"last_update": 1603619599188,
 	"output": [
 		{
 			"args": {},
@@ -35,7 +35,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 780,
+			"calls": 1523,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"ETW E",
@@ -1396,13 +1396,10 @@
 			]
 		}
 	],
-	"updt": 1603313421710,
-	"edit": 5,
+	"updt": 1603503976000,
+	"edit": 6,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

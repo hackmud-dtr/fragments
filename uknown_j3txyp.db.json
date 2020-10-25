@@ -6,7 +6,7 @@
 	"sector": "K_9557",
 	"sec_level": 4,
 	"date_added": 1598407728010,
-	"last_scraped": 1603437252725,
+	"last_scraped": 1603626216644,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1603479026757,
+	"next_scrape": 1603666880318,
 	"category": "fishie_tank",
-	"last_update": 1603437252725,
+	"last_update": 1603626216644,
 	"output": [
 		{
 			"args": {},
-			"calls": 78782,
+			"calls": 137940,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"## Pr",
@@ -29,11 +29,18 @@
 				" ## P",
 				"ite? s",
 				" she's",
+				"ws she'",
+				"the oth",
 				"she's g",
+				"like th",
 				"She kno",
+				" not li",
 				" deal. ",
 				"posite? ",
+				"ke the o",
 				"hers ## ",
+				"he other",
+				". It's m",
 				" others "
 			]
 		},
@@ -87,6 +94,14 @@
 			]
 		}
 	],
-	"updt": 1603312051469,
-	"edit": 3
+	"updt": 1603461573959,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }

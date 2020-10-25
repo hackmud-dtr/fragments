@@ -6,32 +6,44 @@
 	"sector": "K_8571",
 	"sec_level": 4,
 	"date_added": 1603474839097,
-	"last_scraped": 1603491222840,
+	"last_scraped": 1603611503641,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603474839097
 		}
 	],
-	"updt": 1603474864026,
-	"edit": 1,
+	"updt": 1603491279196,
+	"edit": 2,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1603491282840,
+	"next_scrape": 1603654541812,
 	"category": "risk_factor",
-	"last_update": 1603491222840,
+	"last_update": 1603611503641,
 	"output": [
 		{
 			"args": {},
 			"calls": 9380,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"r eve",
+				"F227_",
+				" why ",
+				"X7A_SEC",
+				"BF_CLST",
+				"ST0X7A_S"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 735,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"r eve",
 				"F227_",
