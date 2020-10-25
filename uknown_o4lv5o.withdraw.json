@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_o4lv5o.withdraw",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_o4lv5o.withdraw",
 	"sector": "NGC_9642",
 	"sec_level": 4,
 	"date_added": 1598127063394,
-	"last_scraped": 1603454370935,
+	"last_scraped": 1603639134959,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 5,
-	"next_scrape": 1603494849413,
+	"next_scrape": 1603682637037,
 	"category": "clicker",
-	"last_update": 1603454370935,
+	"last_update": 1603639134959,
 	"output": [
 		{
 			"args": {},
-			"calls": 99770,
+			"calls": 165642,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"ello,",
@@ -130,6 +130,14 @@
 			]
 		}
 	],
-	"updt": 1603311856003,
-	"edit": 6
+	"updt": 1603461573959,
+	"edit": 7,
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
+		}
+	]
 }
