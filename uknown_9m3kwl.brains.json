@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_9m3kwl.brains",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_9m3kwl.brains",
 	"sector": "K_9043",
 	"sec_level": 4,
@@ -13,12 +13,12 @@
 			"when": 1602672444731
 		}
 	],
-	"updt": 1603462941673,
-	"edit": 6,
+	"updt": 1603634887313,
+	"edit": 7,
 	"scrape_ct": 17,
 	"next_scrape": 1603679052539,
 	"category": "fishie_tank",
-	"last_update": 1603634875600,
+	"last_update": 1603799407724,
 	"output": [
 		{
 			"args": {},
@@ -57,7 +57,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6810,
+			"calls": 12041,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -149,9 +149,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
