@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_n82gjl.c",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_n82gjl.c",
 	"sector": "K_7994",
 	"sec_level": 4,
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "feed"
-		},
-		{
 			"do": "clean"
 		}
 	],
 	"scrape_ct": 16,
 	"next_scrape": 1603771570806,
 	"category": "fishie_tank",
-	"last_update": 1603771510806,
+	"last_update": 1603829416627,
 	"output": [
 		{
 			"args": {},
@@ -142,10 +139,34 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 6171,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"t amo",
+				" are ",
+				"ven re",
+				"ttlemen",
+				"sts tha",
+				"ement p",
+				", sugge",
+				"y [RECO]",
+				"pport am",
+				"ng suppo"
+			]
 		}
 	],
-	"updt": 1603771690970,
-	"edit": 2,
+	"updt": 1603829347040,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "NOT FOUND",
