@@ -6,7 +6,7 @@
 	"sector": "VNP_7342",
 	"sec_level": 4,
 	"date_added": 1598033818577,
-	"last_scraped": 1603597854338,
+	"last_scraped": 1603832751064,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,31 +14,43 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1603638159713,
+	"next_scrape": 1603872896722,
 	"category": "fishie_tank",
-	"last_update": 1603597854338,
+	"last_update": 1603832751064,
 	"output": [
 		{
 			"args": {},
-			"calls": 102610,
+			"calls": 153203,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ria t",
 				"n thi",
+				"heard",
 				"as ev",
+				"'play",
 				", ine",
+				" are ",
 				"y smil",
+				"y me a",
 				"he cor",
+				"faces ",
 				"ection",
 				" nobod",
+				"ture', ",
+				"play me",
 				"ow many",
+				"ody has",
 				"ia that",
+				"e corre",
+				"dy has ",
 				", comes",
+				" that n",
 				"ore.' Ne",
 				"mes the ",
 				"is pictu",
 				" this pi",
-				" ever he"
+				" ever he",
+				" correct"
 			],
 			"hits": [
 				{
@@ -157,6 +169,14 @@
 			]
 		}
 	],
-	"updt": 1603483268126,
-	"edit": 6
+	"updt": 1603623944749,
+	"edit": 7,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
