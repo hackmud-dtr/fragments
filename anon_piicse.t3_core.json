@@ -1,29 +1,24 @@
 {
 	"_id": "anon_piicse.t3_core",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_piicse.t3_core",
 	"sector": "K_8571",
 	"sec_level": 4,
 	"date_added": 1603484657783,
-	"last_scraped": 1603492109129,
+	"last_scraped": 1603774599359,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603484657783
 		}
 	],
-	"updt": 1603492255749,
-	"edit": 2,
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
+	"updt": 1603626289502,
+	"edit": 3,
 	"scrape_ct": 16,
-	"next_scrape": 1603492169129,
+	"next_scrape": 1603818573440,
 	"category": "fishie_tank",
-	"last_update": 1603611938671,
+	"last_update": 1603774599359,
 	"output": [
 		{
 			"args": {},
@@ -50,6 +45,22 @@
 				"they are still hungry?",
 				"they don't look so good"
 			],
+			"fragments": [
+				"nce o",
+				"t the ",
+				", ofte",
+				"times i",
+				"son. So",
+				"nversat",
+				"mes it's"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 15879,
+			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"nce o",
 				"t the ",
