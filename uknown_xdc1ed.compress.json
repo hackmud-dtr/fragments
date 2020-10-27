@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_xdc1ed.compress",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_xdc1ed.compress",
 	"sector": "HJG_0210",
 	"sec_level": 4,
@@ -16,7 +16,7 @@
 	"scrape_ct": 17,
 	"next_scrape": 1603672615263,
 	"category": "fishie_tank",
-	"last_update": 1603627432018,
+	"last_update": 1603792204432,
 	"output": [
 		{
 			"args": {},
@@ -42,7 +42,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7214,
+			"calls": 12405,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -50,14 +50,15 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"0100 0",
 				"100 000",
 				"0001 01",
 				"0000 00",
-				"00 0101",
 				"0 0101 ",
+				" 0100 0",
+				"100 0101",
 				"01 0100 ",
 				"0000 010",
+				"000 0000",
 				"00 0000 ",
 				"0 0000 0",
 				" 0101 01",
@@ -86,12 +87,9 @@
 			]
 		}
 	],
-	"updt": 1603461769386,
-	"edit": 5,
+	"updt": 1603627462197,
+	"edit": 6,
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}

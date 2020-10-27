@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_w9hra6.missing_operator",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_w9hra6.missing_operator",
 	"sector": "K_9557",
 	"sec_level": 4,
@@ -16,7 +16,7 @@
 	"scrape_ct": 18,
 	"next_scrape": 1603667876217,
 	"category": "fishie_tank",
-	"last_update": 1603626668715,
+	"last_update": 1603791422949,
 	"output": [
 		{
 			"args": {},
@@ -39,7 +39,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7751,
+			"calls": 13376,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -47,9 +47,12 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"1 0000",
 				"1111 00",
 				"111 011",
 				"11 1111 ",
+				"11 0111 ",
+				"1 0111 1",
 				"000 0000",
 				"00 0000 ",
 				" 0111 11",
@@ -73,12 +76,9 @@
 			]
 		}
 	],
-	"updt": 1603461769386,
-	"edit": 4,
+	"updt": 1603626679597,
+	"edit": 5,
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
