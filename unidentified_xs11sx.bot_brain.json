@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_xs11sx.bot_brain",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "timeout",
 	"script": "unidentified_xs11sx.bot_brain",
 	"sector": "NGC_8306",
 	"sec_level": 4,
 	"date_added": 1603678161249,
-	"last_scraped": 1603678251111,
+	"last_scraped": 1603828165273,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1603678311111,
+	"next_scrape": 1603912400701,
 	"category": "risk_factor",
-	"last_update": 1603678251111,
+	"last_update": 1603828165273,
 	"output": [
 		{
 			"args": {},
@@ -40,6 +37,25 @@
 				"rtunity ",
 				"ays to p"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 270,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"sed s",
+				"pport",
+				"this t",
+				"t's onl",
+				"s to pu",
+				"tunity t",
+				"rtunity ",
+				"ays to p"
+			]
 		}
-	]
+	],
+	"updt": 1603678265514,
+	"edit": 1
 }

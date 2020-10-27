@@ -1,12 +1,12 @@
 {
 	"_id": "anon_6hb27u.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "anon_6hb27u.bot_scam_do_not_run",
 	"sector": "NGC_8306",
 	"sec_level": 4,
 	"date_added": 1603677834323,
-	"last_scraped": 1603677925669,
+	"last_scraped": 1603827948784,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1603677985669,
+	"next_scrape": 1603916063748,
 	"category": "risk_factor",
-	"last_update": 1603677925669,
+	"last_update": 1603827948784,
 	"output": [
 		{
 			"args": {},
@@ -39,6 +36,24 @@
 				"CLST0XC",
 				"X08_CLST"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 420,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"XC4_S",
+				"C4_SE",
+				"X8926_",
+				"SECT0X",
+				"ECT0X8",
+				"CLST0XC",
+				"X08_CLST"
+			]
 		}
-	]
+	],
+	"updt": 1603678070895,
+	"edit": 1
 }
