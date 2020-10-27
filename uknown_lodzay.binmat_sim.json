@@ -6,23 +6,23 @@
 	"sector": "VNP_5602",
 	"sec_level": 4,
 	"date_added": 1602975145331,
-	"last_scraped": 1603603580838,
+	"last_scraped": 1603835996783,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1602975145331
 		}
 	],
-	"updt": 1603462941673,
-	"edit": 5,
+	"updt": 1603835985461,
+	"edit": 7,
 	"scrape_ct": 16,
-	"next_scrape": 1603697053715,
+	"next_scrape": 1603876220677,
 	"category": "risk_factor",
-	"last_update": 1603603580838,
+	"last_update": 1603835996783,
 	"output": [
 		{
 			"args": {},
-			"calls": 3682,
+			"calls": 13407,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"2142 ",
@@ -2149,5 +2149,13 @@
 			]
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
