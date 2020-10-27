@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_9eycir.public_z2bzng",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_9eycir.public_z2bzng",
 	"sector": "K_0891",
 	"sec_level": 4,
 	"date_added": 1597498734842,
-	"last_scraped": 1603609782869,
+	"last_scraped": 1603840663561,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,23 +14,24 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1603653075870,
+	"next_scrape": 1603884259303,
 	"category": "clicker",
-	"last_update": 1603609782869,
+	"last_update": 1603840663561,
 	"output": [
 		{
 			"args": {},
-			"calls": 123784,
+			"calls": 157298,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"0100 0",
-				"0000 0",
+				"0000 01",
+				"0000 00",
 				"00 0101",
 				"00 0100",
-				"0 0000 ",
 				"100 0000",
 				"01 0100 ",
 				"001 0100",
+				"00 0000 ",
 				"0 0001 0"
 			],
 			"hits": [
@@ -347,8 +348,8 @@
 			]
 		}
 	],
-	"updt": 1603488736253,
-	"edit": 4,
+	"updt": 1603623748730,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -360,6 +361,14 @@
 				"01 0100 ",
 				"0 0001 0"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
 		}
 	]
 }
