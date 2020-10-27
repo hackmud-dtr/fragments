@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_8q4bzs.hypercluster",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abndnd_8q4bzs.hypercluster",
 	"sector": "NGC_5142",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1600757635910
+		},
+		{
+			"type": "died",
+			"when": 1603773812141
 		}
 	],
 	"scrape_ct": 11,
@@ -179,8 +183,8 @@
 			]
 		}
 	],
-	"updt": 1603462550511,
-	"edit": 6,
+	"updt": 1603630783639,
+	"edit": 7,
 	"retry_args": [
 		{
 			"do": "feed"
