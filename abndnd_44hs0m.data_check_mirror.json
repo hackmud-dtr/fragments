@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_44hs0m.data_check_mirror",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abndnd_44hs0m.data_check_mirror",
 	"sector": "K_7994",
 	"sec_level": 4,
 	"date_added": 1603847083433,
-	"last_scraped": 1603847119761,
+	"last_scraped": 1603847173711,
 	"script_log": [
 		{
 			"type": "added",
@@ -21,14 +21,14 @@
 			"do": "clean"
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1603847179761,
+	"scrape_ct": 16,
+	"next_scrape": 1603847233711,
 	"category": "fishie_tank",
-	"last_update": 1603847119761,
+	"last_update": 1603847173711,
 	"output": [
 		{
 			"args": {},
-			"calls": 14619,
+			"calls": 45005,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"\"The ",
@@ -38,5 +38,7 @@
 				"ions\",\"m"
 			]
 		}
-	]
+	],
+	"updt": 1603847125933,
+	"edit": 1
 }
