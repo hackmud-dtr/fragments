@@ -1,28 +1,28 @@
 {
 	"_id": "anon_piicse.t3_core",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_piicse.t3_core",
 	"sector": "K_8571",
 	"sec_level": 4,
 	"date_added": 1603484657783,
-	"last_scraped": 1603774599359,
+	"last_scraped": 1603927504048,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603484657783
 		}
 	],
-	"updt": 1603801984094,
-	"edit": 4,
+	"updt": 1603927443977,
+	"edit": 6,
 	"scrape_ct": 16,
-	"next_scrape": 1603818573440,
+	"next_scrape": 1603972663812,
 	"category": "fishie_tank",
-	"last_update": 1603774599359,
+	"last_update": 1603927504048,
 	"output": [
 		{
 			"args": {},
-			"calls": 51211,
+			"calls": 84844,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"nce o",
@@ -126,6 +126,14 @@
 				"nversat",
 				"mes it's"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
