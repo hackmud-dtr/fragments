@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_47t8dc.transfer",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_47t8dc.transfer",
 	"sector": "VNP_2775",
 	"sec_level": 4,
 	"date_added": 1600938624604,
-	"last_scraped": 1603785213566,
+	"last_scraped": 1603987029437,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1603830943189,
+	"next_scrape": 1604026720675,
 	"category": "clicker",
-	"last_update": 1603785213566,
+	"last_update": 1603987029437,
 	"output": [
 		{
 			"args": {},
-			"calls": 111168,
+			"calls": 141790,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"prise",
@@ -62,6 +62,14 @@
 			]
 		}
 	],
-	"updt": 1603625117287,
-	"edit": 5
+	"updt": 1603801204572,
+	"edit": 6,
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
+		}
+	]
 }
