@@ -6,7 +6,7 @@
 	"sector": "K_0720",
 	"sec_level": 4,
 	"date_added": 1601148856465,
-	"last_scraped": 1603775577913,
+	"last_scraped": 1603984693190,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,29 +14,38 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1603819946484,
+	"next_scrape": 1604027041420,
 	"category": "fishie_tank",
-	"last_update": 1603775577913,
+	"last_update": 1603984693190,
 	"output": [
 		{
 			"args": {},
-			"calls": 109291,
+			"calls": 162580,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"s to ",
+				"k of ",
+				"Their ",
 				"th in ",
 				"ginati",
 				"d rule",
 				"aginat",
 				"imagina",
+				"en us a",
 				"as give",
 				" has le",
 				"to a wor",
+				"s has gi",
+				"of imagi",
 				"o a worl",
 				"nsensus ",
 				"n us a w",
 				"ir lack ",
 				"given us",
+				"by-conse",
 				"blind fa",
+				"ation ha",
+				"a world ",
 				"-by-cons",
 				" a world"
 			],
@@ -120,8 +129,8 @@
 			]
 		}
 	],
-	"updt": 1603625507614,
-	"edit": 5,
+	"updt": 1603984692919,
+	"edit": 7,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -151,6 +160,14 @@
 			"frags": [
 				"nsensus "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
