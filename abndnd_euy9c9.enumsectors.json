@@ -1,16 +1,45 @@
 {
 	"_id": "abndnd_euy9c9.enumsectors",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "skip",
 	"script": "abndnd_euy9c9.enumsectors",
 	"sector": "K_1742",
 	"sec_level": 4,
 	"date_added": 1603940853574,
-	"last_scraped": 0,
+	"last_scraped": 1603980994504,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603940853574
+		}
+	],
+	"updt": 1603967499232,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1603981054504,
+	"category": "fishie_tank",
+	"last_update": 1603980994504,
+	"output": [
+		{
+			"args": {},
+			"calls": 55463,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"as a ",
+				"kable s",
+				"21st ce",
+				"cades, w",
+				"art we'v",
+				" few sho"
+			]
 		}
 	]
 }
