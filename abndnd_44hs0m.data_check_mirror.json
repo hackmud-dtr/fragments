@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_44hs0m.data_check_mirror",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_44hs0m.data_check_mirror",
 	"sector": "K_7994",
 	"sec_level": 4,
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "feed"
-		},
-		{
 			"do": "clean"
 		}
 	],
 	"scrape_ct": 16,
 	"next_scrape": 1603847233711,
 	"category": "fishie_tank",
-	"last_update": 1603847173711,
+	"last_update": 1603979779858,
 	"output": [
 		{
 			"args": {},
@@ -59,10 +56,29 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 6023,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"\"The ",
+				"nt is ",
+				" Solut",
+				" over. ",
+				"ions\",\"m"
+			]
 		}
 	],
-	"updt": 1603847320275,
-	"edit": 2,
+	"updt": 1603967499232,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",

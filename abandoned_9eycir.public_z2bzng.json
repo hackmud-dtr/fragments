@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_9eycir.public_z2bzng",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_9eycir.public_z2bzng",
 	"sector": "K_0891",
 	"sec_level": 4,
 	"date_added": 1597498734842,
-	"last_scraped": 1603840663561,
+	"last_scraped": 1603979111683,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1603884259303,
+	"next_scrape": 1604018718501,
 	"category": "clicker",
-	"last_update": 1603840663561,
+	"last_update": 1603979111683,
 	"output": [
 		{
 			"args": {},
@@ -52,16 +52,21 @@
 			"args": {
 				"click": true
 			},
-			"calls": 57462,
+			"calls": 104853,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
-				"0100 0",
+				"0100 00",
 				"0000 01",
 				"0000 00",
+				"00 0101",
 				"00 0100",
+				" 0000 0",
+				"100 0000",
 				"01 0100 ",
 				"001 0100",
-				"00 0000 "
+				"00 0000 ",
+				"0 0100 0",
+				" 0100 01"
 			]
 		},
 		{
@@ -348,8 +353,8 @@
 			]
 		}
 	],
-	"updt": 1603623748730,
-	"edit": 5,
+	"updt": 1603840676798,
+	"edit": 6,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -364,9 +369,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"click": true
-		},
 		{
 			"CLICK": true
 		}

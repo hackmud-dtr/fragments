@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_ffok98.giga_flare",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "uknown_ffok98.giga_flare",
 	"sector": "K_7994",
 	"sec_level": 4,
 	"date_added": 1603875782219,
-	"last_scraped": 1603875873178,
+	"last_scraped": 1603979997636,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1603875933178,
+	"next_scrape": 1604063020094,
 	"category": "risk_factor",
-	"last_update": 1603875873178,
+	"last_update": 1603979997636,
 	"output": [
 		{
 			"args": {},
@@ -40,6 +37,25 @@
 				"SECT0X8C",
 				"69\\nSYST "
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 443,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"OR | ",
+				"B_SECT",
+				"0X5C87",
+				"NETW ER",
+				"5C87976",
+				"_CLST0X",
+				"SECT0X8C",
+				"69\\nSYST "
+			]
 		}
-	]
+	],
+	"updt": 1603876051154,
+	"edit": 1
 }
