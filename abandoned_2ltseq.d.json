@@ -1,27 +1,22 @@
 {
 	"_id": "abandoned_2ltseq.d",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_2ltseq.d",
 	"sector": "NGC_8306",
 	"sec_level": 4,
 	"date_added": 1603657601995,
-	"last_scraped": 1603657800519,
+	"last_scraped": 1603951610179,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603657601995
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1603657860519,
+	"next_scrape": 1603996113394,
 	"category": "fishie_tank",
-	"last_update": 1603827187711,
+	"last_update": 1603951610179,
 	"output": [
 		{
 			"args": {},
@@ -68,10 +63,25 @@
 				"big one,",
 				" is the "
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 49244,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ping in",
+				"n Salee",
+				"m. ## H",
+				"## Hi! ",
+				"big one,",
+				" is the "
+			]
 		}
 	],
-	"updt": 1603801984094,
-	"edit": 3,
+	"updt": 1603827194518,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",

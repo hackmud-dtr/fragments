@@ -1,27 +1,22 @@
 {
 	"_id": "uknown_u6xdye.bot_brain",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_u6xdye.bot_brain",
 	"sector": "K_1427",
 	"sec_level": 4,
 	"date_added": 1603621568667,
-	"last_scraped": 1603621766069,
+	"last_scraped": 1603939929428,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603621568667
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1603621826069,
+	"next_scrape": 1603985246945,
 	"category": "fishie_tank",
-	"last_update": 1603789088905,
+	"last_update": 1603939929428,
 	"output": [
 		{
 			"args": {},
@@ -55,8 +50,23 @@
 				"C4_SECT0",
 				"8_CLST0X"
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 14984,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"X8926",
+				"T0X892",
+				"SECT0X",
+				"X08_CLS",
+				"C4_SECT0",
+				"8_CLST0X"
+			]
 		}
 	],
-	"updt": 1603626289502,
-	"edit": 1
+	"updt": 1603801984094,
+	"edit": 2
 }
