@@ -1,12 +1,12 @@
 {
 	"_id": "anon_gcv4ft.don8",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_gcv4ft.don8",
 	"sector": "K_2311",
 	"sec_level": 4,
 	"date_added": 1602177918313,
-	"last_scraped": 1603778038936,
+	"last_scraped": 1603985471101,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,27 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1603864156271,
+	"next_scrape": 1604030925788,
 	"category": "risk_factor",
-	"last_update": 1603778038936,
+	"last_update": 1603985471101,
 	"output": [
 		{
 			"args": {},
-			"calls": 2172,
+			"calls": 11477,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"ngth ",
+				"0 if ",
 				"s set ",
+				"ker wi",
+				"attack",
 				" to 0 ",
-				"if attac",
+				"defende",
 				"REAKs se",
+				"if attac",
 				"215C str",
-				"s,\\n215D "
+				"s,\\n215D ",
+				"der\\n215C"
 			]
 		},
 		{
@@ -2731,7 +2737,15 @@
 			]
 		}
 	],
-	"updt": 1603625899404,
-	"edit": 5,
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"updt": 1603801594026,
+	"edit": 6,
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
