@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_c1f6bz.bot_brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_c1f6bz.bot_brain",
 	"sector": "K_7998",
 	"sec_level": 4,
 	"date_added": 1603178323731,
-	"last_scraped": 1603836558509,
+	"last_scraped": 1603975202787,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1603882654077,
+	"next_scrape": 1604021051348,
 	"category": "risk_factor",
-	"last_update": 1603836558509,
+	"last_update": 1603975202787,
 	"output": [
 		{
 			"args": {},
@@ -36,7 +36,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 1218,
+			"calls": 1580,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"f bot",
@@ -1941,12 +1941,9 @@
 			]
 		}
 	],
-	"updt": 1603626094855,
-	"edit": 5,
+	"updt": 1603836572121,
+	"edit": 6,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

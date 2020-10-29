@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_b1cfgu.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "unidentified_b1cfgu.db",
 	"sector": "VNP_5602",
 	"sec_level": 4,
 	"date_added": 1602976882161,
-	"last_scraped": 1603836106580,
+	"last_scraped": 1603974857684,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1603877884123,
+	"next_scrape": 1604016787982,
 	"category": "risk_factor",
-	"last_update": 1603836106580,
+	"last_update": 1603974857684,
 	"output": [
 		{
 			"args": {},
@@ -38,7 +38,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 1971,
+			"calls": 2394,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"5",
@@ -3240,13 +3240,10 @@
 			]
 		}
 	],
-	"updt": 1603626094855,
-	"edit": 7,
+	"updt": 1603836180610,
+	"edit": 8,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
