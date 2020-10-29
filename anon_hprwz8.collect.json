@@ -1,7 +1,7 @@
 {
 	"_id": "anon_hprwz8.collect",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_hprwz8.collect",
 	"sector": "VNP_8791",
 	"sec_level": 4,
@@ -16,7 +16,7 @@
 	"scrape_ct": 15,
 	"next_scrape": 1603878529499,
 	"category": "fishie_tank",
-	"last_update": 1603833636654,
+	"last_update": 1603972575590,
 	"output": [
 		{
 			"args": {},
@@ -50,7 +50,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 11933,
+			"calls": 17336,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -112,8 +112,8 @@
 			]
 		}
 	],
-	"updt": 1603625117287,
-	"edit": 7,
+	"updt": 1603833642782,
+	"edit": 8,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -129,9 +129,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
