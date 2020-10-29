@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_g23vnf.za_cleanup",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unidentified_g23vnf.za_cleanup",
 	"sector": "HJG_1875",
 	"sec_level": 4,
 	"date_added": 1600150566661,
-	"last_scraped": 1603821060817,
+	"last_scraped": 1603966309342,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1603862197625,
+	"next_scrape": 1604008313840,
 	"category": "clicker",
-	"last_update": 1603821060817,
+	"last_update": 1603966309342,
 	"output": [
 		{
 			"args": {},
@@ -50,7 +50,7 @@
 			"args": {
 				"CLICK": true
 			},
-			"calls": 9069,
+			"calls": 11343,
 			"base": "`LCLICK SECURED`",
 			"fragments": [
 				"t\\n2159",
@@ -104,13 +104,30 @@
 				"ck.\\n215B",
 				".\\n215K S"
 			]
+		},
+		{
+			"args": {
+				"CLICK": true
+			},
+			"calls": 2138,
+			"base": "`LCLIC\\nSECURED`",
+			"fragments": [
+				"K.\\n215",
+				".\\n215 ",
+				"t\\n2159 ",
+				"Kt\\n2159",
+				"K .\\n215",
+				".\\n215K ",
+				"mbat\\n215",
+				"Kplayed\\n",
+				"K t\\n2159",
+				"K S.\\n215",
+				"K empty s",
+				"K an empt",
+				"ck.\\n215B"
+			]
 		}
 	],
-	"updt": 1603643675896,
-	"edit": 7,
-	"retry_args": [
-		{
-			"CLICK": true
-		}
-	]
+	"updt": 1603821137526,
+	"edit": 8
 }
