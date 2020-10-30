@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_7yb6x9.blib",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abandoned_7yb6x9.blib",
 	"sector": "K_7994",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1603776736807
+		},
+		{
+			"type": "died",
+			"when": 1604046643310
 		}
 	],
-	"updt": 1603967499232,
-	"edit": 3,
+	"updt": 1603987822327,
+	"edit": 4,
 	"scrape_ct": 16,
 	"next_scrape": 1604030271053,
 	"category": "plant_sim",
@@ -78,5 +82,6 @@
 				" we need"
 			]
 		}
-	]
+	],
+	"dead_plant_sim": true
 }
