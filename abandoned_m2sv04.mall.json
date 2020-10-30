@@ -6,7 +6,7 @@
 	"sector": "K_1742",
 	"sec_level": 4,
 	"date_added": 1604008307651,
-	"last_scraped": 1604008397654,
+	"last_scraped": 1604040711264,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1604008457654,
+	"next_scrape": 1604083197941,
 	"category": "risk_factor",
-	"last_update": 1604008397654,
+	"last_update": 1604040711264,
 	"output": [
 		{
 			"args": {},
@@ -39,9 +36,56 @@
 				" need t",
 				"will nee",
 				"g soon w"
+			],
+			"hits": [
+				{
+					"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+					"frags": [
+						"we wi",
+						"ith s",
+						" - wi",
+						" to re",
+						"ll will",
+						" need t",
+						"will nee",
+						"g soon w"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 962,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"we wi",
+				"ith s",
+				" - wi",
+				" to re",
+				"ll will",
+				" need t",
+				"will nee",
+				"g soon w"
 			]
 		}
 	],
-	"updt": 1604008337973,
-	"edit": 1
+	"updt": 1604008533348,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
+			"frags": [
+				"we wi",
+				"ith s",
+				" - wi",
+				" to re",
+				"ll will",
+				" need t",
+				"will nee",
+				"g soon w"
+			]
+		}
+	]
 }

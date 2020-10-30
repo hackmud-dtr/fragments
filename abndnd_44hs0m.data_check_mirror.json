@@ -6,22 +6,17 @@
 	"sector": "K_7994",
 	"sec_level": 4,
 	"date_added": 1603847083433,
-	"last_scraped": 1603847173711,
+	"last_scraped": 1604019427164,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603847083433
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1603847233711,
+	"next_scrape": 1604059944776,
 	"category": "fishie_tank",
-	"last_update": 1603979779858,
+	"last_update": 1604019427164,
 	"output": [
 		{
 			"args": {},
@@ -75,10 +70,24 @@
 				" over. ",
 				"ions\",\"m"
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 38411,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"\"The ",
+				"nt is ",
+				" Solut",
+				" over. ",
+				"ions\",\"m"
+			]
 		}
 	],
-	"updt": 1603967499232,
-	"edit": 3,
+	"updt": 1603979808029,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "NOT FOUND",

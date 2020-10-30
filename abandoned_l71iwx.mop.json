@@ -1,27 +1,22 @@
 {
 	"_id": "abandoned_l71iwx.mop",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_l71iwx.mop",
 	"sector": "K_1742",
 	"sec_level": 4,
 	"date_added": 1603935009534,
-	"last_scraped": 1603980777437,
+	"last_scraped": 1604035691441,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603935009534
 		}
 	],
-	"retry_args": [
-		{
-			"CLICK": true
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1604025048145,
+	"next_scrape": 1604079048409,
 	"category": "clicker",
-	"last_update": 1603980777437,
+	"last_update": 1604035691441,
 	"output": [
 		{
 			"args": {},
@@ -75,10 +70,29 @@
 				"LE0X2BC7",
 				"FILE0X2B"
 			]
+		},
+		{
+			"args": {
+				"CLICK": true
+			},
+			"calls": 9731,
+			"base": "`LCLICK SECURED`",
+			"fragments": [
+				"CT0XF",
+				"27_FIL",
+				"_FILE0",
+				"_CLST0",
+				"XF227_F",
+				"F First",
+				"200F Fi",
+				"ST0X7A_S",
+				"LE0X2BC7",
+				"FILE0X2B"
+			]
 		}
 	],
-	"updt": 1603967499232,
-	"edit": 2,
+	"updt": 1603980783722,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
