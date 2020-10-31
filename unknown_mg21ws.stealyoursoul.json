@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_mg21ws.stealyoursoul",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unknown_mg21ws.stealyoursoul",
 	"sector": "HJG_6737",
 	"sec_level": 4,
 	"date_added": 1598100980373,
-	"last_scraped": 1603951393764,
+	"last_scraped": 1604113289119,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,43 +14,50 @@
 		}
 	],
 	"scrape_ct": 5,
-	"next_scrape": 1603995039417,
+	"next_scrape": 1604154475912,
 	"category": "fishie_tank",
-	"last_update": 1603951393764,
+	"last_update": 1604113289119,
 	"output": [
 		{
 			"args": {},
-			"calls": 214480,
+			"calls": 235262,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"stoni",
 				"r, mo",
-				"es tha",
+				"d rel",
+				"al co",
+				"wever,",
+				"cost o",
 				", howe",
 				" cost ",
 				"w Houst",
 				"to hand",
+				"tes tha",
 				"s that ",
 				"however",
 				"hat I s",
 				"ever, m",
 				"e to ha",
-				"e the e",
 				"ation. ",
 				"apid re",
 				", most ",
 				" years ",
 				" to han",
+				" on, ho",
 				" Housto",
+				"tonites ",
 				"tional c",
+				"the emot",
 				"st of ra",
 				"onites t",
-				"ars on, ",
+				"le the e",
 				"I speak ",
-				" handle ",
+				"ars on, ",
 				" Two yea",
 				" New Hou",
-				" I speak"
+				" I speak",
+				" handle "
 			],
 			"hits": [
 				{
@@ -305,8 +312,8 @@
 			]
 		}
 	],
-	"updt": 1603800227057,
-	"edit": 12,
+	"updt": 1603965545417,
+	"edit": 13,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -363,6 +370,14 @@
 			"frags": [
 				"es tha"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
