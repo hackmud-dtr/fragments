@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_giqv7a.ns",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_giqv7a.ns",
 	"sector": "VNP_7342",
 	"sec_level": 4,
 	"date_added": 1598033818577,
-	"last_scraped": 1604017221020,
+	"last_scraped": 1604172412532,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,28 +14,29 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1604061563805,
+	"next_scrape": 1604219172172,
 	"category": "fishie_tank",
-	"last_update": 1604017221020,
+	"last_update": 1604172412532,
 	"output": [
 		{
 			"args": {},
-			"calls": 153203,
+			"calls": 211732,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ria t",
 				"n thi",
+				"how m",
 				"heard",
+				"at no",
 				"as ev",
-				"'play",
 				", ine",
 				" are ",
 				"y smil",
 				"y me a",
 				"he cor",
-				"faces ",
 				"ection",
 				" nobod",
+				" befor",
 				"ture', ",
 				"play me",
 				"ow many",
@@ -48,9 +49,11 @@
 				"ore.' Ne",
 				"mes the ",
 				"is pictu",
+				"g faces ",
 				" this pi",
 				" ever he",
-				" correct"
+				" correct",
+				" 'play m"
 			],
 			"hits": [
 				{
@@ -183,6 +186,14 @@
 			]
 		}
 	],
-	"updt": 1603971794805,
-	"edit": 9
+	"updt": 1604044124597,
+	"edit": 10,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
