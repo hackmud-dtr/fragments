@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_109dn2.sniff",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_109dn2.sniff",
 	"sector": "HJG_2155",
 	"sec_level": 4,
 	"date_added": 1596439853481,
-	"last_scraped": 1603940074260,
+	"last_scraped": 1604102811768,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,27 +14,32 @@
 		}
 	],
 	"scrape_ct": 12,
-	"next_scrape": 1603982118421,
+	"next_scrape": 1604149403883,
 	"category": "fishie_tank",
-	"last_update": 1603940074260,
+	"last_update": 1604102811768,
 	"output": [
 		{
 			"args": {},
-			"calls": 186717,
+			"calls": 227248,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"rselv",
+				"ves w",
 				"lve t",
 				"h tho",
 				"ems w",
 				" tast",
+				" may ",
 				"roblem",
+				"deed, ",
 				" what ",
 				" indee",
+				"we conc",
 				"hose pr",
 				"eem lik",
 				" not so",
 				" do not",
+				"rselves ",
+				"oblems t",
 				"n oursel",
 				"he probl",
 				"ems they"
@@ -166,6 +171,14 @@
 			]
 		}
 	],
-	"updt": 1603799444384,
-	"edit": 10
+	"updt": 1604102746449,
+	"edit": 12,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }

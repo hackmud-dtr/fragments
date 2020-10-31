@@ -1,36 +1,40 @@
 {
 	"_id": "abandoned_lr7c3e.h",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_lr7c3e.h",
 	"sector": "VNP_2373",
 	"sec_level": 4,
 	"date_added": 1596210895443,
-	"last_scraped": 1603940056127,
+	"last_scraped": 1604102704766,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1596210895443
 		}
 	],
-	"next_scrape": 1603986045111,
+	"next_scrape": 1604144719979,
 	"category": "fishie_tank",
-	"last_update": 1603940056127,
+	"last_update": 1604102704766,
 	"output": [
 		{
 			"args": {},
-			"calls": 249833,
+			"calls": 279644,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"216D ",
 				"discar",
 				" lane.",
-				"16D in ",
+				" cards",
+				"the lan",
+				"rd pile",
 				" in the",
 				"scard pi",
 				"o the di",
+				"he disca",
 				"6D in th",
 				"216C to ",
+				"16D in t",
+				"\\n216D i",
 				" pile\\n2",
 				"s\\n216C t",
 				"pile\\n216",
@@ -148,6 +152,14 @@
 			]
 		}
 	],
-	"updt": 1603799444384,
-	"edit": 12
+	"updt": 1603964763766,
+	"edit": 13,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
