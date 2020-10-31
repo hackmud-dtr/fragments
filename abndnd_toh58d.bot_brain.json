@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_toh58d.bot_brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_toh58d.bot_brain",
 	"sector": "K_5860",
 	"sec_level": 4,
 	"date_added": 1602299938046,
-	"last_scraped": 1603950268578,
+	"last_scraped": 1604112184658,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,35 +14,37 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1603995337878,
+	"next_scrape": 1604155597718,
 	"category": "fishie_tank",
-	"last_update": 1603950268578,
+	"last_update": 1604112184658,
 	"output": [
 		{
 			"args": {},
-			"calls": 141032,
+			"calls": 190210,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"omise",
 				"ise d",
-				"andom",
 				"se dat",
-				"ise? D",
+				"andomi",
 				"2016 R",
+				"mise? D",
 				"huffle ",
 				"e? Data",
-				"\\n2016 ",
-				"? Data?",
-				": rando",
+				"ata.\\n2",
+				"7 Shuff",
 				"17 Shuf",
+				": rando",
 				"ta.\\n201",
 				"fle the ",
-				"a?\\n2017",
 				"Data?\\n2",
-				"?\\n2017 ",
+				"a?\\n2017",
 				"16 Rando",
+				".\\n2016 ",
+				"?\\n2017 ",
+				" Shuffle",
 				" data.\\n",
-				" Shuffle"
+				"? Data?\\n"
 			],
 			"hits": [
 				{
@@ -190,8 +192,8 @@
 			]
 		}
 	],
-	"updt": 1603967110092,
-	"edit": 9,
+	"updt": 1604112129427,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -217,6 +219,14 @@
 				" Shuffle",
 				" data.\\n"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
