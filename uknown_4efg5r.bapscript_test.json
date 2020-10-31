@@ -6,7 +6,7 @@
 	"sector": "NGC_9373",
 	"sec_level": 4,
 	"date_added": 1598283023125,
-	"last_scraped": 1603941287003,
+	"last_scraped": 1604104035025,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1603981515002,
+	"next_scrape": 1604149714564,
 	"category": "fishie_tank",
-	"last_update": 1603941287003,
+	"last_update": 1604104035025,
 	"output": [
 		{
 			"args": {},
-			"calls": 111959,
+			"calls": 144776,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"with ",
@@ -30,17 +30,22 @@
 				"oblem",
 				"hey d",
 				"ess a",
+				"he pro",
 				" do: i",
-				"tion. W",
+				"we conc",
 				"n. We h",
 				"e probl",
+				"do: ind",
 				"deed, w",
 				", we co",
 				" have a",
+				"th what ",
 				"steless ",
 				"ss abstr",
+				"raction.",
 				"ot solve",
-				"eem like"
+				"eem like",
+				"ction. W"
 			]
 		},
 		{
@@ -113,6 +118,14 @@
 			]
 		}
 	],
-	"updt": 1603800227057,
-	"edit": 7
+	"updt": 1603965741111,
+	"edit": 8,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }

@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_j3txyp.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_j3txyp.db",
 	"sector": "K_9557",
 	"sec_level": 4,
 	"date_added": 1598407728010,
-	"last_scraped": 1603941613550,
+	"last_scraped": 1604104306330,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1603987901226,
+	"next_scrape": 1604150863787,
 	"category": "fishie_tank",
 	"last_update": 1603941613550,
 	"output": [
@@ -101,6 +101,14 @@
 			]
 		}
 	],
-	"updt": 1603800421094,
-	"edit": 6
+	"updt": 1603965741111,
+	"edit": 7,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }

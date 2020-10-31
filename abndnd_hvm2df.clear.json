@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_hvm2df.clear",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_hvm2df.clear",
 	"sector": "NGC_9373",
 	"sec_level": 4,
 	"date_added": 1598290361625,
-	"last_scraped": 1603941394990,
+	"last_scraped": 1604104107345,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,30 +14,32 @@
 		}
 	],
 	"scrape_ct": 14,
-	"next_scrape": 1603985933823,
+	"next_scrape": 1604149953689,
 	"category": "fishie_tank",
-	"last_update": 1603941394990,
+	"last_update": 1604104107345,
 	"output": [
 		{
 			"args": {},
-			"calls": 140125,
+			"calls": 156413,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"User ",
 				"ser E",
 				"in R,",
 				"e per",
-				"User ",
-				"2121 ",
 				"121 S",
 				" pers",
+				"singul",
 				"ngular",
-				"Erin R",
 				"e one p",
 				"are one",
+				", singu",
+				" Erin R",
 				" are on",
 				"ory.\\n21",
 				"n.\\n211F",
 				"2120 I a",
+				".\\n2121 ",
 				" R, sing",
 				"lar.\\n212",
 				"\\n211F Us"
@@ -151,6 +153,14 @@
 			]
 		}
 	],
-	"updt": 1603800227057,
-	"edit": 7
+	"updt": 1603965741111,
+	"edit": 8,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
