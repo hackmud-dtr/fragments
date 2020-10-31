@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_n82gjl.c",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_n82gjl.c",
 	"sector": "K_7994",
 	"sec_level": 4,
 	"date_added": 1603771419407,
-	"last_scraped": 1603952155048,
+	"last_scraped": 1604114070213,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1603997075785,
+	"next_scrape": 1604154649432,
 	"category": "fishie_tank",
-	"last_update": 1603952155048,
+	"last_update": 1604114070213,
 	"output": [
 		{
 			"args": {},
-			"calls": 39887,
+			"calls": 75474,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"t amo",
@@ -179,8 +179,8 @@
 			]
 		}
 	],
-	"updt": 1603829542026,
-	"edit": 5,
+	"updt": 1603967499232,
+	"edit": 6,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -279,6 +279,14 @@
 			"frags": [
 				" are "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

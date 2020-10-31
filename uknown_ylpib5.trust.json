@@ -6,39 +6,46 @@
 	"sector": "K_6517",
 	"sec_level": 4,
 	"date_added": 1597384362837,
-	"last_scraped": 1603952045567,
+	"last_scraped": 1604113960797,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1597384362837
 		}
 	],
-	"updt": 1603829150615,
-	"edit": 9,
+	"updt": 1603965351605,
+	"edit": 10,
 	"scrape_ct": 16,
-	"next_scrape": 1603991911057,
+	"next_scrape": 1604157437352,
 	"category": "fishie_tank",
-	"last_update": 1603952045567,
+	"last_update": 1604113960797,
 	"output": [
 		{
 			"args": {},
-			"calls": 138770,
+			"calls": 184041,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"s, in",
 				"faded",
+				" fade",
 				" case",
 				"quickl",
 				"ote th",
+				"n any ",
 				"hange ",
+				" of ch",
 				"the sho",
+				"o the a",
 				"lternat",
+				"k to no",
 				"e shock",
+				"as, in ",
 				", far p",
 				" shock ",
+				"t the sh",
 				"shock of",
 				"referabl",
 				"ange fad",
+				"able to ",
 				" to note"
 			]
 		},
@@ -102,6 +109,14 @@
 				"native.\"",
 				"able to "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
