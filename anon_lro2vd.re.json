@@ -6,7 +6,7 @@
 	"sector": "SPC_9704",
 	"sec_level": 4,
 	"date_added": 1600670723415,
-	"last_scraped": 1603958610242,
+	"last_scraped": 1604116515291,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,30 +14,30 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1604041878451,
+	"next_scrape": 1604159757084,
 	"category": "risk_factor",
-	"last_update": 1603958610242,
+	"last_update": 1604116515291,
 	"output": [
 		{
 			"args": {},
-			"calls": 12691,
+			"calls": 14852,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"W ERR",
 				" | PR",
-				"| PROG",
 				"ETW ER",
+				"| PROG",
 				"PROG ERR",
-				" | NETW ",
 				" PROG ER",
-				" ERROR |"
+				" ERROR |",
+				" | NETW "
 			]
 		},
 		{
 			"args": {
 				"do": "win"
 			},
-			"calls": 1857,
+			"calls": 2332,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"W ERR",
@@ -2235,7 +2235,12 @@
 			]
 		}
 	],
-	"updt": 1603801204572,
-	"edit": 6,
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"updt": 1603966522876,
+	"edit": 7,
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }
