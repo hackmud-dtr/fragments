@@ -1,45 +1,52 @@
 {
 	"_id": "anonymous_odmohn.manage",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anonymous_odmohn.manage",
 	"sector": "K_9557",
 	"sec_level": 4,
 	"date_added": 1598507768588,
-	"last_scraped": 1603941720865,
+	"last_scraped": 1604104490056,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1598507768588
 		}
 	],
-	"updt": 1603800421094,
-	"edit": 9,
+	"updt": 1603965741111,
+	"edit": 10,
 	"scrape_ct": 11,
-	"next_scrape": 1603984048489,
+	"next_scrape": 1604145681957,
 	"category": "fishie_tank",
-	"last_update": 1603941720865,
+	"last_update": 1604104490056,
 	"output": [
 		{
 			"args": {},
-			"calls": 185712,
+			"calls": 228286,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"writi",
-				"ting ",
+				"SECT0",
 				"ep wr",
 				"BF_CL",
+				"2BC7D",
 				" keep",
 				"riting",
+				"LE0X2B",
+				"\\nAD03",
 				"_CLST0",
-				"T0XBF_",
-				"_FILE0X",
+				"ting 'I",
 				"MFT0XBF",
+				"FT0XBF_",
 				"F227_FI",
 				"7D178\\n",
 				"7A_SECT",
 				"78\\nAD0",
-				"2114 Yo"
+				"7_FILE0",
+				"2114 Yo",
+				"14 You ",
+				"_FILE0X",
+				"0XF227_F"
 			],
 			"hits": [
 				{
@@ -160,6 +167,14 @@
 				"MFT0XBF",
 				"F227_FI"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
