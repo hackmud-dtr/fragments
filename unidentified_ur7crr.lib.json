@@ -6,23 +6,23 @@
 	"sector": "VNP_1486",
 	"sec_level": 4,
 	"date_added": 1601480453588,
-	"last_scraped": 1603948382691,
+	"last_scraped": 1604110137244,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1601480453588
 		}
 	],
-	"updt": 1603801399128,
-	"edit": 8,
+	"updt": 1603966913743,
+	"edit": 9,
 	"scrape_ct": 17,
-	"next_scrape": 1603993441496,
+	"next_scrape": 1604151560185,
 	"category": "fishie_tank",
-	"last_update": 1603948382691,
+	"last_update": 1604110137244,
 	"output": [
 		{
 			"args": {},
-			"calls": 151593,
+			"calls": 180719,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"Wait,",
@@ -35,16 +35,16 @@
 				"ourse y",
 				"efore y",
 				"me\\n1E81",
-				"\\n1E82 :",
 				"E79 abou",
 				"1E79 abo",
+				"\\n1E82 :",
 				" But tha",
 				"ur time\\n",
 				"phD\\n1E79",
-				"\\n1E81 Wa",
 				"E82 :)\\n1",
-				":)\\n1E90 ",
 				"2 :)\\n1E9",
+				"\\n1E81 Wa",
+				":)\\n1E90 ",
 				" :)\\n1E90"
 			]
 		},
@@ -112,6 +112,14 @@
 				":)\\n1E90 ",
 				" :)\\n1E90"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

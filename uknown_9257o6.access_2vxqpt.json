@@ -6,7 +6,7 @@
 	"sector": "VNP_1486",
 	"sec_level": 4,
 	"date_added": 1601540277026,
-	"last_scraped": 1603948601985,
+	"last_scraped": 1604110410056,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1603993064235,
+	"next_scrape": 1604150229108,
 	"category": "fishie_tank",
-	"last_update": 1603948601985,
+	"last_update": 1604110410056,
 	"output": [
 		{
 			"args": {},
-			"calls": 124654,
+			"calls": 179475,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"t in ",
@@ -29,16 +29,20 @@
 				"cker, ",
 				"acker,",
 				"tiate c",
+				"ker, I ",
 				"Initiat",
-				" in a l",
 				"r, I may",
 				"e attack",
+				"combat i",
 				"ate comb",
 				"0B1 As t",
 				" may\\n20",
+				" in a la",
 				" I may\\n",
 				" As the ",
+				" a lane.",
 				"on.\\n20B1",
+				"may\\n20B1",
 				"lane.\\n20"
 			]
 		},
@@ -108,6 +112,14 @@
 			]
 		}
 	],
-	"updt": 1603801399128,
-	"edit": 7
+	"updt": 1604110371758,
+	"edit": 9,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
