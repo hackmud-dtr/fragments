@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_vmv2ux.casino",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_vmv2ux.casino",
 	"sector": "VNP_1486",
 	"sec_level": 4,
 	"date_added": 1601556677690,
-	"last_scraped": 1604116805314,
+	"last_scraped": 1604116841006,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1604162261557,
+	"next_scrape": 1604162183658,
 	"category": "risk_factor",
-	"last_update": 1604116805314,
+	"last_update": 1604116841006,
 	"output": [
 		{
 			"args": {},
@@ -37,7 +37,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 2063,
+			"calls": 2163,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"tion ",
@@ -1266,13 +1266,10 @@
 			]
 		}
 	],
-	"updt": 1603966913743,
-	"edit": 7,
+	"updt": 1604116824774,
+	"edit": 8,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
