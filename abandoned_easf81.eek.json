@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_easf81.eek",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_easf81.eek",
 	"sector": "K_4497",
 	"sec_level": 4,
 	"date_added": 1599951732753,
-	"last_scraped": 1603944340647,
+	"last_scraped": 1604107041637,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,24 +14,26 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1603984401259,
+	"next_scrape": 1604146950310,
 	"category": "fishie_tank",
-	"last_update": 1603944340647,
+	"last_update": 1604107041637,
 	"output": [
 		{
 			"args": {},
-			"calls": 141554,
+			"calls": 185461,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"MFT0X",
-				"XC4_SE",
 				"T0XC4_",
 				"0XC4_S",
+				"XC4_SEC",
 				"CLST0XC",
 				"C4_SECT",
-				"_SECT0X8",
+				"X8926_FI",
 				"X08_CLST",
-				"CT0X8926"
+				"CT0X8926",
+				"0X08_CLS",
+				"_SECT0X8"
 			],
 			"hits": [
 				{
@@ -129,8 +131,8 @@
 			]
 		}
 	],
-	"updt": 1603800812158,
-	"edit": 9,
+	"updt": 1603966327719,
+	"edit": 10,
 	"identified": [
 		{
 			"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
@@ -146,6 +148,14 @@
 				"X08_CLST",
 				"CT0X8926"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_uo88s3.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unknown_uo88s3.db",
 	"sector": "K_6981",
 	"sec_level": 4,
 	"date_added": 1600381968457,
-	"last_scraped": 1603945121274,
+	"last_scraped": 1604107821399,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1603989690641,
+	"next_scrape": 1604153264106,
 	"category": "fishie_tank",
-	"last_update": 1603945121274,
+	"last_update": 1604107821399,
 	"output": [
 		{
 			"args": {},
-			"calls": 113699,
+			"calls": 154367,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"st be",
@@ -91,6 +91,14 @@
 			]
 		}
 	],
-	"updt": 1603801007448,
-	"edit": 7
+	"updt": 1603966522876,
+	"edit": 8,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
