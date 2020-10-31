@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_shlm1u.ouvre",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_shlm1u.ouvre",
 	"sector": "K_9825",
 	"sec_level": 4,
 	"date_added": 1602024964035,
-	"last_scraped": 1603949489746,
+	"last_scraped": 1604111334925,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,32 +14,38 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1603992914810,
+	"next_scrape": 1604151065049,
 	"category": "fishie_tank",
-	"last_update": 1603949489746,
+	"last_update": 1604111334925,
 	"output": [
 		{
 			"args": {},
-			"calls": 151311,
+			"calls": 155620,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"n pla",
-				"me ba",
 				" any ",
 				"n ## S",
 				" stand",
 				" erin ",
+				" ## we",
 				"y more,",
 				"ures in",
-				"evs any",
+				"re stan",
 				"any mor",
-				" devs a",
+				"## we'r",
 				" This p",
 				" Standa",
+				" devs a",
+				"This put",
+				"t some b",
 				"res in p",
 				"re not d",
 				"rds. Thi",
+				"rds are ",
 				"o put so",
+				"me basic",
+				"devs any",
 				"dards. T",
 				"asic str",
 				" we're n",
@@ -116,6 +122,14 @@
 			]
 		}
 	],
-	"updt": 1603801594026,
-	"edit": 7
+	"updt": 1603966913743,
+	"edit": 8,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }

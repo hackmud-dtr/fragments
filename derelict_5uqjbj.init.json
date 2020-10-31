@@ -6,46 +6,49 @@
 	"sector": "VNP_3422",
 	"sec_level": 4,
 	"date_added": 1601764185514,
-	"last_scraped": 1603949164310,
+	"last_scraped": 1604111081696,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1601764185514
 		}
 	],
-	"updt": 1603801594026,
-	"edit": 8,
+	"updt": 1603966913743,
+	"edit": 9,
 	"scrape_ct": 17,
-	"next_scrape": 1603989896438,
+	"next_scrape": 1604156506731,
 	"category": "fishie_tank",
-	"last_update": 1603949164310,
+	"last_update": 1604111081696,
 	"output": [
 		{
 			"args": {},
-			"calls": 147173,
+			"calls": 185584,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"uncti",
 				"roces",
-				"ocess",
+				"proce",
 				" us o",
 				"will f",
 				"tion p",
-				"on pos",
 				"ill fu",
+				"age 5.",
 				" funct",
 				"s will ",
 				"ow the ",
 				"nction ",
-				"## for ",
 				" post s",
 				" ## for",
+				"w the cr",
 				"the crea",
 				"post sta",
 				"ost stag",
+				"ocess wi",
+				"ion post",
 				"e creati",
 				"e 5. ## ",
-				"ative pr"
+				"ative pr",
+				"## for u"
 			]
 		},
 		{
@@ -108,6 +111,14 @@
 				"ction po",
 				"ative pr"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
