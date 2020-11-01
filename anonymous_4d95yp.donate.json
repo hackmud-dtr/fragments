@@ -1,25 +1,25 @@
 {
 	"_id": "anonymous_4d95yp.donate",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_4d95yp.donate",
 	"sector": "VNP_7713",
 	"sec_level": 4,
 	"date_added": 1597920854056,
-	"last_scraped": 1604196975682,
+	"last_scraped": 1604258534774,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1597920854056
 		}
 	],
-	"next_scrape": 1604241322750,
+	"next_scrape": 1604303193528,
 	"category": "clicker",
-	"last_update": 1604196975682,
+	"last_update": 1604258534774,
 	"output": [
 		{
 			"args": {},
-			"calls": 327499,
+			"calls": 359941,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				" cour",
@@ -65,7 +65,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 343999,
+			"calls": 353415,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				" cour",
@@ -171,6 +171,11 @@
 			]
 		}
 	],
-	"updt": 1604119363548,
-	"edit": 19
+	"updt": 1604198731927,
+	"edit": 20,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
