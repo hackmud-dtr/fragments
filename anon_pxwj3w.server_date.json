@@ -1,12 +1,12 @@
 {
 	"_id": "anon_pxwj3w.server_date",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "anon_pxwj3w.server_date",
 	"sector": "K_3278",
 	"sec_level": 4,
 	"date_added": 1602099957487,
-	"last_scraped": 1604025497661,
+	"last_scraped": 1604178632944,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1604114034836,
+	"next_scrape": 1604266669573,
 	"category": "risk_factor",
-	"last_update": 1604025425293,
+	"last_update": 1604178632944,
 	"output": [
 		{
 			"args": {},
@@ -38,7 +38,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 2047,
+			"calls": 2419,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"s. He",
@@ -2679,15 +2679,13 @@
 			]
 		}
 	],
-	"updt": 1603966913743,
-	"edit": 8,
+	"updt": 1604045495177,
+	"edit": 9,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"cannot_identify": true
 }

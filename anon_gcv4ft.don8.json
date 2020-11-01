@@ -1,12 +1,12 @@
 {
 	"_id": "anon_gcv4ft.don8",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anon_gcv4ft.don8",
 	"sector": "K_2311",
 	"sec_level": 4,
 	"date_added": 1602177918313,
-	"last_scraped": 1604038027087,
+	"last_scraped": 1604180867008,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1604122587298,
+	"next_scrape": 1604260899638,
 	"category": "risk_factor",
 	"last_update": 1604038027087,
 	"output": [
@@ -2737,10 +2737,14 @@
 			]
 		}
 	],
-	"updt": 1603985476101,
-	"edit": 7,
+	"updt": 1604045495177,
+	"edit": 8,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"cannot_identify": true,
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}

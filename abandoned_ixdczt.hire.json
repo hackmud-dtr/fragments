@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_ixdczt.hire",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_ixdczt.hire",
 	"sector": "K_1742",
 	"sec_level": 4,
 	"date_added": 1603937110212,
-	"last_scraped": 1604035800215,
+	"last_scraped": 1604209461498,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1604076845118,
+	"next_scrape": 1604254809116,
 	"category": "clicker",
-	"last_update": 1604035800215,
+	"last_update": 1604209461498,
 	"output": [
 		{
 			"args": {},
-			"calls": 27065,
+			"calls": 42979,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"s - l",
@@ -76,8 +76,8 @@
 			]
 		}
 	],
-	"updt": 1603980980340,
-	"edit": 3,
+	"updt": 1604046081832,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -93,6 +93,14 @@
 			"frags": [
 				"s - l"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
 		}
 	]
 }
