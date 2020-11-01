@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_y5518s.rainbow",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_y5518s.rainbow",
 	"sector": "VNP_5719",
 	"sec_level": 4,
@@ -23,8 +23,8 @@
 	],
 	"pl_output": "\n`DHello!` Welcome to my chat script: it makes your text rainbow colored. \n\nTo change `Vchannels` use `Caargon``2.rainbow`{`Nmsg:``V\"\"`, `Nchannel:``V\"[new channel]\"`} \nTo send messages to the cur channel (default `Vtown`), use `Caargon``2.rainbow`{Nmsg:``V\"[msg]\"`}\n\nI recommend the following macros:\n/rc = `Caargon``2.rainbow`{{ Nmsg:``V\"{$}\"` }}\n/cc = `Caargon``2.rainbow`{{ `Nmsg:``V\"\"`, `Nchannel:``V\"{0}\"` }}",
 	"next_scrape": 1604107387773,
-	"updt": 1603887189144,
-	"edit": 3795,
+	"updt": 1604064057087,
+	"edit": 3796,
 	"scrape_ct": 16,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1604063750710,
@@ -51,6 +51,66 @@
 				"FILE0X52",
 				"1C\\nSYST",
 				"_CLST0X1",
+				"82A91C\\nS"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"MFT0X",
+						" NETW",
+						"R | TI",
+						"OR | P",
+						"RROR | ",
+						"NETW ER",
+						" TIME E",
+						"ROR | NE",
+						"ME ERROR",
+						"_CLST0X1"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"X13_SE",
+						"E0X528",
+						"0X5282",
+						"ECT0XE2",
+						"CT0XE23",
+						"FILE0X52",
+						"1C\\nSYST",
+						"82A91C\\nS"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
+				"MFT0X",
+				" NETW",
+				"R | TI",
+				"OR | P",
+				"RROR | ",
+				"NETW ER",
+				" TIME E",
+				"ROR | NE",
+				"ME ERROR",
+				"_CLST0X1"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"X13_SE",
+				"E0X528",
+				"0X5282",
+				"ECT0XE2",
+				"CT0XE23",
+				"FILE0X52",
+				"1C\\nSYST",
 				"82A91C\\nS"
 			]
 		}
