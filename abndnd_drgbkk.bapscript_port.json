@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_drgbkk.bapscript_port",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_drgbkk.bapscript_port",
 	"sector": "HJG_0210",
 	"sec_level": 4,
 	"date_added": 1598885174799,
-	"last_scraped": 1604105592496,
+	"last_scraped": 1604184685876,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1604151235556,
+	"next_scrape": 1604226470118,
 	"category": "fishie_tank",
-	"last_update": 1604105592496,
+	"last_update": 1604184685876,
 	"output": [
 		{
 			"args": {},
@@ -67,7 +67,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 11573,
+			"calls": 12754,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -76,18 +76,20 @@
 			],
 			"fragments": [
 				"0X82_",
-				" | NE",
 				"X885F_",
 				"85F_FI",
 				"0X885F",
 				"T0X69_S",
+				"SYST ER",
 				"MFT0X82",
 				"82_CLST",
 				"0X69_SE",
 				"YST ERRO",
 				"X8C8517B",
 				"X69_SECT",
+				"SECT0X88",
 				"RROR | N",
+				"R | NETW",
 				"LST0X69_",
 				"FILE0X8C",
 				"F_FILE0X",
@@ -116,22 +118,24 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 131321,
+			"calls": 144295,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"0X82_",
-				" | NE",
 				"X885F_",
 				"85F_FI",
 				"0X885F",
 				"T0X69_S",
+				"SYST ER",
 				"MFT0X82",
 				"82_CLST",
 				"0X69_SE",
 				"YST ERRO",
 				"X8C8517B",
 				"X69_SECT",
+				"SECT0X88",
 				"RROR | N",
+				"R | NETW",
 				"LST0X69_",
 				"FILE0X8C",
 				"F_FILE0X",
@@ -157,8 +161,8 @@
 			]
 		}
 	],
-	"updt": 1603965937943,
-	"edit": 9,
+	"updt": 1604105676738,
+	"edit": 10,
 	"identified": [
 		{
 			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
@@ -173,14 +177,6 @@
 				"F_FILE0X",
 				"FILE0X8C"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

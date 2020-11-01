@@ -1,24 +1,24 @@
 {
 	"_id": "unidentified_d4qkce.starfield",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "unidentified_d4qkce.starfield",
 	"sector": "NGC_4509",
 	"sec_level": 4,
 	"date_added": 1598330861233,
-	"last_scraped": 1604114196426,
+	"last_scraped": 1604191087288,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1598330861233
 		}
 	],
-	"updt": 1603965741111,
-	"edit": 8,
+	"updt": 1604114283624,
+	"edit": 9,
 	"scrape_ct": 20,
-	"next_scrape": 1604160261226,
+	"next_scrape": 1604283693426,
 	"category": "risk_factor",
-	"last_update": 1604114196426,
+	"last_update": 1604191087288,
 	"output": [
 		{
 			"args": {},
@@ -45,7 +45,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 2142,
+			"calls": 2397,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"thous",
@@ -2945,10 +2945,8 @@
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"cannot_identify": true
 }

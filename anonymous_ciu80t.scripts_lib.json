@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_ciu80t.scripts_lib",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anonymous_ciu80t.scripts_lib",
 	"sector": "VNP_1540",
 	"sec_level": 4,
 	"date_added": 1598672258231,
-	"last_scraped": 1604105266873,
+	"last_scraped": 1604184522102,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 10,
-	"next_scrape": 1604149033035,
+	"next_scrape": 1604230896313,
 	"category": "fishie_tank",
-	"last_update": 1604105266873,
+	"last_update": 1604184522102,
 	"output": [
 		{
 			"args": {},
@@ -65,7 +65,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 18857,
+			"calls": 20693,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -76,23 +76,24 @@
 				"tack ",
 				"le be",
 				"k fai",
-				"card ",
+				" disc",
 				"y fail",
 				"pile b",
 				"led st",
-				"ard pi",
 				" benea",
 				"Place m",
 				"CB in a",
 				" attack",
+				"scard pi",
 				"lace my ",
 				"e my fai",
 				"CA Place",
 				"ails.\\n2",
-				"\\n20CA P",
 				" failed ",
 				"stack\\n20",
-				"ck\\n20CB "
+				"ils.\\n20C",
+				"ck\\n20CB ",
+				".\\n20CA P"
 			],
 			"hits": [
 				{
@@ -115,26 +116,28 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 171646,
+			"calls": 180364,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"tack ",
 				"my fa",
 				"le be",
 				"k fai",
-				"card ",
+				" disc",
 				"pile b",
 				"led st",
-				"ard pi",
 				" benea",
 				"CB in a",
 				" attack",
+				"scard pi",
 				"lace my ",
+				"k\\n20CB ",
 				"CA Place",
 				"ails.\\n2",
-				"\\n20CA P",
 				" failed ",
-				"stack\\n20"
+				"stack\\n20",
+				"ils.\\n20C",
+				".\\n20CA P"
 			],
 			"hits": [
 				{
@@ -154,8 +157,8 @@
 			]
 		}
 	],
-	"updt": 1603965741111,
-	"edit": 9,
+	"updt": 1604105285587,
+	"edit": 10,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -170,14 +173,6 @@
 				"CB in a",
 				"ails.\\n2"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

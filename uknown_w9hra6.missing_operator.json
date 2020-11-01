@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_w9hra6.missing_operator",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_w9hra6.missing_operator",
 	"sector": "K_9557",
 	"sec_level": 4,
 	"date_added": 1598517249519,
-	"last_scraped": 1604104707006,
+	"last_scraped": 1604184160210,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1604146174011,
+	"next_scrape": 1604228183848,
 	"category": "fishie_tank",
-	"last_update": 1604104707006,
+	"last_update": 1604184160210,
 	"output": [
 		{
 			"args": {},
@@ -33,13 +33,30 @@
 				"00 0000 ",
 				" 0111 11",
 				" 0000 00"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"1 0000",
+						"1111 00",
+						"111 011",
+						"11 1111 ",
+						"11 0111 ",
+						"1 0111 1",
+						"000 0000",
+						"00 0000 ",
+						" 0111 11",
+						" 0000 00"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 13376,
+			"calls": 14568,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -57,13 +74,30 @@
 				"00 0000 ",
 				" 0111 11",
 				" 0000 00"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"1 0000",
+						"1111 00",
+						"111 011",
+						"11 1111 ",
+						"11 0111 ",
+						"1 0111 1",
+						"000 0000",
+						"00 0000 ",
+						" 0111 11",
+						" 0000 00"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 116316,
+			"calls": 135155,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"1 0000",
@@ -76,17 +110,43 @@
 				"00 0000 ",
 				" 0111 11",
 				" 0000 00"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"1 0000",
+						"1111 00",
+						"111 011",
+						"11 1111 ",
+						"11 0111 ",
+						"1 0111 1",
+						"000 0000",
+						"00 0000 ",
+						" 0111 11",
+						" 0000 00"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1604104698773,
-	"edit": 8,
-	"retry_args": [
+	"updt": 1604104894590,
+	"edit": 9,
+	"identified": [
 		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
+			"document": "NOT FOUND",
+			"frags": [
+				"1 0000",
+				"1111 00",
+				"111 011",
+				"11 1111 ",
+				"11 0111 ",
+				"1 0111 1",
+				"000 0000",
+				"00 0000 ",
+				" 0111 11",
+				" 0000 00"
+			]
 		}
 	]
 }

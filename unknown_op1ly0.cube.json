@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_op1ly0.cube",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unknown_op1ly0.cube",
 	"sector": "VNP_7342",
 	"sec_level": 4,
 	"date_added": 1598009059030,
-	"last_scraped": 1604103147738,
+	"last_scraped": 1604182883399,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1604144285789,
+	"next_scrape": 1604226463533,
 	"category": "fishie_tank",
-	"last_update": 1604103147738,
+	"last_update": 1604182883399,
 	"output": [
 		{
 			"args": {},
@@ -41,13 +41,38 @@
 				"72\\nAD03",
 				"227_FILE",
 				"\\nAD031E4"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"MFT0X",
+						"FILE0",
+						"1E46 ",
+						"F227_F",
+						"F_CLST",
+						"BF_CLS",
+						"0X7A_S",
+						"_CLST0",
+						"CLST0X7",
+						"7A_SECT",
+						"T0XF227_",
+						"T0XBF_CL",
+						"SECT0XF2",
+						"FT0XBF_C",
+						"D172\\nAD",
+						"72\\nAD03",
+						"227_FILE",
+						"\\nAD031E4"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 12476,
+			"calls": 13763,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -67,13 +92,32 @@
 				"CLST0X7",
 				"7A_SECT",
 				"D172\\nAD"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"MFT0X",
+						"1E46 ",
+						"0XF22",
+						"XF227_",
+						"F227_F",
+						"F_CLST",
+						"D031E4",
+						"BF_CLS",
+						"_CLST0",
+						"CLST0X7",
+						"7A_SECT",
+						"D172\\nAD"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 119521,
+			"calls": 130378,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"MFT0X",
@@ -88,17 +132,53 @@
 				"CLST0X7",
 				"7A_SECT",
 				"D172\\nAD"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"MFT0X",
+						"1E46 ",
+						"0XF22",
+						"XF227_",
+						"F227_F",
+						"F_CLST",
+						"D031E4",
+						"BF_CLS",
+						"_CLST0",
+						"CLST0X7",
+						"7A_SECT",
+						"D172\\nAD"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1604103138011,
-	"edit": 9,
-	"retry_args": [
+	"updt": 1604103333699,
+	"edit": 10,
+	"identified": [
 		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"MFT0X",
+				"FILE0",
+				"1E46 ",
+				"F227_F",
+				"F_CLST",
+				"BF_CLS",
+				"0X7A_S",
+				"_CLST0",
+				"CLST0X7",
+				"7A_SECT",
+				"T0XF227_",
+				"T0XBF_CL",
+				"SECT0XF2",
+				"FT0XBF_C",
+				"D172\\nAD",
+				"72\\nAD03",
+				"227_FILE",
+				"\\nAD031E4"
+			]
 		}
 	]
 }

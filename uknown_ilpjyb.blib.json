@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_ilpjyb.blib",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_ilpjyb.blib",
 	"sector": "VNP_5719",
 	"sec_level": 4,
@@ -30,6 +30,25 @@
 				"| NETW E",
 				"YST ERRO",
 				"82A91C\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"R | U",
+						"PROG ER",
+						"G ERROR",
+						" PROG E",
+						"| NETW E",
+						"YST ERRO"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"82A91C\\n"
+					]
+				}
 			]
 		},
 		{
@@ -42,9 +61,49 @@
 				"LST0X13_",
 				"G ERROR ",
 				"ERROR | "
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"ROR | P",
+						"OR | NE",
+						"G ERROR ",
+						"ERROR | "
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"LST0X13_"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1603887189144,
-	"edit": 7
+	"updt": 1604064057087,
+	"edit": 8,
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"R | U",
+				"ROR | P",
+				"PROG ER",
+				"OR | NE",
+				" PROG E",
+				"YST ERRO",
+				"G ERROR ",
+				"ERROR | ",
+				"| NETW E"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"LST0X13_",
+				"82A91C\\n"
+			]
+		}
+	]
 }

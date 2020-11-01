@@ -1,12 +1,12 @@
 {
 	"_id": "anon_rbxluj.open",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "anon_rbxluj.open",
 	"sector": "HJG_9003",
 	"sec_level": 4,
 	"date_added": 1598980821678,
-	"last_scraped": 1604115972613,
+	"last_scraped": 1604192354751,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1604159980807,
+	"next_scrape": 1604281039789,
 	"category": "risk_factor",
-	"last_update": 1604115972613,
+	"last_update": 1604192354751,
 	"output": [
 		{
 			"args": {},
@@ -42,7 +42,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 2319,
+			"calls": 2651,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"the c",
@@ -1538,14 +1538,12 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1603965937943,
-	"edit": 8,
+	"updt": 1604116237233,
+	"edit": 9,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"cannot_identify": true
 }

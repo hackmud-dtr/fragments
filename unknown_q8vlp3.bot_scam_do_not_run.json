@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_q8vlp3.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "unknown_q8vlp3.bot_scam_do_not_run",
 	"sector": "VNP_1540",
 	"sec_level": 4,
 	"date_added": 1598697541295,
-	"last_scraped": 1604115847313,
+	"last_scraped": 1604192265054,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1604155901168,
+	"next_scrape": 1604275368034,
 	"category": "risk_factor",
-	"last_update": 1604115847313,
+	"last_update": 1604192265054,
 	"output": [
 		{
 			"args": {},
@@ -41,7 +41,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 1828,
+			"calls": 2071,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"us. O",
@@ -2051,15 +2051,13 @@
 			]
 		}
 	],
-	"updt": 1604115845196,
-	"edit": 9,
+	"updt": 1604116237233,
+	"edit": 10,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"cannot_identify": true
 }
