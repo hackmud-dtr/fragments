@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_be39eh.xfer_upgrade_to",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_be39eh.xfer_upgrade_to",
 	"sector": "K_2838",
 	"sec_level": 4,
 	"date_added": 1603410720387,
-	"last_scraped": 1604202589476,
+	"last_scraped": 1604265014105,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1604247301242,
+	"next_scrape": 1604306825977,
 	"category": "fishie_tank",
-	"last_update": 1604202589476,
+	"last_update": 1604265086479,
 	"output": [
 		{
 			"args": {},
-			"calls": 115338,
+			"calls": 122241,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"with ",
@@ -233,7 +233,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 11633,
+			"calls": 14882,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -661,8 +661,8 @@
 			]
 		}
 	],
-	"updt": 1604200883951,
-	"edit": 8,
+	"updt": 1604202639489,
+	"edit": 9,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -855,6 +855,11 @@
 			"frags": [
 				"erajbha"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
