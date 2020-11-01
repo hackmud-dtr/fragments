@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_s175fj.public",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_s175fj.public",
 	"sector": "HJG_1875",
 	"sec_level": 4,
 	"date_added": 1600117966700,
-	"last_scraped": 1604185809148,
+	"last_scraped": 1604251427653,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1604227126218,
+	"next_scrape": 1604291574830,
 	"category": "fishie_tank",
-	"last_update": 1604185809148,
+	"last_update": 1604251427653,
 	"output": [
 		{
 			"args": {},
-			"calls": 180500,
+			"calls": 207609,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"lutio",
@@ -136,8 +136,8 @@
 			]
 		}
 	],
-	"updt": 1604107438525,
-	"edit": 8,
+	"updt": 1604199514677,
+	"edit": 9,
 	"identified": [
 		{
 			"document": "guest post",
@@ -154,6 +154,14 @@
 				"POST At ",
 				"gration\""
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

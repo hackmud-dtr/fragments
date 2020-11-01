@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_kwoes9.replicator",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_kwoes9.replicator",
 	"sector": "K_4497",
 	"sec_level": 4,
 	"date_added": 1599865225306,
-	"last_scraped": 1604185519920,
+	"last_scraped": 1604251011127,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,29 +14,41 @@
 		}
 	],
 	"scrape_ct": 6,
-	"next_scrape": 1604225291118,
+	"next_scrape": 1604295645188,
 	"category": "fishie_tank",
-	"last_update": 1604185519920,
+	"last_update": 1604251065341,
 	"output": [
 		{
 			"args": {},
-			"calls": 215088,
+			"calls": 230914,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"sity ",
+				"essit",
 				"e us.",
 				" is t",
 				"ty is ",
+				"the co",
 				"our ag",
 				"ODY Th",
 				"nterpa",
 				"ice, a",
+				" It is",
 				"s never",
 				"irely g",
+				"ion of ",
 				"f neces",
+				"age. It",
+				"acrific",
 				"y going ",
 				"ver enti",
 				"to leave",
-				"oing to "
+				"r entire",
+				"r age. I",
+				"oing to ",
+				"ely goin",
+				"e counte",
+				" The que"
 			],
 			"hits": [
 				{
@@ -56,7 +68,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 21566,
+			"calls": 24718,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -64,20 +76,32 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"sity ",
+				"essit",
 				"e us.",
 				" is t",
 				"ty is ",
+				"the co",
 				"our ag",
 				"ODY Th",
 				"nterpa",
 				"ice, a",
+				" It is",
 				"s never",
 				"irely g",
+				"ion of ",
 				"f neces",
+				"age. It",
+				"acrific",
 				"y going ",
 				"ver enti",
 				"to leave",
-				"oing to "
+				"r entire",
+				"r age. I",
+				"oing to ",
+				"ely goin",
+				"e counte",
+				" The que"
 			],
 			"hits": [
 				{
@@ -130,8 +154,8 @@
 			]
 		}
 	],
-	"updt": 1604107046956,
-	"edit": 12,
+	"updt": 1604199514677,
+	"edit": 13,
 	"identified": [
 		{
 			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
@@ -143,6 +167,11 @@
 				"irely g",
 				"y going "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
