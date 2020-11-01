@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_ykdh9f.fastlocs",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_ykdh9f.fastlocs",
 	"sector": "SPC_1581",
 	"sec_level": 4,
 	"date_added": 1599634238341,
-	"last_scraped": 1604026604508,
+	"last_scraped": 1604203802830,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,28 +14,31 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1604111180809,
+	"next_scrape": 1604247165152,
 	"category": "risk_factor",
-	"last_update": 1604026604508,
+	"last_update": 1604203802830,
 	"output": [
 		{
 			"args": {},
-			"calls": 10770,
+			"calls": 17013,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				" 0101",
+				"0101 0",
 				"01 0100",
 				"0000 00",
 				"000 010",
 				"0 0100 ",
 				"0 0000 ",
-				"101 0001"
+				"101 0001",
+				"0001 010"
 			]
 		},
 		{
 			"args": {
 				"do": "win"
 			},
-			"calls": 3445,
+			"calls": 3637,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"5",
@@ -3248,6 +3251,12 @@
 			]
 		}
 	],
-	"updt": 1603966133802,
-	"edit": 8
+	"updt": 1604044710164,
+	"edit": 9,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }

@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_02w64c.t3_db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "unidentified_02w64c.t3_db",
 	"sector": "HJG_9759",
 	"sec_level": 4,
 	"date_added": 1602661652768,
-	"last_scraped": 1604021529478,
+	"last_scraped": 1604203604160,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1604105786401,
+	"next_scrape": 1604287034131,
 	"category": "risk_factor",
-	"last_update": 1604021529478,
+	"last_update": 1604203604160,
 	"output": [
 		{
 			"args": {},
-			"calls": 13006,
+			"calls": 15443,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"rols ",
@@ -37,7 +37,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 2299,
+			"calls": 2485,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"rols ",
@@ -2983,7 +2983,13 @@
 			]
 		}
 	],
-	"updt": 1603967110092,
-	"edit": 9,
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"updt": 1604045690336,
+	"edit": 10,
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }
