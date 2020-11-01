@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_tj5ye4.info",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_tj5ye4.info",
 	"sector": "VNP_0649",
 	"sec_level": 4,
 	"date_added": 1596281798806,
-	"last_scraped": 1604020859690,
+	"last_scraped": 1604203222884,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1604065919829,
+	"next_scrape": 1604246020632,
 	"category": "risk_factor",
 	"last_update": 1604020859690,
 	"output": [
@@ -4946,8 +4946,8 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1603964763766,
-	"edit": 9,
+	"updt": 1604043341233,
+	"edit": 10,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -5537,6 +5537,15 @@
 				"mory of ",
 				" continu"
 			]
+		}
+	],
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
 		}
 	]
 }

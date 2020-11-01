@@ -1,28 +1,28 @@
 {
 	"_id": "unknown_yqeoty.omega",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_yqeoty.omega",
 	"sector": "K_8571",
 	"sec_level": 4,
 	"date_added": 1603477375256,
-	"last_scraped": 1604019535973,
+	"last_scraped": 1604203006435,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603477375256
 		}
 	],
-	"updt": 1604045886952,
-	"edit": 7,
+	"updt": 1604203031055,
+	"edit": 9,
 	"scrape_ct": 16,
-	"next_scrape": 1604060237897,
+	"next_scrape": 1604245133029,
 	"category": "fishie_tank",
-	"last_update": 1604019535973,
+	"last_update": 1604203060104,
 	"output": [
 		{
 			"args": {},
-			"calls": 104374,
+			"calls": 112273,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ss | ",
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 10257,
+			"calls": 13248,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -126,6 +126,11 @@
 				"ive proc",
 				"DY I'm i"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
