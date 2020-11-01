@@ -1,12 +1,12 @@
 {
 	"_id": "anon_ydvhr1.lib_compress",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "anon_ydvhr1.lib_compress",
 	"sector": "SPC_3832",
 	"sec_level": 4,
 	"date_added": 1604128076054,
-	"last_scraped": 1604128164564,
+	"last_scraped": 1604195506648,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1604128224564,
+	"next_scrape": 1604287196636,
 	"category": "risk_factor",
-	"last_update": 1604128164564,
+	"last_update": 1604195506648,
 	"output": [
 		{
 			"args": {},
@@ -40,8 +37,26 @@
 				"ill be w",
 				" im iona"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 277,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"ona, ",
+				"on is",
+				"nfospa",
+				"control",
+				"to be he",
+				"rol and ",
+				"ill be w",
+				" im iona"
+			]
 		}
 	],
-	"updt": 1604128161695,
-	"edit": 1
+	"updt": 1604128356732,
+	"edit": 2,
+	"cannot_identify": true
 }

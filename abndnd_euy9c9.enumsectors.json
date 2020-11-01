@@ -1,29 +1,24 @@
 {
 	"_id": "abndnd_euy9c9.enumsectors",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_euy9c9.enumsectors",
 	"sector": "K_1742",
 	"sec_level": 4,
 	"date_added": 1603940853574,
-	"last_scraped": 1603980994504,
+	"last_scraped": 1604172685014,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603940853574
 		}
 	],
-	"updt": 1603981173750,
-	"edit": 2,
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
+	"updt": 1604046081832,
+	"edit": 3,
 	"scrape_ct": 16,
-	"next_scrape": 1603981054504,
+	"next_scrape": 1604217957557,
 	"category": "fishie_tank",
-	"last_update": 1604035909618,
+	"last_update": 1604172685014,
 	"output": [
 		{
 			"args": {},
@@ -79,6 +74,21 @@
 				"they are still hungry?",
 				"they don't look so good"
 			],
+			"fragments": [
+				"as a ",
+				"kable s",
+				"21st ce",
+				"cades, w",
+				"art we'v",
+				" few sho"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 40800,
+			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"as a ",
 				"kable s",

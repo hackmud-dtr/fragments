@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_n82gjl.c",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_n82gjl.c",
 	"sector": "K_7994",
 	"sec_level": 4,
 	"date_added": 1603771419407,
-	"last_scraped": 1604114070213,
+	"last_scraped": 1604190996835,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1604154649432,
+	"next_scrape": 1604233094808,
 	"category": "fishie_tank",
-	"last_update": 1604114070213,
+	"last_update": 1604190996835,
 	"output": [
 		{
 			"args": {},
@@ -139,7 +139,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6171,
+			"calls": 7351,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -163,7 +163,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 43710,
+			"calls": 63547,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"t amo",
@@ -179,8 +179,8 @@
 			]
 		}
 	],
-	"updt": 1603967499232,
-	"edit": 6,
+	"updt": 1604114085489,
+	"edit": 7,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -279,14 +279,6 @@
 			"frags": [
 				" are "
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

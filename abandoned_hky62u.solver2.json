@@ -1,24 +1,24 @@
 {
 	"_id": "abandoned_hky62u.solver2",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_hky62u.solver2",
 	"sector": "K_1427",
 	"sec_level": 4,
 	"date_added": 1603626343774,
-	"last_scraped": 1604104597460,
+	"last_scraped": 1604184106632,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603626343774
 		}
 	],
-	"updt": 1603967499232,
-	"edit": 4,
+	"updt": 1604104698773,
+	"edit": 5,
 	"scrape_ct": 17,
-	"next_scrape": 1604148089784,
+	"next_scrape": 1604224703439,
 	"category": "fishie_tank",
-	"last_update": 1604104597460,
+	"last_update": 1604184106632,
 	"output": [
 		{
 			"args": {},
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5596,
+			"calls": 8640,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -73,7 +73,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 44835,
+			"calls": 51587,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ding ",
@@ -98,14 +98,6 @@
 				"any\\n20E",
 				"0F1 and "
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

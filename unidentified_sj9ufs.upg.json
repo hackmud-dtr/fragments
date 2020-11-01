@@ -1,29 +1,28 @@
 {
 	"_id": "unidentified_sj9ufs.upg",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unidentified_sj9ufs.upg",
 	"sector": "K_1742",
 	"sec_level": 4,
 	"date_added": 1603979345775,
-	"last_scraped": 1603981663962,
+	"last_scraped": 1604172702961,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603979345775
-		}
-	],
-	"updt": 1603981761866,
-	"edit": 2,
-	"retry_args": [
+		},
 		{
-			"do": "clean"
+			"type": "died",
+			"when": 1604179957244
 		}
 	],
+	"updt": 1604046081832,
+	"edit": 3,
 	"scrape_ct": 16,
-	"next_scrape": 1603981723962,
+	"next_scrape": 1604216619534,
 	"category": "fishie_tank",
-	"last_update": 1604036233715,
+	"last_update": 1604172702961,
 	"output": [
 		{
 			"args": {},
@@ -34,6 +33,17 @@
 				"000\\n0",
 				"000 010",
 				"000 0000"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"0000 0",
+						"000\\n0",
+						"000 010",
+						"000 0000"
+					]
+				}
 			]
 		},
 		{
@@ -52,6 +62,64 @@
 				"001 0",
 				"00 0000",
 				"0000 000",
+				" 0000 01"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"0100 ",
+						"001 0",
+						"00 0000",
+						"0000 000",
+						" 0000 01"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 12099,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"0\\n000",
+				"000 010",
+				" 0000 0",
+				"0100 000",
+				"0000 000",
+				"00 0000 ",
+				" 0000\\n0"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"0\\n000",
+						"000 010",
+						" 0000 0",
+						"0100 000",
+						"0000 000",
+						"00 0000 ",
+						" 0000\\n0"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"001 0",
+				"0\\n000",
+				"000 010",
+				"0100 000",
+				"0000 000",
+				"000 0000",
+				"00 0000 ",
+				" 0000\\n0",
 				" 0000 01"
 			]
 		}

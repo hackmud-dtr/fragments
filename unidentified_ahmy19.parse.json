@@ -1,28 +1,28 @@
 {
 	"_id": "unidentified_ahmy19.parse",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_ahmy19.parse",
 	"sector": "NGC_4509",
 	"sec_level": 4,
 	"date_added": 1598348430778,
-	"last_scraped": 1604017462110,
+	"last_scraped": 1604201373280,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1598348430778
 		}
 	],
-	"updt": 1604044319389,
-	"edit": 10,
+	"updt": 1604198926366,
+	"edit": 11,
 	"scrape_ct": 17,
-	"next_scrape": 1604061994250,
+	"next_scrape": 1604242641276,
 	"category": "fishie_tank",
-	"last_update": 1604017462110,
+	"last_update": 1604201373280,
 	"output": [
 		{
 			"args": {},
-			"calls": 159212,
+			"calls": 172797,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"aalil",
@@ -56,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 11761,
+			"calls": 13767,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -95,7 +95,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 164898,
+			"calls": 183366,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"makil",

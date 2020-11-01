@@ -1,27 +1,22 @@
 {
 	"_id": "unknown_qo73e9.scan1",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unknown_qo73e9.scan1",
 	"sector": "K_1742",
 	"sec_level": 4,
 	"date_added": 1603997040276,
-	"last_scraped": 1603997241434,
+	"last_scraped": 1604174187698,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603997040276
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1603997301434,
+	"next_scrape": 1604219418660,
 	"category": "fishie_tank",
-	"last_update": 1604040602531,
+	"last_update": 1604174187698,
 	"output": [
 		{
 			"args": {},
@@ -36,6 +31,21 @@
 				"portrai",
 				"aits th",
 				"hope the"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"mater",
+						"ike s",
+						"ial m",
+						"self p",
+						"e self",
+						"portrai",
+						"aits th",
+						"hope the"
+					]
+				}
 			]
 		},
 		{
@@ -58,9 +68,56 @@
 				"portrai",
 				"aits th",
 				"hope the"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"mater",
+						"ike s",
+						"ial m",
+						"self p",
+						"e self",
+						"portrai",
+						"aits th",
+						"hope the"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8092,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"mater",
+				"ike s",
+				"ial m",
+				"self p",
+				"e self",
+				"portrai",
+				"aits th",
+				"hope the"
 			]
 		}
 	],
-	"updt": 1603997395357,
-	"edit": 2
+	"updt": 1604046081832,
+	"edit": 3,
+	"identified": [
+		{
+			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+			"frags": [
+				"mater",
+				"ike s",
+				"ial m",
+				"self p",
+				"e self",
+				"portrai",
+				"aits th",
+				"hope the"
+			]
+		}
+	]
 }
