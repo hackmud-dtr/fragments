@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_cfgqdf.eve_data_check",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_cfgqdf.eve_data_check",
 	"sector": "HJG_0210",
 	"sec_level": 4,
 	"date_added": 1598929259594,
-	"last_scraped": 1604197230040,
+	"last_scraped": 1604259277026,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 12,
-	"next_scrape": 1604241677452,
+	"next_scrape": 1604300474355,
 	"category": "clicker",
-	"last_update": 1604197230040,
+	"last_update": 1604259277026,
 	"output": [
 		{
 			"args": {},
-			"calls": 170024,
+			"calls": 203261,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"s hav",
@@ -185,6 +185,14 @@
 			]
 		}
 	],
-	"updt": 1604120144423,
-	"edit": 10
+	"updt": 1604199121490,
+	"edit": 11,
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
+		}
+	]
 }
