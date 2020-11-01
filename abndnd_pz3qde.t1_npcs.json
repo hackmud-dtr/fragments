@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_pz3qde.t1_npcs",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "abndnd_pz3qde.t1_npcs",
 	"sector": "VNP_2775",
 	"sec_level": 4,
 	"date_added": 1600910706397,
-	"last_scraped": 1604179122766,
+	"last_scraped": 1604265647285,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1604264434181,
+	"next_scrape": 1604353192977,
 	"category": "risk_factor",
-	"last_update": 1604026803871,
+	"last_update": 1604265647285,
 	"output": [
 		{
 			"args": {},
@@ -58,32 +58,41 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 3097,
+			"calls": 3255,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"4",
 				"Y The",
+				"to le",
 				"tirel",
 				"irely",
 				"fice,",
 				" of n",
+				"ur age",
+				"rifice",
 				"of nec",
 				"nes ou",
-				"ly goi",
-				"e ques",
 				"crific",
 				"ave us",
-				". Nece",
 				" defin",
 				" count",
 				"t is th",
+				"sacrifi",
+				"s. Nece",
+				"nterpar",
 				"ge. It ",
+				"fines o",
 				"es our ",
-				"cessity",
+				"ely goi",
 				" going ",
+				"The ques",
 				"question",
 				"ounterpa",
-				"| BODY T"
+				"o leave ",
+				"ever ent",
+				"ecessity",
+				"| BODY T",
+				" leave u"
 			],
 			"hits": [
 				{
@@ -3875,8 +3884,8 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1604045300646,
-	"edit": 10,
+	"updt": 1604199908607,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -4876,9 +4885,6 @@
 	],
 	"cannot_identify": true,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

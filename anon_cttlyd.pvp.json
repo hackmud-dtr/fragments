@@ -1,12 +1,12 @@
 {
 	"_id": "anon_cttlyd.pvp",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "anon_cttlyd.pvp",
 	"sector": "HJG_6490",
 	"sec_level": 4,
 	"date_added": 1596581304019,
-	"last_scraped": 1604179230565,
+	"last_scraped": 1604265774062,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 13,
-	"next_scrape": 1604269645221,
+	"next_scrape": 1604355996043,
 	"category": "risk_factor",
-	"last_update": 1604027385858,
+	"last_update": 1604265774062,
 	"output": [
 		{
 			"args": {},
@@ -43,7 +43,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 2671,
+			"calls": 2930,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"ter r",
@@ -841,13 +841,10 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1604043536679,
-	"edit": 11,
+	"updt": 1604265770265,
+	"edit": 13,
 	"cannot_identify": true,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
