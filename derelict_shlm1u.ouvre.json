@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_shlm1u.ouvre",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_shlm1u.ouvre",
 	"sector": "K_9825",
 	"sec_level": 4,
 	"date_added": 1602024964035,
-	"last_scraped": 1604189093610,
+	"last_scraped": 1604254134019,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,24 +14,27 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1604233933301,
+	"next_scrape": 1604299543932,
 	"category": "fishie_tank",
-	"last_update": 1604189093610,
+	"last_update": 1604254188415,
 	"output": [
 		{
 			"args": {},
-			"calls": 195083,
+			"calls": 212331,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"n pla",
 				" any ",
+				"place.",
 				"n ## S",
+				"ctures",
 				" stand",
 				" erin ",
 				" ## we",
 				"y more,",
 				"ures in",
 				"re stan",
+				"put som",
 				"any mor",
 				"## we'r",
 				" This p",
@@ -47,6 +50,7 @@
 				"me basic",
 				"devs any",
 				"dards. T",
+				"c struct",
 				"asic str",
 				" we're n",
 				" structu",
@@ -94,7 +98,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 13736,
+			"calls": 16400,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -105,12 +109,16 @@
 				"n pla",
 				"me ba",
 				" any ",
+				" ## w",
+				"place.",
 				"n ## S",
+				"ctures",
 				" stand",
 				" erin ",
 				"y more,",
 				"ures in",
 				"re stan",
+				"put som",
 				"evs any",
 				"erin ##",
 				"any mor",
@@ -124,6 +132,7 @@
 				"ndards a",
 				"is puts ",
 				"dards. T",
+				"c struct",
 				"asic str",
 				" we're n",
 				" structu",
@@ -223,8 +232,8 @@
 			]
 		}
 	],
-	"updt": 1604111543345,
-	"edit": 10,
+	"updt": 1604200297909,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
@@ -263,6 +272,11 @@
 				" more, e",
 				" ## Stan"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

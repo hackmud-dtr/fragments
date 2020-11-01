@@ -1,12 +1,12 @@
 {
 	"_id": "anon_wlux6f.info_a88ktr",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_wlux6f.info_a88ktr",
 	"sector": "VNP_3422",
 	"sec_level": 4,
 	"date_added": 1601736089185,
-	"last_scraped": 1604188550360,
+	"last_scraped": 1604253826502,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1604233207148,
+	"next_scrape": 1604293602567,
 	"category": "fishie_tank",
-	"last_update": 1604188550360,
+	"last_update": 1604253898613,
 	"output": [
 		{
 			"args": {},
-			"calls": 155743,
+			"calls": 165650,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"gins ",
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 16667,
+			"calls": 20962,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -118,8 +118,8 @@
 			]
 		}
 	],
-	"updt": 1604110763196,
-	"edit": 11,
+	"updt": 1604253844432,
+	"edit": 13,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -133,6 +133,11 @@
 				"ards mu",
 				"\\n2167 "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
