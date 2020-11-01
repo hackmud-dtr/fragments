@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_5uqjbj.steal",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_5uqjbj.steal",
 	"sector": "K_0724",
 	"sec_level": 4,
 	"date_added": 1598593478620,
-	"last_scraped": 1604184305066,
+	"last_scraped": 1604248664526,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 11,
-	"next_scrape": 1604228389915,
+	"next_scrape": 1604291744921,
 	"category": "fishie_tank",
-	"last_update": 1604184305066,
+	"last_update": 1604248720067,
 	"output": [
 		{
 			"args": {},
-			"calls": 204381,
+			"calls": 221397,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"we wi",
@@ -106,7 +106,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 19108,
+			"calls": 21713,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -323,6 +323,11 @@
 			]
 		}
 	],
-	"updt": 1604105090510,
-	"edit": 13
+	"updt": 1604198926366,
+	"edit": 14,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }

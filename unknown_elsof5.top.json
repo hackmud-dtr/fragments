@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_elsof5.top",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_elsof5.top",
 	"sector": "VNP_1540",
 	"sec_level": 4,
 	"date_added": 1598663314256,
-	"last_scraped": 1604184468153,
+	"last_scraped": 1604248972847,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,39 +14,49 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1604229470733,
+	"next_scrape": 1604292091023,
 	"category": "fishie_tank",
-	"last_update": 1604184468153,
+	"last_update": 1604248972847,
 	"output": [
 		{
 			"args": {},
-			"calls": 172092,
+			"calls": 201893,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"rcome",
 				"o the",
 				"hen y",
 				"ear. ",
-				"e, do",
 				"cal m",
 				"and t",
-				". GUE",
 				" not ",
+				"T POST",
+				"n you ",
 				"hem. W",
 				"GUEST ",
 				"em. Wh",
 				"dset a",
+				"der - ",
+				"ar. GU",
 				" GUEST",
 				" - not",
+				"ure, do",
+				"r. GUES",
 				"o so wi",
 				"ith won",
 				"h wonde",
 				"echnolo",
+				"al mind",
+				" with w",
 				" the fu",
+				"you look",
 				"wonder -",
 				"uture, d",
 				"the futu",
 				"ou look ",
+				"l mindse",
 				"chnology",
+				", do so ",
 				" to over",
 				" mindset"
 			],
@@ -260,8 +270,8 @@
 			]
 		}
 	],
-	"updt": 1604105285587,
-	"edit": 10,
+	"updt": 1604248961512,
+	"edit": 12,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -301,6 +311,14 @@
 			"frags": [
 				" the fu"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

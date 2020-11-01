@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_ciu80t.scripts_lib",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_ciu80t.scripts_lib",
 	"sector": "VNP_1540",
 	"sec_level": 4,
 	"date_added": 1598672258231,
-	"last_scraped": 1604184522102,
+	"last_scraped": 1604249026024,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,35 +14,36 @@
 		}
 	],
 	"scrape_ct": 10,
-	"next_scrape": 1604230896313,
+	"next_scrape": 1604292776680,
 	"category": "fishie_tank",
-	"last_update": 1604184522102,
+	"last_update": 1604249100286,
 	"output": [
 		{
 			"args": {},
-			"calls": 217055,
+			"calls": 235086,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"tack ",
 				"le be",
 				"k fai",
-				"card ",
+				" disc",
 				"y fail",
 				"pile b",
 				"led st",
-				"ard pi",
 				" benea",
 				"Place m",
 				"CB in a",
 				" attack",
+				"scard pi",
 				"lace my ",
 				"e my fai",
 				"CA Place",
 				"ails.\\n2",
-				"\\n20CA P",
 				" failed ",
 				"stack\\n20",
-				"ck\\n20CB "
+				"ils.\\n20C",
+				"ck\\n20CB ",
+				".\\n20CA P"
 			],
 			"hits": [
 				{
@@ -65,7 +66,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 20693,
+			"calls": 23724,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -157,8 +158,8 @@
 			]
 		}
 	],
-	"updt": 1604105285587,
-	"edit": 10,
+	"updt": 1604198926366,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -173,6 +174,11 @@
 				"CB in a",
 				"ails.\\n2"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
