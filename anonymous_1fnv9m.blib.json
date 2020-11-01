@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_1fnv9m.blib",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anonymous_1fnv9m.blib",
 	"sector": "K_7994",
 	"sec_level": 4,
 	"date_added": 1603731292112,
-	"last_scraped": 1604028275589,
+	"last_scraped": 1604204529947,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1604120145567,
+	"next_scrape": 1604291143844,
 	"category": "risk_factor",
-	"last_update": 1604028275589,
+	"last_update": 1604204511439,
 	"output": [
 		{
 			"args": {},
-			"calls": 7264,
+			"calls": 10026,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"E0XBBE",
@@ -35,7 +35,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 1645,
+			"calls": 1878,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"E0XBBE",
@@ -1035,6 +1035,16 @@
 			]
 		}
 	],
-	"updt": 1603970623766,
-	"edit": 3
+	"updt": 1604046081832,
+	"edit": 4,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
