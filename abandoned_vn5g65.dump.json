@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_vn5g65.dump",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "abandoned_vn5g65.dump",
 	"sector": "VNP_3235",
 	"sec_level": 4,
 	"date_added": 1597090711673,
-	"last_scraped": 1604021312944,
+	"last_scraped": 1604174965998,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1604102863604,
+	"next_scrape": 1604257033351,
 	"category": "risk_factor",
 	"last_update": 1604021312944,
 	"output": [
@@ -3515,8 +3515,8 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1603965155584,
-	"edit": 10,
+	"updt": 1604043731803,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -4198,7 +4198,11 @@
 			]
 		}
 	],
+	"cannot_identify": true,
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}

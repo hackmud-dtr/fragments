@@ -1,12 +1,12 @@
 {
 	"_id": "anon_p2qdh5.bot_brain",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "anon_p2qdh5.bot_brain",
 	"sector": "NGC_7525",
 	"sec_level": 4,
 	"date_added": 1597006267536,
-	"last_scraped": 1604022945691,
+	"last_scraped": 1604175417945,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1604103334434,
+	"next_scrape": 1604260178081,
 	"category": "risk_factor",
-	"last_update": 1604022890994,
+	"last_update": 1604175417945,
 	"output": [
 		{
 			"args": {},
@@ -45,7 +45,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 1962,
+			"calls": 2124,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"s hug",
@@ -3613,14 +3613,12 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1603965155584,
-	"edit": 8,
+	"updt": 1604043731803,
+	"edit": 9,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"cannot_identify": true
 }
