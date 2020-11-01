@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_yejv08.quit",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_yejv08.quit",
 	"sector": "NGC_5884",
 	"sec_level": 4,
 	"date_added": 1600525321205,
-	"last_scraped": 1604197620590,
+	"last_scraped": 1604261161348,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 6,
-	"next_scrape": 1604242516408,
+	"next_scrape": 1604302345726,
 	"category": "clicker",
-	"last_update": 1604197620590,
+	"last_update": 1604261161348,
 	"output": [
 		{
 			"args": {},
-			"calls": 216507,
+			"calls": 231462,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"om. #",
@@ -63,7 +63,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 189604,
+			"calls": 207850,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"om. #",
@@ -283,6 +283,11 @@
 			]
 		}
 	],
-	"updt": 1604122100975,
-	"edit": 12
+	"updt": 1604199711681,
+	"edit": 13,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }

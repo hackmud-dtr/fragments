@@ -1,28 +1,28 @@
 {
 	"_id": "unidentified_rkoxv7.acct_nt_wrapper",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_rkoxv7.acct_nt_wrapper",
 	"sector": "SPC_4659",
 	"sec_level": 4,
 	"date_added": 1603245991570,
-	"last_scraped": 1604197711049,
+	"last_scraped": 1604261740082,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603245991570
 		}
 	],
-	"updt": 1604122490276,
-	"edit": 9,
+	"updt": 1604200883951,
+	"edit": 10,
 	"scrape_ct": 16,
-	"next_scrape": 1604242717190,
+	"next_scrape": 1604307911418,
 	"category": "clicker",
-	"last_update": 1604197711049,
+	"last_update": 1604261740082,
 	"output": [
 		{
 			"args": {},
-			"calls": 156218,
+			"calls": 178474,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"thoug",
@@ -54,7 +54,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 137418,
+			"calls": 152100,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"thoug",
@@ -128,6 +128,11 @@
 				". I'm no",
 				" I'll ha"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"CLICK": true
 		}
 	]
 }
