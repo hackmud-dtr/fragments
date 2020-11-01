@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_mql0zq.pacman",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_mql0zq.pacman",
 	"sector": "K_5860",
 	"sec_level": 4,
 	"date_added": 1602488435225,
-	"last_scraped": 1604198165799,
+	"last_scraped": 1604263011223,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 12,
-	"next_scrape": 1604242537275,
+	"next_scrape": 1604307032264,
 	"category": "clicker",
-	"last_update": 1604198165799,
+	"last_update": 1604263011223,
 	"output": [
 		{
 			"args": {},
-			"calls": 177576,
+			"calls": 205226,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"e, Ma",
@@ -128,6 +128,14 @@
 			]
 		}
 	],
-	"updt": 1604124054035,
-	"edit": 10
+	"updt": 1604200494390,
+	"edit": 11,
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
+		}
+	]
 }
