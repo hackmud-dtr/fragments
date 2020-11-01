@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_drgbkk.bapscript_port",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_drgbkk.bapscript_port",
 	"sector": "HJG_0210",
 	"sec_level": 4,
 	"date_added": 1598885174799,
-	"last_scraped": 1604184685876,
+	"last_scraped": 1604249480858,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,18 +14,17 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1604226470118,
+	"next_scrape": 1604294472777,
 	"category": "fishie_tank",
-	"last_update": 1604184685876,
+	"last_update": 1604249480858,
 	"output": [
 		{
 			"args": {},
-			"calls": 171879,
+			"calls": 192104,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"0X8C8",
 				"0X82_",
-				" | NE",
 				"X885F_",
 				"ERROR ",
 				"85F_FI",
@@ -38,7 +37,9 @@
 				"X8C8517B",
 				"X69_SECT",
 				"SYST ERR",
+				"SECT0X88",
 				"RROR | N",
+				"R | NETW",
 				"LST0X69_",
 				"FILE0X8C",
 				"F_FILE0X",
@@ -67,7 +68,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 12754,
+			"calls": 14038,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -118,7 +119,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 144295,
+			"calls": 160303,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"0X82_",
@@ -161,8 +162,8 @@
 			]
 		}
 	],
-	"updt": 1604105676738,
-	"edit": 10,
+	"updt": 1604199121490,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",

@@ -1,12 +1,12 @@
 {
 	"_id": "anon_df8fpt.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_df8fpt.bot_scam_do_not_run",
 	"sector": "VNP_1805",
 	"sec_level": 4,
 	"date_added": 1598769538232,
-	"last_scraped": 1604184577866,
+	"last_scraped": 1604249225546,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 13,
-	"next_scrape": 1604226496449,
+	"next_scrape": 1604289401725,
 	"category": "fishie_tank",
-	"last_update": 1604184577866,
+	"last_update": 1604249243588,
 	"output": [
 		{
 			"args": {},
-			"calls": 179471,
+			"calls": 216782,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"r car",
@@ -58,7 +58,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 16286,
+			"calls": 17302,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -147,6 +147,11 @@
 			]
 		}
 	],
-	"updt": 1604105481582,
-	"edit": 9
+	"updt": 1604199121490,
+	"edit": 10,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
