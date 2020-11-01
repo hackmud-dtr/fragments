@@ -1,22 +1,22 @@
 {
 	"_id": "anon_gcv4ft.don8",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "anon_gcv4ft.don8",
 	"sector": "K_2311",
 	"sec_level": 4,
 	"date_added": 1602177918313,
-	"last_scraped": 1604180867008,
+	"last_scraped": 1604267478525,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1602177918313
 		}
 	],
-	"scrape_ct": 16,
-	"next_scrape": 1604260899638,
+	"scrape_ct": 15,
+	"next_scrape": 1604355380514,
 	"category": "risk_factor",
-	"last_update": 1604038027087,
+	"last_update": 1604267478525,
 	"output": [
 		{
 			"args": {},
@@ -41,7 +41,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 2397,
+			"calls": 2914,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"3",
@@ -49,14 +49,14 @@
 				"0 if ",
 				"s set ",
 				"ker wi",
-				"attack",
 				" to 0 ",
 				"defende",
 				"REAKs se",
 				"if attac",
 				"215C str",
 				"s,\\n215D ",
-				"der\\n215C"
+				"der\\n215C",
+				"9GCattack"
 			]
 		},
 		{
@@ -2737,14 +2737,11 @@
 			]
 		}
 	],
-	"updt": 1604045495177,
-	"edit": 8,
+	"updt": 1604200494390,
+	"edit": 9,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"cannot_identify": true,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
