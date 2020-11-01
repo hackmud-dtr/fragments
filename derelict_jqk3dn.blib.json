@@ -1,26 +1,26 @@
 {
 	"_id": "derelict_jqk3dn.blib",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "derelict_jqk3dn.blib",
 	"sector": "VNP_3373",
 	"sec_level": 4,
 	"date_added": 1604191738581,
-	"last_scraped": 1604199180065,
+	"last_scraped": 1604241843192,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1604191738581
 		}
 	],
-	"scrape_ct": 17,
-	"next_scrape": 1604199240065,
+	"scrape_ct": 12,
+	"next_scrape": 1604241903192,
 	"category": "fishie_tank",
-	"last_update": 1604199180065,
+	"last_update": 1604241843192,
 	"output": [
 		{
 			"args": {},
-			"calls": 16296,
+			"calls": 53192,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ttach",
@@ -257,6 +257,16 @@
 			"frags": [
 				"sional "
 			]
+		}
+	],
+	"updt": 1604241729021,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
