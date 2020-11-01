@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_m4otor.override",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_m4otor.override",
 	"sector": "VNP_5602",
 	"sec_level": 4,
 	"date_added": 1602970945093,
-	"last_scraped": 1604113071964,
+	"last_scraped": 1604190253997,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1604159702794,
+	"next_scrape": 1604231171018,
 	"category": "fishie_tank",
-	"last_update": 1604113071964,
+	"last_update": 1604190253997,
 	"output": [
 		{
 			"args": {},
@@ -54,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 11480,
+			"calls": 12521,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -93,7 +93,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 127502,
+			"calls": 142182,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ure i",
@@ -124,8 +124,8 @@
 			]
 		}
 	],
-	"updt": 1603967304057,
-	"edit": 10,
+	"updt": 1604113107040,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
@@ -137,14 +137,6 @@
 				"gies' mi",
 				"atterns."
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
