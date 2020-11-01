@@ -1,28 +1,28 @@
 {
 	"_id": "derelict_4qai7y.request",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_4qai7y.request",
 	"sector": "K_9825",
 	"sec_level": 4,
 	"date_added": 1601911382497,
-	"last_scraped": 1604181774005,
+	"last_scraped": 1604246853210,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1601911382497
 		}
 	],
-	"updt": 1604045495177,
-	"edit": 9,
+	"updt": 1604246810480,
+	"edit": 11,
 	"scrape_ct": 16,
-	"next_scrape": 1604228374093,
+	"next_scrape": 1604287879347,
 	"category": "clicker",
-	"last_update": 1604181774005,
+	"last_update": 1604246853210,
 	"output": [
 		{
 			"args": {},
-			"calls": 147618,
+			"calls": 183178,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"n res",
@@ -121,6 +121,14 @@
 				"20B5 th",
 				"rest pow"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
 		}
 	]
 }
