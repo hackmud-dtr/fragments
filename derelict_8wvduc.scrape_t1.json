@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_8wvduc.scrape_t1",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_8wvduc.scrape_t1",
 	"sector": "K_3743",
 	"sec_level": 4,
 	"date_added": 1602137098403,
-	"last_scraped": 1604178669092,
+	"last_scraped": 1604245202167,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1604223168276,
+	"next_scrape": 1604327634493,
 	"category": "risk_factor",
-	"last_update": 1604178669092,
+	"last_update": 1604245202167,
 	"output": [
 		{
 			"args": {},
-			"calls": 11537,
+			"calls": 15729,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"specia",
@@ -37,7 +37,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 2425,
+			"calls": 2699,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"specia",
@@ -2547,8 +2547,13 @@
 			]
 		}
 	],
-	"updt": 1604045495177,
-	"edit": 8,
+	"updt": 1604200494390,
+	"edit": 9,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }

@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_xohmj3.amp",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_xohmj3.amp",
 	"sector": "HJG_9828",
 	"sec_level": 4,
 	"date_added": 1597871601785,
-	"last_scraped": 1604179411870,
+	"last_scraped": 1604245329128,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1604224652269,
+	"next_scrape": 1604288446928,
 	"category": "risk_factor",
-	"last_update": 1604179411870,
+	"last_update": 1604245329128,
 	"output": [
 		{
 			"args": {},
-			"calls": 10931,
+			"calls": 18723,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				" to p",
@@ -3987,8 +3987,16 @@
 			]
 		}
 	],
-	"updt": 1604044124597,
-	"edit": 9,
+	"updt": 1604198536290,
+	"edit": 10,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }

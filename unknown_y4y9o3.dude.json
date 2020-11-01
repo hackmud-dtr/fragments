@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_y4y9o3.dude",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_y4y9o3.dude",
 	"sector": "VNP_1486",
 	"sec_level": 4,
 	"date_added": 1601541585537,
-	"last_scraped": 1604178344237,
+	"last_scraped": 1604244948696,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,26 +14,31 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1604224752759,
+	"next_scrape": 1604287472058,
 	"category": "risk_factor",
-	"last_update": 1604178344237,
+	"last_update": 1604244948696,
 	"output": [
 		{
 			"args": {},
-			"calls": 12913,
+			"calls": 19263,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"lutio",
 				" AI d",
 				"utions",
-				"is tha",
+				"mpetit",
+				"The cha",
 				"t is th",
 				"t is ov",
 				"s over.",
+				"nges th",
 				"msg\":\"T",
 				"itive A",
+				"is that",
+				" of com",
 				"t the er",
 				"s that t",
+				"ment is ",
 				"er. The ",
 				"ccess To",
 				":\"The fa",
@@ -44,21 +49,26 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 3973,
+			"calls": 4289,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"4",
 				"lutio",
 				" AI d",
 				"utions",
-				"is tha",
+				"mpetit",
+				"The cha",
 				"t is th",
 				"t is ov",
 				"s over.",
+				"nges th",
 				"msg\":\"T",
 				"itive A",
+				"is that",
+				" of com",
 				"t the er",
 				"s that t",
+				"ment is ",
 				"er. The ",
 				"ccess To",
 				":\"The fa",
@@ -1550,8 +1560,13 @@
 			]
 		}
 	],
-	"updt": 1604045300646,
-	"edit": 11,
+	"updt": 1604200105061,
+	"edit": 12,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }
