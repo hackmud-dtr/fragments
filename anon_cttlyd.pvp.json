@@ -1,12 +1,12 @@
 {
 	"_id": "anon_cttlyd.pvp",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anon_cttlyd.pvp",
 	"sector": "HJG_6490",
 	"sec_level": 4,
 	"date_added": 1596581304019,
-	"last_scraped": 1604027385858,
+	"last_scraped": 1604179230565,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 13,
-	"next_scrape": 1604114550993,
+	"next_scrape": 1604269645221,
 	"category": "risk_factor",
 	"last_update": 1604027385858,
 	"output": [
@@ -841,9 +841,13 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1603969255483,
-	"edit": 10,
+	"updt": 1604043536679,
+	"edit": 11,
+	"cannot_identify": true,
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}
