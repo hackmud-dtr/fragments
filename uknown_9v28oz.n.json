@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_9v28oz.n",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_9v28oz.n",
 	"sector": "K_5860",
 	"sec_level": 4,
 	"date_added": 1602380241336,
-	"last_scraped": 1604018644394,
+	"last_scraped": 1604202370523,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1604062483423,
+	"next_scrape": 1604247503915,
 	"category": "fishie_tank",
-	"last_update": 1604018644394,
+	"last_update": 1604202370523,
 	"output": [
 		{
 			"args": {},
-			"calls": 144955,
+			"calls": 159682,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ck wi",
@@ -31,13 +31,28 @@
 				"de on t",
 				"t Amalga",
 				"ok back "
+			],
+			"hits": [
+				{
+					"document": "guest post",
+					"frags": [
+						"ck wi",
+						"T At A",
+						"gy int",
+						"ed glo",
+						"we look",
+						"de on t",
+						"t Amalga",
+						"ok back "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 13862,
+			"calls": 15028,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -53,13 +68,28 @@
 				"de on t",
 				"t Amalga",
 				"ok back "
+			],
+			"hits": [
+				{
+					"document": "guest post",
+					"frags": [
+						"ck wi",
+						"T At A",
+						"gy int",
+						"ed glo",
+						"we look",
+						"de on t",
+						"t Amalga",
+						"ok back "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 149055,
+			"calls": 169681,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ck wi",
@@ -70,9 +100,39 @@
 				"de on t",
 				"t Amalga",
 				"ok back "
+			],
+			"hits": [
+				{
+					"document": "guest post",
+					"frags": [
+						"ck wi",
+						"T At A",
+						"gy int",
+						"ed glo",
+						"we look",
+						"de on t",
+						"t Amalga",
+						"ok back "
+					]
+				}
 			]
 		}
 	],
-	"updt": 1603973162174,
-	"edit": 9
+	"updt": 1604200494390,
+	"edit": 11,
+	"identified": [
+		{
+			"document": "guest post",
+			"frags": [
+				"ck wi",
+				"T At A",
+				"gy int",
+				"ed glo",
+				"we look",
+				"de on t",
+				"t Amalga",
+				"ok back "
+			]
+		}
+	]
 }
