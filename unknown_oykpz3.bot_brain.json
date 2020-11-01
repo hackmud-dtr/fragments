@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_oykpz3.bot_brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_oykpz3.bot_brain",
 	"sector": "VNP_2775",
 	"sec_level": 4,
 	"date_added": 1600883557656,
-	"last_scraped": 1604187061337,
+	"last_scraped": 1604252405506,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1604227718046,
+	"next_scrape": 1604292806448,
 	"category": "fishie_tank",
-	"last_update": 1604187061337,
+	"last_update": 1604252441667,
 	"output": [
 		{
 			"args": {},
-			"calls": 144451,
+			"calls": 161645,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"o let",
@@ -58,7 +58,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 15132,
+			"calls": 17291,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -130,8 +130,8 @@
 			]
 		}
 	],
-	"updt": 1604109001376,
-	"edit": 11,
+	"updt": 1604199908607,
+	"edit": 12,
 	"identified": [
 		{
 			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
@@ -148,6 +148,11 @@
 				"ng so le",
 				" us the "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
