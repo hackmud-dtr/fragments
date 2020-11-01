@@ -6,21 +6,21 @@
 	"sector": "VNP_3373",
 	"sec_level": 4,
 	"date_added": 1604241825457,
-	"last_scraped": 1604241915232,
+	"last_scraped": 1604242278775,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1604241825457
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1604241975232,
+	"scrape_ct": 15,
+	"next_scrape": 1604242338775,
 	"category": "fishie_tank",
-	"last_update": 1604241915232,
+	"last_update": 1604242296931,
 	"output": [
 		{
 			"args": {},
-			"calls": 7558,
+			"calls": 27833,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"patia",
@@ -31,13 +31,28 @@
 				"20B0 fo",
 				"mpatibil",
 				"AF I hav"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"patia",
+						"20AF ",
+						"or hum",
+						"ompatib",
+						"djusted",
+						"20B0 fo",
+						"mpatibil",
+						"AF I hav"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1401,
+			"calls": 2486,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -53,6 +68,21 @@
 				"20B0 fo",
 				"mpatibil",
 				"AF I hav"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"patia",
+						"20AF ",
+						"or hum",
+						"ompatib",
+						"djusted",
+						"20B0 fo",
+						"mpatibil",
+						"AF I hav"
+					]
+				}
 			]
 		},
 		{
@@ -70,7 +100,44 @@
 				"20B0 fo",
 				"mpatibil",
 				"AF I hav"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"patia",
+						"20AF ",
+						"or hum",
+						"ompatib",
+						"djusted",
+						"20B0 fo",
+						"mpatibil",
+						"AF I hav"
+					]
+				}
 			]
+		}
+	],
+	"updt": 1604241923185,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"patia",
+				"20AF ",
+				"or hum",
+				"ompatib",
+				"djusted",
+				"20B0 fo",
+				"mpatibil",
+				"AF I hav"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

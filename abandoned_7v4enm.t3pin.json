@@ -6,7 +6,7 @@
 	"sector": "SPC_3832",
 	"sec_level": 4,
 	"date_added": 1604157739471,
-	"last_scraped": 1604157886224,
+	"last_scraped": 1604242697114,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1604157946224,
-	"category": "UNKNOWN CATEGORY",
-	"last_update": 1604157886224,
+	"next_scrape": 1604287864823,
+	"category": "risk_factor",
+	"last_update": 1604242697114,
 	"output": [
 		{
 			"args": {},
@@ -84,10 +84,40 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {},
+			"calls": 4551,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"were ",
+				" Chil",
+				" on cr",
+				"marched",
+				"ation p",
+				" only a",
+				" issues"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 221,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"were ",
+				" Chil",
+				" on cr",
+				"marched",
+				"ation p",
+				" only a",
+				" issues"
+			]
 		}
 	],
-	"updt": 1604158069659,
-	"edit": 2,
+	"updt": 1604201274601,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -139,6 +169,11 @@
 			"frags": [
 				" only a"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
 		}
 	]
 }
