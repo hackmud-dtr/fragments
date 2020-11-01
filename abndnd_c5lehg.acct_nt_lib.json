@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_c5lehg.acct_nt_lib",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_c5lehg.acct_nt_lib",
 	"sector": "VNP_3430",
 	"sec_level": 4,
 	"date_added": 1601570895287,
-	"last_scraped": 1604110536264,
+	"last_scraped": 1604188387771,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1604154026900,
+	"next_scrape": 1604229419514,
 	"category": "fishie_tank",
-	"last_update": 1604110536264,
+	"last_update": 1604188387771,
 	"output": [
 		{
 			"args": {},
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 13832,
+			"calls": 15085,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -91,7 +91,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 112534,
+			"calls": 133572,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"101 010",
@@ -122,8 +122,8 @@
 			]
 		}
 	],
-	"updt": 1603966913743,
-	"edit": 10,
+	"updt": 1604110566911,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -135,14 +135,6 @@
 				"0000 010",
 				"0 0101 0"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

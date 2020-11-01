@@ -1,12 +1,12 @@
 {
 	"_id": "anon_58df59.e",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_58df59.e",
 	"sector": "HJG_1875",
 	"sec_level": 4,
 	"date_added": 1600160316596,
-	"last_scraped": 1604121520611,
+	"last_scraped": 1604197485196,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 8,
-	"next_scrape": 1604161418616,
+	"next_scrape": 1604242217106,
 	"category": "clicker",
-	"last_update": 1604121520611,
+	"last_update": 1604197485196,
 	"output": [
 		{
 			"args": {},
@@ -48,13 +48,17 @@
 			"args": {
 				"click": true
 			},
-			"calls": 164851,
+			"calls": 179621,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"1 010",
-				" 0000",
 				"1001 0",
-				"0000 00"
+				"0000\\n",
+				"0\\n000",
+				"0 0001",
+				"0000 00",
+				"00 0000",
+				" 0000 0"
 			],
 			"hits": [
 				{
@@ -353,6 +357,104 @@
 				"CK 00 0000",
 				"CK  0000 0"
 			]
+		},
+		{
+			"args": {
+				"CLICK": true
+			},
+			"calls": 1570,
+			"base": "`LCLIC00000URED`",
+			"fragments": [
+				"1C",
+				"K0\\n000",
+				"K0 0001",
+				"0000\\nC",
+				"00 00EC",
+				"K00 0000",
+				"K S000 0",
+				"K S00 00",
+				"K 0\\n000",
+				"K 0 0001",
+				"0000\\nEC",
+				"00 00SEC",
+				"0 0001EC",
+				" 0000 0C",
+				"K SE000 0",
+				"K SE00 00",
+				"K S0000\\n",
+				"K S0\\n000",
+				"K S0 0001",
+				"K 00 0000",
+				"K  0000 0",
+				"0000\\nSEC",
+				"00 00 SEC",
+				"0\\n000SEC",
+				"0 0001SEC",
+				" 0000 0EC",
+				"0000\\n SEC",
+				"0000 0 SEC",
+				"000 0K SEC",
+				"00 00K SEC",
+				"00 0000SEC",
+				"0\\n000 SEC",
+				"0 0001 SEC",
+				" 0000 0SEC",
+				"0000\\nK SEC",
+				"000 0CK SEC",
+				"00 00CK SEC",
+				"00 0000 SEC",
+				"0\\n000K SEC",
+				"0 0001K SEC"
+			]
+		},
+		{
+			"args": {
+				"CLICK": true
+			},
+			"calls": 1858,
+			"base": "`LCLI00 0ECURED`",
+			"fragments": [
+				"C000 0",
+				"00 00S",
+				"CK000 0",
+				"C0000\\n",
+				"C0\\n000",
+				"0000\\nS",
+				"0\\n000S",
+				"0 0001S",
+				"CK0000\\n",
+				"CK0\\n000",
+				"CK0 0001",
+				"CK 000 0",
+				"C00 0000",
+				"C 0000 0",
+				"0000\\n S",
+				"0000 0 S",
+				"000 0K S",
+				"00 00K S",
+				"00 0000S",
+				"0 0001 S",
+				" 0000 0S",
+				"CK00 0000",
+				"CK S000 0",
+				"CK S00 00",
+				"CK 0000\\n",
+				"CK 0000 0",
+				"CK 0\\n000",
+				"CK 0 0001",
+				"0000\\nK S",
+				"000 0CK S",
+				"00 00CK S",
+				"0\\n000K S",
+				"0 0001K S",
+				"CK SE000 0",
+				"CK SE00 00",
+				"CK S0000\\n",
+				"CK S0\\n000",
+				"CK S0 0001",
+				"CK 00 0000",
+				"CK  0000 0"
+			]
 		}
 	],
 	"identified": [
@@ -366,14 +468,6 @@
 			]
 		}
 	],
-	"updt": 1604121515291,
-	"edit": 11,
-	"retry_args": [
-		{
-			"click": true
-		},
-		{
-			"CLICK": true
-		}
-	]
+	"updt": 1604121710035,
+	"edit": 12
 }

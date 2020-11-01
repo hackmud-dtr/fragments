@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_oykpz3.bot_brain",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unknown_oykpz3.bot_brain",
 	"sector": "VNP_2775",
 	"sec_level": 4,
 	"date_added": 1600883557656,
-	"last_scraped": 1604108815869,
+	"last_scraped": 1604187061337,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1604152654495,
+	"next_scrape": 1604227718046,
 	"category": "fishie_tank",
-	"last_update": 1604108815869,
+	"last_update": 1604187061337,
 	"output": [
 		{
 			"args": {},
@@ -34,13 +34,31 @@
 				" hit th",
 				"ng so le",
 				" us the "
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"o let",
+						" let'",
+						"the gr",
+						"s take",
+						"ance t",
+						"nce to ",
+						"let's t",
+						"d runni",
+						" hit th",
+						"ng so le",
+						" us the "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 12000,
+			"calls": 15132,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -49,41 +67,87 @@
 			],
 			"fragments": [
 				"o let",
-				"it th",
 				" let'",
+				"the gr",
 				"s take",
+				"ance t",
 				"nce to ",
+				"let's t",
 				"d runni",
+				" hit th",
 				"ng so le",
 				" us the "
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"o let",
+						"it th",
+						" let'",
+						"s take",
+						"nce to ",
+						"d runni",
+						"ng so le",
+						" us the "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 134607,
+			"calls": 156522,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"o let",
-				"it th",
 				" let'",
+				"the gr",
 				"s take",
+				"ance t",
 				"nce to ",
+				"let's t",
 				"d runni",
+				" hit th",
 				"ng so le",
 				" us the "
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"o let",
+						"it th",
+						" let'",
+						"s take",
+						"nce to ",
+						"d runni",
+						"ng so le",
+						" us the "
+					]
+				}
 			]
 		}
 	],
-	"updt": 1604108806711,
-	"edit": 10,
-	"retry_args": [
+	"updt": 1604109001376,
+	"edit": 11,
+	"identified": [
 		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
+				"o let",
+				" let'",
+				"the gr",
+				"s take",
+				"ance t",
+				"nce to ",
+				"let's t",
+				"d runni",
+				" hit th",
+				"ng so le",
+				" us the "
+			]
 		}
 	]
 }

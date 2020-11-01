@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_5fnwy5.interface",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_5fnwy5.interface",
 	"sector": "K_0720",
 	"sec_level": 4,
@@ -13,8 +13,8 @@
 			"when": 1601211753931
 		}
 	],
-	"updt": 1603902036703,
-	"edit": 9,
+	"updt": 1604077933622,
+	"edit": 10,
 	"scrape_ct": 16,
 	"next_scrape": 1604118622651,
 	"category": "coin_flipper",
@@ -25,6 +25,30 @@
 			"calls": 334728,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
+				" 0100 ",
+				"000\\n000",
+				"00 0000 ",
+				"\\n0000 0",
+				" 0000 00"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" 0100 ",
+						"000\\n000",
+						"00 0000 ",
+						"\\n0000 0",
+						" 0000 00"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
 				" 0100 ",
 				"000\\n000",
 				"00 0000 ",

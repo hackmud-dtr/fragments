@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_6n1hhq.gold",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "abndnd_6n1hhq.gold",
 	"sector": "K_9825",
 	"sec_level": 4,
 	"date_added": 1601959612052,
-	"last_scraped": 1604116968286,
+	"last_scraped": 1604192916996,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 14,
-	"next_scrape": 1604157062874,
+	"next_scrape": 1604273478727,
 	"category": "risk_factor",
-	"last_update": 1604116968286,
+	"last_update": 1604192916996,
 	"output": [
 		{
 			"args": {},
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 2345,
+			"calls": 2633,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"7",
@@ -3018,8 +3018,8 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1603966913743,
-	"edit": 8,
+	"updt": 1604117017710,
+	"edit": 9,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -4034,10 +4034,8 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"cannot_identify": true
 }

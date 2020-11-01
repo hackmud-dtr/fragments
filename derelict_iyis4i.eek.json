@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_iyis4i.eek",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "derelict_iyis4i.eek",
 	"sector": "VNP_3422",
 	"sec_level": 4,
 	"date_added": 1601651671230,
-	"last_scraped": 1604020299279,
+	"last_scraped": 1604174513051,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1604107504242,
+	"next_scrape": 1604254760310,
 	"category": "risk_factor",
-	"last_update": 1603953136058,
+	"last_update": 1604174513051,
 	"output": [
 		{
 			"args": {},
@@ -37,7 +37,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 1917,
+			"calls": 2254,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"7",
@@ -3266,12 +3266,8 @@
 			]
 		}
 	],
-	"updt": 1603966913743,
-	"edit": 7,
+	"updt": 1604045495177,
+	"edit": 8,
 	"pl_output": "YOU COULD WIN 1GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"retry_args": [
-		{
-			"do": "win"
-		}
-	]
+	"cannot_identify": true
 }

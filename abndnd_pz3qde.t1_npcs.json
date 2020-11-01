@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_pz3qde.t1_npcs",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "abndnd_pz3qde.t1_npcs",
 	"sector": "VNP_2775",
 	"sec_level": 4,
 	"date_added": 1600910706397,
-	"last_scraped": 1604026803871,
+	"last_scraped": 1604179122766,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1604070916848,
+	"next_scrape": 1604264434181,
 	"category": "risk_factor",
 	"last_update": 1604026803871,
 	"output": [
@@ -3875,8 +3875,8 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1603966719537,
-	"edit": 9,
+	"updt": 1604045300646,
+	"edit": 10,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -4874,7 +4874,11 @@
 			]
 		}
 	],
+	"cannot_identify": true,
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}
