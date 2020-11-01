@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_pkvid2.sentience_battalion",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_pkvid2.sentience_battalion",
 	"sector": "K_7362",
 	"sec_level": 4,
 	"date_added": 1599751585075,
-	"last_scraped": 1604197393561,
+	"last_scraped": 1604260165627,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 8,
-	"next_scrape": 1604238762242,
+	"next_scrape": 1604303143908,
 	"category": "clicker",
-	"last_update": 1604197393561,
+	"last_update": 1604260165627,
 	"output": [
 		{
 			"args": {},
-			"calls": 191781,
+			"calls": 224968,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"r. We",
@@ -148,6 +148,14 @@
 			]
 		}
 	],
-	"updt": 1604121123941,
-	"edit": 11
+	"updt": 1604260097951,
+	"edit": 13,
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
+		}
+	]
 }

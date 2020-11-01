@@ -1,12 +1,12 @@
 {
 	"_id": "anon_58df59.e",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_58df59.e",
 	"sector": "HJG_1875",
 	"sec_level": 4,
 	"date_added": 1600160316596,
-	"last_scraped": 1604197485196,
+	"last_scraped": 1604260600386,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 8,
-	"next_scrape": 1604242217106,
+	"next_scrape": 1604306386963,
 	"category": "clicker",
-	"last_update": 1604197485196,
+	"last_update": 1604260600386,
 	"output": [
 		{
 			"args": {},
-			"calls": 204448,
+			"calls": 232968,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"1 010",
@@ -48,7 +48,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 179621,
+			"calls": 193434,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"1 010",
@@ -468,6 +468,11 @@
 			]
 		}
 	],
-	"updt": 1604121710035,
-	"edit": 12
+	"updt": 1604199711681,
+	"edit": 13,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
