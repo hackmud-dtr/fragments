@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_ltjbcx.ipsum",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_ltjbcx.ipsum",
 	"sector": "NGC_6931",
 	"sec_level": 4,
 	"date_added": 1599274707688,
-	"last_scraped": 1604185191964,
+	"last_scraped": 1604250531351,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1604227433417,
+	"next_scrape": 1604293813742,
 	"category": "fishie_tank",
-	"last_update": 1604185191964,
+	"last_update": 1604250566793,
 	"output": [
 		{
 			"args": {},
-			"calls": 167635,
+			"calls": 184928,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ercia",
@@ -74,7 +74,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 14120,
+			"calls": 16438,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -184,8 +184,8 @@
 			]
 		}
 	],
-	"updt": 1604106654614,
-	"edit": 11,
+	"updt": 1604250525770,
+	"edit": 13,
 	"identified": [
 		{
 			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
@@ -210,6 +210,11 @@
 				"d commer",
 				"cial wri"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
