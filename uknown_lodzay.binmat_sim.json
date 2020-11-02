@@ -1,24 +1,24 @@
 {
 	"_id": "uknown_lodzay.binmat_sim",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "uknown_lodzay.binmat_sim",
 	"sector": "VNP_5602",
 	"sec_level": 4,
 	"date_added": 1602975145331,
-	"last_scraped": 1604195887352,
+	"last_scraped": 1604282561346,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1602975145331
 		}
 	],
-	"updt": 1604045690336,
-	"edit": 11,
+	"updt": 1604200689967,
+	"edit": 12,
 	"scrape_ct": 16,
-	"next_scrape": 1604284409226,
+	"next_scrape": 1604366276215,
 	"category": "risk_factor",
-	"last_update": 1604179684036,
+	"last_update": 1604282561346,
 	"output": [
 		{
 			"args": {},
@@ -38,7 +38,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 2323,
+			"calls": 2885,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"2142 ",
@@ -3379,9 +3379,6 @@
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"cannot_identify": true,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
