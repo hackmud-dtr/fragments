@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_7fbrt7.log",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abandoned_7fbrt7.log",
 	"sector": "SPC_6627",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1595153948103
+		},
+		{
+			"type": "died",
+			"when": 1604297686714
 		}
 	],
 	"next_scrape": 1604284486916,
@@ -107,8 +111,8 @@
 			]
 		}
 	],
-	"updt": 1604170975403,
-	"edit": 20,
+	"updt": 1604243682388,
+	"edit": 21,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -144,5 +148,6 @@
 				" deliver"
 			]
 		}
-	]
+	],
+	"dead_plant_sim": true
 }
