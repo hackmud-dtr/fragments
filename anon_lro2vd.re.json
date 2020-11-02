@@ -1,22 +1,22 @@
 {
 	"_id": "anon_lro2vd.re",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "anon_lro2vd.re",
 	"sector": "SPC_9704",
 	"sec_level": 4,
 	"date_added": 1600670723415,
-	"last_scraped": 1604192663446,
+	"last_scraped": 1604279208532,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1600670723415
 		}
 	],
-	"scrape_ct": 18,
-	"next_scrape": 1604273949099,
+	"scrape_ct": 14,
+	"next_scrape": 1604279268532,
 	"category": "risk_factor",
-	"last_update": 1604192645941,
+	"last_update": 1604279208532,
 	"output": [
 		{
 			"args": {},
@@ -37,7 +37,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 2332,
+			"calls": 3074,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"W ERR",
@@ -45,6 +45,7 @@
 				"ETW ER",
 				"| PROG",
 				"PROG ERR",
+				"ERROR |4",
 				" PROG ER",
 				" ERROR |",
 				" | NETW "
@@ -2777,14 +2778,11 @@
 			]
 		}
 	],
-	"updt": 1604116627177,
-	"edit": 8,
+	"updt": 1604199908607,
+	"edit": 9,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"cannot_identify": true,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
