@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_g8z39y.upg",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_g8z39y.upg",
 	"sector": "SPC_7494",
 	"sec_level": 4,
 	"date_added": 1595360042193,
-	"last_scraped": 1604290960052,
+	"last_scraped": 1604315746709,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,32 +14,36 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1604337746846,
+	"next_scrape": 1604359049711,
 	"category": "fishie_tank",
-	"last_update": 1604290960052,
+	"last_update": 1604315764823,
 	"output": [
 		{
 			"args": {},
-			"calls": 168420,
+			"calls": 202050,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"r 110 ",
+				"nder w",
+				"fender",
 				"er tur",
 				"B afte",
-				"seconds",
+				"s\\n208C",
 				"nds per",
 				"defende",
 				"208B af",
-				"08C the",
 				"\\n208B ",
 				" after ",
-				" 5 seco",
 				"the defe",
+				"seconds ",
 				"s per tu",
 				"fter 110",
+				"econds p",
 				"e defend",
 				"der wins",
+				"A 5 seco",
 				"8C the d",
+				"208C the",
 				"10 turns",
 				"\\n208C t",
 				" 110 tur",
@@ -65,7 +69,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 20157,
+			"calls": 21583,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -74,22 +78,26 @@
 			],
 			"fragments": [
 				"r 110 ",
+				"nder w",
+				"fender",
 				"er tur",
 				"B afte",
-				"seconds",
+				"s\\n208C",
 				"nds per",
 				"defende",
 				"208B af",
-				"08C the",
 				"\\n208B ",
 				" after ",
-				" 5 seco",
 				"the defe",
+				"seconds ",
 				"s per tu",
 				"fter 110",
+				"econds p",
 				"e defend",
 				"der wins",
+				"A 5 seco",
 				"8C the d",
+				"208C the",
 				"10 turns",
 				"\\n208C t",
 				" 110 tur",
@@ -160,8 +168,8 @@
 			]
 		}
 	],
-	"updt": 1604247395423,
-	"edit": 14,
+	"updt": 1604290981527,
+	"edit": 15,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -172,6 +180,11 @@
 				"urns\\n208",
 				"urn\\n208B"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
