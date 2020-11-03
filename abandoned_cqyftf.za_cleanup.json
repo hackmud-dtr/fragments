@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_cqyftf.za_cleanup",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abandoned_cqyftf.za_cleanup",
 	"sector": "HJG_4550",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1604347412319
+		},
+		{
+			"type": "died",
+			"when": 1604371854232
 		}
 	],
 	"scrape_ct": 17,
@@ -29,9 +33,35 @@
 				"going to",
 				"g to do ",
 				"about al"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"we goi",
+						"o about",
+						"ornograp",
+						"going to",
+						"g to do ",
+						"about al"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1604347462133,
-	"edit": 1
+	"updt": 1604347657124,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+			"frags": [
+				"we goi",
+				"o about",
+				"ornograp",
+				"going to",
+				"g to do ",
+				"about al"
+			]
+		}
+	]
 }
