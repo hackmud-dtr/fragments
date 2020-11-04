@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_i0axms.ma",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abndnd_i0axms.ma",
 	"sector": "NGC_5381",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1604461416833
+		},
+		{
+			"type": "died",
+			"when": 1604481436551
 		}
 	],
-	"updt": 1604461426135,
-	"edit": 1,
+	"updt": 1604461621895,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -57,5 +61,6 @@
 				"0X3A848D"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
