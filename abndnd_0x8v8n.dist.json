@@ -1,0 +1,78 @@
+{
+	"_id": "abndnd_0x8v8n.dist",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abndnd_0x8v8n.dist",
+	"sector": "SPC_6436",
+	"sec_level": 4,
+	"date_added": 1604550718056,
+	"last_scraped": 1604550808214,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1604550718056
+		}
+	],
+	"updt": 1604550720147,
+	"edit": 1,
+	"scrape_ct": 19,
+	"next_scrape": 1604550868214,
+	"category": "fishie_tank",
+	"last_update": 1604550808214,
+	"output": [
+		{
+			"args": {},
+			"calls": 4715,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"get t",
+				"n that ",
+				" I get ",
+				"your col",
+				"the impr",
+				"ence of ",
+				"e impres",
+				"body kno"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3285,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"get t",
+				"n that ",
+				" I get ",
+				"your col",
+				"the impr",
+				"ence of ",
+				"e impres",
+				"body kno"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 3940,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"get t",
+				"n that ",
+				" I get ",
+				"your col",
+				"the impr",
+				"ence of ",
+				"e impres",
+				"body kno"
+			]
+		}
+	]
+}
