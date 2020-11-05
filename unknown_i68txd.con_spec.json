@@ -1,20 +1,28 @@
 {
 	"_id": "unknown_i68txd.con_spec",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unknown_i68txd.con_spec",
 	"sector": "VNP_1801",
 	"sec_level": 4,
 	"date_added": 1604597069679,
-	"last_scraped": 1604597160919,
+	"last_scraped": 1604597252208,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1604597069679
+		},
+		{
+			"type": "died",
+			"when": 1604597252208
+		},
+		{
+			"type": "died",
+			"when": 1604597329326
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1604597220919,
+	"next_scrape": 1604678305388,
 	"category": "fishie_tank",
 	"last_update": 1604597160919,
 	"output": [
@@ -598,5 +606,8 @@
 				"FILE0X"
 			]
 		}
-	]
+	],
+	"updt": 1604597227168,
+	"edit": 1,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_i68txd.con_spec: script doesn't exist\"}"
 }

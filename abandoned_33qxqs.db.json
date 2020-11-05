@@ -1,0 +1,66 @@
+{
+	"_id": "abandoned_33qxqs.db",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abandoned_33qxqs.db",
+	"sector": "VNP_1801",
+	"sec_level": 4,
+	"date_added": 1604597832590,
+	"last_scraped": 1604597868314,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1604597832590
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1604597928314,
+	"category": "fishie_tank",
+	"last_update": 1604597922944,
+	"output": [
+		{
+			"args": {},
+			"calls": 15347,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"do no",
+				" our ",
+				"ve AN A",
+				"AN APPR",
+				" have A",
+				"Y 'EXCIT",
+				"XCITING'",
+				"PRIATELY",
+				"IATELY '"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3012,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"do no",
+				" our ",
+				"ve AN A",
+				"AN APPR",
+				" have A",
+				"Y 'EXCIT",
+				"XCITING'",
+				"PRIATELY",
+				"IATELY '"
+			]
+		}
+	]
+}
