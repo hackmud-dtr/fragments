@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_b5rwk4.sys",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anonymous_b5rwk4.sys",
 	"sector": "HJG_4550",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1604344296883
+		},
+		{
+			"type": "died",
+			"when": 1604655834239
 		}
 	],
-	"updt": 1604344337256,
-	"edit": 1,
+	"updt": 1604655839623,
+	"edit": 3,
 	"retry_args": [
 		{
 			"CLICK": true
@@ -38,6 +42,21 @@
 				"R | PROG",
 				"ERROR | ",
 				"| PROG E"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"G ERR",
+						"OR | P",
+						"ROR | N",
+						"OR | NE",
+						"RROR | T",
+						"R | PROG",
+						"ERROR | ",
+						"| PROG E"
+					]
+				}
 			]
 		},
 		{
@@ -47,6 +66,36 @@
 			"calls": 12129,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
+				"G ERR",
+				"OR | P",
+				"ROR | N",
+				"OR | NE",
+				"RROR | T",
+				"R | PROG",
+				"ERROR | ",
+				"| PROG E"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"G ERR",
+						"OR | P",
+						"ROR | N",
+						"OR | NE",
+						"RROR | T",
+						"R | PROG",
+						"ERROR | ",
+						"| PROG E"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
 				"G ERR",
 				"OR | P",
 				"ROR | N",

@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_b5rwk4.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anonymous_b5rwk4.bot_scam_do_not_run",
 	"sector": "VNP_1801",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1604635267315
+		},
+		{
+			"type": "died",
+			"when": 1604655779462
 		}
 	],
 	"scrape_ct": 17,
@@ -588,11 +592,12 @@
 			]
 		}
 	],
-	"updt": 1604635318383,
-	"edit": 1,
+	"updt": 1604635513786,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"cannot_identify": true
 }
