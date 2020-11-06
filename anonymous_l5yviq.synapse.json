@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_l5yviq.synapse",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "anonymous_l5yviq.synapse",
 	"sector": "VNP_0361",
 	"sec_level": 4,
 	"date_added": 1604680357148,
-	"last_scraped": 1604680447590,
+	"last_scraped": 1604682130478,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1604759768703,
+	"next_scrape": 1604762913401,
 	"category": "risk_factor",
-	"last_update": 1604680430496,
+	"last_update": 1604682130478,
 	"output": [
 		{
 			"args": {},
@@ -45,9 +45,10 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 161,
+			"calls": 533,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
+				"5",
 				"easie",
 				"rt in ",
 				"pulati",
@@ -478,11 +479,10 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1604680475571,
+	"edit": 1
 }
