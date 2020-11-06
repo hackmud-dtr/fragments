@@ -1,0 +1,87 @@
+{
+	"_id": "unidentified_timqzz.conspectest",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "unidentified_timqzz.conspectest",
+	"sector": "VNP_1801",
+	"sec_level": 4,
+	"date_added": 1604626052741,
+	"last_scraped": 1604626163715,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1604626052741
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1604626223715,
+	"category": "fishie_tank",
+	"last_update": 1604626163715,
+	"output": [
+		{
+			"args": {},
+			"calls": 11100,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"Y The ",
+				"stion ",
+				"g to l",
+				"fice, ",
+				"ecessi",
+				" sacri",
+				" Neces",
+				" count",
+				"ver ent",
+				"going t",
+				"essity |"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1238,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"Y The ",
+				"stion ",
+				"g to l",
+				"fice, ",
+				"ecessi",
+				" sacri",
+				" Neces",
+				" count",
+				"ver ent",
+				"going t",
+				"essity |"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 22950,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"Y The ",
+				"stion ",
+				"g to l",
+				"fice, ",
+				"ecessi",
+				" sacri",
+				" Neces",
+				" count",
+				"ver ent",
+				"going t",
+				"essity |"
+			]
+		}
+	],
+	"updt": 1604626145201,
+	"edit": 1
+}
