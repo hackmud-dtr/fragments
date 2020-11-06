@@ -1,0 +1,115 @@
+{
+	"_id": "unidentified_0y7bgb.levels",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "unidentified_0y7bgb.levels",
+	"sector": "VNP_0361",
+	"sec_level": 4,
+	"date_added": 1604684053973,
+	"last_scraped": 1604684251441,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1604684053973
+		}
+	],
+	"scrape_ct": 15,
+	"next_scrape": 1604684311441,
+	"category": "fishie_tank",
+	"last_update": 1604684306357,
+	"output": [
+		{
+			"args": {},
+			"calls": 29857,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"Therefo",
+				"person\\n",
+				"are the ",
+				"n\\n1E49 i"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"Therefo",
+						"person\\n",
+						"are the ",
+						"n\\n1E49 i"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4450,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"Therefo",
+				"person\\n",
+				"are the ",
+				"n\\n1E49 i"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"Therefo",
+						"person\\n",
+						"are the ",
+						"n\\n1E49 i"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 26398,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"Therefo",
+				"person\\n",
+				"are the ",
+				"n\\n1E49 i"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"Therefo",
+						"person\\n",
+						"are the ",
+						"n\\n1E49 i"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"Therefo",
+				"person\\n",
+				"are the ",
+				"n\\n1E49 i"
+			]
+		}
+	],
+	"updt": 1604684187574,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
