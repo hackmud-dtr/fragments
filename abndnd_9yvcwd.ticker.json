@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_9yvcwd.ticker",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abndnd_9yvcwd.ticker",
 	"sector": "VNP_1801",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1604632963015
+		},
+		{
+			"type": "died",
+			"when": 1604633218836
 		}
 	],
-	"updt": 1604632976824,
-	"edit": 1,
+	"updt": 1604633171553,
+	"edit": 2,
 	"scrape_ct": 16,
 	"next_scrape": 1604633222279,
 	"category": "fishie_tank",
@@ -173,9 +177,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
