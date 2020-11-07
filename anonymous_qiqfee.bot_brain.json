@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_qiqfee.bot_brain",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anonymous_qiqfee.bot_brain",
 	"sector": "NGC_1019",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1604513579279
+		},
+		{
+			"type": "died",
+			"when": 1604768641719
 		}
 	],
-	"updt": 1604513596297,
-	"edit": 1,
+	"updt": 1604513791680,
+	"edit": 2,
 	"scrape_ct": 16,
 	"next_scrape": 1604513729466,
 	"category": "risk_factor",
@@ -449,5 +453,6 @@
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"cannot_identify": true
 }
