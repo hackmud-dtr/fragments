@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_efrwuf.cron",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abndnd_efrwuf.cron",
 	"sector": "VNP_7342",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1598046504923
+		},
+		{
+			"type": "died",
+			"when": 1604804575822
 		}
 	],
 	"next_scrape": 1604310808697,
@@ -101,6 +105,7 @@
 			]
 		}
 	],
-	"updt": 1604216516629,
-	"edit": 26
+	"updt": 1604270850898,
+	"edit": 27,
+	"dead_plant_sim": true
 }
