@@ -1,0 +1,72 @@
+{
+	"_id": "unknown_ev1p4k.ad",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "unknown_ev1p4k.ad",
+	"sector": "K_0449",
+	"sec_level": 4,
+	"date_added": 1604947151163,
+	"last_scraped": 1604947242542,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1604947151163
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1604947302542,
+	"category": "fishie_tank",
+	"last_update": 1604947242542,
+	"output": [
+		{
+			"args": {},
+			"calls": 24400,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"arms\\n2",
+				"8 Give ",
+				"1D8 Giv",
+				"\\n21D9 ",
+				" arms\\n",
+				"y\\n21D8 "
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2732,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"arms\\n2",
+				"8 Give ",
+				"1D8 Giv",
+				"\\n21D9 ",
+				" arms\\n",
+				"y\\n21D8 "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 8680,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"arms\\n2",
+				"8 Give ",
+				"1D8 Giv",
+				"\\n21D9 ",
+				" arms\\n",
+				"y\\n21D8 "
+			]
+		}
+	],
+	"updt": 1604947211282,
+	"edit": 1
+}
