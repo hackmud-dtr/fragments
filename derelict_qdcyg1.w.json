@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_qdcyg1.w",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "derelict_qdcyg1.w",
 	"sector": "K_0449",
 	"sec_level": 4,
 	"date_added": 1604959477405,
-	"last_scraped": 1604959513985,
+	"last_scraped": 1604959550764,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,21 +15,39 @@
 	],
 	"retry_args": [
 		{
-			"do": "feed"
-		},
-		{
 			"do": "clean"
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1604959573985,
+	"scrape_ct": 17,
+	"next_scrape": 1604959610764,
 	"category": "fishie_tank",
-	"last_update": 1604959495966,
+	"last_update": 1604959569616,
 	"output": [
 		{
 			"args": {},
-			"calls": 4193,
+			"calls": 28722,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" 0100",
+				"000 01",
+				"000 000",
+				"00 0000 ",
+				" 0000 00",
+				"00\\n0000 ",
+				" 0000\\n00"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1314,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
 			"fragments": [
 				" 0100",
 				"000 01",
