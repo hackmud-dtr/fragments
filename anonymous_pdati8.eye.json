@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_pdati8.eye",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "anonymous_pdati8.eye",
-	"sector": "NGC_0729",
+	"sector": "K_0449",
 	"sec_level": 4,
 	"date_added": 1601767611495,
-	"last_scraped": 1605003367650,
+	"last_scraped": 1605003765703,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1605003622774
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1605003747932,
+				"from": "K_0449",
+				"to": "NGC_0729"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"`cUSAGE: anonymous_pdati8.eye {t:#s.sys.loc,a:{args},c:decolor?}`\"}",
-	"next_scrape": 1605095916982,
-	"updt": 1605003482083,
-	"edit": 2627
+	"next_scrape": 1605088777050,
+	"updt": 1605003678041,
+	"edit": 2628
 }
