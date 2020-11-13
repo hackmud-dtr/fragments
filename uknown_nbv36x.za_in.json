@@ -1,0 +1,70 @@
+{
+	"_id": "uknown_nbv36x.za_in",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "uknown_nbv36x.za_in",
+	"sector": "K_4401",
+	"sec_level": 4,
+	"date_added": 1605310974651,
+	"last_scraped": 1605311065010,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1605310974651
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1605311125010,
+	"category": "fishie_tank",
+	"last_update": 1605311065010,
+	"output": [
+		{
+			"args": {},
+			"calls": 22917,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"nal st",
+				" this ",
+				"n on th",
+				"power in",
+				"crease. ",
+				" strain "
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1029,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"nal st",
+				" this ",
+				"n on th",
+				"power in",
+				"crease. ",
+				" strain "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 16885,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"nal st",
+				" this ",
+				"n on th",
+				"power in",
+				"crease. ",
+				" strain "
+			]
+		}
+	]
+}
