@@ -1,0 +1,44 @@
+{
+	"_id": "derelict_utm0m2.opsec",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "derelict_utm0m2.opsec",
+	"sector": "VNP_2370",
+	"sec_level": 4,
+	"date_added": 1605498220585,
+	"last_scraped": 1605498236974,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1605498220585
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1605498296974,
+	"category": "fishie_tank",
+	"last_update": 1605498236974,
+	"output": [
+		{
+			"args": {},
+			"calls": 10063,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ams. ",
+				"ul neg",
+				"hen mu",
+				"negotia",
+				"nction ",
+				" stream",
+				" remembe"
+			]
+		}
+	]
+}
