@@ -1,0 +1,124 @@
+{
+	"_id": "abndnd_itcsao.t1_cracker",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abndnd_itcsao.t1_cracker",
+	"sector": "VNP_2692",
+	"sec_level": 4,
+	"date_added": 1605647862425,
+	"last_scraped": 1605648116314,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1605647862425
+		}
+	],
+	"scrape_ct": 14,
+	"next_scrape": 1605648176314,
+	"category": "fishie_tank",
+	"last_update": 1605648116314,
+	"output": [
+		{
+			"args": {},
+			"calls": 24718,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"R | PR",
+				"breton",
+				" USER ",
+				" PROG ",
+				"RROR | U",
+				"ERROR | "
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"R | PR",
+						"breton",
+						" USER ",
+						" PROG ",
+						"RROR | U",
+						"ERROR | "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3875,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"R | PR",
+				"breton",
+				" USER ",
+				" PROG ",
+				"RROR | U",
+				"ERROR | "
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"R | PR",
+						"breton",
+						" USER ",
+						" PROG ",
+						"RROR | U",
+						"ERROR | "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 54840,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"R | PR",
+				"breton",
+				" USER ",
+				" PROG ",
+				"RROR | U",
+				"ERROR | "
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"R | PR",
+						"breton",
+						" USER ",
+						" PROG ",
+						"RROR | U",
+						"ERROR | "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"R | PR",
+				"breton",
+				" USER ",
+				" PROG ",
+				"RROR | U",
+				"ERROR | "
+			]
+		}
+	],
+	"updt": 1605647972084,
+	"edit": 1
+}

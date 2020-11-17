@@ -1,0 +1,66 @@
+{
+	"_id": "abndnd_6gfmd4.t2solver",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abndnd_6gfmd4.t2solver",
+	"sector": "VNP_2692",
+	"sec_level": 4,
+	"date_added": 1605648116314,
+	"last_scraped": 1605648133222,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1605648116314
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1605648193222,
+	"category": "fishie_tank",
+	"last_update": 1605648153636,
+	"output": [
+		{
+			"args": {},
+			"calls": 10918,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"d dat",
+				". cha",
+				" to be",
+				"ted imm",
+				"nge to ",
+				"lemente",
+				"mmediate",
+				"mediatel",
+				"data. ch"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1250,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"d dat",
+				". cha",
+				" to be",
+				"ted imm",
+				"nge to ",
+				"lemente",
+				"mmediate",
+				"mediatel",
+				"data. ch"
+			]
+		}
+	]
+}
