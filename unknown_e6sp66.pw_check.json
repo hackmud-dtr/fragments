@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_e6sp66.pw_check",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unknown_e6sp66.pw_check",
 	"sector": "HJG_5726",
 	"sec_level": 4,
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "feed"
-		},
-		{
 			"do": "clean"
 		}
 	],
 	"scrape_ct": 18,
 	"next_scrape": 1605714082890,
 	"category": "fishie_tank",
-	"last_update": 1605714022890,
+	"last_update": 1605714059407,
 	"output": [
 		{
 			"args": {},
@@ -39,6 +36,29 @@
 				"aria ha",
 				"r indivi"
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2423,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"n con",
+				"ised ",
+				"idual",
+				"to ove",
+				"o be s",
+				"aria ha",
+				"r indivi"
+			]
 		}
-	]
+	],
+	"updt": 1605714033602,
+	"edit": 1
 }
