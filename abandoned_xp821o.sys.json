@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_xp821o.sys",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abandoned_xp821o.sys",
 	"sector": "K_7911",
 	"sec_level": 0,
@@ -19,10 +19,14 @@
 				"from": "K_7911",
 				"to": "NGC_9277"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1605865184481
+		}
 	],
-	"updt": 1605461516271,
-	"edit": 3779,
+	"updt": 1605462881902,
+	"edit": 3780,
 	"pl_output": "{\"msg\":\"This is a whitelist only script.\",\"ok\":false}",
 	"next_scrape": 1605544890328
 }

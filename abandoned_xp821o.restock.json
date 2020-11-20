@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_xp821o.restock",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abandoned_xp821o.restock",
 	"sector": "HJG_3101",
 	"sec_level": 1,
@@ -19,10 +19,14 @@
 				"from": "HJG_3101",
 				"to": "HJG_7984"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1605865364802
+		}
 	],
 	"pl_output": "invalid balance",
 	"next_scrape": 1604848962415,
-	"updt": 1604758437714,
-	"edit": 1822
+	"updt": 1604758630983,
+	"edit": 1823
 }
