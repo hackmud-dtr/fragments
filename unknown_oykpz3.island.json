@@ -1,0 +1,60 @@
+{
+	"_id": "unknown_oykpz3.island",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "unknown_oykpz3.island",
+	"sector": "NGC_4506",
+	"sec_level": 4,
+	"date_added": 1605893875039,
+	"last_scraped": 1605893892510,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1605893875039
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1605893952510,
+	"category": "fishie_tank",
+	"last_update": 1605893964916,
+	"output": [
+		{
+			"args": {},
+			"calls": 10140,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ot sur",
+				"a. I'v",
+				"ot thou",
+				"a copy.",
+				" Ha. I'",
+				"I'm not "
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4718,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ot sur",
+				"a. I'v",
+				"ot thou",
+				"a copy.",
+				" Ha. I'",
+				"I'm not "
+			]
+		}
+	]
+}
