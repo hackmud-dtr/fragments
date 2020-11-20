@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_ai6ugw.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "uknown_ai6ugw.bot_scam_do_not_run",
 	"sector": "VNP_2692",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1605585414436
+		},
+		{
+			"type": "died",
+			"when": 1605882560336
 		}
 	],
-	"updt": 1605585430820,
-	"edit": 1,
+	"updt": 1605585626762,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -57,5 +61,6 @@
 				"_FILE0X2"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
