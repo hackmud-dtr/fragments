@@ -1,0 +1,143 @@
+{
+	"_id": "anon_r0f8nz.bootup",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anon_r0f8nz.bootup",
+	"sector": "VNP_8582",
+	"sec_level": 4,
+	"date_added": 1606039466898,
+	"last_scraped": 1606039648624,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1606039466898
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1606039708624,
+	"category": "fishie_tank",
+	"last_update": 1606039684579,
+	"output": [
+		{
+			"args": {},
+			"calls": 33768,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"pract",
+				"ook. #",
+				"matter",
+				"tter ri",
+				"It's go",
+				"e. ## d",
+				"ight now",
+				" good pr"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"pract",
+						"ook. #",
+						"matter",
+						"tter ri",
+						"It's go",
+						"e. ## d",
+						"ight now",
+						" good pr"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3643,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"pract",
+				"ook. #",
+				"matter",
+				"tter ri",
+				"It's go",
+				"e. ## d",
+				"ight now",
+				" good pr"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"pract",
+						"ook. #",
+						"matter",
+						"tter ri",
+						"It's go",
+						"e. ## d",
+						"ight now",
+						" good pr"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 10621,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"pract",
+				"ook. #",
+				"matter",
+				"tter ri",
+				"It's go",
+				"e. ## d",
+				"ight now",
+				" good pr"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"pract",
+						"ook. #",
+						"matter",
+						"tter ri",
+						"It's go",
+						"e. ## d",
+						"ight now",
+						" good pr"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"pract",
+				"ook. #",
+				"matter",
+				"tter ri",
+				"It's go",
+				"e. ## d",
+				"ight now",
+				" good pr"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"updt": 1606039635291,
+	"edit": 1
+}
