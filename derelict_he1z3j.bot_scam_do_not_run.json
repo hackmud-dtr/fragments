@@ -1,31 +1,26 @@
 {
 	"_id": "derelict_he1z3j.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "derelict_he1z3j.bot_scam_do_not_run",
 	"sector": "VNP_7395",
 	"sec_level": 4,
 	"date_added": 1606133783908,
-	"last_scraped": 1606133801881,
+	"last_scraped": 1606134004475,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1606133783908
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1606133861881,
+	"scrape_ct": 17,
+	"next_scrape": 1606134064475,
 	"category": "fishie_tank",
-	"last_update": 1606133821315,
+	"last_update": 1606134004475,
 	"output": [
 		{
 			"args": {},
-			"calls": 10635,
+			"calls": 15586,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"he cr",
@@ -35,13 +30,27 @@
 				"ll fun",
 				"ill fu",
 				" funct"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"he cr",
+						"ess w",
+						"5. ##",
+						" crea",
+						"ll fun",
+						"ill fu",
+						" funct"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1464,
+			"calls": 4570,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -49,6 +58,66 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"he cr",
+				"ess w",
+				"5. ##",
+				" crea",
+				"ll fun",
+				"ill fu",
+				" funct"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"he cr",
+						"ess w",
+						"5. ##",
+						" crea",
+						"ll fun",
+						"ill fu",
+						" funct"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 16329,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"he cr",
+				"ess w",
+				"5. ##",
+				" crea",
+				"ll fun",
+				"ill fu",
+				" funct"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+					"frags": [
+						"he cr",
+						"ess w",
+						"5. ##",
+						" crea",
+						"ll fun",
+						"ill fu",
+						" funct"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1606133833540,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0XE7_CLST0X7B_SECT0X8CA8_FILE0X5C879769",
+			"frags": [
 				"he cr",
 				"ess w",
 				"5. ##",
