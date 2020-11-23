@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_atmsof.blib",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abndnd_atmsof.blib",
 	"sector": "NGC_4506",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1605827000768
+		},
+		{
+			"type": "died",
+			"when": 1606117439919
 		}
 	],
-	"updt": 1605827011134,
-	"edit": 1,
+	"updt": 1605827206175,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -44,5 +48,6 @@
 				"'t have"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
