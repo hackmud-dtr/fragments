@@ -1,0 +1,136 @@
+{
+	"_id": "uknown_apjoka.big_red_button",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "uknown_apjoka.big_red_button",
+	"sector": "VNP_7395",
+	"sec_level": 4,
+	"date_added": 1606165124338,
+	"last_scraped": 1606166047702,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1606165124338
+		}
+	],
+	"scrape_ct": 5,
+	"next_scrape": 1606166107702,
+	"category": "fishie_tank",
+	"last_update": 1606166066922,
+	"output": [
+		{
+			"args": {},
+			"calls": 90260,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"y:\\n20",
+				"may:\\n",
+				"09D pl",
+				"eck, or",
+				"draw a ",
+				":\\n209C",
+				"play a c"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"y:\\n20",
+						"may:\\n",
+						"09D pl",
+						"eck, or",
+						"draw a ",
+						":\\n209C",
+						"play a c"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 10762,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"y:\\n20",
+				"may:\\n",
+				"09D pl",
+				"eck, or",
+				"draw a ",
+				":\\n209C",
+				"play a c"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"y:\\n20",
+						"may:\\n",
+						"09D pl",
+						"eck, or",
+						"draw a ",
+						":\\n209C",
+						"play a c"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 83651,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"y:\\n20",
+				"may:\\n",
+				"09D pl",
+				"eck, or",
+				"draw a ",
+				":\\n209C",
+				"play a c"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"y:\\n20",
+						"may:\\n",
+						"09D pl",
+						"eck, or",
+						"draw a ",
+						":\\n209C",
+						"play a c"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"y:\\n20",
+				"may:\\n",
+				"09D pl",
+				"eck, or",
+				"draw a ",
+				":\\n209C",
+				"play a c"
+			]
+		}
+	],
+	"updt": 1606165693591,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
