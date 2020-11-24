@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_y5518s.rainbow",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "derelict_y5518s.rainbow",
 	"sector": "VNP_5719",
 	"sec_level": 4,
@@ -19,12 +19,16 @@
 				"from": "VNP_5719",
 				"to": "K_1556"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1606207201549
+		}
 	],
 	"pl_output": "\n`DHello!` Welcome to my chat script: it makes your text rainbow colored. \n\nTo change `Vchannels` use `Caargon``2.rainbow`{`Nmsg:``V\"\"`, `Nchannel:``V\"[new channel]\"`} \nTo send messages to the cur channel (default `Vtown`), use `Caargon``2.rainbow`{Nmsg:``V\"[msg]\"`}\n\nI recommend the following macros:\n/rc = `Caargon``2.rainbow`{{ Nmsg:``V\"{$}\"` }}\n/cc = `Caargon``2.rainbow`{{ `Nmsg:``V\"\"`, `Nchannel:``V\"{0}\"` }}",
 	"next_scrape": 1604345250193,
-	"updt": 1604299385377,
-	"edit": 3800,
+	"updt": 1604299581954,
+	"edit": 3801,
 	"scrape_ct": 16,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1604299407429,
