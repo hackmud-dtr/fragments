@@ -1,19 +1,27 @@
 {
 	"_id": "uknown_96tilt.corrupt",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "uknown_96tilt.corrupt",
 	"sector": "VNP_7395",
 	"sec_level": 4,
 	"date_added": 1606160907658,
-	"last_scraped": 1606180683460,
+	"last_scraped": 1606182206830,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1606160907658
+		},
+		{
+			"type": "died",
+			"when": 1606182206830
+		},
+		{
+			"type": "died",
+			"when": 1606182260980
 		}
 	],
-	"next_scrape": 1606226988632,
+	"next_scrape": 1606262508649,
 	"category": "plant_sim",
 	"last_update": 1606180683460,
 	"output": [
@@ -130,6 +138,8 @@
 			]
 		}
 	],
-	"updt": 1606178784194,
-	"edit": 14
+	"updt": 1606180738704,
+	"edit": 15,
+	"dead_plant_sim": true,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_96tilt.corrupt: script doesn't exist\"}"
 }

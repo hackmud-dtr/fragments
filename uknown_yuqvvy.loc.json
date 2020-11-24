@@ -1,19 +1,27 @@
 {
 	"_id": "uknown_yuqvvy.loc",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "uknown_yuqvvy.loc",
 	"sector": "VNP_7395",
 	"sec_level": 4,
 	"date_added": 1606155658421,
-	"last_scraped": 1606180194845,
+	"last_scraped": 1606181952220,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1606155658421
+		},
+		{
+			"type": "died",
+			"when": 1606181952220
+		},
+		{
+			"type": "died",
+			"when": 1606181990083
 		}
 	],
-	"next_scrape": 1606225194412,
+	"next_scrape": 1606275340163,
 	"category": "plant_sim",
 	"last_update": 1606180194845,
 	"output": [
@@ -116,6 +124,7 @@
 			]
 		}
 	],
-	"updt": 1606178393601,
-	"edit": 19
+	"updt": 1606180348268,
+	"edit": 20,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_yuqvvy.loc: script doesn't exist\"}"
 }
