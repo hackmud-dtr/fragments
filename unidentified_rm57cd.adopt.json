@@ -1,0 +1,129 @@
+{
+	"_id": "unidentified_rm57cd.adopt",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unidentified_rm57cd.adopt",
+	"sector": "NGC_9714",
+	"sec_level": 4,
+	"date_added": 1606327675355,
+	"last_scraped": 1606327857871,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1606327675355
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1606327917871,
+	"category": "fishie_tank",
+	"last_update": 1606327873444,
+	"output": [
+		{
+			"args": {},
+			"calls": 27830,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"2BC7D",
+				"X7A_SE",
+				"27_FIL",
+				"BF_CLST0",
+				"1D7 I al",
+				"_FILE0X2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"2BC7D",
+						"X7A_SE",
+						"27_FIL",
+						"BF_CLST0",
+						"1D7 I al",
+						"_FILE0X2"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2282,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"2BC7D",
+				"X7A_SE",
+				"27_FIL",
+				"BF_CLST0",
+				"1D7 I al",
+				"_FILE0X2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"2BC7D",
+						"X7A_SE",
+						"27_FIL",
+						"BF_CLST0",
+						"1D7 I al",
+						"_FILE0X2"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 28428,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"2BC7D",
+				"X7A_SE",
+				"27_FIL",
+				"BF_CLST0",
+				"1D7 I al",
+				"_FILE0X2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"2BC7D",
+						"X7A_SE",
+						"27_FIL",
+						"BF_CLST0",
+						"1D7 I al",
+						"_FILE0X2"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1606327699172,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"2BC7D",
+				"X7A_SE",
+				"27_FIL",
+				"BF_CLST0",
+				"1D7 I al",
+				"_FILE0X2"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
