@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_ka0raw.allsec",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anonymous_ka0raw.allsec",
 	"sector": "HJG_7602",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1600076096161
+		},
+		{
+			"type": "died",
+			"when": 1606454656710
 		}
 	],
 	"next_scrape": 1604385559647,
@@ -95,6 +99,7 @@
 			]
 		}
 	],
-	"updt": 1604343555277,
-	"edit": 34
+	"updt": 1604343751261,
+	"edit": 35,
+	"dead_plant_sim": true
 }
