@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_kkopq6.t2_weyland",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abndnd_kkopq6.t2_weyland",
 	"sector": "NGC_6053",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1606470200001
+		},
+		{
+			"type": "died",
+			"when": 1606472579120
 		}
 	],
 	"retry_args": [
@@ -31,6 +35,40 @@
 			"calls": 21290,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"G ERR",
+				"ROG ER",
+				"R | PRO",
+				"ERROR |",
+				"NETW ERR",
+				"| PROG E",
+				" NETW ER",
+				" | PROG ",
+				" | NETW "
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"G ERR",
+						"ROG ER",
+						"R | PRO",
+						"ERROR |",
+						"NETW ERR",
+						"| PROG E",
+						" NETW ER",
+						" | PROG ",
+						" | NETW "
+					]
+				}
+			]
+		}
+	],
+	"updt": 1606470391121,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
 				"G ERR",
 				"ROG ER",
 				"R | PRO",
