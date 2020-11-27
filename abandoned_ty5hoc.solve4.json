@@ -3,18 +3,26 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "abandoned_ty5hoc.solve4",
-	"sector": "K_7911",
+	"sector": "SPC_8173",
 	"sec_level": 0,
 	"date_added": 1602062149416,
-	"last_scraped": 1605635044850,
+	"last_scraped": 1606474790496,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1602062149416
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1606474773857,
+				"from": "SPC_8173",
+				"to": "K_7911"
+			}
+		]
 	],
-	"pl_output": "\n\n  `B[  65] [   INFO] [            main] Logging filter set to: INFO`\n  `J[  65] [   WARN] [            main] CON_SPEC wolf solver not enabled. Pass a scriptor of myself as 'self' to enable`\n  `B[  65] [   INFO] [            main] Loading solve4_core modules`\n  `B[  74] [   INFO] [            main] Loading solve4_experimental modules`\n  `B[  75] [   INFO] [            main] Modules registered successfully`\n  `D[  75] [  ERROR] [            main] No target specified in arguments though - quitting!`",
-	"next_scrape": 1605717433516,
-	"updt": 1605633507512,
-	"edit": 826
+	"pl_output": "lib.oo.ify is not a function",
+	"next_scrape": 1606566202328,
+	"updt": 1605635068979,
+	"edit": 827
 }
