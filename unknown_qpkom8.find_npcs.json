@@ -3,18 +3,26 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "unknown_qpkom8.find_npcs",
-	"sector": "NGC_0022",
+	"sector": "K_9272",
 	"sec_level": 4,
 	"date_added": 1603285468352,
-	"last_scraped": 1606536474865,
+	"last_scraped": 1606536620507,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603285468352
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1606536601456,
+				"from": "K_9272",
+				"to": "NGC_0022"
+			}
+		]
 	],
-	"updt": 1606535498147,
-	"edit": 1310,
+	"updt": 1606536475331,
+	"edit": 1311,
 	"pl_output": "{\"ok\":false,\"msg\":\"Usage: marhja.find_npcs { target:#s.name.public }\"}",
-	"next_scrape": 1606619367719
+	"next_scrape": 1606616144518
 }
