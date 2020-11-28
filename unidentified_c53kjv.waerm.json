@@ -1,16 +1,57 @@
 {
 	"_id": "unidentified_c53kjv.waerm",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "skip",
 	"script": "unidentified_c53kjv.waerm",
 	"sector": "K_9272",
 	"sec_level": 4,
 	"date_added": 1606589031035,
-	"last_scraped": 0,
+	"last_scraped": 1606589122276,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1606589031035
+		}
+	],
+	"updt": 1606589039672,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1606674215647,
+	"category": "risk_factor",
+	"last_update": 1606589122276,
+	"output": [
+		{
+			"args": {},
+			"calls": 2137,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"111 11",
+				"000 00",
+				" 0000 ",
+				"1 0111 ",
+				"00 0000",
+				"1 1111 0"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 324,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"111 11",
+				"000 00",
+				" 0000 ",
+				"1 0111 ",
+				"00 0000",
+				"1 1111 0"
+			]
 		}
 	]
 }
