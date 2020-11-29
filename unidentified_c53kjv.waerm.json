@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_c53kjv.waerm",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unidentified_c53kjv.waerm",
 	"sector": "K_9272",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1606589031035
+		},
+		{
+			"type": "died",
+			"when": 1606615362633
 		}
 	],
-	"updt": 1606589039672,
-	"edit": 1,
+	"updt": 1606589235764,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -53,5 +57,6 @@
 				"1 1111 0"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
