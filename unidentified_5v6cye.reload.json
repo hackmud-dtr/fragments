@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_5v6cye.reload",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "unidentified_5v6cye.reload",
 	"sector": "K_9272",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1606678675048
+		},
+		{
+			"type": "died",
+			"when": 1606701028865
 		}
 	],
 	"retry_args": [
@@ -76,6 +80,7 @@
 			]
 		}
 	],
-	"updt": 1606678722903,
-	"edit": 1
+	"updt": 1606678917853,
+	"edit": 2,
+	"cannot_identify": true
 }
