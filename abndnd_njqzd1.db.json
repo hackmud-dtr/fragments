@@ -1,19 +1,23 @@
 {
 	"_id": "abndnd_njqzd1.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "player",
 	"script": "abndnd_njqzd1.db",
 	"sector": "VNP_4987",
 	"sec_level": 4,
 	"date_added": 1606728825055,
-	"last_scraped": 1606748417415,
+	"last_scraped": 1606750030978,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1606728825055
+		},
+		{
+			"type": "died",
+			"when": 1606750030978
 		}
 	],
-	"next_scrape": 1606788678841,
+	"next_scrape": 1606838678105,
 	"category": "plant_sim",
 	"last_update": 1606748417415,
 	"output": [
@@ -120,6 +124,7 @@
 			]
 		}
 	],
-	"updt": 1606747111399,
-	"edit": 10
+	"updt": 1606748477394,
+	"edit": 11,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_njqzd1.db: script doesn't exist\"}"
 }
