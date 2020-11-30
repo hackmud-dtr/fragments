@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_by1dnz.ck",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unidentified_by1dnz.ck",
 	"sector": "NGC_6053",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1606463872299
+		},
+		{
+			"type": "died",
+			"when": 1606746277675
 		}
 	],
 	"retry_args": [
@@ -41,6 +45,26 @@
 				"LE0XE2A",
 				"F4_CLST",
 				"DD4\\nSYS"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"T0XF4",
+						"SYST ",
+						"A8BDD",
+						"0X7BE",
+						" USER",
+						"RROR |",
+						"OR | P",
+						"NETW E",
+						"R | USE",
+						"R | NET",
+						"LE0XE2A",
+						"F4_CLST",
+						"DD4\\nSYS"
+					]
+				}
 			]
 		},
 		{
@@ -63,9 +87,49 @@
 				"LE0XE2A",
 				"F4_CLST",
 				"DD4\\nSYS"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"T0XF4",
+						"SYST ",
+						"A8BDD",
+						"0X7BE",
+						" USER",
+						"RROR |",
+						"OR | P",
+						"NETW E",
+						"R | USE",
+						"R | NET",
+						"LE0XE2A",
+						"F4_CLST",
+						"DD4\\nSYS"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1606463943992,
-	"edit": 1
+	"updt": 1606746330085,
+	"edit": 3,
+	"identified": [
+		{
+			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+			"frags": [
+				"T0XF4",
+				"SYST ",
+				"A8BDD",
+				"0X7BE",
+				" USER",
+				"RROR |",
+				"OR | P",
+				"NETW E",
+				"R | USE",
+				"R | NET",
+				"LE0XE2A",
+				"F4_CLST",
+				"DD4\\nSYS"
+			]
+		}
+	]
 }
