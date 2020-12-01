@@ -1,0 +1,66 @@
+{
+	"_id": "unknown_vbttm2.lockbreaker",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "unknown_vbttm2.lockbreaker",
+	"sector": "VNP_4987",
+	"sec_level": 4,
+	"date_added": 1606817112061,
+	"last_scraped": 1606817147209,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1606817112061
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1606817207209,
+	"category": "fishie_tank",
+	"last_update": 1606817202489,
+	"output": [
+		{
+			"args": {},
+			"calls": 17371,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"f 3.\\n",
+				"ave 7 ",
+				" Okay.",
+				"C8 Okay",
+				"ay. I ha",
+				"ats 3. M",
+				"20C9 4 b",
+				"16. 4?\\n",
+				" 4?\\n20C"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4471,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"f 3.\\n",
+				"ave 7 ",
+				" Okay.",
+				"C8 Okay",
+				"ay. I ha",
+				"ats 3. M",
+				"20C9 4 b",
+				"16. 4?\\n",
+				" 4?\\n20C"
+			]
+		}
+	]
+}
