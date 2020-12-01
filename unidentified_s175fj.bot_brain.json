@@ -1,0 +1,176 @@
+{
+	"_id": "unidentified_s175fj.bot_brain",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unidentified_s175fj.bot_brain",
+	"sector": "SPC_1100",
+	"sec_level": 4,
+	"date_added": 1606858318218,
+	"last_scraped": 1606858482476,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1606858318218
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1606858542476,
+	"category": "fishie_tank",
+	"last_update": 1606858501340,
+	"output": [
+		{
+			"args": {},
+			"calls": 14096,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"re we",
+				"r sen",
+				"e pus",
+				"ant e",
+				"tons. ",
+				"sh any",
+				"have a",
+				" sense",
+				"f our v",
+				"erybody",
+				"nse of o",
+				"dy on th",
+				" clear s"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"re we",
+						"r sen",
+						"e pus",
+						"ant e",
+						"tons. ",
+						"sh any",
+						"have a",
+						" sense",
+						"f our v",
+						"erybody",
+						"nse of o",
+						"dy on th",
+						" clear s"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2268,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"re we",
+				"r sen",
+				"e pus",
+				"ant e",
+				"tons. ",
+				"sh any",
+				"have a",
+				" sense",
+				"f our v",
+				"erybody",
+				"nse of o",
+				"dy on th",
+				" clear s"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"re we",
+						"r sen",
+						"e pus",
+						"ant e",
+						"tons. ",
+						"sh any",
+						"have a",
+						" sense",
+						"f our v",
+						"erybody",
+						"nse of o",
+						"dy on th",
+						" clear s"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 23265,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"re we",
+				"r sen",
+				"e pus",
+				"ant e",
+				"tons. ",
+				"sh any",
+				"have a",
+				" sense",
+				"f our v",
+				"erybody",
+				"nse of o",
+				"dy on th",
+				" clear s"
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"re we",
+						"r sen",
+						"e pus",
+						"ant e",
+						"tons. ",
+						"sh any",
+						"have a",
+						" sense",
+						"f our v",
+						"erybody",
+						"nse of o",
+						"dy on th",
+						" clear s"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+			"frags": [
+				"re we",
+				"r sen",
+				"e pus",
+				"ant e",
+				"tons. ",
+				"sh any",
+				"have a",
+				" sense",
+				"f our v",
+				"erybody",
+				"nse of o",
+				"dy on th",
+				" clear s"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
