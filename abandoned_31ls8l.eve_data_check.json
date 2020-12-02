@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_31ls8l.eve_data_check",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abandoned_31ls8l.eve_data_check",
 	"sector": "SPC_1100",
 	"sec_level": 4,
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "feed"
-		},
-		{
 			"do": "clean"
 		}
 	],
 	"scrape_ct": 19,
 	"next_scrape": 1606876537455,
 	"category": "fishie_tank",
-	"last_update": 1606876477455,
+	"last_update": 1606876532286,
 	"output": [
 		{
 			"args": {},
@@ -37,6 +34,27 @@
 				" | SUBJ",
 				"dex proc"
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2403,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"J: Ind",
+				" SUBJ: ",
+				" Index ",
+				" | SUBJ",
+				"dex proc"
+			]
 		}
-	]
+	],
+	"updt": 1606876483594,
+	"edit": 1
 }
