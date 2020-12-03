@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_zp9r6u.lock_sim",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "derelict_zp9r6u.lock_sim",
 	"sector": "HJG_1875",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1600182658595
+		},
+		{
+			"type": "died",
+			"when": 1607033015776
 		}
 	],
-	"updt": 1604322641454,
-	"edit": 21,
+	"updt": 1604334755256,
+	"edit": 22,
 	"next_scrape": 1604376881630,
 	"category": "plant_sim",
 	"last_update": 1604334727295,
@@ -75,5 +79,6 @@
 				" entire "
 			]
 		}
-	]
+	],
+	"dead_plant_sim": true
 }
