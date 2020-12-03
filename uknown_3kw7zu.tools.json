@@ -1,0 +1,70 @@
+{
+	"_id": "uknown_3kw7zu.tools",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "uknown_3kw7zu.tools",
+	"sector": "NGC_9447",
+	"sec_level": 4,
+	"date_added": 1607015371590,
+	"last_scraped": 1607015463900,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1607015371590
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1607015523900,
+	"category": "fishie_tank",
+	"last_update": 1607015463900,
+	"output": [
+		{
+			"args": {},
+			"calls": 9906,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"sed p",
+				" moni",
+				"ncludi",
+				" acces",
+				"ng July",
+				"o have a"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3351,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"sed p",
+				" moni",
+				"ncludi",
+				" acces",
+				"ng July",
+				"o have a"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 5807,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"sed p",
+				" moni",
+				"ncludi",
+				" acces",
+				"ng July",
+				"o have a"
+			]
+		}
+	]
+}
