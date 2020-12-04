@@ -1,33 +1,39 @@
 {
 	"_id": "abandoned_3rrncp.unlock",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "npc",
 	"script": "abandoned_3rrncp.unlock",
 	"sector": "SPC_2254",
 	"sec_level": 4,
 	"date_added": 1607102238309,
-	"last_scraped": 1607103001922,
+	"last_scraped": 1607104158308,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1607102238309
 		}
 	],
-	"scrape_ct": 10,
-	"next_scrape": 1607103061922,
+	"next_scrape": 1607149412947,
 	"category": "fishie_tank",
-	"last_update": 1607103001922,
+	"last_update": 1607104176924,
 	"output": [
 		{
 			"args": {},
-			"calls": 49830,
+			"calls": 103918,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"0000\\n",
-				"0 0100",
-				"0000 00",
+				"0001 01",
+				"0000\\n0",
+				"100 0000",
+				"1 0100 0",
+				"001 0100",
+				"0000 000",
+				"000 0100",
 				"00 0000 ",
 				"0 0000 0",
+				" 0100 00",
+				" 0000 01",
+				" 0000 00",
 				"00\\n0000 "
 			],
 			"hits": [
@@ -48,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5400,
+			"calls": 14110,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -56,11 +62,15 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"0000\\n",
-				"0 0100",
+				"0000\\n0",
 				"0000 00",
+				"00 0100",
+				"1 0100 0",
+				"001 0100",
 				"00 0000 ",
 				"0 0000 0",
+				" 0100 00",
+				" 0000 01",
 				"00\\n0000 "
 			],
 			"hits": [
@@ -81,14 +91,18 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 46693,
+			"calls": 101454,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"0000\\n",
-				"0 0100",
+				"0000\\n0",
 				"0000 00",
+				"00 0100",
+				"1 0100 0",
+				"001 0100",
 				"00 0000 ",
 				"0 0000 0",
+				" 0100 00",
+				" 0000 01",
 				"00\\n0000 "
 			],
 			"hits": [
@@ -119,6 +133,11 @@
 			]
 		}
 	],
-	"updt": 1607102815757,
-	"edit": 2
+	"updt": 1607103989287,
+	"edit": 7,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
