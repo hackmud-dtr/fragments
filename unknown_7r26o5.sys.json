@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_7r26o5.sys",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unknown_7r26o5.sys",
 	"sector": "K_7911",
 	"sec_level": 0,
@@ -23,10 +23,14 @@
 				"from": "K_7911",
 				"to": "NGC_7025"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1607104453543
+		}
 	],
-	"updt": 1604043536679,
-	"edit": 11,
+	"updt": 1604201079566,
+	"edit": 12,
 	"pl_output": "Unexpected token u in JSON at position 0",
 	"next_scrape": 1603711362541
 }
