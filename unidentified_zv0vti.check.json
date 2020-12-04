@@ -1,44 +1,70 @@
 {
 	"_id": "unidentified_zv0vti.check",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unidentified_zv0vti.check",
 	"sector": "NGC_8930",
 	"sec_level": 4,
 	"date_added": 1607095244503,
-	"last_scraped": 1607101260597,
+	"last_scraped": 1607106535802,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1607095244503
+		},
+		{
+			"type": "died",
+			"when": 1607106499144
+		},
+		{
+			"type": "died",
+			"when": 1607106517445
+		},
+		{
+			"type": "died",
+			"when": 1607106535802
+		},
+		{
+			"type": "died",
+			"when": 1607106769937
 		}
 	],
-	"updt": 1607101252496,
-	"edit": 14,
-	"next_scrape": 1607147856151,
+	"updt": 1607106726326,
+	"edit": 17,
+	"next_scrape": 1607188688997,
 	"category": "fishie_tank",
-	"last_update": 1607101260597,
+	"last_update": 1607106480930,
 	"output": [
 		{
 			"args": {},
-			"calls": 110723,
+			"calls": 134496,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"st an",
 				"offer",
+				"me to",
+				"cipli",
+				"as to",
 				"t an a",
 				"oever ",
-				"n apol",
 				"iplina",
-				"an apo",
+				"hoever",
 				"y least",
 				"res but",
+				"I would",
+				"ery lea",
 				"e to pu",
 				"at the ",
 				"asures ",
+				"an apol",
+				" to off",
 				" the ve",
 				" I woul",
+				"uld like",
 				"r it was",
 				"o pursue",
+				"nary mea",
+				"logy for",
 				"es but I",
 				"e discip"
 			],
@@ -152,5 +178,14 @@
 				"r it was"
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_zv0vti.check: script doesn't exist\"}"
 }
