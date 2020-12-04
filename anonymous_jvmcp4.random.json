@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_jvmcp4.random",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anonymous_jvmcp4.random",
 	"sector": "NGC_8930",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1607095244503
+		},
+		{
+			"type": "died",
+			"when": 1607110359647
 		}
 	],
-	"updt": 1607095587986,
-	"edit": 2,
+	"updt": 1607095783483,
+	"edit": 3,
 	"scrape_ct": 16,
 	"next_scrape": 1607095687850,
 	"category": "risk_factor",
@@ -768,5 +772,6 @@
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"cannot_identify": true
 }
