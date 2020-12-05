@@ -6,7 +6,7 @@
 	"sector": "VNP_8791",
 	"sec_level": 4,
 	"date_added": 1600963642964,
-	"last_scraped": 1604252686635,
+	"last_scraped": 1607190168451,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,29 +14,40 @@
 		}
 	],
 	"scrape_ct": 13,
-	"next_scrape": 1604293463646,
+	"next_scrape": 1607231476825,
 	"category": "fishie_tank",
-	"last_update": 1604252686635,
+	"last_update": 1607190168451,
 	"output": [
 		{
 			"args": {},
-			"calls": 173848,
+			"calls": 241336,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ts th",
-				"ng stu",
+				"sed to",
 				"way tha",
 				"tuff ou",
 				"s the b",
 				"out of ",
+				"ing stu",
 				"d to sa",
+				"boring ",
 				"## anyw",
+				" the bo",
+				" say so",
 				" as pos",
+				" anyway",
+				" ## any",
 				"way. im ",
 				"upposed ",
+				"ssible #",
 				"e boring",
+				"ct as ea",
+				"ay. im s",
 				"as easy ",
-				" stuff o"
+				" way. im",
+				" stuff o",
+				" possibl"
 			],
 			"hits": [
 				{
@@ -151,6 +162,14 @@
 			]
 		}
 	],
-	"updt": 1604252672826,
-	"edit": 12
+	"updt": 1607190163392,
+	"edit": 14,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
