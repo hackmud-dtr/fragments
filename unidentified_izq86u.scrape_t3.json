@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_izq86u.scrape_t3",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unidentified_izq86u.scrape_t3",
 	"sector": "HJG_0210",
 	"sec_level": 4,
 	"date_added": 1598834680626,
-	"last_scraped": 1604201481488,
+	"last_scraped": 1607184297215,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,29 +14,38 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1604244113893,
+	"next_scrape": 1607229165678,
 	"category": "fishie_tank",
-	"last_update": 1604201481488,
+	"last_update": 1607184297215,
 	"output": [
 		{
 			"args": {},
-			"calls": 171048,
+			"calls": 215916,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"we ev",
 				"trust",
+				"them ",
 				"rong ",
 				"Hell,",
 				"get t",
 				"usted ",
 				"st eac",
+				"now, b",
 				"cause ",
-				" test ",
+				"ther, n",
 				"because",
+				"'t be t",
 				"we can't",
+				"th us. H",
 				"t it rig",
+				"o test e",
+				"ng with ",
+				"ith us. ",
+				"ing that",
 				"ell, we ",
-				" to test"
+				" to test",
+				" even ge"
 			],
 			"hits": [
 				{
@@ -290,8 +299,8 @@
 			]
 		}
 	],
-	"updt": 1604201470933,
-	"edit": 13,
+	"updt": 1604201665737,
+	"edit": 14,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -364,6 +373,14 @@
 			"frags": [
 				"usted "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
