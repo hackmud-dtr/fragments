@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_qi79wq.def",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anonymous_qi79wq.def",
 	"sector": "HJG_7602",
 	"sec_level": 4,
 	"date_added": 1600041313282,
-	"last_scraped": 1604174370189,
+	"last_scraped": 1607135331291,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1604264802895,
+	"next_scrape": 1607220948960,
 	"category": "risk_factor",
 	"last_update": 1604174370189,
 	"output": [
@@ -4414,12 +4414,15 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1604044905678,
-	"edit": 10,
+	"updt": 1604199514677,
+	"edit": 11,
+	"cannot_identify": true,
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}
-	],
-	"cannot_identify": true
+	]
 }

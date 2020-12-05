@@ -1,12 +1,12 @@
 {
 	"_id": "anon_pxwj3w.server_date",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "anon_pxwj3w.server_date",
 	"sector": "K_3278",
 	"sec_level": 4,
 	"date_added": 1602099957487,
-	"last_scraped": 1604178632944,
+	"last_scraped": 1607135566373,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1604266669573,
+	"next_scrape": 1607216331184,
 	"category": "risk_factor",
 	"last_update": 1604178632944,
 	"output": [
@@ -2679,13 +2679,16 @@
 			]
 		}
 	],
-	"updt": 1604045495177,
-	"edit": 9,
+	"updt": 1604200494390,
+	"edit": 10,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"cannot_identify": true,
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}
-	],
-	"cannot_identify": true
+	]
 }

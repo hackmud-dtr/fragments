@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_jk0jk1.mall",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "derelict_jk0jk1.mall",
 	"sector": "NGC_0938",
 	"sec_level": 4,
 	"date_added": 1601448832161,
-	"last_scraped": 1604178234719,
+	"last_scraped": 1607135511962,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1604222425530,
+	"next_scrape": 1607223154386,
 	"category": "risk_factor",
 	"last_update": 1604178234719,
 	"output": [
@@ -2698,13 +2698,16 @@
 			]
 		}
 	],
-	"updt": 1604045300646,
-	"edit": 9,
+	"updt": 1604200105061,
+	"edit": 10,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"cannot_identify": true,
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}
-	],
-	"cannot_identify": true
+	]
 }

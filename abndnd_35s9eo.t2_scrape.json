@@ -16,7 +16,7 @@
 	"scrape_ct": 17,
 	"next_scrape": 1604243128560,
 	"category": "fishie_tank",
-	"last_update": 1604201700641,
+	"last_update": 1607138724629,
 	"output": [
 		{
 			"args": {},
@@ -62,7 +62,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 16303,
+			"calls": 22277,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -70,15 +70,25 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"SYST ",
-				"ST0X3",
 				"R | U",
+				"ME ER",
 				"43B_F",
+				"TIME E",
+				"ST0X35",
+				"ETW ER",
 				"E ERRO",
+				"0X44_C",
+				"SYST ER",
 				"OR | NE",
 				"44_CLST",
 				" fbreto",
-				"B_FILE0X"
+				"SER fbre",
+				"SECT0XA4",
+				"R | TIME",
+				"OG ERROR",
+				"ERROR | ",
+				"B_FILE0X",
+				"1A6B85\\n"
 			],
 			"hits": [
 				{
@@ -148,12 +158,9 @@
 			]
 		}
 	],
-	"updt": 1604045101611,
-	"edit": 11,
+	"updt": 1604201859943,
+	"edit": 12,
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
