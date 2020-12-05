@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_anbea9.s",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_anbea9.s",
 	"sector": "HJG_9759",
 	"sec_level": 4,
 	"date_added": 1602664280135,
-	"last_scraped": 1604235580709,
+	"last_scraped": 1607188717763,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,19 +14,21 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1604276229643,
+	"next_scrape": 1607231276789,
 	"category": "dice_roller",
-	"last_update": 1604235580709,
+	"last_update": 1607188717763,
 	"output": [
 		{
 			"args": {},
-			"calls": 394077,
+			"calls": 406246,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
-				"000\\n0",
+				"000\\n00",
+				"000 010",
 				"100 0000",
 				"0000 000",
-				"000 0000"
+				"000 0000",
+				" 0000 01"
 			],
 			"hits": [
 				{
@@ -41,8 +43,8 @@
 			]
 		}
 	],
-	"updt": 1604096493878,
-	"edit": 11,
+	"updt": 1604235667557,
+	"edit": 12,
 	"identified": [
 		{
 			"document": "NOT FOUND",
