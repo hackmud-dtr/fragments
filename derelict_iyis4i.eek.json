@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_iyis4i.eek",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "skip",
 	"script": "derelict_iyis4i.eek",
 	"sector": "VNP_3422",
 	"sec_level": 4,
 	"date_added": 1601651671230,
-	"last_scraped": 1604174513051,
+	"last_scraped": 1607182518363,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,23 +14,29 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1604254760310,
+	"next_scrape": 1607226352055,
 	"category": "risk_factor",
-	"last_update": 1604174513051,
+	"last_update": 1607182518363,
 	"output": [
 		{
 			"args": {},
-			"calls": 3703,
+			"calls": 14896,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"tion.",
 				"sanct",
+				"MAXWE",
 				"ancti",
 				"perati",
-				"minal ",
+				"ption f",
 				"HOLLIST",
+				"oval fro",
 				"on from ",
 				"nd remov",
-				"e approp"
+				"minal pr",
+				"LISTER, ",
+				"e approp",
+				". Report"
 			]
 		},
 		{
@@ -3266,8 +3272,16 @@
 			]
 		}
 	],
-	"updt": 1604045495177,
-	"edit": 8,
+	"updt": 1604200297909,
+	"edit": 9,
 	"pl_output": "YOU COULD WIN 1GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
