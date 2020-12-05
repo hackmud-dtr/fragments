@@ -1,12 +1,12 @@
 {
 	"_id": "anon_zdvvrf.con_spec_weaver",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_zdvvrf.con_spec_weaver",
 	"sector": "K_2838",
 	"sec_level": 4,
 	"date_added": 1603341975460,
-	"last_scraped": 1604264977664,
+	"last_scraped": 1607192053034,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,20 +14,27 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1604311118505,
+	"next_scrape": 1607234583461,
 	"category": "fishie_tank",
-	"last_update": 1604264977664,
+	"last_update": 1607192053034,
 	"output": [
 		{
 			"args": {},
-			"calls": 139728,
+			"calls": 192287,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ight ",
+				"BJ: o",
+				"ari |",
+				"andar",
 				" eraj",
 				"ool to",
 				"ki era",
 				"rajbhan",
+				"g you w",
+				"to have ",
+				"ou were ",
+				"i | SUBJ",
 				"DY its s",
 				" to have",
 				" BODY it"
@@ -118,8 +125,8 @@
 			]
 		}
 	],
-	"updt": 1604202444746,
-	"edit": 9,
+	"updt": 1604264988670,
+	"edit": 10,
 	"identified": [
 		{
 			"document": "Prisoners",
@@ -133,6 +140,14 @@
 				" to have",
 				" BODY it"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
