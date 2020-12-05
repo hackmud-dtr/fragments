@@ -6,24 +6,19 @@
 	"sector": "SPC_2254",
 	"sec_level": 4,
 	"date_added": 1607110359540,
-	"last_scraped": 1607110505146,
+	"last_scraped": 1607162671659,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1607110359540
 		}
 	],
-	"updt": 1607110433201,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
+	"updt": 1607110628749,
+	"edit": 2,
 	"scrape_ct": 19,
-	"next_scrape": 1607110565146,
+	"next_scrape": 1607203606691,
 	"category": "fishie_tank",
-	"last_update": 1607110559360,
+	"last_update": 1607162671659,
 	"output": [
 		{
 			"args": {},
@@ -50,6 +45,22 @@
 				"they are still hungry?",
 				"they don't look so good"
 			],
+			"fragments": [
+				"e\\n1E2",
+				" happy",
+				"your re",
+				"s there",
+				"ive\\n1E",
+				"1E2B yo",
+				"py to re"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 47487,
+			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"e\\n1E2",
 				" happy",

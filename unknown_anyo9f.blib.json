@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_anyo9f.blib",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unknown_anyo9f.blib",
 	"sector": "SPC_2254",
 	"sec_level": 4,
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "feed"
-		},
-		{
 			"do": "clean"
 		}
 	],
 	"scrape_ct": 16,
 	"next_scrape": 1607116743958,
 	"category": "fishie_tank",
-	"last_update": 1607116683958,
+	"last_update": 1607162781189,
 	"output": [
 		{
 			"args": {},
@@ -39,6 +36,29 @@
 				"counsell",
 				"cesses. "
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4719,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" autog",
+				"gies an",
+				" their ",
+				"of their",
+				"n as a c",
+				"counsell",
+				"cesses. "
+			]
 		}
-	]
+	],
+	"updt": 1607116688628,
+	"edit": 1
 }

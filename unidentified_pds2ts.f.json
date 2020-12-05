@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_pds2ts.f",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "unidentified_pds2ts.f",
 	"sector": "HJG_9759",
 	"sec_level": 4,
 	"date_added": 1602635566810,
-	"last_scraped": 1604020643574,
+	"last_scraped": 1607134768608,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 14,
-	"next_scrape": 1604067038915,
+	"next_scrape": 1607214697830,
 	"category": "risk_factor",
 	"last_update": 1603954278021,
 	"output": [
@@ -4874,12 +4874,15 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1604045690336,
-	"edit": 9,
+	"updt": 1604200689967,
+	"edit": 10,
+	"cannot_identify": true,
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}
-	],
-	"cannot_identify": true
+	]
 }
