@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_j2g6mt.puppies_n_kittens",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "derelict_j2g6mt.puppies_n_kittens",
 	"sector": "K_7998",
 	"sec_level": 4,
 	"date_added": 1603156408645,
-	"last_scraped": 1604174930023,
+	"last_scraped": 1607135422783,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1604219276650,
+	"next_scrape": 1607217592019,
 	"category": "risk_factor",
 	"last_update": 1604174930023,
 	"output": [
@@ -2800,13 +2800,16 @@
 			]
 		}
 	],
-	"updt": 1604045886952,
-	"edit": 7,
+	"updt": 1604200883951,
+	"edit": 8,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"cannot_identify": true,
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}
-	],
-	"cannot_identify": true
+	]
 }

@@ -1,27 +1,22 @@
 {
 	"_id": "abandoned_qwgxmu.upgradesell",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abandoned_qwgxmu.upgradesell",
 	"sector": "VNP_1801",
 	"sec_level": 4,
 	"date_added": 1604605527016,
-	"last_scraped": 1604605581556,
+	"last_scraped": 1607149135932,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1604605527016
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 18,
-	"next_scrape": 1604605641556,
+	"next_scrape": 1607189595693,
 	"category": "fishie_tank",
-	"last_update": 1604605618833,
+	"last_update": 1607149135932,
 	"output": [
 		{
 			"args": {},
@@ -34,6 +29,24 @@
 				"sudden ",
 				"pt rapi",
 				"event of"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ve po",
+						"id re",
+						"sudden ",
+						"pt rapi",
+						"event of"
+					]
+				},
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"apid "
+					]
+				}
 			]
 		},
 		{
@@ -54,6 +67,63 @@
 				"sudden ",
 				"pt rapi",
 				"event of"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ve po",
+						"id re",
+						"sudden ",
+						"pt rapi",
+						"event of"
+					]
+				},
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"apid "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 68660,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"id re",
+				"evere",
+				"e eve",
+				" seve",
+				" rapi",
+				"rtage ",
+				"ld acce",
+				"in the ",
+				"ement i",
+				"e would "
+			]
+		}
+	],
+	"updt": 1604605625044,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"ve po",
+				"id re",
+				"sudden ",
+				"pt rapi",
+				"event of"
+			]
+		},
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
+				"apid "
 			]
 		}
 	]

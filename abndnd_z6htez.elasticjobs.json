@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_z6htez.elasticjobs",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "skip",
 	"script": "abndnd_z6htez.elasticjobs",
 	"sector": "SPC_8823",
 	"sec_level": 4,
 	"date_added": 1604093298820,
-	"last_scraped": 1604196122425,
+	"last_scraped": 1607137942531,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1604237538002,
+	"next_scrape": 1607223930936,
 	"category": "risk_factor",
-	"last_update": 1604196122425,
+	"last_update": 1607137942531,
 	"output": [
 		{
 			"args": {},
@@ -50,16 +50,21 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 277,
+			"calls": 771,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
-				"the d",
-				"nder,",
+				"u are",
+				"You ar",
 				" You a",
+				"nder,\\n",
 				"e attac",
+				"2087 I ",
+				" the de",
 				" am the",
 				"the atta",
-				"he defen"
+				"he defen",
+				"87 I am ",
+				"der,\\n208"
 			]
 		},
 		{
@@ -1032,8 +1037,8 @@
 			]
 		}
 	],
-	"updt": 1604093561984,
-	"edit": 2,
+	"updt": 1604201274601,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -1048,10 +1053,5 @@
 			]
 		}
 	],
-	"cannot_identify": true,
-	"retry_args": [
-		{
-			"do": "win"
-		}
-	]
+	"cannot_identify": true
 }

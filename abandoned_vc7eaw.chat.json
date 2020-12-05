@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_vc7eaw.chat",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_vc7eaw.chat",
 	"sector": "K_6981",
 	"sec_level": 4,
 	"date_added": 1600404086493,
-	"last_scraped": 1607135439956,
+	"last_scraped": 1607163014811,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1607179947407,
+	"next_scrape": 1607251608250,
 	"category": "risk_factor",
-	"last_update": 1607135439956,
+	"last_update": 1607163014811,
 	"output": [
 		{
 			"args": {},
@@ -50,11 +50,15 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 1961,
+			"calls": 2404,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
-				"W ERR",
+				"SYST E",
 				"E ERRO",
+				"0X7A81",
+				"W ERROR",
+				"USER sm",
+				"RROR | ",
 				"ROR | T",
 				"F_CLST0",
 				"ECT0X6B",
@@ -2004,8 +2008,8 @@
 			]
 		}
 	],
-	"updt": 1604199711681,
-	"edit": 11,
+	"updt": 1607163007659,
+	"edit": 13,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"identified": [
 		{
@@ -2023,9 +2027,6 @@
 	],
 	"cannot_identify": true,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
