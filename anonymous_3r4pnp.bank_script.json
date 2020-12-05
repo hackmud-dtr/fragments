@@ -1,45 +1,50 @@
 {
 	"_id": "anonymous_3r4pnp.bank_script",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "skip",
 	"script": "anonymous_3r4pnp.bank_script",
 	"sector": "HJG_1875",
 	"sec_level": 4,
 	"date_added": 1600182658595,
-	"last_scraped": 1604023995548,
+	"last_scraped": 1607174983423,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1600182658595
 		}
 	],
-	"updt": 1604044905678,
-	"edit": 9,
+	"updt": 1604199711681,
+	"edit": 10,
 	"scrape_ct": 16,
-	"next_scrape": 1604068339474,
+	"next_scrape": 1607218065504,
 	"category": "risk_factor",
-	"last_update": 1604023995548,
+	"last_update": 1607174983423,
 	"output": [
 		{
 			"args": {},
-			"calls": 13600,
+			"calls": 26522,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"p bui",
 				"lp bu",
-				"ion p",
-				" late",
+				"help ",
+				"ges o",
 				"th the",
-				"ation ",
-				"ater s",
-				" data ",
+				"o help",
+				"ng wit",
+				" later",
 				"with th",
+				"the dat",
 				"that ma",
 				"of the ",
+				"later s",
+				"er stag",
 				"d a cur",
+				"ation p",
 				"am to h",
 				"a team ",
 				"n policy",
+				"he data ",
 				"curation"
 			]
 		},
@@ -3227,5 +3232,13 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 1GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }

@@ -1,35 +1,38 @@
 {
 	"_id": "anonymous_ubddhp.purloin",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "skip",
 	"script": "anonymous_ubddhp.purloin",
 	"sector": "K_7994",
 	"sec_level": 4,
 	"date_added": 1603801526883,
-	"last_scraped": 1604028673839,
+	"last_scraped": 1607175200896,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603801526883
 		}
 	],
-	"updt": 1604046081832,
-	"edit": 5,
+	"updt": 1604201079566,
+	"edit": 6,
 	"scrape_ct": 16,
-	"next_scrape": 1604112707642,
+	"next_scrape": 1607216305606,
 	"category": "risk_factor",
-	"last_update": 1604028637726,
+	"last_update": 1607175200896,
 	"output": [
 		{
 			"args": {},
-			"calls": 11729,
+			"calls": 21908,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"s the",
-				"y to r",
+				" Is t",
 				"our re",
+				",\\n1E2",
 				"o recei",
 				"E36 Is ",
+				"y to rec",
+				"ceive\\n1",
 				"A I am h"
 			]
 		},
@@ -517,5 +520,13 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }

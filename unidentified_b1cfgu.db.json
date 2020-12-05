@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_b1cfgu.db",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "npc",
 	"script": "unidentified_b1cfgu.db",
 	"sector": "VNP_5602",
 	"sec_level": 4,
 	"date_added": 1602976882161,
-	"last_scraped": 1604030142497,
+	"last_scraped": 1607175309561,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,24 +14,29 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1604112465475,
+	"next_scrape": 1607220555840,
 	"category": "risk_factor",
-	"last_update": 1604030088014,
+	"last_update": 1607175309561,
 	"output": [
 		{
 			"args": {},
-			"calls": 12162,
+			"calls": 23308,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"ll te",
 				"tems. ",
-				" now o",
 				"ted to ",
 				"s. from",
 				"nicians",
+				" on all",
 				"rom now ",
+				"om now o",
+				"nstructe",
 				"ems. fro",
+				"echnicia",
 				". from n",
-				" technic"
+				" technic",
+				" from no"
 			]
 		},
 		{
@@ -3660,8 +3665,16 @@
 			]
 		}
 	],
-	"updt": 1604045690336,
-	"edit": 10,
+	"updt": 1604200689967,
+	"edit": 11,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
