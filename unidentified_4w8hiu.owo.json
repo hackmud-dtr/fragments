@@ -6,7 +6,7 @@
 	"sector": "NGC_9045",
 	"sec_level": 4,
 	"date_added": 1603224661442,
-	"last_scraped": 1604180049388,
+	"last_scraped": 1607182865920,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,24 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1604262810136,
+	"next_scrape": 1607229203379,
 	"category": "risk_factor",
-	"last_update": 1604180049388,
+	"last_update": 1607182865920,
 	"output": [
 		{
 			"args": {},
-			"calls": 21810,
+			"calls": 32343,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"ROG E",
 				"OG ER",
 				"| PRO",
-				" | NE",
-				"TW ERR",
+				"TW ERRO",
+				"T ERROR",
+				"R | NET",
+				"TIME ERR",
 				"RROR | P",
+				"ME ERROR",
 				" ERROR |"
 			]
 		},
@@ -1468,8 +1471,16 @@
 			]
 		}
 	],
-	"updt": 1604045886952,
-	"edit": 10,
+	"updt": 1604200883951,
+	"edit": 11,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }

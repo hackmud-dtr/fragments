@@ -6,31 +6,34 @@
 	"sector": "K_7998",
 	"sec_level": 4,
 	"date_added": 1603215451424,
-	"last_scraped": 1604183316259,
+	"last_scraped": 1607183190756,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603215451424
 		}
 	],
-	"updt": 1604103723757,
-	"edit": 8,
+	"updt": 1607183132998,
+	"edit": 10,
 	"scrape_ct": 16,
-	"next_scrape": 1604226009401,
+	"next_scrape": 1607222950298,
 	"category": "fishie_tank",
-	"last_update": 1604183316259,
+	"last_update": 1607183190756,
 	"output": [
 		{
 			"args": {},
-			"calls": 160312,
+			"calls": 220598,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"o do ",
 				"ing t",
-				"going",
 				"do ab",
+				"e we g",
 				"about ",
+				" going",
+				"to do a",
+				"the por",
 				" pornog",
+				"ut all o",
 				"l of the"
 			],
 			"hits": [
@@ -126,6 +129,14 @@
 				" pornog",
 				"l of the"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
