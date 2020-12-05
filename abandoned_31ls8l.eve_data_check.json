@@ -6,22 +6,17 @@
 	"sector": "SPC_1100",
 	"sec_level": 4,
 	"date_added": 1606876442546,
-	"last_scraped": 1606876477455,
+	"last_scraped": 1607160897891,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1606876442546
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1606876537455,
+	"next_scrape": 1607201604341,
 	"category": "fishie_tank",
-	"last_update": 1606876532286,
+	"last_update": 1607160897891,
 	"output": [
 		{
 			"args": {},
@@ -33,6 +28,18 @@
 				" Index ",
 				" | SUBJ",
 				"dex proc"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"J: Ind",
+						" SUBJ: ",
+						" Index ",
+						" | SUBJ",
+						"dex proc"
+					]
+				}
 			]
 		},
 		{
@@ -52,9 +59,47 @@
 				" Index ",
 				" | SUBJ",
 				"dex proc"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"J: Ind",
+						" SUBJ: ",
+						" Index ",
+						" | SUBJ",
+						"dex proc"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 53987,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"J: Ind",
+				" SUBJ: ",
+				" Index ",
+				" | SUBJ",
+				"dex proc"
 			]
 		}
 	],
-	"updt": 1606876483594,
-	"edit": 1
+	"updt": 1606876679136,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "Passphrase",
+			"frags": [
+				"J: Ind",
+				" SUBJ: ",
+				" Index ",
+				" | SUBJ",
+				"dex proc"
+			]
+		}
+	]
 }

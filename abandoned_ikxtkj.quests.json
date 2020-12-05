@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_ikxtkj.quests",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "skip",
 	"script": "abandoned_ikxtkj.quests",
 	"sector": "NGC_9447",
 	"sec_level": 4,
@@ -13,12 +13,12 @@
 			"when": 1606984545148
 		}
 	],
-	"updt": 1606985526657,
-	"edit": 6,
+	"updt": 1606985721543,
+	"edit": 7,
 	"scrape_ct": 3,
 	"next_scrape": 1607074525059,
 	"category": "fishie_tank",
-	"last_update": 1606985613786,
+	"last_update": 1607161567947,
 	"output": [
 		{
 			"args": {},
@@ -50,7 +50,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 13338,
+			"calls": 20101,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -122,9 +122,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
