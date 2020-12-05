@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_sip739.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_sip739.db",
 	"sector": "K_5860",
 	"sec_level": 4,
 	"date_added": 1602555524200,
-	"last_scraped": 1604255184862,
+	"last_scraped": 1607190929333,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,23 +14,31 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1604296496904,
+	"next_scrape": 1607231056395,
 	"category": "fishie_tank",
-	"last_update": 1604255184862,
+	"last_update": 1607190929333,
 	"output": [
 		{
 			"args": {},
-			"calls": 176306,
+			"calls": 217573,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"y 'th",
+				"the t",
+				"comes",
 				" aria",
+				"they se",
 				"st: 'ho",
+				"nd then",
+				"irst th",
 				"gs they",
+				"em. We ",
 				" we sho",
 				" is an ",
 				"w them. ",
 				"mes the ",
 				"e' or 't",
+				"\"The fir",
 				" a smile"
 			],
 			"hits": [
@@ -124,8 +132,8 @@
 			]
 		}
 	],
-	"updt": 1604200494390,
-	"edit": 12,
+	"updt": 1604255214236,
+	"edit": 13,
 	"identified": [
 		{
 			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
@@ -140,6 +148,14 @@
 				"e' or 't",
 				" a smile"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
