@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_i3smse.breakout",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_i3smse.breakout",
 	"sector": "NGC_1019",
 	"sec_level": 4,
 	"date_added": 1604486178869,
-	"last_scraped": 1604486269425,
+	"last_scraped": 1607213682894,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,25 +14,34 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1604486329425,
+	"next_scrape": 1607259346849,
 	"category": "fishie_tank",
-	"last_update": 1604486269425,
+	"last_update": 1607213682894,
 	"output": [
 		{
 			"args": {},
-			"calls": 10038,
+			"calls": 61826,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"see t",
+				"ays t",
+				"ys the",
+				"ut. I ",
 				"t. I c",
 				"t see ",
+				"ew hun",
+				"em, no",
+				"e. | A",
+				"'re go",
 				" There",
+				"t out. ",
 				"nyway. ",
 				"ment is",
 				"ernment",
 				"e gone.",
 				", not r",
 				"nd the g",
+				"k. And t",
 				" is alwa"
 			],
 			"hits": [
@@ -136,8 +145,8 @@
 			]
 		}
 	],
-	"updt": 1604486435947,
-	"edit": 2,
+	"updt": 1607189771148,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
@@ -154,6 +163,14 @@
 				"nd the g",
 				" is alwa"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
