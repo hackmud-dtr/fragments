@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_1ds37a.libups",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_1ds37a.libups",
 	"sector": "HJG_2473",
 	"sec_level": 4,
 	"date_added": 1605742679628,
-	"last_scraped": 1605742770524,
+	"last_scraped": 1607228110644,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1605742830524,
+	"next_scrape": 1607272064172,
 	"category": "fishie_tank",
-	"last_update": 1605742770524,
+	"last_update": 1607228110644,
 	"output": [
 		{
 			"args": {},
-			"calls": 10560,
+			"calls": 57268,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ME ER",
@@ -112,8 +112,8 @@
 			]
 		}
 	],
-	"updt": 1605742955948,
-	"edit": 2,
+	"updt": 1607228068835,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
@@ -126,6 +126,14 @@
 				"87AF16D",
 				"SUBJ: Re"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
