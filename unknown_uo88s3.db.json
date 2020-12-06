@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_uo88s3.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_uo88s3.db",
 	"sector": "K_6981",
 	"sec_level": 4,
 	"date_added": 1600381968457,
-	"last_scraped": 1607135150135,
+	"last_scraped": 1607252309649,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,28 +14,33 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1607176184307,
+	"next_scrape": 1607295097361,
 	"category": "fishie_tank",
-	"last_update": 1607135150135,
+	"last_update": 1607252309649,
 	"output": [
 		{
 			"args": {},
-			"calls": 154367,
+			"calls": 193249,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"st be",
-				"ds mu",
-				"t be\\n",
-				"AP car",
-				" comba",
-				" cards",
-				" be\\n2",
 				"when co",
+				"P cards",
+				"n comba",
+				"e down ",
+				"ds must",
+				"cards m",
+				"be\\n216",
+				"AP card",
 				"167 fac",
+				" combat",
 				" begins",
+				" be\\n21",
 				"hen comb",
+				"7 face d",
+				"168 begi",
 				" face do",
 				"ombat\\n21",
+				"must be\\n",
 				"mbat\\n216"
 			],
 			"hits": [
@@ -156,8 +161,8 @@
 			]
 		}
 	],
-	"updt": 1604199711681,
-	"edit": 10,
+	"updt": 1607252307270,
+	"edit": 12,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -177,6 +182,14 @@
 				"ombat\\n21",
 				"mbat\\n216"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

@@ -1,38 +1,43 @@
 {
 	"_id": "uknown_6jne6m.history",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_6jne6m.history",
 	"sector": "NGC_9045",
 	"sec_level": 4,
 	"date_added": 1603215451424,
-	"last_scraped": 1607135112704,
+	"last_scraped": 1607252201443,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603215451424
 		}
 	],
-	"updt": 1604200883951,
-	"edit": 11,
+	"updt": 1607163007659,
+	"edit": 12,
 	"scrape_ct": 17,
-	"next_scrape": 1607177667383,
+	"next_scrape": 1607292140983,
 	"category": "fishie_tank",
-	"last_update": 1607135112704,
+	"last_update": 1607252201443,
 	"output": [
 		{
 			"args": {},
-			"calls": 141144,
+			"calls": 181779,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"er wi",
+				"conds",
+				" the d",
 				" 110 t",
 				"er turn",
+				"er 110 ",
 				"208B af",
+				" turn\\n",
 				"s.\\n2091",
 				"onds per",
 				"A 5 seco",
-				"s\\n208C t"
+				"s\\n208C t",
+				" turns\\n2"
 			],
 			"hits": [
 				{
@@ -144,6 +149,14 @@
 				"A 5 seco",
 				"s\\n208C t"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_lspueg.farm",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_lspueg.farm",
 	"sector": "NGC_5884",
 	"sec_level": 4,
 	"date_added": 1600550626238,
-	"last_scraped": 1607135222153,
+	"last_scraped": 1607252418724,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,20 +14,27 @@
 		}
 	],
 	"scrape_ct": 14,
-	"next_scrape": 1607180096018,
+	"next_scrape": 1607295340142,
 	"category": "fishie_tank",
-	"last_update": 1607135222153,
+	"last_update": 1607252418724,
 	"output": [
 		{
 			"args": {},
-			"calls": 178764,
+			"calls": 230592,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				" up t",
 				"solves",
 				"it res",
 				"ves as ",
+				"t resol",
+				"7 BREAK",
+				">. BREA",
+				" force ",
 				"REAK is ",
 				"p to for",
+				"8 face u",
+				"158 face",
 				"s 2.\\n215"
 			],
 			"hits": [
@@ -113,8 +120,8 @@
 			]
 		}
 	],
-	"updt": 1604199711681,
-	"edit": 12,
+	"updt": 1607162031196,
+	"edit": 13,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -126,6 +133,14 @@
 				"REAK is ",
 				"s 2.\\n215"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
