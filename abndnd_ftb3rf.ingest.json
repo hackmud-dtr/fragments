@@ -1,28 +1,28 @@
 {
 	"_id": "abndnd_ftb3rf.ingest",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_ftb3rf.ingest",
 	"sector": "SPC_4277",
 	"sec_level": 4,
 	"date_added": 1605954209177,
-	"last_scraped": 1605954318691,
+	"last_scraped": 1607230901352,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1605954209177
 		}
 	],
-	"updt": 1605954431786,
-	"edit": 2,
+	"updt": 1607163986285,
+	"edit": 3,
 	"scrape_ct": 16,
-	"next_scrape": 1605954378691,
+	"next_scrape": 1607270901295,
 	"category": "clicker",
-	"last_update": 1605954318691,
+	"last_update": 1607230901352,
 	"output": [
 		{
 			"args": {},
-			"calls": 12085,
+			"calls": 46469,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"s as ",
@@ -135,6 +135,14 @@
 				"esolves",
 				"ayed\\n215"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
 		}
 	]
 }
