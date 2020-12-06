@@ -1,12 +1,12 @@
 {
 	"_id": "anon_u3ignn.con_spec_scriptor",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_u3ignn.con_spec_scriptor",
 	"sector": "SPC_5374",
 	"sec_level": 4,
 	"date_added": 1607123656527,
-	"last_scraped": 1607123747664,
+	"last_scraped": 1607251533265,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,19 +14,22 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1607123807664,
+	"next_scrape": 1607294923425,
 	"category": "coin_flipper",
-	"last_update": 1607123747664,
+	"last_update": 1607251533265,
 	"output": [
 		{
 			"args": {},
-			"calls": 47455,
+			"calls": 91769,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"00 010",
 				"0100 00",
+				"0000 01",
+				"0000 00",
 				"000 000",
 				"00 0000",
+				"0 0000 0",
 				"\\n0000 0",
 				"000\\n0000",
 				"0 0000\\n0"
@@ -47,8 +50,8 @@
 			]
 		}
 	],
-	"updt": 1607123917604,
-	"edit": 2,
+	"updt": 1607251526757,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "NOT FOUND",
