@@ -6,7 +6,7 @@
 	"sector": "K_0449",
 	"sec_level": 4,
 	"date_added": 1604893834654,
-	"last_scraped": 1604893924966,
+	"last_scraped": 1607218903670,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,26 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1604893984966,
+	"next_scrape": 1607259492929,
 	"category": "fishie_tank",
-	"last_update": 1604893924966,
+	"last_update": 1607218903670,
 	"output": [
 		{
 			"args": {},
-			"calls": 10215,
+			"calls": 60826,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"r. GU",
+				"onder",
 				" them",
+				"k to t",
 				"to over",
+				"ot fear",
 				"al mind",
 				"mindset ",
-				"hen you "
+				"hen you ",
+				" future,",
+				" and tec"
 			]
 		},
 		{
@@ -67,6 +72,14 @@
 			]
 		}
 	],
-	"updt": 1604893880625,
-	"edit": 1
+	"updt": 1607218883812,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
