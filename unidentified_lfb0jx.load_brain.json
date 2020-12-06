@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_lfb0jx.load_brain",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unidentified_lfb0jx.load_brain",
 	"sector": "NGC_8930",
 	"sec_level": 4,
 	"date_added": 1607077089639,
-	"last_scraped": 1607077579365,
+	"last_scraped": 1607244774805,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 6,
-	"next_scrape": 1607077639365,
+	"next_scrape": 1607287855575,
 	"category": "clicker",
-	"last_update": 1607077579365,
+	"last_update": 1607244774805,
 	"output": [
 		{
 			"args": {},
-			"calls": 34335,
+			"calls": 71791,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"the f",
@@ -149,6 +149,14 @@
 			]
 		}
 	],
-	"updt": 1607077414761,
-	"edit": 2
+	"updt": 1607077609235,
+	"edit": 3,
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
+		}
+	]
 }
