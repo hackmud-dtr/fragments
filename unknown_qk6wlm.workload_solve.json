@@ -1,22 +1,22 @@
 {
 	"_id": "unknown_qk6wlm.workload_solve",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "unknown_qk6wlm.workload_solve",
 	"sector": "K_8571",
 	"sec_level": 4,
 	"date_added": 1603507534095,
-	"last_scraped": 1607135639329,
+	"last_scraped": 1607253196408,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603507534095
 		}
 	],
-	"scrape_ct": 16,
-	"next_scrape": 1607215224024,
+	"scrape_ct": 12,
+	"next_scrape": 1607253256408,
 	"category": "risk_factor",
-	"last_update": 1607135621214,
+	"last_update": 1607253196408,
 	"output": [
 		{
 			"args": {},
@@ -38,7 +38,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 1444,
+			"calls": 2176,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"6",
@@ -1861,14 +1861,11 @@
 			]
 		}
 	],
-	"updt": 1604200883951,
-	"edit": 6,
+	"updt": 1607163203372,
+	"edit": 7,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"cannot_identify": true,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
