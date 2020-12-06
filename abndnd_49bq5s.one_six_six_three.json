@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_49bq5s.one_six_six_three",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_49bq5s.one_six_six_three",
 	"sector": "NGC_4506",
 	"sec_level": 4,
 	"date_added": 1605819875714,
-	"last_scraped": 1605819966790,
+	"last_scraped": 1607229450413,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,23 +14,32 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1605820026790,
+	"next_scrape": 1607275945353,
 	"category": "fishie_tank",
-	"last_update": 1605819966790,
+	"last_update": 1607229450413,
 	"output": [
 		{
 			"args": {},
-			"calls": 26744,
+			"calls": 68971,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"was a",
+				"signe",
+				"perat",
 				"pal o",
 				"gned ",
+				" syst",
+				" rede",
+				"severa",
+				"oods, ",
+				" was a",
+				"wathes ",
 				"unicipal",
 				"system w",
+				"s able t",
 				"on's Ang",
 				"ods, New",
 				"e to red",
+				"able to ",
 				", New Ho",
 				" swathes"
 			],
@@ -163,8 +172,8 @@
 			]
 		}
 	],
-	"updt": 1605820165641,
-	"edit": 1,
+	"updt": 1607229437013,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -191,6 +200,14 @@
 			"frags": [
 				"gned "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

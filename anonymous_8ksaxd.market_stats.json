@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_8ksaxd.market_stats",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_8ksaxd.market_stats",
 	"sector": "NGC_4506",
 	"sec_level": 4,
 	"date_added": 1605845146457,
-	"last_scraped": 1605845238083,
+	"last_scraped": 1607229775990,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1605845298083,
+	"next_scrape": 1607271000983,
 	"category": "clicker",
-	"last_update": 1605845238083,
+	"last_update": 1607229775990,
 	"output": [
 		{
 			"args": {},
-			"calls": 13663,
+			"calls": 49607,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				" but ",
@@ -260,8 +260,8 @@
 			]
 		}
 	],
-	"updt": 1605845376962,
-	"edit": 2,
+	"updt": 1607188991082,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -326,6 +326,14 @@
 			"frags": [
 				" but "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
 		}
 	]
 }
