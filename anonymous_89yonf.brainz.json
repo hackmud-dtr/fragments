@@ -6,7 +6,7 @@
 	"sector": "VNP_2692",
 	"sec_level": 4,
 	"date_added": 1605677618126,
-	"last_scraped": 1605678505533,
+	"last_scraped": 1607227349406,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,30 @@
 		}
 	],
 	"scrape_ct": 4,
-	"next_scrape": 1605678565533,
+	"next_scrape": 1607270706866,
 	"category": "fishie_tank",
-	"last_update": 1605678505533,
+	"last_update": 1607227349406,
 	"output": [
 		{
 			"args": {},
-			"calls": 73890,
+			"calls": 119596,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"RROR |",
+				"| USE",
+				" PROG",
 				"OR | T",
+				"ME ERR",
 				"LST0X3",
+				"IME ER",
+				"eton e",
+				" | TIM",
+				"YST ERR",
 				"XA43B_F",
+				"RROR | ",
 				"E ERROR",
 				"breton ",
-				"\\nSYST E"
+				"\\nSYST E",
+				"A6B85\\nSY"
 			],
 			"hits": [
 				{
@@ -112,8 +120,8 @@
 			]
 		}
 	],
-	"updt": 1605678462417,
-	"edit": 5,
+	"updt": 1607227286622,
+	"edit": 7,
 	"identified": [
 		{
 			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
@@ -126,6 +134,14 @@
 				"breton ",
 				"\\nSYST E"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
