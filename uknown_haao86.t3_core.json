@@ -6,7 +6,7 @@
 	"sector": "VNP_1801",
 	"sec_level": 4,
 	"date_added": 1604671152678,
-	"last_scraped": 1604671242488,
+	"last_scraped": 1607215946695,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,25 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1604671302488,
+	"next_scrape": 1607259195097,
 	"category": "fishie_tank",
-	"last_update": 1604671242488,
+	"last_update": 1607215946695,
 	"output": [
 		{
 			"args": {},
-			"calls": 18637,
+			"calls": 43572,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"wn. T",
-				"\"msg\"",
+				"The b",
 				"makes ",
 				"ly mak",
+				" Town ",
 				" itsel",
+				"Flood s",
+				"d seaso",
 				"andiwor",
+				",\"msg\":",
 				"k truly ",
 				" Angie's"
 			],
@@ -184,8 +188,8 @@
 			]
 		}
 	],
-	"updt": 1604671284387,
-	"edit": 1,
+	"updt": 1607189380871,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -221,6 +225,14 @@
 			"frags": [
 				"makes "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

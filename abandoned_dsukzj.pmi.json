@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_dsukzj.pmi",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_dsukzj.pmi",
 	"sector": "VNP_1801",
 	"sec_level": 4,
 	"date_added": 1604595025974,
-	"last_scraped": 1604595115336,
+	"last_scraped": 1607215003706,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,20 +14,25 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1604595175336,
+	"next_scrape": 1607256919408,
 	"category": "fishie_tank",
-	"last_update": 1604595115336,
+	"last_update": 1607215003706,
 	"output": [
 		{
 			"args": {},
-			"calls": 11020,
+			"calls": 66788,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ybody",
+				"everybo",
 				"e push ",
+				"# [do_g",
+				" the te",
 				"want eve",
 				"to have ",
+				"sh any b",
 				"sense of",
+				"of our v",
 				"eam to h"
 			],
 			"hits": [
@@ -106,8 +111,8 @@
 			]
 		}
 	],
-	"updt": 1604595270903,
-	"edit": 2,
+	"updt": 1607214977434,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
@@ -119,6 +124,14 @@
 				"sense of",
 				"eam to h"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
