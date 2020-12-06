@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_cxleuz.phony",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_cxleuz.phony",
 	"sector": "VNP_4987",
 	"sec_level": 4,
 	"date_added": 1606748616758,
-	"last_scraped": 1606749397474,
+	"last_scraped": 1607241943551,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 6,
-	"next_scrape": 1606749457474,
+	"next_scrape": 1607282479009,
 	"category": "fishie_tank",
-	"last_update": 1606749397474,
+	"last_update": 1607241943551,
 	"output": [
 		{
 			"args": {},
-			"calls": 59203,
+			"calls": 80583,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"the C",
@@ -238,6 +238,14 @@
 			]
 		}
 	],
-	"updt": 1606749260701,
-	"edit": 3
+	"updt": 1606749453877,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
