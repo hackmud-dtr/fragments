@@ -6,19 +6,19 @@
 	"sector": "K_9823",
 	"sec_level": 4,
 	"date_added": 1607189351817,
-	"last_scraped": 1607189479143,
+	"last_scraped": 1607299756286,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1607189351817
 		}
 	],
-	"updt": 1607189380871,
-	"edit": 1,
+	"updt": 1607189576098,
+	"edit": 2,
 	"scrape_ct": 16,
-	"next_scrape": 1607189539143,
+	"next_scrape": 1607344335735,
 	"category": "risk_factor",
-	"last_update": 1607189479143,
+	"last_update": 1607299756286,
 	"output": [
 		{
 			"args": {},
@@ -40,7 +40,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 399,
+			"calls": 1115,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"myopi",
@@ -555,10 +555,8 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"cannot_identify": true
 }

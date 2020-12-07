@@ -1,27 +1,22 @@
 {
 	"_id": "anon_9ssrj4.bigbot",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_9ssrj4.bigbot",
 	"sector": "K_0449",
 	"sec_level": 4,
 	"date_added": 1605040100876,
-	"last_scraped": 1605040190126,
+	"last_scraped": 1607276687616,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1605040100876
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1605040250126,
+	"next_scrape": 1607321427878,
 	"category": "fishie_tank",
-	"last_update": 1607150370258,
+	"last_update": 1607276687616,
 	"output": [
 		{
 			"args": {},
@@ -60,8 +55,25 @@
 				"ed prima",
 				".\\nSancti"
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 20782,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"such ",
+				"oday'",
+				"primary",
+				"ment.\\n",
+				" announ",
+				" 'Che' ",
+				"ed prima",
+				".\\nSancti"
+			]
 		}
 	],
-	"updt": 1605040229391,
-	"edit": 1
+	"updt": 1607163791444,
+	"edit": 2
 }
