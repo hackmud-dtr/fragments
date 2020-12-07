@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_2s3stj.escrow_live",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "skip",
 	"script": "anonymous_2s3stj.escrow_live",
 	"sector": "VNP_1486",
 	"sec_level": 4,
 	"date_added": 1601522871494,
-	"last_scraped": 1607134838208,
+	"last_scraped": 1607277030762,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1607175937566,
+	"next_scrape": 1607360519983,
 	"category": "risk_factor",
-	"last_update": 1607134838208,
+	"last_update": 1607277030762,
 	"output": [
 		{
 			"args": {},
@@ -36,15 +36,21 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 2482,
+			"calls": 3026,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
+				"decks",
+				"044 H",
 				"043 6",
-				"ne.\\n2",
+				"es.\\n2",
+				"6 lane",
 				" line.",
 				"n.\\n204",
+				"ave you",
 				"4 Have ",
 				"042 6 d",
+				"line.\\n2",
+				"42 6 dec",
 				"e.\\n2043 "
 			]
 		},
@@ -2538,13 +2544,8 @@
 			]
 		}
 	],
-	"updt": 1604200105061,
-	"edit": 9,
+	"updt": 1607162421813,
+	"edit": 10,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true,
-	"retry_args": [
-		{
-			"do": "win"
-		}
-	]
+	"cannot_identify": true
 }
