@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_d3ndgr.transactions",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_d3ndgr.transactions",
 	"sector": "VNP_2692",
 	"sec_level": 4,
 	"date_added": 1605577770393,
-	"last_scraped": 1607152017398,
+	"last_scraped": 1607324810004,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,23 +14,33 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1607196130363,
+	"next_scrape": 1607370407005,
 	"category": "fishie_tank",
-	"last_update": 1607152017398,
+	"last_update": 1607324791118,
 	"output": [
 		{
 			"args": {},
-			"calls": 19353,
+			"calls": 39376,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"possi",
+				"of aw",
+				"an id",
+				" and ",
+				"t is p",
 				"reness",
+				"It is ",
 				"hieve ",
 				"ess. |",
+				" gener",
+				"warenes",
 				"orm of ",
+				"on the ",
 				"more ro",
 				"le for ",
 				"ised fo",
-				" terms:"
+				" terms:",
+				"al exter"
 			]
 		},
 		{
@@ -75,6 +85,14 @@
 			]
 		}
 	],
-	"updt": 1605578008024,
-	"edit": 2
+	"updt": 1607163986285,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }

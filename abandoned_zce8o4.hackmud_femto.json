@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_zce8o4.hackmud_femto",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_zce8o4.hackmud_femto",
 	"sector": "VNP_8352",
 	"sec_level": 4,
 	"date_added": 1605136319563,
-	"last_scraped": 1607150804160,
+	"last_scraped": 1607324611497,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,23 +14,31 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1607196289562,
+	"next_scrape": 1607369085120,
 	"category": "fishie_tank",
-	"last_update": 1607150804160,
+	"last_update": 1607324592110,
 	"output": [
 		{
 			"args": {},
-			"calls": 30154,
+			"calls": 52582,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"tione",
-				"ared ",
-				" inte",
+				"face ",
+				"e fac",
 				"what i",
+				"is wha",
 				"ess to",
+				"ed art",
+				"e 2030",
 				"d arti",
 				"al int",
-				" a shar"
+				" intel",
+				"at is r",
+				" a shar",
+				"ith the ",
+				"ared set",
+				". Common"
 			],
 			"hits": [
 				{
@@ -219,8 +227,8 @@
 			]
 		}
 	],
-	"updt": 1605136564124,
-	"edit": 2,
+	"updt": 1607163791444,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -293,6 +301,14 @@
 			"frags": [
 				" inte"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
