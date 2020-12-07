@@ -6,23 +6,23 @@
 	"sector": "HJG_3331",
 	"sec_level": 4,
 	"date_added": 1606222559423,
-	"last_scraped": 1607156242454,
+	"last_scraped": 1607327297569,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1606222559423
 		}
 	],
-	"updt": 1606222763505,
-	"edit": 2,
+	"updt": 1607164181951,
+	"edit": 3,
 	"scrape_ct": 18,
-	"next_scrape": 1607249338618,
+	"next_scrape": 1607369955732,
 	"category": "risk_factor",
-	"last_update": 1607156242454,
+	"last_update": 1607327297569,
 	"output": [
 		{
 			"args": {},
-			"calls": 2826,
+			"calls": 12916,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"0XB23",
@@ -663,5 +663,13 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }

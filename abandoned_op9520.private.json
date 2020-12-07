@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_op9520.private",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_op9520.private",
 	"sector": "HJG_3331",
 	"sec_level": 4,
 	"date_added": 1606268120956,
-	"last_scraped": 1607156460822,
+	"last_scraped": 1607327352195,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 2,
-	"next_scrape": 1607196410845,
+	"next_scrape": 1607372039059,
 	"category": "fishie_tank",
-	"last_update": 1607156460822,
+	"last_update": 1607327333225,
 	"output": [
 		{
 			"args": {},
-			"calls": 105240,
+			"calls": 115109,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"e inf",
@@ -140,6 +140,14 @@
 			]
 		}
 	],
-	"updt": 1606269271307,
-	"edit": 6
+	"updt": 1607164181951,
+	"edit": 7,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
