@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_b1cfgu.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_b1cfgu.db",
 	"sector": "VNP_5602",
 	"sec_level": 4,
 	"date_added": 1602976882161,
-	"last_scraped": 1607175309561,
+	"last_scraped": 1607296982532,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1607220555840,
+	"next_scrape": 1607389830838,
 	"category": "risk_factor",
-	"last_update": 1607175309561,
+	"last_update": 1607296982532,
 	"output": [
 		{
 			"args": {},
@@ -43,19 +43,24 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 2394,
+			"calls": 2979,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"5",
+				"ll te",
 				"tems. ",
-				" now o",
 				"ted to ",
 				"s. from",
 				"nicians",
+				" on all",
 				"rom now ",
+				"om now o",
+				"nstructe",
 				"ems. fro",
+				"echnicia",
 				". from n",
-				" technic"
+				" technic",
+				" from no"
 			]
 		},
 		{
@@ -3665,14 +3670,11 @@
 			]
 		}
 	],
-	"updt": 1604200689967,
-	"edit": 11,
+	"updt": 1607175322308,
+	"edit": 12,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"cannot_identify": true,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

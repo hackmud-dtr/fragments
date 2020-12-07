@@ -6,7 +6,7 @@
 	"sector": "HJG_3358",
 	"sec_level": 4,
 	"date_added": 1602858538005,
-	"last_scraped": 1607147471003,
+	"last_scraped": 1607285033170,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1607236505473,
+	"next_scrape": 1607375979753,
 	"category": "risk_factor",
-	"last_update": 1604282452610,
+	"last_update": 1607285033170,
 	"output": [
 		{
 			"args": {},
@@ -34,15 +34,18 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 4110,
+			"calls": 4699,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"7",
 				"000 01",
-				"00 000",
-				" 0100 ",
-				"0000 00",
-				" 0000 0"
+				"00 100",
+				" 0100 1",
+				" 0100 0",
+				" 0000 0",
+				"1001 010",
+				"0000 000",
+				"\\n0000 00"
 			]
 		},
 		{
@@ -4634,14 +4637,11 @@
 			]
 		}
 	],
-	"updt": 1604305837179,
-	"edit": 13,
+	"updt": 1607163007659,
+	"edit": 14,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"cannot_identify": true,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
