@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_dssvjd.a",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_dssvjd.a",
 	"sector": "K_1427",
 	"sec_level": 4,
 	"date_added": 1603638374533,
-	"last_scraped": 1607144370842,
+	"last_scraped": 1607319519073,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,23 +14,27 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1607186485652,
+	"next_scrape": 1607362417429,
 	"category": "fishie_tank",
-	"last_update": 1607144370842,
+	"last_update": 1607319519073,
 	"output": [
 		{
 			"args": {},
-			"calls": 152535,
+			"calls": 188001,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"E4B o",
 				" here",
+				" Worki",
 				"of hour",
 				"king ag",
 				"fore: Y",
 				"ours. Wo",
 				"nst\\n1E4",
-				"hours. W"
+				"ing agai",
+				"hours. W",
+				"g agains",
+				" hours. "
 			],
 			"hits": [
 				{
@@ -122,8 +126,8 @@
 			]
 		}
 	],
-	"updt": 1604256386148,
-	"edit": 7,
+	"updt": 1607163203372,
+	"edit": 8,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -137,6 +141,14 @@
 				"nst\\n1E4",
 				"hours. W"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
