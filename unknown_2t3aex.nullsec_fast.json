@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_2t3aex.nullsec_fast",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unknown_2t3aex.nullsec_fast",
 	"sector": "VNP_7395",
 	"sec_level": 4,
@@ -16,7 +16,7 @@
 	"scrape_ct": 15,
 	"next_scrape": 1607273342385,
 	"category": "fishie_tank",
-	"last_update": 1607232332393,
+	"last_update": 1607307807059,
 	"output": [
 		{
 			"args": {},
@@ -114,7 +114,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2856,
+			"calls": 10039,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -304,8 +304,8 @@
 			]
 		}
 	],
-	"updt": 1606116638386,
-	"edit": 2,
+	"updt": 1607232367943,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -383,9 +383,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
