@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_0vgfzl.k",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_0vgfzl.k",
 	"sector": "HJG_9960",
 	"sec_level": 4,
 	"date_added": 1600674945881,
-	"last_scraped": 1607143484300,
+	"last_scraped": 1607318739745,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1607187758311,
+	"next_scrape": 1607359847454,
 	"category": "fishie_tank",
-	"last_update": 1607143484300,
+	"last_update": 1607318739745,
 	"output": [
 		{
 			"args": {},
-			"calls": 167837,
+			"calls": 206969,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"your ",
@@ -31,11 +31,16 @@
 				"ith yo",
 				" ready",
 				"th your",
+				"ssigned",
+				"ady to ",
 				" this l",
+				" and ge",
 				"ur assig",
+				"s lull g",
 				"o move -",
 				"nd get r",
-				"his lull"
+				"his lull",
+				"and get "
 			],
 			"hits": [
 				{
@@ -151,6 +156,14 @@
 			]
 		}
 	],
-	"updt": 1604252477853,
-	"edit": 12
+	"updt": 1607162226757,
+	"edit": 13,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
