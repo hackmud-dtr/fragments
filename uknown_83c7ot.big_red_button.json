@@ -1,16 +1,69 @@
 {
 	"_id": "uknown_83c7ot.big_red_button",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "skip",
 	"script": "uknown_83c7ot.big_red_button",
 	"sector": "K_9823",
 	"sec_level": 4,
 	"date_added": 1607291778452,
-	"last_scraped": 0,
+	"last_scraped": 1607313676864,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1607291778452
+		},
+		{
+			"type": "died",
+			"when": 1607313623253
+		},
+		{
+			"type": "died",
+			"when": 1607313640104
+		},
+		{
+			"type": "died",
+			"when": 1607313660295
+		},
+		{
+			"type": "died",
+			"when": 1607313676864
 		}
-	]
+	],
+	"updt": 1607313670091,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1607395149744,
+	"category": "fishie_tank",
+	"last_update": 1607313604290,
+	"output": [
+		{
+			"args": {},
+			"calls": 14334,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ing s",
+				"swathe",
+				" syste",
+				"system ",
+				"rating ",
+				"ighborh",
+				"ghborho",
+				" was ab",
+				"rhoods, ",
+				"igned mu",
+				"Houston'",
+				"hborhood",
+				"gn swath"
+			]
+		}
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR uknown_83c7ot.big_red_button: script doesn't exist\"}"
 }
