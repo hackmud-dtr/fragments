@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_35s9eo.t2_scrape",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_35s9eo.t2_scrape",
 	"sector": "K_6981",
 	"sec_level": 4,
 	"date_added": 1600417877806,
-	"last_scraped": 1607276543742,
+	"last_scraped": 1607419260342,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,29 +14,35 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1607319899193,
+	"next_scrape": 1607461360802,
 	"category": "fishie_tank",
-	"last_update": 1607276543742,
+	"last_update": 1607419260342,
 	"output": [
 		{
 			"args": {},
-			"calls": 197684,
+			"calls": 243102,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"SYST ",
-				"R | U",
 				"43B_F",
 				"3B_FI",
 				"TIME E",
 				"E ERRO",
 				" ERROR",
+				" | NET",
 				"ROR | T",
+				"OG ERRO",
 				"LST0X35",
+				"ETW ERR",
 				"ECT0XA4",
 				"5\\nSYST",
 				"44_CLST",
+				"35_SECT",
+				"\\nSYST ",
 				"_CLST0X",
 				" fbreto",
+				"T0X44_CL",
+				"RROR | U",
+				"ROR | US",
 				"ROR | NE",
 				"B_FILE0X",
 				"1A6B85\\nS"
@@ -166,6 +172,14 @@
 			]
 		}
 	],
-	"updt": 1607162031196,
-	"edit": 13
+	"updt": 1607303317184,
+	"edit": 14,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
