@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_0vgfzl.k",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_0vgfzl.k",
 	"sector": "HJG_9960",
 	"sec_level": 4,
 	"date_added": 1600674945881,
-	"last_scraped": 1607454393278,
+	"last_scraped": 1607505373397,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,33 +14,38 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1607498772824,
+	"next_scrape": 1607545631727,
 	"category": "fishie_tank",
-	"last_update": 1607454393278,
+	"last_update": 1607505446270,
 	"output": [
 		{
 			"args": {},
-			"calls": 206969,
+			"calls": 215810,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"your ",
 				"ps an",
-				"gned ",
-				" to m",
-				" - th",
+				"ove - ",
+				"orps a",
 				"ith yo",
-				" ready",
+				"d corp",
+				"ve - th",
 				"th your",
-				"ssigned",
+				"t ready",
+				"l gives",
 				"ady to ",
-				" this l",
 				" and ge",
 				"ur assig",
+				"ssigned ",
 				"s lull g",
 				"o move -",
 				"nd get r",
 				"his lull",
-				"and get "
+				"dy to mo",
+				"and get ",
+				" this lu",
+				" ready t",
+				" assigne"
 			],
 			"hits": [
 				{
@@ -62,7 +67,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 21673,
+			"calls": 26259,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -72,17 +77,24 @@
 			"fragments": [
 				"your ",
 				"ps an",
-				"gned ",
-				" to m",
-				" - th",
+				"ove - ",
+				"orps a",
 				"ith yo",
+				"d corp",
+				"ady to",
+				"ve - th",
 				"th your",
-				" this l",
+				"l gives",
 				"ur assig",
+				"ssigned ",
 				"o move -",
 				"nd get r",
 				"his lull",
-				"et ready"
+				"et ready",
+				"dy to mo",
+				" this lu",
+				" ready t",
+				" assigne"
 			],
 			"hits": [
 				{
@@ -157,6 +169,11 @@
 			]
 		}
 	],
-	"updt": 1607318749486,
-	"edit": 14
+	"updt": 1607475257136,
+	"edit": 15,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
