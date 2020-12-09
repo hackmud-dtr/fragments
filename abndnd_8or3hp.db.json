@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_8or3hp.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_8or3hp.db",
 	"sector": "HJG_3331",
 	"sec_level": 4,
 	"date_added": 1606211780586,
-	"last_scraped": 1607327188416,
+	"last_scraped": 1607456114703,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1607367442863,
+	"next_scrape": 1607497774117,
 	"category": "fishie_tank",
-	"last_update": 1607327188416,
+	"last_update": 1607456114703,
 	"output": [
 		{
 			"args": {},
@@ -95,7 +95,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2965,
+			"calls": 4312,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -175,7 +175,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 39910,
+			"calls": 54453,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"would",
@@ -190,8 +190,8 @@
 			]
 		}
 	],
-	"updt": 1607327156765,
-	"edit": 4,
+	"updt": 1607327352675,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -247,14 +247,6 @@
 			"frags": [
 				"nvironm"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

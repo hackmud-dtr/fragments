@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_imvopo.public",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anonymous_imvopo.public",
 	"sector": "VNP_4987",
 	"sec_level": 4,
 	"date_added": 1606732123535,
-	"last_scraped": 1607328293733,
+	"last_scraped": 1607456494730,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1607367964316,
+	"next_scrape": 1607500224351,
 	"category": "fishie_tank",
-	"last_update": 1607328293733,
+	"last_update": 1607456494730,
 	"output": [
 		{
 			"args": {},
@@ -34,13 +34,31 @@
 				"d the va",
 				"093 for ",
 				"ue\\n2093 "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"091 W",
+						"92 I'v",
+						" secon",
+						" for h",
+						"ve adjus",
+						"or human",
+						"man comp",
+						"ed the v",
+						"d the va",
+						"093 for ",
+						"ue\\n2093 "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2025,
+			"calls": 5423,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -48,34 +66,80 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"091 W",
+				"92 I'v",
+				" secon",
+				" for h",
+				"ve adjus",
 				"or human",
+				"man comp",
 				"ed the v",
 				"d the va",
+				"093 for ",
 				"ue\\n2093 "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"or human",
+						"ed the v",
+						"d the va",
+						"ue\\n2093 "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 48947,
+			"calls": 64037,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"091 W",
+				"92 I'v",
+				" secon",
+				" for h",
+				"ve adjus",
 				"or human",
+				"man comp",
 				"ed the v",
 				"d the va",
+				"093 for ",
 				"ue\\n2093 "
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"or human",
+						"ed the v",
+						"d the va",
+						"ue\\n2093 "
+					]
+				}
 			]
 		}
 	],
-	"updt": 1607164375772,
-	"edit": 2,
-	"retry_args": [
+	"updt": 1607328330512,
+	"edit": 3,
+	"identified": [
 		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"091 W",
+				"92 I'v",
+				" secon",
+				" for h",
+				"ve adjus",
+				"or human",
+				"man comp",
+				"ed the v",
+				"d the va",
+				"093 for ",
+				"ue\\n2093 "
+			]
 		}
 	]
 }

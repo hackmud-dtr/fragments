@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_1o7er0.bot_brain",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_1o7er0.bot_brain",
 	"sector": "NGC_9447",
 	"sec_level": 4,
 	"date_added": 1607030908367,
-	"last_scraped": 1607328823215,
+	"last_scraped": 1607456766180,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1607370524213,
+	"next_scrape": 1607503091624,
 	"category": "fishie_tank",
-	"last_update": 1607328823215,
+	"last_update": 1607456766180,
 	"output": [
 		{
 			"args": {},
@@ -32,13 +32,29 @@
 				"E0XBBE2",
 				"ST0XF3_S",
 				" ERROR |"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"PROG ",
+						"00_CL",
+						" NETW",
+						"E270FC",
+						"A_FILE",
+						"X756A_F",
+						"E0XBBE2",
+						"ST0XF3_S",
+						" ERROR |"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3537,
+			"calls": 5268,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -55,13 +71,29 @@
 				"E0XBBE2",
 				"ST0XF3_S",
 				" ERROR |"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"PROG ",
+						"00_CL",
+						" NETW",
+						"E270FC",
+						"A_FILE",
+						"X756A_F",
+						"E0XBBE2",
+						"ST0XF3_S",
+						" ERROR |"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 61210,
+			"calls": 90319,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"PROG ",
@@ -73,17 +105,41 @@
 				"E0XBBE2",
 				"ST0XF3_S",
 				" ERROR |"
+			],
+			"hits": [
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						"PROG ",
+						"00_CL",
+						" NETW",
+						"E270FC",
+						"A_FILE",
+						"X756A_F",
+						"E0XBBE2",
+						"ST0XF3_S",
+						" ERROR |"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1607164573060,
-	"edit": 2,
-	"retry_args": [
+	"updt": 1607328918661,
+	"edit": 3,
+	"identified": [
 		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				"PROG ",
+				"00_CL",
+				" NETW",
+				"E270FC",
+				"A_FILE",
+				"X756A_F",
+				"E0XBBE2",
+				"ST0XF3_S",
+				" ERROR |"
+			]
 		}
 	]
 }

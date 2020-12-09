@@ -6,7 +6,7 @@
 	"sector": "K_9272",
 	"sec_level": 4,
 	"date_added": 1606497262622,
-	"last_scraped": 1607291506258,
+	"last_scraped": 1607470586359,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1607370841612,
+	"next_scrape": 1607510833105,
 	"category": "risk_factor",
-	"last_update": 1607291506258,
+	"last_update": 1607470586359,
 	"output": [
 		{
 			"args": {},
-			"calls": 5210,
+			"calls": 7714,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"rocess",
@@ -36,7 +36,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 786,
+			"calls": 1209,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"rocess",
@@ -1008,8 +1008,13 @@
 			]
 		}
 	],
-	"updt": 1607164181951,
-	"edit": 3,
+	"updt": 1607305468451,
+	"edit": 4,
 	"cannot_identify": true,
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }

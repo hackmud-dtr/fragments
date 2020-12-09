@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_ds1gtl.excavator",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "derelict_ds1gtl.excavator",
 	"sector": "NGC_6499",
 	"sec_level": 4,
 	"date_added": 1606889850639,
-	"last_scraped": 1607293645271,
+	"last_scraped": 1607451965543,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1607386330678,
+	"next_scrape": 1607544821667,
 	"category": "risk_factor",
-	"last_update": 1607293645271,
+	"last_update": 1607451965543,
 	"output": [
 		{
 			"args": {},
@@ -35,7 +35,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 560,
+			"calls": 731,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"ering",
@@ -1204,13 +1204,10 @@
 			]
 		}
 	],
-	"updt": 1607164375772,
-	"edit": 3,
+	"updt": 1607305662213,
+	"edit": 4,
 	"cannot_identify": true,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

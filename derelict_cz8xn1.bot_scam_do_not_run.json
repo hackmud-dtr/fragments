@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_cz8xn1.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "derelict_cz8xn1.bot_scam_do_not_run",
 	"sector": "VNP_4987",
 	"sec_level": 4,
 	"date_added": 1606746277549,
-	"last_scraped": 1607292758792,
+	"last_scraped": 1607471201814,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1607373708103,
+	"next_scrape": 1607564249731,
 	"category": "risk_factor",
-	"last_update": 1607292758792,
+	"last_update": 1607471182923,
 	"output": [
 		{
 			"args": {},
-			"calls": 3567,
+			"calls": 5116,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"re ol",
@@ -37,7 +37,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 487,
+			"calls": 865,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"re ol",
@@ -51,8 +51,16 @@
 			]
 		}
 	],
-	"updt": 1607164375772,
-	"edit": 3,
+	"updt": 1607305662213,
+	"edit": 4,
 	"cannot_identify": true,
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }

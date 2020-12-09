@@ -1,32 +1,24 @@
 {
 	"_id": "unknown_cgcxt5.emojis",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unknown_cgcxt5.emojis",
 	"sector": "K_9823",
 	"sec_level": 4,
 	"date_added": 1607301440015,
-	"last_scraped": 1607313803656,
+	"last_scraped": 1607453705520,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1607301440015
 		}
 	],
-	"updt": 1607305859109,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
+	"updt": 1607313865070,
+	"edit": 2,
 	"scrape_ct": 16,
-	"next_scrape": 1607313863656,
+	"next_scrape": 1607495037158,
 	"category": "fishie_tank",
-	"last_update": 1607313803656,
+	"last_update": 1607453705520,
 	"output": [
 		{
 			"args": {},
@@ -39,6 +31,87 @@
 				"te to ",
 				"phenome",
 				"his line"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"an - ",
+						"'t us",
+						"phenome",
+						"his line"
+					]
+				},
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"ood a"
+					]
+				},
+				{
+					"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+					"frags": [
+						"te to "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1131,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ood a",
+				"an - ",
+				"'t us",
+				"te to ",
+				"phenome",
+				"his line"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 14627,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ood a",
+				"an - ",
+				"'t us",
+				"te to ",
+				"phenome",
+				"his line"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"an - ",
+				"'t us",
+				"phenome",
+				"his line"
+			]
+		},
+		{
+			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+			"frags": [
+				"ood a"
+			]
+		},
+		{
+			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
+			"frags": [
+				"te to "
 			]
 		}
 	]

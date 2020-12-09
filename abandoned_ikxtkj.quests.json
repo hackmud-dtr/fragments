@@ -1,28 +1,28 @@
 {
 	"_id": "abandoned_ikxtkj.quests",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_ikxtkj.quests",
 	"sector": "NGC_9447",
 	"sec_level": 4,
 	"date_added": 1606984545148,
-	"last_scraped": 1607276813224,
+	"last_scraped": 1607462563637,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1606984545148
 		}
 	],
-	"updt": 1607164375772,
-	"edit": 8,
+	"updt": 1607305662213,
+	"edit": 9,
 	"scrape_ct": 3,
-	"next_scrape": 1607322374600,
+	"next_scrape": 1607505637865,
 	"category": "fishie_tank",
-	"last_update": 1607276813224,
+	"last_update": 1607462563637,
 	"output": [
 		{
 			"args": {},
-			"calls": 97821,
+			"calls": 106218,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"f tho",
@@ -50,7 +50,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 20101,
+			"calls": 21563,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -83,7 +83,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 140992,
+			"calls": 168766,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"f tho",

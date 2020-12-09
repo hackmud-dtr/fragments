@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_op9520.private",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_op9520.private",
 	"sector": "HJG_3331",
 	"sec_level": 4,
 	"date_added": 1606268120956,
-	"last_scraped": 1607327405587,
+	"last_scraped": 1607456168831,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 2,
-	"next_scrape": 1607373187861,
+	"next_scrape": 1607502096345,
 	"category": "fishie_tank",
-	"last_update": 1607327405587,
+	"last_update": 1607456168831,
 	"output": [
 		{
 			"args": {},
@@ -54,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 18570,
+			"calls": 20216,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -93,7 +93,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 115562,
+			"calls": 129572,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"e inf",
@@ -140,14 +140,6 @@
 			]
 		}
 	],
-	"updt": 1607164181951,
-	"edit": 7,
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1607327548852,
+	"edit": 8
 }

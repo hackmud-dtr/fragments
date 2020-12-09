@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_rynoc4.find_npcs",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_rynoc4.find_npcs",
 	"sector": "K_9823",
 	"sec_level": 4,
 	"date_added": 1607314364612,
-	"last_scraped": 1607314456992,
+	"last_scraped": 1607472778256,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1607314516992,
+	"next_scrape": 1607519461206,
 	"category": "dice_roller",
-	"last_update": 1607314456992,
+	"last_update": 1607472778256,
 	"output": [
 		{
 			"args": {},
-			"calls": 40796,
+			"calls": 82682,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
 				"\\nSYST ",
@@ -29,9 +29,35 @@
 				"ST0X69_S",
 				"R | NETW",
 				"0X885F_F"
+			],
+			"hits": [
+				{
+					"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+					"frags": [
+						"\\nSYST ",
+						"_SECT0X",
+						"X8C8517B",
+						"ST0X69_S",
+						"R | NETW",
+						"0X885F_F"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1607314451417,
-	"edit": 1
+	"updt": 1607314647804,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
+			"frags": [
+				"\\nSYST ",
+				"_SECT0X",
+				"X8C8517B",
+				"ST0X69_S",
+				"R | NETW",
+				"0X885F_F"
+			]
+		}
+	]
 }
