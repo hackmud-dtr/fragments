@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_vc7eaw.hypercluster",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_vc7eaw.hypercluster",
 	"sector": "HJG_3331",
 	"sec_level": 4,
 	"date_added": 1606229933947,
-	"last_scraped": 1607545194318,
+	"last_scraped": 1607545230552,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 13,
-	"next_scrape": 1607589274218,
+	"next_scrape": 1607588887393,
 	"category": "fishie_tank",
-	"last_update": 1607545194318,
+	"last_update": 1607545230552,
 	"output": [
 		{
 			"args": {},
@@ -50,7 +50,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 11826,
+			"calls": 13439,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -85,7 +85,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 56606,
+			"calls": 66139,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"aring",
@@ -126,11 +126,6 @@
 				"-practi",
 				"rt squar"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
