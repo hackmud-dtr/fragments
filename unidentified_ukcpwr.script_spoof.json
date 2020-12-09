@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_ukcpwr.script_spoof",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_ukcpwr.script_spoof",
 	"sector": "SPC_4277",
 	"sec_level": 4,
 	"date_added": 1605938138397,
-	"last_scraped": 1607458940991,
+	"last_scraped": 1607510904285,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 13,
-	"next_scrape": 1607503795688,
+	"next_scrape": 1607553285289,
 	"category": "clicker",
-	"last_update": 1607458940991,
+	"last_update": 1607510904285,
 	"output": [
 		{
 			"args": {},
-			"calls": 64479,
+			"calls": 90087,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"on has",
@@ -141,6 +141,14 @@
 			]
 		}
 	],
-	"updt": 1607326570055,
-	"edit": 4
+	"updt": 1607477602851,
+	"edit": 5,
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
+		}
+	]
 }
