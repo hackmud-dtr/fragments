@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_kmo7m7.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_kmo7m7.db",
 	"sector": "VNP_8791",
 	"sec_level": 4,
 	"date_added": 1601046665878,
-	"last_scraped": 1607457238481,
+	"last_scraped": 1607508968061,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1607502990091,
+	"next_scrape": 1607552019297,
 	"category": "fishie_tank",
-	"last_update": 1607457238481,
+	"last_update": 1607509003535,
 	"output": [
 		{
 			"args": {},
-			"calls": 241805,
+			"calls": 257261,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"we un",
@@ -62,7 +62,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 22158,
+			"calls": 24779,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -156,8 +156,8 @@
 			]
 		}
 	],
-	"updt": 1607419771794,
-	"edit": 17,
+	"updt": 1607475452699,
+	"edit": 18,
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
@@ -177,6 +177,11 @@
 				"een high",
 				"e unders"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
