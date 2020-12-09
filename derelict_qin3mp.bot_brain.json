@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_qin3mp.bot_brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_qin3mp.bot_brain",
 	"sector": "HJG_9960",
 	"sec_level": 4,
@@ -13,12 +13,12 @@
 			"when": 1600710492789
 		}
 	],
-	"updt": 1607492259598,
-	"edit": 16,
+	"updt": 1607542475636,
+	"edit": 17,
 	"scrape_ct": 14,
 	"next_scrape": 1607583172323,
 	"category": "fishie_tank",
-	"last_update": 1607542462126,
+	"last_update": 1607542497778,
 	"output": [
 		{
 			"args": {},
@@ -65,7 +65,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 27784,
+			"calls": 30346,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -167,9 +167,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
