@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_g23vnf.za_cleanup",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_g23vnf.za_cleanup",
 	"sector": "HJG_1875",
 	"sec_level": 4,
 	"date_added": 1600150566661,
-	"last_scraped": 1607458633519,
+	"last_scraped": 1607509854539,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1607498415430,
+	"next_scrape": 1607552810969,
 	"category": "clicker",
-	"last_update": 1607458633519,
+	"last_update": 1607509854539,
 	"output": [
 		{
 			"args": {},
-			"calls": 219114,
+			"calls": 247482,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"ty stac",
@@ -55,7 +55,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 168562,
+			"calls": 177306,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"ty stac",
@@ -367,8 +367,8 @@
 			]
 		}
 	],
-	"updt": 1607319924548,
-	"edit": 16,
+	"updt": 1607509847756,
+	"edit": 18,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -401,6 +401,11 @@
 				"mbat\\n215",
 				"ck.\\n215B"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"CLICK": true
 		}
 	]
 }
