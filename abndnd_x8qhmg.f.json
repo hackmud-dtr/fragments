@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_x8qhmg.f",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "abndnd_x8qhmg.f",
 	"sector": "NGC_1019",
 	"sec_level": 4,
 	"date_added": 1604492504203,
-	"last_scraped": 1607450897748,
+	"last_scraped": 1607514672817,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1607532913679,
+	"next_scrape": 1607607197833,
 	"category": "risk_factor",
-	"last_update": 1607450879488,
+	"last_update": 1607514672817,
 	"output": [
 		{
 			"args": {},
@@ -35,7 +35,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 969,
+			"calls": 1408,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"sensu",
@@ -3604,13 +3604,10 @@
 			]
 		}
 	],
-	"updt": 1607304879038,
-	"edit": 3,
+	"updt": 1607477016472,
+	"edit": 4,
 	"cannot_identify": true,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
