@@ -1,24 +1,24 @@
 {
 	"_id": "anonymous_jywmou.bot_brain",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "anonymous_jywmou.bot_brain",
 	"sector": "HJG_3331",
 	"sec_level": 4,
 	"date_added": 1606222559423,
-	"last_scraped": 1607459014773,
+	"last_scraped": 1607516597808,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1606222559423
 		}
 	],
-	"updt": 1607327352675,
-	"edit": 4,
+	"updt": 1607477798881,
+	"edit": 5,
 	"scrape_ct": 18,
-	"next_scrape": 1607548609137,
+	"next_scrape": 1607606237316,
 	"category": "risk_factor",
-	"last_update": 1607456133691,
+	"last_update": 1607516597808,
 	"output": [
 		{
 			"args": {},
@@ -38,7 +38,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 422,
+			"calls": 575,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"0XB23",
@@ -665,9 +665,6 @@
 	],
 	"cannot_identify": true,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
