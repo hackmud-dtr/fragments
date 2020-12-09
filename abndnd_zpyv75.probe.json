@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_zpyv75.probe",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "timeout",
 	"script": "abndnd_zpyv75.probe",
 	"sector": "K_9272",
 	"sec_level": 4,
 	"date_added": 1606658443034,
-	"last_scraped": 1607451911870,
+	"last_scraped": 1607500423891,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1607493428777,
+	"next_scrape": 1607580903408,
 	"category": "risk_factor",
-	"last_update": 1607451911870,
+	"last_update": 1607500423891,
 	"output": [
 		{
 			"args": {},
-			"calls": 2093,
+			"calls": 5138,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"soluti",
@@ -37,7 +37,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 1833,
+			"calls": 2037,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"soluti",
@@ -1842,8 +1842,13 @@
 			]
 		}
 	],
-	"updt": 1607305662213,
-	"edit": 3,
+	"updt": 1607477994548,
+	"edit": 4,
 	"cannot_identify": true,
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }
