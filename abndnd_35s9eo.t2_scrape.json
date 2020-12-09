@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_35s9eo.t2_scrape",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_35s9eo.t2_scrape",
 	"sector": "K_6981",
 	"sec_level": 4,
 	"date_added": 1600417877806,
-	"last_scraped": 1607419260342,
+	"last_scraped": 1607457037601,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1607461360802,
+	"next_scrape": 1607500664353,
 	"category": "fishie_tank",
-	"last_update": 1607419260342,
+	"last_update": 1607457037601,
 	"output": [
 		{
 			"args": {},
@@ -68,7 +68,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 22277,
+			"calls": 23731,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -76,20 +76,25 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"R | U",
 				"ME ER",
 				"43B_F",
 				"TIME E",
 				"ST0X35",
-				"ETW ER",
+				"LST0X3",
 				"E ERRO",
-				"0X44_C",
+				" | NET",
 				"SYST ER",
 				"OR | NE",
+				"ETW ERR",
 				"44_CLST",
+				"35_SECT",
+				"\\nSYST ",
 				" fbreto",
+				"T0X44_CL",
 				"SER fbre",
 				"SECT0XA4",
+				"RROR | U",
+				"ROR | US",
 				"R | TIME",
 				"OG ERROR",
 				"ERROR | ",
@@ -117,7 +122,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 163413,
+			"calls": 177323,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"43B_F",
@@ -172,14 +177,6 @@
 			]
 		}
 	],
-	"updt": 1607303317184,
-	"edit": 14,
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1607419381589,
+	"edit": 15
 }

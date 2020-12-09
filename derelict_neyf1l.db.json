@@ -1,28 +1,28 @@
 {
 	"_id": "derelict_neyf1l.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "derelict_neyf1l.db",
 	"sector": "VNP_3422",
 	"sec_level": 4,
 	"date_added": 1601761033634,
-	"last_scraped": 1607277159502,
+	"last_scraped": 1607462816734,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1601761033634
 		}
 	],
-	"updt": 1607162618331,
-	"edit": 13,
+	"updt": 1607303903810,
+	"edit": 14,
 	"scrape_ct": 15,
-	"next_scrape": 1607319499885,
+	"next_scrape": 1607549169828,
 	"category": "risk_factor",
-	"last_update": 1607277159502,
+	"last_update": 1607462798684,
 	"output": [
 		{
 			"args": {},
-			"calls": 13407,
+			"calls": 16233,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"shes ",
@@ -32,13 +32,15 @@
 				"? ## ",
 				" ## d",
 				"t thin",
-				"hing. ",
 				" mean ",
+				"ll do a",
+				"l do an",
 				"ink she",
 				"hink sh",
 				"## does",
 				" to go.",
 				" our pr",
+				"thing. #",
 				"hat mean",
 				"anything",
 				", they'r"
@@ -48,7 +50,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 2631,
+			"calls": 3069,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"shes ",
@@ -58,17 +60,18 @@
 				"? ## ",
 				" ## d",
 				"t thin",
-				"ll do ",
 				"ey're ",
 				"es our",
 				" mean ",
 				"that me",
+				"ll do a",
+				"l do an",
 				"ink she",
 				"hink sh",
-				"hing. #",
 				"## does",
 				" to go.",
 				" our pr",
+				"thing. #",
 				"s that m",
 				"our pris",
 				"hat mean",
@@ -3446,5 +3449,13 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }

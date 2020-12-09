@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_cywh0w.test",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "uknown_cywh0w.test",
 	"sector": "VNP_8791",
 	"sec_level": 4,
 	"date_added": 1601019273302,
-	"last_scraped": 1607277920468,
+	"last_scraped": 1607463378603,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,30 +14,37 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1607319978142,
+	"next_scrape": 1607544891990,
 	"category": "risk_factor",
-	"last_update": 1607277920468,
+	"last_update": 1607463360187,
 	"output": [
 		{
 			"args": {},
-			"calls": 13394,
+			"calls": 17130,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"ump_g",
 				"erent",
+				". ## ",
+				" Mall",
 				"ners. ",
 				"llory'",
 				"e know",
+				"## ur ",
 				" ur cr",
 				" somet",
+				" creep",
 				"s only ",
+				"Mallory",
 				"'s only",
 				" differ",
+				"re all p",
 				"ows it. ",
 				"only dif",
 				"ometimes",
 				"isoners.",
 				"fist_bum",
+				"etimes, ",
 				" e <fist"
 			]
 		},
@@ -45,7 +52,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 2638,
+			"calls": 2835,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"4",
@@ -4983,8 +4990,16 @@
 			]
 		}
 	],
-	"updt": 1607162226757,
-	"edit": 11,
+	"updt": 1607303512217,
+	"edit": 12,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }

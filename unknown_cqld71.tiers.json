@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_cqld71.tiers",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "could not json",
 	"script": "unknown_cqld71.tiers",
 	"sector": "HJG_9960",
 	"sec_level": 4,
 	"date_added": 1600732354190,
-	"last_scraped": 1607277268061,
+	"last_scraped": 1607462873082,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,31 +14,42 @@
 		}
 	],
 	"scrape_ct": 14,
-	"next_scrape": 1607323187387,
+	"next_scrape": 1607504932392,
 	"category": "risk_factor",
-	"last_update": 1607277268061,
+	"last_update": 1607462852943,
 	"output": [
 		{
 			"args": {},
-			"calls": 11160,
+			"calls": 13862,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"ors t",
 				" posi",
+				" | It",
+				"reness",
+				"deal e",
 				"y with ",
 				"with ma",
 				"ve to a",
+				"to take",
 				"sts a s",
 				"sition ",
+				"perator",
 				"ntine g",
+				"ne gene",
+				"l fault",
+				"ernalis",
 				"a senti",
-				"generals"
+				"generals",
+				"es as By",
+				" Or to p"
 			]
 		},
 		{
 			"args": {
 				"do": "win"
 			},
-			"calls": 3973,
+			"calls": 4154,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"3",
@@ -4368,8 +4379,13 @@
 			]
 		}
 	],
-	"updt": 1607162226757,
-	"edit": 12,
+	"updt": 1607303512217,
+	"edit": 13,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		}
+	]
 }
