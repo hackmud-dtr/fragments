@@ -1,28 +1,28 @@
 {
 	"_id": "derelict_ezrpa4.blib",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_ezrpa4.blib",
 	"sector": "K_9825",
 	"sec_level": 4,
 	"date_added": 1601911382497,
-	"last_scraped": 1607447636699,
+	"last_scraped": 1607494373112,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1601911382497
 		}
 	],
-	"updt": 1607303903810,
-	"edit": 13,
+	"updt": 1607494410039,
+	"edit": 15,
 	"scrape_ct": 16,
-	"next_scrape": 1607494297832,
+	"next_scrape": 1607537727770,
 	"category": "fishie_tank",
-	"last_update": 1607447636699,
+	"last_update": 1607494427504,
 	"output": [
 		{
 			"args": {},
-			"calls": 213968,
+			"calls": 232485,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"rin R",
@@ -54,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 22987,
+			"calls": 25827,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -138,6 +138,11 @@
 				"E4C Com",
 				"1E4D Ex"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

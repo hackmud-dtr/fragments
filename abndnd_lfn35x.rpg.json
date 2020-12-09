@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_lfn35x.rpg",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_lfn35x.rpg",
 	"sector": "K_9823",
 	"sec_level": 4,
 	"date_added": 1607183535078,
-	"last_scraped": 1607448308771,
+	"last_scraped": 1607494699170,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1607494560225,
+	"next_scrape": 1607539918756,
 	"category": "fishie_tank",
-	"last_update": 1607448308771,
+	"last_update": 1607494754088,
 	"output": [
 		{
 			"args": {},
-			"calls": 60022,
+			"calls": 80530,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ience",
@@ -60,7 +60,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6830,
+			"calls": 9972,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -104,8 +104,8 @@
 			]
 		}
 	],
-	"updt": 1607305859109,
-	"edit": 2,
+	"updt": 1607478580598,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
@@ -123,6 +123,11 @@
 				"his expe",
 				"e would "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
