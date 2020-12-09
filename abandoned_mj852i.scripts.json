@@ -1,20 +1,24 @@
 {
 	"_id": "abandoned_mj852i.scripts",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abandoned_mj852i.scripts",
 	"sector": "K_0449",
 	"sec_level": 4,
 	"date_added": 1604803703628,
-	"last_scraped": 1607286809840,
+	"last_scraped": 1607450933747,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1604803703628
+		},
+		{
+			"type": "died",
+			"when": 1607474989337
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1607328866165,
+	"next_scrape": 1607533867956,
 	"category": "risk_factor",
 	"last_update": 1607286809840,
 	"output": [
@@ -1945,13 +1949,16 @@
 			]
 		}
 	],
-	"updt": 1607163791444,
-	"edit": 3,
+	"updt": 1607305073687,
+	"edit": 4,
 	"cannot_identify": true,
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}
-	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	]
 }

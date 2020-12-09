@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_v5juh3.bot_run",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "unidentified_v5juh3.bot_run",
 	"sector": "VNP_0361",
 	"sec_level": 4,
 	"date_added": 1604712234401,
-	"last_scraped": 1607286483999,
+	"last_scraped": 1607467675701,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,29 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1607367268208,
+	"next_scrape": 1607555143127,
 	"category": "risk_factor",
-	"last_update": 1607286483999,
+	"last_update": 1607467657800,
 	"output": [
 		{
 			"args": {},
-			"calls": 2062,
+			"calls": 6113,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"stoni",
-				"ee to",
-				" reloc",
+				"peak ",
+				"emoti",
+				"w Hous",
+				"ee to ",
+				"ears o",
+				" most ",
+				"s on, h",
 				"rs on, ",
+				"apid re",
 				" howeve",
 				"ost of r",
 				"hat I sp",
+				"d reloca",
 				"at I spe",
 				" to hand"
 			]
@@ -38,7 +45,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 918,
+			"calls": 1186,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"4",
@@ -1372,7 +1379,16 @@
 			]
 		}
 	],
-	"updt": 1607163594918,
-	"edit": 3,
-	"cannot_identify": true
+	"updt": 1607305073687,
+	"edit": 4,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

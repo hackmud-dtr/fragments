@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_ehfb0e.dist",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_ehfb0e.dist",
 	"sector": "K_4401",
 	"sec_level": 4,
 	"date_added": 1605465835783,
-	"last_scraped": 1607225116609,
+	"last_scraped": 1607449087298,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1607268678422,
+	"next_scrape": 1607488727239,
 	"category": "fishie_tank",
-	"last_update": 1607305536116,
+	"last_update": 1607449087298,
 	"output": [
 		{
 			"args": {},
@@ -349,16 +349,23 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 16930,
+			"calls": 32134,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"SECT0",
+				"ader\"",
 				"45: R",
 				"_SECT",
-				"Houston",
-				"der\":\"N",
 				"CLST0X4",
+				"7052_FI",
+				"2_FILE0",
+				"\":\"New ",
 				"ouston I",
-				"\"data_ty"
+				"der\":\"Ne",
+				"0X3E_CLS",
+				"{\"data_t",
+				"\"data_ty",
+				" Houston"
 			],
 			"hits": [
 				{
@@ -501,8 +508,8 @@
 			]
 		}
 	],
-	"updt": 1607305468451,
-	"edit": 5,
+	"updt": 1607305662213,
+	"edit": 6,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -640,11 +647,6 @@
 			"frags": [
 				"_SECT"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }

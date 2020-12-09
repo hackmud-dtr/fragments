@@ -1,24 +1,24 @@
 {
 	"_id": "abndnd_wssr9z.unified_logs",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_wssr9z.unified_logs",
 	"sector": "K_0449",
 	"sec_level": 4,
 	"date_added": 1604803957938,
-	"last_scraped": 1607324393205,
+	"last_scraped": 1607455152092,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1604803957938
 		}
 	],
-	"updt": 1607163791444,
-	"edit": 3,
+	"updt": 1607324419137,
+	"edit": 4,
 	"scrape_ct": 20,
-	"next_scrape": 1607364331866,
+	"next_scrape": 1607495442183,
 	"category": "fishie_tank",
-	"last_update": 1607324393205,
+	"last_update": 1607455152092,
 	"output": [
 		{
 			"args": {},
@@ -40,13 +40,35 @@
 				"sources ",
 				"l/cultur",
 				"ith VERY"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"y wit",
+						"that ",
+						"d res",
+						"R hist",
+						"l sign",
+						" limit",
+						"rsonal ",
+						"roject ",
+						"project",
+						"pacity ",
+						"n a pro",
+						"as MAJO",
+						"sources ",
+						"l/cultur",
+						"ith VERY"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4289,
+			"calls": 9473,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -54,22 +76,44 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"y wit",
 				"that ",
-				"projec",
+				"d res",
+				"R hist",
 				"l sign",
+				" limit",
+				"rsonal ",
 				"roject ",
+				"project",
 				"pacity ",
 				"n a pro",
 				"as MAJO",
+				"sources ",
 				"l/cultur",
 				"ith VERY"
+			],
+			"hits": [
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"that ",
+						"projec",
+						"l sign",
+						"roject ",
+						"pacity ",
+						"n a pro",
+						"as MAJO",
+						"l/cultur",
+						"ith VERY"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 44597,
+			"calls": 54702,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"y wit",
@@ -81,15 +125,45 @@
 				"project",
 				"n a pro",
 				"sources "
+			],
+			"hits": [
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"y wit",
+						"d res",
+						" VERY",
+						"R hist",
+						" limit",
+						"rsonal ",
+						"project",
+						"n a pro",
+						"sources "
+					]
+				}
 			]
 		}
 	],
-	"retry_args": [
+	"identified": [
 		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
+			"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+			"frags": [
+				"y wit",
+				"that ",
+				"d res",
+				"R hist",
+				"l sign",
+				" limit",
+				"rsonal ",
+				"roject ",
+				"project",
+				"pacity ",
+				"n a pro",
+				"as MAJO",
+				"sources ",
+				"l/cultur",
+				"ith VERY"
+			]
 		}
 	]
 }

@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_fcd0oh.t1",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_fcd0oh.t1",
 	"sector": "VNP_1801",
 	"sec_level": 4,
 	"date_added": 1604652445502,
-	"last_scraped": 1607303757984,
+	"last_scraped": 1607452782124,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1607343733601,
+	"next_scrape": 1607498957931,
 	"category": "clicker",
-	"last_update": 1607303757984,
+	"last_update": 1607452782124,
 	"output": [
 		{
 			"args": {},
@@ -105,10 +105,30 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"CLICK": true
+			},
+			"calls": 3105,
+			"base": "`LCLICK  ECURED`",
+			"fragments": [
+				"order  S",
+				"end carS",
+				"169 AttS",
+				" order S",
+				"ve.\\n2169",
+				"nd card S",
+				"er TRAPSS",
+				"end cardS",
+				"end car S",
+				"169 Att S",
+				" cards\\n2"
+			]
 		}
 	],
-	"updt": 1607215951386,
-	"edit": 3,
+	"updt": 1607304879038,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -121,11 +141,6 @@
 				"tacker T",
 				".\\n2169 "
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"CLICK": true
 		}
 	]
 }

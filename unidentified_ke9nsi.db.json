@@ -1,28 +1,28 @@
 {
 	"_id": "unidentified_ke9nsi.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "unidentified_ke9nsi.db",
 	"sector": "VNP_2370",
 	"sec_level": 4,
 	"date_added": 1605496643041,
-	"last_scraped": 1607288044225,
+	"last_scraped": 1607468040281,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1605496643041
 		}
 	],
-	"updt": 1607163791444,
-	"edit": 3,
+	"updt": 1607305271913,
+	"edit": 4,
 	"scrape_ct": 16,
-	"next_scrape": 1607368568469,
+	"next_scrape": 1607551869310,
 	"category": "risk_factor",
-	"last_update": 1607288044225,
+	"last_update": 1607468003073,
 	"output": [
 		{
 			"args": {},
-			"calls": 5133,
+			"calls": 7391,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"value",
@@ -40,7 +40,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 897,
+			"calls": 1185,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"9",
@@ -1405,5 +1405,13 @@
 		}
 	],
 	"cannot_identify": true,
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }

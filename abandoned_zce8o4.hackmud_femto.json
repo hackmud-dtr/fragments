@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_zce8o4.hackmud_femto",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_zce8o4.hackmud_femto",
 	"sector": "VNP_8352",
 	"sec_level": 4,
 	"date_added": 1605136319563,
-	"last_scraped": 1607324628031,
+	"last_scraped": 1607455260817,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1607369955620,
+	"next_scrape": 1607495689106,
 	"category": "fishie_tank",
-	"last_update": 1607324628031,
+	"last_update": 1607455260817,
 	"output": [
 		{
 			"args": {},
@@ -119,7 +119,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1263,
+			"calls": 3019,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -128,13 +128,21 @@
 			],
 			"fragments": [
 				"tione",
+				"s. Co",
 				"ared ",
 				" inte",
 				"what i",
+				"tellig",
+				"ial in",
 				"ess to",
 				"d arti",
 				"al int",
-				" a shar"
+				" with ",
+				". Commo",
+				" a shar",
+				"t of san",
+				"s requir",
+				"died wit"
 			],
 			"hits": [
 				{
@@ -215,20 +223,26 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 48775,
+			"calls": 69460,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"al in",
 				"acces",
+				"tellig",
+				"ial in",
 				"ed art",
+				" with ",
 				" share",
+				". Commo",
+				"t of san",
+				"s requir",
 				"required",
+				"died wit",
 				"30s. Com"
 			]
 		}
 	],
-	"updt": 1607163791444,
-	"edit": 3,
+	"updt": 1607324810674,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -301,14 +315,6 @@
 			"frags": [
 				" inte"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
