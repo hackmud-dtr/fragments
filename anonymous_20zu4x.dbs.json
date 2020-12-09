@@ -6,7 +6,7 @@
 	"sector": "K_1427",
 	"sec_level": 4,
 	"date_added": 1603556255960,
-	"last_scraped": 1607491003008,
+	"last_scraped": 1607542027115,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,19 +14,25 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1607531206045,
+	"next_scrape": 1607586427779,
 	"category": "fishie_tank",
-	"last_update": 1607491003008,
+	"last_update": 1607542027115,
 	"output": [
 		{
 			"args": {},
-			"calls": 214452,
+			"calls": 225683,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"| USE",
+				"SER mh",
 				"lister",
+				"R mholl",
+				"PROG ER",
+				"olliste",
 				"RROR | T",
 				"OR | PRO",
 				"miyawaki",
+				"| TIME E",
 				" ERROR |"
 			],
 			"hits": [
@@ -46,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 19562,
+			"calls": 21026,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -54,10 +60,16 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"| USE",
+				"SER mh",
 				"lister",
+				"R mholl",
+				"PROG ER",
+				"olliste",
 				"RROR | T",
 				"OR | PRO",
 				"miyawaki",
+				"| TIME E",
 				" ERROR |"
 			],
 			"hits": [
@@ -77,13 +89,19 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 143526,
+			"calls": 153909,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"| USE",
+				"SER mh",
 				"lister",
+				"R mholl",
+				"PROG ER",
+				"olliste",
 				"RROR | T",
 				"OR | PRO",
 				"miyawaki",
+				"| TIME E",
 				" ERROR |"
 			],
 			"hits": [
@@ -100,8 +118,8 @@
 			]
 		}
 	],
-	"updt": 1607476626069,
-	"edit": 11,
+	"updt": 1607491085752,
+	"edit": 12,
 	"identified": [
 		{
 			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
