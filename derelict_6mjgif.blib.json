@@ -1,24 +1,24 @@
 {
 	"_id": "derelict_6mjgif.blib",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "derelict_6mjgif.blib",
 	"sector": "K_8571",
 	"sec_level": 4,
 	"date_added": 1603482277289,
-	"last_scraped": 1607317412437,
+	"last_scraped": 1607458506925,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603482277289
 		}
 	],
-	"updt": 1607317383238,
-	"edit": 10,
+	"updt": 1607317577589,
+	"edit": 11,
 	"scrape_ct": 16,
-	"next_scrape": 1607359026331,
+	"next_scrape": 1607551223732,
 	"category": "risk_factor",
-	"last_update": 1607317412437,
+	"last_update": 1607453940122,
 	"output": [
 		{
 			"args": {},
@@ -38,7 +38,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 2136,
+			"calls": 2281,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"3",
@@ -1438,5 +1438,6 @@
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

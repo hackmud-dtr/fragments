@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_jgisi6.unlock",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anonymous_jgisi6.unlock",
 	"sector": "HJG_9650",
 	"sec_level": 4,
 	"date_added": 1603931308448,
-	"last_scraped": 1607277703080,
+	"last_scraped": 1607463251455,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,23 +14,30 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1607369985912,
+	"next_scrape": 1607548453028,
 	"category": "risk_factor",
-	"last_update": 1607277703080,
+	"last_update": 1607463233484,
 	"output": [
 		{
 			"args": {},
-			"calls": 9422,
+			"calls": 13428,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"ural ",
+				"be ##",
 				" cult",
+				" a lo",
 				"ory ha",
-				"l valu",
+				", mayb",
+				" value",
 				"ultural",
+				"s prett",
+				"ne day,",
 				"Mallory",
 				"a lot o",
 				"y easy. ",
 				"storical",
+				"cal valu",
 				" anythin"
 			]
 		},
@@ -38,7 +45,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 1157,
+			"calls": 1301,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"ural ",
@@ -1130,8 +1137,16 @@
 			]
 		}
 	],
-	"updt": 1607163400363,
-	"edit": 6,
+	"updt": 1607304684167,
+	"edit": 7,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
