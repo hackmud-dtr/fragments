@@ -6,7 +6,7 @@
 	"sector": "HJG_5726",
 	"sec_level": 4,
 	"date_added": 1605713969145,
-	"last_scraped": 1607455463461,
+	"last_scraped": 1607506680018,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,28 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1607498065060,
+	"next_scrape": 1607549395362,
 	"category": "fishie_tank",
-	"last_update": 1607455463461,
+	"last_update": 1607506717609,
 	"output": [
 		{
 			"args": {},
-			"calls": 84913,
+			"calls": 98688,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"vidua",
+				"us re",
+				"one l",
 				"n con",
 				"ised ",
 				"idual",
+				"ice: ",
 				"to ove",
 				"o be s",
+				"e are n",
 				"aria ha",
+				"a has s",
+				"s its po",
 				"r indivi"
 			],
 			"hits": [
@@ -50,7 +57,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3903,
+			"calls": 6341,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -58,12 +65,19 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"vidua",
+				"us re",
+				"one l",
 				"n con",
 				"ised ",
 				"idual",
+				"ice: ",
 				"to ove",
 				"o be s",
+				"e are n",
 				"aria ha",
+				"a has s",
+				"s its po",
 				"r indivi"
 			],
 			"hits": [
@@ -112,8 +126,8 @@
 			]
 		}
 	],
-	"updt": 1607325201526,
-	"edit": 5,
+	"updt": 1607477602851,
+	"edit": 6,
 	"identified": [
 		{
 			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
@@ -126,6 +140,11 @@
 				"aria ha",
 				"r indivi"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
