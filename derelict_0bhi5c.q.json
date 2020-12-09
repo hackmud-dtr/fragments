@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_0bhi5c.q",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_0bhi5c.q",
 	"sector": "K_6543",
 	"sec_level": 4,
 	"date_added": 1606359017117,
-	"last_scraped": 1607453162567,
+	"last_scraped": 1607503887315,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 9,
-	"next_scrape": 1607497439560,
+	"next_scrape": 1607549157276,
 	"category": "clicker",
-	"last_update": 1607453162567,
+	"last_update": 1607503887315,
 	"output": [
 		{
 			"args": {},
-			"calls": 74788,
+			"calls": 97931,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"k 'las",
@@ -48,7 +48,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 77306,
+			"calls": 99165,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"k 'las",
@@ -135,6 +135,11 @@
 			]
 		}
 	],
-	"updt": 1607308984435,
-	"edit": 6
+	"updt": 1607477798881,
+	"edit": 7,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }

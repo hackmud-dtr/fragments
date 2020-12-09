@@ -1,12 +1,12 @@
 {
 	"_id": "anon_1su951.cmp",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_1su951.cmp",
 	"sector": "NGC_9714",
 	"sec_level": 4,
 	"date_added": 1606301709961,
-	"last_scraped": 1607453126036,
+	"last_scraped": 1607503778040,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 13,
-	"next_scrape": 1607499673589,
+	"next_scrape": 1607550163985,
 	"category": "clicker",
-	"last_update": 1607453126036,
+	"last_update": 1607503778040,
 	"output": [
 		{
 			"args": {},
-			"calls": 46815,
+			"calls": 71658,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"ver, ",
@@ -48,7 +48,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 50829,
+			"calls": 61884,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"ver, ",
@@ -114,6 +114,11 @@
 			]
 		}
 	],
-	"updt": 1607308594261,
-	"edit": 4
+	"updt": 1607477798881,
+	"edit": 5,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }

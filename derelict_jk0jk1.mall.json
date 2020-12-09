@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_jk0jk1.mall",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_jk0jk1.mall",
 	"sector": "NGC_0938",
 	"sec_level": 4,
 	"date_added": 1601448832161,
-	"last_scraped": 1607453397226,
+	"last_scraped": 1607504430035,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,35 +14,41 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1607496747874,
+	"next_scrape": 1607546387831,
 	"category": "risk_factor",
-	"last_update": 1607453397226,
+	"last_update": 1607504430035,
 	"output": [
 		{
 			"args": {},
-			"calls": 12592,
+			"calls": 19357,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"ntal ",
 				"ng AI",
 				"ks a ",
+				"ifica",
 				"ding ",
-				"rse su",
 				" in th",
 				" chang",
+				"urse su",
 				"tal cha",
+				"is is m",
 				" social",
 				"social e",
 				"l engine",
+				"ial engi",
 				"he disco",
 				"driven s",
-				"cant shi"
+				"cial eng",
+				"cant shi",
+				"and sugg"
 			]
 		},
 		{
 			"args": {
 				"do": "win"
 			},
-			"calls": 3607,
+			"calls": 3896,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"ntal ",
@@ -3230,8 +3236,13 @@
 			]
 		}
 	],
-	"updt": 1607312107627,
-	"edit": 14,
+	"updt": 1607475648654,
+	"edit": 15,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }

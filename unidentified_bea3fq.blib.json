@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_bea3fq.blib",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_bea3fq.blib",
 	"sector": "VNP_1486",
 	"sec_level": 4,
 	"date_added": 1601542886839,
-	"last_scraped": 1607453470059,
+	"last_scraped": 1607504538706,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,19 +14,30 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1607498201970,
+	"next_scrape": 1607545949755,
 	"category": "risk_factor",
-	"last_update": 1607453470059,
+	"last_update": 1607504538706,
 	"output": [
 		{
 			"args": {},
-			"calls": 12763,
+			"calls": 22119,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"knew ",
+				"Is th",
+				"ions.",
 				"en'. #",
 				"e coul",
+				" Salee",
+				"we knew",
+				"ldren'.",
+				". ## Is",
+				" ever h",
 				"thinks l",
+				"limitati",
 				"er, Sale",
+				"d what w",
+				" would h",
 				" to prot"
 			]
 		},
@@ -4478,8 +4489,16 @@
 			]
 		}
 	],
-	"updt": 1607312107627,
-	"edit": 12,
+	"updt": 1607475648654,
+	"edit": 13,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
