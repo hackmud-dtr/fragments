@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_pds2ts.f",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "could not json",
 	"script": "unidentified_pds2ts.f",
 	"sector": "HJG_9759",
 	"sec_level": 4,
 	"date_added": 1602635566810,
-	"last_scraped": 1607310798795,
+	"last_scraped": 1607458325064,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 14,
-	"next_scrape": 1607393961690,
+	"next_scrape": 1607503684950,
 	"category": "risk_factor",
-	"last_update": 1607251766438,
+	"last_update": 1607453326130,
 	"output": [
 		{
 			"args": {},
@@ -39,7 +39,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 2886,
+			"calls": 3081,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"3",
@@ -4883,15 +4883,12 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1607310742739,
-	"edit": 14,
+	"updt": 1607310937379,
+	"edit": 15,
 	"cannot_identify": true,
 	"retry_args": [
 		{
 			"do": "win"
-		},
-		{
-			"do": "LOSE"
 		}
 	]
 }

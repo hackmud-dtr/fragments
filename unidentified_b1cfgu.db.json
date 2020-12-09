@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_b1cfgu.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "unidentified_b1cfgu.db",
 	"sector": "VNP_5602",
 	"sec_level": 4,
 	"date_added": 1602976882161,
-	"last_scraped": 1607296982532,
+	"last_scraped": 1607452218678,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1607389830838,
+	"next_scrape": 1607532413564,
 	"category": "risk_factor",
 	"last_update": 1607296982532,
 	"output": [
@@ -3670,11 +3670,14 @@
 			]
 		}
 	],
-	"updt": 1607175322308,
-	"edit": 12,
+	"updt": 1607304295910,
+	"edit": 13,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"cannot_identify": true,
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}
