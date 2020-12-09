@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_vmv2ux.casino",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "unidentified_vmv2ux.casino",
 	"sector": "VNP_1486",
 	"sec_level": 4,
 	"date_added": 1601556677690,
-	"last_scraped": 1607316960218,
+	"last_scraped": 1607453850650,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1607358674771,
+	"next_scrape": 1607544883288,
 	"category": "risk_factor",
-	"last_update": 1607316960218,
+	"last_update": 1607453850650,
 	"output": [
 		{
 			"args": {},
@@ -45,18 +45,23 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 2660,
+			"calls": 2908,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"tion ",
 				"hanne",
-				"ve bee",
+				" payi",
 				"this w",
 				"ng att",
 				"ll kno",
 				"Che si",
+				"attent",
+				"ve been",
 				"t we've",
+				" the Ch",
+				" know t",
 				"o the ch",
+				"now that",
 				"If you'v",
 				"hen you'",
 				"en you'l",
@@ -1701,14 +1706,11 @@
 			]
 		}
 	],
-	"updt": 1607162421813,
-	"edit": 11,
+	"updt": 1607316992044,
+	"edit": 12,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"cannot_identify": true,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
