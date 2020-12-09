@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_zojszg.public",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "derelict_zojszg.public",
 	"sector": "K_2311",
 	"sec_level": 4,
 	"date_added": 1602278360376,
-	"last_scraped": 1607278810461,
+	"last_scraped": 1607450208293,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1607370168274,
+	"next_scrape": 1607541639165,
 	"category": "risk_factor",
 	"last_update": 1607278810461,
 	"output": [
@@ -2582,11 +2582,14 @@
 			]
 		}
 	],
-	"updt": 1607162813932,
-	"edit": 11,
+	"updt": 1607304100616,
+	"edit": 12,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"cannot_identify": true,
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}

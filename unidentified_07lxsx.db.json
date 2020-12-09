@@ -1,24 +1,24 @@
 {
 	"_id": "unidentified_07lxsx.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unidentified_07lxsx.db",
 	"sector": "K_5860",
 	"sec_level": 4,
 	"date_added": 1602504922020,
-	"last_scraped": 1607190820260,
+	"last_scraped": 1607448598326,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1602504922020
 		}
 	],
-	"updt": 1607190945333,
-	"edit": 14,
+	"updt": 1607304100616,
+	"edit": 15,
 	"scrape_ct": 13,
-	"next_scrape": 1607237322238,
+	"next_scrape": 1607494255887,
 	"category": "fishie_tank",
-	"last_update": 1607301095786,
+	"last_update": 1607448598326,
 	"output": [
 		{
 			"args": {},
@@ -95,16 +95,20 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 152060,
+			"calls": 158709,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"0110 ",
 				"00 01",
-				"0100 0",
-				"001 01",
-				"0001 0",
 				"000 00",
+				"ILE\\n00",
+				"0100 00",
+				"0001 01",
+				"00 0001",
 				"0 0000 ",
-				" 0000 0"
+				" 0001 0",
+				" 0000 0",
+				"10 0001 "
 			],
 			"hits": [
 				{
@@ -134,11 +138,6 @@
 				"0 0000 ",
 				" 0000 0"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }

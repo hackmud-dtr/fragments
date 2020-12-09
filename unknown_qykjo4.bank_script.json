@@ -1,28 +1,28 @@
 {
 	"_id": "unknown_qykjo4.bank_script",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "unknown_qykjo4.bank_script",
 	"sector": "K_5860",
 	"sec_level": 4,
 	"date_added": 1602504922020,
-	"last_scraped": 1607277811126,
+	"last_scraped": 1607463306511,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1602504922020
 		}
 	],
-	"updt": 1607162813932,
-	"edit": 12,
+	"updt": 1607304100616,
+	"edit": 13,
 	"scrape_ct": 15,
-	"next_scrape": 1607357957363,
+	"next_scrape": 1607543147731,
 	"category": "risk_factor",
-	"last_update": 1607277811126,
+	"last_update": 1607463287221,
 	"output": [
 		{
 			"args": {},
-			"calls": 12847,
+			"calls": 15719,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"ed to",
@@ -38,7 +38,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 3260,
+			"calls": 3452,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"8",
@@ -3201,5 +3201,13 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
