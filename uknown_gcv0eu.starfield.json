@@ -1,32 +1,35 @@
 {
 	"_id": "uknown_gcv0eu.starfield",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_gcv0eu.starfield",
 	"sector": "HJG_0438",
 	"sec_level": 4,
 	"date_added": 1599146295877,
-	"last_scraped": 1607550464308,
+	"last_scraped": 1607580120016,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1599146295877
 		}
 	],
-	"updt": 1607505357247,
-	"edit": 16,
+	"updt": 1607550489352,
+	"edit": 17,
 	"scrape_ct": 19,
-	"next_scrape": 1607595608798,
+	"next_scrape": 1607625381015,
 	"category": "fishie_tank",
-	"last_update": 1607550464308,
+	"last_update": 1607580137056,
 	"output": [
 		{
 			"args": {},
-			"calls": 278815,
+			"calls": 311326,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ust b",
+				"s lik",
 				"s [do",
+				"e a c",
+				"compu",
 				"ames ",
 				" Not ",
 				" game",
@@ -39,9 +42,11 @@
 				"puters ",
 				"poker_j",
 				"Not for",
+				"ng_poke",
 				"hat com",
 				"er_jpg]",
 				"dogs_pl",
+				" I have",
 				" gang? ",
 				"ws my mi",
 				"playing_",
@@ -50,6 +55,7 @@
 				"nk later",
 				"ng? ## N",
 				"nd that ",
+				"like car",
 				"jpg] dri",
 				"g] drink",
 				"g? ## No",
@@ -85,7 +91,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 20157,
+			"calls": 21533,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -94,7 +100,10 @@
 			],
 			"fragments": [
 				"ust b",
+				"s lik",
 				"s [do",
+				"e a c",
+				"compu",
 				"ang? ",
 				"ames ",
 				" Not ",
@@ -105,9 +114,11 @@
 				"uters l",
 				"ter, ga",
 				"Not for",
+				"ng_poke",
 				"hat com",
 				"er_jpg]",
 				"dogs_pl",
+				" I have",
 				" have a",
 				"ws my mi",
 				"playing_",
@@ -116,6 +127,7 @@
 				"nk later",
 				"ng? ## N",
 				"nd that ",
+				"like car",
 				"jpg] dri",
 				"g] drink",
 				"blows my",
@@ -226,6 +238,11 @@
 				" card ga",
 				" [dogs_p"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
