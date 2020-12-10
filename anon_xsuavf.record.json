@@ -1,28 +1,28 @@
 {
 	"_id": "anon_xsuavf.record",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_xsuavf.record",
 	"sector": "NGC_9045",
 	"sec_level": 4,
 	"date_added": 1603215451424,
-	"last_scraped": 1607542859780,
+	"last_scraped": 1607576586340,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603215451424
 		}
 	],
-	"updt": 1607492846428,
-	"edit": 13,
+	"updt": 1607542866503,
+	"edit": 14,
 	"scrape_ct": 16,
-	"next_scrape": 1607582688713,
+	"next_scrape": 1607622276679,
 	"category": "fishie_tank",
-	"last_update": 1607542859780,
+	"last_update": 1607576586340,
 	"output": [
 		{
 			"args": {},
-			"calls": 225652,
+			"calls": 239300,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"yawak",
@@ -56,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 24372,
+			"calls": 27761,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -95,7 +95,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 194999,
+			"calls": 201813,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"yawak",
