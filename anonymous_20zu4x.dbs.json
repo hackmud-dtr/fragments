@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_20zu4x.dbs",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_20zu4x.dbs",
 	"sector": "K_1427",
 	"sec_level": 4,
 	"date_added": 1603556255960,
-	"last_scraped": 1607621671916,
+	"last_scraped": 1607643052062,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1607661979090,
+	"next_scrape": 1607687488257,
 	"category": "fishie_tank",
-	"last_update": 1607621671916,
+	"last_update": 1607643106262,
 	"output": [
 		{
 			"args": {},
-			"calls": 265597,
+			"calls": 279697,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"| USE",
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 24888,
+			"calls": 28484,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -118,8 +118,8 @@
 			]
 		}
 	],
-	"updt": 1607599336701,
-	"edit": 16,
+	"updt": 1607643099736,
+	"edit": 18,
 	"identified": [
 		{
 			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
@@ -130,6 +130,11 @@
 				"miyawaki",
 				" ERROR |"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
