@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_p49vmw.prism",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_p49vmw.prism",
 	"sector": "SPC_2254",
 	"sec_level": 4,
 	"date_added": 1607110359540,
-	"last_scraped": 1607604610347,
+	"last_scraped": 1607604682459,
 	"script_log": [
 		{
 			"type": "added",
@@ -16,13 +16,13 @@
 	"updt": 1607583310480,
 	"edit": 9,
 	"scrape_ct": 19,
-	"next_scrape": 1607644235294,
+	"next_scrape": 1607648126228,
 	"category": "fishie_tank",
-	"last_update": 1607583239969,
+	"last_update": 1607604682459,
 	"output": [
 		{
 			"args": {},
-			"calls": 109284,
+			"calls": 128313,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"e\\n1E2",
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 11818,
+			"calls": 13405,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -87,7 +87,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 98994,
+			"calls": 103517,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"e\\n1E2",
@@ -126,14 +126,6 @@
 				"1E2B yo",
 				"py to re"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
