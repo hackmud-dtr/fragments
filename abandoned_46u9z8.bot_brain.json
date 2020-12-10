@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_46u9z8.bot_brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_46u9z8.bot_brain",
 	"sector": "K_6981",
 	"sec_level": 4,
 	"date_added": 1600194915181,
-	"last_scraped": 1607582024814,
+	"last_scraped": 1607603773515,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,33 +14,34 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1607627901318,
+	"next_scrape": 1607643604305,
 	"category": "fishie_tank",
-	"last_update": 1607582024814,
+	"last_update": 1607603847806,
 	"output": [
 		{
 			"args": {},
-			"calls": 295896,
+			"calls": 310298,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"ne afte",
 				"er BOUN",
 				"ender B",
 				"CE card",
 				"78 Defe",
 				" defend",
-				" combat",
 				"UNCE car",
 				"ter comb",
+				"r combat",
 				"OUNCE ca",
 				"ng lane ",
 				"nding la",
 				"nder BOU",
 				"lane aft",
+				"he defen",
 				"fending ",
 				"ending l",
 				"efender ",
 				"at\\n2178",
+				"ane afte",
 				"8 Defend",
 				" cards\\n",
 				" after c",
@@ -69,7 +70,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 27990,
+			"calls": 32081,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -77,23 +78,23 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"he de",
 				"fter c",
 				"ter com",
 				"OUNCE c",
-				"ne afte",
 				"ender B",
 				" defend",
-				" combat",
 				" BOUNCE",
 				"UNCE car",
+				"r combat",
 				"ng lane ",
 				"nder BOU",
 				"lane aft",
+				"he defen",
 				"fending ",
 				"ending l",
 				"efender ",
 				"at\\n2178",
+				"ane afte",
 				" cards\\n",
 				"t\\n2178 D",
 				"rds\\n2179",
@@ -167,8 +168,8 @@
 			]
 		}
 	],
-	"updt": 1607552833930,
-	"edit": 19,
+	"updt": 1607582140131,
+	"edit": 20,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -180,6 +181,11 @@
 				"at\\n2178",
 				"t\\n2178 D"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
