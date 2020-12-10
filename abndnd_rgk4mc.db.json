@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_rgk4mc.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abndnd_rgk4mc.db",
 	"sector": "K_4401",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1605318867525
+		},
+		{
+			"type": "died",
+			"when": 1607577585618
 		}
 	],
-	"updt": 1607530944040,
-	"edit": 7,
+	"updt": 1607570021348,
+	"edit": 8,
 	"scrape_ct": 16,
 	"next_scrape": 1607610607556,
 	"category": "plant_sim",
@@ -100,5 +104,6 @@
 				".\\n20BB I"
 			]
 		}
-	]
+	],
+	"dead_plant_sim": true
 }
