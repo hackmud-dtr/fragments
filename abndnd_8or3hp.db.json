@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_8or3hp.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_8or3hp.db",
 	"sector": "HJG_3331",
 	"sec_level": 4,
 	"date_added": 1606211780586,
-	"last_scraped": 1607677283483,
+	"last_scraped": 1607706805405,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1607720007860,
+	"next_scrape": 1607747434472,
 	"category": "fishie_tank",
-	"last_update": 1607677283483,
+	"last_update": 1607706821279,
 	"output": [
 		{
 			"args": {},
-			"calls": 169289,
+			"calls": 196310,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"would",
@@ -95,7 +95,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 16374,
+			"calls": 17667,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -190,8 +190,8 @@
 			]
 		}
 	],
-	"updt": 1607662243583,
-	"edit": 15,
+	"updt": 1607706803968,
+	"edit": 17,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -247,6 +247,11 @@
 			"frags": [
 				"nvironm"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
