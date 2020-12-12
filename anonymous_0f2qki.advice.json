@@ -1,26 +1,34 @@
 {
 	"_id": "anonymous_0f2qki.advice",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anonymous_0f2qki.advice",
-	"sector": "HJG_8767",
+	"sector": "NGC_1314",
 	"sec_level": 2,
 	"date_added": 1602792816696,
-	"last_scraped": 1607476823596,
+	"last_scraped": 1607741176949,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1602792816696
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1607741102950,
+				"from": "NGC_1314",
+				"to": "HJG_8767"
+			}
+		]
 	],
-	"scrape_ct": 16,
-	"next_scrape": 1607568244376,
+	"scrape_ct": 20,
+	"next_scrape": 1607824700694,
 	"category": "UNKNOWN CATEGORY",
-	"last_update": 1607476787485,
+	"last_update": 1607741159548,
 	"output": [
 		{
 			"args": {},
-			"calls": 5075,
+			"calls": 5412,
 			"base": "{\"ok\":false",
 			"fragments": [
 				"true}"
@@ -36,8 +44,8 @@
 		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"you are sending messages too fast\"}",
-	"updt": 1607476820915,
-	"edit": 20,
+	"updt": 1607477016472,
+	"edit": 21,
 	"identified": [
 		{
 			"document": "NOT FOUND",
