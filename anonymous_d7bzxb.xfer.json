@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_d7bzxb.xfer",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "could not json",
 	"script": "anonymous_d7bzxb.xfer",
-	"sector": "NGC_3253",
+	"sector": "NGC_3338",
 	"sec_level": 2,
 	"date_added": 1602178986176,
-	"last_scraped": 1607864737939,
+	"last_scraped": 1608043669415,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,19 @@
 		{
 			"type": "died",
 			"when": 1608043165457
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1608043614509,
+				"from": "NGC_3338",
+				"to": "NGC_3253"
+			}
+		]
 	],
 	"pl_output": "0GC\ndeposit:gc|\"all\", withdraw:gc|\"all\", view:\"balance\"",
-	"next_scrape": 1607945743185,
-	"updt": 1607890674642,
-	"edit": 116
+	"next_scrape": 1608043729415,
+	"updt": 1608043649545,
+	"edit": 118,
+	"scrape_ct": 20
 }
