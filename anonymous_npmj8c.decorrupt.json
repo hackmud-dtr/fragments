@@ -1,34 +1,26 @@
 {
 	"_id": "anonymous_npmj8c.decorrupt",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anonymous_npmj8c.decorrupt",
 	"sector": "HJG_3792",
 	"sec_level": 4,
 	"date_added": 1608137795534,
-	"last_scraped": 1608137815984,
+	"last_scraped": 1608138069726,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1608137795534
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1608137875984,
+	"scrape_ct": 13,
+	"next_scrape": 1608138129726,
 	"category": "fishie_tank",
-	"last_update": 1608137815984,
+	"last_update": 1608138086711,
 	"output": [
 		{
 			"args": {},
-			"calls": 8204,
+			"calls": 52799,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"0X735",
@@ -37,7 +29,101 @@
 				"F93F\\nSY",
 				"ETW ERRO",
 				" | PROG "
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"0X735",
+						"\\nSYST",
+						"| USER ",
+						"F93F\\nSY",
+						"ETW ERRO",
+						" | PROG "
+					]
+				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2412,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"0X735",
+				"\\nSYST",
+				"| USER ",
+				"F93F\\nSY",
+				"ETW ERRO",
+				" | PROG "
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"0X735",
+						"\\nSYST",
+						"| USER ",
+						"F93F\\nSY",
+						"ETW ERRO",
+						" | PROG "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 14727,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"0X735",
+				"\\nSYST",
+				"| USER ",
+				"F93F\\nSY",
+				"ETW ERRO",
+				" | PROG "
+			],
+			"hits": [
+				{
+					"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+					"frags": [
+						"0X735",
+						"\\nSYST",
+						"| USER ",
+						"F93F\\nSY",
+						"ETW ERRO",
+						" | PROG "
+					]
+				}
+			]
+		}
+	],
+	"updt": 1608138025619,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
+			"frags": [
+				"0X735",
+				"\\nSYST",
+				"| USER ",
+				"F93F\\nSY",
+				"ETW ERRO",
+				" | PROG "
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
