@@ -1,0 +1,57 @@
+{
+	"_id": "abndnd_ndslap.escrow_stats",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abndnd_ndslap.escrow_stats",
+	"sector": "HJG_3792",
+	"sec_level": 4,
+	"date_added": 1608091173042,
+	"last_scraped": 1608091263298,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1608091173042
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1608177204656,
+	"category": "risk_factor",
+	"last_update": 1608091263298,
+	"output": [
+		{
+			"args": {},
+			"calls": 2989,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"XF3_S",
+				"T0X756",
+				"FILE0X",
+				"ST0XF3_",
+				"ERROR | ",
+				"756A_FIL",
+				"0XBBE270"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 276,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"XF3_S",
+				"T0X756",
+				"FILE0X",
+				"ST0XF3_",
+				"ERROR | ",
+				"756A_FIL",
+				"0XBBE270"
+			]
+		}
+	]
+}
