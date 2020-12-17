@@ -1,26 +1,26 @@
 {
 	"_id": "unknown_aauylq.eck",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unknown_aauylq.eck",
 	"sector": "NGC_8123",
 	"sec_level": 4,
 	"date_added": 1608206760488,
-	"last_scraped": 1608206976279,
+	"last_scraped": 1608207121656,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1608206760488
 		}
 	],
-	"scrape_ct": 15,
-	"next_scrape": 1608207036279,
+	"scrape_ct": 11,
+	"next_scrape": 1608207181656,
 	"category": "fishie_tank",
-	"last_update": 1608206976279,
+	"last_update": 1608207139362,
 	"output": [
 		{
 			"args": {},
-			"calls": 30850,
+			"calls": 54966,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"CE ma",
@@ -48,7 +48,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2758,
+			"calls": 4541,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -106,8 +106,8 @@
 			]
 		}
 	],
-	"updt": 1608206810899,
-	"edit": 1,
+	"updt": 1608207006418,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -119,6 +119,11 @@
 				"yed fac",
 				"\\n2172 W"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
