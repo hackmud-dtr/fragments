@@ -1,20 +1,32 @@
 {
 	"_id": "anon_qlmszn.db",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "new",
 	"script": "anon_qlmszn.db",
-	"sector": "VNP_2370",
+	"sector": "NGC_8123",
 	"sec_level": 4,
 	"date_added": 1605558813287,
-	"last_scraped": 1608178112155,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1605558813287
-		}
+		},
+		{
+			"type": "died",
+			"when": 1608178637262
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1608179234330,
+				"from": "NGC_8123",
+				"to": "VNP_2370"
+			}
+		]
 	],
-	"updt": 1608171637983,
-	"edit": 637,
+	"updt": 1608178673299,
+	"edit": 639,
 	"pl_output": "`DACCESS DENIED`",
 	"next_scrape": 1608269899044
 }
