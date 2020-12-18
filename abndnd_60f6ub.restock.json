@@ -1,22 +1,22 @@
 {
 	"_id": "abndnd_60f6ub.restock",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abndnd_60f6ub.restock",
 	"sector": "K_6413",
 	"sec_level": 4,
 	"date_added": 1608268193094,
-	"last_scraped": 1608268337610,
+	"last_scraped": 1608268409893,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1608268193094
 		}
 	],
-	"scrape_ct": 18,
-	"next_scrape": 1608268397610,
+	"scrape_ct": 15,
+	"next_scrape": 1608268469893,
 	"category": "fishie_tank",
-	"last_update": 1608268356568,
+	"last_update": 1608268409893,
 	"output": [
 		{
 			"args": {},
@@ -77,7 +77,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 14077,
+			"calls": 34740,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"1 Use",
@@ -112,9 +112,6 @@
 			]
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1608268372364,
+	"edit": 1
 }
