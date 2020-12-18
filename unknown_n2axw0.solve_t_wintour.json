@@ -1,26 +1,25 @@
 {
 	"_id": "unknown_n2axw0.solve_t_wintour",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unknown_n2axw0.solve_t_wintour",
 	"sector": "K_6183",
 	"sec_level": 4,
 	"date_added": 1608251011961,
-	"last_scraped": 1608252062753,
+	"last_scraped": 1608252260579,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1608251011961
 		}
 	],
-	"scrape_ct": 2,
-	"next_scrape": 1608252122753,
+	"next_scrape": 1608296323769,
 	"category": "fishie_tank",
-	"last_update": 1608252062753,
+	"last_update": 1608252260579,
 	"output": [
 		{
 			"args": {},
-			"calls": 107941,
+			"calls": 135816,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"tor d",
@@ -60,7 +59,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 14303,
+			"calls": 15751,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -105,7 +104,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 111174,
+			"calls": 122014,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"tor d",
@@ -161,6 +160,6 @@
 			]
 		}
 	],
-	"updt": 1608251952778,
-	"edit": 4
+	"updt": 1608252147570,
+	"edit": 5
 }
