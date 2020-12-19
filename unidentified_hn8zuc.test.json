@@ -6,21 +6,21 @@
 	"sector": "K_6413",
 	"sec_level": 4,
 	"date_added": 1608390732957,
-	"last_scraped": 1608390896375,
+	"last_scraped": 1608391675129,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1608390732957
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1608390956375,
+	"scrape_ct": 2,
+	"next_scrape": 1608391735129,
 	"category": "fishie_tank",
-	"last_update": 1608390896375,
+	"last_update": 1608391675129,
 	"output": [
 		{
 			"args": {},
-			"calls": 5009,
+			"calls": 73815,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ou le",
@@ -31,13 +31,28 @@
 				"C the d",
 				"lane.\\n2",
 				"20D5 Did"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ou le",
+						"me wi",
+						"bsolu",
+						"e.\\n20",
+						"deck in",
+						"C the d",
+						"lane.\\n2",
+						"20D5 Did"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1589,
+			"calls": 8309,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -53,15 +68,62 @@
 				"C the d",
 				"lane.\\n2",
 				"20D5 Did"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ou le",
+						"me wi",
+						"bsolu",
+						"e.\\n20",
+						"deck in",
+						"C the d",
+						"lane.\\n2",
+						"20D5 Did"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 3791,
+			"calls": 105570,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"ou le",
+				"me wi",
+				"bsolu",
+				"e.\\n20",
+				"deck in",
+				"C the d",
+				"lane.\\n2",
+				"20D5 Did"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ou le",
+						"me wi",
+						"bsolu",
+						"e.\\n20",
+						"deck in",
+						"C the d",
+						"lane.\\n2",
+						"20D5 Did"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1608391489458,
+	"edit": 4,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"ou le",
 				"me wi",
 				"bsolu",
