@@ -1,25 +1,29 @@
 {
 	"_id": "unknown_ghpr7l.cull",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unknown_ghpr7l.cull",
 	"sector": "VNP_5904",
 	"sec_level": 4,
 	"date_added": 1608501080348,
-	"last_scraped": 1608502275498,
+	"last_scraped": 1608502311400,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1608501080348
+		},
+		{
+			"type": "died",
+			"when": 1608502893245
 		}
 	],
-	"next_scrape": 1608543996354,
+	"next_scrape": 1608543649386,
 	"category": "dice_roller",
-	"last_update": 1608502275498,
+	"last_update": 1608502311400,
 	"output": [
 		{
 			"args": {},
-			"calls": 222289,
+			"calls": 246769,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
 				"0 0000 ",
@@ -74,6 +78,6 @@
 			]
 		}
 	],
-	"updt": 1608502094952,
-	"edit": 4
+	"updt": 1608502484695,
+	"edit": 6
 }
