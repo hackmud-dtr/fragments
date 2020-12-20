@@ -1,0 +1,70 @@
+{
+	"_id": "derelict_v1umlu.list",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "derelict_v1umlu.list",
+	"sector": "K_6413",
+	"sec_level": 4,
+	"date_added": 1608481163681,
+	"last_scraped": 1608481217757,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1608481163681
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1608481277757,
+	"category": "fishie_tank",
+	"last_update": 1608481256264,
+	"output": [
+		{
+			"args": {},
+			"calls": 27048,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ke a ",
+				" It's",
+				"s she'",
+				"ot. It",
+				"not lik",
+				"e a dea",
+				"## Prob",
+				"s ## Pro",
+				"ore like",
+				"he knows"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2379,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ke a ",
+				" It's",
+				"s she'",
+				"ot. It",
+				"not lik",
+				"e a dea",
+				"## Prob",
+				"s ## Pro",
+				"ore like",
+				"he knows"
+			]
+		}
+	],
+	"updt": 1608481188461,
+	"edit": 1
+}
