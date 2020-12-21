@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "uknown_1kcyxr.crack_t1",
-	"sector": "SPC_4659",
+	"sector": "VNP_5904",
 	"sec_level": 4,
 	"date_added": 1603269429481,
-	"last_scraped": 1608581087711,
+	"last_scraped": 1608582627687,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603269429481
-		}
+		},
+		{
+			"type": "died",
+			"when": 1608582501733
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1608582610081,
+				"from": "VNP_5904",
+				"to": "SPC_4659"
+			}
+		]
 	],
-	"updt": 1608579083612,
-	"edit": 1958,
+	"updt": 1608582602806,
+	"edit": 1960,
 	"pl_output": "Cannot read property 'call' of undefined",
-	"next_scrape": 1608663163243
+	"next_scrape": 1608666627101
 }
