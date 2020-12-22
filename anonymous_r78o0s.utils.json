@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_r78o0s.utils",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anonymous_r78o0s.utils",
 	"sector": "K_3346",
 	"sec_level": 1,
@@ -19,10 +19,14 @@
 				"from": "K_3346",
 				"to": "HJG_3101"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1608667851229
+		}
 	],
-	"updt": 1608664288270,
-	"edit": 2394,
+	"updt": 1608666634506,
+	"edit": 2395,
 	"pl_output": "ud[args.util] is not a function",
 	"next_scrape": 1608754614664
 }
