@@ -1,0 +1,62 @@
+{
+	"_id": "derelict_14lis7.test",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "derelict_14lis7.test",
+	"sector": "HJG_6149",
+	"sec_level": 4,
+	"date_added": 1608913657195,
+	"last_scraped": 1608913729265,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1608913657195
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1608913789265,
+	"category": "fishie_tank",
+	"last_update": 1608913802010,
+	"output": [
+		{
+			"args": {},
+			"calls": 7211,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"st on",
+				"7 Pat",
+				"tterns",
+				"cate\\n1",
+				" Patter",
+				"terns in"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 5005,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"st on",
+				"7 Pat",
+				"tterns",
+				"cate\\n1",
+				" Patter",
+				"terns in"
+			]
+		}
+	],
+	"updt": 1608913788528,
+	"edit": 1
+}
