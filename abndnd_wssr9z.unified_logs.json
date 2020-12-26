@@ -1,45 +1,47 @@
 {
 	"_id": "abndnd_wssr9z.unified_logs",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_wssr9z.unified_logs",
 	"sector": "K_0449",
 	"sec_level": 4,
 	"date_added": 1604803957938,
-	"last_scraped": 1607506317377,
+	"last_scraped": 1608968621330,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1604803957938
 		}
 	],
-	"updt": 1607477211932,
-	"edit": 5,
+	"updt": 1607506331777,
+	"edit": 6,
 	"scrape_ct": 20,
-	"next_scrape": 1607551720557,
+	"next_scrape": 1609008980268,
 	"category": "fishie_tank",
-	"last_update": 1607506317377,
+	"last_update": 1608968692303,
 	"output": [
 		{
 			"args": {},
-			"calls": 67177,
+			"calls": 73632,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"y wit",
 				"that ",
-				"d res",
 				"R hist",
-				"l sign",
 				" limit",
+				"torical",
 				"rsonal ",
 				"roject ",
 				"project",
 				"pacity ",
+				"onal si",
 				"n a pro",
-				"as MAJO",
+				"ity wit",
 				"sources ",
 				"l/cultur",
-				"ith VERY"
+				"l signif",
+				"ith VERY",
+				"ited res",
+				"as MAJOR"
 			],
 			"hits": [
 				{
@@ -68,7 +70,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 12503,
+			"calls": 18588,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -76,21 +78,23 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"y wit",
 				"that ",
-				"d res",
 				"R hist",
-				"l sign",
 				" limit",
+				"torical",
 				"rsonal ",
 				"roject ",
 				"project",
 				"pacity ",
+				"onal si",
 				"n a pro",
-				"as MAJO",
+				"ity wit",
 				"sources ",
 				"l/cultur",
-				"ith VERY"
+				"l signif",
+				"ith VERY",
+				"ited res",
+				"as MAJOR"
 			],
 			"hits": [
 				{
@@ -164,6 +168,11 @@
 				"l/cultur",
 				"ith VERY"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

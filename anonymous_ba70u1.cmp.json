@@ -6,7 +6,7 @@
 	"sector": "NGC_6053",
 	"sec_level": 4,
 	"date_added": 1606439368370,
-	"last_scraped": 1607507789918,
+	"last_scraped": 1608969054823,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,24 +14,31 @@
 		}
 	],
 	"scrape_ct": 12,
-	"next_scrape": 1607553656498,
+	"next_scrape": 1609013323583,
 	"category": "fishie_tank",
-	"last_update": 1607507789918,
+	"last_update": 1608969127887,
 	"output": [
 		{
 			"args": {},
-			"calls": 117277,
+			"calls": 125591,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ue. W",
 				"has a",
 				"ight n",
 				". We m",
-				"ime. Cl",
 				"e. Clea",
+				"ar unam",
+				" now bu",
+				"ut we mi",
 				"r unambi",
+				"need it ",
+				"ime. Cle",
+				"guous co",
 				" unambig",
-				" but we "
+				" time. C",
+				" but we ",
+				" be an i"
 			],
 			"hits": [
 				{
@@ -54,7 +61,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 9242,
+			"calls": 14192,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -66,11 +73,18 @@
 				"has a",
 				"ight n",
 				". We m",
-				"ime. Cl",
 				"e. Clea",
+				"ar unam",
+				" now bu",
+				"ut we mi",
 				"r unambi",
+				"need it ",
+				"ime. Cle",
+				"guous co",
 				" unambig",
-				" but we "
+				" time. C",
+				" but we ",
+				" be an i"
 			],
 			"hits": [
 				{
@@ -140,6 +154,11 @@
 			]
 		}
 	],
-	"updt": 1607477994548,
-	"edit": 6
+	"updt": 1608969102898,
+	"edit": 8,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
