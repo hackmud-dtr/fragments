@@ -1,45 +1,53 @@
 {
 	"_id": "anon_61t08p.free_vbucks",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_61t08p.free_vbucks",
 	"sector": "K_2838",
 	"sec_level": 4,
 	"date_added": 1603312763911,
-	"last_scraped": 1607494536603,
+	"last_scraped": 1608966354365,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603312763911
 		}
 	],
-	"updt": 1607476431171,
-	"edit": 15,
+	"updt": 1607494606254,
+	"edit": 16,
 	"scrape_ct": 16,
-	"next_scrape": 1607541010874,
+	"next_scrape": 1609009630471,
 	"category": "fishie_tank",
-	"last_update": 1607494536603,
+	"last_update": 1608966354365,
 	"output": [
 		{
 			"args": {},
-			"calls": 186015,
+			"calls": 224138,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"T0XF2",
 				"ECT0XF",
 				"7A_SEC",
 				"3 Fina",
 				"0XF227",
+				"0XBF_C",
+				"y: modi",
+				"T0X7A_S",
 				"ly: mod",
 				"lly: mo",
 				"E0X2BC7",
-				"difiers",
 				"D179\\nA",
 				"A_SECT0",
-				"7D179\\n",
 				"2BC7D17",
+				"032143 ",
 				"rs.\\n214",
+				"nally: m",
 				"iers.\\n2",
 				"ers.\\n21",
+				"difiers.",
+				"7_FILE0X",
+				"227_FILE",
+				"BC7D179\\n",
 				"179\\nAD03"
 			],
 			"hits": [
@@ -165,6 +173,14 @@
 				"2BC7D17",
 				"ers.\\n21"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
