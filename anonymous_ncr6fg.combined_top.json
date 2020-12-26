@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_ncr6fg.combined_top",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_ncr6fg.combined_top",
 	"sector": "SPC_4277",
 	"sec_level": 4,
 	"date_added": 1605934716322,
-	"last_scraped": 1608938090850,
+	"last_scraped": 1609019318088,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,29 +14,37 @@
 		}
 	],
 	"scrape_ct": 12,
-	"next_scrape": 1608982677135,
+	"next_scrape": 1609065048319,
 	"category": "fishie_tank",
-	"last_update": 1608938090850,
+	"last_update": 1609019318088,
 	"output": [
 		{
 			"args": {},
-			"calls": 117077,
+			"calls": 173083,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"way t",
 				"to th",
+				"t fav",
 				"s to ",
+				"'t fa",
+				" well",
 				"lates ",
 				"as wel",
 				" favor",
+				"well. I",
 				"ord we ",
 				"of ComC",
+				"essity ",
 				"encoura",
 				"ComCODE",
 				". I wou",
 				" just a",
 				" a word",
 				"E relate",
-				"e don't "
+				"e don't ",
+				" word we",
+				" I would"
 			],
 			"hits": [
 				{
@@ -151,6 +159,14 @@
 			]
 		}
 	],
-	"updt": 1607544433067,
-	"edit": 9
+	"updt": 1608955998236,
+	"edit": 10,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }

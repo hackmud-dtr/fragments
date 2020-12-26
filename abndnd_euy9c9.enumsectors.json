@@ -1,35 +1,40 @@
 {
 	"_id": "abndnd_euy9c9.enumsectors",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_euy9c9.enumsectors",
 	"sector": "K_1742",
 	"sec_level": 4,
 	"date_added": 1603940853574,
-	"last_scraped": 1608934643418,
+	"last_scraped": 1609018774777,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603940853574
 		}
 	],
-	"updt": 1607505161297,
-	"edit": 9,
+	"updt": 1608955212952,
+	"edit": 10,
 	"scrape_ct": 16,
-	"next_scrape": 1608974320606,
+	"next_scrape": 1609061917445,
 	"category": "fishie_tank",
-	"last_update": 1608934643418,
+	"last_update": 1609018847343,
 	"output": [
 		{
 			"args": {},
-			"calls": 136313,
+			"calls": 145502,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"tory ",
 				"as a ",
+				"ntury. ",
 				"kable s",
 				"21st ce",
+				"y of the",
 				"cades, w",
+				"ble stor",
 				"art we'v",
+				"a few sh",
 				" few sho"
 			],
 			"hits": [
@@ -67,7 +72,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 15346,
+			"calls": 20149,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -75,11 +80,16 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"tory ",
 				"as a ",
+				"ntury. ",
 				"kable s",
 				"21st ce",
+				"y of the",
 				"cades, w",
+				"ble stor",
 				"art we'v",
+				"a few sh",
 				" few sho"
 			]
 		},
@@ -132,6 +142,11 @@
 			"frags": [
 				"as a "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
