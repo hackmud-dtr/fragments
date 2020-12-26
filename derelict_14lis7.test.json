@@ -6,22 +6,17 @@
 	"sector": "HJG_6149",
 	"sec_level": 4,
 	"date_added": 1608913657195,
-	"last_scraped": 1608913729265,
+	"last_scraped": 1608948104991,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1608913657195
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1608913789265,
+	"next_scrape": 1608989338617,
 	"category": "fishie_tank",
-	"last_update": 1608913802010,
+	"last_update": 1608948104991,
 	"output": [
 		{
 			"args": {},
@@ -34,6 +29,19 @@
 				"cate\\n1",
 				" Patter",
 				"terns in"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"st on",
+						"7 Pat",
+						"tterns",
+						"cate\\n1",
+						" Patter",
+						"terns in"
+					]
+				}
 			]
 		},
 		{
@@ -54,9 +62,50 @@
 				"cate\\n1",
 				" Patter",
 				"terns in"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"st on",
+						"7 Pat",
+						"tterns",
+						"cate\\n1",
+						" Patter",
+						"terns in"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 52053,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"st on",
+				"7 Pat",
+				"tterns",
+				"cate\\n1",
+				" Patter",
+				"terns in"
 			]
 		}
 	],
-	"updt": 1608913788528,
-	"edit": 1
+	"updt": 1608913984507,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"st on",
+				"7 Pat",
+				"tterns",
+				"cate\\n1",
+				" Patter",
+				"terns in"
+			]
+		}
+	]
 }

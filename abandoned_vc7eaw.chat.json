@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_vc7eaw.chat",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "skip",
 	"script": "abandoned_vc7eaw.chat",
 	"sector": "K_6981",
 	"sec_level": 4,
 	"date_added": 1600404086493,
-	"last_scraped": 1607294736083,
+	"last_scraped": 1608956934166,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,25 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1607387550091,
+	"next_scrape": 1608999670492,
 	"category": "risk_factor",
-	"last_update": 1607294697239,
+	"last_update": 1608956934166,
 	"output": [
 		{
 			"args": {},
-			"calls": 12001,
+			"calls": 14514,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"X7A81",
 				"W ERR",
 				"E ERRO",
-				"ROR | T",
 				"F_CLST0",
 				"ECT0X6B",
+				"RROR | T",
 				"MFT0XCF_",
-				"0X6B58_F"
+				"0X6B58_F",
+				"_CLST0X8",
+				" | NETW "
 			],
 			"hits": [
 				{
@@ -50,7 +53,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 2404,
+			"calls": 2905,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"SYST E",
@@ -58,12 +61,13 @@
 				"0X7A81",
 				"W ERROR",
 				"USER sm",
-				"RROR | ",
-				"ROR | T",
 				"F_CLST0",
 				"ECT0X6B",
+				"RROR | T",
 				"MFT0XCF_",
-				"0X6B58_F"
+				"0X6B58_F",
+				"_CLST0X8",
+				" | NETW "
 			],
 			"hits": [
 				{
@@ -2978,8 +2982,8 @@
 			]
 		}
 	],
-	"updt": 1607303317184,
-	"edit": 15,
+	"updt": 1607475062422,
+	"edit": 16,
 	"pl_output": "YOU COULD WIN 1GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"identified": [
 		{
@@ -2995,5 +2999,10 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }

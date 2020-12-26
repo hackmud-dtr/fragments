@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_2ywliz.chats_channels",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "skip",
 	"script": "uknown_2ywliz.chats_channels",
 	"sector": "NGC_9714",
 	"sec_level": 4,
 	"date_added": 1606313313761,
-	"last_scraped": 1607290691356,
+	"last_scraped": 1608956807384,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1607337118417,
+	"next_scrape": 1609045164010,
 	"category": "risk_factor",
-	"last_update": 1607290691356,
+	"last_update": 1608956807384,
 	"output": [
 		{
 			"args": {},
-			"calls": 4490,
+			"calls": 7455,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"rd in",
@@ -35,7 +35,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 871,
+			"calls": 1192,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"rd in",
@@ -1653,7 +1653,12 @@
 			]
 		}
 	],
-	"updt": 1607305468451,
-	"edit": 3,
-	"cannot_identify": true
+	"updt": 1608956780728,
+	"edit": 5,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }

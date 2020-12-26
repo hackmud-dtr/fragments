@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_c1f6bz.bot_brain",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "skip",
 	"script": "derelict_c1f6bz.bot_brain",
 	"sector": "K_7998",
 	"sec_level": 4,
 	"date_added": 1603178323731,
-	"last_scraped": 1607312300785,
+	"last_scraped": 1608957042656,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,30 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1607395604744,
+	"next_scrape": 1609000980232,
 	"category": "risk_factor",
-	"last_update": 1607312300785,
+	"last_update": 1608957042656,
 	"output": [
 		{
 			"args": {},
-			"calls": 19913,
+			"calls": 22362,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"f bot",
+				"th con",
+				"oth co",
 				"ntain ",
+				"he opp",
+				"he ini",
 				"3 If b",
+				"2164 t",
+				"\\n2163",
+				" both ",
 				"ng stac",
-				"tack.\\n2",
+				"k.\\n216",
+				"in TRAP",
 				"osing st",
+				"stack.\\n2",
 				"AP\\n2164 "
 			]
 		},
@@ -36,19 +45,27 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 2504,
+			"calls": 3129,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"f bot",
 				"2163 ",
+				"th con",
+				"oth co",
 				"ntain ",
+				"he opp",
+				"he ini",
 				"both c",
 				"3 If b",
 				"2164 t",
 				"163 If",
+				"\\n2163",
+				" both ",
 				"ng stac",
-				"tack.\\n2",
+				"k.\\n216",
+				"in TRAP",
 				"osing st",
+				"stack.\\n2",
 				"AP\\n2164 "
 			]
 		},
@@ -4357,8 +4374,13 @@
 			]
 		}
 	],
-	"updt": 1607312498413,
-	"edit": 12,
+	"updt": 1608956976292,
+	"edit": 14,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }

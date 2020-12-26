@@ -1,27 +1,22 @@
 {
 	"_id": "anon_zxd4kh.bots",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_zxd4kh.bots",
 	"sector": "VNP_5904",
 	"sec_level": 4,
 	"date_added": 1608494433574,
-	"last_scraped": 1608494506464,
+	"last_scraped": 1608945928810,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1608494433574
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 18,
-	"next_scrape": 1608494566464,
+	"next_scrape": 1608985755969,
 	"category": "fishie_tank",
-	"last_update": 1608494541031,
+	"last_update": 1608945928810,
 	"output": [
 		{
 			"args": {},
@@ -36,6 +31,21 @@
 				"then.\\n2",
 				"ll, then",
 				"ase\\n21F4"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"y well",
+						"t help",
+						"our ca",
+						"at won",
+						"21F4 V",
+						"then.\\n2",
+						"ll, then",
+						"ase\\n21F4"
+					]
+				}
 			]
 		},
 		{
@@ -58,9 +68,56 @@
 				"then.\\n2",
 				"ll, then",
 				"ase\\n21F4"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"y well",
+						"t help",
+						"our ca",
+						"at won",
+						"21F4 V",
+						"then.\\n2",
+						"ll, then",
+						"ase\\n21F4"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 7372,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"y well",
+				"t help",
+				"our ca",
+				"at won",
+				"21F4 V",
+				"then.\\n2",
+				"ll, then",
+				"ase\\n21F4"
 			]
 		}
 	],
-	"updt": 1608494480940,
-	"edit": 1
+	"updt": 1608494676048,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"y well",
+				"t help",
+				"our ca",
+				"at won",
+				"21F4 V",
+				"then.\\n2",
+				"ll, then",
+				"ase\\n21F4"
+			]
+		}
+	]
 }

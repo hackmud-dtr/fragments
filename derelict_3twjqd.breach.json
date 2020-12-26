@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_3twjqd.breach",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "could not json",
 	"script": "derelict_3twjqd.breach",
 	"sector": "K_6413",
 	"sec_level": 4,
 	"date_added": 1608422516602,
-	"last_scraped": 1608424798916,
+	"last_scraped": 1608945513116,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 14,
-	"next_scrape": 1608424858916,
+	"next_scrape": 1609030397164,
 	"category": "risk_factor",
-	"last_update": 1608424798916,
+	"last_update": 1608945513116,
 	"output": [
 		{
 			"args": {},
@@ -37,7 +37,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 782,
+			"calls": 950,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"y clev",
@@ -626,15 +626,13 @@
 			]
 		}
 	],
-	"updt": 1608422759367,
-	"edit": 2,
+	"updt": 1608424911518,
+	"edit": 3,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"cannot_identify": true
 }
