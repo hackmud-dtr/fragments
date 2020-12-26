@@ -1,36 +1,49 @@
 {
 	"_id": "unknown_cgcxt5.emojis",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_cgcxt5.emojis",
 	"sector": "K_9823",
 	"sec_level": 4,
 	"date_added": 1607301440015,
-	"last_scraped": 1607602839486,
+	"last_scraped": 1608975582020,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1607301440015
 		}
 	],
-	"updt": 1607579989906,
-	"edit": 7,
+	"updt": 1607602852701,
+	"edit": 8,
 	"scrape_ct": 16,
-	"next_scrape": 1607649103184,
+	"next_scrape": 1609019561407,
 	"category": "fishie_tank",
-	"last_update": 1607602839486,
+	"last_update": 1608975582020,
 	"output": [
 		{
 			"args": {},
-			"calls": 80370,
+			"calls": 130347,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ood a",
+				"f thi",
 				"an - ",
 				"'t us",
+				"ty - w",
+				"tern' ",
 				"te to ",
+				"ou hav",
+				"be hel",
+				" we be",
 				"phenome",
-				"his line"
+				"mena as",
+				"ey are ",
+				" to be ",
+				" descri",
+				" am, bu",
+				"his line",
+				"escribe ",
+				"as I am,"
 			],
 			"hits": [
 				{
@@ -113,6 +126,14 @@
 			"frags": [
 				"te to "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
