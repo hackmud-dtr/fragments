@@ -6,32 +6,41 @@
 	"sector": "SPC_9704",
 	"sec_level": 4,
 	"date_added": 1600607765998,
-	"last_scraped": 1607624679978,
+	"last_scraped": 1608977358313,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1600607765998
 		}
 	],
-	"next_scrape": 1607670535525,
+	"next_scrape": 1609020163024,
 	"category": "fishie_tank",
-	"last_update": 1607624679978,
+	"last_update": 1608977432723,
 	"output": [
 		{
 			"args": {},
-			"calls": 476249,
+			"calls": 490576,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"t lik",
 				"ke th",
-				"he kn",
 				"bably",
+				"not li",
 				"e's go",
+				"deal. ",
+				". It's",
+				" She k",
+				" It's ",
 				" got n",
 				"t's mor",
 				"es not ",
+				"'s got ",
 				" she's ",
+				" a comp",
 				"t nowher",
+				"mposite?",
+				"ike a de",
+				"he knows",
 				"eal. She"
 			],
 			"hits": [
@@ -74,7 +83,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 41663,
+			"calls": 45596,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -84,14 +93,23 @@
 			"fragments": [
 				"t lik",
 				"ke th",
-				"he kn",
 				"bably",
+				"not li",
 				"e's go",
+				"deal. ",
+				". It's",
+				" She k",
+				" It's ",
 				" got n",
 				"t's mor",
 				"es not ",
+				"'s got ",
 				" she's ",
+				" a comp",
 				"t nowher",
+				"mposite?",
+				"ike a de",
+				"he knows",
 				"eal. She"
 			],
 			"hits": [
@@ -221,6 +239,11 @@
 			]
 		}
 	],
-	"updt": 1607603635380,
-	"edit": 24
+	"updt": 1607624727357,
+	"edit": 25,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
