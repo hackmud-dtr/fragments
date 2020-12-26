@@ -1,12 +1,12 @@
 {
 	"_id": "anon_zdvvrf.con_spec_weaver",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_zdvvrf.con_spec_weaver",
 	"sector": "K_2838",
 	"sec_level": 4,
 	"date_added": 1603341975460,
-	"last_scraped": 1607494988731,
+	"last_scraped": 1608966534699,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,34 +14,40 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1607538721220,
+	"next_scrape": 1609013032330,
 	"category": "fishie_tank",
-	"last_update": 1607494988731,
+	"last_update": 1608966572550,
 	"output": [
 		{
 			"args": {},
-			"calls": 204719,
+			"calls": 220225,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"syste",
 				"ight ",
+				"ght |",
 				"BJ: o",
 				"ool to",
 				"ki era",
-				"il_hor",
 				"evil_h",
 				" right",
 				"rajbhan",
 				"ht | BO",
-				"g you w",
+				"| SUBJ:",
 				"| BODY ",
+				"vil_horn",
+				"ts so co",
 				"to have ",
 				"ou were ",
+				"n the sy",
+				"mg you w",
+				"jbhandar",
 				"i erajbh",
 				"i | SUBJ",
 				"DY its s",
 				"dari | S",
 				"bhandari",
+				"ave her ",
 				" to have",
 				" BODY it"
 			],
@@ -65,7 +71,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 24164,
+			"calls": 25878,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -75,18 +81,25 @@
 			"fragments": [
 				"syste",
 				"ight ",
+				"ght |",
 				"ool to",
 				"ki era",
-				"il_hor",
 				"evil_h",
 				" right",
 				"rajbhan",
 				"ht | BO",
+				"| SUBJ:",
 				"| BODY ",
+				"vil_horn",
+				"ts so co",
+				"n the sy",
+				"mg you w",
+				"jbhandar",
 				"i erajbh",
 				"DY its s",
 				"dari | S",
 				"bhandari",
+				"ave her ",
 				" to have",
 				" BODY it"
 			],
@@ -147,8 +160,8 @@
 			]
 		}
 	],
-	"updt": 1607476431171,
-	"edit": 13,
+	"updt": 1608966560886,
+	"edit": 15,
 	"identified": [
 		{
 			"document": "Prisoners",
@@ -162,6 +175,11 @@
 				" to have",
 				" BODY it"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
