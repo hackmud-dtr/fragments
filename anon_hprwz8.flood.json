@@ -1,12 +1,12 @@
 {
 	"_id": "anon_hprwz8.flood",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_hprwz8.flood",
 	"sector": "SPC_5374",
 	"sec_level": 4,
 	"date_added": 1607169573418,
-	"last_scraped": 1608932991133,
+	"last_scraped": 1609017453882,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,26 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1608972688085,
+	"next_scrape": 1609061389890,
 	"category": "fishie_tank",
-	"last_update": 1608932991133,
+	"last_update": 1609017453882,
 	"output": [
 		{
 			"args": {},
-			"calls": 56109,
+			"calls": 94952,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"stand",
 				"f tha",
 				"ed to",
 				" she ",
+				" but ",
+				"she do",
+				" into ",
 				"t that'",
 				"what she",
 				"l need t",
+				"he does.",
 				"'s what ",
 				" case, w"
 			],
@@ -123,8 +128,8 @@
 			]
 		}
 	],
-	"updt": 1607493824850,
-	"edit": 5,
+	"updt": 1608956585573,
+	"edit": 6,
 	"identified": [
 		{
 			"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
@@ -138,6 +143,14 @@
 				"'s what ",
 				" case, w"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

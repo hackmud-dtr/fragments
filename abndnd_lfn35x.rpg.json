@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_lfn35x.rpg",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_lfn35x.rpg",
 	"sector": "K_9823",
 	"sec_level": 4,
 	"date_added": 1607183535078,
-	"last_scraped": 1608933063426,
+	"last_scraped": 1609017725697,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,27 +14,37 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1608974451280,
+	"next_scrape": 1609060092485,
 	"category": "fishie_tank",
-	"last_update": 1608933063426,
+	"last_update": 1609017725697,
 	"output": [
 		{
 			"args": {},
-			"calls": 80530,
+			"calls": 135663,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"pacit",
+				"ly ##",
 				"ience",
+				" this",
 				" seri",
 				"ward_g",
 				"seriou",
 				"l_this",
+				"ING se",
 				"e SOME",
+				"awkwar",
 				"_awkwa",
 				"u the c",
+				"METHING",
 				"ce woul",
+				" <well_",
 				"ty to ta",
+				"the capa",
+				"ted you ",
 				"his expe",
-				"e would "
+				"e would ",
+				"_is_awkw"
 			],
 			"hits": [
 				{
@@ -114,8 +124,8 @@
 			]
 		}
 	],
-	"updt": 1607494800982,
-	"edit": 4,
+	"updt": 1608956585573,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
@@ -133,6 +143,14 @@
 				"his expe",
 				"e would "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

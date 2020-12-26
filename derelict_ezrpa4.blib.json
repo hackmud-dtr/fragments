@@ -1,28 +1,28 @@
 {
 	"_id": "derelict_ezrpa4.blib",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_ezrpa4.blib",
 	"sector": "K_9825",
 	"sec_level": 4,
 	"date_added": 1601911382497,
-	"last_scraped": 1608933026525,
+	"last_scraped": 1609017579943,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1601911382497
 		}
 	],
-	"updt": 1607494606254,
-	"edit": 16,
+	"updt": 1609017568865,
+	"edit": 18,
 	"scrape_ct": 16,
-	"next_scrape": 1608979403526,
+	"next_scrape": 1609059119250,
 	"category": "fishie_tank",
-	"last_update": 1608933026525,
+	"last_update": 1609017579943,
 	"output": [
 		{
 			"args": {},
-			"calls": 232485,
+			"calls": 289714,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"rin R",
@@ -31,9 +31,13 @@
 				"1E4C C",
 				"E4C Com",
 				"E, user",
+				"D Excit",
 				"citing!",
-				"C ComCO",
+				"aboteur",
 				" Sabote",
+				"ser Erin",
+				"C ComCOD",
+				"?\\n1E4D ",
 				" ComCODE",
 				"\\n1E4D Ex"
 			],
@@ -140,6 +144,14 @@
 				"E4C Com",
 				"1E4D Ex"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
