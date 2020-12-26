@@ -6,7 +6,7 @@
 	"sector": "NGC_6053",
 	"sec_level": 4,
 	"date_added": 1606462294420,
-	"last_scraped": 1607470495316,
+	"last_scraped": 1608964976748,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1607511237123,
+	"next_scrape": 1609007380003,
 	"category": "clicker",
-	"last_update": 1607470495316,
+	"last_update": 1608964976748,
 	"output": [
 		{
 			"args": {},
-			"calls": 55236,
+			"calls": 94439,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				" 0100",
@@ -28,11 +28,13 @@
 				"NULLFIL",
 				"FILE\\n0",
 				"001 010",
-				"000 000",
 				"00 0000",
+				"0 0000 ",
 				"100 0001",
 				"0000 011",
+				"0000 000",
 				"0 0001 0",
+				"\\n0000 0",
 				" 0110 00",
 				" 0001 01",
 				" 0000 00",
@@ -655,8 +657,8 @@
 			]
 		}
 	],
-	"updt": 1607305468451,
-	"edit": 4,
+	"updt": 1607477994548,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -715,6 +717,14 @@
 				"0000 011SE",
 				"00 0000 SE"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
 		}
 	]
 }
