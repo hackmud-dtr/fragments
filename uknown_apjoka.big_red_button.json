@@ -6,38 +6,42 @@
 	"sector": "VNP_7395",
 	"sec_level": 4,
 	"date_added": 1606165124338,
-	"last_scraped": 1607644049739,
+	"last_scraped": 1608979174353,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1606165124338
 		}
 	],
-	"next_scrape": 1607690138862,
+	"next_scrape": 1609023648678,
 	"category": "fishie_tank",
-	"last_update": 1607644049739,
+	"last_update": 1608979174353,
 	"output": [
 		{
 			"args": {},
-			"calls": 314237,
+			"calls": 343541,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"to a ",
 				" to a",
+				" a st",
 				"y:\\n20",
 				"stack.",
 				"may:\\n",
 				"09D pl",
-				" a car",
 				"rd from",
 				"raw a c",
-				"eck, or",
 				"draw a ",
 				"card to",
+				"card fr",
 				"aw a ca",
 				":\\n209C",
 				" from a",
-				"play a c"
+				" a card",
+				"play a c",
+				"deck, or",
+				"9D play ",
+				", or\\n20"
 			],
 			"hits": [
 				{
@@ -152,6 +156,14 @@
 			]
 		}
 	],
-	"updt": 1607623359007,
-	"edit": 23
+	"updt": 1607644075295,
+	"edit": 24,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
