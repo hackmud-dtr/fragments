@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_qk6wlm.workload_solve",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "skip",
 	"script": "unknown_qk6wlm.workload_solve",
 	"sector": "K_8571",
 	"sec_level": 4,
 	"date_added": 1603507534095,
-	"last_scraped": 1607453543269,
+	"last_scraped": 1608964484437,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,24 +14,29 @@
 		}
 	],
 	"scrape_ct": 12,
-	"next_scrape": 1607544485067,
+	"next_scrape": 1609007469897,
 	"category": "risk_factor",
-	"last_update": 1607453543269,
+	"last_update": 1608964484437,
 	"output": [
 		{
 			"args": {},
-			"calls": 10320,
+			"calls": 20639,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
-				"tor s",
+				"ws\",\"",
 				"or se",
+				"Che' ",
+				"\":\"\\\"",
 				"' sta",
 				"r retu",
 				"er\":\"\\",
+				"ator s",
 				"ILE0XE1",
-				"n\\\" of o",
+				"tes Hype",
 				"T0X87_CL",
-				"SECT0XA4"
+				"SECT0XA4",
+				"n\\\" of o",
+				"\":\"news\""
 			]
 		},
 		{
@@ -2323,8 +2328,16 @@
 			]
 		}
 	],
-	"updt": 1607312302715,
-	"edit": 9,
+	"updt": 1607476626069,
+	"edit": 10,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
