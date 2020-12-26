@@ -1,21 +1,21 @@
 {
 	"_id": "abndnd_6n1hhq.hacktext",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_6n1hhq.hacktext",
 	"sector": "VNP_2818",
 	"sec_level": 4,
 	"date_added": 1607678571806,
-	"last_scraped": 1608145336589,
+	"last_scraped": 1609001537942,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1607678571806
 		}
 	],
-	"next_scrape": 1608190374090,
-	"category": "UNKNOWN CATEGORY",
-	"last_update": 1608145336589,
+	"next_scrape": 1609044381395,
+	"category": "risk_factor",
+	"last_update": 1609001519898,
 	"output": [
 		{
 			"args": {},
@@ -59,6 +59,24 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {},
+			"calls": 4955,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"n. Th",
+				"msg\":",
+				"is wh",
+				"ie's ",
+				"n Angie",
+				"Built\",",
+				"ndiwork ",
+				"itself k",
+				"g\":\"Floo",
+				". The be",
+				" itself "
+			]
 		}
 	],
 	"identified": [
@@ -91,6 +109,14 @@
 			]
 		}
 	],
-	"updt": 1608140959307,
-	"edit": 56
+	"updt": 1608145454226,
+	"edit": 57,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
