@@ -1,41 +1,45 @@
 {
 	"_id": "uknown_6jne6m.history",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_6jne6m.history",
 	"sector": "NGC_9045",
 	"sec_level": 4,
 	"date_added": 1603215451424,
-	"last_scraped": 1607499682834,
+	"last_scraped": 1608967696388,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603215451424
 		}
 	],
-	"updt": 1607476431171,
-	"edit": 15,
+	"updt": 1607499881417,
+	"edit": 16,
 	"scrape_ct": 17,
-	"next_scrape": 1607544636345,
+	"next_scrape": 1609012611756,
 	"category": "fishie_tank",
-	"last_update": 1607499682834,
+	"last_update": 1608967713482,
 	"output": [
 		{
 			"args": {},
-			"calls": 190333,
+			"calls": 231354,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"er wi",
 				"conds",
+				"fender",
 				" the d",
 				" 110 t",
 				"er turn",
 				"er 110 ",
+				"defende",
 				"208B af",
 				" turn\\n",
 				"s.\\n2091",
 				"onds per",
+				"nder win",
 				"A 5 seco",
+				"8A 5 sec",
+				"wins.\\n20",
 				"s\\n208C t",
 				" turns\\n2"
 			],
@@ -59,7 +63,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 26416,
+			"calls": 27633,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -67,21 +71,25 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"er wi",
 				"conds",
+				"fender",
 				"0 turn",
 				" the d",
 				" 110 t",
 				"rn\\n208",
 				"er turn",
 				"er 110 ",
+				"defende",
 				"208B af",
 				" turn\\n",
 				"s.\\n2091",
 				"onds per",
 				"nds per ",
+				"nder win",
 				"A 5 seco",
+				"8A 5 sec",
 				".\\n2091 ",
+				"wins.\\n20",
 				"s\\n208C t",
 				" turns\\n2"
 			],
@@ -152,6 +160,11 @@
 				"A 5 seco",
 				"s\\n208C t"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
