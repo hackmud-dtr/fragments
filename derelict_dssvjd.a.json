@@ -6,7 +6,7 @@
 	"sector": "K_1427",
 	"sec_level": 4,
 	"date_added": 1603638374533,
-	"last_scraped": 1607580336309,
+	"last_scraped": 1608973769250,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,26 +14,30 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1607621824674,
+	"next_scrape": 1609019183162,
 	"category": "fishie_tank",
-	"last_update": 1607580336309,
+	"last_update": 1608973823128,
 	"output": [
 		{
 			"args": {},
-			"calls": 233402,
+			"calls": 248047,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"E4B o",
 				" here",
 				" Worki",
+				"ore: Yo",
 				"of hour",
-				"king ag",
 				"fore: Y",
+				"E4B of ",
+				"ut\\n1E4B",
+				"rking ag",
+				"re: You'",
 				"ours. Wo",
 				"nst\\n1E4",
 				"ing agai",
 				"hours. W",
 				"g agains",
+				"f hours.",
 				" hours. "
 			],
 			"hits": [
@@ -56,7 +60,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 16291,
+			"calls": 19820,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -64,17 +68,21 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"E4B o",
 				" here",
 				" Worki",
+				"ore: Yo",
 				"of hour",
-				"king ag",
 				"fore: Y",
+				"E4B of ",
+				"ut\\n1E4B",
+				"rking ag",
+				"re: You'",
 				"ours. Wo",
 				"nst\\n1E4",
 				"ing agai",
 				"hours. W",
 				"g agains",
+				"f hours.",
 				" hours. "
 			],
 			"hits": [
@@ -130,8 +138,8 @@
 			]
 		}
 	],
-	"updt": 1607550880102,
-	"edit": 12,
+	"updt": 1608973791284,
+	"edit": 14,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -145,6 +153,11 @@
 				"nst\\n1E4",
 				"hours. W"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_fs3zjm.inv",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unidentified_fs3zjm.inv",
 	"sector": "K_9272",
 	"sec_level": 4,
 	"date_added": 1606601936553,
-	"last_scraped": 1607581499440,
+	"last_scraped": 1608974168259,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,34 @@
 		}
 	],
 	"scrape_ct": 0,
-	"next_scrape": 1607628198970,
+	"next_scrape": 1609018228944,
 	"category": "fishie_tank",
-	"last_update": 1607581499440,
+	"last_update": 1608974168259,
 	"output": [
 		{
 			"args": {},
-			"calls": 186717,
+			"calls": 206446,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"red j",
+				"lly, ",
+				"can't",
 				"Anywa",
+				"the go",
 				"s the ",
 				"nment ",
 				"ernmen",
+				"e. | A",
+				" but I",
 				"y're go",
+				"w hundr",
+				"ment is",
 				"'re gon",
-				"n't see "
+				" them, ",
+				"n't see ",
+				"e govern",
+				" they're",
+				" always "
 			],
 			"hits": [
 				{
@@ -126,6 +138,14 @@
 			]
 		}
 	],
-	"updt": 1607552053017,
-	"edit": 14
+	"updt": 1607581555538,
+	"edit": 15,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
