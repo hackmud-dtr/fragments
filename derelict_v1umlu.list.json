@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_v1umlu.list",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_v1umlu.list",
 	"sector": "K_6413",
 	"sec_level": 4,
 	"date_added": 1608481163681,
-	"last_scraped": 1608945838417,
+	"last_scraped": 1609022075137,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1608988011505,
+	"next_scrape": 1609063680543,
 	"category": "fishie_tank",
-	"last_update": 1608945838417,
+	"last_update": 1609022075137,
 	"output": [
 		{
 			"args": {},
-			"calls": 27048,
+			"calls": 73859,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ke a ",
@@ -229,8 +229,8 @@
 			]
 		}
 	],
-	"updt": 1608481383207,
-	"edit": 2,
+	"updt": 1609022072824,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -304,6 +304,14 @@
 			"frags": [
 				"he knows"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
