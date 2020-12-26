@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_ygo0jz.loc_wrapper",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anonymous_ygo0jz.loc_wrapper",
 	"sector": "HJG_1479",
 	"sec_level": 4,
 	"date_added": 1607800397042,
-	"last_scraped": 1607800829741,
+	"last_scraped": 1608984522568,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,23 +14,30 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1607800889741,
+	"next_scrape": 1609026830936,
 	"category": "fishie_tank",
-	"last_update": 1607800829741,
+	"last_update": 1608984522568,
 	"output": [
 		{
 			"args": {},
-			"calls": 30486,
+			"calls": 60766,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"s our",
-				"# does",
+				"ink s",
+				"t mean",
+				" do an",
+				"lse to ",
+				"does th",
 				"where el",
+				"oner? ##",
 				"n shes o",
 				"Iona, th",
 				"es that ",
 				"er? ## I",
+				"ean shes",
 				"don't th",
+				"## does ",
 				" to go. ",
 				" shes ou"
 			],
@@ -255,6 +262,14 @@
 			]
 		}
 	],
-	"updt": 1607800787437,
-	"edit": 2
+	"updt": 1607800983827,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
