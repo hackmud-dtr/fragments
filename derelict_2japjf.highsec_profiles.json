@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_2japjf.highsec_profiles",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_2japjf.highsec_profiles",
 	"sector": "K_9272",
 	"sec_level": 4,
 	"date_added": 1606626889347,
-	"last_scraped": 1607745643987,
+	"last_scraped": 1608983561457,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,25 +14,29 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1607786500818,
+	"next_scrape": 1609026181481,
 	"category": "fishie_tank",
-	"last_update": 1607745643987,
+	"last_update": 1608983543909,
 	"output": [
 		{
 			"args": {},
-			"calls": 177212,
+			"calls": 194676,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"s the",
 				"of sa",
-				"ng to",
 				"erpar",
+				"e cou",
+				"ng to ",
+				"ssity i",
 				"leave u",
 				"ity is ",
 				"g to le",
 				"ely goi",
 				"e quest",
 				"defines",
+				". It is",
+				"y going ",
 				"s our ag",
 				"s never ",
 				"o leave ",
@@ -139,8 +143,8 @@
 			]
 		}
 	],
-	"updt": 1607719896658,
-	"edit": 18,
+	"updt": 1607745681229,
+	"edit": 19,
 	"identified": [
 		{
 			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
@@ -153,6 +157,14 @@
 				"o leave ",
 				"ecessity"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
