@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_qa6ted.probe",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "abndnd_qa6ted.probe",
 	"sector": "K_0449",
 	"sec_level": 4,
 	"date_added": 1605047800230,
-	"last_scraped": 1607457638568,
+	"last_scraped": 1608928434701,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1607544176164,
+	"next_scrape": 1609018863231,
 	"category": "risk_factor",
 	"last_update": 1607457638568,
 	"output": [
@@ -1886,12 +1886,16 @@
 			]
 		}
 	],
-	"updt": 1607305073687,
-	"edit": 3,
+	"updt": 1607477211932,
+	"edit": 4,
 	"cannot_identify": true,
 	"retry_args": [
 		{
+			"do": "win"
+		},
+		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

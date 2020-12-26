@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_xf8p80.send",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "player",
 	"script": "anonymous_xf8p80.send",
 	"sector": "SPC_4277",
 	"sec_level": 4,
 	"date_added": 1605953684250,
-	"last_scraped": 1607451459807,
+	"last_scraped": 1608927692069,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1607497171191,
+	"next_scrape": 1609018912166,
 	"category": "risk_factor",
 	"last_update": 1607451459807,
 	"output": [
@@ -2285,12 +2285,16 @@
 			]
 		}
 	],
-	"updt": 1607305271913,
-	"edit": 3,
+	"updt": 1607477602851,
+	"edit": 4,
 	"cannot_identify": true,
 	"retry_args": [
 		{
+			"do": "win"
+		},
+		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
