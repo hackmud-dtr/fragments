@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_20zu4x.dbs",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anonymous_20zu4x.dbs",
 	"sector": "K_1427",
 	"sec_level": 4,
 	"date_added": 1603556255960,
-	"last_scraped": 1607643052062,
+	"last_scraped": 1608942483890,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1607687488257,
+	"next_scrape": 1608987131745,
 	"category": "fishie_tank",
-	"last_update": 1607643106262,
+	"last_update": 1608942483890,
 	"output": [
 		{
 			"args": {},
@@ -89,16 +89,18 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 215215,
+			"calls": 229696,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"| USE",
-				"SER mh",
 				"lister",
+				"SER mho",
 				"R mholl",
-				"PROG ER",
 				"olliste",
+				"E ERROR",
 				"RROR | T",
+				"r imiyaw",
+				"PROG ERR",
 				"OR | PRO",
 				"miyawaki",
 				"| TIME E",
@@ -118,8 +120,8 @@
 			]
 		}
 	],
-	"updt": 1607643099736,
-	"edit": 18,
+	"updt": 1607643296246,
+	"edit": 19,
 	"identified": [
 		{
 			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
@@ -130,11 +132,6 @@
 				"miyawaki",
 				" ERROR |"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }

@@ -1,12 +1,12 @@
 {
 	"_id": "anon_ydvhr1.lib_compress",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anon_ydvhr1.lib_compress",
 	"sector": "SPC_3832",
 	"sec_level": 4,
 	"date_added": 1604128076054,
-	"last_scraped": 1607463883933,
+	"last_scraped": 1608929744049,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1607509985413,
+	"next_scrape": 1609017755086,
 	"category": "risk_factor",
 	"last_update": 1607463883933,
 	"output": [
@@ -1940,11 +1940,14 @@
 			]
 		}
 	],
-	"updt": 1607304684167,
-	"edit": 5,
+	"updt": 1607476820915,
+	"edit": 6,
 	"cannot_identify": true,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}
