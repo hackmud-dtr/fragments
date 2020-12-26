@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_mpdqka.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_mpdqka.bot_scam_do_not_run",
 	"sector": "HJG_3331",
 	"sec_level": 4,
 	"date_added": 1606196220806,
-	"last_scraped": 1607676703030,
+	"last_scraped": 1608981311111,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1607722479969,
+	"next_scrape": 1609027335743,
 	"category": "fishie_tank",
-	"last_update": 1607676703030,
+	"last_update": 1608981383660,
 	"output": [
 		{
 			"args": {},
-			"calls": 176945,
+			"calls": 191501,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"we ca",
@@ -80,7 +80,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 21698,
+			"calls": 26569,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -243,6 +243,11 @@
 			]
 		}
 	],
-	"updt": 1607661657485,
-	"edit": 13
+	"updt": 1607676708768,
+	"edit": 14,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
