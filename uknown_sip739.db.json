@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_sip739.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_sip739.db",
 	"sector": "K_5860",
 	"sec_level": 4,
 	"date_added": 1602555524200,
-	"last_scraped": 1609020952511,
+	"last_scraped": 1609050174535,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1609066263043,
+	"next_scrape": 1609090250488,
 	"category": "fishie_tank",
-	"last_update": 1609020952511,
+	"last_update": 1609050174535,
 	"output": [
 		{
 			"args": {},
-			"calls": 310219,
+			"calls": 344410,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"y 'th",
@@ -178,8 +178,8 @@
 			]
 		}
 	],
-	"updt": 1609020897012,
-	"edit": 26,
+	"updt": 1609021094538,
+	"edit": 27,
 	"identified": [
 		{
 			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
@@ -194,6 +194,14 @@
 				"e' or 't",
 				" a smile"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
