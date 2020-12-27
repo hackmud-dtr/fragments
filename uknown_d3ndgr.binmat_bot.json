@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_d3ndgr.binmat_bot",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "uknown_d3ndgr.binmat_bot",
 	"sector": "K_5159",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1609071122925
+		},
+		{
+			"type": "died",
+			"when": 1609072771992
 		}
 	],
-	"updt": 1609071139471,
-	"edit": 1,
+	"updt": 1609071334585,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -79,5 +83,6 @@
 				" technol"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
