@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_c1f6bz.bot_brain",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "derelict_c1f6bz.bot_brain",
 	"sector": "K_7998",
 	"sec_level": 4,
 	"date_added": 1603178323731,
-	"last_scraped": 1608957042656,
+	"last_scraped": 1609176457314,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609000980232,
+	"next_scrape": 1609261930287,
 	"category": "risk_factor",
 	"last_update": 1608957042656,
 	"output": [
@@ -4374,11 +4374,14 @@
 			]
 		}
 	],
-	"updt": 1608956976292,
-	"edit": 14,
+	"updt": 1608957173122,
+	"edit": 15,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"cannot_identify": true,
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}
