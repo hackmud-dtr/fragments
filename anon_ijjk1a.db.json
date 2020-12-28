@@ -1,24 +1,24 @@
 {
 	"_id": "anon_ijjk1a.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_ijjk1a.db",
 	"sector": "VNP_3422",
 	"sec_level": 4,
 	"date_added": 1601761033634,
-	"last_scraped": 1608975274021,
+	"last_scraped": 1609183033045,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1601761033634
 		}
 	],
-	"updt": 1607600117188,
-	"edit": 24,
+	"updt": 1608975353689,
+	"edit": 25,
 	"scrape_ct": 13,
-	"next_scrape": 1609015136819,
+	"next_scrape": 1609223215848,
 	"category": "fishie_tank",
-	"last_update": 1608975346791,
+	"last_update": 1609183033045,
 	"output": [
 		{
 			"args": {},
@@ -105,13 +105,13 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 251192,
+			"calls": 298966,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"60 TR",
-				" TRAP",
 				"X2BC7D",
 				"2160 T",
+				" TRAP ",
 				"SECT0XF",
 				"0X7A_SE",
 				"X7A_SECT",
@@ -121,6 +121,7 @@
 				"ECT0XF22",
 				"BF_CLST0",
 				"A_SECT0X",
+				"_FILE0X2",
 				"BC7D17A\\n"
 			],
 			"hits": [
@@ -153,11 +154,6 @@
 				"ECT0XF22",
 				"BF_CLST0"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
