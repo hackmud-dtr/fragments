@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_8rt4lw.depot",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anonymous_8rt4lw.depot",
 	"sector": "NGC_4506",
 	"sec_level": 4,
 	"date_added": 1605835674949,
-	"last_scraped": 1608931485475,
+	"last_scraped": 1609169539596,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 14,
-	"next_scrape": 1608976224308,
+	"next_scrape": 1609260590458,
 	"category": "risk_factor",
 	"last_update": 1608931485475,
 	"output": [
@@ -1991,11 +1991,14 @@
 			]
 		}
 	],
-	"updt": 1607477602851,
-	"edit": 4,
+	"updt": 1608955998236,
+	"edit": 5,
 	"cannot_identify": true,
-	"pl_output": "YOU COULD WIN 1GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}

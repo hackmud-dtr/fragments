@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_6ou8io.public",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_6ou8io.public",
 	"sector": "NGC_6053",
 	"sec_level": 4,
 	"date_added": 1606427268338,
-	"last_scraped": 1609019354468,
+	"last_scraped": 1609189778233,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1609064440258,
+	"next_scrape": 1609232083006,
 	"category": "fishie_tank",
-	"last_update": 1609019427382,
+	"last_update": 1609189778233,
 	"output": [
 		{
 			"args": {},
@@ -115,28 +115,31 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 68525,
+			"calls": 82778,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"uick n",
+				"ge 5 ",
 				"stage ",
-				"quick ",
-				"| SUBJ",
-				"| BODY",
-				" ai-te",
-				" | SUB",
+				"uick no",
 				"tering ",
+				"team | ",
 				"ring st",
 				"ODY qui",
 				"ering s",
 				"DY quic",
+				"Y quick ",
+				"SUBJ: en",
+				"on ai-te",
 				"eam | SU",
 				"BJ: ente",
 				"ai-team ",
+				"| BODY q",
 				": enteri",
 				" SUBJ: e",
 				" enterin",
-				" BODY qu"
+				" BODY qu",
+				" 5 | BOD",
+				" | SUBJ:"
 			],
 			"hits": [
 				{
@@ -158,8 +161,8 @@
 			]
 		}
 	],
-	"updt": 1608956194239,
-	"edit": 10,
+	"updt": 1609019526284,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
@@ -176,11 +179,6 @@
 				"BJ: ente",
 				": enteri"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
