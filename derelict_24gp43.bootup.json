@@ -6,22 +6,17 @@
 	"sector": "SPC_5525",
 	"sec_level": 4,
 	"date_added": 1609104191660,
-	"last_scraped": 1609104264787,
+	"last_scraped": 1609195484293,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1609104191660
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1609104324787,
+	"next_scrape": 1609236501912,
 	"category": "fishie_tank",
-	"last_update": 1609104393794,
+	"last_update": 1609195484293,
 	"output": [
 		{
 			"args": {},
@@ -36,6 +31,21 @@
 				"me?\\n211",
 				"1E You a",
 				"of this\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" you ",
+						" think",
+						" of th",
+						"rson ga",
+						" a two ",
+						"me?\\n211",
+						"1E You a",
+						"of this\\n"
+					]
+				}
 			]
 		},
 		{
@@ -50,6 +60,55 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				" you ",
+				" think",
+				" of th",
+				"rson ga",
+				" a two ",
+				"me?\\n211",
+				"1E You a",
+				"of this\\n"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" you ",
+						" think",
+						" of th",
+						"rson ga",
+						" a two ",
+						"me?\\n211",
+						"1E You a",
+						"of this\\n"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 36679,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" you ",
+				" think",
+				" of th",
+				"rson ga",
+				" a two ",
+				"me?\\n211",
+				"1E You a",
+				"of this\\n"
+			]
+		}
+	],
+	"updt": 1609104553720,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				" you ",
 				" think",
 				" of th",

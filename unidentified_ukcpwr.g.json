@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_ukcpwr.g",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unidentified_ukcpwr.g",
 	"sector": "VNP_5904",
 	"sec_level": 4,
 	"date_added": 1608635679055,
-	"last_scraped": 1609008533211,
+	"last_scraped": 1609187274136,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1609051745109,
+	"next_scrape": 1609232703130,
 	"category": "fishie_tank",
-	"last_update": 1609008533211,
+	"last_update": 1609187274136,
 	"output": [
 		{
 			"args": {},
@@ -48,7 +48,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2601,
+			"calls": 4208,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -81,7 +81,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 28705,
+			"calls": 57986,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"s and",
@@ -119,14 +119,6 @@
 			]
 		}
 	],
-	"updt": 1608635952667,
-	"edit": 2,
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1609008579113,
+	"edit": 3
 }

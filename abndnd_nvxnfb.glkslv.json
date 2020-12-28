@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_nvxnfb.glkslv",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_nvxnfb.glkslv",
 	"sector": "K_1908",
 	"sec_level": 4,
 	"date_added": 1607476425932,
-	"last_scraped": 1608965737308,
+	"last_scraped": 1609177126964,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1609009873163,
+	"next_scrape": 1609218291219,
 	"category": "fishie_tank",
-	"last_update": 1608965737308,
+	"last_update": 1609177126964,
 	"output": [
 		{
 			"args": {},
@@ -44,7 +44,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4897,
+			"calls": 7937,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -52,9 +52,14 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"R fbr",
+				"NETW ",
+				"R fbre",
+				"R | PR",
+				"SER fbr",
+				"PROG ER",
 				"OR | US",
 				"TIME ERR",
+				"OR | TIM",
 				" ERROR |"
 			],
 			"hits": [
@@ -73,12 +78,17 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 17665,
+			"calls": 42438,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"R fbr",
+				"NETW ",
+				"R fbre",
+				"R | PR",
+				"SER fbr",
+				"PROG ER",
 				"OR | US",
 				"TIME ERR",
+				"OR | TIM",
 				" ERROR |"
 			],
 			"hits": [
@@ -105,14 +115,6 @@
 			]
 		}
 	],
-	"updt": 1607484833208,
-	"edit": 3,
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1608965971527,
+	"edit": 4
 }

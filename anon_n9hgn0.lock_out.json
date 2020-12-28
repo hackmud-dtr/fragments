@@ -1,29 +1,24 @@
 {
 	"_id": "anon_n9hgn0.lock_out",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_n9hgn0.lock_out",
 	"sector": "K_5159",
 	"sec_level": 4,
 	"date_added": 1609031056129,
-	"last_scraped": 1609031072964,
+	"last_scraped": 1609194611704,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1609031056129
 		}
 	],
-	"updt": 1609031062801,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
+	"updt": 1609031258480,
+	"edit": 2,
 	"scrape_ct": 20,
-	"next_scrape": 1609031132964,
+	"next_scrape": 1609239687620,
 	"category": "fishie_tank",
-	"last_update": 1609031145671,
+	"last_update": 1609194611704,
 	"output": [
 		{
 			"args": {},
@@ -35,6 +30,18 @@
 				"00 0001",
 				"00 0100 ",
 				"0 0000 0"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"01 01",
+						"000 00",
+						"00 0001",
+						"00 0100 ",
+						"0 0000 0"
+					]
+				}
 			]
 		},
 		{
@@ -49,6 +56,44 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"01 01",
+				"000 00",
+				"00 0001",
+				"00 0100 ",
+				"0 0000 0"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"01 01",
+						"000 00",
+						"00 0001",
+						"00 0100 ",
+						"0 0000 0"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 14979,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"01 01",
+				"000 00",
+				"00 0001",
+				"00 0100 ",
+				"0 0000 0"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
 				"01 01",
 				"000 00",
 				"00 0001",

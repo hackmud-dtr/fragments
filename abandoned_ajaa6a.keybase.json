@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "feed"
-		},
-		{
 			"do": "clean"
 		}
 	],
 	"scrape_ct": 16,
 	"next_scrape": 1609086697326,
 	"category": "fishie_tank",
-	"last_update": 1609086637326,
+	"last_update": 1609195319621,
 	"output": [
 		{
 			"args": {},
@@ -38,9 +35,58 @@
 				"nder DEL",
 				"ess pass",
 				"eminder "
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"se re",
+						" DELE",
+						"ss passp",
+						"passphra",
+						"nder DEL",
+						"ess pass",
+						"eminder "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 5700,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"se re",
+				" DELE",
+				"ss passp",
+				"passphra",
+				"nder DEL",
+				"ess pass",
+				"eminder "
 			]
 		}
 	],
-	"updt": 1609086581621,
-	"edit": 1
+	"updt": 1609086776328,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "Passphrase",
+			"frags": [
+				"se re",
+				" DELE",
+				"ss passp",
+				"passphra",
+				"nder DEL",
+				"ess pass",
+				"eminder "
+			]
+		}
+	]
 }

@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_worx48.bank",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anonymous_worx48.bank",
 	"sector": "NGC_8930",
 	"sec_level": 4,
 	"date_added": 1607043842443,
-	"last_scraped": 1608969363629,
+	"last_scraped": 1609179454825,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609013982726,
+	"next_scrape": 1609220647586,
 	"category": "fishie_tank",
-	"last_update": 1608969363629,
+	"last_update": 1609179454825,
 	"output": [
 		{
 			"args": {},
@@ -59,7 +59,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 8603,
+			"calls": 10943,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -103,7 +103,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 116259,
+			"calls": 126156,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"type\"",
@@ -139,8 +139,8 @@
 			]
 		}
 	],
-	"updt": 1608969297927,
-	"edit": 8,
+	"updt": 1608969492038,
+	"edit": 9,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -160,14 +160,6 @@
 			"frags": [
 				"FILE0X3"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

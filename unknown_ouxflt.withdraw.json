@@ -6,24 +6,19 @@
 	"sector": "K_7354",
 	"sec_level": 4,
 	"date_added": 1609152202001,
-	"last_scraped": 1609152293144,
+	"last_scraped": 1609195846117,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1609152202001
 		}
 	],
-	"updt": 1609152231482,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
+	"updt": 1609152427330,
+	"edit": 2,
 	"scrape_ct": 18,
-	"next_scrape": 1609152353144,
+	"next_scrape": 1609239033455,
 	"category": "fishie_tank",
-	"last_update": 1609152330141,
+	"last_update": 1609195846117,
 	"output": [
 		{
 			"args": {},
@@ -36,6 +31,19 @@
 				"r imiya",
 				"USER mho",
 				"aki smir"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						" | SU",
+						"rza | ",
+						" | USE",
+						"r imiya",
+						"USER mho",
+						"aki smir"
+					]
+				}
 			]
 		},
 		{
@@ -50,6 +58,47 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				" | SU",
+				"rza | ",
+				" | USE",
+				"r imiya",
+				"USER mho",
+				"aki smir"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						" | SU",
+						"rza | ",
+						" | USE",
+						"r imiya",
+						"USER mho",
+						"aki smir"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 43099,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" | SU",
+				"rza | ",
+				" | USE",
+				"r imiya",
+				"USER mho",
+				"aki smir"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+			"frags": [
 				" | SU",
 				"rza | ",
 				" | USE",
