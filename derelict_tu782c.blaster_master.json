@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_tu782c.blaster_master",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "skip",
 	"script": "derelict_tu782c.blaster_master",
 	"sector": "SPC_4277",
 	"sec_level": 4,
 	"date_added": 1605954735425,
-	"last_scraped": 1607515164748,
+	"last_scraped": 1609202414625,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1607515224748,
+	"next_scrape": 1609244324456,
 	"category": "risk_factor",
-	"last_update": 1607515164748,
+	"last_update": 1609202414625,
 	"output": [
 		{
 			"args": {},
-			"calls": 2332,
+			"calls": 8994,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"r tha",
@@ -38,7 +38,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 1153,
+			"calls": 1472,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"4",
@@ -2335,7 +2335,12 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1607515317058,
-	"edit": 6,
-	"cannot_identify": true
+	"updt": 1608955998236,
+	"edit": 7,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }

@@ -6,7 +6,7 @@
 	"sector": "K_3278",
 	"sec_level": 4,
 	"date_added": 1602086258384,
-	"last_scraped": 1608925879462,
+	"last_scraped": 1609202685416,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,20 +14,26 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1608965841139,
+	"next_scrape": 1609248808798,
 	"category": "risk_factor",
-	"last_update": 1608925879462,
+	"last_update": 1609202685416,
 	"output": [
 		{
 			"args": {},
-			"calls": 12482,
+			"calls": 21660,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
-				" deck",
+				" you ",
 				"you ma",
 				"r\\n209",
 				"play a",
-				" a card",
+				"raw a c",
+				"m a dec",
+				"y a card",
+				"o a stac",
+				"card to ",
+				"a deck, ",
+				"a card t",
 				" may:\\n2",
 				"ou may:\\n",
 				" stack.\\n"
@@ -4322,8 +4328,8 @@
 			]
 		}
 	],
-	"updt": 1607475843533,
-	"edit": 12,
+	"updt": 1609202659274,
+	"edit": 14,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -4340,5 +4346,13 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }

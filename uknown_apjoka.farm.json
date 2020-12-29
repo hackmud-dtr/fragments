@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_apjoka.farm",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_apjoka.farm",
 	"sector": "HJG_1875",
 	"sec_level": 4,
 	"date_added": 1600134562822,
-	"last_scraped": 1608926207711,
+	"last_scraped": 1609203029555,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,39 +14,50 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609017376488,
+	"next_scrape": 1609247719791,
 	"category": "risk_factor",
-	"last_update": 1608926207711,
+	"last_update": 1609203029555,
 	"output": [
 		{
 			"args": {},
-			"calls": 11770,
+			"calls": 14306,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"R | US",
+				"R | TI",
+				"eam | ",
 				"ROR | T",
+				"n ai-te",
+				"eton ai",
+				"ERROR |",
 				"-team |",
 				" USER f",
 				" | TIME",
 				"SUBJ: st",
 				"PROG ERR",
 				"m | SUBJ",
-				"IME ERRO"
+				"IME ERRO",
+				"ai-team ",
+				"| PROG E",
+				" fbreton"
 			]
 		},
 		{
 			"args": {
 				"do": "win"
 			},
-			"calls": 5226,
+			"calls": 5695,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"4",
-				"i-tea",
+				"R | US",
+				"eam | ",
 				"RROR | ",
 				"ROR | T",
 				"reton a",
 				"OR | TI",
-				"fbreton",
+				"n ai-te",
+				"eton ai",
 				"ERROR |",
 				"| TIME ",
 				"-team |",
@@ -57,7 +68,10 @@
 				"PROG ERR",
 				"m | SUBJ",
 				"IME ERRO",
-				": stage "
+				"ai-team ",
+				"| PROG E",
+				": stage ",
+				" fbreton"
 			]
 		},
 		{
@@ -4809,8 +4823,13 @@
 			]
 		}
 	],
-	"updt": 1607475062422,
-	"edit": 13,
+	"updt": 1608953652190,
+	"edit": 14,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }
