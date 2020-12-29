@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_py71gm.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_py71gm.db",
 	"sector": "VNP_8582",
 	"sec_level": 4,
 	"date_added": 1605994138459,
-	"last_scraped": 1608933370275,
+	"last_scraped": 1609204796263,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,28 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1608977237902,
+	"next_scrape": 1609245936624,
 	"category": "fishie_tank",
-	"last_update": 1608933370275,
+	"last_update": 1609204796263,
 	"output": [
 		{
 			"args": {},
-			"calls": 78847,
+			"calls": 124344,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"2 I k",
 				" that",
 				" know",
 				"ur req",
+				"quest!",
+				"ou hat",
 				"on't b",
+				"be like",
 				"!\\n1E1D",
+				" your r",
 				"uest!\\n1",
 				"that.\\n1",
+				"like tha",
 				"hat.\\n1E"
 			],
 			"hits": [
@@ -124,8 +130,8 @@
 			]
 		}
 	],
-	"updt": 1607496950466,
-	"edit": 6,
+	"updt": 1608955998236,
+	"edit": 7,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -139,6 +145,14 @@
 				"that.\\n1",
 				"hat.\\n1E"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
