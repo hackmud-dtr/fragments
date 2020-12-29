@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_87bmg1.corp_crack",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_87bmg1.corp_crack",
 	"sector": "NGC_1989",
 	"sec_level": 4,
 	"date_added": 1606339483041,
-	"last_scraped": 1609178181540,
+	"last_scraped": 1609269463382,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 5,
-	"next_scrape": 1609223291593,
+	"next_scrape": 1609313163389,
 	"category": "fishie_tank",
-	"last_update": 1609178181540,
+	"last_update": 1609269463382,
 	"output": [
 		{
 			"args": {},
-			"calls": 170978,
+			"calls": 204983,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"mholli",
@@ -119,6 +119,14 @@
 			]
 		}
 	],
-	"updt": 1608967343022,
-	"edit": 7
+	"updt": 1609198164051,
+	"edit": 8,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
