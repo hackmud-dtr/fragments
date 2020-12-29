@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_ae15r2.stimulus",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unknown_ae15r2.stimulus",
 	"sector": "K_0449",
 	"sec_level": 4,
 	"date_added": 1604893834654,
-	"last_scraped": 1608971229945,
+	"last_scraped": 1609221020789,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,30 +14,36 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1609014481460,
+	"next_scrape": 1609262394523,
 	"category": "fishie_tank",
-	"last_update": 1608971229945,
+	"last_update": 1609221020789,
 	"output": [
 		{
 			"args": {},
-			"calls": 87871,
+			"calls": 93768,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"the f",
 				"r. GU",
 				"onder",
-				" them",
+				"ok to",
+				"vercom",
 				"k to t",
 				"h wond",
+				"ear. G",
 				" to th",
+				" to ov",
 				"to over",
 				"ot fear",
 				"al mind",
 				"so with ",
+				"nder - n",
 				"mindset ",
+				"me them.",
 				"indset a",
 				"hen you ",
 				"e future",
+				" not fea",
 				" future,",
 				" and tec"
 			],
@@ -290,8 +296,8 @@
 			]
 		}
 	],
-	"updt": 1607543648535,
-	"edit": 8,
+	"updt": 1608971447839,
+	"edit": 9,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -355,6 +361,14 @@
 			"frags": [
 				" them"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
