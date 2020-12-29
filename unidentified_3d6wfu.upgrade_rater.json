@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_3d6wfu.upgrade_rater",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "unidentified_3d6wfu.upgrade_rater",
 	"sector": "HJG_3904",
 	"sec_level": 4,
 	"date_added": 1607912807685,
-	"last_scraped": 1609173016620,
+	"last_scraped": 1609267866054,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609260894780,
+	"next_scrape": 1609349910136,
 	"category": "risk_factor",
-	"last_update": 1609172997549,
+	"last_update": 1609267866054,
 	"output": [
 		{
 			"args": {},
@@ -37,15 +37,22 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 336,
+			"calls": 750,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
+				"017 Sh",
 				" the c",
+				" rando",
+				"Randomi",
+				"ndomise",
+				"huffle ",
 				"uffle th",
 				"se data.",
 				"mise dat",
+				"fle the ",
 				"a?\\n2017",
 				"6 Random",
+				".\\n2016 R",
 				"?\\n2017 S",
 				" data.\\n2"
 			]
@@ -1283,14 +1290,11 @@
 			]
 		}
 	],
-	"updt": 1609025590070,
-	"edit": 3,
+	"updt": 1609198945963,
+	"edit": 4,
 	"cannot_identify": true,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
