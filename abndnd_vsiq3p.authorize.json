@@ -1,0 +1,64 @@
+{
+	"_id": "abndnd_vsiq3p.authorize",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abndnd_vsiq3p.authorize",
+	"sector": "K_7354",
+	"sec_level": 4,
+	"date_added": 1609232809987,
+	"last_scraped": 1609232864385,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1609232809987
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1609232924385,
+	"category": "fishie_tank",
+	"last_update": 1609232900801,
+	"output": [
+		{
+			"args": {},
+			"calls": 17755,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"n a l",
+				" in a",
+				"044 Hav",
+				"043 6 l",
+				"e.\\n2043",
+				"6 decks ",
+				"042 6 de",
+				"\\n2042 6"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2251,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"n a l",
+				" in a",
+				"044 Hav",
+				"043 6 l",
+				"e.\\n2043",
+				"6 decks ",
+				"042 6 de",
+				"\\n2042 6"
+			]
+		}
+	]
+}
