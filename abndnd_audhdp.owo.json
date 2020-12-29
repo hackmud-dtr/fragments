@@ -6,7 +6,7 @@
 	"sector": "SPC_5374",
 	"sec_level": 4,
 	"date_added": 1607136400956,
-	"last_scraped": 1608942209808,
+	"last_scraped": 1609207720013,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,19 +14,22 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1608983035248,
+	"next_scrape": 1609249761998,
 	"category": "fishie_tank",
-	"last_update": 1608942209808,
+	"last_update": 1609207720013,
 	"output": [
 		{
 			"args": {},
-			"calls": 126065,
+			"calls": 152820,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"11 01",
+				"1 011",
 				"111 00",
 				"11 1111",
-				"0 0000 ",
 				" 0111 1",
+				"1 1111 0",
+				"00 0000 ",
 				" 0000 00"
 			],
 			"hits": [
@@ -79,8 +82,8 @@
 			]
 		}
 	],
-	"updt": 1607621601911,
-	"edit": 10,
+	"updt": 1608956585573,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -91,6 +94,14 @@
 				" 0111 1",
 				" 0000 00"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
