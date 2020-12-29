@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_9071ma.date_time",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "skip",
 	"script": "anonymous_9071ma.date_time",
 	"sector": "K_5860",
 	"sec_level": 4,
 	"date_added": 1602582939182,
-	"last_scraped": 1607452310051,
+	"last_scraped": 1609202179875,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,26 +14,31 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1607495879070,
+	"next_scrape": 1609246065887,
 	"category": "risk_factor",
-	"last_update": 1607452310051,
+	"last_update": 1609202179875,
 	"output": [
 		{
 			"args": {},
-			"calls": 25963,
+			"calls": 35860,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"thumb",
 				", tho",
 				"yeah y",
 				"a work",
+				" on a ",
+				"ool <th",
+				"ng gonn",
 				"humbs_u",
 				"_ico> #",
+				" its co",
 				" gonna ",
 				"uestion,",
 				"ot. ## i",
 				"ico> ## ",
 				"ho ## Sh",
+				"dboxing ",
 				"## is tr",
 				" work on"
 			]
@@ -3556,8 +3561,16 @@
 			]
 		}
 	],
-	"updt": 1607476039663,
-	"edit": 14,
+	"updt": 1608954823314,
+	"edit": 15,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
