@@ -6,7 +6,7 @@
 	"sector": "VNP_2370",
 	"sec_level": 4,
 	"date_added": 1605498220585,
-	"last_scraped": 1609194993004,
+	"last_scraped": 1609274317108,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,29 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1609236631083,
+	"next_scrape": 1609320006679,
 	"category": "fishie_tank",
-	"last_update": 1609194993004,
+	"last_update": 1609274373055,
 	"output": [
 		{
 			"args": {},
-			"calls": 192625,
+			"calls": 200724,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ams. ",
+				" When",
 				"ul neg",
+				"or ins",
+				"ns ver",
 				"hen mu",
+				"ccessf",
+				"tiple c",
 				"negotia",
 				"nction ",
 				" stream",
+				"the 'gam",
+				"streams.",
+				"hould re",
 				" remembe"
 			],
 			"hits": [
@@ -50,7 +58,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 18535,
+			"calls": 23035,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -59,11 +67,19 @@
 			],
 			"fragments": [
 				"ams. ",
+				" When",
 				"ul neg",
+				"or ins",
+				"ns ver",
 				"hen mu",
+				"ccessf",
+				"tiple c",
 				"negotia",
 				"nction ",
 				" stream",
+				"the 'gam",
+				"streams.",
+				"hould re",
 				" remembe"
 			],
 			"hits": [
@@ -120,8 +136,8 @@
 			]
 		}
 	],
-	"updt": 1609050032736,
-	"edit": 15,
+	"updt": 1609197579186,
+	"edit": 16,
 	"identified": [
 		{
 			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
@@ -134,6 +150,11 @@
 				" stream",
 				" remembe"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
