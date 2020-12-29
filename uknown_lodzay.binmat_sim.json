@@ -6,30 +6,35 @@
 	"sector": "VNP_5602",
 	"sec_level": 4,
 	"date_added": 1602975145331,
-	"last_scraped": 1608936369973,
+	"last_scraped": 1609206468647,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1602975145331
 		}
 	],
-	"updt": 1607514730910,
-	"edit": 18,
+	"updt": 1608954823314,
+	"edit": 19,
 	"scrape_ct": 15,
-	"next_scrape": 1608977076258,
+	"next_scrape": 1609252407917,
 	"category": "risk_factor",
-	"last_update": 1608936369973,
+	"last_update": 1609206468647,
 	"output": [
 		{
 			"args": {},
-			"calls": 13407,
+			"calls": 22785,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"2142 ",
+				" R, si",
 				"you can",
-				"in R, s",
+				"rin R, s",
+				"ou can't",
+				"one pers",
+				"gular.\\n",
 				"e person",
 				" Erin R,",
+				"can't\\n21",
 				"\\n2141 Us",
 				" can't\\n2"
 			]
@@ -5011,5 +5016,13 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
