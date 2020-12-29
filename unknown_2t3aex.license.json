@@ -6,25 +6,29 @@
 	"sector": "SPC_9704",
 	"sec_level": 4,
 	"date_added": 1600607765998,
-	"last_scraped": 1609183977494,
+	"last_scraped": 1609271400566,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1600607765998
 		}
 	],
-	"next_scrape": 1609226848488,
+	"next_scrape": 1609312683207,
 	"category": "fishie_tank",
-	"last_update": 1609183977494,
+	"last_update": 1609271400566,
 	"output": [
 		{
 			"args": {},
-			"calls": 490576,
+			"calls": 521518,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"t lik",
+				"other",
 				"ke th",
-				"bably",
+				"ike t",
+				" ## P",
+				"thers ",
+				"obably",
 				"not li",
 				"e's go",
 				"deal. ",
@@ -33,6 +37,7 @@
 				" It's ",
 				" got n",
 				"t's mor",
+				"s not l",
 				"es not ",
 				"'s got ",
 				" she's ",
@@ -41,7 +46,9 @@
 				"mposite?",
 				"ike a de",
 				"he knows",
-				"eal. She"
+				"got nowh",
+				"eal. She",
+				" not. It"
 			],
 			"hits": [
 				{
@@ -252,6 +259,14 @@
 			]
 		}
 	],
-	"updt": 1608977504402,
-	"edit": 26
+	"updt": 1609195038292,
+	"edit": 27,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }

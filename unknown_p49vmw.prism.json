@@ -1,28 +1,28 @@
 {
 	"_id": "unknown_p49vmw.prism",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_p49vmw.prism",
 	"sector": "SPC_2254",
 	"sec_level": 4,
 	"date_added": 1607110359540,
-	"last_scraped": 1609183435162,
+	"last_scraped": 1609271164808,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1607110359540
 		}
 	],
-	"updt": 1608975940326,
-	"edit": 11,
+	"updt": 1609198555324,
+	"edit": 12,
 	"scrape_ct": 19,
-	"next_scrape": 1609225314294,
+	"next_scrape": 1609316969522,
 	"category": "fishie_tank",
-	"last_update": 1609183435162,
+	"last_update": 1609271164808,
 	"output": [
 		{
 			"args": {},
-			"calls": 139160,
+			"calls": 173556,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"e\\n1E2",
@@ -126,6 +126,14 @@
 				"1E2B yo",
 				"py to re"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_p4n382.solve_bates",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_p4n382.solve_bates",
 	"sector": "K_5860",
 	"sec_level": 4,
 	"date_added": 1602486750473,
-	"last_scraped": 1609183943912,
+	"last_scraped": 1609271274055,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,30 +14,33 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1609226718454,
+	"next_scrape": 1609314209450,
 	"category": "fishie_tank",
-	"last_update": 1609183943912,
+	"last_update": 1609271274055,
 	"output": [
 		{
 			"args": {},
-			"calls": 314856,
+			"calls": 339729,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"olves ",
 				"ce up ",
-				"57 BRE",
 				".\\n215",
+				" face ",
 				"K is >.",
 				"is >. B",
 				"EAK is ",
 				"AK is >",
 				" to for",
+				" force ",
+				"ves as 2",
 				"s played",
 				"is playe",
 				"es as 2.",
 				"ed\\n2158",
 				"6 it res",
 				"158 face",
+				"157 BREA",
 				">. BREAK",
 				". BREAK ",
 				"s as 2.\\n",
@@ -157,8 +160,8 @@
 			]
 		}
 	],
-	"updt": 1608977504402,
-	"edit": 24,
+	"updt": 1609271265160,
+	"edit": 26,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -173,6 +176,14 @@
 				". BREAK ",
 				"\\n2158 fa"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
