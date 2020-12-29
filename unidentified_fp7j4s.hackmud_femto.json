@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_fp7j4s.hackmud_femto",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_fp7j4s.hackmud_femto",
 	"sector": "NGC_9447",
 	"sec_level": 4,
 	"date_added": 1606983840133,
-	"last_scraped": 1608979643575,
+	"last_scraped": 1609223541057,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1609026210005,
+	"next_scrape": 1609263193470,
 	"category": "fishie_tank",
-	"last_update": 1608979643575,
+	"last_update": 1609223541057,
 	"output": [
 		{
 			"args": {},
-			"calls": 115194,
+			"calls": 152319,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"T ERRO",
@@ -106,8 +106,8 @@
 			]
 		}
 	],
-	"updt": 1607645052916,
-	"edit": 12,
+	"updt": 1608979652237,
+	"edit": 13,
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
@@ -119,6 +119,14 @@
 				"22E\\nSY",
 				"SECT0X8F"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
