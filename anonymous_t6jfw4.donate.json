@@ -1,20 +1,48 @@
 {
 	"_id": "anonymous_t6jfw4.donate",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "anonymous_t6jfw4.donate",
-	"sector": "SPC_5976",
+	"sector": "K_7354",
 	"sec_level": 4,
 	"date_added": 1603516495778,
-	"last_scraped": 1609264979947,
+	"last_scraped": 1609283228914,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603516495778
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1609283049548,
+				"from": "K_7354",
+				"to": "SPC_5976"
+			}
+		]
 	],
 	"pl_output": "provide an amount",
-	"next_scrape": 1609352782513,
-	"updt": 1609136212714,
-	"edit": 1131
+	"next_scrape": 1609283288914,
+	"updt": 1609283190716,
+	"edit": 1133,
+	"scrape_ct": 16,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1609283228914,
+	"output": [
+		{
+			"args": {},
+			"calls": 2409743,
+			"base": "provide an amount",
+			"fragments": [
+				"l mem",
+				"isis ",
+				"wo cat",
+				"o> <ba",
+				"events",
+				"sible f",
+				"ry-A di",
+				"-actual"
+			]
+		}
+	]
 }
