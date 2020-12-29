@@ -6,7 +6,7 @@
 	"sector": "K_2311",
 	"sec_level": 4,
 	"date_added": 1602253930004,
-	"last_scraped": 1608929597455,
+	"last_scraped": 1609203921806,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1608971819107,
+	"next_scrape": 1609290310907,
 	"category": "risk_factor",
-	"last_update": 1608929597455,
+	"last_update": 1609203921806,
 	"output": [
 		{
 			"args": {},
-			"calls": 13261,
+			"calls": 16047,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"MFT0X",
@@ -37,8 +37,11 @@
 				"CLST0X7",
 				"2BC7D17",
 				"200F Fi",
+				"0F Firs",
+				"7A_SECT0",
 				"74\\nAD03",
-				"174\\nAD0"
+				"174\\nAD0",
+				"\\nAD03200"
 			],
 			"hits": [
 				{
@@ -60,7 +63,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 4240,
+			"calls": 4527,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"MFT0X",
@@ -5654,8 +5657,8 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1607476039663,
-	"edit": 14,
+	"updt": 1608954627904,
+	"edit": 15,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -6178,5 +6181,10 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }

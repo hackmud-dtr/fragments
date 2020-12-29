@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_0vo7dc.sleepy",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "abndnd_0vo7dc.sleepy",
 	"sector": "HJG_2473",
 	"sec_level": 4,
 	"date_added": 1605753229990,
-	"last_scraped": 1608927403161,
+	"last_scraped": 1609203431231,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1608970287343,
+	"next_scrape": 1609286922487,
 	"category": "risk_factor",
-	"last_update": 1608927403161,
+	"last_update": 1609203431231,
 	"output": [
 		{
 			"args": {},
-			"calls": 5768,
+			"calls": 8418,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"re: Y",
@@ -37,7 +37,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 1283,
+			"calls": 1583,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"re: Y",
@@ -3671,7 +3671,12 @@
 			]
 		}
 	],
-	"updt": 1607477602851,
-	"edit": 5,
-	"cannot_identify": true
+	"updt": 1608955998236,
+	"edit": 6,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }
