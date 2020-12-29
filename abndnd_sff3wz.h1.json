@@ -1,7 +1,7 @@
 {
 	"_id": "abndnd_sff3wz.h1",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abndnd_sff3wz.h1",
 	"sector": "VNP_8179",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "VNP_8179",
 				"to": "K_6517"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1609219554181
+		}
 	],
-	"updt": 1609121168512,
-	"edit": 3308,
+	"updt": 1609121364279,
+	"edit": 3309,
 	"pl_output": "Cannot read property 'call' of undefined",
 	"next_scrape": 1609210625999
 }
