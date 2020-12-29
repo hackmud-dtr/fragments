@@ -1,35 +1,39 @@
 {
 	"_id": "abndnd_euy9c9.enumsectors",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_euy9c9.enumsectors",
 	"sector": "K_1742",
 	"sec_level": 4,
 	"date_added": 1603940853574,
-	"last_scraped": 1609189579183,
+	"last_scraped": 1609273355813,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603940853574
 		}
 	],
-	"updt": 1609018939061,
-	"edit": 11,
+	"updt": 1609196993099,
+	"edit": 12,
 	"scrape_ct": 16,
-	"next_scrape": 1609234263210,
+	"next_scrape": 1609313218444,
 	"category": "fishie_tank",
-	"last_update": 1609189579183,
+	"last_update": 1609273355813,
 	"output": [
 		{
 			"args": {},
-			"calls": 145502,
+			"calls": 182395,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"tory ",
-				"as a ",
+				"all p",
+				" we as",
+				" have ",
+				" as a ",
 				"ntury. ",
 				"kable s",
 				"21st ce",
+				". In a ",
 				"y of the",
 				"cades, w",
 				"ble stor",
@@ -142,6 +146,14 @@
 			"frags": [
 				"as a "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
