@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_8lx61v.room",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unknown_8lx61v.room",
 	"sector": "HJG_0116",
 	"sec_level": 4,
 	"date_added": 1608688555861,
-	"last_scraped": 1609009057009,
+	"last_scraped": 1609239992037,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 10,
-	"next_scrape": 1609053771051,
+	"next_scrape": 1609279942598,
 	"category": "fishie_tank",
 	"last_update": 1609009057009,
 	"output": [
@@ -119,6 +119,14 @@
 			]
 		}
 	],
-	"updt": 1608689086075,
-	"edit": 3
+	"updt": 1609009165203,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
