@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_zghh01.sleepy",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unidentified_zghh01.sleepy",
 	"sector": "K_1427",
 	"sec_level": 4,
 	"date_added": 1603602385079,
-	"last_scraped": 1608967587064,
+	"last_scraped": 1609389025893,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609013202754,
+	"next_scrape": 1609431836851,
 	"category": "fishie_tank",
-	"last_update": 1609178399766,
+	"last_update": 1609389025893,
 	"output": [
 		{
 			"args": {},
@@ -106,23 +106,28 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 54594,
+			"calls": 89925,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"take ",
 				"MFT0X",
-				"ILE0X2",
 				"2089 W",
 				"We take",
 				"ke turn",
+				"FT0XBF_",
 				"BF_CLST",
+				"7A_SECT",
 				"089 We ",
+				"X2BC7D17",
 				"T0XBF_CL",
 				"ST0X7A_S",
 				"rns\\n208",
 				"D032089 ",
 				"CT0XF227",
-				"e turns\\n"
+				"A_SECT0X",
+				"_FILE0X2",
+				"e turns\\n",
+				"75\\nAD032"
 			],
 			"hits": [
 				{
@@ -141,8 +146,8 @@
 			]
 		}
 	],
-	"updt": 1608967731551,
-	"edit": 12,
+	"updt": 1609196993099,
+	"edit": 13,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -156,11 +161,6 @@
 				"D032089 ",
 				"CT0XF227"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
