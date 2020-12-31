@@ -6,27 +6,24 @@
 	"sector": "K_7354",
 	"sec_level": 4,
 	"date_added": 1609341637174,
-	"last_scraped": 1609341727504,
+	"last_scraped": 1609410264580,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1609341637174
 		}
 	],
-	"updt": 1609341648766,
-	"edit": 1,
+	"updt": 1609342039107,
+	"edit": 2,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609341787504,
+	"next_scrape": 1609497295332,
 	"category": "risk_factor",
-	"last_update": 1609341727504,
+	"last_update": 1609410264580,
 	"output": [
 		{
 			"args": {},
@@ -41,6 +38,23 @@
 				",\"header",
 				" 2045: R"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 378,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"ata_t",
+				"X3E_CL",
+				"r\":\"New",
+				"Houston",
+				"X7052_FI",
+				",\"header",
+				" 2045: R"
+			]
 		}
-	]
+	],
+	"cannot_identify": true
 }

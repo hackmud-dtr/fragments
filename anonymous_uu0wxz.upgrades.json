@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_uu0wxz.upgrades",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anonymous_uu0wxz.upgrades",
 	"sector": "HJG_0116",
 	"sec_level": 4,
 	"date_added": 1608693621860,
-	"last_scraped": 1609174808013,
+	"last_scraped": 1609393823452,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609265403161,
+	"next_scrape": 1609475622278,
 	"category": "risk_factor",
 	"last_update": 1609174808013,
 	"output": [
@@ -2523,11 +2523,14 @@
 			]
 		}
 	],
-	"pl_output": "YOU COULD WIN 1GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1608957173122,
-	"edit": 3,
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1609199141492,
+	"edit": 4,
 	"cannot_identify": true,
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}

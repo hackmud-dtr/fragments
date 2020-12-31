@@ -1,36 +1,93 @@
 {
 	"_id": "unidentified_yx3ogp._",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unidentified_yx3ogp._",
 	"sector": "K_7354",
 	"sec_level": 4,
 	"date_added": 1609184725954,
-	"last_scraped": 1609197424280,
+	"last_scraped": 1609398443024,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1609184725954
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
 		},
 		{
-			"do": "clean"
+			"type": "died",
+			"when": 1609414604658
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609197484280,
+	"next_scrape": 1609438316097,
 	"category": "fishie_tank",
-	"last_update": 1609197424280,
+	"last_update": 1609398443024,
 	"output": [
 		{
 			"args": {},
 			"calls": 36335,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"speci",
+				"ico> ##",
+				"e contr",
+				"lisation",
+				"im iona,"
+			],
+			"hits": [
+				{
+					"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+					"frags": [
+						"speci",
+						"ico> ##",
+						"e contr",
+						"lisation",
+						"im iona,"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2803,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" iona",
+				" ## i",
+				"na, my",
+				"# im io",
+				"isation ",
+				"ce contr"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 28908,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" iona",
+				" ## i",
+				"na, my",
+				"# im io",
+				"isation ",
+				"ce contr"
+			]
+		}
+	],
+	"updt": 1609199532890,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0XF4_CLST0XCC_SECT0X7BE4_FILE0XE2A8BDD4",
+			"frags": [
 				"speci",
 				"ico> ##",
 				"e contr",

@@ -6,7 +6,7 @@
 	"sector": "K_1908",
 	"sec_level": 4,
 	"date_added": 1607452128242,
-	"last_scraped": 1609168254042,
+	"last_scraped": 1609418516455,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609253428700,
+	"next_scrape": 1609458990662,
 	"category": "risk_factor",
-	"last_update": 1609168254042,
+	"last_update": 1609418516455,
 	"output": [
 		{
 			"args": {},
-			"calls": 4754,
+			"calls": 16224,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"hly ill",
@@ -609,8 +609,16 @@
 			]
 		}
 	],
-	"updt": 1608956780728,
-	"edit": 2,
+	"updt": 1609198750658,
+	"edit": 3,
 	"cannot_identify": true,
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
