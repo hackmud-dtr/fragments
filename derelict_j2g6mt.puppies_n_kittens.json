@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_j2g6mt.puppies_n_kittens",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "skip",
 	"script": "derelict_j2g6mt.puppies_n_kittens",
 	"sector": "K_7998",
 	"sec_level": 4,
 	"date_added": 1603156408645,
-	"last_scraped": 1609175223735,
+	"last_scraped": 1609422576435,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,27 +14,28 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1609265602268,
+	"next_scrape": 1609468966205,
 	"category": "risk_factor",
-	"last_update": 1609175223735,
+	"last_update": 1609422576435,
 	"output": [
 		{
 			"args": {},
-			"calls": 12840,
+			"calls": 15689,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"ves th",
-				"iating",
-				"eir TR",
 				"5 reso",
 				" resol",
 				" initi",
+				"heir TR",
 				"TRAP fir",
 				"rst.\\n21",
 				"player\\n",
 				"nitiatin",
 				"ing play",
+				"iating p",
 				"first.\\n",
+				"es their",
 				" their T",
 				"er\\n2165 "
 			]
@@ -43,7 +44,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 5019,
+			"calls": 5600,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"9",
@@ -4583,8 +4584,13 @@
 			]
 		}
 	],
-	"updt": 1608955018677,
-	"edit": 15,
+	"updt": 1609422539378,
+	"edit": 17,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }

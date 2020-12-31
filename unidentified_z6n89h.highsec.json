@@ -6,7 +6,7 @@
 	"sector": "VNP_5904",
 	"sec_level": 4,
 	"date_added": 1608640284226,
-	"last_scraped": 1609174482167,
+	"last_scraped": 1609422323458,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1609254417490,
+	"next_scrape": 1609466327195,
 	"category": "risk_factor",
-	"last_update": 1609174482167,
+	"last_update": 1609422323458,
 	"output": [
 		{
 			"args": {},
-			"calls": 5523,
+			"calls": 7916,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"opera",
@@ -1715,7 +1715,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 313,
+			"calls": 776,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"opera4",
@@ -1729,7 +1729,12 @@
 			]
 		}
 	],
-	"updt": 1608957173122,
-	"edit": 2,
-	"cannot_identify": true
+	"updt": 1609422344200,
+	"edit": 4,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }
