@@ -1,12 +1,12 @@
 {
 	"_id": "anon_9ssrj4.bigbot",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_9ssrj4.bigbot",
 	"sector": "K_0449",
 	"sec_level": 4,
 	"date_added": 1605040100876,
-	"last_scraped": 1609181050924,
+	"last_scraped": 1609423485640,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,20 +14,23 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609221391338,
+	"next_scrape": 1609469444865,
 	"category": "fishie_tank",
-	"last_update": 1609181050924,
+	"last_update": 1609423485640,
 	"output": [
 		{
 			"args": {},
-			"calls": 156661,
+			"calls": 205985,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"uncem",
 				"such ",
 				"lowin",
+				"suffer ",
 				"primary",
 				"ned pri",
 				"ment.\\n",
+				"anction",
 				" announ",
 				" 'Che' ",
 				"today's ",
@@ -37,6 +40,7 @@
 				"ng secto",
 				"ed prima",
 				"ch as 'C",
+				" as 'Che",
 				".\\nSancti"
 			],
 			"hits": [
@@ -164,8 +168,8 @@
 			]
 		}
 	],
-	"updt": 1608972228438,
-	"edit": 10,
+	"updt": 1609197579186,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -214,6 +218,14 @@
 			"frags": [
 				"operator"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

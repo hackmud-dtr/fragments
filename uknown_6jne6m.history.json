@@ -6,41 +6,42 @@
 	"sector": "NGC_9045",
 	"sec_level": 4,
 	"date_added": 1603215451424,
-	"last_scraped": 1609178508436,
+	"last_scraped": 1609423031492,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1603215451424
 		}
 	],
-	"updt": 1608967731551,
-	"edit": 17,
+	"updt": 1609196797222,
+	"edit": 18,
 	"scrape_ct": 17,
-	"next_scrape": 1609223447141,
+	"next_scrape": 1609468366938,
 	"category": "fishie_tank",
-	"last_update": 1609178508436,
+	"last_update": 1609423031492,
 	"output": [
 		{
 			"args": {},
-			"calls": 231354,
+			"calls": 267799,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"conds",
 				"fender",
-				" the d",
-				" 110 t",
 				"er turn",
-				"er 110 ",
 				"defende",
-				"208B af",
 				" turn\\n",
-				"s.\\n2091",
+				" after ",
+				"ter 110 ",
 				"onds per",
 				"nder win",
+				"econds p",
 				"A 5 seco",
 				"8A 5 sec",
+				"208B aft",
+				" the def",
+				" 110 tur",
 				"wins.\\n20",
 				"s\\n208C t",
+				"s.\\n2091 ",
 				" turns\\n2"
 			],
 			"hits": [
@@ -163,6 +164,14 @@
 				"A 5 seco",
 				"s\\n208C t"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
