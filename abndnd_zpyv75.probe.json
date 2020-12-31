@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_zpyv75.probe",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "skip",
 	"script": "abndnd_zpyv75.probe",
 	"sector": "K_9272",
 	"sec_level": 4,
 	"date_added": 1606658443034,
-	"last_scraped": 1609170318152,
+	"last_scraped": 1609419548736,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1609252168732,
+	"next_scrape": 1609461408666,
 	"category": "risk_factor",
-	"last_update": 1609170318152,
+	"last_update": 1609419548736,
 	"output": [
 		{
 			"args": {},
-			"calls": 5138,
+			"calls": 15853,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"soluti",
@@ -2851,8 +2851,16 @@
 			]
 		}
 	],
-	"updt": 1608956389616,
-	"edit": 6,
+	"updt": 1609198359356,
+	"edit": 7,
 	"cannot_identify": true,
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
