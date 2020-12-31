@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_uphhk4.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unidentified_uphhk4.db",
 	"sector": "NGC_2038",
 	"sec_level": 4,
 	"date_added": 1607991140113,
-	"last_scraped": 1609173142479,
+	"last_scraped": 1609421726425,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,30 +14,37 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1609260683576,
+	"next_scrape": 1609466122385,
 	"category": "risk_factor",
-	"last_update": 1609173142479,
+	"last_update": 1609421726425,
 	"output": [
 		{
 			"args": {},
-			"calls": 2863,
+			"calls": 5697,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"t of ",
-				"ng st",
-				" possi",
+				"he bo",
+				"oring ",
+				"ng stu",
+				"m suppo",
+				"f out o",
+				"e borin",
+				"ct as e",
 				" thats ",
+				" possib",
 				" out of",
 				"nyway th",
 				"he way. ",
-				"e way. i"
+				"e way. i",
+				" suppose"
 			]
 		},
 		{
 			"args": {
 				"do": "win"
 			},
-			"calls": 757,
+			"calls": 1230,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"t of ",
@@ -850,7 +857,12 @@
 			]
 		}
 	],
-	"updt": 1608956780728,
-	"edit": 2,
-	"cannot_identify": true
+	"updt": 1609198945963,
+	"edit": 3,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }
