@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_sewqun.debug",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_sewqun.debug",
 	"sector": "NGC_9447",
 	"sec_level": 4,
 	"date_added": 1607009487881,
-	"last_scraped": 1609424679220,
+	"last_scraped": 1609424716556,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1609464848197,
+	"next_scrape": 1609465284335,
 	"category": "fishie_tank",
-	"last_update": 1609424679220,
+	"last_update": 1609424753000,
 	"output": [
 		{
 			"args": {},
-			"calls": 132131,
+			"calls": 151594,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ter's",
@@ -57,7 +57,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 21026,
+			"calls": 23739,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -65,13 +65,20 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"ter's",
 				"oment",
+				"ODY f",
 				"ionis",
 				"holli",
 				"cessa",
+				"a mom",
+				"rget ho",
+				"nt. is ",
 				"r's comp",
 				"ment. is",
-				"he neces"
+				"he neces",
+				"er's com",
+				" for for"
 			],
 			"hits": [
 				{
@@ -119,8 +126,8 @@
 			]
 		}
 	],
-	"updt": 1609198555324,
-	"edit": 16,
+	"updt": 1609424689464,
+	"edit": 17,
 	"identified": [
 		{
 			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
@@ -136,9 +143,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
