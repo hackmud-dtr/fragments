@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_zs795j.keys",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unidentified_zs795j.keys",
 	"sector": "K_0720",
 	"sec_level": 4,
 	"date_added": 1601089060807,
-	"last_scraped": 1609208067207,
+	"last_scraped": 1609430931789,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,24 +14,25 @@
 		}
 	],
 	"scrape_ct": 13,
-	"next_scrape": 1609254537689,
+	"next_scrape": 1609475254194,
 	"category": "fishie_tank",
-	"last_update": 1609208067207,
+	"last_update": 1609430931789,
 	"output": [
 		{
 			"args": {},
-			"calls": 353900,
+			"calls": 393093,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"ombat",
 				" init",
 				" Defe",
 				"nder B",
 				"itiate",
+				"combat",
 				" by 1.",
 				"reduced",
 				"fender ",
 				"by 1.\\n",
+				"BREAKs ",
 				"15F on ",
 				"on defen",
 				"mbat\\n21",
@@ -42,6 +43,7 @@
 				"der turn",
 				"Defender",
 				"\\n215F o",
+				" is redu",
 				"y 1.\\n215",
 				"\\n215E De"
 			],
@@ -174,6 +176,14 @@
 			]
 		}
 	],
-	"updt": 1608954042798,
-	"edit": 24
+	"updt": 1609208331382,
+	"edit": 25,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
