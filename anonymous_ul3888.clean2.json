@@ -6,36 +6,43 @@
 	"sector": "VNP_5564",
 	"sec_level": 4,
 	"date_added": 1607572798556,
-	"last_scraped": 1609182797287,
+	"last_scraped": 1609424081713,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1607572798556
 		}
 	],
-	"next_scrape": 1609225621935,
+	"next_scrape": 1609470859271,
 	"category": "fishie_tank",
-	"last_update": 1609182797287,
+	"last_update": 1609424155145,
 	"output": [
 		{
 			"args": {},
-			"calls": 137780,
+			"calls": 146192,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"long ",
-				"l\\n20F",
+				"he at",
+				"e them",
+				"cker's",
+				" along",
 				"ith all",
 				"F5 card",
 				"0F2 in ",
+				"\\n20F2 ",
 				"ttacker'",
 				"s played",
-				"pile\\n20",
 				"hem\\n20F",
+				"h all\\n2",
 				"e attack",
 				"card pil",
 				"20F3 dis",
+				" attacke",
 				"ker's\\n20",
-				"'s\\n20F3 "
+				"all\\n20F5",
+				"'s\\n20F3 ",
+				" pile\\n20"
 			],
 			"hits": [
 				{
@@ -56,7 +63,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 25912,
+			"calls": 30060,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -65,19 +72,26 @@
 			],
 			"fragments": [
 				"long ",
-				"l\\n20F",
+				"he at",
+				"e them",
+				"cker's",
+				" along",
 				"ith all",
 				"F5 card",
 				"0F2 in ",
+				"\\n20F2 ",
 				"ttacker'",
 				"s played",
-				"pile\\n20",
 				"hem\\n20F",
+				"h all\\n2",
 				"e attack",
 				"card pil",
 				"20F3 dis",
+				" attacke",
 				"ker's\\n20",
-				"'s\\n20F3 "
+				"all\\n20F5",
+				"'s\\n20F3 ",
+				" pile\\n20"
 			],
 			"hits": [
 				{
@@ -148,6 +162,11 @@
 			]
 		}
 	],
-	"updt": 1608975353689,
-	"edit": 9
+	"updt": 1609424103317,
+	"edit": 11,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
