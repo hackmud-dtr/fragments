@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_fp7j4s.hackmud_femto",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unidentified_fp7j4s.hackmud_femto",
 	"sector": "NGC_9447",
 	"sec_level": 4,
 	"date_added": 1606983840133,
-	"last_scraped": 1609223541057,
+	"last_scraped": 1609404879014,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1609263193470,
+	"next_scrape": 1609449786827,
 	"category": "fishie_tank",
-	"last_update": 1609223541057,
+	"last_update": 1609404879014,
 	"output": [
 		{
 			"args": {},
@@ -48,7 +48,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 20659,
+			"calls": 22025,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -56,12 +56,15 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"ROR |",
+				"88122",
 				"T ERRO",
 				"X0A_SEC",
 				"9_FILE0",
 				"8122E\\n",
 				"22E\\nSY",
-				"SECT0X8F"
+				"SECT0X8F",
+				"LST0X0A_"
 			],
 			"hits": [
 				{
@@ -81,15 +84,18 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 156152,
+			"calls": 177319,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"ROR |",
+				"88122",
 				"T ERRO",
 				"X0A_SEC",
 				"9_FILE0",
 				"8122E\\n",
 				"22E\\nSY",
-				"SECT0X8F"
+				"SECT0X8F",
+				"LST0X0A_"
 			],
 			"hits": [
 				{
@@ -106,8 +112,8 @@
 			]
 		}
 	],
-	"updt": 1608979652237,
-	"edit": 13,
+	"updt": 1609223573084,
+	"edit": 14,
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
@@ -119,14 +125,6 @@
 				"22E\\nSY",
 				"SECT0X8F"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

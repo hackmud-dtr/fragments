@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_y5vjk2.profiles",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_y5vjk2.profiles",
 	"sector": "NGC_4506",
 	"sec_level": 4,
 	"date_added": 1605929969216,
-	"last_scraped": 1608966917312,
+	"last_scraped": 1609388861974,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1609007991805,
+	"next_scrape": 1609428933244,
 	"category": "fishie_tank",
-	"last_update": 1609177872346,
+	"last_update": 1609388861974,
 	"output": [
 		{
 			"args": {},
@@ -89,13 +89,17 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 49024,
+			"calls": 90979,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"1 0100",
+				"LLFILE",
 				"00 011",
 				"LFILE\\n",
+				"1 0100 ",
+				"0000 00",
+				"00 0001",
 				" 0100 0",
+				"00 0000 ",
 				"0 0000 0",
 				"ILE\\n0000"
 			],
@@ -114,8 +118,8 @@
 			]
 		}
 	],
-	"updt": 1608966952541,
-	"edit": 9,
+	"updt": 1609197967622,
+	"edit": 10,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -127,11 +131,6 @@
 				"0 0000 0",
 				"ILE\\n0000"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }

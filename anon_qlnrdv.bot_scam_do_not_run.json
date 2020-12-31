@@ -1,28 +1,28 @@
 {
 	"_id": "anon_qlnrdv.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "skip",
 	"script": "anon_qlnrdv.bot_scam_do_not_run",
 	"sector": "K_9823",
 	"sec_level": 4,
 	"date_added": 1607304774024,
-	"last_scraped": 1608929124494,
+	"last_scraped": 1609415016551,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1607304774024
 		}
 	],
-	"updt": 1608956585573,
-	"edit": 6,
+	"updt": 1609198750658,
+	"edit": 7,
 	"scrape_ct": 16,
-	"next_scrape": 1608968941690,
+	"next_scrape": 1609455329711,
 	"category": "risk_factor",
-	"last_update": 1608929124494,
+	"last_update": 1609415016551,
 	"output": [
 		{
 			"args": {},
-			"calls": 8389,
+			"calls": 11146,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"hat s",
@@ -39,7 +39,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 905,
+			"calls": 1431,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"hat s",
@@ -1350,5 +1350,10 @@
 		}
 	],
 	"cannot_identify": true,
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }

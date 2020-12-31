@@ -1,28 +1,28 @@
 {
 	"_id": "derelict_v98vii.gib",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "skip",
 	"script": "derelict_v98vii.gib",
 	"sector": "NGC_1381",
 	"sec_level": 4,
 	"date_added": 1607095244503,
-	"last_scraped": 1608932773185,
+	"last_scraped": 1609415125866,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1607095244503
 		}
 	],
-	"updt": 1608956585573,
-	"edit": 7,
+	"updt": 1609198555324,
+	"edit": 8,
 	"scrape_ct": 14,
-	"next_scrape": 1609020992378,
+	"next_scrape": 1609457213596,
 	"category": "risk_factor",
-	"last_update": 1608932773185,
+	"last_update": 1609415125866,
 	"output": [
 		{
 			"args": {},
-			"calls": 11924,
+			"calls": 14387,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"ng in",
@@ -38,7 +38,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 2179,
+			"calls": 2854,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"ng in",
@@ -2347,5 +2347,10 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }

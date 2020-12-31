@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_w0rs7q.bank",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_w0rs7q.bank",
 	"sector": "K_6543",
 	"sec_level": 4,
 	"date_added": 1606385615743,
-	"last_scraped": 1609167585684,
+	"last_scraped": 1609418026549,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,31 +14,38 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1609254566481,
+	"next_scrape": 1609459838060,
 	"category": "risk_factor",
-	"last_update": 1609167585684,
+	"last_update": 1609418026549,
 	"output": [
 		{
 			"args": {},
-			"calls": 2843,
+			"calls": 5267,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"ythe ",
 				"your ",
+				"tands",
+				" your",
 				" Walt",
 				" to c",
 				"ngie, ",
 				"nction",
+				"he and",
+				"forts ",
 				"trate y",
+				"efforts",
 				"d five:",
-				"to conce"
+				" concen",
+				"to conce",
+				"ioned fi"
 			]
 		},
 		{
 			"args": {
 				"do": "win"
 			},
-			"calls": 1427,
+			"calls": 1993,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"ythe ",
@@ -3180,7 +3187,12 @@
 			]
 		}
 	],
-	"updt": 1608956194239,
-	"edit": 5,
-	"cannot_identify": true
+	"updt": 1609198164051,
+	"edit": 6,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }

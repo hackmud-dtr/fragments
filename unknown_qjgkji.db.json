@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_qjgkji.db",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "skip",
 	"script": "unknown_qjgkji.db",
 	"sector": "HJG_2473",
 	"sec_level": 4,
 	"date_added": 1605814612366,
-	"last_scraped": 1608927546543,
+	"last_scraped": 1609414889308,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,30 +14,36 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1608972443746,
+	"next_scrape": 1609500591585,
 	"category": "risk_factor",
-	"last_update": 1608927546543,
+	"last_update": 1609414889308,
 	"output": [
 		{
 			"args": {},
-			"calls": 5997,
+			"calls": 8333,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"er co",
 				"t to t",
 				"card p",
 				"tacker'",
 				"rd pile",
-				"\\n217A "
+				"he atta",
+				"\\n217A ",
+				" to the",
+				"discard ",
+				" the att"
 			]
 		},
 		{
 			"args": {
 				"do": "win"
 			},
-			"calls": 752,
+			"calls": 1201,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"fter ",
+				"er co",
 				"7A di",
 				"t to t",
 				"le aft",
@@ -45,8 +51,12 @@
 				"tacker'",
 				"rd pile",
 				"r's\\n21",
+				"he atta",
 				"\\n217A ",
-				"d pile a"
+				" to the",
+				"discard ",
+				"d pile a",
+				" the att"
 			]
 		},
 		{
@@ -3752,8 +3762,13 @@
 			]
 		}
 	],
-	"updt": 1608955998236,
-	"edit": 7,
+	"updt": 1609197967622,
+	"edit": 8,
 	"cannot_identify": true,
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }

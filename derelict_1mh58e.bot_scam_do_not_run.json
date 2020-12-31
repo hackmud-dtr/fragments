@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_1mh58e.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_1mh58e.bot_scam_do_not_run",
 	"sector": "K_5860",
 	"sec_level": 4,
 	"date_added": 1602588950632,
-	"last_scraped": 1609167748599,
+	"last_scraped": 1609418226483,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,25 +14,29 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1609212711368,
+	"next_scrape": 1609458253866,
 	"category": "risk_factor",
-	"last_update": 1609167748599,
+	"last_update": 1609418226483,
 	"output": [
 		{
 			"args": {},
-			"calls": 24168,
+			"calls": 26582,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"tely.",
 				"th\\n20",
 				"e deck",
+				"you let",
 				"is lane",
 				"e.\\n20D",
 				"Did you",
+				"deck in",
 				"20D5 Di",
+				" this l",
 				" the de",
 				"t me win",
 				"h\\n20CC ",
+				"ck in th",
 				"0CC the ",
 				"n?\\n20D6 ",
 				"lane.\\n20",
@@ -43,7 +47,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 3868,
+			"calls": 4042,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"4",
@@ -4303,8 +4307,13 @@
 			]
 		}
 	],
-	"updt": 1608954823314,
-	"edit": 15,
+	"updt": 1609196405496,
+	"edit": 16,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }

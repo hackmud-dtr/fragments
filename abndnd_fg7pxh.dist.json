@@ -6,23 +6,23 @@
 	"sector": "K_9823",
 	"sec_level": 4,
 	"date_added": 1607189351817,
-	"last_scraped": 1609167258745,
+	"last_scraped": 1609417734612,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1607189351817
 		}
 	],
-	"updt": 1608956585573,
-	"edit": 5,
+	"updt": 1609198750658,
+	"edit": 6,
 	"scrape_ct": 16,
-	"next_scrape": 1609210949165,
+	"next_scrape": 1609462251371,
 	"category": "risk_factor",
-	"last_update": 1609167258745,
+	"last_update": 1609417734612,
 	"output": [
 		{
 			"args": {},
-			"calls": 2898,
+			"calls": 13106,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"myopi",
@@ -1770,5 +1770,13 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }

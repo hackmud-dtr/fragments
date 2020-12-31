@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_31ls8l.eve_data_check",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_31ls8l.eve_data_check",
 	"sector": "SPC_1100",
 	"sec_level": 4,
 	"date_added": 1606876442546,
-	"last_scraped": 1608975691740,
+	"last_scraped": 1609389858365,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1609015861219,
+	"next_scrape": 1609436197362,
 	"category": "fishie_tank",
-	"last_update": 1609183398520,
+	"last_update": 1609389858365,
 	"output": [
 		{
 			"args": {},
@@ -83,19 +83,22 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 111300,
+			"calls": 132513,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"J: Ind",
+				"BJ: Ind",
+				": Index",
 				" SUBJ: ",
 				" Index ",
 				" | SUBJ",
-				"dex proc"
+				"ri | SUB",
+				"dex proc",
+				"ari | SU"
 			]
 		}
 	],
-	"updt": 1608975745152,
-	"edit": 10,
+	"updt": 1609198555324,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "Passphrase",
@@ -106,11 +109,6 @@
 				" | SUBJ",
 				"dex proc"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
