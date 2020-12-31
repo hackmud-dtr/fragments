@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_mkgh6j.eek",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anonymous_mkgh6j.eek",
 	"sector": "VNP_3422",
 	"sec_level": 4,
 	"date_added": 1601666660273,
-	"last_scraped": 1609166116872,
+	"last_scraped": 1609417246418,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,28 +14,37 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609258314946,
+	"next_scrape": 1609463455295,
 	"category": "risk_factor",
-	"last_update": 1609166116872,
+	"last_update": 1609417246418,
 	"output": [
 		{
 			"args": {},
-			"calls": 12479,
+			"calls": 14900,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				" goin",
+				"o aren",
+				"at the",
 				"t gets ",
+				"se they",
+				"r becau",
 				"he heat",
 				"ey're o",
 				" to mak",
+				"ple who ",
 				"o me, th",
-				"gets to "
+				"o make i",
+				"gets to ",
+				"e, thoug",
+				"are peop"
 			]
 		},
 		{
 			"args": {
 				"do": "win"
 			},
-			"calls": 3393,
+			"calls": 3920,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"peopl",
@@ -4480,8 +4489,13 @@
 			]
 		}
 	],
-	"updt": 1608954434263,
-	"edit": 15,
+	"updt": 1609195820020,
+	"edit": 16,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }

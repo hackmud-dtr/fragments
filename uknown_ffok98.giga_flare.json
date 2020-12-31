@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_ffok98.giga_flare",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_ffok98.giga_flare",
 	"sector": "K_7994",
 	"sec_level": 4,
 	"date_added": 1603875782219,
-	"last_scraped": 1609204212090,
+	"last_scraped": 1609399858078,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 14,
-	"next_scrape": 1609250122273,
+	"next_scrape": 1609488860225,
 	"category": "risk_factor",
-	"last_update": 1609204212090,
+	"last_update": 1609399858078,
 	"output": [
 		{
 			"args": {},
@@ -44,7 +44,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 1938,
+			"calls": 2624,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"4",
@@ -3832,14 +3832,11 @@
 			]
 		}
 	],
-	"updt": 1608955212952,
-	"edit": 9,
+	"updt": 1609204222870,
+	"edit": 10,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"cannot_identify": true,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

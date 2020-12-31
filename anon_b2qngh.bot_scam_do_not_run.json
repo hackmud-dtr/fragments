@@ -1,36 +1,42 @@
 {
 	"_id": "anon_b2qngh.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "skip",
 	"script": "anon_b2qngh.bot_scam_do_not_run",
 	"sector": "K_4401",
 	"sec_level": 4,
 	"date_added": 1605175063096,
-	"last_scraped": 1608936587010,
+	"last_scraped": 1609415250697,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1605175063096
 		}
 	],
-	"updt": 1608955801729,
-	"edit": 8,
+	"updt": 1609197579186,
+	"edit": 9,
 	"scrape_ct": 20,
-	"next_scrape": 1609030183150,
+	"next_scrape": 1609455825545,
 	"category": "risk_factor",
-	"last_update": 1608936587010,
+	"last_update": 1609415250697,
 	"output": [
 		{
 			"args": {},
-			"calls": 1677,
+			"calls": 14013,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"cards",
 				"6D in ",
 				" in th",
+				"in the ",
+				"e lane.",
+				"pile\\n21",
 				"ile\\n216",
 				"end card",
-				" discard"
+				"e discar",
+				"\\n216D i",
+				" discard",
+				"\\n216C to"
 			]
 		},
 		{
@@ -3055,5 +3061,13 @@
 		}
 	],
 	"cannot_identify": true,
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
