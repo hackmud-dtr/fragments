@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_8rswnp.locs",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anonymous_8rswnp.locs",
 	"sector": "SPC_5525",
 	"sec_level": 4,
 	"date_added": 1609119490378,
-	"last_scraped": 1609195718907,
+	"last_scraped": 1609427595685,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1609238552353,
+	"next_scrape": 1609471614515,
 	"category": "risk_factor",
-	"last_update": 1609195718907,
+	"last_update": 1609427595685,
 	"output": [
 		{
 			"args": {},
-			"calls": 2568,
+			"calls": 12086,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"ible ",
@@ -587,7 +587,15 @@
 			]
 		}
 	],
-	"updt": 1609119606345,
-	"edit": 1,
-	"cannot_identify": true
+	"updt": 1609199532890,
+	"edit": 2,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
