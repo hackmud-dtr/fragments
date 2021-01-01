@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_vil8xr.e",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_vil8xr.e",
 	"sector": "K_1908",
 	"sec_level": 4,
 	"date_added": 1607412185065,
-	"last_scraped": 1609408158333,
+	"last_scraped": 1609491751379,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609454888604,
+	"next_scrape": 1609532826400,
 	"category": "fishie_tank",
-	"last_update": 1609408158333,
+	"last_update": 1609491823535,
 	"output": [
 		{
 			"args": {},
-			"calls": 143834,
+			"calls": 153418,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"there'",
@@ -56,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7503,
+			"calls": 12582,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -96,8 +96,8 @@
 			]
 		}
 	],
-	"updt": 1609270679006,
-	"edit": 8,
+	"updt": 1609418238456,
+	"edit": 9,
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
@@ -113,6 +113,11 @@
 				"y. Weird",
 				"ay the P"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

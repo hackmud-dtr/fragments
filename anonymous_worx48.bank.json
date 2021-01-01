@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_worx48.bank",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_worx48.bank",
 	"sector": "NGC_8930",
 	"sec_level": 4,
 	"date_added": 1607043842443,
-	"last_scraped": 1609407724086,
+	"last_scraped": 1609491713988,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,24 +14,31 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609447764402,
+	"next_scrape": 1609531518733,
 	"category": "fishie_tank",
-	"last_update": 1609407724086,
+	"last_update": 1609491713988,
 	"output": [
 		{
 			"args": {},
-			"calls": 126517,
+			"calls": 172413,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"type\"",
+				"pe\":\"",
 				"EWS t",
-				"0D_FI",
 				"\":\"HUG",
+				" 'Mall",
 				"FILE0X3",
+				"e\":\"tra",
+				"0D_FILE",
+				"pt\",\"hea",
+				"LST0X0E_",
 				"It Final",
+				"header\":",
 				"FT0X46_C",
 				"er, It F",
-				"ally Has"
+				"ally Has",
+				" Week La"
 			],
 			"hits": [
 				{
@@ -139,8 +146,8 @@
 			]
 		}
 	],
-	"updt": 1609270287909,
-	"edit": 12,
+	"updt": 1609491702972,
+	"edit": 14,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -160,6 +167,14 @@
 			"frags": [
 				"FILE0X3"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
