@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_op9520.private",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_op9520.private",
 	"sector": "HJG_3331",
 	"sec_level": 4,
 	"date_added": 1606268120956,
-	"last_scraped": 1609389062377,
+	"last_scraped": 1609479649691,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,29 +14,32 @@
 		}
 	],
 	"scrape_ct": 2,
-	"next_scrape": 1609431267721,
+	"next_scrape": 1609522741521,
 	"category": "fishie_tank",
-	"last_update": 1609389062377,
+	"last_update": 1609479722729,
 	"output": [
 		{
 			"args": {},
-			"calls": 196906,
+			"calls": 207333,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ponsi",
+				"perso",
 				"heory",
-				"e inf",
-				"bably",
-				", pro",
+				"t, pro",
 				"ospace",
 				"onsibl",
 				"m pret",
 				"infosp",
+				"ty much",
 				"ry, lik",
 				"ly too ",
+				"ly resp",
 				"like in",
 				"y much p",
+				"obably t",
 				"like a l",
+				"ike info",
 				"etty muc"
 			],
 			"hits": [
@@ -60,7 +63,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 29075,
+			"calls": 34259,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -69,19 +72,22 @@
 			],
 			"fragments": [
 				"ponsi",
+				"perso",
 				"heory",
-				"e inf",
-				"bably",
-				", pro",
+				"t, pro",
 				"ospace",
 				"onsibl",
 				"m pret",
 				"infosp",
+				"ty much",
 				"ry, lik",
 				"ly too ",
+				"ly resp",
 				"like in",
 				"y much p",
+				"obably t",
 				"like a l",
+				"ike info",
 				"etty muc"
 			],
 			"hits": [
@@ -156,6 +162,11 @@
 			]
 		}
 	],
-	"updt": 1609198164051,
-	"edit": 12
+	"updt": 1609417848062,
+	"edit": 13,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }

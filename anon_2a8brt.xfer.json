@@ -1,12 +1,12 @@
 {
 	"_id": "anon_2a8brt.xfer",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_2a8brt.xfer",
 	"sector": "VNP_4987",
 	"sec_level": 4,
 	"date_added": 1606816642123,
-	"last_scraped": 1609388933998,
+	"last_scraped": 1609479485066,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,30 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609431939930,
+	"next_scrape": 1609524177992,
 	"category": "fishie_tank",
-	"last_update": 1609388933998,
+	"last_update": 1609479485066,
 	"output": [
 		{
 			"args": {},
-			"calls": 120697,
+			"calls": 126738,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"perso",
 				"9 Do ",
+				"1D as",
+				", you",
+				" You ",
 				"you'\\n",
-				"k of t",
+				"rson g",
 				"119 Do",
+				"'I, yo",
 				"s a two",
 				"ou'\\n21",
-				"on game?"
+				"k of th",
+				"ame?\\n2",
+				"on game?",
+				"of this\\n"
 			],
 			"hits": [
 				{
@@ -50,7 +58,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 20181,
+			"calls": 22635,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -58,13 +66,21 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"perso",
 				"9 Do ",
+				"1D as",
+				", you",
+				" You ",
 				"you'\\n",
-				"k of t",
+				"rson g",
 				"119 Do",
+				"'I, yo",
 				"s a two",
 				"ou'\\n21",
-				"on game?"
+				"k of th",
+				"ame?\\n2",
+				"on game?",
+				"of this\\n"
 			],
 			"hits": [
 				{
@@ -85,7 +101,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 80196,
+			"calls": 101081,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"perso",
@@ -120,8 +136,8 @@
 			]
 		}
 	],
-	"updt": 1609198359356,
-	"edit": 10,
+	"updt": 1609418043174,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",

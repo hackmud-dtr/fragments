@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_fs3zjm.inv",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_fs3zjm.inv",
 	"sector": "K_9272",
 	"sec_level": 4,
 	"date_added": 1606601936553,
-	"last_scraped": 1609389604803,
+	"last_scraped": 1609480322430,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,22 @@
 		}
 	],
 	"scrape_ct": 0,
-	"next_scrape": 1609429780599,
+	"next_scrape": 1609523050912,
 	"category": "fishie_tank",
-	"last_update": 1609389604803,
+	"last_update": 1609480393338,
 	"output": [
 		{
 			"args": {},
-			"calls": 206446,
+			"calls": 216128,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"red j",
 				"lly, ",
 				"can't",
 				"Anywa",
-				"the go",
+				" a fe",
+				"w they",
 				"s the ",
-				"nment ",
 				"ernmen",
 				"e. | A",
 				" but I",
@@ -37,10 +37,15 @@
 				"w hundr",
 				"ment is",
 				"'re gon",
+				" work. ",
 				" them, ",
+				"ut. I ca",
+				"rnment i",
+				"nd the g",
 				"n't see ",
 				"e govern",
 				" they're",
+				" the gov",
 				" always "
 			],
 			"hits": [
@@ -62,7 +67,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 28769,
+			"calls": 33812,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -74,9 +79,9 @@
 				"lly, ",
 				"can't",
 				"Anywa",
-				"the go",
+				" a fe",
+				"w they",
 				"s the ",
-				"nment ",
 				"ernmen",
 				"e. | A",
 				" but I",
@@ -84,10 +89,15 @@
 				"w hundr",
 				"ment is",
 				"'re gon",
+				" work. ",
 				" them, ",
+				"ut. I ca",
+				"rnment i",
+				"nd the g",
 				"n't see ",
 				"e govern",
 				" they're",
+				" the gov",
 				" always "
 			],
 			"hits": [
@@ -157,6 +167,11 @@
 			]
 		}
 	],
-	"updt": 1609198359356,
-	"edit": 17
+	"updt": 1609480373718,
+	"edit": 19,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }

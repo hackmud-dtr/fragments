@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_vc7eaw.hypercluster",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_vc7eaw.hypercluster",
 	"sector": "HJG_3331",
 	"sec_level": 4,
 	"date_added": 1606229933947,
-	"last_scraped": 1609389351977,
+	"last_scraped": 1609479922415,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,27 +14,30 @@
 		}
 	],
 	"scrape_ct": 13,
-	"next_scrape": 1609431957666,
+	"next_scrape": 1609526406669,
 	"category": "fishie_tank",
-	"last_update": 1609389351977,
+	"last_update": 1609479922415,
 	"output": [
 		{
 			"args": {},
-			"calls": 166768,
+			"calls": 207571,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"aring",
-				" star",
+				" to s",
 				" need",
-				"ring d",
-				" data-",
+				" but w",
 				"ty with",
 				"t we ne",
 				"squarin",
+				"ring da",
 				"ity wit",
+				"g data-",
 				"data-pr",
 				"-practi",
 				"rt squar",
+				"o start ",
+				"data-nec",
 				"-necessi"
 			],
 			"hits": [
@@ -128,8 +131,8 @@
 			]
 		}
 	],
-	"updt": 1609198164051,
-	"edit": 12,
+	"updt": 1609417653471,
+	"edit": 13,
 	"identified": [
 		{
 			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
@@ -142,6 +145,14 @@
 				"-practi",
 				"rt squar"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
