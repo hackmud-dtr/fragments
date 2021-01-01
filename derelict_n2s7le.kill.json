@@ -1,37 +1,41 @@
 {
 	"_id": "derelict_n2s7le.kill",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_n2s7le.kill",
 	"sector": "HJG_2473",
 	"sec_level": 4,
 	"date_added": 1605783005670,
-	"last_scraped": 1609390237036,
+	"last_scraped": 1609480702513,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1605783005670
 		}
 	],
-	"updt": 1609197967622,
-	"edit": 16,
+	"updt": 1609417456629,
+	"edit": 17,
 	"scrape_ct": 20,
-	"next_scrape": 1609433785870,
+	"next_scrape": 1609520979718,
 	"category": "fishie_tank",
-	"last_update": 1609390237036,
+	"last_update": 1609480702513,
 	"output": [
 		{
 			"args": {},
-			"calls": 163497,
+			"calls": 214355,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"ll ti",
+				"le th",
 				"D Wil",
-				"A4 Pr",
 				"while ",
 				"E9C wh",
+				"A4 Pra",
 				"still t",
+				"ime\\n1E",
 				"\\n1E9D ",
 				"s help m",
+				"is help ",
 				"ome\\n1E9C"
 			],
 			"hits": [
@@ -141,6 +145,14 @@
 				"s help m",
 				"ome\\n1E9C"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

@@ -1,27 +1,27 @@
 {
 	"_id": "unknown_qk6wlm.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_qk6wlm.db",
 	"sector": "K_6413",
 	"sec_level": 4,
 	"date_added": 1608398888900,
-	"last_scraped": 1609390453782,
+	"last_scraped": 1609481302076,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1608398888900
 		}
 	],
-	"updt": 1609199141492,
-	"edit": 8,
-	"next_scrape": 1609437252755,
+	"updt": 1609418629604,
+	"edit": 9,
+	"next_scrape": 1609524140752,
 	"category": "fishie_tank",
-	"last_update": 1609390453782,
+	"last_update": 1609481302076,
 	"output": [
 		{
 			"args": {},
-			"calls": 136735,
+			"calls": 182157,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" | Th",
@@ -132,6 +132,14 @@
 				"bhandari",
 				" making "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
