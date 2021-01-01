@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_0upb95.buyusnax",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_0upb95.buyusnax",
 	"sector": "VNP_3422",
 	"sec_level": 4,
 	"date_added": 1601715398321,
-	"last_scraped": 1609390761591,
+	"last_scraped": 1609481630973,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,31 +14,40 @@
 		}
 	],
 	"scrape_ct": 14,
-	"next_scrape": 1609435620612,
+	"next_scrape": 1609528338345,
 	"category": "fishie_tank",
-	"last_update": 1609390761591,
+	"last_update": 1609481630973,
 	"output": [
 		{
 			"args": {},
-			"calls": 339612,
+			"calls": 382988,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"urt A",
 				"prohi",
+				"aid a",
+				" pert",
+				"tains ",
 				"s it p",
 				"or sai",
 				"es. Em",
 				"d out ",
-				"ComCOD",
+				"6 Fran",
 				" Emplo",
 				"tes as ",
 				"oned fo",
+				"ODE and",
+				"o the c",
 				"ns to t",
+				"n viola",
 				"loyee's",
 				"commit ",
+				"ComCODE",
 				" well a",
 				" commit",
 				" access",
 				"out unde",
+				"itioned ",
 				"h intent",
 				"e's acts",
 				"and MOS "
@@ -170,6 +179,14 @@
 			]
 		}
 	],
-	"updt": 1609195820020,
-	"edit": 19
+	"updt": 1609415698740,
+	"edit": 20,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }

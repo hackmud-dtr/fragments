@@ -1,36 +1,42 @@
 {
 	"_id": "unidentified_rm57cd.adopt",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_rm57cd.adopt",
 	"sector": "NGC_9714",
 	"sec_level": 4,
 	"date_added": 1606327675355,
-	"last_scraped": 1609390835064,
+	"last_scraped": 1609481776822,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1606327675355
 		}
 	],
-	"next_scrape": 1609433051435,
+	"next_scrape": 1609528058237,
 	"category": "fishie_tank",
-	"last_update": 1609390835064,
+	"last_update": 1609481848649,
 	"output": [
 		{
 			"args": {},
-			"calls": 297901,
+			"calls": 312600,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"X7A_SE",
-				"321D7 ",
+				"C7D17D",
+				"7D\\nAD",
 				"27_FIL",
+				"SECT0XF",
 				"I almos",
 				"2BC7D17",
+				"D0321D7 ",
+				"CLST0X7A",
 				"BF_CLST0",
 				"AD0321D7",
 				"7A_SECT0",
+				"21D7 I a",
 				"1D7 I al",
+				"0X2BC7D1",
 				"_FILE0X2",
 				" almost ",
 				"D\\nAD0321"
@@ -53,7 +59,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 43113,
+			"calls": 48672,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -62,14 +68,20 @@
 			],
 			"fragments": [
 				"X7A_SE",
-				"321D7 ",
+				"C7D17D",
+				"7D\\nAD",
 				"27_FIL",
+				"SECT0XF",
 				"I almos",
 				"2BC7D17",
+				"D0321D7 ",
+				"CLST0X7A",
 				"BF_CLST0",
 				"AD0321D7",
 				"7A_SECT0",
+				"21D7 I a",
 				"1D7 I al",
+				"0X2BC7D1",
 				"_FILE0X2",
 				" almost ",
 				"D\\nAD0321"
@@ -129,8 +141,8 @@
 			]
 		}
 	],
-	"updt": 1609198164051,
-	"edit": 26,
+	"updt": 1609417848062,
+	"edit": 27,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -142,6 +154,11 @@
 				"1D7 I al",
 				"_FILE0X2"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
