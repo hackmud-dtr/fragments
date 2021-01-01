@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_qxraoa.in_flames",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_qxraoa.in_flames",
 	"sector": "K_6413",
 	"sec_level": 4,
 	"date_added": 1608274047940,
-	"last_scraped": 1609481046589,
+	"last_scraped": 1609512667094,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 12,
-	"next_scrape": 1609525694475,
+	"next_scrape": 1609559346992,
 	"category": "fishie_tank",
-	"last_update": 1609481046589,
+	"last_update": 1609512667094,
 	"output": [
 		{
 			"args": {},
-			"calls": 113601,
+			"calls": 158321,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ons. ",
@@ -119,6 +119,14 @@
 			]
 		}
 	],
-	"updt": 1609418629604,
-	"edit": 5
+	"updt": 1609512612569,
+	"edit": 7,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
