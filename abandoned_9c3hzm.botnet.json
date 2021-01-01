@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_9c3hzm.botnet",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_9c3hzm.botnet",
 	"sector": "K_5159",
 	"sec_level": 4,
 	"date_added": 1608961235191,
-	"last_scraped": 1609410846985,
+	"last_scraped": 1609492692554,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 12,
-	"next_scrape": 1609451510581,
+	"next_scrape": 1609536420882,
 	"category": "clicker",
-	"last_update": 1609410846985,
+	"last_update": 1609492692554,
 	"output": [
 		{
 			"args": {},
-			"calls": 55123,
+			"calls": 65041,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"ing! ",
@@ -50,7 +50,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 46212,
+			"calls": 75769,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"ing! ",
@@ -121,6 +121,11 @@
 			]
 		}
 	],
-	"updt": 1609273222304,
-	"edit": 5
+	"updt": 1609418825704,
+	"edit": 6,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
