@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_06b5ay.bot_brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_06b5ay.bot_brain",
 	"sector": "HJG_6149",
 	"sec_level": 4,
 	"date_added": 1608908710307,
-	"last_scraped": 1609490137322,
+	"last_scraped": 1609490210297,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609530834303,
+	"next_scrape": 1609534013309,
 	"category": "clicker",
-	"last_update": 1609403519351,
+	"last_update": 1609490210297,
 	"output": [
 		{
 			"args": {},
-			"calls": 40294,
+			"calls": 55073,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"ge 5 ",
@@ -50,7 +50,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 24660,
+			"calls": 62697,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"ge 5 ",
@@ -172,9 +172,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"click": true
-		},
 		{
 			"CLICK": true
 		}

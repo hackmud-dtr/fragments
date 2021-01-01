@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_f70g2a.locks",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_f70g2a.locks",
 	"sector": "HJG_6083",
 	"sec_level": 4,
 	"date_added": 1606838279586,
-	"last_scraped": 1609404209139,
+	"last_scraped": 1609490644561,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1609447199396,
+	"next_scrape": 1609535274114,
 	"category": "fishie_tank",
-	"last_update": 1609404209139,
+	"last_update": 1609490735677,
 	"output": [
 		{
 			"args": {},
-			"calls": 165251,
+			"calls": 172008,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"st.\"}",
@@ -65,7 +65,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 14057,
+			"calls": 19892,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -180,6 +180,11 @@
 			]
 		}
 	],
-	"updt": 1609220643219,
-	"edit": 11
+	"updt": 1609490725595,
+	"edit": 13,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }

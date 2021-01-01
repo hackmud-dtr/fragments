@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_mx80s8.what_the_fuck",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_mx80s8.what_the_fuck",
 	"sector": "K_1908",
 	"sec_level": 4,
 	"date_added": 1607481142039,
-	"last_scraped": 1609403664227,
+	"last_scraped": 1609490337384,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 4,
-	"next_scrape": 1609449872855,
+	"next_scrape": 1609534470614,
 	"category": "clicker",
-	"last_update": 1609403664227,
+	"last_update": 1609490337384,
 	"output": [
 		{
 			"args": {},
-			"calls": 78981,
+			"calls": 93554,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				" to t",
@@ -52,7 +52,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 54114,
+			"calls": 78305,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				" to t",
@@ -212,6 +212,11 @@
 			]
 		}
 	],
-	"updt": 1609209895050,
-	"edit": 8
+	"updt": 1609490334735,
+	"edit": 10,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }
