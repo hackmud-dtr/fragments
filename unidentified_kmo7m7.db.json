@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_kmo7m7.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_kmo7m7.db",
 	"sector": "VNP_8791",
 	"sec_level": 4,
 	"date_added": 1601046665878,
-	"last_scraped": 1609401111021,
+	"last_scraped": 1609489305611,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,15 +14,16 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1609445646674,
+	"next_scrape": 1609532749724,
 	"category": "fishie_tank",
-	"last_update": 1609401111021,
+	"last_update": 1609489377495,
 	"output": [
 		{
 			"args": {},
-			"calls": 289602,
+			"calls": 296209,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"y. We",
 				"Well:",
 				"we un",
 				"uatio",
@@ -30,9 +31,16 @@
 				"sorry",
 				"rst q",
 				"orry.",
+				"ng. #",
+				"h. Th",
+				"ge ha",
+				" was ",
+				" Don'",
 				"ves AI",
 				"tion o",
+				"s been",
 				"inatin",
+				"bout c",
 				"xchange",
 				"tity af",
 				"This ex",
@@ -40,7 +48,10 @@
 				"s far a",
 				"roving?",
 				"ly illu",
+				"luminat",
 				"hange h",
+				"as we u",
+				"# Okay.",
 				". ## Do",
 				" ## Gos",
 				"sn't it?",
@@ -50,6 +61,8 @@
 				"e unders",
 				"asn't it",
 				"a proves",
+				"? I'm so",
+				" in whic",
 				" highly "
 			],
 			"hits": [
@@ -70,7 +83,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 26250,
+			"calls": 31522,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -78,6 +91,7 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"y. We",
 				"Well:",
 				"we un",
 				"uatio",
@@ -85,9 +99,16 @@
 				"sorry",
 				"rst q",
 				"orry.",
+				"ng. #",
+				"h. Th",
+				"ge ha",
+				" was ",
+				" Don'",
 				"ves AI",
 				"tion o",
+				"s been",
 				"inatin",
+				"bout c",
 				"xchange",
 				"tity af",
 				"This ex",
@@ -95,7 +116,10 @@
 				"s far a",
 				"roving?",
 				"ly illu",
+				"luminat",
 				"hange h",
+				"as we u",
+				"# Okay.",
 				". ## Do",
 				" ## Gos",
 				"sn't it?",
@@ -105,6 +129,8 @@
 				"e unders",
 				"asn't it",
 				"a proves",
+				"? I'm so",
+				" in whic",
 				" highly "
 			],
 			"hits": [
@@ -184,8 +210,8 @@
 			]
 		}
 	],
-	"updt": 1609206179514,
-	"edit": 21,
+	"updt": 1609415309131,
+	"edit": 22,
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
@@ -205,6 +231,11 @@
 				"een high",
 				"e unders"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

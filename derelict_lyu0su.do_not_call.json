@@ -1,22 +1,22 @@
 {
 	"_id": "derelict_lyu0su.do_not_call",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "derelict_lyu0su.do_not_call",
 	"sector": "K_9272",
 	"sec_level": 4,
 	"date_added": 1606543702585,
-	"last_scraped": 1609401817688,
+	"last_scraped": 1609489848927,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1606543702585
 		}
 	],
-	"scrape_ct": 11,
-	"next_scrape": 1609483359493,
+	"scrape_ct": 8,
+	"next_scrape": 1609489908927,
 	"category": "risk_factor",
-	"last_update": 1609401779022,
+	"last_update": 1609489848927,
 	"output": [
 		{
 			"args": {},
@@ -41,7 +41,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 3148,
+			"calls": 3733,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"3",
@@ -4383,13 +4383,10 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1609207156009,
-	"edit": 10,
+	"updt": 1609417848062,
+	"edit": 11,
 	"cannot_identify": true,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
