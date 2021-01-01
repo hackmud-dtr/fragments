@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_xf8p80.send",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_xf8p80.send",
 	"sector": "SPC_4277",
 	"sec_level": 4,
 	"date_added": 1605953684250,
-	"last_scraped": 1609391793068,
+	"last_scraped": 1609482229099,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1609431876151,
+	"next_scrape": 1609527520643,
 	"category": "risk_factor",
-	"last_update": 1609391793068,
+	"last_update": 1609482229099,
 	"output": [
 		{
 			"args": {},
-			"calls": 2530,
+			"calls": 15382,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"t of ",
@@ -2940,8 +2940,16 @@
 			]
 		}
 	],
-	"updt": 1609197967622,
-	"edit": 7,
+	"updt": 1609417653471,
+	"edit": 8,
 	"cannot_identify": true,
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
