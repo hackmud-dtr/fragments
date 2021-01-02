@@ -1,0 +1,42 @@
+{
+	"_id": "anonymous_zfw6kf.con_spec_scriptor",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anonymous_zfw6kf.con_spec_scriptor",
+	"sector": "VNP_2518",
+	"sec_level": 4,
+	"date_added": 1609622107374,
+	"last_scraped": 1609622217086,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1609622107374
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1609622277086,
+	"category": "fishie_tank",
+	"last_update": 1609622217086,
+	"output": [
+		{
+			"args": {},
+			"calls": 40081,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"versa",
+				"mes it",
+				"es she",
+				" them, ",
+				" it's a "
+			]
+		}
+	]
+}
