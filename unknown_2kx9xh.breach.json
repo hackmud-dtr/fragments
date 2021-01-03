@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_2kx9xh.breach",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unknown_2kx9xh.breach",
 	"sector": "K_7944",
 	"sec_level": 4,
@@ -27,8 +27,8 @@
 	],
 	"pl_output": "`YUsage:`\n `Abreach { target: #s.target.loc }`\n\n  `Acost to run this script is 3kgc per use.`\n `Asn_w_glock is solvable here`\n  `Afor sn_w make sure you only have 3kgc in account when running the breach`\n\n   `Aif breach attempt returns \"TypeError: out.includes is not a function\"`\n`Athen the target either does not exist, or you have reached your connection limit`\n\n `YOptions:`\n  reset: true      `YResets the solve for this loc, in case locks have rotated`\n `Nparams`: `V{...}`    `YManually specifies parameters to pass to the loc`\n\n",
 	"next_scrape": 1609411269414,
-	"updt": 1609332452612,
-	"edit": 928,
+	"updt": 1609416480437,
+	"edit": 929,
 	"scrape_ct": 16,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1609411209414,
@@ -38,6 +38,32 @@
 			"calls": 10317,
 			"base": "`YUsage:`\n `Abreach { target: #s.target.loc }`\n\n  `Acost to run this script is 3kgc per use.`\n `Asn_w_glock is solvable here`\n  `Afor sn_w make sure you only have 3kgc in account when running the breach`\n\n   `Aif breach attempt returns \"TypeError: out.includes is not a function\"`\n`Athen the target either does not exist, or you have reached your connection limit`\n\n `YOptions:`\n  reset: true      `YResets the solve for this loc, in case locks have rotated`\n `Nparams`: `V{...}`    `YManually specifies parameters to pass to the loc`\n\n",
 			"fragments": [
+				"Hello",
+				"Erin R",
+				"E17 He",
+				"y to re",
+				"er Erin",
+				"lory\\n1E1"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"Hello",
+						"Erin R",
+						"E17 He",
+						"y to re",
+						"er Erin",
+						"lory\\n1E1"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"Hello",
 				"Erin R",
 				"E17 He",

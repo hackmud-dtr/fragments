@@ -6,7 +6,7 @@
 	"sector": "NGC_8306",
 	"sec_level": 4,
 	"date_added": 1603669739764,
-	"last_scraped": 1609389693409,
+	"last_scraped": 1609670498091,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,17 +14,15 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609434556852,
+	"next_scrape": 1609715842204,
 	"category": "fishie_tank",
-	"last_update": 1609389693409,
+	"last_update": 1609670498091,
 	"output": [
 		{
 			"args": {},
-			"calls": 228701,
+			"calls": 255540,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"C\\nAD0",
-				" we ar",
 				"There: ",
 				"e are d",
 				"D03217B",
@@ -32,14 +30,18 @@
 				"AD03217",
 				"217C I ",
 				"17C I h",
+				": we ar",
 				"re: we a",
 				"re done.",
 				"here: we",
+				"done.\\n2",
 				"D17C\\nAD",
 				"B There:",
+				"03217B T",
 				"\\n217C I",
 				"one.\\n217",
-				"e done.\\n"
+				"e done.\\n",
+				"17C\\nAD03"
 			],
 			"hits": [
 				{
@@ -136,8 +138,8 @@
 			]
 		}
 	],
-	"updt": 1609196993099,
-	"edit": 16,
+	"updt": 1609416480437,
+	"edit": 17,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -148,6 +150,14 @@
 				"B There:",
 				"\\n217C I"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
