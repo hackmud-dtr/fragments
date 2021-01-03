@@ -6,7 +6,7 @@
 	"sector": "VNP_7395",
 	"sec_level": 4,
 	"date_added": 1606159079964,
-	"last_scraped": 1609392644210,
+	"last_scraped": 1609673273208,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,20 +14,23 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1609479353919,
+	"next_scrape": 1609713156134,
 	"category": "risk_factor",
-	"last_update": 1609392644210,
+	"last_update": 1609673273208,
 	"output": [
 		{
 			"args": {},
-			"calls": 4856,
+			"calls": 15464,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"llory",
 				" I wi",
 				"ory. I",
 				"erry Chr",
 				"D Merry ",
 				"221E Mer",
+				"21E Merr",
+				".\\n221D ",
 				" Christm",
 				"ill.\\n221",
 				"I will.\\n",
@@ -2971,7 +2974,15 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1609198164051,
-	"edit": 7,
-	"cannot_identify": true
+	"updt": 1609417653471,
+	"edit": 8,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }

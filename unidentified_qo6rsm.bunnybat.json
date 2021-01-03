@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_qo6rsm.bunnybat",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "skip",
 	"script": "unidentified_qo6rsm.bunnybat",
 	"sector": "VNP_5904",
 	"sec_level": 4,
 	"date_added": 1608602342521,
-	"last_scraped": 1609174301189,
+	"last_scraped": 1609668091918,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609219963837,
+	"next_scrape": 1609711613910,
 	"category": "risk_factor",
-	"last_update": 1609174301189,
+	"last_update": 1609668091918,
 	"output": [
 		{
 			"args": {},
-			"calls": 3940,
+			"calls": 15931,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"voc a",
@@ -1883,7 +1883,15 @@
 			]
 		}
 	],
-	"updt": 1609199141492,
-	"edit": 3,
-	"cannot_identify": true
+	"updt": 1609418629604,
+	"edit": 4,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }

@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_eowkyz.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_eowkyz.bot_scam_do_not_run",
 	"sector": "HJG_0116",
 	"sec_level": 4,
 	"date_added": 1608687286417,
-	"last_scraped": 1609393769890,
+	"last_scraped": 1609673618629,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,27 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609438360204,
+	"next_scrape": 1609718750668,
 	"category": "risk_factor",
-	"last_update": 1609393769890,
+	"last_update": 1609673618629,
 	"output": [
 		{
 			"args": {},
-			"calls": 2606,
+			"calls": 11154,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"nsanc",
 				"e oth",
+				". And",
+				" the t",
+				"op beca",
 				"of the ",
 				"it's go",
 				"ed op b",
+				"go ROGUE",
 				"ell woul",
 				"ecause w",
+				"E just l",
 				" an unsa"
 			]
 		},
@@ -1533,7 +1539,15 @@
 			]
 		}
 	],
-	"updt": 1609199141492,
-	"edit": 4,
-	"cannot_identify": true
+	"updt": 1609418629604,
+	"edit": 5,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }

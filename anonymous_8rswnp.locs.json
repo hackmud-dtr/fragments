@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_8rswnp.locs",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_8rswnp.locs",
 	"sector": "SPC_5525",
 	"sec_level": 4,
 	"date_added": 1609119490378,
-	"last_scraped": 1609427595685,
+	"last_scraped": 1609656178959,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1609471614515,
+	"next_scrape": 1609699283743,
 	"category": "risk_factor",
-	"last_update": 1609427595685,
+	"last_update": 1609656178959,
 	"output": [
 		{
 			"args": {},
@@ -38,7 +38,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 1012,
+			"calls": 1625,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"asy a",
@@ -587,13 +587,10 @@
 			]
 		}
 	],
-	"updt": 1609199532890,
-	"edit": 2,
+	"updt": 1609427620321,
+	"edit": 3,
 	"cannot_identify": true,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

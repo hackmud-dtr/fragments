@@ -6,7 +6,7 @@
 	"sector": "K_7944",
 	"sec_level": 4,
 	"date_added": 1609426382778,
-	"last_scraped": 1609426473212,
+	"last_scraped": 1609655508320,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609426533212,
+	"next_scrape": 1609738857685,
 	"category": "risk_factor",
-	"last_update": 1609426473212,
+	"last_update": 1609655508320,
 	"output": [
 		{
 			"args": {},
@@ -37,8 +34,23 @@
 				": vecto",
 				" course,"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 288,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"e card",
+				"036 Of",
+				"se, sor",
+				": vecto",
+				" course,"
+			]
 		}
 	],
-	"updt": 1609426449801,
-	"edit": 1
+	"updt": 1609426838529,
+	"edit": 2,
+	"cannot_identify": true
 }
