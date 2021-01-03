@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_cn1fzf.xfer",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abandoned_cn1fzf.xfer",
 	"sector": "SPC_1275",
 	"sec_level": 0,
@@ -19,10 +19,14 @@
 				"from": "SPC_1275",
 				"to": "K_7911"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1609664539759
+		}
 	],
 	"pl_output": "{\"ok\":true}",
 	"next_scrape": 1609592977199,
-	"updt": 1609450092821,
-	"edit": 2426
+	"updt": 1609502648015,
+	"edit": 2427
 }
