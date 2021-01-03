@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_sd55vs.echo",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "anonymous_sd55vs.echo",
 	"sector": "K_9272",
 	"sec_level": 4,
 	"date_added": 1606565328440,
-	"last_scraped": 1609418153870,
+	"last_scraped": 1609650290021,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609459792999,
+	"next_scrape": 1609733745093,
 	"category": "risk_factor",
-	"last_update": 1609418153870,
+	"last_update": 1609650290021,
 	"output": [
 		{
 			"args": {},
@@ -36,7 +36,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 1390,
+			"calls": 1718,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"4",
@@ -3599,14 +3599,11 @@
 			]
 		}
 	],
-	"updt": 1609198359356,
-	"edit": 7,
+	"updt": 1609418238456,
+	"edit": 8,
 	"cannot_identify": true,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
