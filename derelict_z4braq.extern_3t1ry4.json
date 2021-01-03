@@ -1,24 +1,24 @@
 {
 	"_id": "derelict_z4braq.extern_3t1ry4",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_z4braq.extern_3t1ry4",
 	"sector": "K_4401",
 	"sec_level": 4,
 	"date_added": 1605465835783,
-	"last_scraped": 1609417843489,
+	"last_scraped": 1609650127079,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1605465835783
 		}
 	],
-	"updt": 1609197579186,
-	"edit": 7,
+	"updt": 1609417848062,
+	"edit": 8,
 	"scrape_ct": 17,
-	"next_scrape": 1609462017462,
+	"next_scrape": 1609690716334,
 	"category": "risk_factor",
-	"last_update": 1609417843489,
+	"last_update": 1609650127079,
 	"output": [
 		{
 			"args": {},
@@ -44,7 +44,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 1452,
+			"calls": 2090,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"3",
@@ -2269,9 +2269,6 @@
 	"cannot_identify": true,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

@@ -6,19 +6,19 @@
 	"sector": "K_4401",
 	"sec_level": 4,
 	"date_added": 1605175063096,
-	"last_scraped": 1609415250697,
+	"last_scraped": 1609649184166,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1605175063096
 		}
 	],
-	"updt": 1609197579186,
-	"edit": 9,
+	"updt": 1609417260618,
+	"edit": 10,
 	"scrape_ct": 20,
-	"next_scrape": 1609455825545,
+	"next_scrape": 1609695813011,
 	"category": "risk_factor",
-	"last_update": 1609415250697,
+	"last_update": 1609649184166,
 	"output": [
 		{
 			"args": {},
@@ -43,15 +43,21 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 1434,
+			"calls": 2182,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"cards",
 				"6D in ",
 				" in th",
+				"in the ",
+				"e lane.",
+				"pile\\n21",
 				"ile\\n216",
 				"end card",
-				" discard"
+				"e discar",
+				"\\n216D i",
+				" discard",
+				"\\n216C to"
 			]
 		},
 		{
@@ -3063,9 +3069,6 @@
 	"cannot_identify": true,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
