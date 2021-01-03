@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_unje85.rectifier",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "skip",
 	"script": "uknown_unje85.rectifier",
 	"sector": "K_7998",
 	"sec_level": 4,
 	"date_added": 1603149307036,
-	"last_scraped": 1609176146729,
+	"last_scraped": 1609668200461,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,29 +14,33 @@
 		}
 	],
 	"scrape_ct": 14,
-	"next_scrape": 1609218035200,
+	"next_scrape": 1609713167692,
 	"category": "risk_factor",
-	"last_update": 1609176092526,
+	"last_update": 1609668200461,
 	"output": [
 		{
 			"args": {},
-			"calls": 14653,
+			"calls": 22644,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
-				"lane.",
+				"ion.\\n",
 				"ction.",
 				" in a ",
 				"ttacker",
 				"he atta",
+				"e comba",
 				"B1 As t",
 				"y\\n20B1 ",
+				"ombat in",
+				"itiate c",
 				"er, I ma",
 				"e attack",
 				"As the a",
-				"ane.\\n20",
 				"20B1 Ini",
 				"1 Initia",
-				"1 As the"
+				"1 As the",
+				"may\\n20B1",
+				"lane.\\n20"
 			]
 		},
 		{
@@ -4388,8 +4392,16 @@
 			]
 		}
 	],
-	"updt": 1609196797222,
-	"edit": 14,
+	"updt": 1609416285118,
+	"edit": 15,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
