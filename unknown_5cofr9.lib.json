@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_5cofr9.lib",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "skip",
 	"script": "unknown_5cofr9.lib",
 	"sector": "NGC_8930",
 	"sec_level": 4,
 	"date_added": 1607067841769,
-	"last_scraped": 1609170174311,
+	"last_scraped": 1609667982531,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1609215524543,
+	"next_scrape": 1609709740205,
 	"category": "risk_factor",
-	"last_update": 1609170174311,
+	"last_update": 1609667982531,
 	"output": [
 		{
 			"args": {},
-			"calls": 10627,
+			"calls": 19618,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"DY I'",
@@ -3024,7 +3024,15 @@
 			]
 		}
 	],
-	"updt": 1609198555324,
-	"edit": 6,
-	"cannot_identify": true
+	"updt": 1609418043174,
+	"edit": 7,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }

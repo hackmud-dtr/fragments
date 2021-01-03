@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_a19wqn.pay_respects",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "uknown_a19wqn.pay_respects",
 	"sector": "HJG_3792",
 	"sec_level": 4,
 	"date_added": 1608067157121,
-	"last_scraped": 1609393077729,
+	"last_scraped": 1609642786639,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1609474585223,
+	"next_scrape": 1609724804613,
 	"category": "risk_factor",
-	"last_update": 1609393077729,
+	"last_update": 1609642786639,
 	"output": [
 		{
 			"args": {},
@@ -41,7 +41,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 979,
+			"calls": 1154,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"r Eri",
@@ -3862,14 +3862,11 @@
 			]
 		}
 	],
-	"updt": 1609198945963,
-	"edit": 3,
+	"updt": 1609418436310,
+	"edit": 4,
 	"cannot_identify": true,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

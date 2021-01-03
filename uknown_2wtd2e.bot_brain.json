@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_2wtd2e.bot_brain",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_2wtd2e.bot_brain",
 	"sector": "K_2311",
 	"sec_level": 4,
 	"date_added": 1602260772455,
-	"last_scraped": 1609391394495,
+	"last_scraped": 1609672839514,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,30 +14,38 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1609434874413,
+	"next_scrape": 1609717933015,
 	"category": "risk_factor",
-	"last_update": 1609391394495,
+	"last_update": 1609672839514,
 	"output": [
 		{
 			"args": {},
-			"calls": 23850,
+			"calls": 24999,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
-				"mmon ",
-				"ial i",
-				"what i",
-				"t is r",
+				"ess t",
 				"s requ",
+				"rtific",
+				"he 203",
 				"h the ",
+				"es is ",
 				"equire",
+				" died ",
+				"ned art",
+				" what i",
 				" face d",
 				"with the",
+				"tificial",
 				"set of s",
 				"sanction",
 				"red set ",
 				"n access",
 				"lligence",
-				"anctione"
+				"hat is r",
+				"ficial i",
+				"anctione",
+				" intelli",
+				" Common "
 			]
 		},
 		{
@@ -3788,8 +3796,16 @@
 			]
 		}
 	],
-	"updt": 1609196211042,
-	"edit": 15,
+	"updt": 1609415895353,
+	"edit": 16,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }

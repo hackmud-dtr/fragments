@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_9sq074.helpdesk",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "abndnd_9sq074.helpdesk",
 	"sector": "NGC_8075",
 	"sec_level": 4,
 	"date_added": 1607965717827,
-	"last_scraped": 1609394404326,
+	"last_scraped": 1609643366373,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609440576661,
+	"next_scrape": 1609722948291,
 	"category": "risk_factor",
 	"last_update": 1609394404326,
 	"output": [
@@ -2775,13 +2775,16 @@
 			]
 		}
 	],
-	"updt": 1609198945963,
-	"edit": 3,
+	"updt": 1609418436310,
+	"edit": 4,
 	"cannot_identify": true,
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}
-	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	]
 }
