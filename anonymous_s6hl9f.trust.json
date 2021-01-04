@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_s6hl9f.trust",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_s6hl9f.trust",
 	"sector": "VNP_7395",
 	"sec_level": 4,
 	"date_added": 1606141936458,
-	"last_scraped": 1609644378958,
+	"last_scraped": 1609732118707,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,28 +14,35 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609689317051,
+	"next_scrape": 1609772027862,
 	"category": "risk_factor",
-	"last_update": 1609644378958,
+	"last_update": 1609732118707,
 	"output": [
 		{
 			"args": {},
-			"calls": 4375,
+			"calls": 8566,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
+				"to re",
 				"I am ",
 				"ceive",
-				"llo, u",
+				" to r",
+				"am hap",
+				"Hello, ",
+				"appy to",
 				" receiv",
 				"ory\\n1E1",
-				"in R.\\n1"
+				"llo, use",
+				"in R.\\n1",
+				"1E18 I a",
+				"R.\\n1E18 "
 			]
 		},
 		{
 			"args": {
 				"do": "win"
 			},
-			"calls": 2278,
+			"calls": 2811,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"to re",
@@ -3009,8 +3016,13 @@
 			]
 		}
 	],
-	"updt": 1609417653471,
-	"edit": 8,
+	"updt": 1609671869537,
+	"edit": 9,
 	"cannot_identify": true,
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }

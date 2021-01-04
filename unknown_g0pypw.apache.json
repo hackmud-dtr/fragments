@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_g0pypw.apache",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_g0pypw.apache",
 	"sector": "K_0449",
 	"sec_level": 4,
 	"date_added": 1604906195262,
-	"last_scraped": 1609642586260,
+	"last_scraped": 1609731592902,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,20 +14,25 @@
 		}
 	],
 	"scrape_ct": 14,
-	"next_scrape": 1609685098534,
+	"next_scrape": 1609773085289,
 	"category": "risk_factor",
-	"last_update": 1609642586260,
+	"last_update": 1609731592902,
 	"output": [
 		{
 			"args": {},
-			"calls": 8149,
+			"calls": 19362,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"s gon",
+				"an ti",
+				" than",
 				" cont",
 				"me. st",
 				"J re: ",
-				" stage "
+				" stage ",
+				"ki | SUB",
+				"DY stora",
+				" | SUBJ "
 			]
 		},
 		{
@@ -4781,8 +4786,16 @@
 			]
 		}
 	],
-	"updt": 1609417260618,
-	"edit": 8,
+	"updt": 1609671282608,
+	"edit": 9,
 	"cannot_identify": true,
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
