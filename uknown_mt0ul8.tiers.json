@@ -1,24 +1,24 @@
 {
 	"_id": "uknown_mt0ul8.tiers",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_mt0ul8.tiers",
 	"sector": "HJG_2473",
 	"sec_level": 4,
 	"date_added": 1605771672926,
-	"last_scraped": 1609730687285,
+	"last_scraped": 1609730758010,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1605771672926
 		}
 	],
-	"updt": 1609671869537,
-	"edit": 14,
+	"updt": 1609730699883,
+	"edit": 15,
 	"scrape_ct": 17,
-	"next_scrape": 1609772408927,
+	"next_scrape": 1609777389232,
 	"category": "fishie_tank",
-	"last_update": 1609730687285,
+	"last_update": 1609730758010,
 	"output": [
 		{
 			"args": {},
@@ -56,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 21769,
+			"calls": 23032,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -95,7 +95,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 142462,
+			"calls": 165012,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ng an",
@@ -137,14 +137,6 @@
 				" an AI ",
 				"AI that "
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
