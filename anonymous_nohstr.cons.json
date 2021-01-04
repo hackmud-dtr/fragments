@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_nohstr.cons",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anonymous_nohstr.cons",
 	"sector": "K_3743",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "K_3743",
 				"to": "VNP_7713"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1609746234196
+		}
 	],
 	"pl_output": "Cannot read property 'match' of undefined",
 	"next_scrape": 1609815472430,
-	"updt": 1609614234663,
-	"edit": 10469
+	"updt": 1609729528392,
+	"edit": 10470
 }
