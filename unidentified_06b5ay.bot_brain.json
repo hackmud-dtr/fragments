@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_06b5ay.bot_brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_06b5ay.bot_brain",
 	"sector": "HJG_6149",
 	"sec_level": 4,
 	"date_added": 1608908710307,
-	"last_scraped": 1609661511594,
+	"last_scraped": 1609737598000,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609707094555,
+	"next_scrape": 1609780152386,
 	"category": "clicker",
-	"last_update": 1609661511594,
+	"last_update": 1609737598000,
 	"output": [
 		{
 			"args": {},
-			"calls": 55073,
+			"calls": 88491,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"ge 5 ",
@@ -155,8 +155,8 @@
 			]
 		}
 	],
-	"updt": 1609490334735,
-	"edit": 5,
+	"updt": 1609737541219,
+	"edit": 7,
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0X0A_SECT0X8F99_FILE0XBD88122E",
@@ -169,6 +169,14 @@
 				"ering st",
 				"5 | BODY"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
 		}
 	]
 }

@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_v1umlu.list",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_v1umlu.list",
 	"sector": "K_6413",
 	"sec_level": 4,
 	"date_added": 1608481163681,
-	"last_scraped": 1609736930465,
+	"last_scraped": 1609737000505,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1609780571908,
+	"next_scrape": 1609782714102,
 	"category": "fishie_tank",
-	"last_update": 1609736947972,
+	"last_update": 1609737000505,
 	"output": [
 		{
 			"args": {},
@@ -114,7 +114,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 14797,
+			"calls": 16121,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -213,7 +213,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 45896,
+			"calls": 66883,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ke a ",
@@ -229,8 +229,8 @@
 			]
 		}
 	],
-	"updt": 1609672846771,
-	"edit": 10,
+	"updt": 1609736956042,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -304,11 +304,6 @@
 			"frags": [
 				"he knows"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
