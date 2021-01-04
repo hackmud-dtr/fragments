@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_ksg3km.board",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_ksg3km.board",
 	"sector": "VNP_3373",
 	"sec_level": 4,
 	"date_added": 1604241825457,
-	"last_scraped": 1609654728400,
+	"last_scraped": 1609734627374,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,33 +14,36 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1609694911742,
+	"next_scrape": 1609781126787,
 	"category": "fishie_tank",
-	"last_update": 1609654728400,
+	"last_update": 1609734627374,
 	"output": [
 		{
 			"args": {},
-			"calls": 171483,
+			"calls": 215728,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"20AF ",
 				"or hum",
 				"for hu",
 				"ed spa",
-				"ave ad",
-				"\\n20AF",
 				" human",
 				"ompatib",
+				"have ad",
 				"djusted",
 				"compati",
+				"0 for h",
 				" not.\\n",
+				"y\\n20B0 ",
 				"patibili",
 				"mpatibil",
 				"ity\\n20B",
 				"I have a",
+				"human co",
 				"atibilit",
 				"AF I hav",
 				" spatial",
+				"ot.\\n20AF",
 				"not.\\n20A",
 				"iality\\n2",
 				"\\n20B0 fo"
@@ -160,8 +163,8 @@
 			]
 		}
 	],
-	"updt": 1609424885821,
-	"edit": 15,
+	"updt": 1609734608210,
+	"edit": 17,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -175,6 +178,14 @@
 				"mpatibil",
 				"AF I hav"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
