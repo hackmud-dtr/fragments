@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_y5vjk2.profiles",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_y5vjk2.profiles",
 	"sector": "NGC_4506",
 	"sec_level": 4,
 	"date_added": 1605929969216,
-	"last_scraped": 1609657820641,
+	"last_scraped": 1609736295764,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1609698775211,
+	"next_scrape": 1609779387914,
 	"category": "fishie_tank",
-	"last_update": 1609657820641,
+	"last_update": 1609736295764,
 	"output": [
 		{
 			"args": {},
-			"calls": 164896,
+			"calls": 219546,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"LLFILE",
@@ -118,8 +118,8 @@
 			]
 		}
 	],
-	"updt": 1609479398274,
-	"edit": 13,
+	"updt": 1609671869537,
+	"edit": 14,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -131,6 +131,14 @@
 				"0 0000 0",
 				"ILE\\n0000"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
