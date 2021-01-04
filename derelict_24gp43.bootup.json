@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_24gp43.bootup",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_24gp43.bootup",
 	"sector": "SPC_5525",
 	"sec_level": 4,
 	"date_added": 1609104191660,
-	"last_scraped": 1609682226958,
+	"last_scraped": 1609739576053,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1609728874135,
+	"next_scrape": 1609779560946,
 	"category": "fishie_tank",
-	"last_update": 1609682226958,
+	"last_update": 1609739576053,
 	"output": [
 		{
 			"args": {},
-			"calls": 32729,
+			"calls": 84126,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" you ",
@@ -103,8 +103,8 @@
 			]
 		}
 	],
-	"updt": 1609427620321,
-	"edit": 4,
+	"updt": 1609682426626,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -118,6 +118,14 @@
 				"1E You a",
 				"of this\\n"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
