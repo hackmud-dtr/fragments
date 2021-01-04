@@ -1,28 +1,28 @@
 {
 	"_id": "anon_ijjk1a.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_ijjk1a.db",
 	"sector": "VNP_3422",
 	"sec_level": 4,
 	"date_added": 1601761033634,
-	"last_scraped": 1609654510789,
+	"last_scraped": 1609734226237,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1601761033634
 		}
 	],
-	"updt": 1609424300127,
-	"edit": 27,
+	"updt": 1609734215145,
+	"edit": 29,
 	"scrape_ct": 13,
-	"next_scrape": 1609695768895,
+	"next_scrape": 1609780136709,
 	"category": "fishie_tank",
-	"last_update": 1609654510789,
+	"last_update": 1609734226237,
 	"output": [
 		{
 			"args": {},
-			"calls": 378409,
+			"calls": 428900,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"60 TR",
@@ -30,7 +30,7 @@
 				"2160 T",
 				"0X2BC7",
 				" TRAP ",
-				"SECT0XF",
+				"ILE0X2B",
 				"0X7A_SE",
 				"_CLST0X",
 				"X7A_SECT",
@@ -40,7 +40,9 @@
 				"ECT0XF22",
 				"CLST0X7A",
 				"BF_CLST0",
+				"AD032160",
 				"A_SECT0X",
+				"_SECT0XF",
 				"_FILE0X2",
 				"BC7D17A\\n",
 				"\\nAD03216"
@@ -164,6 +166,14 @@
 				"ECT0XF22",
 				"BF_CLST0"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

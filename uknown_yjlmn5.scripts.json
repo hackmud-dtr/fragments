@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_yjlmn5.scripts",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_yjlmn5.scripts",
 	"sector": "K_7944",
 	"sec_level": 4,
 	"date_added": 1609420999212,
-	"last_scraped": 1609652411606,
+	"last_scraped": 1609733737956,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1609692053886,
+	"next_scrape": 1609778865331,
 	"category": "fishie_tank",
-	"last_update": 1609652411606,
+	"last_update": 1609733755800,
 	"output": [
 		{
 			"args": {},
-			"calls": 7281,
+			"calls": 39645,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"bhand",
@@ -54,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6195,
+			"calls": 7171,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -108,8 +108,8 @@
 			]
 		}
 	],
-	"updt": 1609421172215,
-	"edit": 1,
+	"updt": 1609673431986,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "Passphrase",
@@ -124,6 +124,11 @@
 				" process",
 				" Index p"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
