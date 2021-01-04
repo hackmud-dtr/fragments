@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_1uiwbv.quests",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_1uiwbv.quests",
 	"sector": "K_6183",
 	"sec_level": 4,
 	"date_added": 1608256898581,
-	"last_scraped": 1609640338664,
+	"last_scraped": 1609730522390,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 12,
-	"next_scrape": 1609684606542,
+	"next_scrape": 1609775257236,
 	"category": "fishie_tank",
-	"last_update": 1609640338664,
+	"last_update": 1609730522390,
 	"output": [
 		{
 			"args": {},
-			"calls": 75320,
+			"calls": 120663,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"er ev",
@@ -151,6 +151,14 @@
 			]
 		}
 	],
-	"updt": 1609418629604,
-	"edit": 5
+	"updt": 1609730502814,
+	"edit": 7,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
