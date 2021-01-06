@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_haao86.t3_core",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_haao86.t3_core",
 	"sector": "VNP_1801",
 	"sec_level": 4,
 	"date_added": 1604671152678,
-	"last_scraped": 1609662254076,
+	"last_scraped": 1609951359891,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,25 +14,30 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1609707278423,
+	"next_scrape": 1609993145402,
 	"category": "fishie_tank",
-	"last_update": 1609662254076,
+	"last_update": 1609951359891,
 	"output": [
 		{
 			"args": {},
-			"calls": 140434,
+			"calls": 162176,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"wn. T",
+				"tself",
 				"The b",
-				"makes ",
 				"ly mak",
 				" Town ",
 				" itsel",
+				"ie Buil",
 				"Flood s",
 				"d seaso",
 				"andiwor",
 				",\"msg\":",
+				" makes ",
+				"rk truly",
+				"nown. Th",
+				"n is whe",
+				"known. T",
 				"k truly ",
 				" Angie's"
 			],
@@ -196,8 +201,8 @@
 			]
 		}
 	],
-	"updt": 1609492093273,
-	"edit": 15,
+	"updt": 1609671282608,
+	"edit": 16,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -233,6 +238,14 @@
 			"frags": [
 				"makes "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
