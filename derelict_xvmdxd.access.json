@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_xvmdxd.access",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_xvmdxd.access",
 	"sector": "HJG_3904",
 	"sec_level": 4,
 	"date_added": 1607888724054,
-	"last_scraped": 1609681646215,
+	"last_scraped": 1609954885808,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 0,
-	"next_scrape": 1609726149604,
+	"next_scrape": 1609997716356,
 	"category": "fishie_tank",
-	"last_update": 1609681646215,
+	"last_update": 1609954867749,
 	"output": [
 		{
 			"args": {},
-			"calls": 117078,
+			"calls": 148627,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"prope",
@@ -211,6 +211,14 @@
 			]
 		}
 	],
-	"updt": 1609681643196,
-	"edit": 11
+	"updt": 1609681838659,
+	"edit": 12,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
