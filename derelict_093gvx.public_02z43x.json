@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_093gvx.public_02z43x",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "derelict_093gvx.public_02z43x",
 	"sector": "VNP_2692",
 	"sec_level": 4,
 	"date_added": 1605588313754,
-	"last_scraped": 1609641536901,
+	"last_scraped": 1609910690775,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609726524981,
+	"next_scrape": 1609990108845,
 	"category": "risk_factor",
 	"last_update": 1609641536901,
 	"output": [
@@ -4223,11 +4223,14 @@
 			]
 		}
 	],
-	"updt": 1609417456629,
-	"edit": 9,
+	"updt": 1609671478085,
+	"edit": 10,
 	"cannot_identify": true,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}
