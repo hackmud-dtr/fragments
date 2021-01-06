@@ -6,7 +6,7 @@
 	"sector": "VNP_3422",
 	"sec_level": 4,
 	"date_added": 1601715398321,
-	"last_scraped": 1609658979157,
+	"last_scraped": 1609950504322,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,39 +14,46 @@
 		}
 	],
 	"scrape_ct": 14,
-	"next_scrape": 1609698662013,
+	"next_scrape": 1609991995020,
 	"category": "fishie_tank",
-	"last_update": 1609658979157,
+	"last_update": 1609950504322,
 	"output": [
 		{
 			"args": {},
-			"calls": 382988,
+			"calls": 414377,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"urt A",
+				"to co",
 				"prohi",
+				"MOS s",
 				"aid a",
 				" pert",
 				"tains ",
+				"t as i",
 				"s it p",
 				"or sai",
+				"Frankf",
 				"es. Em",
 				"d out ",
 				"6 Fran",
 				" Emplo",
 				"tes as ",
 				"oned fo",
-				"ODE and",
 				"o the c",
 				"ns to t",
 				"n viola",
 				"loyee's",
+				"furt Ac",
 				"commit ",
 				"ComCODE",
 				" well a",
 				" commit",
 				" access",
 				"out unde",
+				"oth ComC",
+				"ommit sa",
+				"olation ",
+				"ODE and ",
 				"itioned ",
 				"h intent",
 				"e's acts",
@@ -197,6 +204,14 @@
 			]
 		}
 	],
-	"updt": 1609481740786,
-	"edit": 21
+	"updt": 1609669719924,
+	"edit": 22,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
