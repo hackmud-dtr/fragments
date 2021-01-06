@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_3kw7zu.tools",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_3kw7zu.tools",
 	"sector": "NGC_9447",
 	"sec_level": 4,
 	"date_added": 1607015371590,
-	"last_scraped": 1609640538497,
+	"last_scraped": 1609943923585,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,26 +14,38 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1609680771361,
+	"next_scrape": 1609983940611,
 	"category": "fishie_tank",
-	"last_update": 1609640538497,
+	"last_update": 1609943923585,
 	"output": [
 		{
 			"args": {},
-			"calls": 128740,
+			"calls": 147925,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"sitiv",
 				"sed p",
+				"nal m",
 				"ged a",
+				"ets a",
 				"e abu",
-				" moni",
+				"62 an",
+				" 24 2",
+				"petiti",
+				"omCODE",
 				"ncludi",
 				"ensiti",
+				"62. Em",
 				" acces",
+				"owing i",
 				"ng July",
+				"ng comm",
+				"d concl",
+				" commen",
 				"o have a",
 				"monitori",
 				"loyee wa",
+				"l monito",
 				" to have",
 				" January"
 			],
@@ -135,8 +147,8 @@
 			]
 		}
 	],
-	"updt": 1609418043174,
-	"edit": 11,
+	"updt": 1609672455571,
+	"edit": 12,
 	"identified": [
 		{
 			"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
@@ -148,6 +160,14 @@
 				"ng July",
 				"o have a"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
