@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_pcwan7.base",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "skip",
 	"script": "uknown_pcwan7.base",
 	"sector": "HJG_3792",
 	"sec_level": 4,
 	"date_added": 1608087677876,
-	"last_scraped": 1609388297185,
+	"last_scraped": 1609941642029,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1609430289568,
+	"next_scrape": 1609985815876,
 	"category": "risk_factor",
-	"last_update": 1609388297185,
+	"last_update": 1609941642029,
 	"output": [
 		{
 			"args": {},
-			"calls": 1741,
+			"calls": 4036,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				" the ",
@@ -37,7 +37,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 275,
+			"calls": 893,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				" the ",
@@ -961,8 +961,13 @@
 			]
 		}
 	],
-	"updt": 1609418436310,
-	"edit": 4,
+	"updt": 1609941592926,
+	"edit": 6,
 	"cannot_identify": true,
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }
