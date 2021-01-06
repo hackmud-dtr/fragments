@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_s4h0uv.gg",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_s4h0uv.gg",
 	"sector": "HJG_5243",
 	"sec_level": 4,
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "feed"
-		},
-		{
 			"do": "clean"
 		}
 	],
 	"scrape_ct": 16,
 	"next_scrape": 1609729258481,
 	"category": "fishie_tank",
-	"last_update": 1609729198481,
+	"last_update": 1609928832697,
 	"output": [
 		{
 			"args": {},
@@ -55,10 +52,32 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3303,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" They",
+				"pful t",
+				"nds'. ",
+				" good a",
+				" - intr",
+				"op think",
+				" don't h",
+				" 'minds'"
+			]
 		}
 	],
-	"updt": 1609729331357,
-	"edit": 2,
+	"updt": 1609909950192,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",

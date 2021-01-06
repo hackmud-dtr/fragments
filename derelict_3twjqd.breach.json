@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_3twjqd.breach",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "derelict_3twjqd.breach",
 	"sector": "K_6413",
 	"sec_level": 4,
 	"date_added": 1608422516602,
-	"last_scraped": 1609731848658,
+	"last_scraped": 1609929762917,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 14,
-	"next_scrape": 1609820859828,
+	"next_scrape": 1610012308017,
 	"category": "risk_factor",
 	"last_update": 1609731848658,
 	"output": [
@@ -3098,11 +3098,14 @@
 			]
 		}
 	],
-	"updt": 1609672846771,
-	"edit": 7,
+	"updt": 1609731871731,
+	"edit": 8,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"cannot_identify": true,
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}

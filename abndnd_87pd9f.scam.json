@@ -1,27 +1,22 @@
 {
 	"_id": "abndnd_87pd9f.scam",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_87pd9f.scam",
 	"sector": "HJG_3945",
 	"sec_level": 4,
 	"date_added": 1609679855876,
-	"last_scraped": 1609679874458,
+	"last_scraped": 1609926909474,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1609679855876
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1609679934458,
+	"next_scrape": 1609968965433,
 	"category": "fishie_tank",
-	"last_update": 1609679944568,
+	"last_update": 1609926909474,
 	"output": [
 		{
 			"args": {},
@@ -169,10 +164,27 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 31781,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"versi",
+				"when I",
+				"unders",
+				"aying!",
+				"s old a",
+				" to des",
+				" is as ",
+				" really "
+			]
 		}
 	],
-	"updt": 1609680078645,
-	"edit": 2,
+	"updt": 1609909948623,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "NOT FOUND",
