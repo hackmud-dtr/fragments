@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_egef9s.profiles",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_egef9s.profiles",
 	"sector": "K_2311",
 	"sec_level": 4,
 	"date_added": 1602253930004,
-	"last_scraped": 1609645283651,
+	"last_scraped": 1609946078743,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1609737789816,
+	"next_scrape": 1609990204992,
 	"category": "risk_factor",
-	"last_update": 1609645283651,
+	"last_update": 1609946078743,
 	"output": [
 		{
 			"args": {},
-			"calls": 16047,
+			"calls": 26843,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"MFT0X",
@@ -5657,8 +5657,8 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1609415895353,
-	"edit": 17,
+	"updt": 1609669914874,
+	"edit": 18,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -6181,5 +6181,13 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	]
 }
