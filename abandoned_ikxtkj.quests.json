@@ -1,28 +1,28 @@
 {
 	"_id": "abandoned_ikxtkj.quests",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_ikxtkj.quests",
 	"sector": "NGC_9447",
 	"sec_level": 4,
 	"date_added": 1606984545148,
-	"last_scraped": 1609927179673,
+	"last_scraped": 1609997258804,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1606984545148
 		}
 	],
-	"updt": 1609681446812,
-	"edit": 20,
+	"updt": 1609927328896,
+	"edit": 21,
 	"scrape_ct": 3,
-	"next_scrape": 1609970895017,
+	"next_scrape": 1610037296894,
 	"category": "fishie_tank",
-	"last_update": 1609927179673,
+	"last_update": 1609997258804,
 	"output": [
 		{
 			"args": {},
-			"calls": 197743,
+			"calls": 241118,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"f tho",
@@ -119,6 +119,14 @@
 				" funct",
 				" solutio"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
