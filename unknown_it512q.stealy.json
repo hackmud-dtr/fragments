@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_it512q.stealy",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_it512q.stealy",
 	"sector": "K_5159",
 	"sec_level": 4,
 	"date_added": 1609033680662,
-	"last_scraped": 1609987721738,
+	"last_scraped": 1610014464447,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,24 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1610029861664,
+	"next_scrape": 1610059128590,
 	"category": "coin_flipper",
-	"last_update": 1609987721738,
+	"last_update": 1610014464447,
 	"output": [
 		{
 			"args": {},
-			"calls": 250635,
+			"calls": 288408,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"SYST ",
+				"ST0X6",
 				"CT0X8",
-				"69_SE",
 				"0X885F",
 				"T0X82_C",
-				"E0X8C85"
+				"E0X8C85",
+				"ROR | NE",
+				"0X69_SEC",
+				" ERROR |"
 			],
 			"hits": [
 				{
@@ -45,8 +48,8 @@
 			]
 		}
 	],
-	"updt": 1609756893242,
-	"edit": 10,
+	"updt": 1609987744258,
+	"edit": 11,
 	"identified": [
 		{
 			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
