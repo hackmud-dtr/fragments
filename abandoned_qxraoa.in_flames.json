@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_qxraoa.in_flames",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_qxraoa.in_flames",
 	"sector": "K_6413",
 	"sec_level": 4,
 	"date_added": 1608274047940,
-	"last_scraped": 1609934298568,
+	"last_scraped": 1609998364827,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 12,
-	"next_scrape": 1609981066787,
+	"next_scrape": 1610041676394,
 	"category": "fishie_tank",
-	"last_update": 1609934298568,
+	"last_update": 1609998364827,
 	"output": [
 		{
 			"args": {},
-			"calls": 172386,
+			"calls": 188946,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ons. ",
@@ -48,7 +48,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 16884,
+			"calls": 19933,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -81,7 +81,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 123426,
+			"calls": 129930,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"ons. ",
@@ -119,6 +119,6 @@
 			]
 		}
 	],
-	"updt": 1609738713724,
-	"edit": 10
+	"updt": 1609998301312,
+	"edit": 12
 }
