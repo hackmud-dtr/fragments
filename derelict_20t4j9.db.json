@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_20t4j9.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_20t4j9.db",
 	"sector": "K_6413",
 	"sec_level": 4,
 	"date_added": 1608478176783,
-	"last_scraped": 1609909073851,
+	"last_scraped": 1609995461731,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 11,
-	"next_scrape": 1609949109025,
+	"next_scrape": 1610041814160,
 	"category": "fishie_tank",
-	"last_update": 1609909073851,
+	"last_update": 1609995516649,
 	"output": [
 		{
 			"args": {},
-			"calls": 115853,
+			"calls": 137671,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"puter",
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 14915,
+			"calls": 17483,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -118,8 +118,8 @@
 			]
 		}
 	],
-	"updt": 1609672846771,
-	"edit": 8,
+	"updt": 1609909946745,
+	"edit": 9,
 	"identified": [
 		{
 			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
@@ -133,6 +133,11 @@
 				"d that c",
 				"] drink "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

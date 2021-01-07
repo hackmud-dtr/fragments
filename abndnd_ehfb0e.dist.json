@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_ehfb0e.dist",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_ehfb0e.dist",
 	"sector": "K_4401",
 	"sec_level": 4,
 	"date_added": 1605465835783,
-	"last_scraped": 1609909127479,
+	"last_scraped": 1609995571540,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,23 +14,26 @@
 		}
 	],
 	"scrape_ct": 15,
-	"next_scrape": 1609952504555,
+	"next_scrape": 1610041121018,
 	"category": "fishie_tank",
-	"last_update": 1609909127479,
+	"last_update": 1609995625565,
 	"output": [
 		{
 			"args": {},
-			"calls": 212404,
+			"calls": 229901,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"visit",
 				"sitin",
 				"SECT0",
 				"ader\"",
+				"5: Re",
 				"4A_SE",
 				"45: R",
 				"0X4A_",
 				"_SECT",
-				"\"news\"",
+				"w Hous",
+				"FT0X3E",
 				"CLST0X4",
 				"7052_FI",
 				"2_FILE0",
@@ -38,12 +41,15 @@
 				"ype\":\"ne",
 				"ton In 2",
 				"ouston I",
+				"n 2045: ",
 				"der\":\"Ne",
 				"data_typ",
 				"0X3E_CLS",
 				"{\"data_t",
+				"\"news\",\"",
 				"\"data_ty",
-				" Houston"
+				" Houston",
+				"0721\\n{\"d"
 			],
 			"hits": [
 				{
@@ -189,7 +195,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 34691,
+			"calls": 37085,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -541,8 +547,8 @@
 			]
 		}
 	],
-	"updt": 1609671478085,
-	"edit": 20,
+	"updt": 1609995564108,
+	"edit": 22,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -680,6 +686,11 @@
 			"frags": [
 				"_SECT"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
