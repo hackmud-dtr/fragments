@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_73o3k0.locs",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_73o3k0.locs",
 	"sector": "K_3904",
 	"sec_level": 4,
 	"date_added": 1609465211750,
-	"last_scraped": 1609918137463,
+	"last_scraped": 1609996678496,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609958133441,
+	"next_scrape": 1610042977941,
 	"category": "risk_factor",
-	"last_update": 1609918137463,
+	"last_update": 1609996678496,
 	"output": [
 		{
 			"args": {},
-			"calls": 2690,
+			"calls": 5199,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"sts a",
@@ -35,7 +35,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 1389,
+			"calls": 1901,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"sts a",
@@ -568,7 +568,12 @@
 			]
 		}
 	],
-	"updt": 1609673431986,
-	"edit": 3,
-	"cannot_identify": true
+	"updt": 1609918531529,
+	"edit": 4,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }

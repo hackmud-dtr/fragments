@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_1288qh.ad",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "could not json",
 	"script": "unknown_1288qh.ad",
 	"sector": "K_9272",
 	"sec_level": 4,
 	"date_added": 1606622880756,
-	"last_scraped": 1609919611984,
+	"last_scraped": 1609996985081,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 10,
-	"next_scrape": 1609965088444,
+	"next_scrape": 1610043328090,
 	"category": "risk_factor",
-	"last_update": 1609919611984,
+	"last_update": 1609996950285,
 	"output": [
 		{
 			"args": {},
-			"calls": 13902,
+			"calls": 15785,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"XCF_C",
@@ -44,7 +44,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 3207,
+			"calls": 3462,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"4",
@@ -3965,8 +3965,13 @@
 			]
 		}
 	],
-	"updt": 1609672261437,
-	"edit": 13,
+	"updt": 1609919702082,
+	"edit": 14,
 	"cannot_identify": true,
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"retry_args": [
+		{
+			"do": "win"
+		}
+	]
 }
