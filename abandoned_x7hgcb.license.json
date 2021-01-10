@@ -1,31 +1,26 @@
 {
 	"_id": "abandoned_x7hgcb.license",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abandoned_x7hgcb.license",
 	"sector": "HJG_3609",
 	"sec_level": 4,
 	"date_added": 1610288548339,
-	"last_scraped": 1610288565192,
+	"last_scraped": 1610288801908,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1610288548339
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1610288625192,
+	"scrape_ct": 14,
+	"next_scrape": 1610288861908,
 	"category": "fishie_tank",
-	"last_update": 1610288584020,
+	"last_update": 1610288801908,
 	"output": [
 		{
 			"args": {},
-			"calls": 14443,
+			"calls": 35900,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"S | b",
@@ -35,13 +30,27 @@
 				"bmakil",
 				"| bmaki",
 				"alil ## "
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"S | b",
+						"kilaa",
+						"akila",
+						"aaali",
+						"bmakil",
+						"| bmaki",
+						"alil ## "
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 806,
+			"calls": 3780,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -56,7 +65,67 @@
 				"bmakil",
 				"| bmaki",
 				"alil ## "
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"S | b",
+						"kilaa",
+						"akila",
+						"aaali",
+						"bmakil",
+						"| bmaki",
+						"alil ## "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 31190,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"S | b",
+				"kilaa",
+				"akila",
+				"aaali",
+				"bmakil",
+				"| bmaki",
+				"alil ## "
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"S | b",
+						"kilaa",
+						"akila",
+						"aaali",
+						"bmakil",
+						"| bmaki",
+						"alil ## "
+					]
+				}
 			]
 		}
-	]
+	],
+	"identified": [
+		{
+			"document": "Passphrase",
+			"frags": [
+				"S | b",
+				"kilaa",
+				"akila",
+				"aaali",
+				"bmakil",
+				"| bmaki",
+				"alil ## "
+			]
+		}
+	],
+	"updt": 1610288796013,
+	"edit": 1
 }
