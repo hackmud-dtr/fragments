@@ -1,0 +1,67 @@
+{
+	"_id": "anonymous_m8jnpb.yahtzee",
+	"type": "fragment",
+	"mode": "player",
+	"script": "anonymous_m8jnpb.yahtzee",
+	"sector": "HJG_3609",
+	"sec_level": 4,
+	"date_added": 1610241222345,
+	"last_scraped": 1610241296157,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1610241222345
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1610325783502,
+	"category": "risk_factor",
+	"last_update": 1610241276560,
+	"output": [
+		{
+			"args": {},
+			"calls": 5479,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"on th",
+				"h the",
+				" is p",
+				"y' bet",
+				"s cond",
+				" perma",
+				" how t",
+				"nal in p",
+				"arn to b",
+				" part on"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 147,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"on th",
+				"h the",
+				" is p",
+				"y' bet",
+				"s cond",
+				" perma",
+				" how t",
+				"nal in p",
+				"arn to b",
+				" part on"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+}
