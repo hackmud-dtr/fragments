@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_5ljrei.nfo",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abandoned_5ljrei.nfo",
 	"sector": "K_1908",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1607536719769
+		},
+		{
+			"type": "died",
+			"when": 1610429856357
 		}
 	],
 	"pl_output": "{\"version\":\"1.0.0\",\"scripts\":{\"class\":{\"desc\":\"`DUNSTABLE` A simple OOP framework\",\"args\":[{\"name\":\"namespace\",\"type\":\"string\",\"optional\":true,\"desc\":\"An identifier to organize semantically related classes. Defaults to CTX.calling_script\"}],\"returns\":\"Class function\",\"subscript\":true,\"scriptor\":true,\"cli\":false},\"odm\":{\"desc\":\"`DIN DEVELOPMENT` An Object-Data-Mapping framework built on import.class. Provides object-oriented abstraction of database operations.\",\"returns\":\"A library object containing Schema, Model, and Document classes\",\"subscript\":true,\"scriptor\":true,\"cli\":false},\"nom\":{\"desc\":\"`DIN DEVELOPMENT` Node Object Model is a DOM-inspired \\\"content interface\\\" providing the means to programmatically parse, traverse, modify, and render a tree-like data structure.\",\"returns\":\"A library object containing NOM, Node, Walker, Parser, and Renderer classes\",\"subscript\":true,\"scriptor\":true,\"cli\":false}}}",
 	"next_scrape": 1610516387076,
-	"updt": 1610425215797,
-	"edit": 532
+	"updt": 1610427754491,
+	"edit": 533
 }
