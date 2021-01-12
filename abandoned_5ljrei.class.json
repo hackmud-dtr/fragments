@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_5ljrei.class",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "abandoned_5ljrei.class",
-	"sector": "K_1908",
+	"sector": "K_7088",
 	"sec_level": 4,
 	"date_added": 1607536719769,
-	"last_scraped": 1610428808366,
+	"last_scraped": 1610430018432,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1610429856357
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1610430000658,
+				"from": "K_7088",
+				"to": "K_1908"
+			}
+		]
 	],
 	"pl_output": "{\"caller\":\"farmer_john\",\"calling_script\":null,\"this_script\":\"abandoned_5ljrei.class\",\"is_scriptor\":true,\"cols\":71,\"rows\":58}",
-	"next_scrape": 1610521232905,
-	"updt": 1610428929324,
-	"edit": 530
+	"next_scrape": 1610515544451,
+	"updt": 1610429907529,
+	"edit": 531
 }
