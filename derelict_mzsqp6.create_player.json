@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_mzsqp6.create_player",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "derelict_mzsqp6.create_player",
 	"sector": "VNP_9578",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1601626939266
+		},
+		{
+			"type": "died",
+			"when": 1610590156126
 		}
 	],
-	"updt": 1610015110737,
-	"edit": 32,
+	"updt": 1610015307669,
+	"edit": 33,
 	"scrape_ct": 8,
 	"next_scrape": 1610061215503,
 	"category": "plant_sim",
@@ -84,5 +88,6 @@
 				" for thi"
 			]
 		}
-	]
+	],
+	"dead_plant_sim": true
 }
