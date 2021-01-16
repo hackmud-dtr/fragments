@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_vxw6yr.t1",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "fresh",
 	"script": "unknown_vxw6yr.t1",
-	"sector": "K_9823",
+	"sector": "NGC_4398",
 	"sec_level": 4,
 	"date_added": 1607261129915,
-	"last_scraped": 1610833607747,
+	"last_scraped": 1610834877874,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,65 @@
 		{
 			"type": "died",
 			"when": 1610833917356
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1610834425431,
+				"from": "NGC_4398",
+				"to": "K_9823"
+			}
+		]
 	],
 	"pl_output": "Usage example: optix.t1 {s:[#s.archaic.public, #s.core.public]}",
-	"next_scrape": 1610926923117,
-	"updt": 1610833745318,
-	"edit": 717
+	"next_scrape": 1610834937874,
+	"updt": 1610834528008,
+	"edit": 719,
+	"scrape_ct": 14,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1610834877874,
+	"output": [
+		{
+			"args": {},
+			"calls": 1632682,
+			"base": "Usage example: optix.t1 {s:[#s.archaic.public, #s.core.public]}",
+			"fragments": [
+				"ur si",
+				"a lan",
+				" Wher",
+				"stack?",
+				"On you",
+				"tack?\\n",
+				",\\n20A7 A"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ur si",
+						"a lan",
+						" Wher",
+						"stack?",
+						"On you",
+						"tack?\\n",
+						",\\n20A7 A"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"ur si",
+				"a lan",
+				" Wher",
+				"stack?",
+				"On you",
+				"tack?\\n",
+				",\\n20A7 A"
+			]
+		}
+	]
 }
