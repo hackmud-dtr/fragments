@@ -1,26 +1,26 @@
 {
 	"_id": "unidentified_l6k2gh.drinks",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unidentified_l6k2gh.drinks",
 	"sector": "NGC_4398",
 	"sec_level": 4,
 	"date_added": 1610824764770,
-	"last_scraped": 1610824873290,
+	"last_scraped": 1610824963907,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1610824764770
 		}
 	],
-	"scrape_ct": 17,
-	"next_scrape": 1610824933290,
+	"scrape_ct": 16,
+	"next_scrape": 1610825023907,
 	"category": "fishie_tank",
-	"last_update": 1610824873290,
+	"last_update": 1610825036138,
 	"output": [
 		{
 			"args": {},
-			"calls": 14308,
+			"calls": 29052,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"er com",
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1203,
+			"calls": 6605,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -131,6 +131,13 @@
 				"E cards\\n",
 				" combat\\n"
 			]
+		}
+	],
+	"updt": 1610824950756,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
