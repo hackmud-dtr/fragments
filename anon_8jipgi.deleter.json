@@ -3,18 +3,74 @@
 	"type": "fragment",
 	"mode": "skip",
 	"script": "anon_8jipgi.deleter",
-	"sector": "VNP_3175",
+	"sector": "VNP_0696",
 	"sec_level": 1,
 	"date_added": 1607380463376,
-	"last_scraped": 1610967108604,
+	"last_scraped": 1611155054523,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1607380463376
+		},
+		{
+			"type": "died",
+			"when": 1611154788929
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1611154837538,
+				"from": "VNP_0696",
+				"to": "VNP_3175"
+			}
+		]
+	],
+	"updt": 1611154895991,
+	"edit": 683,
+	"pl_output": "No upgrades present. Reclaim upgrades from other users or purchase them on the market.",
+	"next_scrape": 1611155114523,
+	"scrape_ct": 15,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1611155054523,
+	"output": [
+		{
+			"args": {},
+			"calls": 846,
+			"base": "No upgrades present. Reclaim upgrades from other users or purchase them on the market.",
+			"fragments": [
+				"passph",
+				"noying",
+				"are an",
+				"# pass",
+				"ases ar",
+				"phrases "
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"passph",
+						"noying",
+						"are an",
+						"# pass",
+						"ases ar",
+						"phrases "
+					]
+				}
+			]
 		}
 	],
-	"updt": 1610967063931,
-	"edit": 681,
-	"pl_output": "No upgrades present. Reclaim upgrades from other users or purchase them on the market.",
-	"next_scrape": 1611048643989
+	"identified": [
+		{
+			"document": "Passphrase",
+			"frags": [
+				"passph",
+				"noying",
+				"are an",
+				"# pass",
+				"ases ar",
+				"phrases "
+			]
+		}
+	]
 }
