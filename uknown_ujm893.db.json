@@ -1,0 +1,68 @@
+{
+	"_id": "uknown_ujm893.db",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "uknown_ujm893.db",
+	"sector": "SPC_2557",
+	"sec_level": 4,
+	"date_added": 1611130002961,
+	"last_scraped": 1611130020089,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1611130002961
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1611130080089,
+	"category": "fishie_tank",
+	"last_update": 1611130057579,
+	"output": [
+		{
+			"args": {},
+			"calls": 4010,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"somet",
+				"ows i",
+				"ist_b",
+				"ump_gi",
+				"rs. Ma",
+				"se she ",
+				"ly diff",
+				"imes, e",
+				", e <fi",
+				"etimes, "
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1819,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"somet",
+				"ows i",
+				"ist_b",
+				"ump_gi",
+				"rs. Ma",
+				"se she ",
+				"ly diff",
+				"imes, e",
+				", e <fi",
+				"etimes, "
+			]
+		}
+	]
+}
