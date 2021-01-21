@@ -1,16 +1,32 @@
 {
 	"_id": "unidentified_y7th01.config",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "player",
 	"script": "unidentified_y7th01.config",
-	"sector": "K_1908",
+	"sector": "K_3530",
 	"sec_level": 4,
 	"date_added": 1607536719769,
-	"last_scraped": 0,
+	"last_scraped": 1611265204685,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1607536719769
-		}
-	]
+		},
+		{
+			"type": "died",
+			"when": 1611265150768
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1611265186785,
+				"from": "K_3530",
+				"to": "K_1908"
+			}
+		]
+	],
+	"updt": 1607536805964,
+	"edit": 1,
+	"pl_output": "Unexpected token u in JSON at position 0",
+	"next_scrape": 1611345263408
 }
