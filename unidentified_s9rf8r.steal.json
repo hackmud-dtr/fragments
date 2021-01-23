@@ -1,0 +1,62 @@
+{
+	"_id": "unidentified_s9rf8r.steal",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "unidentified_s9rf8r.steal",
+	"sector": "K_3530",
+	"sec_level": 4,
+	"date_added": 1611397987109,
+	"last_scraped": 1611398022994,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1611397987109
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1611398082994,
+	"category": "fishie_tank",
+	"last_update": 1611398076905,
+	"output": [
+		{
+			"args": {},
+			"calls": 13051,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"a, Ev",
+				"five: ",
+				"e, Che",
+				" conce",
+				"d five:",
+				" Eve, F",
+				"concentr"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3287,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"a, Ev",
+				"five: ",
+				"e, Che",
+				" conce",
+				"d five:",
+				" Eve, F",
+				"concentr"
+			]
+		}
+	]
+}
