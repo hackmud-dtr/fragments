@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_a78j56.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "derelict_a78j56.bot_scam_do_not_run",
 	"sector": "K_3530",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1611294153120
+		},
+		{
+			"type": "died",
+			"when": 1611601008288
 		}
 	],
 	"retry_args": [
@@ -35,6 +39,20 @@
 				"passphra",
 				" reminde",
 				" passphr"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"cess p",
+						"der DEL",
+						"ssphrase",
+						"rase rem",
+						"passphra",
+						" reminde",
+						" passphr"
+					]
+				}
 			]
 		},
 		{
@@ -56,9 +74,37 @@
 				"passphra",
 				" reminde",
 				" passphr"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"cess p",
+						"der DEL",
+						"ssphrase",
+						"rase rem",
+						"passphra",
+						" reminde",
+						" passphr"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1611294284226,
-	"edit": 1
+	"updt": 1611294478854,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "Passphrase",
+			"frags": [
+				"cess p",
+				"der DEL",
+				"ssphrase",
+				"rase rem",
+				"passphra",
+				" reminde",
+				" passphr"
+			]
+		}
+	]
 }
