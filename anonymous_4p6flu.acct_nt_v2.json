@@ -1,9 +1,9 @@
 {
 	"_id": "anonymous_4p6flu.acct_nt_v2",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "new",
 	"script": "anonymous_4p6flu.acct_nt_v2",
-	"sector": "SPC_9883",
+	"sector": "SPC_6015",
 	"sec_level": 3,
 	"date_added": 1608992279426,
 	"last_scraped": 0,
@@ -11,8 +11,20 @@
 		{
 			"type": "added",
 			"when": 1608992279426
-		}
+		},
+		{
+			"type": "died",
+			"when": 1611630035196
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1611630195067,
+				"from": "SPC_6015",
+				"to": "SPC_9883"
+			}
+		]
 	],
-	"updt": 1609673041922,
-	"edit": 5
+	"updt": 1611630108506,
+	"edit": 7
 }
