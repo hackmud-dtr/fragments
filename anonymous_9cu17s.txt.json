@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_9cu17s.txt",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "anonymous_9cu17s.txt",
 	"sector": "HJG_0116",
 	"sec_level": 4,
@@ -11,14 +11,18 @@
 		{
 			"type": "added",
 			"when": 1608704504289
+		},
+		{
+			"type": "died",
+			"when": 1611662160571
 		}
 	],
-	"updt": 1609676558547,
-	"edit": 9,
+	"updt": 1609925180829,
+	"edit": 10,
 	"scrape_ct": 6,
 	"next_scrape": 1609720531509,
 	"category": "fishie_tank",
-	"last_update": 1609924769488,
+	"last_update": 1609924822148,
 	"output": [
 		{
 			"args": {},
@@ -54,7 +58,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 16818,
+			"calls": 20467,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
