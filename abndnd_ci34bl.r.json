@@ -1,27 +1,22 @@
 {
 	"_id": "abndnd_ci34bl.r",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abndnd_ci34bl.r",
 	"sector": "K_3525",
 	"sec_level": 4,
 	"date_added": 1611839783960,
-	"last_scraped": 1611839802858,
+	"last_scraped": 1611839893211,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1611839783960
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1611839862858,
+	"scrape_ct": 18,
+	"next_scrape": 1611839953211,
 	"category": "fishie_tank",
-	"last_update": 1611839840109,
+	"last_update": 1611839893211,
 	"output": [
 		{
 			"args": {},
@@ -42,7 +37,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 748,
+			"calls": 2029,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -59,6 +54,25 @@
 				"o wait f",
 				"lenges w"
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 17468,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ine. ",
+				"fine.",
+				"market",
+				"liver ",
+				"it for",
+				"t we ha",
+				"o wait f",
+				"lenges w"
+			]
 		}
-	]
+	],
+	"updt": 1611839847051,
+	"edit": 1
 }
