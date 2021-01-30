@@ -1,20 +1,79 @@
 {
 	"_id": "abndnd_441eoa.parade",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "abndnd_441eoa.parade",
-	"sector": "VNP_5564",
+	"sector": "NGC_9996",
 	"sec_level": 4,
 	"date_added": 1607538894749,
-	"last_scraped": 1611989406125,
+	"last_scraped": 1611991054968,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1607538894749
-		}
+		},
+		{
+			"type": "died",
+			"when": 1611990693569
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1611990892830,
+				"from": "NGC_9996",
+				"to": "VNP_5564"
+			}
+		]
 	],
 	"pl_output": "You approach the town of Vaclenia. The cold air bites at your extremities, undermanaged by your heat distribution subsystem. Out in the streets, a merry band of vacs vrrrr about the place, unimpeded by the nippy temperature.\n\nOne vac approaches you and `Nsay`s:\n'so r u coming to see the parade?'\nYou inform him of the better parade taking place at bigbot.ia\n'i dont care tho'",
-	"next_scrape": 1612081444850,
-	"updt": 1611987617257,
-	"edit": 1308
+	"next_scrape": 1611991114968,
+	"updt": 1611990941048,
+	"edit": 1311,
+	"scrape_ct": 16,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1611991054968,
+	"output": [
+		{
+			"args": {},
+			"calls": 376992,
+			"base": "You approach the town of Vaclenia. The cold air bites at your extremities, undermanaged by your heat distribution subsystem. Out in the streets, a merry band of vacs vrrrr about the place, unimpeded by the nippy temperature.\n\nOne vac approaches you and `Nsay`s:\n'so r u coming to see the parade?'\nYou inform him of the better parade taking place at bigbot.ia\n'i dont care tho'",
+			"fragments": [
+				"ime. ",
+				"e pla",
+				"ays i",
+				"ng bri",
+				"eep buil",
+				"as alway",
+				" buildin"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"ime. ",
+						"e pla",
+						"ays i",
+						"ng bri",
+						"eep buil",
+						"as alway",
+						" buildin"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
+				"ime. ",
+				"e pla",
+				"ays i",
+				"ng bri",
+				"eep buil",
+				"as alway",
+				" buildin"
+			]
+		}
+	]
 }
