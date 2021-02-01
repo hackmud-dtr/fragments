@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_dsukzj.sys_expose_upgrades",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "abandoned_dsukzj.sys_expose_upgrades",
 	"sector": "K_7354",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1609362348991
+		},
+		{
+			"type": "died",
+			"when": 1612148511062
 		}
 	],
-	"updt": 1609709787536,
-	"edit": 7,
+	"updt": 1609972300486,
+	"edit": 8,
 	"scrape_ct": 16,
 	"next_scrape": 1610014742277,
 	"category": "plant_sim",
@@ -110,5 +114,6 @@
 				" of a ma"
 			]
 		}
-	]
+	],
+	"dead_plant_sim": true
 }
