@@ -1,28 +1,28 @@
 {
 	"_id": "unknown_nm21h3.uninstall",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "unknown_nm21h3.uninstall",
 	"sector": "HJG_9724",
 	"sec_level": 4,
 	"date_added": 1612205157073,
-	"last_scraped": 1612205355720,
+	"last_scraped": 1612205375000,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1612205157073
 		}
 	],
-	"updt": 1612205168748,
-	"edit": 1,
-	"scrape_ct": 16,
-	"next_scrape": 1612205415720,
+	"updt": 1612205363528,
+	"edit": 2,
+	"scrape_ct": 15,
+	"next_scrape": 1612205435000,
 	"category": "fishie_tank",
-	"last_update": 1612205355720,
+	"last_update": 1612205392810,
 	"output": [
 		{
 			"args": {},
-			"calls": 27422,
+			"calls": 40369,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"OG ER",
@@ -52,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2995,
+			"calls": 3971,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -129,9 +129,6 @@
 		}
 	],
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
