@@ -97,8 +97,8 @@
 			"when": 1609908294705
 		}
 	],
-	"updt": 1609658782592,
-	"edit": 19,
+	"updt": 1609909847662,
+	"edit": 20,
 	"scrape_ct": 13,
 	"next_scrape": 1584573974748,
 	"category": "fishie_tank",
@@ -192,6 +192,14 @@
 			]
 		}
 	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
 	"identified": [
 		{
 			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
@@ -199,18 +207,10 @@
 				"MFT0X",
 				"R | PR",
 				"PROG E",
-				"_CLST0XF",
 				"LE0XBBE2",
+				"_CLST0XF",
 				"FC\\nSYST "
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }

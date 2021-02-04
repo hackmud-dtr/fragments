@@ -109,11 +109,32 @@
 				": Index ",
 				" process",
 				" Index p"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"bhand",
+						"handar",
+						"andari ",
+						" SUBJ: ",
+						"dex proc",
+						"ari | SU",
+						": Index ",
+						" process",
+						" Index p"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1609997714954,
-	"edit": 5,
+	"updt": 1612255194146,
+	"edit": 6,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
 	"identified": [
 		{
 			"document": "Passphrase",
@@ -128,11 +149,6 @@
 				" process",
 				" Index p"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }

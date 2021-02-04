@@ -97,8 +97,8 @@
 			"when": 1609908294705
 		}
 	],
-	"updt": 1609662104510,
-	"edit": 21,
+	"updt": 1609909868515,
+	"edit": 22,
 	"scrape_ct": 6,
 	"next_scrape": 1589254871645,
 	"category": "fishie_tank",
@@ -204,6 +204,14 @@
 			]
 		}
 	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
 	"identified": [
 		{
 			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
@@ -217,14 +225,6 @@
 				"ETW ERRO",
 				"6B85\\nSY"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
