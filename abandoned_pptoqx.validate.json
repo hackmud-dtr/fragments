@@ -17,8 +17,8 @@
 			"when": 1612405416184
 		}
 	],
-	"updt": 1612380854415,
-	"edit": 3,
+	"updt": 1612405475790,
+	"edit": 4,
 	"scrape_ct": 13,
 	"next_scrape": 1612380860811,
 	"category": "fishie_tank",
@@ -124,6 +124,14 @@
 			]
 		}
 	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
 	"identified": [
 		{
 			"document": "MFT0X82_CLST0X69_SECT0X885F_FILE0X8C8517B2",
@@ -137,14 +145,6 @@
 				"on_png] ",
 				"_icon_pn"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
