@@ -1,20 +1,101 @@
 {
 	"_id": "derelict_q1hb0j.deleter",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "derelict_q1hb0j.deleter",
-	"sector": "VNP_0696",
+	"sector": "HJG_0601",
 	"sec_level": 1,
 	"date_added": 1609581022130,
-	"last_scraped": 1612509550127,
+	"last_scraped": 1612619572691,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1609581022130
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1612619427205,
+				"from": "HJG_0601",
+				"to": "VNP_0696"
+			}
+		]
 	],
 	"pl_output": "Usage : manidsr.itemseller{from:0,to:1}",
-	"next_scrape": 1612592129915,
-	"updt": 1612508080826,
-	"edit": 1000
+	"next_scrape": 1612619632691,
+	"updt": 1612509644123,
+	"edit": 1001,
+	"scrape_ct": 18,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1612619572691,
+	"output": [
+		{
+			"args": {},
+			"calls": 814494,
+			"base": "Usage : manidsr.itemseller{from:0,to:1}",
+			"fragments": [
+				"ing h",
+				"al in",
+				"s ensu",
+				"ical i",
+				"elopmen",
+				"atedly ",
+				"art mod",
+				" of sma",
+				"evelopme"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"s ensu",
+						"ical i",
+						"elopmen",
+						"atedly ",
+						"art mod",
+						" of sma",
+						"evelopme"
+					]
+				},
+				{
+					"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
+					"frags": [
+						"ing h"
+					]
+				},
+				{
+					"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+					"frags": [
+						"al in"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"s ensu",
+				"ical i",
+				"elopmen",
+				"atedly ",
+				"art mod",
+				" of sma",
+				"evelopme"
+			]
+		},
+		{
+			"document": "MFT0X3F_CLST0XD0_SECT0X04CF_FILE0X7ED7C93F",
+			"frags": [
+				"ing h"
+			]
+		},
+		{
+			"document": "MFT0XF1_CLST0X75_SECT0X73F7_FILE0X9CB5E952",
+			"frags": [
+				"al in"
+			]
+		}
+	]
 }
