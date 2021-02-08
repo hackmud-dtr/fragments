@@ -1,26 +1,26 @@
 {
 	"_id": "derelict_vosbrb.lz",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "derelict_vosbrb.lz",
 	"sector": "K_0692",
 	"sec_level": 4,
 	"date_added": 1612775367481,
-	"last_scraped": 1612775621463,
+	"last_scraped": 1612775711797,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1612775367481
 		}
 	],
-	"scrape_ct": 14,
-	"next_scrape": 1612775681463,
+	"scrape_ct": 13,
+	"next_scrape": 1612775771797,
 	"category": "fishie_tank",
-	"last_update": 1612775621463,
+	"last_update": 1612775785376,
 	"output": [
 		{
 			"args": {},
-			"calls": 41146,
+			"calls": 49634,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ng The",
@@ -175,7 +175,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2578,
+			"calls": 7345,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -348,6 +348,11 @@
 			]
 		}
 	],
-	"updt": 1612775437514,
-	"edit": 1
+	"updt": 1612775633074,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
