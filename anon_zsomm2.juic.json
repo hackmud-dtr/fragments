@@ -1,0 +1,76 @@
+{
+	"_id": "anon_zsomm2.juic",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anon_zsomm2.juic",
+	"sector": "HJG_3671",
+	"sec_level": 4,
+	"date_added": 1612909587436,
+	"last_scraped": 1612909679475,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1612909587436
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1612909739475,
+	"category": "fishie_tank",
+	"last_update": 1612909679475,
+	"output": [
+		{
+			"args": {},
+			"calls": 14626,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"to fe",
+				"king ",
+				"f wre",
+				"g just",
+				"talgic ",
+				"ngry ins",
+				"ing - an",
+				"as much "
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 2954,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"to fe",
+				"king ",
+				"f wre",
+				"g just",
+				"talgic ",
+				"ngry ins",
+				"ing - an",
+				"as much "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 5087,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"to fe",
+				"king ",
+				"f wre",
+				"g just",
+				"talgic ",
+				"ngry ins",
+				"ing - an",
+				"as much "
+			]
+		}
+	]
+}
