@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_nfroj6.any",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unidentified_nfroj6.any",
 	"sector": "K_7538",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1612633111447
+		},
+		{
+			"type": "died",
+			"when": 1612875281838
 		}
 	],
-	"updt": 1612633166411,
-	"edit": 1,
+	"updt": 1612633362755,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -63,5 +67,6 @@
 				" USER mh"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
