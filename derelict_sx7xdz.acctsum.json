@@ -1,20 +1,82 @@
 {
 	"_id": "derelict_sx7xdz.acctsum",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "fresh",
 	"script": "derelict_sx7xdz.acctsum",
-	"sector": "SPC_9883",
+	"sector": "SPC_6015",
 	"sec_level": 3,
 	"date_added": 1609211336343,
-	"last_scraped": 1612840823042,
+	"last_scraped": 1612842473074,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1609211336343
-		}
+		},
+		{
+			"type": "died",
+			"when": 1612841678812
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1612841911504,
+				"from": "SPC_6015",
+				"to": "SPC_9883"
+			}
+		]
 	],
 	"pl_output": "include str:<the string with the between timestamps, eg \"190121.1422 and 190221.1452\">",
-	"next_scrape": 1612920972274,
-	"updt": 1612839147450,
-	"edit": 1257
+	"next_scrape": 1612842533074,
+	"updt": 1612842276875,
+	"edit": 1261,
+	"scrape_ct": 11,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1612842455608,
+	"output": [
+		{
+			"args": {},
+			"calls": 2086773,
+			"base": "include str:<the string with the between timestamps, eg \"190121.1422 and 190221.1452\">",
+			"fragments": [
+				"T0XF2",
+				"MFT0X",
+				"0X7A_S",
+				"E16 Oka",
+				"\\nAD031",
+				"X2BC7D17",
+				"6 Okay, ",
+				"227_FILE"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"T0XF2",
+						"MFT0X",
+						"0X7A_S",
+						"E16 Oka",
+						"\\nAD031",
+						"X2BC7D17",
+						"6 Okay, ",
+						"227_FILE"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"T0XF2",
+				"MFT0X",
+				"0X7A_S",
+				"E16 Oka",
+				"\\nAD031",
+				"X2BC7D17",
+				"6 Okay, ",
+				"227_FILE"
+			]
+		}
+	]
 }
