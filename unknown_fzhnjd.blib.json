@@ -1,0 +1,103 @@
+{
+	"_id": "unknown_fzhnjd.blib",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "unknown_fzhnjd.blib",
+	"sector": "SPC_9191",
+	"sec_level": 4,
+	"date_added": 1612844344731,
+	"last_scraped": 1612844526965,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1612844344731
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1612844586965,
+	"category": "fishie_tank",
+	"last_update": 1612844599427,
+	"output": [
+		{
+			"args": {},
+			"calls": 15195,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				", whe",
+				"tened s",
+				"n-year.",
+				"mains s",
+				"afe year",
+				" in exce"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						", whe",
+						"tened s",
+						"n-year.",
+						"mains s",
+						"afe year",
+						" in exce"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 6573,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				", whe",
+				"tened s",
+				"n-year.",
+				"mains s",
+				"afe year",
+				" in exce"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 12046,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				", whe",
+				"tened s",
+				"n-year.",
+				"mains s",
+				"afe year",
+				" in exce"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				", whe",
+				"tened s",
+				"n-year.",
+				"mains s",
+				"afe year",
+				" in exce"
+			]
+		}
+	],
+	"updt": 1612844427296,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
+}
