@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_cxleuz.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "uknown_cxleuz.db",
 	"sector": "K_7814",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1609992491948
+		},
+		{
+			"type": "died",
+			"when": 1613047974284
 		}
 	],
-	"updt": 1609992632054,
-	"edit": 1,
+	"updt": 1609992828825,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -57,5 +61,6 @@
 				" AI that"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
