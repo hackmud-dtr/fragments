@@ -1,0 +1,106 @@
+{
+	"_id": "abndnd_znksn1.bot_scam_do_not_run",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abndnd_znksn1.bot_scam_do_not_run",
+	"sector": "VNP_6634",
+	"sec_level": 4,
+	"date_added": 1613050584529,
+	"last_scraped": 1613050802306,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1613050584529
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1613050862306,
+	"category": "fishie_tank",
+	"last_update": 1613050802306,
+	"output": [
+		{
+			"args": {},
+			"calls": 18468,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ry'\",",
+				"It Fin",
+				" 'Mallo",
+				"X3FC75EC",
+				"Week Lat",
+				"C6\\n{\"da"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"ry'\",",
+						"It Fin",
+						"X3FC75EC",
+						"Week Lat",
+						"C6\\n{\"da"
+					]
+				},
+				{
+					"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+					"frags": [
+						" 'Mallo"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3135,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ry'\",",
+				"It Fin",
+				" 'Mallo",
+				"X3FC75EC",
+				"Week Lat",
+				"C6\\n{\"da"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 29408,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ry'\",",
+				"It Fin",
+				" 'Mallo",
+				"X3FC75EC",
+				"Week Lat",
+				"C6\\n{\"da"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"ry'\",",
+				"It Fin",
+				"X3FC75EC",
+				"Week Lat",
+				"C6\\n{\"da"
+			]
+		},
+		{
+			"document": "MFT0X00_CLST0XF3_SECT0X756A_FILE0XBBE270FC",
+			"frags": [
+				" 'Mallo"
+			]
+		}
+	]
+}
