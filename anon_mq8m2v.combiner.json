@@ -1,9 +1,9 @@
 {
 	"_id": "anon_mq8m2v.combiner",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "timeout",
 	"script": "anon_mq8m2v.combiner",
-	"sector": "HJG_5243",
+	"sector": "K_9004",
 	"sec_level": 4,
 	"date_added": 1609702504341,
 	"last_scraped": 0,
@@ -15,8 +15,16 @@
 		{
 			"type": "died",
 			"when": 1613249485134
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1613250213145,
+				"from": "K_9004",
+				"to": "HJG_5243"
+			}
+		]
 	],
-	"updt": 1609940421756,
-	"edit": 4
+	"updt": 1613249592123,
+	"edit": 5
 }
