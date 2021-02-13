@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_g5o60g.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "timeout",
 	"script": "derelict_g5o60g.db",
 	"sector": "K_9004",
 	"sec_level": 4,
 	"date_added": 1613251866921,
-	"last_scraped": 1613251920910,
+	"last_scraped": 1613251975096,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1613251980910,
+	"scrape_ct": 18,
+	"next_scrape": 1613341150796,
 	"category": "risk_factor",
-	"last_update": 1613251920910,
+	"last_update": 1613251975096,
 	"output": [
 		{
 			"args": {},
@@ -39,6 +36,24 @@
 				"mation o",
 				"ey come "
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 244,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"te, if",
+				"ome fr",
+				"l make",
+				" archi",
+				", if we",
+				"mation o",
+				"ey come "
+			]
 		}
-	]
+	],
+	"updt": 1613251936736,
+	"edit": 1
 }
