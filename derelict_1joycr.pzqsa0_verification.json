@@ -1,0 +1,88 @@
+{
+	"_id": "derelict_1joycr.pzqsa0_verification",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "derelict_1joycr.pzqsa0_verification",
+	"sector": "NGC_8947",
+	"sec_level": 4,
+	"date_added": 1613466100366,
+	"last_scraped": 1613466173325,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1613466100366
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1613466233325,
+	"category": "fishie_tank",
+	"last_update": 1613466190005,
+	"output": [
+		{
+			"args": {},
+			"calls": 30437,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ty to",
+				"to pu",
+				"his i",
+				". Thi",
+				"t's only",
+				"It's onl"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"ty to",
+						"to pu",
+						"his i",
+						". Thi",
+						"t's only",
+						"It's onl"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1352,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ty to",
+				"to pu",
+				"his i",
+				". Thi",
+				"t's only",
+				"It's onl"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"ty to",
+				"to pu",
+				"his i",
+				". Thi",
+				"t's only",
+				"It's onl"
+			]
+		}
+	],
+	"updt": 1613466134791,
+	"edit": 1
+}
