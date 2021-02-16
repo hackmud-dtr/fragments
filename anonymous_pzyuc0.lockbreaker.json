@@ -1,26 +1,26 @@
 {
 	"_id": "anonymous_pzyuc0.lockbreaker",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anonymous_pzyuc0.lockbreaker",
 	"sector": "NGC_8947",
 	"sec_level": 4,
 	"date_added": 1613464454139,
-	"last_scraped": 1613464561992,
+	"last_scraped": 1613465050906,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1613464454139
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1613464621992,
+	"scrape_ct": 9,
+	"next_scrape": 1613465110906,
 	"category": "fishie_tank",
-	"last_update": 1613464561992,
+	"last_update": 1613465050906,
 	"output": [
 		{
 			"args": {},
-			"calls": 4173,
+			"calls": 29906,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"y. Ma",
@@ -48,7 +48,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3962,
+			"calls": 7332,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -68,7 +68,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 10247,
+			"calls": 71385,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"y. Ma",
@@ -92,5 +92,7 @@
 				"ural val"
 			]
 		}
-	]
+	],
+	"updt": 1613464962201,
+	"edit": 3
 }
