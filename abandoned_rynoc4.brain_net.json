@@ -1,55 +1,66 @@
 {
 	"_id": "abandoned_rynoc4.brain_net",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abandoned_rynoc4.brain_net",
 	"sector": "K_9004",
 	"sec_level": 4,
 	"date_added": 1613442088257,
-	"last_scraped": 1613443264412,
+	"last_scraped": 1613443789658,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1613442088257
+		},
+		{
+			"type": "died",
+			"when": 1613443789658
+		},
+		{
+			"type": "died",
+			"when": 1613443975244
 		}
 	],
-	"updt": 1613443081086,
-	"edit": 6,
-	"scrape_ct": 6,
-	"next_scrape": 1613443324412,
+	"updt": 1613443861915,
+	"edit": 10,
+	"scrape_ct": 0,
+	"next_scrape": 1613526366807,
 	"category": "dice_roller",
-	"last_update": 1613443264412,
+	"last_update": 1613443680617,
 	"output": [
 		{
 			"args": {},
-			"calls": 149674,
+			"calls": 193368,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
-				"ST ER",
-				"T0XB1F",
-				"XB1F1_F",
+				"0X93_C",
+				"_FILE0",
 				"MFT0X93",
 				"FILE0X1",
 				"E0X1785",
-				"B1F1_FI",
-				"0XB1F1_",
 				"_CLST0X",
+				"XB1F1_FI",
 				"X17858BD",
 				"X0B_SECT",
+				"T0XB1F1_",
 				"T0X0B_SE",
+				"ST0X0B_S",
 				"SECT0XB1",
 				"ILE0X178",
+				"CT0XB1F1",
 				"CLST0X0B",
 				"B_SECT0X",
 				"93_CLST0",
 				"8BD3\\nSY",
 				"1F1_FILE",
 				"0X17858B",
+				"0X0B_SEC",
 				"0B_SECT0",
-				"\\nSYST E",
 				"_SECT0XB",
 				"D3\\nSYST ",
-				"858BD3\\nS"
+				"BD3\\nSYST",
+				"858BD3\\nS",
+				"\\nSYST ER"
 			],
 			"hits": [
 				{
@@ -98,5 +109,6 @@
 				"D3\\nSYST "
 			]
 		}
-	]
+	],
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abandoned_rynoc4.brain_net: script doesn't exist\"}"
 }
