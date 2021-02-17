@@ -1,19 +1,27 @@
 {
 	"_id": "unknown_ev1p4k._",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "unknown_ev1p4k._",
 	"sector": "NGC_8947",
 	"sec_level": 4,
 	"date_added": 1613574878759,
-	"last_scraped": 1613592218909,
+	"last_scraped": 1613593832208,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1613574878759
+		},
+		{
+			"type": "died",
+			"when": 1613593832208
+		},
+		{
+			"type": "died",
+			"when": 1613593942089
 		}
 	],
-	"next_scrape": 1613632652444,
+	"next_scrape": 1613684993184,
 	"category": "plant_sim",
 	"last_update": 1613592218909,
 	"output": [
@@ -90,6 +98,8 @@
 			]
 		}
 	],
-	"updt": 1613590808687,
-	"edit": 18
+	"updt": 1613593931873,
+	"edit": 20,
+	"dead_plant_sim": true,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_ev1p4k._: script doesn't exist\"}"
 }
