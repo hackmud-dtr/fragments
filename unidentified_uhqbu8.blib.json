@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_uhqbu8.blib",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unidentified_uhqbu8.blib",
 	"sector": "K_7088",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1610436834593
+		},
+		{
+			"type": "died",
+			"when": 1613549328583
 		}
 	],
 	"scrape_ct": 16,
@@ -761,11 +765,12 @@
 			]
 		}
 	],
-	"updt": 1610436943349,
-	"edit": 1,
+	"updt": 1610437335393,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"cannot_identify": true
 }
