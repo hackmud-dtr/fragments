@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_bmoi18.acct_nt",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "unknown_bmoi18.acct_nt",
-	"sector": "SPC_9883",
+	"sector": "HJG_8678",
 	"sec_level": 3,
 	"date_added": 1609703829030,
-	"last_scraped": 1610479454216,
+	"last_scraped": 1613594756658,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1613594121658
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1613594738399,
+				"from": "HJG_8678",
+				"to": "SPC_9883"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false}",
-	"next_scrape": 1610559301162,
-	"updt": 1610479564489,
-	"edit": 202
+	"next_scrape": 1613679049994,
+	"updt": 1613594126276,
+	"edit": 203
 }
