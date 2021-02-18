@@ -1,0 +1,111 @@
+{
+	"_id": "derelict_pqlvgz.blib",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "derelict_pqlvgz.blib",
+	"sector": "VNP_7774",
+	"sec_level": 4,
+	"date_added": 1613663374119,
+	"last_scraped": 1613663860370,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1613663374119
+		}
+	],
+	"scrape_ct": 11,
+	"next_scrape": 1613663920370,
+	"category": "fishie_tank",
+	"last_update": 1613663860370,
+	"output": [
+		{
+			"args": {},
+			"calls": 52027,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ritie",
+				"loopi",
+				"iorit",
+				"s (aga",
+				"ities ",
+				"ies (ag",
+				"n, sorry"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"ritie",
+						"loopi",
+						"iorit",
+						"s (aga",
+						"ities ",
+						"ies (ag",
+						"n, sorry"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 6569,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ritie",
+				"loopi",
+				"iorit",
+				"s (aga",
+				"ities ",
+				"ies (ag",
+				"n, sorry"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 55122,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ritie",
+				"loopi",
+				"iorit",
+				"s (aga",
+				"ities ",
+				"ies (ag",
+				"n, sorry"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+			"frags": [
+				"ritie",
+				"loopi",
+				"iorit",
+				"s (aga",
+				"ities ",
+				"ies (ag",
+				"n, sorry"
+			]
+		}
+	],
+	"updt": 1613663673490,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
