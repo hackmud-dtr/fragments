@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_l63rse.p_hg3bda",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "uknown_l63rse.p_hg3bda",
-	"sector": "K_7932",
+	"sector": "HJG_0601",
 	"sec_level": 1,
 	"date_added": 1608080803031,
-	"last_scraped": 1611977808996,
+	"last_scraped": 1613748537210,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1613748286170
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1613748518892,
+				"from": "HJG_0601",
+				"to": "K_7932"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\":::TRUST COMMUNICATION::: hardline required - activate with kernel.hardline\"}",
-	"next_scrape": 1612071034836,
-	"updt": 1611977849145,
-	"edit": 1156
+	"next_scrape": 1613837872699,
+	"updt": 1613748315457,
+	"edit": 1157
 }
