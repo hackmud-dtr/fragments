@@ -3,18 +3,26 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "uknown_l63rse.nfo",
-	"sector": "HJG_3792",
+	"sector": "VNP_5798",
 	"sec_level": 4,
 	"date_added": 1608080803031,
-	"last_scraped": 1612946536049,
+	"last_scraped": 1613748448019,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1608080803031
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1613748409698,
+				"from": "VNP_5798",
+				"to": "HJG_3792"
+			}
+		]
 	],
 	"pl_output": "{\"version\":\"1.0.0\",\"scripts\":{\"math\":{\"usage\":\"{ e: \\\"expression\\\", env: {x: 4} }\",\"desc\":\"Fairly simple math expression parser, check dtr.man{page:\\\"dapper.math\\\"} for more info\",\"args\":[{\"name\":\"e\",\"type\":\"string\",\"optional\":false,\"desc\":\"expression to be parsed\"},{\"name\":\"env\",\"type\":\"object\",\"optional\":true,\"desc\":\"key:value pairs of external variables to inject\"}],\"returns\":\"ok object if called from scriptor, otherwise string\",\"subscript\":true,\"scriptor\":true,\"cli\":true}}}",
-	"next_scrape": 1613031718613,
-	"updt": 1612945293652,
-	"edit": 1597
+	"next_scrape": 1613835832773,
+	"updt": 1612946661003,
+	"edit": 1598
 }
