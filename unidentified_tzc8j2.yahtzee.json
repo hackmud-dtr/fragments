@@ -6,38 +6,48 @@
 	"sector": "VNP_9161",
 	"sec_level": 4,
 	"date_added": 1613846314576,
-	"last_scraped": 1613846985479,
+	"last_scraped": 1613847819843,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1613846314576
 		}
 	],
-	"updt": 1613846661983,
-	"edit": 2,
-	"scrape_ct": 15,
-	"next_scrape": 1613847045479,
+	"updt": 1613847637120,
+	"edit": 5,
+	"scrape_ct": 8,
+	"next_scrape": 1613847879843,
 	"category": "fishie_tank",
-	"last_update": 1613846985479,
+	"last_update": 1613847819843,
 	"output": [
 		{
 			"args": {},
-			"calls": 20006,
+			"calls": 52034,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"ty of",
-				"he sy",
-				"e sys",
+				"o. ##",
 				" for ",
+				"stem #",
 				"s she ",
-				"o the ",
-				"he sec",
 				" ## is",
+				"ty of t",
+				"m ## We",
+				"he secu",
 				"for the",
 				"em ## W",
+				"e syste",
+				"Well, no",
+				"urity of",
+				"to the s",
+				"the syst",
 				"she a th",
+				"reat to ",
 				"r the se",
+				"of the s",
+				"ecurity ",
+				"curity o",
 				"a threat",
+				"## is sh",
 				" she a t"
 			],
 			"hits": [
@@ -66,7 +76,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3518,
+			"calls": 6684,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -74,16 +84,20 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"ty of",
 				"he sy",
-				"e sys",
 				" for ",
+				"stem #",
 				"s she ",
 				"o the ",
-				"he sec",
+				" is sh",
 				" ## is",
+				"ty of t",
+				"he secu",
 				"for the",
 				"em ## W",
+				"e syste",
+				"Well, no",
+				"urity of",
 				"she a th",
 				"r the se",
 				"a threat",
@@ -94,19 +108,23 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 18692,
+			"calls": 42083,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"ty of",
 				"he sy",
-				"e sys",
 				" for ",
+				"stem #",
 				"s she ",
 				"o the ",
-				"he sec",
+				" is sh",
 				" ## is",
+				"ty of t",
+				"he secu",
 				"for the",
 				"em ## W",
+				"e syste",
+				"Well, no",
+				"urity of",
 				"she a th",
 				"r the se",
 				"a threat",
@@ -133,6 +151,14 @@
 				"a threat",
 				" she a t"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

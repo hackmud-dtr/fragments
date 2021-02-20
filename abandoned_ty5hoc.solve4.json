@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_ty5hoc.solve4",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abandoned_ty5hoc.solve4",
 	"sector": "SPC_8173",
 	"sec_level": 0,
@@ -19,10 +19,14 @@
 				"from": "SPC_8173",
 				"to": "K_7911"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1613847244363
+		}
 	],
 	"pl_output": "lib.oo.ify is not a function",
 	"next_scrape": 1612323375189,
-	"updt": 1612235260733,
-	"edit": 2164
+	"updt": 1612237017555,
+	"edit": 2165
 }

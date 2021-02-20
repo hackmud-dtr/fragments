@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_6lz7pm.access",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_6lz7pm.access",
 	"sector": "SPC_9007",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "SPC_9007",
 				"to": "K_9825"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1613847695761
+		}
 	],
 	"pl_output": "{\"ok\":false}",
 	"next_scrape": 1611294001701,
-	"updt": 1611201229219,
-	"edit": 4698
+	"updt": 1611204745254,
+	"edit": 4699
 }

@@ -1,51 +1,63 @@
 {
 	"_id": "abndnd_zpyv75.dist",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "abndnd_zpyv75.dist",
 	"sector": "VNP_9161",
 	"sec_level": 4,
 	"date_added": 1613846314576,
-	"last_scraped": 1613846658592,
+	"last_scraped": 1613847584606,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1613846314576
+		},
+		{
+			"type": "died",
+			"when": 1613847584606
+		},
+		{
+			"type": "died",
+			"when": 1613847675546
 		}
 	],
-	"scrape_ct": 17,
-	"next_scrape": 1613846718592,
+	"scrape_ct": 12,
+	"next_scrape": 1613936310330,
 	"category": "coin_flipper",
-	"last_update": 1613846658592,
+	"last_update": 1613847258413,
 	"output": [
 		{
 			"args": {},
-			"calls": 32731,
+			"calls": 74530,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"threat",
-				"at to ",
 				"## Wel",
 				"# is s",
 				"urity o",
+				"the sys",
 				"r the s",
 				"or the ",
 				"l, no. ",
 				"em ## W",
 				"ecurity",
 				"curity ",
+				"at to t",
 				"# Well,",
-				" the se",
 				" of the",
 				" for th",
+				"ystem ##",
 				"Well, no",
 				"to the s",
 				"the secu",
+				"t to the",
 				"stem ## ",
 				"she a th",
 				"rity of ",
 				"o. ## is",
 				"hreat to",
+				"f the sy",
+				" the sec",
 				" system "
 			],
 			"hits": [
@@ -100,6 +112,7 @@
 			]
 		}
 	],
-	"updt": 1613846466336,
-	"edit": 1
+	"updt": 1613847637120,
+	"edit": 5,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR abndnd_zpyv75.dist: script doesn't exist\"}"
 }
