@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_t2cvi9.pvpers",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unidentified_t2cvi9.pvpers",
 	"sector": "NGC_4398",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1610864620618
+		},
+		{
+			"type": "died",
+			"when": 1613849362406
 		}
 	],
-	"updt": 1610864633929,
-	"edit": 1,
+	"updt": 1610864830406,
+	"edit": 2,
 	"scrape_ct": 16,
 	"next_scrape": 1610864770262,
 	"category": "risk_factor",
@@ -934,5 +938,6 @@
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"cannot_identify": true
 }
