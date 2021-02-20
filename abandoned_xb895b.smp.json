@@ -3,18 +3,26 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "abandoned_xb895b.smp",
-	"sector": "NGC_0272",
+	"sector": "SPC_6724",
 	"sec_level": 2,
 	"date_added": 1610135264690,
-	"last_scraped": 1613795980285,
+	"last_scraped": 1613796973790,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1610135264690
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1613796557626,
+				"from": "SPC_6724",
+				"to": "NGC_0272"
+			}
+		]
 	],
-	"updt": 1613794853319,
-	"edit": 1739,
+	"updt": 1613796610902,
+	"edit": 1741,
 	"pl_output": "{\"ok\":false,\"msg\":\"Specify action - `Ncheck`, `Ninspect`, `Nkeys`, `Nprobe`, `Nrun`, `Ntree`\"}",
-	"next_scrape": 1613878874150
+	"next_scrape": 1613888302238
 }

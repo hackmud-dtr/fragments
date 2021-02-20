@@ -1,20 +1,28 @@
 {
 	"_id": "abandoned_xb895b.imp",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "abandoned_xb895b.imp",
-	"sector": "VNP_0696",
+	"sector": "HJG_0601",
 	"sec_level": 1,
 	"date_added": 1610135049635,
-	"last_scraped": 1610155216060,
+	"last_scraped": 1613796758433,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1610135049635
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1613796684644,
+				"from": "HJG_0601",
+				"to": "VNP_0696"
+			}
+		]
 	],
-	"pl_output": "TypeError: Cannot read property 'trim' of undefined - 220mms\n    p                                       (<anonymous>:23377:48)             \n                                            <anonymous>:23378:32               \n    `CObject`​.​`Ldisplay                          `(<anonymous>:23384:14)             \n    `LSC`$`Labandoned_xb895b`$`Limp`                 (<anonymous>:23443:17)             \n    call                                    (<anonymous>:24433:71)             \n    Object.SC$lore$scrape_fragments.args.t.c(<anonymous>:10516:12)             \n    extractBase                             (<anonymous>:10540:17)             \n    SC$lore$scrape_fragments                (<anonymous>:10631:12)             \n                                            <anonymous>:454:9                  \n                        (SC$farmer_john$idle (<anonymous>:486:2)",
-	"next_scrape": 1610247158663,
-	"updt": 1610152546410,
-	"edit": 8
+	"pl_output": "TypeError: Cannot read property 'trim' of undefined - 279mms\n    p                                       (<anonymous>:23200:48)             \n                                            <anonymous>:23201:32               \n    `CObject`​.​`Ldisplay                          `(<anonymous>:23207:14)             \n                                            <anonymous>:23266:17               \n    `LSC`$`Labandoned_xb895b`$`Limp`                 (<anonymous>:23279:2)              \n    call                                    (<anonymous>:24186:71)             \n    Object.SC$lore$scrape_fragments.args.t.c(<anonymous>:10550:12)             \n    extractBase                             (<anonymous>:10574:17)             \n    SC$lore$scrape_fragments                (<anonymous>:10665:12)             \n                                              (<anonymous>:454:9",
+	"next_scrape": 1613887491193,
+	"updt": 1610155283653,
+	"edit": 9
 }

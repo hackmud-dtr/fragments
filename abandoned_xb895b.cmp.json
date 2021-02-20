@@ -3,18 +3,26 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "abandoned_xb895b.cmp",
-	"sector": "NGC_0272",
+	"sector": "SPC_6724",
 	"sec_level": 2,
 	"date_added": 1610135264690,
-	"last_scraped": 1612990811847,
+	"last_scraped": 1613796956522,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1610135264690
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1613796557626,
+				"from": "SPC_6724",
+				"to": "NGC_0272"
+			}
+		]
 	],
-	"updt": 1612989467762,
-	"edit": 1241,
-	"pl_output": "{\"ok\":false,\"msg\":\"\\nPass `Nchannels`, `Nusers`, `Njoin`, or `Nleave`\\n\\nTo chat in a channel, prefix the channel name with `N\\\"C\\\"` - C0000:\\\"Hello world!\\\". Without the prefix, sends a tell to the specified player\\n\\n100ms\"",
-	"next_scrape": 1613077784824
+	"updt": 1613796610902,
+	"edit": 1243,
+	"pl_output": "{\"ok\":false,\"msg\":\"\\nPass `Nchannels`, `Nusers`, `Njoin`, or `Nleave`\\n\\nTo chat in a channel, prefix the channel name with `N\\\"C\\\"` - C0000:\\\"Hello world!\\\". Without the prefix, sends a tell to the specified player\\n\\n117ms\"",
+	"next_scrape": 1613880068088
 }
