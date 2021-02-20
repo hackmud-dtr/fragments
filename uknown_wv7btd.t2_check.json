@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_wv7btd.t2_check",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "uknown_wv7btd.t2_check",
 	"sector": "NGC_4398",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1610821249673
+		},
+		{
+			"type": "died",
+			"when": 1613848019223
 		}
 	],
 	"scrape_ct": 13,
@@ -2358,8 +2362,8 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1610821434137,
-	"edit": 1,
+	"updt": 1610823975251,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "win"
@@ -2367,5 +2371,6 @@
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"cannot_identify": true
 }

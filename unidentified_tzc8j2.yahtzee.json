@@ -1,45 +1,53 @@
 {
 	"_id": "unidentified_tzc8j2.yahtzee",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unidentified_tzc8j2.yahtzee",
 	"sector": "VNP_9161",
 	"sec_level": 4,
 	"date_added": 1613846314576,
-	"last_scraped": 1613847819843,
+	"last_scraped": 1613848181890,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1613846314576
+		},
+		{
+			"type": "died",
+			"when": 1613848507717
 		}
 	],
-	"updt": 1613847637120,
-	"edit": 5,
-	"scrape_ct": 8,
-	"next_scrape": 1613847879843,
+	"updt": 1613848222773,
+	"edit": 8,
+	"scrape_ct": 1,
+	"next_scrape": 1613848241890,
 	"category": "fishie_tank",
-	"last_update": 1613847819843,
+	"last_update": 1613848181890,
 	"output": [
 		{
 			"args": {},
-			"calls": 52034,
+			"calls": 88700,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"o. ##",
+				"# Wel",
+				" no. ",
 				" for ",
+				"ystem ",
 				"stem #",
 				"s she ",
 				" ## is",
 				"ty of t",
+				"t to th",
 				"m ## We",
 				"he secu",
 				"for the",
-				"em ## W",
 				"e syste",
 				"Well, no",
 				"urity of",
 				"to the s",
 				"the syst",
+				"tem ## W",
 				"she a th",
 				"reat to ",
 				"r the se",
@@ -48,6 +56,7 @@
 				"curity o",
 				"a threat",
 				"## is sh",
+				" the sec",
 				" she a t"
 			],
 			"hits": [
@@ -76,7 +85,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6684,
+			"calls": 11873,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -84,23 +93,34 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"he sy",
+				"o. ##",
+				"# Wel",
+				" no. ",
 				" for ",
+				"ystem ",
 				"stem #",
 				"s she ",
-				"o the ",
-				" is sh",
 				" ## is",
 				"ty of t",
+				"t to th",
+				"m ## We",
 				"he secu",
 				"for the",
-				"em ## W",
 				"e syste",
 				"Well, no",
 				"urity of",
+				"to the s",
+				"the syst",
+				"tem ## W",
 				"she a th",
+				"reat to ",
 				"r the se",
+				"of the s",
+				"ecurity ",
+				"curity o",
 				"a threat",
+				"## is sh",
+				" the sec",
 				" she a t"
 			]
 		},
@@ -108,26 +128,37 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 42083,
+			"calls": 76113,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"he sy",
+				"o. ##",
+				"# Wel",
+				" no. ",
 				" for ",
+				"ystem ",
 				"stem #",
 				"s she ",
-				"o the ",
-				" is sh",
 				" ## is",
 				"ty of t",
+				"t to th",
+				"m ## We",
 				"he secu",
 				"for the",
-				"em ## W",
 				"e syste",
 				"Well, no",
 				"urity of",
+				"to the s",
+				"the syst",
+				"tem ## W",
 				"she a th",
+				"reat to ",
 				"r the se",
+				"of the s",
+				"ecurity ",
+				"curity o",
 				"a threat",
+				"## is sh",
+				" the sec",
 				" she a t"
 			]
 		}
@@ -151,14 +182,6 @@
 				"a threat",
 				" she a t"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
