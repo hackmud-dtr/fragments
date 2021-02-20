@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_ip0roi.wl",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "derelict_ip0roi.wl",
 	"sector": "NGC_6141",
 	"sec_level": 4,
 	"date_added": 1613824938702,
-	"last_scraped": 1613825318767,
+	"last_scraped": 1613825391610,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,10 @@
 	],
 	"updt": 1613825161484,
 	"edit": 2,
-	"scrape_ct": 18,
-	"next_scrape": 1613825378767,
+	"scrape_ct": 17,
+	"next_scrape": 1613825451610,
 	"category": "fishie_tank",
-	"last_update": 1613825338401,
+	"last_update": 1613825391610,
 	"output": [
 		{
 			"args": {},
@@ -56,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2749,
+			"calls": 6242,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -79,7 +79,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 11964,
+			"calls": 17232,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"he bi",
@@ -108,11 +108,6 @@
 				"ng in Sa",
 				"Hi! This"
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "clean"
 		}
 	]
 }
