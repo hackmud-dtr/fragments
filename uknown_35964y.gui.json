@@ -1,27 +1,22 @@
 {
 	"_id": "uknown_35964y.gui",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "uknown_35964y.gui",
 	"sector": "NGC_6141",
 	"sec_level": 4,
 	"date_added": 1613830770148,
-	"last_scraped": 1613830805818,
+	"last_scraped": 1613830878264,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1613830770148
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1613830865818,
+	"scrape_ct": 18,
+	"next_scrape": 1613923918165,
 	"category": "risk_factor",
-	"last_update": 1613830805818,
+	"last_update": 1613830842422,
 	"output": [
 		{
 			"args": {},
@@ -42,7 +37,40 @@
 				"k you sh",
 				"ink you "
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 456,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"eam i",
+				" I th",
+				"lly co",
+				"I thin",
+				" consi",
+				"you sho",
+				"thing t",
+				"m is re",
+				"g the d",
+				"g ## I ",
+				"the data",
+				"k you sh",
+				"ink you "
+			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1613830824366,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
