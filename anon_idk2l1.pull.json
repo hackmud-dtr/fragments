@@ -1,12 +1,12 @@
 {
 	"_id": "anon_idk2l1.pull",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anon_idk2l1.pull",
 	"sector": "NGC_6141",
 	"sec_level": 4,
 	"date_added": 1613827275158,
-	"last_scraped": 1613827292436,
+	"last_scraped": 1613827347893,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"scrape_ct": 20,
-	"next_scrape": 1613827352436,
+	"scrape_ct": 17,
+	"next_scrape": 1613827407893,
 	"category": "risk_factor",
-	"last_update": 1613827292436,
+	"last_update": 1613827347893,
 	"output": [
 		{
 			"args": {},
@@ -38,6 +35,24 @@
 				" TIME E",
 				"miyawaki"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 398,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"imiya",
+				"holli",
+				" ERRO",
+				"USER m",
+				" TIME E",
+				"miyawaki"
+			]
 		}
-	]
+	],
+	"updt": 1613827310186,
+	"edit": 1,
+	"cannot_identify": true
 }
