@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_d7bzxb.xfer",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "dead",
 	"script": "anonymous_d7bzxb.xfer",
 	"sector": "NGC_3338",
 	"sec_level": 2,
@@ -23,11 +23,15 @@
 				"from": "NGC_3338",
 				"to": "NGC_3253"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1613964165345
+		}
 	],
 	"pl_output": "0GC\ndeposit:gc|\"all\", withdraw:gc|\"all\", view:\"balance\"",
 	"next_scrape": 1610002821733,
-	"updt": 1609693766085,
-	"edit": 123,
+	"updt": 1609962908670,
+	"edit": 124,
 	"scrape_ct": 20
 }
