@@ -1,7 +1,7 @@
 {
 	"_id": "anon_51h7s9.check_transactions",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anon_51h7s9.check_transactions",
 	"sector": "HJG_5179",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1614056277447
+		},
+		{
+			"type": "died",
+			"when": 1614058163137
 		}
 	],
 	"retry_args": [
@@ -98,5 +102,7 @@
 				"\\n1E47 Pa"
 			]
 		}
-	]
+	],
+	"updt": 1614056437399,
+	"edit": 1
 }
