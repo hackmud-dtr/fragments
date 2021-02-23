@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "abandoned_c9xhol.t1s",
-	"sector": "K_5159",
+	"sector": "SPC_6154",
 	"sec_level": 4,
 	"date_added": 1609078884376,
-	"last_scraped": 1613702950441,
+	"last_scraped": 1614119693444,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1609078884376
-		}
+		},
+		{
+			"type": "died",
+			"when": 1614119569611
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1614119602846,
+				"from": "SPC_6154",
+				"to": "K_5159"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"Not Implemented.\"}",
-	"next_scrape": 1613791592438,
-	"updt": 1613701597704,
-	"edit": 1772
+	"next_scrape": 1614205247831,
+	"updt": 1614119571531,
+	"edit": 1774
 }

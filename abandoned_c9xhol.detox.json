@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "abandoned_c9xhol.detox",
-	"sector": "K_5159",
+	"sector": "SPC_6154",
 	"sec_level": 4,
 	"date_added": 1609078884376,
-	"last_scraped": 1611307767128,
+	"last_scraped": 1614119638787,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1609078884376
-		}
+		},
+		{
+			"type": "died",
+			"when": 1614119569611
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1614119602846,
+				"from": "SPC_6154",
+				"to": "K_5159"
+			}
+		]
 	],
 	"pl_output": "Cannot read property 'split' of undefined",
-	"next_scrape": 1611392303944,
-	"updt": 1611305233499,
-	"edit": 609
+	"next_scrape": 1614206016162,
+	"updt": 1614119571531,
+	"edit": 611
 }
