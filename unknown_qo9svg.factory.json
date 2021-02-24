@@ -3,18 +3,26 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "unknown_qo9svg.factory",
-	"sector": "HJG_3945",
+	"sector": "VNP_2802",
 	"sec_level": 4,
 	"date_added": 1609702286884,
-	"last_scraped": 1612514376426,
+	"last_scraped": 1614151165321,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1609702286884
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1614151147436,
+				"from": "VNP_2802",
+				"to": "HJG_3945"
+			}
+		]
 	],
-	"updt": 1612511012279,
-	"edit": 1105,
+	"updt": 1612514531192,
+	"edit": 1106,
 	"pl_output": "[\"\",\"`PRobot type                    Owned  Create maximum`\",\"microbots                         0  device.factory { microbots: \\\"0\\\" }\",\"nanobots                          1  device.factory { nanobots: \\\"0\\\" }\",\"\",\"`PYou have` `F0` `Pnanites and gain` `F1` `Pper second`\\n\",\"`bTo double the nanite production for 1GC, use` device.factory { double:true }\",\"`bOptional: include` `Nxfer:``V#s.`accts.xfer_gc_to `bto avoid using` escrow.confirm\",\"`bFor help on things like pvp, upgrades etc., use` device.factory { help:true }\",\"`bRefresh with` device.factory {}\"]",
-	"next_scrape": 1612596087391
+	"next_scrape": 1614232181748
 }
