@@ -1,9 +1,9 @@
 {
 	"_id": "abndnd_xfmz0v.harvester",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "skip",
 	"script": "abndnd_xfmz0v.harvester",
-	"sector": "VNP_0696",
+	"sector": "HJG_9016",
 	"sec_level": 1,
 	"date_added": 1609702886157,
 	"last_scraped": 0,
@@ -11,6 +11,20 @@
 		{
 			"type": "added",
 			"when": 1609702886157
-		}
-	]
+		},
+		{
+			"type": "died",
+			"when": 1614160417552
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1614160576200,
+				"from": "HJG_9016",
+				"to": "VNP_0696"
+			}
+		]
+	],
+	"updt": 1614160618823,
+	"edit": 3
 }
