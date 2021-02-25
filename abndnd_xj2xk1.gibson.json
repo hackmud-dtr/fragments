@@ -1,18 +1,91 @@
 {
 	"_id": "abndnd_xj2xk1.gibson",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "timeout",
 	"script": "abndnd_xj2xk1.gibson",
 	"sector": "VNP_5195",
 	"sec_level": 4,
 	"date_added": 1614288445293,
-	"last_scraped": 1614288462772,
+	"last_scraped": 1614289277310,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1614288445293
 		}
 	],
-	"scrape_ct": 20,
-	"next_scrape": 1614288522772
+	"scrape_ct": 2,
+	"next_scrape": 1614371370144,
+	"category": "coin_flipper",
+	"last_update": 1614289277310,
+	"output": [
+		{
+			"args": {},
+			"calls": 226241,
+			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
+			"fragments": [
+				"Each o",
+				" must ",
+				" Each ",
+				"poratio",
+				"ed, mus",
+				"e chall",
+				" revisi",
+				"ged, in "
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"Each o",
+						" Each ",
+						"poratio",
+						"ed, mus",
+						"e chall",
+						" revisi",
+						"ged, in "
+					]
+				},
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" must "
+					]
+				},
+				{
+					"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+					"frags": [
+						" must "
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"Each o",
+				" Each ",
+				"poratio",
+				"ed, mus",
+				"e chall",
+				" revisi",
+				"ged, in "
+			]
+		},
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				" must "
+			]
+		},
+		{
+			"document": "MFT0XA2_CLST0XE0_SECT0XF623_FILE0XCC32859D",
+			"frags": [
+				" must "
+			]
+		}
+	],
+	"updt": 1614289249446,
+	"edit": 4
 }
