@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_tl99f8.storage",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abandoned_tl99f8.storage",
 	"sector": "K_5784",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1611570945312
+		},
+		{
+			"type": "died",
+			"when": 1614272595685
 		}
 	],
 	"scrape_ct": 13,
@@ -744,8 +748,8 @@
 		}
 	],
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1611573243244,
-	"edit": 2,
+	"updt": 1611573438084,
+	"edit": 3,
 	"retry_args": [
 		{
 			"do": "win"
@@ -753,5 +757,6 @@
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"cannot_identify": true
 }
