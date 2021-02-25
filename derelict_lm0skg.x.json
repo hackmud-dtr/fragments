@@ -1,26 +1,29 @@
 {
 	"_id": "derelict_lm0skg.x",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "derelict_lm0skg.x",
 	"sector": "HJG_5000",
 	"sec_level": 4,
 	"date_added": 1614254658261,
-	"last_scraped": 1614255382934,
+	"last_scraped": 1614255657457,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1614254658261
+		},
+		{
+			"type": "died",
+			"when": 1614256310066
 		}
 	],
-	"scrape_ct": 6,
-	"next_scrape": 1614255442934,
+	"next_scrape": 1614295356279,
 	"category": "coin_flipper",
-	"last_update": 1614255382934,
+	"last_update": 1614255657457,
 	"output": [
 		{
 			"args": {},
-			"calls": 122664,
+			"calls": 167622,
 			"base": "Flip a coin! heads wins, tails loses. {flip:true}",
 			"fragments": [
 				"ation",
@@ -90,6 +93,6 @@
 			]
 		}
 	],
-	"updt": 1614255212506,
-	"edit": 3
+	"updt": 1614255799381,
+	"edit": 6
 }
