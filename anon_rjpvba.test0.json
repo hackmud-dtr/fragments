@@ -1,0 +1,88 @@
+{
+	"_id": "anon_rjpvba.test0",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anon_rjpvba.test0",
+	"sector": "VNP_5195",
+	"sec_level": 4,
+	"date_added": 1614338282790,
+	"last_scraped": 1614338446910,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1614338282790
+		}
+	],
+	"updt": 1614338329195,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1614338506910,
+	"category": "fishie_tank",
+	"last_update": 1614338465872,
+	"output": [
+		{
+			"args": {},
+			"calls": 33018,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"the p",
+				"bout ",
+				"ograph",
+				"e we g",
+				"oing to ",
+				" pornogr"
+			],
+			"hits": [
+				{
+					"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+					"frags": [
+						"the p",
+						"bout ",
+						"ograph",
+						"e we g",
+						"oing to ",
+						" pornogr"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1000,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"the p",
+				"bout ",
+				"ograph",
+				"e we g",
+				"oing to ",
+				" pornogr"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
+			"frags": [
+				"the p",
+				"bout ",
+				"ograph",
+				"e we g",
+				"oing to ",
+				" pornogr"
+			]
+		}
+	]
+}
