@@ -1,0 +1,86 @@
+{
+	"_id": "anon_4gydiy.internal",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anon_4gydiy.internal",
+	"sector": "SPC_8488",
+	"sec_level": 4,
+	"date_added": 1614373197114,
+	"last_scraped": 1614373233175,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1614373197114
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1614373293175,
+	"category": "fishie_tank",
+	"last_update": 1614373287627,
+	"output": [
+		{
+			"args": {},
+			"calls": 22322,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"that ",
+				"ct se",
+				"ces w",
+				" ## Who",
+				"greed th",
+				"ere not "
+			],
+			"hits": [
+				{
+					"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
+					"frags": [
+						"that ",
+						"ct se",
+						"ces w",
+						" ## Who",
+						"greed th",
+						"ere not "
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3057,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"that ",
+				"ct se",
+				"ces w",
+				" ## Who",
+				"greed th",
+				"ere not "
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XA7_CLST0X1F_SECT0X57C3_FILE0X8C911BB8",
+			"frags": [
+				"that ",
+				"ct se",
+				"ces w",
+				" ## Who",
+				"greed th",
+				"ere not "
+			]
+		}
+	]
+}
