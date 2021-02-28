@@ -1,31 +1,26 @@
 {
 	"_id": "anonymous_kef2tz.irtest",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anonymous_kef2tz.irtest",
 	"sector": "NGC_0613",
 	"sec_level": 4,
 	"date_added": 1614555666115,
-	"last_scraped": 1614555683498,
+	"last_scraped": 1614556230755,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1614555666115
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1614555743498,
+	"scrape_ct": 8,
+	"next_scrape": 1614556290755,
 	"category": "fishie_tank",
-	"last_update": 1614555702656,
+	"last_update": 1614556230755,
 	"output": [
 		{
 			"args": {},
-			"calls": 12461,
+			"calls": 52614,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"1E4A ",
@@ -59,13 +54,31 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1528,
+			"calls": 7303,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
 				"they are still hungry?",
 				"they don't look so good"
 			],
+			"fragments": [
+				"1E4A ",
+				"erefor",
+				"e only",
+				".\\n1E4",
+				"re the o",
+				"n the bu",
+				"erson\\n1",
+				" the onl",
+				"ilding.\\n"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 88021,
+			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"1E4A ",
 				"erefor",
@@ -94,5 +107,7 @@
 				"ilding.\\n"
 			]
 		}
-	]
+	],
+	"updt": 1614556109001,
+	"edit": 3
 }
