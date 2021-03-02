@@ -1,0 +1,50 @@
+{
+	"_id": "anonymous_mydzr2.vita",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anonymous_mydzr2.vita",
+	"sector": "NGC_0613",
+	"sec_level": 4,
+	"date_added": 1614679045600,
+	"last_scraped": 1614679135306,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1614679045600
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1614679195306,
+	"category": "risk_factor",
+	"last_update": 1614679135306,
+	"output": [
+		{
+			"args": {},
+			"calls": 3907,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"000 010",
+				"000\\n000",
+				"0 0000 0"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 444,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"000 010",
+				"000\\n000",
+				"0 0000 0"
+			]
+		}
+	],
+	"cannot_identify": true
+}
