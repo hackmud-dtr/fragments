@@ -1,22 +1,30 @@
 {
 	"_id": "unknown_fglnmv.math",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "dead",
 	"script": "unknown_fglnmv.math",
 	"sector": "NGC_0613",
 	"sec_level": 4,
 	"date_added": 1614671521096,
-	"last_scraped": 1614671592849,
+	"last_scraped": 1614671702120,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1614671521096
+		},
+		{
+			"type": "died",
+			"when": 1614671702120
+		},
+		{
+			"type": "died",
+			"when": 1614671775524
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1614671652849,
+	"scrape_ct": 18,
+	"next_scrape": 1614754461202,
 	"category": "fishie_tank",
-	"last_update": 1614671592849,
+	"last_update": 1614671610471,
 	"output": [
 		{
 			"args": {},
@@ -101,7 +109,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 7955,
+			"calls": 19990,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"7_FIL",
@@ -145,5 +153,8 @@
 				"rns\\n208A"
 			]
 		}
-	]
+	],
+	"updt": 1614671609448,
+	"edit": 1,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_fglnmv.math: script doesn't exist\"}"
 }
