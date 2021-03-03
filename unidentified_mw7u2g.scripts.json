@@ -1,0 +1,109 @@
+{
+	"_id": "unidentified_mw7u2g.scripts",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "unidentified_mw7u2g.scripts",
+	"sector": "VNP_1456",
+	"sec_level": 4,
+	"date_added": 1614758631351,
+	"last_scraped": 1614758775834,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1614758631351
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1614758835834,
+	"category": "fishie_tank",
+	"last_update": 1614758775834,
+	"output": [
+		{
+			"args": {},
+			"calls": 26480,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"e exc",
+				"the la",
+				"ne dec",
+				"Yes. If",
+				". If da",
+				" lane de",
+				" deck?\\n2"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"e exc",
+						"the la",
+						"ne dec",
+						"Yes. If",
+						". If da",
+						" lane de",
+						" deck?\\n2"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1488,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"e exc",
+				"the la",
+				"ne dec",
+				"Yes. If",
+				". If da",
+				" lane de",
+				" deck?\\n2"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 11086,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"e exc",
+				"the la",
+				"ne dec",
+				"Yes. If",
+				". If da",
+				" lane de",
+				" deck?\\n2"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"e exc",
+				"the la",
+				"ne dec",
+				"Yes. If",
+				". If da",
+				" lane de",
+				" deck?\\n2"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
+}
