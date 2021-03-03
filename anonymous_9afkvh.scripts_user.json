@@ -1,0 +1,59 @@
+{
+	"_id": "anonymous_9afkvh.scripts_user",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anonymous_9afkvh.scripts_user",
+	"sector": "SPC_1979",
+	"sec_level": 4,
+	"date_added": 1614733061985,
+	"last_scraped": 1614733208529,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1614733061985
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1614733268529,
+	"category": "risk_factor",
+	"last_update": 1614733208529,
+	"output": [
+		{
+			"args": {},
+			"calls": 6225,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"0 100",
+				"00 000",
+				"0 0001",
+				"0100 10",
+				"0000\\n00",
+				" 0000 01",
+				"00\\n0000 "
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 300,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"0 100",
+				"00 000",
+				"0 0001",
+				"0100 10",
+				"0000\\n00",
+				" 0000 01",
+				"00\\n0000 "
+			]
+		}
+	],
+	"updt": 1614733179220,
+	"edit": 1
+}
