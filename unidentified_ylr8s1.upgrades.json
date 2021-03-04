@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_ylr8s1.upgrades",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unidentified_ylr8s1.upgrades",
 	"sector": "VNP_3175",
 	"sec_level": 1,
@@ -19,10 +19,14 @@
 				"from": "VNP_3175",
 				"to": "K_3346"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1614836207120
+		}
 	],
 	"pl_output": "[\"[`10226``0ms`] [`0log`] \",\"[`10230``0ms`] [`1inf`] Slots used:   `N0` / `N256`\",\"[`10357``0ms`] [`1inf`] Slots loaded: `N0` / `N64`\"]",
 	"next_scrape": 1610055482458,
-	"updt": 1609719756605,
-	"edit": 256
+	"updt": 1609976212172,
+	"edit": 257
 }
