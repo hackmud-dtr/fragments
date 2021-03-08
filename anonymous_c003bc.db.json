@@ -1,7 +1,7 @@
 {
 	"_id": "anonymous_c003bc.db",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anonymous_c003bc.db",
 	"sector": "VNP_8582",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "VNP_8582",
 				"to": "K_2838"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1615184825116
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"No `Npassword` specified\\n\\nHey, ${ctx.caller}, here's a tip:\\n\\nvar a={password:\\\"foo\\\"};\\n#fs.anonymous_c003bc.db(a);\\nreturn a;\"}",
 	"next_scrape": 1613142830929,
-	"updt": 1613051226610,
-	"edit": 3571
+	"updt": 1613052984360,
+	"edit": 3572
 }
