@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_2kx9xh.breach",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unknown_2kx9xh.breach",
 	"sector": "K_7944",
 	"sec_level": 4,
@@ -23,12 +23,16 @@
 				"from": "K_7944",
 				"to": "SPC_5976"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1615305589527
+		}
 	],
 	"pl_output": "`YUsage:`\n `Abreach { target: #s.target.loc }`\n\n  `Acost to run this script is 3kgc per use.`\n `Asn_w_glock is solvable here`\n  `Afor sn_w make sure you only have 3kgc in account when running the breach`\n\n   `Aif breach attempt returns \"TypeError: out.includes is not a function\"`\n`Athen the target either does not exist, or you have reached your connection limit`\n\n `YOptions:`\n  reset: true      `YResets the solve for this loc, in case locks have rotated`\n `Nparams`: `V{...}`    `YManually specifies parameters to pass to the loc`\n\n",
 	"next_scrape": 1609993704675,
-	"updt": 1609953322306,
-	"edit": 932,
+	"updt": 1609953713100,
+	"edit": 933,
 	"scrape_ct": 16,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1609953357821,
