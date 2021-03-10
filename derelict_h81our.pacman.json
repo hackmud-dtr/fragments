@@ -1,19 +1,27 @@
 {
 	"_id": "derelict_h81our.pacman",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "dead",
 	"script": "derelict_h81our.pacman",
 	"sector": "NGC_4864",
 	"sec_level": 4,
 	"date_added": 1615355237966,
-	"last_scraped": 1615356451228,
+	"last_scraped": 1615357903988,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1615355237966
+		},
+		{
+			"type": "died",
+			"when": 1615357903988
+		},
+		{
+			"type": "died",
+			"when": 1615358066864
 		}
 	],
-	"next_scrape": 1615400595400,
+	"next_scrape": 1615441356147,
 	"category": "dice_roller",
 	"last_update": 1615356451228,
 	"output": [
@@ -73,6 +81,7 @@
 			]
 		}
 	],
-	"updt": 1615356278570,
-	"edit": 6
+	"updt": 1615358037960,
+	"edit": 8,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_h81our.pacman: script doesn't exist\"}"
 }
