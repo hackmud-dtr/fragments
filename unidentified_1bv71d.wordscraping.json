@@ -1,20 +1,28 @@
 {
 	"_id": "unidentified_1bv71d.wordscraping",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "new",
 	"script": "unidentified_1bv71d.wordscraping",
-	"sector": "SPC_8233",
+	"sector": "VNP_1400",
 	"sec_level": 4,
 	"date_added": 1613149700283,
-	"last_scraped": 1613988049663,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1613149700283
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1615704700861,
+				"from": "VNP_1400",
+				"to": "SPC_8233"
+			}
+		]
 	],
-	"updt": 1613986469066,
-	"edit": 521,
+	"updt": 1613988226969,
+	"edit": 522,
 	"pl_output": "Cannot read property 'pass' of undefined",
 	"next_scrape": 1614076975651
 }

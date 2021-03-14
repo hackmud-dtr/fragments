@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "unidentified_1bv71d.t1locs",
-	"sector": "VNP_7999",
+	"sector": "VNP_1400",
 	"sec_level": 4,
 	"date_added": 1613149700283,
-	"last_scraped": 1614204624987,
+	"last_scraped": 1615704720123,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1613149700283
-		}
+		},
+		{
+			"type": "died",
+			"when": 1615704688631
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1615704700861,
+				"from": "VNP_1400",
+				"to": "VNP_7999"
+			}
+		]
 	],
 	"pl_output": "a.targ.call is not a function",
-	"next_scrape": 1614286018462,
-	"updt": 1614203024532,
-	"edit": 618
+	"next_scrape": 1615788549201,
+	"updt": 1614204782927,
+	"edit": 619
 }
