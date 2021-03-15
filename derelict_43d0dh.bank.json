@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_43d0dh.bank",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_43d0dh.bank",
 	"sector": "VNP_2818",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "VNP_2818",
 				"to": "K_1742"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1615776473820
+		}
 	],
 	"pl_output": "Cannot read property 'money' of null",
 	"next_scrape": 1611281579667,
-	"updt": 1611194974778,
-	"edit": 2584
+	"updt": 1611198883459,
+	"edit": 2585
 }
