@@ -1,16 +1,32 @@
 {
 	"_id": "unknown_n2dfxr.sts_t2",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "player",
 	"script": "unknown_n2dfxr.sts_t2",
-	"sector": "K_2478",
+	"sector": "SPC_6816",
 	"sec_level": 0,
 	"date_added": 1610190206988,
-	"last_scraped": 0,
+	"last_scraped": 1615925346533,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1610190206988
-		}
-	]
+		},
+		{
+			"type": "died",
+			"when": 1615925307559
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1615925326452,
+				"from": "SPC_6816",
+				"to": "K_2478"
+			}
+		]
+	],
+	"updt": 1610190279787,
+	"edit": 1,
+	"pl_output": "Unexpected token u in JSON at position 0",
+	"next_scrape": 1616018043554
 }
