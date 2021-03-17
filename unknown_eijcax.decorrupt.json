@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_eijcax.decorrupt",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "fresh",
 	"script": "unknown_eijcax.decorrupt",
-	"sector": "VNP_7999",
+	"sector": "NGC_3453",
 	"sec_level": 4,
 	"date_added": 1613149483291,
-	"last_scraped": 1615950423554,
+	"last_scraped": 1615957608395,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,68 @@
 		{
 			"type": "died",
 			"when": 1615952867613
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1615957462481,
+				"from": "NGC_3453",
+				"to": "VNP_7999"
+			}
+		]
 	],
 	"pl_output": "Usage: t:#s.corrupt.script, a:{script:args}\nUsage fee: 1KGC",
-	"next_scrape": 1616032344530,
-	"updt": 1615950435104,
-	"edit": 1680
+	"next_scrape": 1615957668395,
+	"updt": 1615957487542,
+	"edit": 1682,
+	"scrape_ct": 16,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1615957608395,
+	"output": [
+		{
+			"args": {},
+			"calls": 885735,
+			"base": "Usage: t:#s.corrupt.script, a:{script:args}\nUsage fee: 1KGC",
+			"fragments": [
+				" reso",
+				"r to r",
+				"PS sen",
+				"RAPS se",
+				"nd card",
+				"resolve.",
+				"\\n2169 A",
+				" TRAPS s"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" reso",
+						"r to r",
+						"PS sen",
+						"RAPS se",
+						"nd card",
+						"resolve.",
+						"\\n2169 A",
+						" TRAPS s"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				" reso",
+				"r to r",
+				"PS sen",
+				"RAPS se",
+				"nd card",
+				"resolve.",
+				"\\n2169 A",
+				" TRAPS s"
+			]
+		}
+	]
 }
