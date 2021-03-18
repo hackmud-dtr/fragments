@@ -1,0 +1,90 @@
+{
+	"_id": "uknown_p2d05t.db",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "uknown_p2d05t.db",
+	"sector": "NGC_4419",
+	"sec_level": 4,
+	"date_added": 1616078793740,
+	"last_scraped": 1616078848363,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1616078793740
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1616078908363,
+	"category": "fishie_tank",
+	"last_update": 1616078885794,
+	"output": [
+		{
+			"args": {},
+			"calls": 15021,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"le of",
+				"irmed",
+				"h a u",
+				"ed to",
+				"in, at",
+				"oving i",
+				"g is the"
+			],
+			"hits": [
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						"le of",
+						"irmed",
+						"h a u",
+						"ed to",
+						"in, at",
+						"oving i",
+						"g is the"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1831,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"le of",
+				"irmed",
+				"h a u",
+				"ed to",
+				"in, at",
+				"oving i",
+				"g is the"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+			"frags": [
+				"le of",
+				"irmed",
+				"h a u",
+				"ed to",
+				"in, at",
+				"oving i",
+				"g is the"
+			]
+		}
+	]
+}
