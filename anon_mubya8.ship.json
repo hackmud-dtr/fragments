@@ -1,7 +1,7 @@
 {
 	"_id": "anon_mubya8.ship",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anon_mubya8.ship",
 	"sector": "NGC_3453",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1615887202032
+		},
+		{
+			"type": "died",
+			"when": 1616144784720
 		}
 	],
 	"scrape_ct": 18,
@@ -662,5 +666,8 @@
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"updt": 1615887480082,
+	"edit": 1,
+	"cannot_identify": true
 }
