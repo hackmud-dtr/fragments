@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_7lcxl3.t1script",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "abandoned_7lcxl3.t1script",
-	"sector": "NGC_4398",
+	"sector": "K_9211",
 	"sec_level": 4,
 	"date_added": 1610815353612,
-	"last_scraped": 1616230932101,
+	"last_scraped": 1616234688575,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1616231840096
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1616234671264,
+				"from": "K_9211",
+				"to": "NGC_4398"
+			}
+		]
 	],
-	"updt": 1616231311110,
-	"edit": 2973,
+	"updt": 1616232095089,
+	"edit": 2974,
 	"pl_output": "Cannot read property 'call' of undefined",
-	"next_scrape": 1616311025096
+	"next_scrape": 1616322480372
 }
