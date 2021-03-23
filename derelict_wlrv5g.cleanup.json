@@ -1,0 +1,62 @@
+{
+	"_id": "derelict_wlrv5g.cleanup",
+	"type": "fragment",
+	"mode": "timeout",
+	"script": "derelict_wlrv5g.cleanup",
+	"sector": "HJG_7694",
+	"sec_level": 4,
+	"date_added": 1616496049821,
+	"last_scraped": 1616496179516,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1616496049821
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 19,
+	"next_scrape": 1616580751977,
+	"category": "risk_factor",
+	"last_update": 1616496179516,
+	"output": [
+		{
+			"args": {},
+			"calls": 4163,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"them ",
+				"sked ",
+				"ing l",
+				"ering",
+				"'ve b",
+				"n asked",
+				"g probl",
+				"they've ",
+				"een aske"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 360,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"them ",
+				"sked ",
+				"ing l",
+				"ering",
+				"'ve b",
+				"n asked",
+				"g probl",
+				"they've ",
+				"een aske"
+			]
+		}
+	],
+	"cannot_identify": true
+}
