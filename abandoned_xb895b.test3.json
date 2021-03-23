@@ -1,20 +1,32 @@
 {
 	"_id": "abandoned_xb895b.test3",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "new",
 	"script": "abandoned_xb895b.test3",
-	"sector": "HJG_9324",
+	"sector": "HJG_7694",
 	"sec_level": 4,
 	"date_added": 1610135264690,
-	"last_scraped": 1612647312859,
+	"last_scraped": 0,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1610135264690
-		}
+		},
+		{
+			"type": "died",
+			"when": 1616470601847
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1616470620419,
+				"from": "HJG_7694",
+				"to": "HJG_9324"
+			}
+		]
 	],
-	"updt": 1612645872329,
-	"edit": 1019,
+	"updt": 1612647439411,
+	"edit": 1020,
 	"pl_output": "{\"ok\":false,\"msg\":\"not yet\"}",
 	"next_scrape": 1612731302904
 }
