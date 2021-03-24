@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "unknown_k3w00d.m",
-	"sector": "K_2478",
+	"sector": "NGC_7964",
 	"sec_level": 0,
 	"date_added": 1611128860858,
-	"last_scraped": 1611697805501,
+	"last_scraped": 1616626718268,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1611128860858
-		}
+		},
+		{
+			"type": "died",
+			"when": 1616626664609
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1616626699396,
+				"from": "NGC_7964",
+				"to": "K_2478"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR m.l: script doesn't exist\"}",
-	"next_scrape": 1611786488115,
-	"updt": 1611695775120,
-	"edit": 211
+	"next_scrape": 1616715185028,
+	"updt": 1611697926440,
+	"edit": 212
 }
