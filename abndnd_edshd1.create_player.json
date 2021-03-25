@@ -1,0 +1,111 @@
+{
+	"_id": "abndnd_edshd1.create_player",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abndnd_edshd1.create_player",
+	"sector": "K_3627",
+	"sec_level": 4,
+	"date_added": 1616681578338,
+	"last_scraped": 1616681688729,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1616681578338
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1616681748729,
+	"category": "fishie_tank",
+	"last_update": 1616681688729,
+	"output": [
+		{
+			"args": {},
+			"calls": 20912,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"y\\n1E5",
+				"ust cu",
+				"py?\\n1",
+				"E56 I'",
+				"us, Mal",
+				"ory\\n1E",
+				"1E57 Alm",
+				", Mallor",
+				" Mallory"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"y\\n1E5",
+						"ust cu",
+						"py?\\n1",
+						"E56 I'",
+						"us, Mal",
+						"ory\\n1E",
+						"1E57 Alm",
+						", Mallor",
+						" Mallory"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1710,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"y\\n1E5",
+				"ust cu",
+				"py?\\n1",
+				"E56 I'",
+				"us, Mal",
+				"ory\\n1E",
+				"1E57 Alm",
+				", Mallor",
+				" Mallory"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 3176,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"y\\n1E5",
+				"ust cu",
+				"py?\\n1",
+				"E56 I'",
+				"us, Mal",
+				"ory\\n1E",
+				"1E57 Alm",
+				", Mallor",
+				" Mallory"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"y\\n1E5",
+				"ust cu",
+				"py?\\n1",
+				"E56 I'",
+				"us, Mal",
+				"ory\\n1E",
+				"1E57 Alm",
+				", Mallor",
+				" Mallory"
+			]
+		}
+	]
+}
