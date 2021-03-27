@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_uuggxv.bank",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "derelict_uuggxv.bank",
 	"sector": "VNP_4880",
 	"sec_level": 2,
@@ -19,12 +19,16 @@
 				"from": "VNP_4880",
 				"to": "VNP_8841"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1616805397602
+		}
 	],
 	"pl_output": "Usage:\n palladium.bank { get: amount, put: amount }\n`Nput` can also be the special value `Vall`. You must be appropriately authorized to `Nget` anything, of course. If you really want to make a `Vdonation` with `Nput`, I'm not going to tell you no. :)",
 	"next_scrape": 1610074054001,
-	"updt": 1610020584086,
-	"edit": 1747,
+	"updt": 1610028011063,
+	"edit": 1748,
 	"scrape_ct": 16,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1610027948880,
