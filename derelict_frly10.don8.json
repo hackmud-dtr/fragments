@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_frly10.don8",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_frly10.don8",
 	"sector": "K_7354",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "K_7354",
 				"to": "K_4401"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1616994039459
+		}
 	],
 	"pl_output": "Cannot read property 'toUpperCase' of undefined",
 	"next_scrape": 1611381560365,
-	"updt": 1611298192978,
-	"edit": 2150
+	"updt": 1611300731569,
+	"edit": 2151
 }
