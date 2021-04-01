@@ -1,0 +1,96 @@
+{
+	"_id": "anon_dgtd5d.blib",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anon_dgtd5d.blib",
+	"sector": "VNP_3418",
+	"sec_level": 4,
+	"date_added": 1617242830628,
+	"last_scraped": 1617243082810,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1617242830628
+		}
+	],
+	"scrape_ct": 14,
+	"next_scrape": 1617243142810,
+	"category": "fishie_tank",
+	"last_update": 1617243082810,
+	"output": [
+		{
+			"args": {},
+			"calls": 27554,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"scard ",
+				"tacker ",
+				"pile.\\n",
+				"cker di",
+				".\\n216B ",
+				" Defende"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"scard ",
+						"tacker ",
+						"pile.\\n",
+						"cker di",
+						".\\n216B ",
+						" Defende"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3595,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"scard ",
+				"tacker ",
+				"pile.\\n",
+				"cker di",
+				".\\n216B ",
+				" Defende"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 48102,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"scard ",
+				"tacker ",
+				"pile.\\n",
+				"cker di",
+				".\\n216B ",
+				" Defende"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"scard ",
+				"tacker ",
+				"pile.\\n",
+				"cker di",
+				".\\n216B ",
+				" Defende"
+			]
+		}
+	]
+}
