@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_nadwq5.lus",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_nadwq5.lus",
 	"sector": "NGC_4419",
 	"sec_level": 4,
 	"date_added": 1616000854580,
-	"last_scraped": 1617304751993,
+	"last_scraped": 1617367679146,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 12,
-	"next_scrape": 1617349504817,
+	"next_scrape": 1617408788880,
 	"category": "clicker",
-	"last_update": 1617304751993,
+	"last_update": 1617367679146,
 	"output": [
 		{
 			"args": {},
-			"calls": 47526,
+			"calls": 81285,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"Deal 3 ",
@@ -88,6 +88,14 @@
 			]
 		}
 	],
-	"updt": 1616001305032,
-	"edit": 2
+	"updt": 1617328117220,
+	"edit": 3,
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
+		}
+	]
 }

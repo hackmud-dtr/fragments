@@ -1,28 +1,28 @@
 {
 	"_id": "derelict_0r1alp.bot_brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_0r1alp.bot_brain",
 	"sector": "VNP_7815",
 	"sec_level": 4,
 	"date_added": 1616078793740,
-	"last_scraped": 1617304840236,
+	"last_scraped": 1617367896484,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1616078793740
 		}
 	],
-	"updt": 1616079341581,
-	"edit": 3,
+	"updt": 1617328311164,
+	"edit": 4,
 	"scrape_ct": 16,
-	"next_scrape": 1617349834982,
+	"next_scrape": 1617410911381,
 	"category": "clicker",
-	"last_update": 1617304840236,
+	"last_update": 1617367896484,
 	"output": [
 		{
 			"args": {},
-			"calls": 27173,
+			"calls": 54107,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"the fi",
@@ -98,6 +98,14 @@
 				"must be ",
 				" 'There "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
 		}
 	]
 }

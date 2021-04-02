@@ -1,12 +1,12 @@
 {
 	"_id": "anon_jwbruo.chaos",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_jwbruo.chaos",
 	"sector": "NGC_6643",
 	"sec_level": 4,
 	"date_added": 1616184283335,
-	"last_scraped": 1617304913536,
+	"last_scraped": 1617368114378,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1617350525230,
+	"next_scrape": 1617414513573,
 	"category": "clicker",
-	"last_update": 1617304913536,
+	"last_update": 1617368114378,
 	"output": [
 		{
 			"args": {},
-			"calls": 33789,
+			"calls": 59302,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"r a b",
@@ -98,6 +98,14 @@
 			]
 		}
 	],
-	"updt": 1616184569582,
-	"edit": 2
+	"updt": 1617328311164,
+	"edit": 3,
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
+		}
+	]
 }
