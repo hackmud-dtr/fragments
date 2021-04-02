@@ -1,12 +1,12 @@
 {
 	"_id": "anon_f99c3x.ove",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_f99c3x.ove",
 	"sector": "HJG_3404",
 	"sec_level": 4,
 	"date_added": 1614956429660,
-	"last_scraped": 1617298444840,
+	"last_scraped": 1617355074659,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 13,
-	"next_scrape": 1617342060096,
+	"next_scrape": 1617400198226,
 	"category": "clicker",
-	"last_update": 1617298444840,
+	"last_update": 1617355074659,
 	"output": [
 		{
 			"args": {},
-			"calls": 28211,
+			"calls": 52164,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"7A_SE",
@@ -48,7 +48,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 33768,
+			"calls": 44468,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"7A_SE",
@@ -88,6 +88,11 @@
 			]
 		}
 	],
-	"updt": 1614956769270,
-	"edit": 2
+	"updt": 1617327922359,
+	"edit": 3,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }

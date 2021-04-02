@@ -1,24 +1,24 @@
 {
 	"_id": "abndnd_zginrv.com",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_zginrv.com",
 	"sector": "HJG_3404",
 	"sec_level": 4,
 	"date_added": 1614945591217,
-	"last_scraped": 1617354894449,
+	"last_scraped": 1617354966652,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1614945591217
 		}
 	],
-	"updt": 1617327922359,
-	"edit": 5,
+	"updt": 1617354907167,
+	"edit": 6,
 	"scrape_ct": 9,
-	"next_scrape": 1617397464696,
+	"next_scrape": 1617396188238,
 	"category": "fishie_tank",
-	"last_update": 1617354894449,
+	"last_update": 1617354966652,
 	"output": [
 		{
 			"args": {},
@@ -50,7 +50,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 7133,
+			"calls": 8339,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -70,7 +70,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 68177,
+			"calls": 92709,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"scard",
@@ -93,14 +93,6 @@
 				"stack\\n",
 				"ck\\n2175 "
 			]
-		}
-	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
 		}
 	]
 }
