@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_bl3n9m.impulse",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_bl3n9m.impulse",
 	"sector": "K_9004",
 	"sec_level": 4,
 	"date_added": 1613388663051,
-	"last_scraped": 1617296301962,
+	"last_scraped": 1617350059004,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,20 +14,24 @@
 		}
 	],
 	"scrape_ct": 0,
-	"next_scrape": 1617336013810,
+	"next_scrape": 1617395348306,
 	"category": "fishie_tank",
-	"last_update": 1617296301962,
+	"last_update": 1617350059004,
 	"output": [
 		{
 			"args": {},
-			"calls": 90553,
+			"calls": 113543,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"n-the",
 				": wha",
+				"nt-in-",
 				"are we",
+				"s elepha",
 				"phant-in",
 				"m time: ",
+				"lephant-",
+				"he-room ",
 				"hat are "
 			],
 			"hits": [
@@ -48,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 11810,
+			"calls": 13094,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -72,7 +76,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 108819,
+			"calls": 115208,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"n-the",
@@ -101,6 +105,6 @@
 			]
 		}
 	],
-	"updt": 1613389732469,
-	"edit": 4
+	"updt": 1617350015270,
+	"edit": 6
 }

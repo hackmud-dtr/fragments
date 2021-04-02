@@ -6,7 +6,7 @@
 	"sector": "SPC_8233",
 	"sec_level": 4,
 	"date_added": 1613152280913,
-	"last_scraped": 1617296030070,
+	"last_scraped": 1617349655836,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,19 +14,24 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1617342736991,
+	"next_scrape": 1617393306814,
 	"category": "fishie_tank",
-	"last_update": 1617296030070,
+	"last_update": 1617349655836,
 	"output": [
 		{
 			"args": {},
-			"calls": 26938,
+			"calls": 35592,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"_FILE",
+				"ROR | ",
 				"R | TI",
+				"A91C\\n",
 				"E0X5282",
 				"SYST ERR",
 				"ST0X13_S",
+				"ROG ERRO",
+				"G ERROR ",
 				"_CLST0X1"
 			],
 			"hits": [
@@ -51,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3957,
+			"calls": 5240,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -59,10 +64,15 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"_FILE",
+				"ROR | ",
 				"R | TI",
+				"A91C\\n",
 				"E0X5282",
 				"SYST ERR",
 				"ST0X13_S",
+				"ROG ERRO",
+				"G ERROR ",
 				"_CLST0X1"
 			]
 		},
@@ -70,7 +80,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 14640,
+			"calls": 29481,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"_FILE",
@@ -99,6 +109,6 @@
 			]
 		}
 	],
-	"updt": 1613152457385,
-	"edit": 1
+	"updt": 1617327140165,
+	"edit": 2
 }

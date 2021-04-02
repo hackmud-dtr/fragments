@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_1joycr.pzqsa0_verification",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_1joycr.pzqsa0_verification",
 	"sector": "NGC_8947",
 	"sec_level": 4,
 	"date_added": 1613466100366,
-	"last_scraped": 1617296409648,
+	"last_scraped": 1617350384918,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,28 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1617340320446,
+	"next_scrape": 1617393788351,
 	"category": "fishie_tank",
-	"last_update": 1617296409648,
+	"last_update": 1617350384918,
 	"output": [
 		{
 			"args": {},
-			"calls": 30437,
+			"calls": 68051,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ty to",
 				"to pu",
+				"put t",
 				"his i",
+				"entra",
 				". Thi",
+				"ut thi",
+				"her. W",
+				"unity t",
 				"t's only",
-				"It's onl"
+				"It's onl",
+				"ack cent",
+				" days to"
 			],
 			"hits": [
 				{
@@ -96,6 +103,14 @@
 			]
 		}
 	],
-	"updt": 1613466329450,
-	"edit": 2
+	"updt": 1617327140165,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
