@@ -1,29 +1,24 @@
 {
 	"_id": "anon_rjpvba.test0",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_rjpvba.test0",
 	"sector": "VNP_5195",
 	"sec_level": 4,
 	"date_added": 1614338282790,
-	"last_scraped": 1614338446910,
+	"last_scraped": 1617297462945,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1614338282790
 		}
 	],
-	"updt": 1614338329195,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
+	"updt": 1614338525030,
+	"edit": 2,
 	"scrape_ct": 17,
-	"next_scrape": 1614338506910,
+	"next_scrape": 1617340645238,
 	"category": "fishie_tank",
-	"last_update": 1614338465872,
+	"last_update": 1617297462945,
 	"output": [
 		{
 			"args": {},
@@ -62,6 +57,21 @@
 				"they are still hungry?",
 				"they don't look so good"
 			],
+			"fragments": [
+				"the p",
+				"bout ",
+				"ograph",
+				"e we g",
+				"oing to ",
+				" pornogr"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 14981,
+			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"the p",
 				"bout ",

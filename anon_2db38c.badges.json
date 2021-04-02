@@ -1,12 +1,12 @@
 {
 	"_id": "anon_2db38c.badges",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "anon_2db38c.badges",
 	"sector": "VNP_1456",
 	"sec_level": 4,
 	"date_added": 1614781953918,
-	"last_scraped": 1614782044411,
+	"last_scraped": 1617298118293,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1614782104411,
+	"next_scrape": 1617389375114,
 	"category": "risk_factor",
-	"last_update": 1614782044411,
+	"last_update": 1617298118293,
 	"output": [
 		{
 			"args": {},
@@ -37,9 +34,25 @@
 				"and comm",
 				" forms ("
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 554,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"c) an",
+				"ata f",
+				" 'inci",
+				"g etc) ",
+				"organic'",
+				"ganic' o",
+				"al' form"
+			]
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1614782042501,
-	"edit": 1
+	"updt": 1614782239554,
+	"edit": 2
 }

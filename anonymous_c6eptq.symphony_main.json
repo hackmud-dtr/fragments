@@ -1,30 +1,22 @@
 {
 	"_id": "anonymous_c6eptq.symphony_main",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anonymous_c6eptq.symphony_main",
 	"sector": "VNP_9161",
 	"sec_level": 4,
 	"date_added": 1613881422687,
-	"last_scraped": 1613881497235,
+	"last_scraped": 1617303935636,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1613881422687
 		}
 	],
-	"retry_args": [
-		{
-			"do": "win"
-		},
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 17,
-	"next_scrape": 1613881557235,
+	"next_scrape": 1617394351929,
 	"category": "risk_factor",
-	"last_update": 1613881497235,
+	"last_update": 1617296865244,
 	"output": [
 		{
 			"args": {},
@@ -39,9 +31,38 @@
 				"apologis",
 				". Anyway"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 176,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"rofes",
+				"logis",
+				"good ",
+				" used ",
+				" thing",
+				"n this ",
+				"## Don'",
+				"way: in ",
+				"hats. An",
+				"hat's a ",
+				". ## Hah"
+			]
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1613881453951,
-	"edit": 1
+	"updt": 1613881648235,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

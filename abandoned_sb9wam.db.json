@@ -1,27 +1,22 @@
 {
 	"_id": "abandoned_sb9wam.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_sb9wam.db",
 	"sector": "HJG_5361",
 	"sec_level": 4,
 	"date_added": 1613581938066,
-	"last_scraped": 1613582011736,
+	"last_scraped": 1617296592260,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1613581938066
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 17,
-	"next_scrape": 1613582071736,
+	"next_scrape": 1617337059613,
 	"category": "fishie_tank",
-	"last_update": 1613582030037,
+	"last_update": 1617296592260,
 	"output": [
 		{
 			"args": {},
@@ -71,6 +66,23 @@
 				"ards\\n21",
 				"169 Atta"
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 19344,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"send ",
+				"ins i",
+				"TRAPS s",
+				"order t",
+				"acker T",
+				"in order",
+				"9 Attack",
+				"lve.\\n216"
+			]
 		}
 	],
 	"identified": [
@@ -87,6 +99,6 @@
 			]
 		}
 	],
-	"updt": 1613582018811,
-	"edit": 1
+	"updt": 1613582213657,
+	"edit": 2
 }

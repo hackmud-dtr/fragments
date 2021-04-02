@@ -1,27 +1,22 @@
 {
 	"_id": "unidentified_3n6uep.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unidentified_3n6uep.bot_scam_do_not_run",
 	"sector": "VNP_5195",
 	"sec_level": 4,
 	"date_added": 1614272595567,
-	"last_scraped": 1614272611720,
+	"last_scraped": 1617297354952,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1614272595567
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1614272671720,
+	"next_scrape": 1617338480259,
 	"category": "fishie_tank",
-	"last_update": 1614272684102,
+	"last_update": 1617297354952,
 	"output": [
 		{
 			"args": {},
@@ -74,6 +69,21 @@
 				"nd i am ",
 				" pretty "
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 40444,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ot, p",
+				"ace t",
+				"pretty",
+				"much, ",
+				"much p",
+				" infos"
+			]
 		}
 	],
 	"identified": [
@@ -91,6 +101,6 @@
 			]
 		}
 	],
-	"updt": 1614272628872,
-	"edit": 1
+	"updt": 1614272823602,
+	"edit": 2
 }

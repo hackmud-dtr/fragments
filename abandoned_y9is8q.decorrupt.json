@@ -1,25 +1,20 @@
 {
 	"_id": "abandoned_y9is8q.decorrupt",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "abandoned_y9is8q.decorrupt",
 	"sector": "VNP_9996",
 	"sec_level": 4,
 	"date_added": 1614454207896,
-	"last_scraped": 1614454298834,
+	"last_scraped": 1617297682967,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1614454207896
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1614454358834,
+	"next_scrape": 1617388558544,
 	"category": "risk_factor",
 	"last_update": 1614454298834,
 	"output": [
@@ -55,6 +50,15 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1614454274631,
-	"edit": 1
+	"updt": 1614454468651,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

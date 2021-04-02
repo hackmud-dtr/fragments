@@ -1,27 +1,22 @@
 {
 	"_id": "anon_4gydiy.internal",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anon_4gydiy.internal",
 	"sector": "SPC_8488",
 	"sec_level": 4,
 	"date_added": 1614373197114,
-	"last_scraped": 1614373233175,
+	"last_scraped": 1617297592334,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1614373197114
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1614373293175,
+	"next_scrape": 1617343127358,
 	"category": "fishie_tank",
-	"last_update": 1614373287627,
+	"last_update": 1617297592334,
 	"output": [
 		{
 			"args": {},
@@ -68,6 +63,24 @@
 				"greed th",
 				"ere not "
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 4611,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"nces w",
+				"y. ## W",
+				"Mallory",
+				"e dont ",
+				"allory ",
+				"erin, we",
+				"# Who sa",
+				" sentien",
+				" a prior"
+			]
 		}
 	],
 	"identified": [
@@ -82,5 +95,7 @@
 				"ere not "
 			]
 		}
-	]
+	],
+	"updt": 1614373323997,
+	"edit": 1
 }

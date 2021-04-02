@@ -1,27 +1,22 @@
 {
 	"_id": "abandoned_ld33km.upgrades",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abandoned_ld33km.upgrades",
 	"sector": "SPC_8233",
 	"sec_level": 4,
 	"date_added": 1613152280913,
-	"last_scraped": 1613152315154,
+	"last_scraped": 1617296030070,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1613152280913
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1613152375154,
+	"next_scrape": 1617342736991,
 	"category": "fishie_tank",
-	"last_update": 1613152369755,
+	"last_update": 1617296030070,
 	"output": [
 		{
 			"args": {},
@@ -70,6 +65,21 @@
 				"ST0X13_S",
 				"_CLST0X1"
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 14640,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"_FILE",
+				"YST ER",
+				"ROR | ",
+				"A91C\\n",
+				"ROG ERRO",
+				"G ERROR "
+			]
 		}
 	],
 	"identified": [
@@ -88,5 +98,7 @@
 				"ST0X13_S"
 			]
 		}
-	]
+	],
+	"updt": 1613152457385,
+	"edit": 1
 }

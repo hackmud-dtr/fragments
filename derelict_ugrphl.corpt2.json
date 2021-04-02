@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_ugrphl.corpt2",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "derelict_ugrphl.corpt2",
 	"sector": "NGC_0613",
 	"sec_level": 4,
 	"date_added": 1614614083116,
-	"last_scraped": 1614614173675,
+	"last_scraped": 1617297737245,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1614699369130,
+	"next_scrape": 1617383250908,
 	"category": "risk_factor",
 	"last_update": 1614614173675,
 	"output": [
@@ -806,11 +806,15 @@
 		}
 	],
 	"cannot_identify": true,
+	"updt": 1614614357971,
+	"edit": 2,
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}
 	],
-	"updt": 1614614162826,
-	"edit": 1
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

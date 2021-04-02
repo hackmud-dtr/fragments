@@ -1,25 +1,20 @@
 {
 	"_id": "anonymous_mydzr2.vita",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anonymous_mydzr2.vita",
 	"sector": "NGC_0613",
 	"sec_level": 4,
 	"date_added": 1614679045600,
-	"last_scraped": 1614679135306,
+	"last_scraped": 1617297809069,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1614679045600
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1614679195306,
+	"next_scrape": 1617377568469,
 	"category": "risk_factor",
 	"last_update": 1614679135306,
 	"output": [
@@ -46,5 +41,16 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1614679238752,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
