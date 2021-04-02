@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_5hu1ys.sniff",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_5hu1ys.sniff",
 	"sector": "VNP_9145",
 	"sec_level": 4,
 	"date_added": 1610387581645,
-	"last_scraped": 1617292617831,
+	"last_scraped": 1617345988047,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,20 +14,28 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1617334108276,
+	"next_scrape": 1617387018697,
 	"category": "fishie_tank",
-	"last_update": 1617292617831,
+	"last_update": 1617346024303,
 	"output": [
 		{
 			"args": {},
-			"calls": 18271,
+			"calls": 45019,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"SURING",
-				"DO NOT",
+				"ntion",
+				"eers ",
 				" my en",
+				" menti",
+				"o play ",
+				"DO NOT ",
+				" NOT EX",
 				"Y OF OUR",
-				"ers to i"
+				"NSURING ",
+				"n ENSURI",
+				"ES and I",
+				"ers to i",
+				" in ENSU"
 			],
 			"hits": [
 				{
@@ -46,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4132,
+			"calls": 5318,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -54,11 +62,19 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"SURING",
-				"DO NOT",
+				"ntion",
+				"eers ",
 				" my en",
+				" menti",
+				"o play ",
+				"DO NOT ",
+				" NOT EX",
 				"Y OF OUR",
-				"ers to i"
+				"NSURING ",
+				"n ENSURI",
+				"ES and I",
+				"ers to i",
+				" in ENSU"
 			],
 			"hits": [
 				{
@@ -94,8 +110,8 @@
 			]
 		}
 	],
-	"updt": 1610387685466,
-	"edit": 1,
+	"updt": 1617325575027,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
@@ -106,6 +122,11 @@
 				"Y OF OUR",
 				"ers to i"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
