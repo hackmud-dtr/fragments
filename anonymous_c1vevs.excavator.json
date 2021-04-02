@@ -6,32 +6,40 @@
 	"sector": "K_3530",
 	"sec_level": 4,
 	"date_added": 1611193591272,
-	"last_scraped": 1611193842368,
+	"last_scraped": 1617315636638,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1611193591272
 		}
 	],
-	"updt": 1611193800747,
-	"edit": 2,
+	"updt": 1611193996713,
+	"edit": 3,
 	"scrape_ct": 14,
-	"next_scrape": 1611193902368,
+	"next_scrape": 1617359219647,
 	"category": "fishie_tank",
-	"last_update": 1611193842368,
+	"last_update": 1617315708874,
 	"output": [
 		{
 			"args": {},
-			"calls": 22569,
+			"calls": 28614,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"YST E",
 				"T0X3F",
+				"ETW E",
+				"erajb",
+				" USER",
 				"s | BOD",
+				"RROR | ",
+				"r | SUB",
 				"F_FILE0",
+				"_FILE0X",
 				"X7ED7C93",
+				"ROR | PR",
 				"| BODY A",
-				" extnl-a"
+				" extnl-a",
+				" ERROR |"
 			],
 			"hits": [
 				{
@@ -52,7 +60,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3000,
+			"calls": 6658,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -62,11 +70,19 @@
 			"fragments": [
 				"YST E",
 				"T0X3F",
+				"ETW E",
+				"erajb",
+				" USER",
 				"s | BOD",
+				"RROR | ",
+				"r | SUB",
 				"F_FILE0",
+				"_FILE0X",
 				"X7ED7C93",
+				"ROR | PR",
 				"| BODY A",
-				" extnl-a"
+				" extnl-a",
+				" ERROR |"
 			],
 			"hits": [
 				{
@@ -126,6 +142,11 @@
 				"| BODY A",
 				" extnl-a"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

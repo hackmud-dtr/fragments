@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_dem1lf.payout",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "uknown_dem1lf.payout",
 	"sector": "K_3530",
 	"sec_level": 4,
 	"date_added": 1611208508349,
-	"last_scraped": 1611208600027,
+	"last_scraped": 1617315781399,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,30 +14,52 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1611208660027,
+	"next_scrape": 1617356962757,
 	"category": "fishie_tank",
-	"last_update": 1611208600027,
+	"last_update": 1617315781399,
 	"output": [
 		{
 			"args": {},
-			"calls": 25822,
+			"calls": 32767,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"T0X7A",
 				"E16 O",
-				"XBF_CL",
+				"BC7D1",
 				"LE0X2B",
+				" Mallo",
+				"A_SECT0",
 				"71\\nAD0",
+				"0XBF_CL",
+				"F227_FIL",
 				"E0X2BC7D",
+				"D031E16 ",
 				"\\nAD031E",
-				"_FILE0X2"
+				"_FILE0X2",
+				"_CLST0X7",
+				"7D171\\nAD"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"T0X7A",
+						"E16 O",
+						"XBF_CL",
+						"LE0X2B",
+						"71\\nAD0",
+						"E0X2BC7D",
+						"\\nAD031E",
+						"_FILE0X2"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1454,
+			"calls": 2977,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -47,21 +69,82 @@
 			"fragments": [
 				"T0X7A",
 				"E16 O",
-				"XBF_CL",
+				"BC7D1",
 				"LE0X2B",
+				" Mallo",
+				"A_SECT0",
 				"71\\nAD0",
+				"0XBF_CL",
+				"F227_FIL",
 				"E0X2BC7D",
+				"D031E16 ",
 				"\\nAD031E",
-				"_FILE0X2"
+				"_FILE0X2",
+				"_CLST0X7",
+				"7D171\\nAD"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"T0X7A",
+						"E16 O",
+						"XBF_CL",
+						"LE0X2B",
+						"71\\nAD0",
+						"E0X2BC7D",
+						"\\nAD031E",
+						"_FILE0X2"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "clean"
 			},
-			"calls": 5943,
+			"calls": 9852,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
+				"T0X7A",
+				"E16 O",
+				"BC7D1",
+				"LE0X2B",
+				" Mallo",
+				"A_SECT0",
+				"71\\nAD0",
+				"0XBF_CL",
+				"F227_FIL",
+				"E0X2BC7D",
+				"D031E16 ",
+				"\\nAD031E",
+				"_FILE0X2",
+				"_CLST0X7",
+				"7D171\\nAD"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"T0X7A",
+						"E16 O",
+						"XBF_CL",
+						"LE0X2B",
+						"71\\nAD0",
+						"E0X2BC7D",
+						"\\nAD031E",
+						"_FILE0X2"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1611208651239,
+	"edit": 1,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
 				"T0X7A",
 				"E16 O",
 				"XBF_CL",

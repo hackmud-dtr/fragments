@@ -1,25 +1,20 @@
 {
 	"_id": "uknown_peuw5e.combiner",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "uknown_peuw5e.combiner",
 	"sector": "SPC_2557",
 	"sec_level": 4,
 	"date_added": 1611121764215,
-	"last_scraped": 1611121836818,
+	"last_scraped": 1617293403180,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1611121764215
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 17,
-	"next_scrape": 1611121896818,
+	"next_scrape": 1617379145047,
 	"category": "risk_factor",
 	"last_update": 1611121836818,
 	"output": [
@@ -57,5 +52,17 @@
 				"\\n1E60 t"
 			]
 		}
-	]
+	],
+	"updt": 1611121873348,
+	"edit": 1,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

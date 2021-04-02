@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_0o741l.t1",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_0o741l.t1",
 	"sector": "NGC_4398",
 	"sec_level": 4,
 	"date_added": 1610873603100,
-	"last_scraped": 1610873802210,
+	"last_scraped": 1617293200112,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1610873862210,
+	"next_scrape": 1617336107464,
 	"category": "fishie_tank",
-	"last_update": 1610873838121,
+	"last_update": 1617293200112,
 	"output": [
 		{
 			"args": {},
@@ -85,15 +85,18 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 8909,
+			"calls": 48950,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				" 1001",
 				"00\\n000",
-				"00 0000",
+				"0 0100 ",
+				"1001 010",
+				"0100 000",
 				"01 0100 ",
 				"0000 000",
 				" 0000 00",
+				"00 0000\\n",
 				" 0000\\n00"
 			],
 			"hits": [
@@ -126,11 +129,6 @@
 			]
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"updt": 1610873818248,
-	"edit": 1
+	"updt": 1610874012654,
+	"edit": 2
 }
