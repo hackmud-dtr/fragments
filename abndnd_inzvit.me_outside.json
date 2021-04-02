@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_inzvit.me_outside",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "abndnd_inzvit.me_outside",
 	"sector": "VNP_1456",
 	"sec_level": 4,
 	"date_added": 1614775127663,
-	"last_scraped": 1614775601563,
+	"last_scraped": 1617331371713,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,18 +14,20 @@
 		}
 	],
 	"scrape_ct": 7,
-	"next_scrape": 1614775661563,
+	"next_scrape": 1617373649677,
 	"category": "dice_roller",
-	"last_update": 1614775601563,
+	"last_update": 1617331371713,
 	"output": [
 		{
 			"args": {},
-			"calls": 122561,
+			"calls": 137430,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
-				"00 00",
 				"00 0100",
-				"0 0000 0"
+				"000 0000",
+				"0 0000 0",
+				" 0000 01",
+				" 0000 00"
 			],
 			"hits": [
 				{
@@ -49,6 +51,6 @@
 			]
 		}
 	],
-	"updt": 1614775595404,
-	"edit": 3
+	"updt": 1614775791593,
+	"edit": 4
 }
