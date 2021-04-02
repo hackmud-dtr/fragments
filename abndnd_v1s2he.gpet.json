@@ -1,12 +1,12 @@
 {
 	"_id": "abndnd_v1s2he.gpet",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_v1s2he.gpet",
 	"sector": "K_5784",
 	"sec_level": 4,
 	"date_added": 1611628672970,
-	"last_scraped": 1617317214362,
+	"last_scraped": 1617373699299,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1617361601020,
+	"next_scrape": 1617415505890,
 	"category": "fishie_tank",
-	"last_update": 1617317214362,
+	"last_update": 1617373736282,
 	"output": [
 		{
 			"args": {},
-			"calls": 16659,
+			"calls": 40990,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"t's a",
@@ -32,15 +32,20 @@
 				"s a pe",
 				"e Bina",
 				" tests",
-				" lesso",
 				"tal ess",
 				"ssence ",
 				"n facto",
 				"ichever",
-				"ess. Th",
+				"ests th",
+				"eriod o",
 				"ems bes",
+				". Somet",
+				" lesson",
 				" a less",
-				"s a conv"
+				"s a conv",
+				"etimes a",
+				"ess. The",
+				"ation. S"
 			],
 			"hits": [
 				{
@@ -62,7 +67,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3951,
+			"calls": 6035,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -79,15 +84,20 @@
 				"s a pe",
 				"e Bina",
 				" tests",
-				" lesso",
 				"tal ess",
 				"ssence ",
 				"n facto",
 				"ichever",
-				"ess. Th",
+				"ests th",
+				"eriod o",
 				"ems bes",
+				". Somet",
+				" lesson",
 				" a less",
-				"s a conv"
+				"s a conv",
+				"etimes a",
+				"ess. The",
+				"ation. S"
 			],
 			"hits": [
 				{
@@ -148,8 +158,8 @@
 			]
 		}
 	],
-	"updt": 1611628933100,
-	"edit": 2,
+	"updt": 1617373678337,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "MFT0X3F_CLST0XE4_SECT0X4FC8_FILE0X08E5E16F",
@@ -163,6 +173,11 @@
 				"ems bes",
 				" a less"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
