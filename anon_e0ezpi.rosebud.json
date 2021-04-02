@@ -1,12 +1,12 @@
 {
 	"_id": "anon_e0ezpi.rosebud",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_e0ezpi.rosebud",
 	"sector": "K_2583",
 	"sec_level": 4,
 	"date_added": 1616763988471,
-	"last_scraped": 1617339768106,
+	"last_scraped": 1617401818627,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1617382320995,
+	"next_scrape": 1617447105630,
 	"category": "fishie_tank",
-	"last_update": 1617339768106,
+	"last_update": 1617401872030,
 	"output": [
 		{
 			"args": {},
-			"calls": 22541,
+			"calls": 34093,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"tation",
@@ -58,7 +58,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3839,
+			"calls": 6665,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -90,8 +90,8 @@
 			]
 		}
 	],
-	"updt": 1616764208996,
-	"edit": 2,
+	"updt": 1617401832315,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -113,6 +113,11 @@
 			"frags": [
 				"hat we "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
