@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_j56f9x.ad3",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_j56f9x.ad3",
 	"sector": "K_5784",
 	"sec_level": 4,
 	"date_added": 1611514857228,
-	"last_scraped": 1617293837608,
+	"last_scraped": 1617347543710,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,25 @@
 		}
 	],
 	"scrape_ct": 8,
-	"next_scrape": 1617336200991,
+	"next_scrape": 1617392477977,
 	"category": "fishie_tank",
-	"last_update": 1617293837608,
+	"last_update": 1617347599659,
 	"output": [
 		{
 			"args": {},
-			"calls": 68913,
+			"calls": 96126,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"F_CLS",
 				"LE0XBD",
-				"ILE0XB",
+				"FT0X3F_",
+				"FILE0XB",
+				"F_CLST0",
 				"X8F99_FI",
 				"LST0X0A_",
-				"8F99_FIL"
+				"A_SECT0X",
+				"8F99_FIL",
+				"22E\\nSYS",
+				"\\nSYST ER"
 			],
 			"hits": [
 				{
@@ -48,7 +52,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 10621,
+			"calls": 13573,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -56,12 +60,16 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"F_CLS",
 				"LE0XBD",
-				"ILE0XB",
+				"FT0X3F_",
+				"FILE0XB",
+				"F_CLST0",
 				"X8F99_FI",
 				"LST0X0A_",
-				"8F99_FIL"
+				"A_SECT0X",
+				"8F99_FIL",
+				"22E\\nSYS",
+				"\\nSYST ER"
 			],
 			"hits": [
 				{
@@ -123,6 +131,11 @@
 			]
 		}
 	],
-	"updt": 1611515576108,
-	"edit": 3
+	"updt": 1617326161944,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
