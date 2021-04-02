@@ -6,7 +6,7 @@
 	"sector": "K_3881",
 	"sec_level": 4,
 	"date_added": 1609874830711,
-	"last_scraped": 1609936453485,
+	"last_scraped": 1617311978734,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,29 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1609981151808,
+	"next_scrape": 1617351856486,
 	"category": "fishie_tank",
-	"last_update": 1609936453485,
+	"last_update": 1617311997839,
 	"output": [
 		{
 			"args": {},
-			"calls": 10587,
+			"calls": 32258,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"n the",
+				"_go_o",
 				" butt",
 				"t ever",
 				"e we p",
+				"alues ",
+				"## [do",
 				" befor",
 				" I want",
+				" have a",
 				" [do_go",
+				"lear sen",
+				"h any bu",
+				"e a clea",
 				" we push"
 			],
 			"hits": [
@@ -52,7 +59,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3148,
+			"calls": 4020,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -61,12 +68,19 @@
 			],
 			"fragments": [
 				"n the",
+				"_go_o",
 				" butt",
 				"t ever",
 				"e we p",
+				"alues ",
+				"## [do",
 				" befor",
 				" I want",
+				" have a",
 				" [do_go",
+				"lear sen",
+				"h any bu",
+				"e a clea",
 				" we push"
 			],
 			"hits": [
@@ -103,8 +117,8 @@
 			]
 		}
 	],
-	"updt": 1609909950192,
-	"edit": 2,
+	"updt": 1609936708629,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "MFT0X71_CLST0X8A_SECT0X7356_FILE0X14AFF93F",
@@ -118,6 +132,11 @@
 				" [do_go",
 				" we push"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }

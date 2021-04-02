@@ -6,7 +6,7 @@
 	"sector": "K_3881",
 	"sec_level": 4,
 	"date_added": 1609799125440,
-	"last_scraped": 1609936000610,
+	"last_scraped": 1617311579504,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,20 +14,24 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1609978789699,
+	"next_scrape": 1617351520180,
 	"category": "fishie_tank",
-	"last_update": 1609936000610,
+	"last_update": 1617311653347,
 	"output": [
 		{
 			"args": {},
-			"calls": 44620,
+			"calls": 52699,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"phrase",
-				"nnoyin",
+				"## pa",
 				"e anno",
+				"nnoying",
 				"assphra",
-				"are ann"
+				"ssphrase",
+				"sphrases",
+				"ses are ",
+				"ases are",
+				" are ann"
 			],
 			"hits": [
 				{
@@ -46,7 +50,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3040,
+			"calls": 6959,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -54,11 +58,15 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"phrase",
-				"nnoyin",
+				"## pa",
 				"e anno",
+				"nnoying",
 				"assphra",
-				"are ann"
+				"ssphrase",
+				"sphrases",
+				"ses are ",
+				"ases are",
+				" are ann"
 			]
 		},
 		{
@@ -76,8 +84,8 @@
 			]
 		}
 	],
-	"updt": 1609909950192,
-	"edit": 2,
+	"updt": 1609936122163,
+	"edit": 3,
 	"identified": [
 		{
 			"document": "Passphrase",
@@ -88,6 +96,11 @@
 				"assphra",
 				"are ann"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
