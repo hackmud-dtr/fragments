@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_7i0g1e.hackmud_planck",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_7i0g1e.hackmud_planck",
 	"sector": "K_3627",
 	"sec_level": 4,
 	"date_added": 1616670991810,
-	"last_scraped": 1617301305807,
+	"last_scraped": 1617363088377,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1617346687425,
+	"next_scrape": 1617405085393,
 	"category": "clicker",
-	"last_update": 1617301305807,
+	"last_update": 1617363088377,
 	"output": [
 		{
 			"args": {},
-			"calls": 15883,
+			"calls": 31098,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				" you l",
@@ -50,7 +50,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 15560,
+			"calls": 44018,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				" you l",
@@ -93,6 +93,11 @@
 			]
 		}
 	],
-	"updt": 1616671164639,
-	"edit": 1
+	"updt": 1617328311164,
+	"edit": 2,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }

@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_h5pu25.n",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_h5pu25.n",
 	"sector": "K_9211",
 	"sec_level": 4,
 	"date_added": 1616406624445,
-	"last_scraped": 1617300655811,
+	"last_scraped": 1617362650090,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,25 +14,31 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1617346104571,
+	"next_scrape": 1617404627216,
 	"category": "fishie_tank",
-	"last_update": 1617300655811,
+	"last_update": 1617362707145,
 	"output": [
 		{
 			"args": {},
-			"calls": 22635,
+			"calls": 46399,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"ut th",
+				"ll, w",
 				"f the",
-				"ervic",
 				", con",
 				"sider ",
 				"o we, ",
+				"has ha",
 				" we, n",
+				"now, co",
 				"its tim",
 				"d its t",
 				"hat has ",
-				"der to b"
+				"er to be",
+				"der to b",
+				"as had i",
+				" service"
 			],
 			"hits": [
 				{
@@ -144,7 +150,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2002,
+			"calls": 5041,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -152,16 +158,22 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"ut th",
+				"ll, w",
 				"f the",
-				"ervic",
 				", con",
 				"sider ",
 				"o we, ",
+				"has ha",
 				" we, n",
+				"now, co",
 				"its tim",
 				"d its t",
 				"hat has ",
-				"der to b"
+				"er to be",
+				"der to b",
+				"as had i",
+				" service"
 			]
 		},
 		{
@@ -287,6 +299,11 @@
 			]
 		}
 	],
-	"updt": 1616406920849,
-	"edit": 2
+	"updt": 1617328311164,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
