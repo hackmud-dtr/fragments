@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_0o741l.t1_scraper",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_0o741l.t1_scraper",
 	"sector": "NGC_7322",
 	"sec_level": 4,
 	"date_added": 1615504144138,
-	"last_scraped": 1617334044387,
+	"last_scraped": 1617397892530,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1617377752301,
+	"next_scrape": 1617441181536,
 	"category": "clicker",
-	"last_update": 1617334044387,
+	"last_update": 1617397892530,
 	"output": [
 		{
 			"args": {},
-			"calls": 16681,
+			"calls": 44690,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"nted ",
@@ -115,6 +115,14 @@
 			]
 		}
 	],
-	"updt": 1615504419160,
-	"edit": 2
+	"updt": 1617334364243,
+	"edit": 3,
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
+		}
+	]
 }
