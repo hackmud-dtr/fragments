@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_rb0wk0.kills",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "derelict_rb0wk0.kills",
 	"sector": "HJG_5000",
 	"sec_level": 4,
 	"date_added": 1614196600292,
-	"last_scraped": 1617297228985,
+	"last_scraped": 1617383839417,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1617381530549,
+	"next_scrape": 1617477185463,
 	"category": "risk_factor",
-	"last_update": 1614196691299,
+	"last_update": 1617383839417,
 	"output": [
 		{
 			"args": {},
@@ -35,25 +35,21 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 167,
+			"calls": 341,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
-				"00 00",
-				"1001 0",
-				"0 0000 ",
-				" 0000 0",
+				" 1001 0",
 				"001 0100",
+				"000 0000",
+				"0 0000 0",
 				"000\\n0000"
 			]
 		}
 	],
-	"updt": 1614196773955,
-	"edit": 1,
+	"updt": 1617327726301,
+	"edit": 2,
 	"cannot_identify": true,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
