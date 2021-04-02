@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_077aqh.colon_boot_colon",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_077aqh.colon_boot_colon",
 	"sector": "NGC_4090",
 	"sec_level": 4,
 	"date_added": 1617256238322,
-	"last_scraped": 1617302303701,
+	"last_scraped": 1617364038510,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1617346514793,
+	"next_scrape": 1617409225747,
 	"category": "risk_factor",
-	"last_update": 1617302303701,
+	"last_update": 1617364038510,
 	"output": [
 		{
 			"args": {},
-			"calls": 1931,
+			"calls": 6631,
 			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 			"fragments": [
 				"the r",
@@ -42,7 +42,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 494,
+			"calls": 927,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"5",
@@ -398,6 +398,11 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1617256395758,
-	"edit": 1
+	"updt": 1617328508137,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }
