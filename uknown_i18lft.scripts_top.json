@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_i18lft.scripts_top",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_i18lft.scripts_top",
 	"sector": "NGC_4864",
 	"sec_level": 4,
 	"date_added": 1615346556082,
-	"last_scraped": 1617304315661,
+	"last_scraped": 1617366752214,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1617344475456,
+	"next_scrape": 1617407671033,
 	"category": "clicker",
-	"last_update": 1617304315661,
+	"last_update": 1617366752214,
 	"output": [
 		{
 			"args": {},
-			"calls": 36179,
+			"calls": 65028,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"hole.",
@@ -93,6 +93,14 @@
 			]
 		}
 	],
-	"updt": 1615346696747,
-	"edit": 1
+	"updt": 1617328117220,
+	"edit": 2,
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
+		}
+	]
 }

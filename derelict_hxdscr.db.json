@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_hxdscr.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_hxdscr.db",
 	"sector": "NGC_7322",
 	"sec_level": 4,
 	"date_added": 1615564271164,
-	"last_scraped": 1617304444507,
+	"last_scraped": 1617366969143,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1617344117676,
+	"next_scrape": 1617407985570,
 	"category": "clicker",
-	"last_update": 1617304444507,
+	"last_update": 1617366969143,
 	"output": [
 		{
 			"args": {},
-			"calls": 31154,
+			"calls": 54727,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"anes.",
@@ -88,6 +88,14 @@
 			]
 		}
 	],
-	"updt": 1615564428517,
-	"edit": 1
+	"updt": 1617328117220,
+	"edit": 2,
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
+		}
+	]
 }
