@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_ll7to9.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_ll7to9.db",
 	"sector": "VNP_1400",
 	"sec_level": 4,
 	"date_added": 1615707533875,
-	"last_scraped": 1617355472682,
+	"last_scraped": 1617405254769,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 12,
-	"next_scrape": 1617399494511,
+	"next_scrape": 1617448710176,
 	"category": "fishie_tank",
-	"last_update": 1617355472682,
+	"last_update": 1617405254769,
 	"output": [
 		{
 			"args": {},
-			"calls": 55926,
+			"calls": 86701,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"P card",
@@ -103,6 +103,14 @@
 			]
 		}
 	],
-	"updt": 1617328117220,
-	"edit": 4
+	"updt": 1617355689179,
+	"edit": 5,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }

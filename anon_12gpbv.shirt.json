@@ -1,12 +1,12 @@
 {
 	"_id": "anon_12gpbv.shirt",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_12gpbv.shirt",
 	"sector": "NGC_3453",
 	"sec_level": 4,
 	"date_added": 1615914029771,
-	"last_scraped": 1617362434324,
+	"last_scraped": 1617405419240,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1617405370240,
+	"next_scrape": 1617448980770,
 	"category": "fishie_tank",
-	"last_update": 1617362434324,
+	"last_update": 1617405472633,
 	"output": [
 		{
 			"args": {},
-			"calls": 41778,
+			"calls": 59865,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ontra",
@@ -54,7 +54,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5928,
+			"calls": 8743,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -107,8 +107,8 @@
 			]
 		}
 	],
-	"updt": 1617328117220,
-	"edit": 3,
+	"updt": 1617362529135,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
@@ -120,6 +120,11 @@
 				"It is co",
 				"4 It is "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
