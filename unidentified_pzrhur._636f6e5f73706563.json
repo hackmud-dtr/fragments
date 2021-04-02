@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_pzrhur._636f6e5f73706563",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_pzrhur._636f6e5f73706563",
 	"sector": "K_0692",
 	"sec_level": 4,
 	"date_added": 1612754187806,
-	"last_scraped": 1617295557737,
+	"last_scraped": 1617349257227,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,15 +14,17 @@
 		}
 	],
 	"scrape_ct": 1,
-	"next_scrape": 1617338697584,
+	"next_scrape": 1617394102973,
 	"category": "fishie_tank",
-	"last_update": 1617295557737,
+	"last_update": 1617349257227,
 	"output": [
 		{
 			"args": {},
-			"calls": 104876,
+			"calls": 120582,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"has w",
+				"game ",
 				"6 the",
 				"2105 ",
 				"ou and",
@@ -30,8 +32,11 @@
 				"cker h",
 				" is re",
 				".\\n2107",
+				" I have",
 				" attack",
-				"ve breac"
+				"ve breac",
+				"u and\\n2",
+				"I have b"
 			],
 			"hits": [
 				{
@@ -54,7 +59,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 9919,
+			"calls": 11012,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -98,7 +103,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 92582,
+			"calls": 116338,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"has w",
@@ -150,6 +155,6 @@
 			]
 		}
 	],
-	"updt": 1612755124142,
-	"edit": 3
+	"updt": 1617349228570,
+	"edit": 5
 }
