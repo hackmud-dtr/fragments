@@ -1,25 +1,20 @@
 {
 	"_id": "abndnd_9h6spg.cash_dash",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "abndnd_9h6spg.cash_dash",
 	"sector": "NGC_0065",
 	"sec_level": 4,
 	"date_added": 1617278999047,
-	"last_scraped": 1617279089595,
+	"last_scraped": 1617302360205,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1617278999047
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1617279149595,
+	"next_scrape": 1617386281897,
 	"category": "risk_factor",
 	"last_update": 1617279089595,
 	"output": [
@@ -52,7 +47,16 @@
 			]
 		}
 	],
-	"updt": 1617279063306,
-	"edit": 1,
-	"cannot_identify": true
+	"updt": 1617279258844,
+	"edit": 2,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

@@ -1,32 +1,24 @@
 {
 	"_id": "unknown_by9tpy.terminal",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unknown_by9tpy.terminal",
 	"sector": "VNP_4726",
 	"sec_level": 4,
 	"date_added": 1616944631988,
-	"last_scraped": 1616944722172,
+	"last_scraped": 1617301812627,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1616944631988
 		}
 	],
-	"updt": 1616944641011,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
+	"updt": 1616944836289,
+	"edit": 2,
 	"scrape_ct": 16,
-	"next_scrape": 1616944782172,
+	"next_scrape": 1617346728446,
 	"category": "fishie_tank",
-	"last_update": 1616944722172,
+	"last_update": 1617301812627,
 	"output": [
 		{
 			"args": {},
@@ -59,6 +51,43 @@
 						"activ"
 					]
 				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4456,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ta-ac",
+				"popul",
+				"ld ac",
+				"activ",
+				" or su",
+				"would a",
+				"ent in t"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 9078,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ta-ac",
+				"popul",
+				"ld ac",
+				"activ",
+				" or su",
+				"would a",
+				"ent in t"
 			]
 		}
 	],

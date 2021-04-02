@@ -1,27 +1,22 @@
 {
 	"_id": "derelict_znnvwi.blib",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_znnvwi.blib",
 	"sector": "K_9211",
 	"sec_level": 4,
 	"date_added": 1616265568828,
-	"last_scraped": 1616265585950,
+	"last_scraped": 1617300601429,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1616265568828
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1616265645950,
+	"next_scrape": 1617341264936,
 	"category": "fishie_tank",
-	"last_update": 1616265659132,
+	"last_update": 1617300601429,
 	"output": [
 		{
 			"args": {},
@@ -101,6 +96,21 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 19931,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"st the",
+				"and it",
+				"ry, and",
+				"d it is",
+				" memory",
+				"y. We ar"
+			]
 		}
 	],
 	"identified": [
@@ -120,5 +130,7 @@
 				"ry that "
 			]
 		}
-	]
+	],
+	"updt": 1616265932466,
+	"edit": 1
 }

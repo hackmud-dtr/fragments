@@ -1,27 +1,22 @@
 {
 	"_id": "anonymous_3ltnmu.whitelist",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "anonymous_3ltnmu.whitelist",
 	"sector": "VNP_4726",
 	"sec_level": 4,
 	"date_added": 1616887151024,
-	"last_scraped": 1616887187687,
+	"last_scraped": 1617301704338,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1616887151024
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1616887247687,
+	"next_scrape": 1617345789241,
 	"category": "fishie_tank",
-	"last_update": 1616887243315,
+	"last_update": 1617301704338,
 	"output": [
 		{
 			"args": {},
@@ -108,10 +103,25 @@
 				"tain the",
 				" to buil"
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 34708,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ding ",
+				"at un",
+				"hat he",
+				"mentall",
+				"tain the",
+				" to buil"
+			]
 		}
 	],
-	"updt": 1616887174623,
-	"edit": 1,
+	"updt": 1616887368487,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "NOT FOUND",

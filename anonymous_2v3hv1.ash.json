@@ -1,27 +1,22 @@
 {
 	"_id": "anonymous_2v3hv1.ash",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anonymous_2v3hv1.ash",
 	"sector": "VNP_4726",
 	"sec_level": 4,
 	"date_added": 1616902216886,
-	"last_scraped": 1616902325727,
+	"last_scraped": 1617301722842,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1616902216886
 		}
 	],
-	"updt": 1616902220169,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
+	"updt": 1616902415645,
+	"edit": 2,
 	"scrape_ct": 16,
-	"next_scrape": 1616902385727,
+	"next_scrape": 1617381112610,
 	"category": "risk_factor",
 	"last_update": 1616902325727,
 	"output": [
@@ -54,5 +49,14 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

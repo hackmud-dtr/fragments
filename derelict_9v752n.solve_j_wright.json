@@ -1,25 +1,20 @@
 {
 	"_id": "derelict_9v752n.solve_j_wright",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "derelict_9v752n.solve_j_wright",
 	"sector": "VNP_6537",
 	"sec_level": 4,
 	"date_added": 1615753922888,
-	"last_scraped": 1615754014624,
+	"last_scraped": 1617299551472,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1615753922888
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1615754074624,
+	"next_scrape": 1617392857917,
 	"category": "risk_factor",
 	"last_update": 1615754014624,
 	"output": [
@@ -51,6 +46,15 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1615754010946,
-	"edit": 1
+	"updt": 1615754207420,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

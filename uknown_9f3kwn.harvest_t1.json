@@ -1,25 +1,20 @@
 {
 	"_id": "uknown_9f3kwn.harvest_t1",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "uknown_9f3kwn.harvest_t1",
 	"sector": "NGC_3485",
 	"sec_level": 4,
 	"date_added": 1616122577660,
-	"last_scraped": 1616122650179,
+	"last_scraped": 1617300220084,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1616122577660
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1616202330397,
+	"next_scrape": 1617385130649,
 	"category": "risk_factor",
 	"last_update": 1616122650179,
 	"output": [
@@ -57,5 +52,17 @@
 				"R SPECIE"
 			]
 		}
-	]
+	],
+	"updt": 1616122758093,
+	"edit": 1,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

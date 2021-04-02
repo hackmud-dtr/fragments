@@ -1,25 +1,20 @@
 {
 	"_id": "abandoned_0bfm1e.tn",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "abandoned_0bfm1e.tn",
 	"sector": "NGC_4090",
 	"sec_level": 4,
 	"date_added": 1617264253194,
-	"last_scraped": 1617264347182,
+	"last_scraped": 1617302321779,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1617264253194
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1617264407182,
+	"next_scrape": 1617382265386,
 	"category": "risk_factor",
 	"last_update": 1617264347182,
 	"output": [
@@ -54,5 +49,16 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1617264407146,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

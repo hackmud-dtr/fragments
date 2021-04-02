@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_k28zc6.murder",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "uknown_k28zc6.murder",
 	"sector": "SPC_0141",
 	"sec_level": 4,
 	"date_added": 1617033418516,
-	"last_scraped": 1617033509358,
+	"last_scraped": 1617301957450,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1617033569358,
+	"next_scrape": 1617387180990,
 	"category": "risk_factor",
-	"last_update": 1617033509358,
+	"last_update": 1617301957450,
 	"output": [
 		{
 			"args": {},
@@ -41,7 +38,27 @@
 				" by 1.\\n",
 				"by 1.\\n21"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 142,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"nder B",
+				"educed",
+				"215E D",
+				" reduce",
+				"itiate c",
+				"combat\\n",
+				"ate comb",
+				" by 1.\\n",
+				"by 1.\\n21"
+			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1617033775439,
+	"edit": 1
 }

@@ -1,25 +1,20 @@
 {
 	"_id": "unidentified_9i9ota.public_alts",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "unidentified_9i9ota.public_alts",
 	"sector": "HJG_4927",
 	"sec_level": 4,
 	"date_added": 1615272879274,
-	"last_scraped": 1615273025670,
+	"last_scraped": 1617298916925,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1615272879274
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1615273085670,
+	"next_scrape": 1617381480858,
 	"category": "risk_factor",
 	"last_update": 1615273025670,
 	"output": [
@@ -53,6 +48,15 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1615273017884,
-	"edit": 1
+	"updt": 1615273212791,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

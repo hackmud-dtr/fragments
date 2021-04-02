@@ -1,25 +1,20 @@
 {
 	"_id": "anon_mx1tb4.money",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anon_mx1tb4.money",
 	"sector": "NGC_3485",
 	"sec_level": 4,
 	"date_added": 1616116555427,
-	"last_scraped": 1616116610750,
+	"last_scraped": 1617300202283,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1616116555427
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 18,
-	"next_scrape": 1616116670750,
+	"next_scrape": 1617387011472,
 	"category": "risk_factor",
 	"last_update": 1616116610750,
 	"output": [
@@ -38,5 +33,16 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1616116699825,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
