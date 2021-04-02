@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_j56f9x.ad3",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_j56f9x.ad3",
 	"sector": "K_5784",
 	"sec_level": 4,
 	"date_added": 1611514857228,
-	"last_scraped": 1611515492528,
+	"last_scraped": 1617293837608,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 8,
-	"next_scrape": 1611515552528,
+	"next_scrape": 1617336200991,
 	"category": "fishie_tank",
-	"last_update": 1611515529427,
+	"last_update": 1617293837608,
 	"output": [
 		{
 			"args": {},
@@ -81,15 +81,19 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 45973,
+			"calls": 75151,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
-				"F_CLS",
 				"LE0XBD",
-				"ILE0XB",
+				"FT0X3F_",
+				"FILE0XB",
+				"F_CLST0",
 				"X8F99_FI",
 				"LST0X0A_",
-				"8F99_FIL"
+				"A_SECT0X",
+				"8F99_FIL",
+				"22E\\nSYS",
+				"\\nSYST ER"
 			],
 			"hits": [
 				{
@@ -119,11 +123,6 @@
 			]
 		}
 	],
-	"updt": 1611515381209,
-	"edit": 2,
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	]
+	"updt": 1611515576108,
+	"edit": 3
 }

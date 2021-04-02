@@ -1,25 +1,20 @@
 {
 	"_id": "anon_7qg6wm.solve_digby",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anon_7qg6wm.solve_digby",
 	"sector": "VNP_6634",
 	"sec_level": 4,
 	"date_added": 1613029194152,
-	"last_scraped": 1613029265149,
+	"last_scraped": 1617295959248,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1613029194152
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1613113669190,
+	"next_scrape": 1617378884229,
 	"category": "risk_factor",
 	"last_update": 1613029265149,
 	"output": [
@@ -51,5 +46,17 @@
 				"UNCE car"
 			]
 		}
-	]
+	],
+	"updt": 1613029337828,
+	"edit": 1,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

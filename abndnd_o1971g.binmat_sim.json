@@ -1,25 +1,20 @@
 {
 	"_id": "abndnd_o1971g.binmat_sim",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "abndnd_o1971g.binmat_sim",
 	"sector": "HJG_9724",
 	"sec_level": 4,
 	"date_added": 1612073810008,
-	"last_scraped": 1612073883201,
+	"last_scraped": 1617294763113,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1612073810008
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1612153455969,
+	"next_scrape": 1617377729507,
 	"category": "risk_factor",
 	"last_update": 1612073883201,
 	"output": [
@@ -51,5 +46,17 @@
 				" downtim"
 			]
 		}
-	]
+	],
+	"updt": 1612073998252,
+	"edit": 1,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

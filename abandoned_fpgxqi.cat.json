@@ -6,7 +6,7 @@
 	"sector": "HJG_0936",
 	"sec_level": 4,
 	"date_added": 1611703897868,
-	"last_scraped": 1611703990436,
+	"last_scraped": 1617317651385,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,27 +14,42 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1611704050436,
+	"next_scrape": 1617363627518,
 	"category": "fishie_tank",
-	"last_update": 1611703990436,
+	"last_update": 1617317687535,
 	"output": [
 		{
 			"args": {},
-			"calls": 9788,
+			"calls": 30598,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"ou may",
 				"\\n209D",
+				"to a st",
+				" may:\\n",
 				"play a c",
 				"ard from",
 				" a deck,",
 				"\\n209C dr"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"\\n209D",
+						"play a c",
+						"ard from",
+						" a deck,",
+						"\\n209C dr"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2414,
+			"calls": 5130,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -42,11 +57,26 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"ou may",
 				"\\n209D",
+				"to a st",
+				" may:\\n",
 				"play a c",
 				"ard from",
 				" a deck,",
 				"\\n209C dr"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"\\n209D",
+						"play a c",
+						"ard from",
+						" a deck,",
+						"\\n209C dr"
+					]
+				}
 			]
 		},
 		{
@@ -61,9 +91,38 @@
 				"ard from",
 				" a deck,",
 				"\\n209C dr"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"\\n209D",
+						"play a c",
+						"ard from",
+						" a deck,",
+						"\\n209C dr"
+					]
+				}
 			]
 		}
 	],
-	"updt": 1611703990533,
-	"edit": 1
+	"updt": 1611704187006,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"\\n209D",
+				"play a c",
+				"ard from",
+				" a deck,",
+				"\\n209C dr"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }

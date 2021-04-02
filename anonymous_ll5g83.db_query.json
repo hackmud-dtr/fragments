@@ -1,25 +1,20 @@
 {
 	"_id": "anonymous_ll5g83.db_query",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anonymous_ll5g83.db_query",
 	"sector": "HJG_3671",
 	"sec_level": 4,
 	"date_added": 1612909587436,
-	"last_scraped": 1612909833347,
+	"last_scraped": 1617295902937,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1612909587436
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1612999196348,
+	"next_scrape": 1617383279940,
 	"category": "risk_factor",
 	"last_update": 1612909833347,
 	"output": [
@@ -51,5 +46,17 @@
 				"se to be"
 			]
 		}
-	]
+	],
+	"updt": 1612910116678,
+	"edit": 1,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

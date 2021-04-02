@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_5koheu.pzqsa0",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_5koheu.pzqsa0",
 	"sector": "K_6590",
 	"sec_level": 4,
 	"date_added": 1612496297766,
-	"last_scraped": 1612496769472,
+	"last_scraped": 1617320821608,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,17 +14,19 @@
 		}
 	],
 	"scrape_ct": 11,
-	"next_scrape": 1612496829472,
+	"next_scrape": 1617364709262,
 	"category": "dice_roller",
-	"last_update": 1612496769472,
+	"last_update": 1617320821608,
 	"output": [
 		{
 			"args": {},
-			"calls": 98235,
+			"calls": 120484,
 			"base": "Roll the dice!(tm)\n\nbeat the house's roll to win! {roll:true}",
 			"fragments": [
-				"1 0100",
+				"001 0100",
 				"00 0000 ",
+				"0\\n0000 ",
+				" 0100 00",
 				" 0000 00"
 			],
 			"hits": [
@@ -49,6 +51,6 @@
 			]
 		}
 	],
-	"updt": 1612496742568,
-	"edit": 3
+	"updt": 1612496937985,
+	"edit": 4
 }

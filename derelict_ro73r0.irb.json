@@ -1,25 +1,20 @@
 {
 	"_id": "derelict_ro73r0.irb",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "derelict_ro73r0.irb",
 	"sector": "K_7538",
 	"sec_level": 4,
 	"date_added": 1612595180269,
-	"last_scraped": 1612595271479,
+	"last_scraped": 1617295195169,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1612595180269
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1612677641087,
+	"next_scrape": 1617379841877,
 	"category": "risk_factor",
 	"last_update": 1612595271479,
 	"output": [
@@ -57,6 +52,15 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1612595253790,
-	"edit": 1
+	"updt": 1612595447897,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

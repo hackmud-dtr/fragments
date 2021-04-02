@@ -6,7 +6,7 @@
 	"sector": "SPC_9191",
 	"sec_level": 4,
 	"date_added": 1612805489079,
-	"last_scraped": 1612806032582,
+	"last_scraped": 1617322078758,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,15 +14,17 @@
 		}
 	],
 	"scrape_ct": 9,
-	"next_scrape": 1612806092582,
+	"next_scrape": 1617361900323,
 	"category": "fishie_tank",
-	"last_update": 1612806032582,
+	"last_update": 1617322149993,
 	"output": [
 		{
 			"args": {},
-			"calls": 37909,
+			"calls": 46897,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"ly a ",
+				"d uns",
 				"bal c",
 				". Chi",
 				" Chil",
@@ -30,9 +32,14 @@
 				"rched ",
 				"ldren ",
 				" a gen",
+				"ren tha",
 				"n that ",
 				"generat",
-				"a gener"
+				"a gener",
+				"vable on",
+				"tion pri",
+				"nsensus ",
+				"le only "
 			],
 			"hits": [
 				{
@@ -79,7 +86,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 6882,
+			"calls": 11340,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -87,6 +94,8 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"ly a ",
+				"d uns",
 				"bal c",
 				". Chi",
 				" Chil",
@@ -94,9 +103,14 @@
 				"rched ",
 				"ldren ",
 				" a gen",
+				"ren tha",
 				"n that ",
 				"generat",
-				"a gener"
+				"a gener",
+				"vable on",
+				"tion pri",
+				"nsensus ",
+				"le only "
 			]
 		},
 		{
@@ -159,6 +173,11 @@
 			]
 		}
 	],
-	"updt": 1612805924968,
-	"edit": 3
+	"updt": 1612806120612,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
