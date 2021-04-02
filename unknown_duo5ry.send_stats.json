@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_duo5ry.send_stats",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_duo5ry.send_stats",
 	"sector": "HJG_3404",
 	"sec_level": 4,
 	"date_added": 1614909561517,
-	"last_scraped": 1617298335039,
+	"last_scraped": 1617354857606,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1617338064330,
+	"next_scrape": 1617394674005,
 	"category": "clicker",
-	"last_update": 1617298335039,
+	"last_update": 1617354857606,
 	"output": [
 		{
 			"args": {},
-			"calls": 21929,
+			"calls": 32753,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"or fu",
@@ -50,7 +50,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 9201,
+			"calls": 30272,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"or fu",
@@ -93,6 +93,11 @@
 			]
 		}
 	],
-	"updt": 1614909672930,
-	"edit": 1
+	"updt": 1617327922359,
+	"edit": 2,
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	]
 }

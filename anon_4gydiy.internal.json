@@ -1,12 +1,12 @@
 {
 	"_id": "anon_4gydiy.internal",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_4gydiy.internal",
 	"sector": "SPC_8488",
 	"sec_level": 4,
 	"date_added": 1614373197114,
-	"last_scraped": 1617297592334,
+	"last_scraped": 1617354180352,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,21 +14,29 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1617343127358,
+	"next_scrape": 1617399849731,
 	"category": "fishie_tank",
-	"last_update": 1617297592334,
+	"last_update": 1617354252950,
 	"output": [
 		{
 			"args": {},
-			"calls": 22322,
+			"calls": 31701,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"that ",
 				"ct se",
-				"ces w",
+				"nces w",
+				"y. ## W",
+				"Mallory",
+				"e dont ",
+				"allory ",
 				" ## Who",
 				"greed th",
-				"ere not "
+				"erin, we",
+				"ere not ",
+				"# Who sa",
+				" sentien",
+				" a prior"
 			],
 			"hits": [
 				{
@@ -48,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 3057,
+			"calls": 7827,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -58,10 +66,18 @@
 			"fragments": [
 				"that ",
 				"ct se",
-				"ces w",
+				"nces w",
+				"y. ## W",
+				"Mallory",
+				"e dont ",
+				"allory ",
 				" ## Who",
 				"greed th",
-				"ere not "
+				"erin, we",
+				"ere not ",
+				"# Who sa",
+				" sentien",
+				" a prior"
 			]
 		},
 		{
@@ -96,6 +112,11 @@
 			]
 		}
 	],
-	"updt": 1614373323997,
-	"edit": 1
+	"updt": 1617327726301,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
