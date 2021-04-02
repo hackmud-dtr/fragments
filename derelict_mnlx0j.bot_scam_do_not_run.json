@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_mnlx0j.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_mnlx0j.bot_scam_do_not_run",
 	"sector": "NGC_8947",
 	"sec_level": 4,
 	"date_added": 1613558638570,
-	"last_scraped": 1617350600939,
+	"last_scraped": 1617404711058,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1617396765412,
+	"next_scrape": 1617450650208,
 	"category": "fishie_tank",
-	"last_update": 1617350600939,
+	"last_update": 1617404711058,
 	"output": [
 		{
 			"args": {},
-			"calls": 33542,
+			"calls": 69244,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" ## i",
@@ -96,6 +96,14 @@
 			]
 		}
 	],
-	"updt": 1617327335443,
-	"edit": 2
+	"updt": 1617350798828,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }

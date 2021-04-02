@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_ld33km.upgrades",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_ld33km.upgrades",
 	"sector": "SPC_8233",
 	"sec_level": 4,
 	"date_added": 1613152280913,
-	"last_scraped": 1617349655836,
+	"last_scraped": 1617404456946,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1617393306814,
+	"next_scrape": 1617444107345,
 	"category": "fishie_tank",
-	"last_update": 1617349655836,
+	"last_update": 1617404475538,
 	"output": [
 		{
 			"args": {},
-			"calls": 35592,
+			"calls": 72261,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"_FILE",
@@ -56,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5240,
+			"calls": 6129,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -109,6 +109,11 @@
 			]
 		}
 	],
-	"updt": 1617327140165,
-	"edit": 2
+	"updt": 1617349819251,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
