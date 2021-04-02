@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_tn0bjf.t2_npc",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "uknown_tn0bjf.t2_npc",
 	"sector": "SPC_0141",
 	"sec_level": 4,
 	"date_added": 1616981164736,
-	"last_scraped": 1617301903364,
+	"last_scraped": 1617393144136,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1617382797225,
+	"next_scrape": 1617478269392,
 	"category": "risk_factor",
-	"last_update": 1617301884964,
+	"last_update": 1617393144136,
 	"output": [
 		{
 			"args": {},
@@ -36,7 +36,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 246,
+			"calls": 650,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"ntinu",
@@ -1224,12 +1224,9 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1616981396166,
-	"edit": 2,
+	"updt": 1617328508137,
+	"edit": 3,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
