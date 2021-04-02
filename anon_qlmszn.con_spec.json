@@ -1,7 +1,7 @@
 {
 	"_id": "anon_qlmszn.con_spec",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anon_qlmszn.con_spec",
 	"sector": "NGC_8123",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "NGC_8123",
 				"to": "VNP_2370"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1617344506946
+		}
 	],
-	"updt": 1617282778615,
-	"edit": 5725,
+	"updt": 1617291381502,
+	"edit": 5726,
 	"pl_output": "Cannot read property 'match' of undefined",
 	"next_scrape": 1617384681940
 }

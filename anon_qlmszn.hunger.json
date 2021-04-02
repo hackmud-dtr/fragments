@@ -1,7 +1,7 @@
 {
 	"_id": "anon_qlmszn.hunger",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anon_qlmszn.hunger",
 	"sector": "NGC_8123",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "NGC_8123",
 				"to": "VNP_2370"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1617344506946
+		}
 	],
-	"updt": 1614727702906,
-	"edit": 3823,
+	"updt": 1617330850207,
+	"edit": 3824,
 	"pl_output": "Cannot read property 'user' of null",
 	"next_scrape": 1617423995899
 }

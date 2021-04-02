@@ -1,7 +1,7 @@
 {
 	"_id": "anon_qlmszn.opsec",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anon_qlmszn.opsec",
 	"sector": "NGC_8123",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "NGC_8123",
 				"to": "VNP_2370"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1617344506946
+		}
 	],
-	"updt": 1610597815115,
-	"edit": 589,
+	"updt": 1617323037987,
+	"edit": 590,
 	"pl_output": "Unexpected token u in JSON at position 0",
 	"next_scrape": 1617401600522
 }

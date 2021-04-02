@@ -1,7 +1,7 @@
 {
 	"_id": "anon_qlmszn.db",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anon_qlmszn.db",
 	"sector": "NGC_8123",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "NGC_8123",
 				"to": "VNP_2370"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1617344506946
+		}
 	],
-	"updt": 1609963689892,
-	"edit": 647,
+	"updt": 1617323037987,
+	"edit": 648,
 	"pl_output": "`DACCESS DENIED`",
 	"next_scrape": 1617357620493,
 	"scrape_ct": 15,
