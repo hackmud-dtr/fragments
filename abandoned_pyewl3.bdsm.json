@@ -6,7 +6,7 @@
 	"sector": "VNP_2802",
 	"sec_level": 4,
 	"date_added": 1614151851343,
-	"last_scraped": 1617297155324,
+	"last_scraped": 1617353710435,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,24 +14,31 @@
 		}
 	],
 	"scrape_ct": 10,
-	"next_scrape": 1617336896036,
+	"next_scrape": 1617399480911,
 	"category": "fishie_tank",
-	"last_update": 1617297155324,
+	"last_update": 1617353727327,
 	"output": [
 		{
 			"args": {},
-			"calls": 63085,
+			"calls": 71721,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"tween",
-				"abili",
+				"o be ",
+				" how ",
 				"t of h",
 				"r abil",
 				"pid ru",
+				"apid r",
 				" becom",
+				"s. This",
+				"rk on t",
 				"ir beco",
 				"game. |",
+				"ecoming",
+				"ditiona",
 				"ark on ",
+				"obabilit",
 				"| 'Play'"
 			],
 			"hits": [
@@ -56,7 +63,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4190,
+			"calls": 5027,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -127,6 +134,11 @@
 			]
 		}
 	],
-	"updt": 1614152411291,
-	"edit": 3
+	"updt": 1617327726301,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
