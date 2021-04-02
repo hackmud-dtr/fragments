@@ -1,12 +1,12 @@
 {
 	"_id": "anon_wtz09b.clean",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "anon_wtz09b.clean",
 	"sector": "VNP_1400",
 	"sec_level": 4,
 	"date_added": 1615627941024,
-	"last_scraped": 1615628229777,
+	"last_scraped": 1617334442739,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 13,
-	"next_scrape": 1615628289777,
-	"category": "UNKNOWN CATEGORY",
-	"last_update": 1615628229777,
+	"next_scrape": 1617424857759,
+	"category": "risk_factor",
+	"last_update": 1617334442739,
 	"output": [
 		{
 			"args": {},
@@ -45,6 +45,36 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {},
+			"calls": 2233,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"y seem",
+				"it's a",
+				"od of s",
+				"ess. Th",
+				"es it's",
+				" Sometim",
+				" is that"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 372,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"y seem",
+				"it's a",
+				"od of s",
+				"ess. Th",
+				"es it's",
+				" Sometim",
+				" is that"
+			]
 		}
 	],
 	"identified": [
@@ -61,6 +91,11 @@
 			]
 		}
 	],
-	"updt": 1615628135485,
-	"edit": 1
+	"updt": 1615628332070,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	]
 }
