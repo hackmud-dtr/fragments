@@ -6,7 +6,7 @@
 	"sector": "HJG_3945",
 	"sec_level": 4,
 	"date_added": 1609679855876,
-	"last_scraped": 1609926909474,
+	"last_scraped": 1617311471078,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,34 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1609968965433,
+	"next_scrape": 1617357344714,
 	"category": "fishie_tank",
-	"last_update": 1609926909474,
+	"last_update": 1617311543756,
 	"output": [
 		{
 			"args": {},
-			"calls": 6898,
+			"calls": 21232,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"versi",
+				"s a g",
+				"o get",
+				"ng!) ",
+				"enced",
+				"a goo",
 				"when I",
 				"unders",
+				"t's a ",
+				"s at u",
+				"ribe s",
+				"n to a",
 				"aying!",
+				"was, we",
 				"s old a",
+				"be help",
 				" to des",
 				" is as ",
+				"perience",
 				" really "
 			],
 			"hits": [
@@ -92,7 +104,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4809,
+			"calls": 9064,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -101,12 +113,24 @@
 			],
 			"fragments": [
 				"versi",
+				"s a g",
+				"o get",
+				"ng!) ",
+				"enced",
+				"a goo",
 				"when I",
 				"unders",
+				"t's a ",
+				"s at u",
+				"ribe s",
+				"n to a",
 				"aying!",
+				"was, we",
 				"s old a",
+				"be help",
 				" to des",
 				" is as ",
+				"perience",
 				" really "
 			],
 			"hits": [
@@ -183,8 +207,8 @@
 			]
 		}
 	],
-	"updt": 1609909948623,
-	"edit": 3,
+	"updt": 1609926938372,
+	"edit": 4,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -238,6 +262,11 @@
 			"frags": [
 				" really "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
