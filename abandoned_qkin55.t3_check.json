@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_qkin55.t3_check",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_qkin55.t3_check",
 	"sector": "VNP_4236",
 	"sec_level": 4,
 	"date_added": 1615709404089,
-	"last_scraped": 1617334642287,
+	"last_scraped": 1617398219692,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,23 +14,26 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1617379903415,
+	"next_scrape": 1617438205071,
 	"category": "fishie_tank",
-	"last_update": 1617334642287,
+	"last_update": 1617398292773,
 	"output": [
 		{
 			"args": {},
-			"calls": 27428,
+			"calls": 34358,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"nd so",
-				"he ot",
 				"alue ",
 				"tion d",
+				"do we v",
 				"data) e",
+				" so, wh",
 				"ue above",
 				"ta) etc?",
-				"etc? If "
+				"he other",
+				"etc? If ",
+				" the oth"
 			],
 			"hits": [
 				{
@@ -52,7 +55,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 4005,
+			"calls": 8649,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -61,13 +64,16 @@
 			],
 			"fragments": [
 				"nd so",
-				"he ot",
 				"alue ",
 				"tion d",
+				"do we v",
 				"data) e",
+				" so, wh",
 				"ue above",
 				"ta) etc?",
-				"etc? If "
+				"he other",
+				"etc? If ",
+				" the oth"
 			]
 		},
 		{
@@ -103,6 +109,11 @@
 			]
 		}
 	],
-	"updt": 1615709638080,
-	"edit": 1
+	"updt": 1617334755280,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }
