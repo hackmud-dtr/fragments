@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_pbb1vn.lockpick",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "abandoned_pbb1vn.lockpick",
 	"sector": "K_2583",
 	"sec_level": 4,
 	"date_added": 1616723239716,
-	"last_scraped": 1617393760711,
+	"last_scraped": 1617415807137,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1617477897240,
+	"next_scrape": 1617495851009,
 	"category": "risk_factor",
-	"last_update": 1617393741960,
+	"last_update": 1617415807137,
 	"output": [
 		{
 			"args": {},
@@ -38,7 +38,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 797,
+			"calls": 1360,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"3",
@@ -772,13 +772,10 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1617328311164,
-	"edit": 2,
+	"updt": 1617393822534,
+	"edit": 3,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
