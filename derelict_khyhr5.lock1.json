@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_khyhr5.lock1",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "derelict_khyhr5.lock1",
-	"sector": "NGC_9996",
+	"sector": "K_2282",
 	"sec_level": 4,
 	"date_added": 1612032827556,
-	"last_scraped": 1617549950207,
+	"last_scraped": 1617552929123,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1617552457494
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1617552909618,
+				"from": "K_2282",
+				"to": "NGC_9996"
+			}
+		]
 	],
 	"pl_output": "Cannot read property 'call' of undefined",
-	"next_scrape": 1617639273632,
-	"updt": 1617549972283,
-	"edit": 3441
+	"next_scrape": 1617635381245,
+	"updt": 1617552512480,
+	"edit": 3442
 }
