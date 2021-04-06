@@ -1,7 +1,7 @@
 {
 	"_id": "anon_8ppeic.whitelist",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anon_8ppeic.whitelist",
 	"sector": "SPC_5154",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1617647823978
+		},
+		{
+			"type": "died",
+			"when": 1617667028577
 		}
 	],
-	"updt": 1617647910798,
-	"edit": 1,
+	"updt": 1617648105246,
+	"edit": 2,
 	"scrape_ct": 16,
 	"next_scrape": 1617648084561,
 	"category": "plant_sim",
@@ -267,5 +271,6 @@
 				"ions, w"
 			]
 		}
-	]
+	],
+	"dead_plant_sim": true
 }
