@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_midmdd.npcs",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "unknown_midmdd.npcs",
 	"sector": "K_1885",
 	"sec_level": 4,
@@ -54,11 +54,10 @@
 	"cannot_identify": true,
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1618003416459,
+	"edit": 1
 }
