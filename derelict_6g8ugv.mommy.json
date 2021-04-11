@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_6g8ugv.mommy",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "fresh",
 	"script": "derelict_6g8ugv.mommy",
-	"sector": "HJG_5179",
+	"sector": "K_1885",
 	"sec_level": 4,
 	"date_added": 1613987995171,
-	"last_scraped": 1617625024014,
+	"last_scraped": 1618121299243,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,59 @@
 		{
 			"type": "died",
 			"when": 1618119502893
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1618121062457,
+				"from": "K_1885",
+				"to": "HJG_5179"
+			}
+		]
 	],
 	"pl_output": "function(context, args) {\n\t#fs.chats.send({channel:\"0000\", msg:\"`X @sl0th is my best friend `\"}); //this bit sends the chat\n\n\treturn #fs.scripts.quine(); //this bit shows you the source code\n}",
-	"next_scrape": 1617713685011,
-	"updt": 1617625220037,
-	"edit": 1264
+	"next_scrape": 1618121359243,
+	"updt": 1618121116744,
+	"edit": 1266,
+	"scrape_ct": 15,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1618121299243,
+	"output": [
+		{
+			"args": {},
+			"calls": 1025,
+			"base": "function(context, args) {\n\t#fs.chats.send({channel:\"0000\", msg:\"`X @sl0th is my best friend `\"}); //this bit sends the chat\n\n\treturn #fs.scripts.quine(); //this bit shows you the source code\n}",
+			"fragments": [
+				"o fee",
+				" to fe",
+				"st as m",
+				"old eno",
+				"el nosta"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"o fee",
+						" to fe",
+						"st as m",
+						"old eno",
+						"el nosta"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"o fee",
+				" to fe",
+				"st as m",
+				"old eno",
+				"el nosta"
+			]
+		}
+	]
 }
