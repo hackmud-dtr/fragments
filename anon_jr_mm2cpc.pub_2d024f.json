@@ -1,12 +1,12 @@
 {
 	"_id": "anon_jr_mm2cpc.pub_2d024f",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "anon_jr_mm2cpc.pub_2d024f",
-	"sector": "VOID_LAMBDA_0",
+	"sector": "HJG_3825",
 	"sec_level": 4,
 	"date_added": 1612353660811,
-	"last_scraped": 1618690752734,
+	"last_scraped": 1618692740523,
 	"script_log": [
 		{
 			"type": "added",
@@ -29,10 +29,18 @@
 		{
 			"type": "died",
 			"when": 1618690971726
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1618692723148,
+				"from": "HJG_3825",
+				"to": "VOID_LAMBDA_0"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"Woah there!! This could've been a dangerous script! Always remember to scripts.get_level what you're running: \\n\\n * If its MIDSEC, it can take your GC! \\n * If its LOWSEC, it can take GC, take/delete upgrades and record your own loc!! \\n * If its NULLSEC, it can do whatever a script can do!!! \\n\\nAdditionally, scripts.get_access_level can tell you if the script is hidden or not. A loc is ALWAYS hidden, and will record your loc on the user's system. For most npcs this is fine as they self-destruct, but players don't!\"}",
-	"next_scrape": 1618782060323,
-	"updt": 1618690946342,
-	"edit": 985
+	"next_scrape": 1618777566936,
+	"updt": 1618691142956,
+	"edit": 986
 }
