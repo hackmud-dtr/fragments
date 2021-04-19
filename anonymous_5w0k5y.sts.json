@@ -1,0 +1,66 @@
+{
+	"_id": "anonymous_5w0k5y.sts",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anonymous_5w0k5y.sts",
+	"sector": "K_9850",
+	"sec_level": 4,
+	"date_added": 1618829650761,
+	"last_scraped": 1618829666291,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1618829650761
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1618829726291,
+	"category": "fishie_tank",
+	"last_update": 1618829740947,
+	"output": [
+		{
+			"args": {},
+			"calls": 10678,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ably ",
+				"she's ",
+				"knows ",
+				"he oth",
+				" got n",
+				"hers ##",
+				"a compo",
+				" not li",
+				"composit"
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3666,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ably ",
+				"she's ",
+				"knows ",
+				"he oth",
+				" got n",
+				"hers ##",
+				"a compo",
+				" not li",
+				"composit"
+			]
+		}
+	]
+}
