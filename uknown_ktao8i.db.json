@@ -1,31 +1,26 @@
 {
 	"_id": "uknown_ktao8i.db",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "uknown_ktao8i.db",
 	"sector": "K_6243",
 	"sec_level": 4,
 	"date_added": 1618993889824,
-	"last_scraped": 1618993926021,
+	"last_scraped": 1618994454796,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1618993889824
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 19,
-	"next_scrape": 1618993986021,
+	"scrape_ct": 7,
+	"next_scrape": 1618994514796,
 	"category": "fishie_tank",
-	"last_update": 1618993943814,
+	"last_update": 1618994454796,
 	"output": [
 		{
 			"args": {},
-			"calls": 16489,
+			"calls": 83362,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				" who ",
@@ -35,13 +30,27 @@
 				"e.\\n21F",
 				"d to te",
 				"ho taugh"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" who ",
+						"who ta",
+						"you?\\n2",
+						"o teach",
+						"e.\\n21F",
+						"d to te",
+						"ho taugh"
+					]
+				}
 			]
 		},
 		{
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1056,
+			"calls": 4225,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -56,7 +65,75 @@
 				"e.\\n21F",
 				"d to te",
 				"ho taugh"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" who ",
+						"who ta",
+						"you?\\n2",
+						"o teach",
+						"e.\\n21F",
+						"d to te",
+						"ho taugh"
+					]
+				}
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 37011,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" who ",
+				"who ta",
+				"you?\\n2",
+				"o teach",
+				"e.\\n21F",
+				"d to te",
+				"ho taugh"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" who ",
+						"who ta",
+						"you?\\n2",
+						"o teach",
+						"e.\\n21F",
+						"d to te",
+						"ho taugh"
+					]
+				}
+			]
+		}
+	],
+	"updt": 1618994359081,
+	"edit": 3,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				" who ",
+				"who ta",
+				"you?\\n2",
+				"o teach",
+				"e.\\n21F",
+				"d to te",
+				"ho taugh"
+			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
