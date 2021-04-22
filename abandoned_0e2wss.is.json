@@ -1,0 +1,92 @@
+{
+	"_id": "abandoned_0e2wss.is",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abandoned_0e2wss.is",
+	"sector": "K_9261",
+	"sec_level": 4,
+	"date_added": 1619089568107,
+	"last_scraped": 1619089638779,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1619089568107
+		}
+	],
+	"updt": 1619089579538,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 18,
+	"next_scrape": 1619089698779,
+	"category": "fishie_tank",
+	"last_update": 1619089676359,
+	"output": [
+		{
+			"args": {},
+			"calls": 16199,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"isper",
+				"hate ",
+				" Whis",
+				"e. I d",
+				" throu",
+				"this\\n1E",
+				"too\\n1E27"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"isper",
+						"hate ",
+						" Whis",
+						"e. I d",
+						" throu",
+						"this\\n1E",
+						"too\\n1E27"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1914,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"isper",
+				"hate ",
+				" Whis",
+				"e. I d",
+				" throu",
+				"this\\n1E",
+				"too\\n1E27"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"isper",
+				"hate ",
+				" Whis",
+				"e. I d",
+				" throu",
+				"this\\n1E",
+				"too\\n1E27"
+			]
+		}
+	]
+}
