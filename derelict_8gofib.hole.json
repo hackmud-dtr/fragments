@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_8gofib.hole",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "derelict_8gofib.hole",
 	"sector": "K_0692",
 	"sec_level": 4,
 	"date_added": 1607380572034,
-	"last_scraped": 1619164421573,
+	"last_scraped": 1619166067816,
 	"script_log": [
 		{
 			"type": "added",
@@ -23,10 +23,18 @@
 				"from": "K_0692",
 				"to": "HJG_6992"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1619166067816
+		},
+		{
+			"type": "died",
+			"when": 1619166416507
+		}
 	],
-	"updt": 1619162896942,
-	"edit": 4793,
-	"pl_output": "`KI`/`DO`",
-	"next_scrape": 1619256836037
+	"updt": 1619166217792,
+	"edit": 4795,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR derelict_8gofib.hole: script doesn't exist\"}",
+	"next_scrape": 1619246251244
 }
