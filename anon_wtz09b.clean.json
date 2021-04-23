@@ -1,7 +1,7 @@
 {
 	"_id": "anon_wtz09b.clean",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "anon_wtz09b.clean",
 	"sector": "VNP_1400",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1615627941024
+		},
+		{
+			"type": "died",
+			"when": 1619153841803
 		}
 	],
 	"scrape_ct": 13,
@@ -91,11 +95,12 @@
 			]
 		}
 	],
-	"updt": 1615628332070,
-	"edit": 2,
+	"updt": 1617334560667,
+	"edit": 3,
 	"retry_args": [
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"cannot_identify": true
 }
