@@ -1,26 +1,26 @@
 {
 	"_id": "abandoned_tazler.bone",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abandoned_tazler.bone",
 	"sector": "NGC_2730",
 	"sec_level": 4,
 	"date_added": 1619195465197,
-	"last_scraped": 1619195538085,
+	"last_scraped": 1619195736544,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1619195465197
 		}
 	],
-	"scrape_ct": 17,
-	"next_scrape": 1619195598085,
+	"scrape_ct": 12,
+	"next_scrape": 1619195796544,
 	"category": "clicker",
-	"last_update": 1619195519113,
+	"last_update": 1619195736544,
 	"output": [
 		{
 			"args": {},
-			"calls": 6638,
+			"calls": 27326,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"ILE0X",
@@ -51,7 +51,7 @@
 			"args": {
 				"click": true
 			},
-			"calls": 10873,
+			"calls": 24380,
 			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
 			"fragments": [
 				"ILE0X",
@@ -65,7 +65,7 @@
 			"args": {
 				"CLICK": true
 			},
-			"calls": 2768,
+			"calls": 4851,
 			"base": "`LCLICK SECURED`",
 			"fragments": [
 				"ILE0X",
@@ -92,5 +92,12 @@
 				"2D6\\nSYST"
 			]
 		}
-	]
+	],
+	"retry_args": [
+		{
+			"CLICK": true
+		}
+	],
+	"updt": 1619195736184,
+	"edit": 1
 }
