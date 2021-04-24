@@ -1,20 +1,52 @@
 {
 	"_id": "unidentified_xt8rmx.sn_w_glock_solver",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "skip",
 	"script": "unidentified_xt8rmx.sn_w_glock_solver",
-	"sector": "SPC_6724",
+	"sector": "VNP_2805",
 	"sec_level": 2,
 	"date_added": 1613652757780,
-	"last_scraped": 1617521556056,
+	"last_scraped": 1619228088050,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1613652757780
-		}
+		},
+		{
+			"type": "died",
+			"when": 1619227797635
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1619227813253,
+				"from": "VNP_2805",
+				"to": "SPC_6724"
+			}
+		]
 	],
-	"updt": 1617519290925,
-	"edit": 82,
+	"updt": 1619228006761,
+	"edit": 84,
 	"pl_output": "Ah ah ah, You didn't say the magic word!",
-	"next_scrape": 1617609394109
+	"next_scrape": 1619320482728,
+	"category": "UNKNOWN CATEGORY",
+	"last_update": 1619228088050,
+	"output": [
+		{
+			"args": {},
+			"calls": 140,
+			"base": "Ah ah ah, You didn't say the magic word!",
+			"fragments": [
+				"ECT0X",
+				"E is ?",
+				"03216E",
+				"F_CLST0",
+				"7B\\nAD0",
+				"3216E B",
+				"0X2BC7D",
+				"_FILE0X2",
+				"BC7D17B\\n"
+			]
+		}
+	]
 }

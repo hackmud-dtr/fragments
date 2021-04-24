@@ -1,9 +1,9 @@
 {
 	"_id": "unidentified_xt8rmx.acct_nt_solver",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "timeout",
 	"script": "unidentified_xt8rmx.acct_nt_solver",
-	"sector": "HJG_3220",
+	"sector": "K_9007",
 	"sec_level": 2,
 	"date_added": 1613652902418,
 	"last_scraped": 0,
@@ -15,8 +15,16 @@
 		{
 			"type": "died",
 			"when": 1619226452546
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1619227923900,
+				"from": "K_9007",
+				"to": "HJG_3220"
+			}
+		]
 	],
-	"updt": 1617327335443,
-	"edit": 3
+	"updt": 1619228006761,
+	"edit": 5
 }
