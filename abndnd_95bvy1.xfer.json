@@ -3,18 +3,30 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "abndnd_95bvy1.xfer",
-	"sector": "HJG_3172",
+	"sector": "HJG_3212",
 	"sec_level": 4,
 	"date_added": 1613619603893,
-	"last_scraped": 1619337347230,
+	"last_scraped": 1619339349387,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1613619603893
-		}
+		},
+		{
+			"type": "died",
+			"when": 1619339234661
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1619339327861,
+				"from": "HJG_3212",
+				"to": "HJG_3172"
+			}
+		]
 	],
 	"pl_output": "{\"msg\":\"You are not an approved user of this script\"}",
-	"next_scrape": 1619417314692,
-	"updt": 1619335953802,
-	"edit": 1256
+	"next_scrape": 1619431469193,
+	"updt": 1619337519311,
+	"edit": 1257
 }
