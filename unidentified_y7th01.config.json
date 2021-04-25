@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_y7th01.config",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unidentified_y7th01.config",
 	"sector": "K_3530",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "K_3530",
 				"to": "K_1908"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1619319676502
+		}
 	],
-	"updt": 1619317378991,
-	"edit": 4107,
+	"updt": 1619318940733,
+	"edit": 4108,
 	"pl_output": "Unexpected token u in JSON at position 0",
 	"next_scrape": 1619398979767
 }
