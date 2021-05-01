@@ -3,18 +3,26 @@
 	"type": "fragment",
 	"mode": "player",
 	"script": "abndnd_usqpts.imgsend",
-	"sector": "VNP_1400",
+	"sector": "SPC_7425",
 	"sec_level": 4,
 	"date_added": 1615704937720,
-	"last_scraped": 1619465553045,
+	"last_scraped": 1619832481402,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1615704937720
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1619832463583,
+				"from": "SPC_7425",
+				"to": "VNP_1400"
+			}
+		]
 	],
-	"updt": 1619463880101,
-	"edit": 1645,
+	"updt": 1619465640420,
+	"edit": 1646,
 	"pl_output": "image.substring is not a function",
-	"next_scrape": 1619545690918
+	"next_scrape": 1619913413499
 }
