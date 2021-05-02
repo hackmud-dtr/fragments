@@ -1,0 +1,125 @@
+{
+	"_id": "abndnd_8ww13p.send",
+	"type": "fragment",
+	"mode": "fresh",
+	"script": "abndnd_8ww13p.send",
+	"sector": "NGC_0244",
+	"sec_level": 4,
+	"date_added": 1619944397921,
+	"last_scraped": 1619944413533,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1619944397921
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 20,
+	"next_scrape": 1619944473533,
+	"category": "fishie_tank",
+	"last_update": 1619944413533,
+	"output": [
+		{
+			"args": {},
+			"calls": 11470,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"us ha",
+				"in re",
+				" give",
+				"Their ",
+				"orld r",
+				"ginati",
+				"nation ",
+				"n reali",
+				"ination",
+				"uled by "
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"us ha",
+						"in re",
+						"Their ",
+						"orld r",
+						"ginati",
+						"n reali",
+						"uled by "
+					]
+				},
+				{
+					"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+					"frags": [
+						"nation ",
+						"ination"
+					]
+				},
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						" give"
+					]
+				},
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						" give"
+					]
+				},
+				{
+					"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+					"frags": [
+						" give"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"us ha",
+				"in re",
+				"Their ",
+				"orld r",
+				"ginati",
+				"n reali",
+				"uled by "
+			]
+		},
+		{
+			"document": "MFT0XC3_CLST0XC4_SECT0X085A_FILE0X64C10251",
+			"frags": [
+				"nation ",
+				"ination"
+			]
+		},
+		{
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
+				" give"
+			]
+		},
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				" give"
+			]
+		},
+		{
+			"document": "MFT0X68_CLST0XCA_SECT0X0F5F_FILE0X87AF16DE",
+			"frags": [
+				" give"
+			]
+		}
+	]
+}
