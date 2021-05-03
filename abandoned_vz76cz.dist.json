@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_vz76cz.dist",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "abandoned_vz76cz.dist",
-	"sector": "NGC_4419",
+	"sector": "K_2011",
 	"sec_level": 4,
 	"date_added": 1616026046946,
-	"last_scraped": 1620077270276,
+	"last_scraped": 1620079467547,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1620078270269
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1620079449091,
+				"from": "K_2011",
+				"to": "NGC_4419"
+			}
+		]
 	],
 	"pl_output": "{\"ok\":false}",
-	"next_scrape": 1620169445645,
-	"updt": 1620077400697,
-	"edit": 2573
+	"next_scrape": 1620169259787,
+	"updt": 1620078378949,
+	"edit": 2574
 }
