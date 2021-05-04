@@ -1,9 +1,9 @@
 {
 	"_id": "unknown_lh5hj2.scraper_t1",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "skip",
 	"script": "unknown_lh5hj2.scraper_t1",
-	"sector": "NGC_5287",
+	"sector": "K_6407",
 	"sec_level": 4,
 	"date_added": 1614828790067,
 	"last_scraped": 0,
@@ -15,8 +15,16 @@
 		{
 			"type": "died",
 			"when": 1620120013326
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1620124574464,
+				"from": "K_6407",
+				"to": "NGC_5287"
+			}
+		]
 	],
-	"updt": 1617327922359,
-	"edit": 2
+	"updt": 1620120041361,
+	"edit": 3
 }

@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_lh5hj2.unlock_t1",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "unknown_lh5hj2.unlock_t1",
-	"sector": "NGC_5287",
+	"sector": "K_6407",
 	"sec_level": 4,
 	"date_added": 1614828790067,
-	"last_scraped": 1618416332775,
+	"last_scraped": 1620124700833,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1620120013326
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1620124574464,
+				"from": "K_6407",
+				"to": "NGC_5287"
+			}
+		]
 	],
 	"pl_output": "Cannot read property 'call' of undefined",
-	"next_scrape": 1618499758136,
-	"updt": 1618416615387,
-	"edit": 1732
+	"next_scrape": 1620216809842,
+	"updt": 1620120041361,
+	"edit": 1733
 }
