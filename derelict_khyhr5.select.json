@@ -1,28 +1,28 @@
 {
 	"_id": "derelict_khyhr5.select",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "derelict_khyhr5.select",
 	"sector": "NGC_3855",
 	"sec_level": 4,
 	"date_added": 1620404201126,
-	"last_scraped": 1620404327745,
+	"last_scraped": 1620404693621,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1620404201126
 		}
 	],
-	"updt": 1620404238759,
-	"edit": 1,
-	"scrape_ct": 18,
-	"next_scrape": 1620404387745,
+	"updt": 1620404630355,
+	"edit": 3,
+	"scrape_ct": 11,
+	"next_scrape": 1620404753621,
 	"category": "fishie_tank",
-	"last_update": 1620404327745,
+	"last_update": 1620404710813,
 	"output": [
 		{
 			"args": {},
-			"calls": 16472,
+			"calls": 75087,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"then ",
@@ -56,7 +56,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1326,
+			"calls": 5240,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -95,7 +95,7 @@
 			"args": {
 				"do": "clean"
 			},
-			"calls": 11006,
+			"calls": 21336,
 			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"then ",
@@ -140,6 +140,11 @@
 				", and th",
 				" is an a"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "clean"
 		}
 	]
 }
