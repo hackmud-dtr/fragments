@@ -6,17 +6,17 @@
 	"sector": "NGC_3855",
 	"sec_level": 4,
 	"date_added": 1620472403958,
-	"last_scraped": 1620473401027,
+	"last_scraped": 1620473437975,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1620472403958
 		}
 	],
-	"scrape_ct": 19,
-	"next_scrape": 1620561601145,
+	"scrape_ct": 18,
+	"next_scrape": 1620562377359,
 	"category": "risk_factor",
-	"last_update": 1620472440367,
+	"last_update": 1620473419751,
 	"output": [
 		{
 			"args": {},
@@ -41,7 +41,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 176,
+			"calls": 539,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"fun o",
@@ -60,12 +60,15 @@
 		}
 	],
 	"cannot_identify": true,
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+	"updt": 1620472619747,
+	"edit": 1,
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}
-	],
-	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
-	"updt": 1620472619747,
-	"edit": 1
+	]
 }
