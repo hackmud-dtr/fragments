@@ -1,27 +1,22 @@
 {
 	"_id": "abndnd_wc8ej7.pprint",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abndnd_wc8ej7.pprint",
 	"sector": "NGC_3855",
 	"sec_level": 4,
 	"date_added": 1620488400171,
-	"last_scraped": 1620488416612,
+	"last_scraped": 1620488490158,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1620488400171
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
-	"scrape_ct": 20,
-	"next_scrape": 1620488476612,
+	"scrape_ct": 18,
+	"next_scrape": 1620488550158,
 	"category": "fishie_tank",
-	"last_update": 1620488435349,
+	"last_update": 1620488490158,
 	"output": [
 		{
 			"args": {},
@@ -55,13 +50,29 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 1026,
+			"calls": 2221,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
 				"they are still hungry?",
 				"they don't look so good"
 			],
+			"fragments": [
+				"y ## ",
+				"expan",
+				"# Okay",
+				" Erin.",
+				"ing the",
+				"uld cons",
+				"eam shou"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 14963,
+			"base": "Fishies are happy. Algea eaters are displeased.",
 			"fragments": [
 				"y ## ",
 				"expan",
@@ -86,5 +97,7 @@
 				"eam shou"
 			]
 		}
-	]
+	],
+	"updt": 1620488448257,
+	"edit": 1
 }
