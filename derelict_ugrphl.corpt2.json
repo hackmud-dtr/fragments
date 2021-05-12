@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_ugrphl.corpt2",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "dead",
 	"script": "derelict_ugrphl.corpt2",
 	"sector": "NGC_0613",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1614614083116
+		},
+		{
+			"type": "died",
+			"when": 1620826866870
 		}
 	],
 	"scrape_ct": 18,
@@ -815,8 +819,8 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1617384240361,
-	"edit": 4,
+	"updt": 1617384436263,
+	"edit": 5,
 	"retry_args": [
 		{
 			"do": "LOSE"
