@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_c9xhol.rpg",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abandoned_c9xhol.rpg",
 	"sector": "VNP_2802",
 	"sec_level": 4,
 	"date_added": 1609078884376,
-	"last_scraped": 1620862287387,
+	"last_scraped": 1620863228641,
 	"script_log": [
 		{
 			"type": "added",
@@ -23,10 +23,14 @@
 				"from": "VNP_2802",
 				"to": "K_5159"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1620863865715
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"Not Implemented.\"}",
-	"next_scrape": 1620955106126,
-	"updt": 1620861491103,
-	"edit": 3412
+	"next_scrape": 1620944510645,
+	"updt": 1620863251136,
+	"edit": 3414
 }

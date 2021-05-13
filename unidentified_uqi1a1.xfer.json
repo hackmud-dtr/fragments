@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_uqi1a1.xfer",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unidentified_uqi1a1.xfer",
 	"sector": "NGC_8760",
 	"sec_level": 0,
 	"date_added": 1609078830753,
-	"last_scraped": 1620863194354,
+	"last_scraped": 1620864011008,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,10 +19,18 @@
 				"from": "NGC_8760",
 				"to": "HJG_3849"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1620864011008
+		},
+		{
+			"type": "died",
+			"when": 1620864028728
+		}
 	],
-	"pl_output": "{\"ok\":false,\"msg\":\"Not the admin!!!\"}",
-	"next_scrape": 1620948668470,
-	"updt": 1620862275171,
-	"edit": 4432
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unidentified_uqi1a1.xfer: script doesn't exist\"}",
+	"next_scrape": 1620945657778,
+	"updt": 1620863251136,
+	"edit": 4433
 }

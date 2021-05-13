@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_c9xhol.blaster_master",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abandoned_c9xhol.blaster_master",
 	"sector": "SPC_6154",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "SPC_6154",
 				"to": "K_5159"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1620863810707
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"Not Implemented.\"}",
 	"next_scrape": 1619219899781,
-	"updt": 1619125744918,
-	"edit": 4162
+	"updt": 1619127702205,
+	"edit": 4163
 }

@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_c9xhol.detox",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abandoned_c9xhol.detox",
 	"sector": "SPC_6154",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "SPC_6154",
 				"to": "K_5159"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1620863810707
+		}
 	],
 	"pl_output": "Cannot read property 'split' of undefined",
 	"next_scrape": 1618001479499,
-	"updt": 1617910738954,
-	"edit": 2940
+	"updt": 1617912893323,
+	"edit": 2941
 }
