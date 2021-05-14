@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_sx7xdz.acctsum",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "derelict_sx7xdz.acctsum",
 	"sector": "SPC_6015",
 	"sec_level": 3,
@@ -23,12 +23,16 @@
 				"from": "SPC_6015",
 				"to": "SPC_9883"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1620996436477
+		}
 	],
 	"pl_output": "include str:<the string with the between timestamps, eg \"190121.1422 and 190221.1452\">",
 	"next_scrape": 1617368626520,
-	"updt": 1612849312056,
-	"edit": 1270,
+	"updt": 1617324990815,
+	"edit": 1271,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1617322277854,
 	"output": [
