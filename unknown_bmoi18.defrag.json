@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_bmoi18.defrag",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unknown_bmoi18.defrag",
 	"sector": "HJG_3172",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "HJG_3172",
 				"to": "HJG_3945"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1621487601971
+		}
 	],
-	"updt": 1618552358176,
-	"edit": 2375,
+	"updt": 1618554313083,
+	"edit": 2376,
 	"pl_output": "{\"ok\":false,\"msg\":\"Need parameter: 'script' or 'frags'\"}",
 	"next_scrape": 1618641269969
 }
