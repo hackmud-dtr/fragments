@@ -1,7 +1,7 @@
 {
 	"_id": "anon_mq8m2v.t1",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anon_mq8m2v.t1",
 	"sector": "K_9004",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "K_9004",
 				"to": "HJG_5243"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1621488361992
+		}
 	],
-	"updt": 1619763286134,
-	"edit": 2547,
+	"updt": 1619764264640,
+	"edit": 2548,
 	"pl_output": "[\"For `Nfree` t1 NPC locs, please run one of the following:\",\"harvest.t1 { c:#s.undefined.public }\",\"harvest.t1 { c:#s.undefined.public }\"]",
 	"next_scrape": 1619854178615
 }
