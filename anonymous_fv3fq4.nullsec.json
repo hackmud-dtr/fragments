@@ -1,0 +1,82 @@
+{
+	"_id": "anonymous_fv3fq4.nullsec",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anonymous_fv3fq4.nullsec",
+	"sector": "K_7630",
+	"sec_level": 4,
+	"date_added": 1621705391790,
+	"last_scraped": 1621705482869,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1621705391790
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1621705542869,
+	"category": "fishie_tank",
+	"last_update": 1621705482869,
+	"output": [
+		{
+			"args": {},
+			"calls": 27076,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"THING",
+				"s chan",
+				"HY Che",
+				"made? W",
+				"changed",
+				"w? Every",
+				"? WHY Ch"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"s chan",
+						"HY Che",
+						"made? W",
+						"changed",
+						"w? Every",
+						"? WHY Ch"
+					]
+				},
+				{
+					"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+					"frags": [
+						"THING"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				"s chan",
+				"HY Che",
+				"made? W",
+				"changed",
+				"w? Every",
+				"? WHY Ch"
+			]
+		},
+		{
+			"document": "MFT0XE1_CLST0X61_SECT0X665E_FILE0X0D96F593",
+			"frags": [
+				"THING"
+			]
+		}
+	]
+}
