@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_xb895b.terminal",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abandoned_xb895b.terminal",
 	"sector": "VNP_5798",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "VNP_5798",
 				"to": "HJG_9324"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1621920117330
+		}
 	],
-	"updt": 1619893192094,
-	"edit": 4332,
+	"updt": 1619894366280,
+	"edit": 4333,
 	"pl_output": "{\"ok\":false,\"msg\":403}",
 	"next_scrape": 1619982338791
 }

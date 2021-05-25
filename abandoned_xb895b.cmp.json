@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_xb895b.cmp",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abandoned_xb895b.cmp",
 	"sector": "SPC_6724",
 	"sec_level": 2,
@@ -19,10 +19,14 @@
 				"from": "SPC_6724",
 				"to": "NGC_0272"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1621920262873
+		}
 	],
-	"updt": 1619293737343,
-	"edit": 3475,
+	"updt": 1619296667704,
+	"edit": 3476,
 	"pl_output": "{\"ok\":false,\"msg\":\"\\nPass `Nchannels`, `Nusers`, `Njoin`, or `Nleave`\\n\\nTo chat in a channel, prefix the channel name with `N\\\"C\\\"` - C0000:\\\"Hello world!\\\". Without the prefix, sends a tell to the specified player\\n\\n132ms\"",
 	"next_scrape": 1619388586609
 }

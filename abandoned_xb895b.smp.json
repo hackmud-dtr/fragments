@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_xb895b.smp",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abandoned_xb895b.smp",
 	"sector": "SPC_6724",
 	"sec_level": 2,
@@ -19,10 +19,14 @@
 				"from": "SPC_6724",
 				"to": "NGC_0272"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1621920262873
+		}
 	],
-	"updt": 1617773283089,
-	"edit": 4397,
+	"updt": 1617775236833,
+	"edit": 4398,
 	"pl_output": "{\"ok\":false,\"msg\":\"Specify action - `Ncheck`, `Ninspect`, `Nkeys`, `Nprobe`, `Nrun`, `Ntree`\"}",
 	"next_scrape": 1617855795681
 }

@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_9tdyj5.bourne",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anonymous_9tdyj5.bourne",
 	"sector": "SPC_8488",
 	"sec_level": 4,
 	"date_added": 1610135464045,
-	"last_scraped": 1621919572395,
+	"last_scraped": 1621920389701,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,10 +19,18 @@
 				"from": "SPC_8488",
 				"to": "VNP_6426"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1621920389701
+		},
+		{
+			"type": "died",
+			"when": 1621920407480
+		}
 	],
-	"updt": 1621919320746,
-	"edit": 7511,
-	"pl_output": "{\"ok\":true,\"msg\":\"Jesus Christ it's json.bourne\"}",
-	"next_scrape": 1622002744639
+	"updt": 1621920297947,
+	"edit": 7514,
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_9tdyj5.bourne: script doesn't exist\"}",
+	"next_scrape": 1622009456767
 }
