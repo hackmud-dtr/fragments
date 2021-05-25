@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_n2dfxr.sts_t2",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unknown_n2dfxr.sts_t2",
 	"sector": "SPC_6816",
 	"sec_level": 0,
@@ -23,10 +23,14 @@
 				"from": "SPC_6816",
 				"to": "K_2478"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1621975530395
+		}
 	],
-	"updt": 1619194952516,
-	"edit": 1628,
+	"updt": 1619196711441,
+	"edit": 1629,
 	"pl_output": "Unexpected token u in JSON at position 0",
 	"next_scrape": 1619286384821
 }
