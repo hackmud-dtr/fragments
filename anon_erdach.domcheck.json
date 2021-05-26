@@ -1,7 +1,7 @@
 {
 	"_id": "anon_erdach.domcheck",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anon_erdach.domcheck",
 	"sector": "K_9211",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "K_9211",
 				"to": "VNP_6426"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1622003509428
+		}
 	],
 	"pl_output": "Cannot read property 'split' of undefined",
 	"next_scrape": 1618928584098,
-	"updt": 1618845103142,
-	"edit": 1901
+	"updt": 1618847254304,
+	"edit": 1902
 }

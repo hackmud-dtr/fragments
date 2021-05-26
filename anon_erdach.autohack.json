@@ -1,12 +1,12 @@
 {
 	"_id": "anon_erdach.autohack",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anon_erdach.autohack",
 	"sector": "K_9211",
 	"sec_level": 4,
 	"date_added": 1610218383109,
-	"last_scraped": 1622003311567,
+	"last_scraped": 1622003509191,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,10 +19,18 @@
 				"from": "K_9211",
 				"to": "VNP_6426"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1622003509191
+		},
+		{
+			"type": "died",
+			"when": 1622003509428
+		}
 	],
-	"pl_output": "Cannot read property 'call' of undefined",
-	"next_scrape": 1622090007141,
-	"updt": 1622003149204,
-	"edit": 8053
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anon_erdach.autohack: script doesn't exist\"}",
+	"next_scrape": 1622091419300,
+	"updt": 1622003345017,
+	"edit": 8054
 }
