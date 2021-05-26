@@ -1,0 +1,75 @@
+{
+	"_id": "derelict_ohu4ta.bot_scam",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "derelict_ohu4ta.bot_scam",
+	"sector": "K_9453",
+	"sec_level": 4,
+	"date_added": 1621996379581,
+	"last_scraped": 1621996469066,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1621996379581
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1621996529066,
+	"category": "fishie_tank",
+	"last_update": 1621996469066,
+	"output": [
+		{
+			"args": {},
+			"calls": 24586,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"you a",
+				" 6 lan",
+				"ave you",
+				"42 6 de",
+				" Have yo",
+				"nes.\\n204",
+				"line.\\n20",
+				"\\n2044 Ha"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"you a",
+						" 6 lan",
+						"ave you",
+						"42 6 de",
+						" Have yo",
+						"nes.\\n204",
+						"line.\\n20",
+						"\\n2044 Ha"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"you a",
+				" 6 lan",
+				"ave you",
+				"42 6 de",
+				" Have yo",
+				"nes.\\n204",
+				"line.\\n20",
+				"\\n2044 Ha"
+			]
+		}
+	]
+}
