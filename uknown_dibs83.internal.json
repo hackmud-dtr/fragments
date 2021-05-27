@@ -1,0 +1,72 @@
+{
+	"_id": "uknown_dibs83.internal",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "uknown_dibs83.internal",
+	"sector": "K_9453",
+	"sec_level": 4,
+	"date_added": 1622145630508,
+	"last_scraped": 1622145721088,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1622145630508
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1622145781088,
+	"category": "fishie_tank",
+	"last_update": 1622145721088,
+	"output": [
+		{
+			"args": {},
+			"calls": 21736,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"right",
+				"its s",
+				"em <d",
+				" BODY",
+				"ou were",
+				"ndari |",
+				" the sy"
+			],
+			"hits": [
+				{
+					"document": "Prisoners",
+					"frags": [
+						"right",
+						"its s",
+						"em <d",
+						" BODY",
+						"ou were",
+						"ndari |",
+						" the sy"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "Prisoners",
+			"frags": [
+				"right",
+				"its s",
+				"em <d",
+				" BODY",
+				"ou were",
+				"ndari |",
+				" the sy"
+			]
+		}
+	]
+}
