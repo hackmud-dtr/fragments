@@ -1,7 +1,7 @@
 {
 	"_id": "unknown_i8yeeg.try_stuff",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unknown_i8yeeg.try_stuff",
 	"sector": "NGC_8975",
 	"sec_level": 4,
@@ -11,10 +11,14 @@
 		{
 			"type": "added",
 			"when": 1622451910053
+		},
+		{
+			"type": "died",
+			"when": 1622474496231
 		}
 	],
-	"updt": 1622451919155,
-	"edit": 1,
+	"updt": 1622452113431,
+	"edit": 2,
 	"retry_args": [
 		{
 			"do": "LOSE"
@@ -61,5 +65,6 @@
 				"\":\"SINGA"
 			]
 		}
-	]
+	],
+	"cannot_identify": true
 }
