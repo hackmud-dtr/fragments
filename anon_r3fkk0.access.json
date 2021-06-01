@@ -1,12 +1,12 @@
 {
 	"_id": "anon_r3fkk0.access",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "anon_r3fkk0.access",
 	"sector": "K_1885",
 	"sec_level": 4,
 	"date_added": 1618016675614,
-	"last_scraped": 1622516172863,
+	"last_scraped": 1622586689510,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1622601101644,
+	"next_scrape": 1622678947743,
 	"category": "risk_factor",
-	"last_update": 1622516154691,
+	"last_update": 1622586689510,
 	"output": [
 		{
 			"args": {},
@@ -35,15 +35,23 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 445,
+			"calls": 820,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"ender",
+				"damag",
+				" And ",
+				"to\\n21",
 				"mage t",
+				"er's sta",
 				"der's st",
 				"6 the de",
+				" the def",
 				" after t",
-				"at we\\n20"
+				"yed in\\n2",
+				"in\\n20F6 ",
+				"at we\\n20",
+				" stack.\\n"
 			]
 		},
 		{
@@ -688,13 +696,10 @@
 			]
 		}
 	],
-	"updt": 1618016902550,
-	"edit": 2,
+	"updt": 1622550021846,
+	"edit": 3,
 	"cannot_identify": true,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
