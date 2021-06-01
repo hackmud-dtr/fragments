@@ -1,12 +1,12 @@
 {
 	"_id": "unidentified_c5xh1x.safe",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unidentified_c5xh1x.safe",
 	"sector": "NGC_8320",
 	"sec_level": 4,
 	"date_added": 1618446977934,
-	"last_scraped": 1618447070039,
+	"last_scraped": 1622559125947,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,20 +14,27 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1618447130039,
+	"next_scrape": 1622605777662,
 	"category": "fishie_tank",
-	"last_update": 1618447070039,
+	"last_update": 1622559125947,
 	"output": [
 		{
 			"args": {},
-			"calls": 8117,
+			"calls": 28184,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"OR. D",
+				"ned o",
+				" IT. ",
+				"a be a",
+				"TOR. DI",
+				"tioned ",
 				"p becau",
+				"e, it's",
 				"E just ",
 				" of the",
+				" be an ",
 				"se why i",
+				"I said a",
 				" And as "
 			],
 			"hits": [
@@ -355,8 +362,8 @@
 			]
 		}
 	],
-	"updt": 1618447127838,
-	"edit": 1,
+	"updt": 1622550218237,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -451,6 +458,14 @@
 			"frags": [
 				" of the"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
