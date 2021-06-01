@@ -1,25 +1,20 @@
 {
 	"_id": "abandoned_l36zok.brainblast",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "abandoned_l36zok.brainblast",
 	"sector": "K_1885",
 	"sec_level": 4,
 	"date_added": 1617976987446,
-	"last_scraped": 1617977079384,
+	"last_scraped": 1622516082454,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1617976987446
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1617977139384,
+	"next_scrape": 1622609163241,
 	"category": "risk_factor",
 	"last_update": 1617977079384,
 	"output": [
@@ -54,7 +49,16 @@
 			]
 		}
 	],
-	"updt": 1617977010141,
-	"edit": 1,
-	"cannot_identify": true
+	"updt": 1617977401378,
+	"edit": 2,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

@@ -1,27 +1,22 @@
 {
 	"_id": "abndnd_5lklah.con_spec",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abndnd_5lklah.con_spec",
 	"sector": "SPC_8726",
 	"sec_level": 4,
 	"date_added": 1617902627490,
-	"last_scraped": 1617902645626,
+	"last_scraped": 1622515953320,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1617902627490
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1617902705626,
+	"next_scrape": 1622562514960,
 	"category": "fishie_tank",
-	"last_update": 1617902719811,
+	"last_update": 1622515953320,
 	"output": [
 		{
 			"args": {},
@@ -139,6 +134,21 @@
 				"news bu",
 				"e again "
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 15717,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"m me ",
+				" huge",
+				"to hea",
+				"g this ",
+				"fast bec",
+				" DAMN th"
+			]
 		}
 	],
 	"identified": [
@@ -224,5 +234,7 @@
 				" this "
 			]
 		}
-	]
+	],
+	"updt": 1617902725592,
+	"edit": 1
 }

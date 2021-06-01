@@ -6,24 +6,19 @@
 	"sector": "NGC_2730",
 	"sec_level": 4,
 	"date_added": 1619195465197,
-	"last_scraped": 1619195557605,
+	"last_scraped": 1622518269629,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1619195465197
 		}
 	],
-	"updt": 1619195538694,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
+	"updt": 1619195736184,
+	"edit": 2,
 	"scrape_ct": 20,
-	"next_scrape": 1619195617605,
+	"next_scrape": 1622561061640,
 	"category": "fishie_tank",
-	"last_update": 1619195628401,
+	"last_update": 1622518269629,
 	"output": [
 		{
 			"args": {},
@@ -34,6 +29,17 @@
 				"00 0000",
 				"1 0100 0",
 				"0 0100 0"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"0101 ",
+						"00 0000",
+						"1 0100 0",
+						"0 0100 0"
+					]
+				}
 			]
 		},
 		{
@@ -48,6 +54,43 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"0101 ",
+				"00 0000",
+				"1 0100 0",
+				"0 0100 0"
+			],
+			"hits": [
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						"0101 ",
+						"00 0000",
+						"1 0100 0",
+						"0 0100 0"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 22249,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				" 0101",
+				"0 0001 ",
+				"01 0100 ",
+				"00 0000 ",
+				"0 0100 0",
+				" 0100 01"
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "NOT FOUND",
+			"frags": [
 				"0101 ",
 				"00 0000",
 				"1 0100 0",

@@ -1,27 +1,22 @@
 {
 	"_id": "derelict_kvmp35.blib",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "player",
 	"script": "derelict_kvmp35.blib",
 	"sector": "SPC_2846",
 	"sec_level": 4,
 	"date_added": 1618224849226,
-	"last_scraped": 1618224940187,
+	"last_scraped": 1622516502938,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1618224849226
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
-	"scrape_ct": 17,
-	"next_scrape": 1618225000187,
+	"scrape_ct": 16,
+	"next_scrape": 1622597830645,
 	"category": "risk_factor",
-	"last_update": 1618224940187,
+	"last_update": 1618224958326,
 	"output": [
 		{
 			"args": {},
@@ -44,7 +39,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 111,
+			"calls": 223,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"r the",
@@ -60,5 +55,16 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1618225148457,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

@@ -1,27 +1,22 @@
 {
 	"_id": "unknown_wod0k9.scripts_user",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "unknown_wod0k9.scripts_user",
 	"sector": "HJG_3825",
 	"sec_level": 4,
 	"date_added": 1618698555176,
-	"last_scraped": 1618698572803,
+	"last_scraped": 1622517013561,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1618698555176
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1618698632803,
+	"next_scrape": 1622557157030,
 	"category": "fishie_tank",
-	"last_update": 1618698646519,
+	"last_update": 1622517013561,
 	"output": [
 		{
 			"args": {},
@@ -35,6 +30,20 @@
 				"032160 ",
 				"X7A_SECT",
 				"CLST0X7A"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"BC7D1",
+						"0XF22",
+						"27_FIL",
+						"2160 TR",
+						"032160 ",
+						"X7A_SECT",
+						"CLST0X7A"
+					]
+				}
 			]
 		},
 		{
@@ -56,9 +65,54 @@
 				"032160 ",
 				"X7A_SECT",
 				"CLST0X7A"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"BC7D1",
+						"0XF22",
+						"27_FIL",
+						"2160 TR",
+						"032160 ",
+						"X7A_SECT",
+						"CLST0X7A"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 3535,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"SECT0",
+				"7A_SE",
+				"2BC7D",
+				"03216",
+				"T0X7A_",
+				"0 TRAP ",
+				"ECT0XF22",
+				"7D17A\\nAD"
 			]
 		}
 	],
-	"updt": 1618698588829,
-	"edit": 1
+	"updt": 1618698784126,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"BC7D1",
+				"0XF22",
+				"27_FIL",
+				"2160 TR",
+				"032160 ",
+				"X7A_SECT",
+				"CLST0X7A"
+			]
+		}
+	]
 }
