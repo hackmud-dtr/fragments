@@ -1,16 +1,46 @@
 {
 	"_id": "anonymous_izhmev.db",
 	"type": "fragment",
-	"mode": "new",
+	"mode": "skip",
 	"script": "anonymous_izhmev.db",
 	"sector": "HJG_1574",
 	"sec_level": 4,
 	"date_added": 1622391008118,
-	"last_scraped": 0,
+	"last_scraped": 1622544433990,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1622391008118
+		}
+	],
+	"updt": 1622391144107,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"next_scrape": 1622584179050,
+	"category": "fishie_tank",
+	"last_update": 1622544433990,
+	"output": [
+		{
+			"args": {},
+			"calls": 19254,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"did? ",
+				"m not ",
+				"e a co",
+				"ave a ",
+				"'ve not",
+				". ## Yo",
+				" that i",
+				" copy. I"
+			]
 		}
 	]
 }
