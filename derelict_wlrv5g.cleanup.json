@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_wlrv5g.cleanup",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "derelict_wlrv5g.cleanup",
 	"sector": "HJG_7694",
 	"sec_level": 4,
 	"date_added": 1616496049821,
-	"last_scraped": 1622511099430,
+	"last_scraped": 1622585338309,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1622599220847,
+	"next_scrape": 1622664961986,
 	"category": "risk_factor",
-	"last_update": 1617300944466,
+	"last_update": 1622585338309,
 	"output": [
 		{
 			"args": {},
@@ -38,17 +38,27 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 360,
+			"calls": 810,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
+				"3",
 				"them ",
 				"sked ",
-				"ing l",
+				"neeri",
 				"ering",
+				"d the",
 				"'ve b",
+				"king l",
+				"hey're",
+				"hem - ",
+				"## Don",
+				" so th",
 				"n asked",
 				"g probl",
+				"been as",
 				"they've ",
+				"roblem, ",
+				"problem,",
 				"een aske"
 			]
 		},
@@ -667,12 +677,9 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1617328311164,
-	"edit": 2,
+	"updt": 1622549630380,
+	"edit": 3,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
