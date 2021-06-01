@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_hxpusc.dif",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "uknown_hxpusc.dif",
 	"sector": "K_6407",
 	"sec_level": 4,
 	"date_added": 1620237709379,
-	"last_scraped": 1622521487894,
+	"last_scraped": 1622581417688,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 3,
-	"next_scrape": 1622567196232,
+	"next_scrape": 1622623882347,
 	"category": "fishie_tank",
-	"last_update": 1622521487894,
+	"last_update": 1622581417688,
 	"output": [
 		{
 			"args": {},
-			"calls": 95259,
+			"calls": 116475,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"yawak",
@@ -112,8 +112,8 @@
 			]
 		}
 	],
-	"updt": 1620238754855,
-	"edit": 4,
+	"updt": 1622550805912,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "MFT0X93_CLST0X0B_SECT0XB1F1_FILE0X17858BD3",
@@ -126,6 +126,14 @@
 				"RROR | T",
 				"llister "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

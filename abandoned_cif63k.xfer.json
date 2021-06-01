@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_cif63k.xfer",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_cif63k.xfer",
 	"sector": "HJG_3704",
 	"sec_level": 4,
 	"date_added": 1620640407436,
-	"last_scraped": 1622522668511,
+	"last_scraped": 1622581893545,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1622562497434,
+	"next_scrape": 1622627526414,
 	"category": "fishie_tank",
-	"last_update": 1622522668511,
+	"last_update": 1622581893545,
 	"output": [
 		{
 			"args": {},
-			"calls": 12078,
+			"calls": 36716,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"T ERROR",
@@ -88,6 +88,14 @@
 			]
 		}
 	],
-	"updt": 1620640512276,
-	"edit": 1
+	"updt": 1622581864207,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }

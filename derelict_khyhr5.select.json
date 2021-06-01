@@ -1,39 +1,44 @@
 {
 	"_id": "derelict_khyhr5.select",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_khyhr5.select",
 	"sector": "NGC_3855",
 	"sec_level": 4,
 	"date_added": 1620404201126,
-	"last_scraped": 1622522234913,
+	"last_scraped": 1622581742673,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1620404201126
 		}
 	],
-	"updt": 1620404826452,
-	"edit": 4,
+	"updt": 1622551000471,
+	"edit": 5,
 	"scrape_ct": 11,
-	"next_scrape": 1622564255463,
+	"next_scrape": 1622622981908,
 	"category": "fishie_tank",
-	"last_update": 1622522234913,
+	"last_update": 1622581742673,
 	"output": [
 		{
 			"args": {},
-			"calls": 75087,
+			"calls": 94415,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"then ",
+				"how t",
 				"es th",
-				" is a ",
+				"the te",
 				"r 'this",
+				"DY \"The",
 				" they s",
 				" or 'th",
 				"the thin",
+				"s is a s",
 				", and th",
-				" is an a"
+				" things ",
+				" is an a",
+				" a smile"
 			],
 			"hits": [
 				{
@@ -152,6 +157,14 @@
 				", and th",
 				" is an a"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
