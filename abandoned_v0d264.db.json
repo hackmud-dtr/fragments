@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_v0d264.db",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_v0d264.db",
 	"sector": "HJG_3825",
 	"sec_level": 4,
 	"date_added": 1618714643683,
-	"last_scraped": 1622517065446,
+	"last_scraped": 1622581199603,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,20 +14,28 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1622558899886,
+	"next_scrape": 1622625250653,
 	"category": "fishie_tank",
-	"last_update": 1622517065446,
+	"last_update": 1622581199603,
 	"output": [
 		{
 			"args": {},
-			"calls": 20649,
+			"calls": 45222,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"ly: m",
 				"0XF22",
+				": mod",
+				"CLST0X",
+				"0XBF_C",
+				"0X7A_S",
+				"FT0XBF_",
 				"AD03214",
-				"2143 Fi",
 				".\\n214D",
+				"X7A_SECT",
+				"C7D179\\n",
 				"27_FILE0",
+				"2143 Fin",
 				"\\nAD0321",
 				"7D179\\nAD"
 			],
@@ -100,6 +108,14 @@
 			]
 		}
 	],
-	"updt": 1618715430305,
-	"edit": 1
+	"updt": 1622550218237,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
