@@ -1,24 +1,24 @@
 {
 	"_id": "abandoned_8mmeh9.scrape",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "abandoned_8mmeh9.scrape",
 	"sector": "K_6407",
 	"sec_level": 4,
 	"date_added": 1620124574464,
-	"last_scraped": 1622521250585,
+	"last_scraped": 1622587291576,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1620124574464
 		}
 	],
-	"updt": 1620125124169,
-	"edit": 2,
+	"updt": 1622550805912,
+	"edit": 3,
 	"scrape_ct": 16,
-	"next_scrape": 1622614016602,
+	"next_scrape": 1622676600567,
 	"category": "risk_factor",
-	"last_update": 1620124809039,
+	"last_update": 1622587291576,
 	"output": [
 		{
 			"args": {},
@@ -39,9 +39,10 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 328,
+			"calls": 780,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
+				"4",
 				"game ",
 				"s help",
 				"e has ",
@@ -55,9 +56,6 @@
 	],
 	"cannot_identify": true,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}

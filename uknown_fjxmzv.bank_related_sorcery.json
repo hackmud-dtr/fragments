@@ -1,12 +1,12 @@
 {
 	"_id": "uknown_fjxmzv.bank_related_sorcery",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "uknown_fjxmzv.bank_related_sorcery",
 	"sector": "VNP_0195",
 	"sec_level": 4,
 	"date_added": 1620552759483,
-	"last_scraped": 1622522560408,
+	"last_scraped": 1622587676016,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1622613045207,
+	"next_scrape": 1622669064222,
 	"category": "risk_factor",
-	"last_update": 1622522542735,
+	"last_update": 1622587676016,
 	"output": [
 		{
 			"args": {},
@@ -38,18 +38,25 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 102,
+			"calls": 440,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
+				"X12_C",
+				"the c",
 				"ptom ",
 				"Crise",
 				"a_typ",
+				"_type",
 				"tom of",
 				"MFT0X1",
+				"0XB536",
 				"0X40_S",
+				"ype\":\"n",
 				"y a sym",
 				"ST0X40_",
-				"catastr"
+				"catastr",
+				"a sympt",
+				" of the"
 			]
 		},
 		{
@@ -431,13 +438,10 @@
 			]
 		}
 	],
-	"updt": 1620553146937,
-	"edit": 1,
+	"updt": 1622551000471,
+	"edit": 2,
 	"cannot_identify": true,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
