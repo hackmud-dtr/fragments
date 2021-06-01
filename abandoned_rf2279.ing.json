@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_rf2279.ing",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abandoned_rf2279.ing",
 	"sector": "K_7630",
 	"sec_level": 4,
 	"date_added": 1621561273189,
-	"last_scraped": 1621561362871,
+	"last_scraped": 1622573496164,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 18,
-	"next_scrape": 1621561422871,
+	"next_scrape": 1622617761125,
 	"category": "fishie_tank",
-	"last_update": 1621561362871,
+	"last_update": 1622573496164,
 	"output": [
 		{
 			"args": {},
-			"calls": 3587,
+			"calls": 26074,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"sugge",
@@ -157,8 +157,8 @@
 			]
 		}
 	],
-	"updt": 1621561370638,
-	"edit": 1,
+	"updt": 1622551390896,
+	"edit": 2,
 	"identified": [
 		{
 			"document": "NOT FOUND",
@@ -187,6 +187,14 @@
 			"frags": [
 				"ent in "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
