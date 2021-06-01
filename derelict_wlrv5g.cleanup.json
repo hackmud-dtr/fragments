@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_wlrv5g.cleanup",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "player",
 	"script": "derelict_wlrv5g.cleanup",
 	"sector": "HJG_7694",
 	"sec_level": 4,
 	"date_added": 1616496049821,
-	"last_scraped": 1617300944466,
+	"last_scraped": 1622511099430,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1617340606359,
+	"next_scrape": 1622599220847,
 	"category": "risk_factor",
 	"last_update": 1617300944466,
 	"output": [
@@ -667,11 +667,15 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1616496224976,
-	"edit": 1,
+	"updt": 1617328311164,
+	"edit": 2,
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

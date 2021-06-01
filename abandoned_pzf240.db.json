@@ -6,32 +6,40 @@
 	"sector": "K_3627",
 	"sec_level": 4,
 	"date_added": 1616698907428,
-	"last_scraped": 1617339459733,
+	"last_scraped": 1622546669893,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1616698907428
 		}
 	],
-	"updt": 1617339447738,
-	"edit": 4,
+	"updt": 1617339839654,
+	"edit": 5,
 	"scrape_ct": 18,
-	"next_scrape": 1617381885239,
+	"next_scrape": 1622589061108,
 	"category": "fishie_tank",
-	"last_update": 1617339459733,
+	"last_update": 1622546669893,
 	"output": [
 		{
 			"args": {},
-			"calls": 14913,
+			"calls": 32384,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"t to ",
+				"ER im",
 				"-glob",
+				"R imiy",
+				"| SUBJ",
 				" great",
 				"waki co",
+				"ts grea",
 				"ntroduc",
 				"awaki |",
-				" Iona M",
-				"ona Miya"
+				"ona Miya",
+				"Miyawaki",
+				"everyone",
+				": Introd",
+				" Iona Mi"
 			],
 			"hits": [
 				{
@@ -126,6 +134,14 @@
 				" Iona M",
 				"ona Miya"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

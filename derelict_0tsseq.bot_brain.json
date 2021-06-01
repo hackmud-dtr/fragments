@@ -1,31 +1,33 @@
 {
 	"_id": "derelict_0tsseq.bot_brain",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_0tsseq.bot_brain",
 	"sector": "VNP_4236",
 	"sec_level": 4,
 	"date_added": 1615732495654,
-	"last_scraped": 1617335131213,
+	"last_scraped": 1622546108525,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1615732495654
 		}
 	],
-	"updt": 1617328117220,
-	"edit": 3,
+	"updt": 1617335145544,
+	"edit": 4,
 	"scrape_ct": 18,
-	"next_scrape": 1617378054587,
+	"next_scrape": 1622592501062,
 	"category": "fishie_tank",
-	"last_update": 1617335131213,
+	"last_update": 1622546108525,
 	"output": [
 		{
 			"args": {},
-			"calls": 27229,
+			"calls": 45682,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
+				"for d",
 				"d we ",
+				"d pol",
 				" deca",
 				"tures ",
 				"take c",
@@ -34,7 +36,11 @@
 				"care of",
 				"ades. W",
 				", and w",
-				"s. We st"
+				"tion tha",
+				"the fact",
+				"s. We st",
+				"r cultur",
+				"otion th"
 			],
 			"hits": [
 				{
@@ -259,6 +265,14 @@
 			"frags": [
 				"tures "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

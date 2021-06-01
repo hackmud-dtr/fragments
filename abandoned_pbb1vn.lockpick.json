@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_pbb1vn.lockpick",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "abandoned_pbb1vn.lockpick",
 	"sector": "K_2583",
 	"sec_level": 4,
 	"date_added": 1616723239716,
-	"last_scraped": 1617415807137,
+	"last_scraped": 1622514559371,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,7 +14,7 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1617495851009,
+	"next_scrape": 1622596080157,
 	"category": "risk_factor",
 	"last_update": 1617415807137,
 	"output": [
@@ -772,10 +772,13 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1617393822534,
-	"edit": 3,
+	"updt": 1617415902717,
+	"edit": 4,
 	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
 	"retry_args": [
+		{
+			"do": "win"
+		},
 		{
 			"do": "LOSE"
 		}

@@ -6,22 +6,17 @@
 	"sector": "HJG_5741",
 	"sec_level": 4,
 	"date_added": 1617369018467,
-	"last_scraped": 1617369054167,
+	"last_scraped": 1622513681913,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1617369018467
 		}
 	],
-	"retry_args": [
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1617369114167,
+	"next_scrape": 1622555116881,
 	"category": "fishie_tank",
-	"last_update": 1617369110044,
+	"last_update": 1622513681913,
 	"output": [
 		{
 			"args": {},
@@ -71,6 +66,22 @@
 				"es.\\n219",
 				"e rules."
 			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 15663,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"the ru",
+				"19D Th",
+				"you the",
+				"ules.\\n",
+				"hank yo",
+				"les.\\n219",
+				".\\n219D T"
+			]
 		}
 	],
 	"identified": [
@@ -86,5 +97,7 @@
 				"e rules."
 			]
 		}
-	]
+	],
+	"updt": 1617369179829,
+	"edit": 1
 }
