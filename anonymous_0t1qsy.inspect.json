@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_0t1qsy.inspect",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anonymous_0t1qsy.inspect",
 	"sector": "NGC_7727",
 	"sec_level": 4,
 	"date_added": 1617097231648,
-	"last_scraped": 1622512570312,
+	"last_scraped": 1622579926892,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,22 +14,30 @@
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1622553356479,
+	"next_scrape": 1622621129108,
 	"category": "fishie_tank",
-	"last_update": 1622512570312,
+	"last_update": 1622579926892,
 	"output": [
 		{
 			"args": {},
-			"calls": 47775,
+			"calls": 69375,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"This ",
 				"o the",
 				"ntime",
+				"le se",
 				"here ",
+				"w they",
+				"just a",
+				"erstan",
+				"al, I ",
 				" they ",
 				"rstand.",
+				"a littl",
+				"they thi",
 				"suppose.",
+				"h part o",
 				"e sentim"
 			],
 			"hits": [
@@ -104,8 +112,8 @@
 			]
 		}
 	],
-	"updt": 1617363700678,
-	"edit": 4,
+	"updt": 1622549826581,
+	"edit": 5,
 	"identified": [
 		{
 			"document": "MFT0XD7_CLST0XF7_SECT0X1D2F_FILE0X3A848D07",
@@ -119,6 +127,14 @@
 				"suppose.",
 				"e sentim"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

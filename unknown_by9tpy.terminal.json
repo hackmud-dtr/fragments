@@ -1,37 +1,44 @@
 {
 	"_id": "unknown_by9tpy.terminal",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_by9tpy.terminal",
 	"sector": "VNP_4726",
 	"sec_level": 4,
 	"date_added": 1616944631988,
-	"last_scraped": 1622512479888,
+	"last_scraped": 1622579817282,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1616944631988
 		}
 	],
-	"updt": 1617363505535,
-	"edit": 4,
+	"updt": 1622549826581,
+	"edit": 5,
 	"scrape_ct": 16,
-	"next_scrape": 1622556976223,
+	"next_scrape": 1622621237267,
 	"category": "fishie_tank",
-	"last_update": 1622512479888,
+	"last_update": 1622579817282,
 	"output": [
 		{
 			"args": {},
-			"calls": 49126,
+			"calls": 70870,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"ta-ac",
 				"popul",
-				"ld ac",
-				"activ",
+				"esett",
+				"or sud",
+				"f seve",
+				"active",
+				"ace wo",
 				" or su",
 				"would a",
-				"ent in t"
+				"uld acc",
+				"rapid re",
+				"ortage o",
+				"ent in t",
+				"accept r"
 			],
 			"hits": [
 				{
@@ -115,6 +122,14 @@
 			"frags": [
 				"activ"
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }

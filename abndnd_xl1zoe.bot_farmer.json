@@ -1,28 +1,28 @@
 {
 	"_id": "abndnd_xl1zoe.bot_farmer",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "abndnd_xl1zoe.bot_farmer",
 	"sector": "NGC_7762",
 	"sec_level": 4,
 	"date_added": 1617419599286,
-	"last_scraped": 1622514666776,
+	"last_scraped": 1622580378431,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1617419599286
 		}
 	],
-	"updt": 1617419808883,
-	"edit": 2,
+	"updt": 1622549826581,
+	"edit": 3,
 	"scrape_ct": 19,
-	"next_scrape": 1622556914400,
+	"next_scrape": 1622626408393,
 	"category": "fishie_tank",
-	"last_update": 1622514666776,
+	"last_update": 1622580378431,
 	"output": [
 		{
 			"args": {},
-			"calls": 18772,
+			"calls": 42456,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"UNDTR",
@@ -31,9 +31,12 @@
 				"e do ",
 				". We ",
 				" that",
-				"ur GUI",
+				"ACK. W",
+				"ur GUIs",
 				"n ensur",
+				"t have t",
 				"NG' SOUN",
+				" time/en",
 				" invest "
 			],
 			"hits": [
@@ -108,6 +111,14 @@
 				"NG' SOUN",
 				" invest "
 			]
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
 		}
 	]
 }
