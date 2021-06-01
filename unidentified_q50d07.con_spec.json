@@ -1,25 +1,20 @@
 {
 	"_id": "unidentified_q50d07.con_spec",
 	"type": "fragment",
-	"mode": "timeout",
+	"mode": "player",
 	"script": "unidentified_q50d07.con_spec",
 	"sector": "K_9453",
 	"sec_level": 4,
 	"date_added": 1622178354733,
-	"last_scraped": 1622178426935,
+	"last_scraped": 1622529927875,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1622178354733
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 17,
-	"next_scrape": 1622178486935,
+	"next_scrape": 1622620274247,
 	"category": "risk_factor",
 	"last_update": 1622178426935,
 	"output": [
@@ -37,5 +32,16 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1622178454516,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

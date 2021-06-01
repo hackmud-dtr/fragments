@@ -1,7 +1,7 @@
 {
 	"_id": "anon_z0lcpw.hohoh",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "anon_z0lcpw.hohoh",
 	"sector": "K_0087",
 	"sec_level": 4,
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "feed"
-		},
-		{
 			"do": "clean"
 		}
 	],
 	"scrape_ct": 16,
 	"next_scrape": 1621199777913,
 	"category": "fishie_tank",
-	"last_update": 1621199717913,
+	"last_update": 1622524959072,
 	"output": [
 		{
 			"args": {},
@@ -55,6 +52,28 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4524,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				" time",
+				" have",
+				" put. ",
+				"cely pu",
+				"-site, ",
+				" I'll m",
+				"formatio",
+				" ## hone"
+			]
 		}
 	],
 	"identified": [
@@ -71,5 +90,7 @@
 				"ff-site,"
 			]
 		}
-	]
+	],
+	"updt": 1621199733216,
+	"edit": 1
 }

@@ -6,7 +6,7 @@
 	"sector": "K_9453",
 	"sec_level": 4,
 	"date_added": 1622066297341,
-	"last_scraped": 1622066388545,
+	"last_scraped": 1622528175064,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1622066448545,
+	"next_scrape": 1622571584110,
 	"category": "risk_factor",
-	"last_update": 1622066388545,
+	"last_update": 1622528175064,
 	"output": [
 		{
 			"args": {},
@@ -42,7 +39,28 @@
 				"nd then",
 				"es the t"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 437,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"say '",
+				"ow th",
+				"hings",
+				"this |",
+				"e the ",
+				" thing",
+				"this is",
+				"ria', a",
+				"nd then",
+				"es the t"
+			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1622066470987,
+	"edit": 1
 }

@@ -1,25 +1,20 @@
 {
 	"_id": "anonymous_xq0dhj.t3_scrape",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anonymous_xq0dhj.t3_scrape",
 	"sector": "K_7630",
 	"sec_level": 4,
 	"date_added": 1621658941916,
-	"last_scraped": 1621659032165,
+	"last_scraped": 1622526432017,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1621658941916
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 18,
-	"next_scrape": 1621744995073,
+	"next_scrape": 1622617604630,
 	"category": "risk_factor",
 	"last_update": 1621659032165,
 	"output": [
@@ -56,5 +51,16 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1621659092662,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

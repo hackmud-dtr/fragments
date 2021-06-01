@@ -6,25 +6,17 @@
 	"sector": "HJG_8263",
 	"sec_level": 4,
 	"date_added": 1620844082551,
-	"last_scraped": 1620844172793,
+	"last_scraped": 1622523195358,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1620844082551
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1620844232793,
+	"next_scrape": 1622568900963,
 	"category": "fishie_tank",
-	"last_update": 1620844172793,
+	"last_update": 1622523195358,
 	"output": [
 		{
 			"args": {},
@@ -39,9 +31,78 @@
 				"ine the ",
 				"\\n20E9 be",
 				" and\\n20E"
+			],
+			"hits": [
+				{
+					"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+					"frags": [
+						"ns?\\n2",
+						"ing st",
+						"betwee",
+						"gin\\n20",
+						"margin\\n",
+						"ine the ",
+						"\\n20E9 be",
+						" and\\n20E"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 1210,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"ns?\\n2",
+				"ing st",
+				"betwee",
+				"gin\\n20",
+				"margin\\n",
+				"ine the ",
+				"\\n20E9 be",
+				" and\\n20E"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 16129,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"ns?\\n2",
+				"ing st",
+				"betwee",
+				"gin\\n20",
+				"margin\\n",
+				"ine the ",
+				"\\n20E9 be",
+				" and\\n20E"
 			]
 		}
 	],
-	"updt": 1620844105009,
-	"edit": 1
+	"updt": 1620844301014,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0XBF_CLST0X7A_SECT0XF227_FILE0X2BC7D171",
+			"frags": [
+				"ns?\\n2",
+				"ing st",
+				"betwee",
+				"gin\\n20",
+				"margin\\n",
+				"ine the ",
+				"\\n20E9 be",
+				" and\\n20E"
+			]
+		}
+	]
 }

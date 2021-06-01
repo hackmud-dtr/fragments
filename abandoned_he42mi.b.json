@@ -1,25 +1,20 @@
 {
 	"_id": "abandoned_he42mi.b",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "abandoned_he42mi.b",
 	"sector": "K_7630",
 	"sec_level": 4,
 	"date_added": 1621594064956,
-	"last_scraped": 1621594136395,
+	"last_scraped": 1622526106359,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1621594064956
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1621677442782,
+	"next_scrape": 1622618456429,
 	"category": "risk_factor",
 	"last_update": 1621594136395,
 	"output": [
@@ -58,5 +53,16 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1621594215465,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

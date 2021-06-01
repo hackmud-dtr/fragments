@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "feed"
-		},
-		{
 			"do": "clean"
 		}
 	],
 	"scrape_ct": 16,
 	"next_scrape": 1620826362353,
 	"category": "fishie_tank",
-	"last_update": 1620826302353,
+	"last_update": 1622523086740,
 	"output": [
 		{
 			"args": {},
@@ -57,6 +54,29 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4413,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"t sub",
+				"OLLIS",
+				"f cri",
+				"al pr",
+				"signed:",
+				"ppropri",
+				"operati",
+				" area o",
+				"ea only."
+			]
 		}
 	],
 	"identified": [
@@ -74,5 +94,7 @@
 				"ea only."
 			]
 		}
-	]
+	],
+	"updt": 1620826322197,
+	"edit": 1
 }

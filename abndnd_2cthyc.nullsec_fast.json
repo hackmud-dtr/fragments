@@ -1,30 +1,22 @@
 {
 	"_id": "abndnd_2cthyc.nullsec_fast",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "skip",
 	"script": "abndnd_2cthyc.nullsec_fast",
 	"sector": "K_9453",
 	"sec_level": 4,
 	"date_added": 1622179520387,
-	"last_scraped": 1622179610658,
+	"last_scraped": 1622530019406,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1622179520387
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1622179670658,
+	"next_scrape": 1622573518266,
 	"category": "fishie_tank",
-	"last_update": 1622179610658,
+	"last_update": 1622530019406,
 	"output": [
 		{
 			"args": {},
@@ -59,6 +51,49 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4483,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"st to",
+				" to h",
+				" fund",
+				" a co",
+				"to her",
+				"whichev",
+				"n facto",
+				" she te",
+				"mes she ",
+				"amental "
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 3357,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"st to",
+				" to h",
+				" fund",
+				" a co",
+				"to her",
+				"whichev",
+				"n facto",
+				" she te",
+				"mes she ",
+				"amental "
+			]
 		}
 	],
 	"identified": [
@@ -77,5 +112,7 @@
 				"amental "
 			]
 		}
-	]
+	],
+	"updt": 1622179627180,
+	"edit": 1
 }

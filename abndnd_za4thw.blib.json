@@ -6,27 +6,19 @@
 	"sector": "HJG_7432",
 	"sec_level": 4,
 	"date_added": 1621789001469,
-	"last_scraped": 1621789090680,
+	"last_scraped": 1622526995856,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1621789001469
 		}
 	],
-	"updt": 1621789004011,
-	"edit": 1,
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
+	"updt": 1621789199333,
+	"edit": 2,
 	"scrape_ct": 16,
-	"next_scrape": 1621789150680,
+	"next_scrape": 1622569880899,
 	"category": "fishie_tank",
-	"last_update": 1621789090680,
+	"last_update": 1622526995856,
 	"output": [
 		{
 			"args": {},
@@ -52,6 +44,41 @@
 						"03F :)\\n2"
 					]
 				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 3118,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"un of",
+				"Deal 3 ",
+				"ion.\\n20",
+				"F :)\\n204",
+				"203F :)\\n",
+				"03F :)\\n2"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 4089,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"un of",
+				"Deal 3 ",
+				"ion.\\n20",
+				"F :)\\n204",
+				"203F :)\\n",
+				"03F :)\\n2"
 			]
 		}
 	],

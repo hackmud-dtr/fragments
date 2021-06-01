@@ -1,25 +1,20 @@
 {
 	"_id": "derelict_c7p872.db_backup",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "derelict_c7p872.db_backup",
 	"sector": "HJG_6148",
 	"sec_level": 4,
 	"date_added": 1622251081924,
-	"last_scraped": 1622251170588,
+	"last_scraped": 1622530271432,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1622251081924
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 19,
-	"next_scrape": 1622332978141,
+	"next_scrape": 1622611692640,
 	"category": "risk_factor",
 	"last_update": 1622251170588,
 	"output": [
@@ -51,6 +46,15 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1622251142777,
-	"edit": 1
+	"updt": 1622251338730,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "feed"
-		},
-		{
 			"do": "clean"
 		}
 	],
 	"scrape_ct": 16,
 	"next_scrape": 1620526481238,
 	"category": "fishie_tank",
-	"last_update": 1620526421238,
+	"last_update": 1622522506123,
 	"output": [
 		{
 			"args": {},
@@ -38,9 +35,58 @@
 				"ground r",
 				"es us th",
 				" the cha"
+			],
+			"hits": [
+				{
+					"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+					"frags": [
+						"t the",
+						"e to ",
+						" take",
+						" the gr",
+						"ground r",
+						"es us th",
+						" the cha"
+					]
+				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4341,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"t the",
+				"e to ",
+				" take",
+				" the gr",
+				"ground r",
+				"es us th",
+				" the cha"
 			]
 		}
 	],
-	"updt": 1620526377885,
-	"edit": 1
+	"updt": 1620526571431,
+	"edit": 2,
+	"identified": [
+		{
+			"document": "MFT0XCE_CLST0X15_SECT0XAD0C_FILE0X77AB550B",
+			"frags": [
+				"t the",
+				"e to ",
+				" take",
+				" the gr",
+				"ground r",
+				"es us th",
+				" the cha"
+			]
+		}
+	]
 }
