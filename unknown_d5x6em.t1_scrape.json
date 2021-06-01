@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_d5x6em.t1_scrape",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "unknown_d5x6em.t1_scrape",
 	"sector": "VNP_7092",
 	"sec_level": 4,
 	"date_added": 1621762209919,
-	"last_scraped": 1622533798825,
+	"last_scraped": 1622584940144,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1622578886775,
+	"next_scrape": 1622627792600,
 	"category": "clicker",
-	"last_update": 1622533798825,
+	"last_update": 1622584940144,
 	"output": [
 		{
 			"args": {},
-			"calls": 26552,
+			"calls": 50618,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"der -",
@@ -135,6 +135,14 @@
 			]
 		}
 	],
-	"updt": 1621762433691,
-	"edit": 2
+	"updt": 1622551390896,
+	"edit": 3,
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
+		}
+	]
 }
