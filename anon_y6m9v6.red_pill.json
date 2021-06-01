@@ -1,12 +1,12 @@
 {
 	"_id": "anon_y6m9v6.red_pill",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "anon_y6m9v6.red_pill",
 	"sector": "K_9453",
 	"sec_level": 4,
 	"date_added": 1622134785971,
-	"last_scraped": 1622528519590,
+	"last_scraped": 1622582344138,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1622571398179,
+	"next_scrape": 1622627940680,
 	"category": "fishie_tank",
-	"last_update": 1622528519590,
+	"last_update": 1622582344138,
 	"output": [
 		{
 			"args": {},
-			"calls": 17398,
+			"calls": 40182,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
 				"of th",
@@ -108,6 +108,14 @@
 			]
 		}
 	],
-	"updt": 1622135073463,
-	"edit": 1
+	"updt": 1622551585814,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	]
 }
