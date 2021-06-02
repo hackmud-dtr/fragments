@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_7lcxl3.t1script",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abandoned_7lcxl3.t1script",
 	"sector": "K_9211",
 	"sec_level": 4,
@@ -23,10 +23,14 @@
 				"from": "K_9211",
 				"to": "NGC_4398"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1622600461445
+		}
 	],
-	"updt": 1622598669586,
-	"edit": 4355,
+	"updt": 1622600037030,
+	"edit": 4356,
 	"pl_output": "Cannot read property 'call' of undefined",
 	"next_scrape": 1622691176349
 }
