@@ -1,0 +1,75 @@
+{
+	"_id": "anon_mi0o7n.twister",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anon_mi0o7n.twister",
+	"sector": "SPC_3360",
+	"sec_level": 4,
+	"date_added": 1622609435215,
+	"last_scraped": 1622609527611,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1622609435215
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1622609587611,
+	"category": "fishie_tank",
+	"last_update": 1622609527611,
+	"output": [
+		{
+			"args": {},
+			"calls": 16334,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"DELET",
+				"inder ",
+				"sphrase",
+				"se remin",
+				"hrase re",
+				"ess pass",
+				"der DELE",
+				" reminde"
+			],
+			"hits": [
+				{
+					"document": "Passphrase",
+					"frags": [
+						"DELET",
+						"inder ",
+						"sphrase",
+						"se remin",
+						"hrase re",
+						"ess pass",
+						"der DELE",
+						" reminde"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "Passphrase",
+			"frags": [
+				"DELET",
+				"inder ",
+				"sphrase",
+				"se remin",
+				"hrase re",
+				"ess pass",
+				"der DELE",
+				" reminde"
+			]
+		}
+	]
+}
