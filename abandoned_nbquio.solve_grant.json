@@ -1,0 +1,64 @@
+{
+	"_id": "abandoned_nbquio.solve_grant",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abandoned_nbquio.solve_grant",
+	"sector": "SPC_7781",
+	"sec_level": 4,
+	"date_added": 1622679118700,
+	"last_scraped": 1622679188822,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1622679118700
+		}
+	],
+	"retry_args": [
+		{
+			"do": "LOSE"
+		}
+	],
+	"scrape_ct": 17,
+	"next_scrape": 1622679248822,
+	"category": "risk_factor",
+	"last_update": 1622679188822,
+	"output": [
+		{
+			"args": {},
+			"calls": 1699,
+			"base": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`",
+			"fragments": [
+				"re sp",
+				"ng li",
+				"3A yo",
+				" reas",
+				"you're",
+				"la?\\n1",
+				" Do I ",
+				"eason\\n",
+				"e a rea"
+			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 344,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"re sp",
+				"ng li",
+				"3A yo",
+				" reas",
+				"you're",
+				"la?\\n1",
+				" Do I ",
+				"eason\\n",
+				"e a rea"
+			]
+		}
+	],
+	"updt": 1622679152849,
+	"edit": 1,
+	"cannot_identify": true
+}
