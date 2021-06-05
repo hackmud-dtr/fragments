@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_k3w00d.m",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unknown_k3w00d.m",
 	"sector": "NGC_7964",
 	"sec_level": 0,
 	"date_added": 1611128860858,
-	"last_scraped": 1622912832328,
+	"last_scraped": 1622914012461,
 	"script_log": [
 		{
 			"type": "added",
@@ -23,10 +23,18 @@
 				"from": "NGC_7964",
 				"to": "K_2478"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1622914012461
+		},
+		{
+			"type": "died",
+			"when": 1622914012832
+		}
 	],
-	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR m.l: script doesn't exist\"}",
-	"next_scrape": 1622997549900,
-	"updt": 1622911725549,
-	"edit": 2108
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_k3w00d.m: script doesn't exist\"}",
+	"next_scrape": 1623007301697,
+	"updt": 1622913094577,
+	"edit": 2109
 }
