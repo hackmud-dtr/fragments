@@ -1,0 +1,72 @@
+{
+	"_id": "anon_bxu5ok.escrow_stats",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "anon_bxu5ok.escrow_stats",
+	"sector": "NGC_2429",
+	"sec_level": 4,
+	"date_added": 1623078321106,
+	"last_scraped": 1623078412132,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1623078321106
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1623078472132,
+	"category": "fishie_tank",
+	"last_update": 1623078412132,
+	"output": [
+		{
+			"args": {},
+			"calls": 16824,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				" is s",
+				"orians",
+				"story is",
+				"rted app",
+				"rently. ",
+				"happenin",
+				" posture"
+			],
+			"hits": [
+				{
+					"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+					"frags": [
+						" is s",
+						"orians",
+						"story is",
+						"rted app",
+						"rently. ",
+						"happenin",
+						" posture"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0XD1_CLST0X95_SECT0X23E7_FILE0X8CAB060B",
+			"frags": [
+				" is s",
+				"orians",
+				"story is",
+				"rted app",
+				"rently. ",
+				"happenin",
+				" posture"
+			]
+		}
+	]
+}
