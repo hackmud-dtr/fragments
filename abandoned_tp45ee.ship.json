@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_tp45ee.ship",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "abandoned_tp45ee.ship",
 	"sector": "K_2282",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "K_2282",
 				"to": "K_5784"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1623252990174
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"Coming soon!\"}",
 	"next_scrape": 1623339764232,
-	"updt": 1623251492012,
-	"edit": 6059
+	"updt": 1623252471559,
+	"edit": 6060
 }
