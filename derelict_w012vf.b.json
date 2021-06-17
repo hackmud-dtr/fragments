@@ -1,9 +1,9 @@
 {
 	"_id": "derelict_w012vf.b",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "skip",
 	"script": "derelict_w012vf.b",
-	"sector": "NGC_6185",
+	"sector": "NGC_6555",
 	"sec_level": 0,
 	"date_added": 1621028217869,
 	"last_scraped": 0,
@@ -15,8 +15,16 @@
 		{
 			"type": "died",
 			"when": 1623950126393
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1623950269663,
+				"from": "NGC_6555",
+				"to": "NGC_6185"
+			}
+		]
 	],
-	"updt": 1622551196518,
-	"edit": 2
+	"updt": 1623950245114,
+	"edit": 3
 }
