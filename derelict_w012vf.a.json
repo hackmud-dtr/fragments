@@ -1,9 +1,9 @@
 {
 	"_id": "derelict_w012vf.a",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "derelict_w012vf.a",
-	"sector": "SPC_7870",
+	"sector": "HJG_7810",
 	"sec_level": 1,
 	"date_added": 1621028325842,
 	"last_scraped": 0,
@@ -11,8 +11,20 @@
 		{
 			"type": "added",
 			"when": 1621028325842
-		}
+		},
+		{
+			"type": "died",
+			"when": 1623950143662
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1623950162271,
+				"from": "HJG_7810",
+				"to": "SPC_7870"
+			}
+		]
 	],
-	"updt": 1621028578931,
-	"edit": 2
+	"updt": 1622551196518,
+	"edit": 3
 }
