@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_mepph4.send_stats",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abandoned_mepph4.send_stats",
 	"sector": "HJG_8839",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1623981749030
+		},
+		{
+			"type": "died",
+			"when": 1624000763781
 		}
 	],
 	"retry_args": [
@@ -47,5 +51,7 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1623981914706,
+	"edit": 1
 }
