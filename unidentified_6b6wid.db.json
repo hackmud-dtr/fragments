@@ -1,0 +1,66 @@
+{
+	"_id": "unidentified_6b6wid.db",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "unidentified_6b6wid.db",
+	"sector": "HJG_0243",
+	"sec_level": 4,
+	"date_added": 1624363488742,
+	"last_scraped": 1624363580575,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1624363488742
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1624363640575,
+	"category": "fishie_tank",
+	"last_update": 1624363580575,
+	"output": [
+		{
+			"args": {},
+			"calls": 17434,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"ROG ERR",
+				"ERROR |",
+				"R | PROG",
+				"ETW ERRO",
+				"| NETW E"
+			],
+			"hits": [
+				{
+					"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+					"frags": [
+						"ROG ERR",
+						"ERROR |",
+						"R | PROG",
+						"ETW ERRO",
+						"| NETW E"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "MFT0X44_CLST0X35_SECT0XA43B_FILE0XDD1A6B85",
+			"frags": [
+				"ROG ERR",
+				"ERROR |",
+				"R | PROG",
+				"ETW ERRO",
+				"| NETW E"
+			]
+		}
+	]
+}
