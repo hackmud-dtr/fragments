@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_8p5wu5.wall_youve_ever_seen",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unidentified_8p5wu5.wall_youve_ever_seen",
 	"sector": "K_6597",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "K_6597",
 				"to": "K_6590"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1624368053354
+		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"Not Implemented.\"}",
 	"next_scrape": 1622716407466,
-	"updt": 1622630314697,
-	"edit": 97
+	"updt": 1622631685481,
+	"edit": 98
 }
