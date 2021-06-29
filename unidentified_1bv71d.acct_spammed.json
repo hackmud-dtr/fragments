@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_1bv71d.acct_spammed",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unidentified_1bv71d.acct_spammed",
 	"sector": "VNP_1400",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "VNP_1400",
 				"to": "SPC_8233"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1624934737136
+		}
 	],
-	"updt": 1623185805565,
-	"edit": 5104,
+	"updt": 1623186979445,
+	"edit": 5105,
 	"pl_output": "{\"ok\":false,\"msg\":\"This script must be run directly\"}",
 	"next_scrape": 1623267620375
 }

@@ -1,7 +1,7 @@
 {
 	"_id": "unidentified_1bv71d.culling",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "unidentified_1bv71d.culling",
 	"sector": "SPC_4552",
 	"sec_level": 3,
@@ -19,10 +19,14 @@
 				"from": "SPC_4552",
 				"to": "HJG_8678"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1624935279824
+		}
 	],
-	"updt": 1623272407747,
-	"edit": 5946,
+	"updt": 1623273385000,
+	"edit": 5947,
 	"pl_output": "{\"ok\":true,\"msg\":\"No upgrades sufficiently worthless found. Time to get.selling\"}",
 	"next_scrape": 1623355368472
 }
