@@ -1,0 +1,81 @@
+{
+	"_id": "abandoned_vz76cz.cake",
+	"type": "fragment",
+	"mode": "skip",
+	"script": "abandoned_vz76cz.cake",
+	"sector": "K_0494",
+	"sec_level": 4,
+	"date_added": 1625177222359,
+	"last_scraped": 1625177313531,
+	"script_log": [
+		{
+			"type": "added",
+			"when": 1625177222359
+		}
+	],
+	"retry_args": [
+		{
+			"do": "feed"
+		},
+		{
+			"do": "clean"
+		}
+	],
+	"scrape_ct": 16,
+	"next_scrape": 1625177373531,
+	"category": "fishie_tank",
+	"last_update": 1625177313531,
+	"output": [
+		{
+			"args": {},
+			"calls": 13900,
+			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
+			"fragments": [
+				"TIONE",
+				"h, I'M ",
+				"ush, I'M",
+				"NOBODY k",
+				" beat ar",
+				" a malic"
+			],
+			"hits": [
+				{
+					"document": "Unsanctioned",
+					"frags": [
+						"TIONE",
+						"h, I'M ",
+						"ush, I'M",
+						"NOBODY k",
+						" a malic"
+					]
+				},
+				{
+					"document": "NOT FOUND",
+					"frags": [
+						" beat ar"
+					]
+				}
+			]
+		}
+	],
+	"identified": [
+		{
+			"document": "Unsanctioned",
+			"frags": [
+				"TIONE",
+				"h, I'M ",
+				"ush, I'M",
+				"NOBODY k",
+				" a malic"
+			]
+		},
+		{
+			"document": "NOT FOUND",
+			"frags": [
+				" beat ar"
+			]
+		}
+	],
+	"updt": 1625177254066,
+	"edit": 1
+}
