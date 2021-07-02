@@ -1,12 +1,12 @@
 {
 	"_id": "anon_semeak._01",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "player",
 	"script": "anon_semeak._01",
-	"sector": "VNP_2171",
+	"sector": "VNP_0244",
 	"sec_level": 0,
 	"date_added": 1619375448561,
-	"last_scraped": 1622730582606,
+	"last_scraped": 1625204931037,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,10 +15,18 @@
 		{
 			"type": "died",
 			"when": 1625203876941
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1625204913452,
+				"from": "VNP_0244",
+				"to": "VNP_2171"
+			}
+		]
 	],
 	"pl_output": "Maximum call stack size exceeded",
-	"next_scrape": 1622815948246,
-	"updt": 1622730759816,
-	"edit": 287
+	"next_scrape": 1625290170468,
+	"updt": 1625204028303,
+	"edit": 288
 }
