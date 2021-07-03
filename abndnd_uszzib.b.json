@@ -1,9 +1,9 @@
 {
 	"_id": "abndnd_uszzib.b",
 	"type": "fragment",
-	"mode": "dead",
+	"mode": "skip",
 	"script": "abndnd_uszzib.b",
-	"sector": "SPC_3392",
+	"sector": "VNP_0244",
 	"sec_level": 0,
 	"date_added": 1621845015298,
 	"last_scraped": 0,
@@ -15,8 +15,16 @@
 		{
 			"type": "died",
 			"when": 1625270433732
-		}
+		},
+		[
+			{
+				"type": "sector change",
+				"when": 1625270650500,
+				"from": "VNP_0244",
+				"to": "SPC_3392"
+			}
+		]
 	],
-	"updt": 1622551390896,
-	"edit": 3
+	"updt": 1625270496013,
+	"edit": 4
 }
