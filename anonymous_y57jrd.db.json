@@ -1,12 +1,12 @@
 {
 	"_id": "anonymous_y57jrd.db",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "anonymous_y57jrd.db",
 	"sector": "NGC_1685",
 	"sec_level": 4,
 	"date_added": 1625282924930,
-	"last_scraped": 1625283124483,
+	"last_scraped": 1625283598431,
 	"script_log": [
 		{
 			"type": "added",
@@ -19,15 +19,26 @@
 		{
 			"type": "died",
 			"when": 1625283124483
-		}
-	],
-	"retry_args": [
+		},
 		{
-			"do": "LOSE"
+			"type": "died",
+			"when": 1625283267960
+		},
+		{
+			"type": "died",
+			"when": 1625283453410
+		},
+		{
+			"type": "died",
+			"when": 1625283598431
+		},
+		{
+			"type": "died",
+			"when": 1625283635879
 		}
 	],
 	"scrape_ct": 20,
-	"next_scrape": 1625373512643,
+	"next_scrape": 1625376998705,
 	"category": "risk_factor",
 	"last_update": 1625282943280,
 	"output": [
@@ -59,6 +70,7 @@
 		}
 	],
 	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR anonymous_y57jrd.db: script doesn't exist\"}",
-	"updt": 1625283008741,
-	"edit": 1
+	"updt": 1625283596814,
+	"edit": 4,
+	"cannot_identify": true
 }
