@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_yp8w9i.scam",
 	"type": "fragment",
-	"mode": "npc",
+	"mode": "skip",
 	"script": "derelict_yp8w9i.scam",
 	"sector": "SPC_9915",
 	"sec_level": 4,
 	"date_added": 1623528755826,
-	"last_scraped": 1625464723095,
+	"last_scraped": 1625512378639,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,13 +14,13 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1625510852420,
+	"next_scrape": 1625558478753,
 	"category": "clicker",
-	"last_update": 1625464723095,
+	"last_update": 1625512378639,
 	"output": [
 		{
 			"args": {},
-			"calls": 21627,
+			"calls": 37583,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"ant-in",
@@ -83,6 +83,14 @@
 			]
 		}
 	],
-	"updt": 1623528996112,
-	"edit": 2
+	"updt": 1625480232906,
+	"edit": 3,
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
+		}
+	]
 }
