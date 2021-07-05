@@ -1,12 +1,12 @@
 {
 	"_id": "derelict_t7d6gi.blib",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "derelict_t7d6gi.blib",
 	"sector": "K_0087",
 	"sec_level": 4,
 	"date_added": 1621129709960,
-	"last_scraped": 1625445862171,
+	"last_scraped": 1625513630461,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 19,
-	"next_scrape": 1625531904691,
+	"next_scrape": 1625599577320,
 	"category": "risk_factor",
-	"last_update": 1622533588958,
+	"last_update": 1625513630461,
 	"output": [
 		{
 			"args": {},
@@ -34,12 +34,17 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 313,
+			"calls": 420,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"X08_C",
+				"T0X08",
+				"26_FI",
 				"X8926_",
+				"LST0XC",
+				"ECT0X8",
 				"08_CLS",
+				"CT0X892",
 				"XC4_SECT",
 				"0XC4_SEC"
 			]
@@ -905,12 +910,9 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1622551196518,
-	"edit": 3,
+	"updt": 1625513656267,
+	"edit": 5,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
