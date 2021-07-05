@@ -6,7 +6,7 @@
 	"sector": "NGC_6757",
 	"sec_level": 4,
 	"date_added": 1619566784868,
-	"last_scraped": 1622519409603,
+	"last_scraped": 1625476859010,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,23 +14,31 @@
 		}
 	],
 	"scrape_ct": 12,
-	"next_scrape": 1622562903829,
+	"next_scrape": 1625521238884,
 	"category": "fishie_tank",
-	"last_update": 1622519409603,
+	"last_update": 1625476895033,
 	"output": [
 		{
 			"args": {},
-			"calls": 52661,
+			"calls": 62013,
 			"base": "Some fishies are in the tank. They are swimming. and hungry?\ndo:\"feed\" | do:\"clean\"",
 			"fragments": [
-				"r Equ",
+				"ype\":",
+				"es Th",
 				"\",\"he",
 				"X2799D",
+				"r Equi",
 				"ader\":",
 				"AC8_FI",
+				"T0XAAC8",
 				"FT0X14_",
+				"t Paves ",
+				"ranscrip",
 				"ILE0X279",
-				"e\":\"tran"
+				"e\":\"tran",
+				"\\n{\"data",
+				":\"Frankf",
+				"BE9\\n{\"da"
 			],
 			"hits": [
 				{
@@ -52,7 +60,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 5825,
+			"calls": 7786,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -60,14 +68,22 @@
 				"they don't look so good"
 			],
 			"fragments": [
-				"r Equ",
+				"ype\":",
+				"es Th",
 				"\",\"he",
 				"X2799D",
+				"r Equi",
 				"ader\":",
 				"AC8_FI",
+				"T0XAAC8",
 				"FT0X14_",
+				"t Paves ",
+				"ranscrip",
 				"ILE0X279",
-				"e\":\"tran"
+				"e\":\"tran",
+				"\\n{\"data",
+				":\"Frankf",
+				"BE9\\n{\"da"
 			]
 		},
 		{
@@ -103,6 +119,11 @@
 			]
 		}
 	],
-	"updt": 1619567320641,
-	"edit": 3
+	"updt": 1622550608813,
+	"edit": 4,
+	"retry_args": [
+		{
+			"do": "clean"
+		}
+	]
 }

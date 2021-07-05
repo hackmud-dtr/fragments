@@ -6,7 +6,7 @@
 	"sector": "HJG_0316",
 	"sec_level": 4,
 	"date_added": 1620980034622,
-	"last_scraped": 1622533317736,
+	"last_scraped": 1625478690723,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,19 +14,22 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1622574137491,
+	"next_scrape": 1625520813063,
 	"category": "clicker",
-	"last_update": 1622533317736,
+	"last_update": 1625478690723,
 	"output": [
 		{
 			"args": {},
-			"calls": 23222,
+			"calls": 38500,
 			"base": "~~ `NCLICKER` `hGENERIC` `JRUSH` `HEX` `IPLUS` `DGAMMA` ~~\n\n`NCLICK` FOR `ICLICKS`\n`NCLICK` FOR `DGLORY`",
 			"fragments": [
 				"0 0001",
 				"100 000",
 				"000 000",
+				"00 0100 ",
+				"00 0000 ",
 				"0 0100 0",
+				" 0100 00",
 				" 0000 01"
 			],
 			"hits": [
@@ -189,6 +192,14 @@
 			]
 		}
 	],
-	"updt": 1620980314522,
-	"edit": 2
+	"updt": 1622551196518,
+	"edit": 3,
+	"retry_args": [
+		{
+			"click": true
+		},
+		{
+			"CLICK": true
+		}
+	]
 }
