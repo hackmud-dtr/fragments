@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_nbquio.solve_grant",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "skip",
 	"script": "abandoned_nbquio.solve_grant",
 	"sector": "SPC_7781",
 	"sec_level": 4,
 	"date_added": 1622679118700,
-	"last_scraped": 1625451171113,
+	"last_scraped": 1625514920572,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 17,
-	"next_scrape": 1625533021388,
+	"next_scrape": 1625603209339,
 	"category": "risk_factor",
-	"last_update": 1622679188822,
+	"last_update": 1625514920572,
 	"output": [
 		{
 			"args": {},
@@ -38,7 +38,7 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 344,
+			"calls": 464,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"re sp",
@@ -53,13 +53,10 @@
 			]
 		}
 	],
-	"updt": 1622679348574,
-	"edit": 2,
+	"updt": 1625479841333,
+	"edit": 3,
 	"cannot_identify": true,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
