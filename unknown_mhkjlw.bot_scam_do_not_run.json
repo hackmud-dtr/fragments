@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_mhkjlw.bot_scam_do_not_run",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "timeout",
 	"script": "unknown_mhkjlw.bot_scam_do_not_run",
 	"sector": "VNP_2162",
 	"sec_level": 4,
 	"date_added": 1624496248651,
-	"last_scraped": 1624496340052,
+	"last_scraped": 1625459438744,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1624496400052,
+	"next_scrape": 1625549666541,
 	"category": "risk_factor",
-	"last_update": 1624496340052,
+	"last_update": 1625459438744,
 	"output": [
 		{
 			"args": {},
@@ -38,9 +35,24 @@
 				"m suppos",
 				" im supp"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 103,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				" that",
+				"ible #",
+				" possi",
+				"s easy a",
+				"m suppos",
+				" im supp"
+			]
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1624496322793,
-	"edit": 1
+	"updt": 1624496519465,
+	"edit": 2
 }

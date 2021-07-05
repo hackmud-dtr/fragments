@@ -6,7 +6,7 @@
 	"sector": "K_0478",
 	"sec_level": 4,
 	"date_added": 1625355440014,
-	"last_scraped": 1625355547459,
+	"last_scraped": 1625463108436,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1625355607459,
+	"next_scrape": 1625548206883,
 	"category": "risk_factor",
-	"last_update": 1625355547459,
+	"last_update": 1625463108436,
 	"output": [
 		{
 			"args": {},
@@ -39,8 +36,25 @@
 				"E ERROR ",
 				"0XCC3285"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 126,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"RROR | ",
+				"623_FIL",
+				" | SUBJ",
+				"T0XF623_",
+				"SER extn",
+				"E ERROR ",
+				"0XCC3285"
+			]
 		}
 	],
-	"updt": 1625355532392,
-	"edit": 1
+	"updt": 1625355727423,
+	"edit": 2,
+	"cannot_identify": true
 }

@@ -6,25 +6,17 @@
 	"sector": "K_0494",
 	"sec_level": 4,
 	"date_added": 1625188978990,
-	"last_scraped": 1625189070188,
+	"last_scraped": 1625462416319,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1625188978990
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1625189130188,
+	"next_scrape": 1625507788243,
 	"category": "fishie_tank",
-	"last_update": 1625189070188,
+	"last_update": 1625462416319,
 	"output": [
 		{
 			"args": {},
@@ -57,6 +49,47 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 799,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"s we ",
+				" way ",
+				"n't fa",
+				"rage yo",
+				"plies j",
+				"o neces",
+				"ut the w",
+				"d we don",
+				"about th"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 17961,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"s we ",
+				" way ",
+				"n't fa",
+				"rage yo",
+				"plies j",
+				"o neces",
+				"ut the w",
+				"d we don",
+				"about th"
+			]
 		}
 	],
 	"identified": [
@@ -74,5 +107,7 @@
 				" necessi"
 			]
 		}
-	]
+	],
+	"updt": 1625189167029,
+	"edit": 1
 }

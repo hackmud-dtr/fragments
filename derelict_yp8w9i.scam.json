@@ -1,30 +1,22 @@
 {
 	"_id": "derelict_yp8w9i.scam",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "npc",
 	"script": "derelict_yp8w9i.scam",
 	"sector": "SPC_9915",
 	"sec_level": 4,
 	"date_added": 1623528755826,
-	"last_scraped": 1623528846057,
+	"last_scraped": 1625464723095,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1623528755826
 		}
 	],
-	"retry_args": [
-		{
-			"click": true
-		},
-		{
-			"CLICK": true
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1623528906057,
+	"next_scrape": 1625510852420,
 	"category": "clicker",
-	"last_update": 1623528846057,
+	"last_update": 1625464723095,
 	"output": [
 		{
 			"args": {},
@@ -49,6 +41,34 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"click": true
+			},
+			"calls": 8400,
+			"base": "I CANT HEAR YOU! `NCLICK` HARDER",
+			"fragments": [
+				"ant-in",
+				"# It's",
+				"m time: ",
+				"hat are ",
+				"e-room t"
+			]
+		},
+		{
+			"args": {
+				"CLICK": true
+			},
+			"calls": 3888,
+			"base": "`LCLICK SECURED`",
+			"fragments": [
+				"ant-in",
+				"# It's",
+				"m time: ",
+				"hat are ",
+				"e-room t"
+			]
 		}
 	],
 	"identified": [
@@ -63,6 +83,6 @@
 			]
 		}
 	],
-	"updt": 1623528801264,
-	"edit": 1
+	"updt": 1623528996112,
+	"edit": 2
 }

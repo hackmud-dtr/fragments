@@ -1,12 +1,12 @@
 {
 	"_id": "abandoned_cif63k.ch",
 	"type": "fragment",
-	"mode": "fresh",
+	"mode": "timeout",
 	"script": "abandoned_cif63k.ch",
 	"sector": "K_0478",
 	"sec_level": 4,
 	"date_added": 1625374185144,
-	"last_scraped": 1625374275935,
+	"last_scraped": 1625463380466,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1625374335935,
+	"next_scrape": 1625556840616,
 	"category": "risk_factor",
-	"last_update": 1625374275935,
+	"last_update": 1625463380466,
 	"output": [
 		{
 			"args": {},
@@ -39,6 +36,25 @@
 				" What's ",
 				"\\n209A Wh"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 100,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"4 No ",
+				" No f",
+				"turn y",
+				"se.\\n2",
+				"\\n209B ",
+				" What's ",
+				"\\n209A Wh"
+			]
 		}
-	]
+	],
+	"updt": 1625374285395,
+	"edit": 1,
+	"cannot_identify": true
 }

@@ -1,25 +1,20 @@
 {
 	"_id": "derelict_n5v3ns.reloader",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "derelict_n5v3ns.reloader",
 	"sector": "NGC_6679",
 	"sec_level": 4,
 	"date_added": 1623624491058,
-	"last_scraped": 1623624562906,
+	"last_scraped": 1625454767913,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1623624491058
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 17,
-	"next_scrape": 1623624622906,
+	"next_scrape": 1625541084832,
 	"category": "risk_factor",
 	"last_update": 1623624562906,
 	"output": [
@@ -53,6 +48,15 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1623624564813,
-	"edit": 1
+	"updt": 1623624759882,
+	"edit": 2,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

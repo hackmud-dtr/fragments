@@ -6,7 +6,7 @@
 	"sector": "K_0473",
 	"sec_level": 4,
 	"date_added": 1624920793239,
-	"last_scraped": 1624920991452,
+	"last_scraped": 1625461018950,
 	"script_log": [
 		{
 			"type": "added",
@@ -15,16 +15,13 @@
 	],
 	"retry_args": [
 		{
-			"do": "win"
-		},
-		{
 			"do": "LOSE"
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1624921051452,
+	"next_scrape": 1625541241282,
 	"category": "risk_factor",
-	"last_update": 1624920991452,
+	"last_update": 1625461018950,
 	"output": [
 		{
 			"args": {},
@@ -38,9 +35,24 @@
 				"CLST0X7A",
 				"0X2BC7D1"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 229,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"7D173",
+				"_SECT",
+				"F_CLST",
+				"LE0X2BC",
+				"CLST0X7A",
+				"0X2BC7D1"
+			]
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1624920945086,
-	"edit": 1
+	"updt": 1624921142215,
+	"edit": 2
 }

@@ -1,25 +1,20 @@
 {
 	"_id": "anon_oxe0zw.blib",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anon_oxe0zw.blib",
 	"sector": "K_3215",
 	"sec_level": 4,
 	"date_added": 1624049628577,
-	"last_scraped": 1624049716840,
+	"last_scraped": 1625457096814,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1624049628577
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 20,
-	"next_scrape": 1624142504406,
+	"next_scrape": 1625545033932,
 	"category": "risk_factor",
 	"last_update": 1624049716840,
 	"output": [
@@ -54,5 +49,16 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"updt": 1624049972837,
+	"edit": 1,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
