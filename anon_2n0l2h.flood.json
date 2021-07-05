@@ -1,7 +1,7 @@
 {
 	"_id": "anon_2n0l2h.flood",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "anon_2n0l2h.flood",
 	"sector": "VNP_0271",
 	"sec_level": 4,
@@ -11,12 +11,16 @@
 		{
 			"type": "added",
 			"when": 1618328049206
+		},
+		{
+			"type": "died",
+			"when": 1625447121796
 		}
 	],
 	"scrape_ct": 18,
 	"next_scrape": 1622602510248,
 	"category": "fishie_tank",
-	"last_update": 1622558727837,
+	"last_update": 1625446642815,
 	"output": [
 		{
 			"args": {},
@@ -53,7 +57,7 @@
 			"args": {
 				"do": "feed"
 			},
-			"calls": 2349,
+			"calls": 7130,
 			"base": [
 				"Fishies are happy.",
 				"actuly they look fine",
@@ -61,11 +65,24 @@
 				"they don't look so good"
 			],
 			"fragments": [
+				"ne. | ",
+				"is alw",
+				"s feedi",
 				"ly, but",
+				"lly, bu",
+				"e gone.",
+				"| Anywa",
+				" work. ",
+				" govern",
 				"ust went",
 				"s the wo",
 				"ot reall",
-				"ay. Ther"
+				"m, not r",
+				"few hund",
+				"e. | Any",
+				"ay. Ther",
+				"And the ",
+				" see the"
 			]
 		},
 		{
@@ -95,12 +112,9 @@
 			]
 		}
 	],
-	"updt": 1618328203765,
-	"edit": 1,
+	"updt": 1622558814454,
+	"edit": 2,
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}

@@ -1,24 +1,24 @@
 {
 	"_id": "uknown_h8vdbo.rules",
 	"type": "fragment",
-	"mode": "could not json",
+	"mode": "skip",
 	"script": "uknown_h8vdbo.rules",
 	"sector": "K_9850",
 	"sec_level": 4,
 	"date_added": 1618895947246,
-	"last_scraped": 1622517613714,
+	"last_scraped": 1625443009525,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1618895947246
 		}
 	],
-	"updt": 1618896158134,
-	"edit": 2,
+	"updt": 1622550412030,
+	"edit": 3,
 	"scrape_ct": 19,
-	"next_scrape": 1622563401340,
+	"next_scrape": 1625532907938,
 	"category": "risk_factor",
-	"last_update": 1622517613714,
+	"last_update": 1625443009525,
 	"output": [
 		{
 			"args": {},
@@ -367,12 +367,29 @@
 				"ta team  1¢GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE",
 				"onsideriN 154GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOS"
 			]
+		},
+		{
+			"args": {
+				"do": "win"
+			},
+			"calls": 230,
+			"base": "YOU WON 2GC\n...if i could afford to pay out.",
+			"fragments": [
+				"data ",
+				" team",
+				" I th",
+				" ## I",
+				"I thin",
+				"ou shou",
+				"m is re",
+				"k you s",
+				"g the d",
+				"am is r",
+				"team is ",
+				"sidering",
+				"lly cons"
+			]
 		}
 	],
-	"cannot_identify": true,
-	"retry_args": [
-		{
-			"do": "win"
-		}
-	]
+	"cannot_identify": true
 }

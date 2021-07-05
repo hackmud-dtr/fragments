@@ -1,25 +1,20 @@
 {
 	"_id": "anon_dijt14.entry_gg62ln",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "anon_dijt14.entry_gg62ln",
 	"sector": "K_2282",
 	"sec_level": 4,
 	"date_added": 1617441022348,
-	"last_scraped": 1617441110202,
+	"last_scraped": 1625436624587,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1617441022348
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 17,
-	"next_scrape": 1617441170202,
+	"next_scrape": 1625518125483,
 	"category": "risk_factor",
 	"last_update": 1617441110202,
 	"output": [
@@ -39,6 +34,15 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1617441301711,
-	"edit": 2
+	"updt": 1622550021846,
+	"edit": 3,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

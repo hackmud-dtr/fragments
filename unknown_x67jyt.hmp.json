@@ -1,27 +1,22 @@
 {
 	"_id": "unknown_x67jyt.hmp",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "unknown_x67jyt.hmp",
 	"sector": "NGC_2730",
 	"sec_level": 4,
 	"date_added": 1619212898420,
-	"last_scraped": 1622518504322,
+	"last_scraped": 1625443174279,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1619212898420
 		}
 	],
-	"updt": 1619213340768,
-	"edit": 2,
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
+	"updt": 1622550608813,
+	"edit": 3,
 	"scrape_ct": 16,
-	"next_scrape": 1622604942110,
+	"next_scrape": 1625536469836,
 	"category": "risk_factor",
 	"last_update": 1622518504322,
 	"output": [
@@ -55,5 +50,14 @@
 			]
 		}
 	],
-	"cannot_identify": true
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
