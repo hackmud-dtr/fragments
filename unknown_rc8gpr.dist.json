@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_rc8gpr.dist",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "timeout",
 	"script": "unknown_rc8gpr.dist",
 	"sector": "K_9453",
 	"sec_level": 4,
 	"date_added": 1622066297341,
-	"last_scraped": 1625445191049,
+	"last_scraped": 1625513450518,
 	"script_log": [
 		{
 			"type": "added",
@@ -14,9 +14,9 @@
 		}
 	],
 	"scrape_ct": 16,
-	"next_scrape": 1625534140040,
+	"next_scrape": 1625595213136,
 	"category": "risk_factor",
-	"last_update": 1625445172838,
+	"last_update": 1625513450518,
 	"output": [
 		{
 			"args": {},
@@ -39,19 +39,23 @@
 			"args": {
 				"do": "win"
 			},
-			"calls": 437,
+			"calls": 557,
 			"base": "YOU WON 2GC\n...if i could afford to pay out.",
 			"fragments": [
 				"say '",
 				"ow th",
 				"hings",
-				"this |",
+				" | BO",
 				"e the ",
 				" thing",
 				"this is",
+				"this | ",
 				"ria', a",
 				"nd then",
-				"es the t"
+				"ile' or",
+				"mes the ",
+				"es the t",
+				"e first "
 			]
 		},
 		{
@@ -446,12 +450,9 @@
 		}
 	],
 	"cannot_identify": true,
-	"updt": 1622551585814,
-	"edit": 2,
+	"updt": 1625479646277,
+	"edit": 3,
 	"retry_args": [
-		{
-			"do": "win"
-		},
 		{
 			"do": "LOSE"
 		}
