@@ -6,25 +6,17 @@
 	"sector": "NGC_2429",
 	"sec_level": 4,
 	"date_added": 1622944481868,
-	"last_scraped": 1622944590169,
+	"last_scraped": 1625451605550,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1622944481868
 		}
 	],
-	"retry_args": [
-		{
-			"do": "feed"
-		},
-		{
-			"do": "clean"
-		}
-	],
 	"scrape_ct": 16,
-	"next_scrape": 1622944650169,
+	"next_scrape": 1625492718161,
 	"category": "fishie_tank",
-	"last_update": 1622944590169,
+	"last_update": 1625451605550,
 	"output": [
 		{
 			"args": {},
@@ -51,6 +43,41 @@
 					]
 				}
 			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 828,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"he de",
+				"ter th",
+				" And a",
+				"d in\\n2",
+				"d after",
+				"age to\\n"
+			]
+		},
+		{
+			"args": {
+				"do": "clean"
+			},
+			"calls": 13777,
+			"base": "Fishies are happy. Algea eaters are displeased.",
+			"fragments": [
+				"he de",
+				"ter th",
+				" And a",
+				"d in\\n2",
+				"d after",
+				"age to\\n"
+			]
 		}
 	],
 	"identified": [
@@ -66,6 +93,6 @@
 			]
 		}
 	],
-	"updt": 1622944563155,
-	"edit": 1
+	"updt": 1622944758093,
+	"edit": 2
 }

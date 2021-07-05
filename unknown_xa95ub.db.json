@@ -13,12 +13,9 @@
 			"when": 1622982940652
 		}
 	],
-	"updt": 1622983057926,
-	"edit": 1,
+	"updt": 1622983254211,
+	"edit": 2,
 	"retry_args": [
-		{
-			"do": "feed"
-		},
 		{
 			"do": "clean"
 		}
@@ -26,7 +23,7 @@
 	"scrape_ct": 16,
 	"next_scrape": 1622983217877,
 	"category": "fishie_tank",
-	"last_update": 1622983157877,
+	"last_update": 1625451732095,
 	"output": [
 		{
 			"args": {},
@@ -52,6 +49,32 @@
 						"| SUBJ:"
 					]
 				}
+			]
+		},
+		{
+			"args": {
+				"do": "feed"
+			},
+			"calls": 4072,
+			"base": [
+				"Fishies are happy.",
+				"actuly they look fine",
+				"they are still hungry?",
+				"they don't look so good"
+			],
+			"fragments": [
+				"UBJ: ",
+				"ave h",
+				"ts so ",
+				"cool t",
+				" her i",
+				"bhandar",
+				" to hav",
+				" the sy",
+				"m <devil",
+				"he syste",
+				"ght | BO",
+				" | BODY "
 			]
 		}
 	],

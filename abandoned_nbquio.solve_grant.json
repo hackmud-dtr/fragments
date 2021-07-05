@@ -1,25 +1,20 @@
 {
 	"_id": "abandoned_nbquio.solve_grant",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "abandoned_nbquio.solve_grant",
 	"sector": "SPC_7781",
 	"sec_level": 4,
 	"date_added": 1622679118700,
-	"last_scraped": 1622679188822,
+	"last_scraped": 1625451171113,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1622679118700
 		}
 	],
-	"retry_args": [
-		{
-			"do": "LOSE"
-		}
-	],
 	"scrape_ct": 17,
-	"next_scrape": 1622679248822,
+	"next_scrape": 1625533021388,
 	"category": "risk_factor",
 	"last_update": 1622679188822,
 	"output": [
@@ -58,7 +53,16 @@
 			]
 		}
 	],
-	"updt": 1622679152849,
-	"edit": 1,
-	"cannot_identify": true
+	"updt": 1622679348574,
+	"edit": 2,
+	"cannot_identify": true,
+	"retry_args": [
+		{
+			"do": "win"
+		},
+		{
+			"do": "LOSE"
+		}
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }

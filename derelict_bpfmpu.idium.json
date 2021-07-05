@@ -1,22 +1,22 @@
 {
 	"_id": "derelict_bpfmpu.idium",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "player",
 	"script": "derelict_bpfmpu.idium",
 	"sector": "K_9453",
 	"sec_level": 4,
 	"date_added": 1622078526393,
-	"last_scraped": 1622534311058,
+	"last_scraped": 1625445914952,
 	"script_log": [
 		{
 			"type": "added",
 			"when": 1622078526393
 		}
 	],
-	"updt": 1622078785713,
-	"edit": 2,
+	"updt": 1622551585814,
+	"edit": 3,
 	"scrape_ct": 16,
-	"next_scrape": 1622613682335,
+	"next_scrape": 1625537188201,
 	"category": "risk_factor",
 	"last_update": 1622534311058,
 	"output": [
@@ -895,7 +895,11 @@
 	"cannot_identify": true,
 	"retry_args": [
 		{
+			"do": "win"
+		},
+		{
 			"do": "LOSE"
 		}
-	]
+	],
+	"pl_output": "YOU COULD WIN 2GC with do:\"win\"\n\nOR\n\nYOU COULD `VLOSE`"
 }
