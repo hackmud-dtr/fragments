@@ -1,7 +1,7 @@
 {
 	"_id": "uknown_4lszcf.access_point",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "uknown_4lszcf.access_point",
 	"sector": "VNP_0271",
 	"sec_level": 4,
@@ -19,10 +19,14 @@
 				"from": "VNP_0271",
 				"to": "VNP_9161"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1625759827966
+		}
 	],
-	"updt": 1625757987175,
-	"edit": 4101,
+	"updt": 1625759161507,
+	"edit": 4102,
 	"pl_output": "{\"ok\":false,\"msg\":\"{`Naccess`:`Vpage`}\\n\\nPages:\\nhome\"}",
 	"next_scrape": 1625846973839
 }
