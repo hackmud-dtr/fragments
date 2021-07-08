@@ -1,7 +1,7 @@
 {
 	"_id": "derelict_6g8ugv.mommy",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "derelict_6g8ugv.mommy",
 	"sector": "K_1885",
 	"sec_level": 4,
@@ -23,12 +23,16 @@
 				"from": "K_1885",
 				"to": "HJG_5179"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1625774029776
+		}
 	],
 	"pl_output": "function(context, args) {\n\t#fs.chats.send({channel:\"0000\", msg:\"`X @sl0th is my best friend `\"}); //this bit sends the chat\n\n\treturn #fs.scripts.quine(); //this bit shows you the source code\n}",
 	"next_scrape": 1625568430992,
-	"updt": 1622557837489,
-	"edit": 1270,
+	"updt": 1625481405513,
+	"edit": 1271,
 	"scrape_ct": 13,
 	"category": "UNKNOWN CATEGORY",
 	"last_update": 1625481304915,
