@@ -1,12 +1,12 @@
 {
 	"_id": "unknown_lh5hj2.xfer",
 	"type": "fragment",
-	"mode": "player",
+	"mode": "dead",
 	"script": "unknown_lh5hj2.xfer",
 	"sector": "K_6407",
 	"sec_level": 4,
 	"date_added": 1614828790067,
-	"last_scraped": 1626613128476,
+	"last_scraped": 1626613838812,
 	"script_log": [
 		{
 			"type": "added",
@@ -23,10 +23,18 @@
 				"from": "K_6407",
 				"to": "NGC_5287"
 			}
-		]
+		],
+		{
+			"type": "died",
+			"when": 1626613838812
+		},
+		{
+			"type": "died",
+			"when": 1626614111642
+		}
 	],
-	"pl_output": "{\"msg\":\"You are not an approved user of this script\"}",
-	"next_scrape": 1626705810624,
-	"updt": 1626612540261,
-	"edit": 7018
+	"pl_output": "{\"ok\":false,\"msg\":\"RUNTIME ERROR unknown_lh5hj2.xfer: script doesn't exist\"}",
+	"next_scrape": 1626694085138,
+	"updt": 1626613910378,
+	"edit": 7020
 }
