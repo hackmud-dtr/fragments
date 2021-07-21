@@ -1,7 +1,7 @@
 {
 	"_id": "abandoned_5ekvel.accts_balance",
 	"type": "fragment",
-	"mode": "skip",
+	"mode": "dead",
 	"script": "abandoned_5ekvel.accts_balance",
 	"sector": "K_1885",
 	"sec_level": 4,
@@ -11,6 +11,10 @@
 		{
 			"type": "added",
 			"when": 1618069190291
+		},
+		{
+			"type": "died",
+			"when": 1626884023702
 		}
 	],
 	"scrape_ct": 16,
@@ -96,8 +100,8 @@
 			]
 		}
 	],
-	"updt": 1622580888424,
-	"edit": 3,
+	"updt": 1625477889282,
+	"edit": 4,
 	"retry_args": [
 		{
 			"do": "clean"
